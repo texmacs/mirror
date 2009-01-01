@@ -11,19 +11,14 @@
   <hlink|<name|Savannah>|http://savannah.gnu.org/projects/texmacs/>. In order
   to <hlink|submit a patch|http://savannah.gnu.org/patch/?func=addpatch&group=texmacs>,
   we recommend you to use the <hlink|SVN version|../download/svn.en.tm> of
-  <TeXmacs>. In that case, after checking out the source code of a particular
-  version of <TeXmacs> using
+  <TeXmacs>. After checking out and modifying the source code of <TeXmacs>,
+  <verbatim|cd> into the <verbatim|src> or the <verbatim|doc> directory, and
+  use the command
 
-  <verbatim| \ \ \ svn co -r TeXmacs-<em|version> src>
-
-  and making your changes, you may use the command
-
-  <verbatim| \ \ \ svn diff -r TeXmacs-<em|version> src \<gtr\> diffs>
+  <verbatim| \ \ \ svn diff \<gtr\> diffs>
 
   in order to obtain a patch ready to be submitted in the file
-  <verbatim|diffs>. Here <verbatim|<em|version>> stands for the usual version
-  number, with ``<verbatim|.>'' replaced by ``<verbatim|_>'' (example:
-  <verbatim|TeXmacs-1_0_2_7>). When <hlink|submitting your
+  <verbatim|diffs>. When <hlink|submitting your
   patch|http://savannah.gnu.org/patch/?func=addpatch&group=texmacs>, don't
   forget to carefully select a category and to fill out a summary.
 
