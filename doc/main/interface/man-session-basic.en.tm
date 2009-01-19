@@ -1,4 +1,4 @@
-<TeXmacs|1.0.5.3>
+<TeXmacs|1.0.7.2>
 
 <style|tmdoc>
 
@@ -31,6 +31,11 @@
   may also use <menu|Session|Interrupt execution> in order to interrupt the
   execution of a command. However, several applications do not support this
   feature.
+
+  In order to evaluate all fields of <abbr|e.g.> a previously created
+  session, you may use <menu|Session|Evaluate|Evaluate all>. Similarly,
+  <menu|Session|Evaluate|Evaluate above> and <menu|Session|Evaluate|Evaluate
+  below> allow you to evaluate all field above or below the current field.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
 
