@@ -1,4 +1,4 @@
-<TeXmacs|1.0.6.10>
+<TeXmacs|1.0.7.1>
 
 <style|tmdoc>
 
@@ -14,12 +14,12 @@
   more general additional functionality.
 
   The <scm|tm-define> macro supports several options for associating
-  meta-information to <value|scheme> functions and symbols. For instance, the
+  meta-information to <scheme> functions and symbols. For instance, the
   <scm|:synopsis>, <scm|:argument> and <scm|:returns> options allow you to
   associate short documentation strings to the function, its arguments and
   its return value:
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (tm-define (square x)
 
     \ \ (:synopsis "Compute the square of @x")
@@ -29,7 +29,7 @@
     \ \ (:returns "The square of @x")
 
     \ \ (* x x))
-  </scheme-fragment>
+  </scm-fragment>
 
   This information is exploited by <TeXmacs> in several ways. For instance,
   the synopsis of the function can be retrieved by executing <scm|(help
@@ -45,32 +45,32 @@
   or when it should give rise to a check-mark when used in a menu. For
   instance, the statement
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (tm-property (choose-file fun text type)
 
     \ \ (:interactive #t))
-  </scheme-fragment>
+  </scm-fragment>
 
   in the source code of <TeXmacs> states that <scm|choose-file> is an
   interactive command. As a consquence, the <menu|File|Load> entry, which is
   defined by
 
-  <\scheme-fragment>
+  <\scm-fragment>
     ("Load" (choose-file load-buffer "Load file" ""))
-  </scheme-fragment>
+  </scm-fragment>
 
   will be followed by dots <scm|...> in the <menu|File> menu. The interesting
   point here is that, although the command <scm|choose-file> may be reused
   several times in different menu entries, we only have to specify once that
   it is an interactive command. Similarly, consider the definition
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (tm-define (toggle-session-math-input)
 
     \ \ (:check-mark "v" session-math-input?)
 
     \ \ (session-use-math-input (not (session-math-input?))))
-  </scheme-fragment>
+  </scm-fragment>
 
   Given a menu item with <scm|(toggle-session-math-input)> as its associated
   action, this definition specifies in particular that a check-mark should be
@@ -85,7 +85,7 @@
   launched. However, for this to work, the <scm|mouse-unfold> function needs
   to be secure:
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (tm-define (mouse-unfold)
 
     \ \ (:secure #t)
@@ -95,11 +95,11 @@
     \ \ \ \ (tree-go-to t :start)
 
     \ \ \ \ (fold)))
-  </scheme-fragment>
+  </scm-fragment>
 
   The <scm|:secure> option is also needed in combination with <hlink|other
-  tags|overview-start.en.tm#markup-scripts> which depend on <value|scheme>
-  scripts, like <markup|extern> and <markup|mutator>.
+  tags|overview-start.en.tm#markup-scripts> which depend on <scheme> scripts,
+  like <markup|extern>.
 
   In the future, the number of options for entering meta-information is
   likely to increase. <TeXmacs> also supports an additional mechanism for the

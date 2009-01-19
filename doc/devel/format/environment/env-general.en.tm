@@ -1,4 +1,4 @@
-<TeXmacs|1.0.3.10>
+<TeXmacs|1.0.7.1>
 
 <style|tmdoc>
 
@@ -69,10 +69,9 @@
       infix to postfix notation.
 
       <item>The programming language determines the current scripting
-      language in use. Other scripting languages than <value|scheme> are
-      currently only used for interactive sessions, but primitives like
-      <markup|extern> and <markup|mutator> might become language-sensitive in
-      the future.
+      language in use. Other scripting languages than <scheme> are currently
+      only used for interactive sessions, but primitives like <markup|extern>
+      might become language-sensitive in the future.
     </itemize>
 
     At the moment, the current language is mainly used as a hint for
@@ -95,7 +94,7 @@
     <src-var|prog-language> variable in order to determine a concrete
     implementation as well as a particular instance of the current
     programming language. For instance, in case of the
-    <hyper-link|<name|Maxima>|../../../main/interface/cas/man-maxima.en.tm>
+    <hlink|<name|Maxima>|../../../main/interface/cas/man-maxima.en.tm>
     language, different implementation may be used fooor the underlying
     <name|Lisp>. Similarly, one may wish to run two different instances of
     <name|Maxima> in parallel.
@@ -116,7 +115,7 @@
       <inactive*|normal<htab|5mm><with|magnification|2|big><htab|5mm><with|magnification|3|huge>>
     </tm-fragment>
 
-    The magnification should not be confused with the <hyper-link|font
+    The magnification should not be confused with the <hlink|font
     size|env-font.en.tm#font-base-size>: contrary to the magnification, the
     font size may also affect the shapes of the glyphs. The magnification is
     usually specified for the entire document in

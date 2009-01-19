@@ -1,4 +1,4 @@
-<TeXmacs|1.0.4.5>
+<TeXmacs|1.0.7.1>
 
 <style|tmdoc>
 
@@ -68,10 +68,9 @@
       Konvertierung von infix zu postfix-Notation vorgenommen werden.
 
       <item>Die Programmiersprache bestimmt die aktuell benutzte
-      Skriptsprache. Andere Skriptsprachen als <value|scheme> können derzeit
-      nur in interaktiven Sitzungen verwendet werden. In der Zukunft könnten
-      Konstrukte wie <markup|extern> und <markup|mutator>
-      Programmiersprachen-abhängig werden.
+      Skriptsprache. Andere Skriptsprachen als <scheme> können derzeit nur in
+      interaktiven Sitzungen verwendet werden. In der Zukunft könnten
+      Konstrukte wie <markup|extern> Programmiersprachen-abhängig werden.
     </itemize>
 
     Im Moment wird die aktuelle Sprache als ein Hinweis auf die Semantik von
@@ -92,10 +91,9 @@
     Die Kontextvariable wird zusätzlich zur <src-var|prog-language>-Variablen
     benutzt, um die konkrete Implementierung und Version der
     Programmiersprache zu kennzeichnen. Im Fall von
-    <hyper-link|<name|Maxima>|../../../main/interface/cas/man-maxima.en.tm>
-    können unterschiedliche <name|Lisp>-Versionen Verwendung finden. Manchmal
-    möchte man auch unterschiedliche <name|Maxima>-Versionen parallel
-    einsetzen.
+    <hlink|<name|Maxima>|../../../main/interface/cas/man-maxima.en.tm> können
+    unterschiedliche <name|Lisp>-Versionen Verwendung finden. Manchmal möchte
+    man auch unterschiedliche <name|Maxima>-Versionen parallel einsetzen.
   </explain>
 
   <\explain>
@@ -114,11 +112,11 @@
       <inactive*|normal<htab|5mm><with|magnification|2|big><htab|5mm><with|magnification|3|huge>>
     </tm-fragment>
 
-    Der Vergröÿerungsfaktor sollte nicht mit der Schriftgröÿe
-    (<hyper-link|font size|env-font.en.tm#font-base-size>) verwechselt
-    werden. Im Gegensatz zur Vergröÿerung verändert die Schriftgröÿe die Form
-    der Buchstaben. Der Vergröÿerungsfaktor wir normalerweise für das ganze
-    Dokument im Menü <menu|Document|Magnification> eingestellt.
+    Der Vergröÿerungsfaktor sollte nicht mit der Schriftgröÿe (<hlink|font
+    size|env-font.en.tm#font-base-size>) verwechselt werden. Im Gegensatz zur
+    Vergröÿerung verändert die Schriftgröÿe die Form der Buchstaben. Der
+    Vergröÿerungsfaktor wir normalerweise für das ganze Dokument im Menü
+    <menu|Document|Magnification> eingestellt.
   </explain>
 
   <\explain>

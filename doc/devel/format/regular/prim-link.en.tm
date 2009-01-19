@@ -1,4 +1,4 @@
-<TeXmacs|1.0.3.10>
+<TeXmacs|1.0.7.1>
 
 <style|tmdoc>
 
@@ -97,7 +97,7 @@
     <explain-macro|action|content|script><explain-synopsis|attach an action
     to content>
   <|explain>
-    Bind a <value|scheme> <src-arg|script> to a double mouse click on
+    Bind a <scheme> <src-arg|script> to a double mouse click on
     <src-arg|content>. For instance, when clicking <action|here|(system
     "xterm &")>, you may launch an <verbatim|xterm>. This action is encoded
     by <inactive*|<action|here|(system "xterm &")>>.
@@ -105,34 +105,9 @@
     When clicking on actions, the user is usually prompted for confirmation,
     so as to avoid security problems. The user may control the desired level
     of security in <menu|Edit|Preferences|Security>. Programmers may also
-    declare certain <value|scheme> routines to be ``secure''. <value|scheme>
-    programs which only use secure routines are executed without confirmation
-    from the user.
-  </explain>
-
-  <\explain>
-    <explain-macro|mutator|content|script><explain-synopsis|a tag which may
-    modify itself>
-  <|explain>
-    The <src-arg|content> of a <markup|mutator> tag is automatically
-    determined by the <value|scheme> <src-arg|script>. More precisely,
-    <TeXmacs> periodically determines all mutator tags which are present in
-    the currently opened. For each such tag, it sets the <em|mutator path> to
-    the path for accessing its <src-arg|content> and calls the <value|scheme>
-    <src-arg|script>. This script is allowed to modify the content of the
-    mutator and even other parts of the document (for efficiency reasons it
-    is nevertheless recommended to mainly modify the content itself). In
-    order to retrieve the mutator path from within <value|scheme>, one should
-    use the command <verbatim|(get-mutator-path)>.
-
-    Mutators are very useful in situations where <TeXmacs> communicates with
-    extern systems in an interactive way. For instance, the current
-    implementation of computer algebra (and other) sessions uses mutators.
-    This allows the user to continue typing elsewhere in the document while
-    the extern system is computing. Since mutator tags are automatically
-    localized by the editor, the behaviour remains correct when the position
-    of the mutator changes during the computation (this happens for instance
-    when inserting a new paragraph at the start of your document).
+    declare certain <scheme> routines to be ``secure''. <scheme> programs
+    which only use secure routines are executed without confirmation from the
+    user.
   </explain>
 
   <tmdoc-copyright|2004|David Allouche|Joris van der Hoeven>

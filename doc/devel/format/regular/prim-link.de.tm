@@ -1,4 +1,4 @@
-<TeXmacs|1.0.4.5>
+<TeXmacs|1.0.7.1>
 
 <style|tmdoc>
 
@@ -107,8 +107,8 @@
     <explain-macro|action|content|script><explain-synopsis|ein ausführbares
     Skript einbinden>
   <|explain>
-    Ein ausführbares <value|scheme>-Skript, <src-arg|script> einbinden, dass
-    bei einem doppelten Mausklick auf <src-arg|content> ausgeführt wird.
+    Ein ausführbares <scheme>-Skript, <src-arg|script> einbinden, dass bei
+    einem doppelten Mausklick auf <src-arg|content> ausgeführt wird.
     Beispielsweise, wenn Sie auf <action|hier|(system "xterm &")>
     doppelklicken, erzeugen Sie ein neues <verbatim|xterm>. Der Code dafür
     ist <inactive*|<action|hier|(system "xterm &")>>.
@@ -116,35 +116,9 @@
     Aus Sicherheitsgründen wird vom Nutzer normalerweise, wenn ausführbare
     Skripte eingeleitet werden sollen, eine Bestätigung verlangt. Das
     Sicherheitsniveau kann im Menü <menu|Edit|Preferences|Security>
-    eingestellt werden. Programmierer können auch bestimmte
-    <value|scheme>-Routinen als \Rsicher'' erklären.
-    <value|scheme>-Programme, die nur sichere Routinen enthalten werden ohne
-    Rückfrage ausgeführt.
-  </explain>
-
-  <\explain>
-    <explain-macro|mutator|content|script><explain-synopsis|ein Konstrukt,
-    das sich selbst modifizieren kann>
-  <|explain>
-    Der Inhalt, <src-arg|content>, eines <markup|mutator>-Konstrukts wird
-    automatisch durch das <value|scheme>-Skript, <src-arg|script>, erzeugt.
-    Genauer, <TeXmacs> ermittelt periodisch, welche
-    <markup|mutator>-Konstrukte geöffnet sind. Für jeden setzt es den
-    <em|Mutatorpfad> auf den Pfad zu dem Inhalt, <src-arg|content>, und ruft
-    dann das zugehörige <value|scheme>-Skript. Dieses Skript kann den Inhalt,
-    <src-arg|content>, modifizieren oder auch andere Stellen des Dokuments.
-    Letzteres ist aber wenig effizient und wird deshalb nicht empfohlen. Um
-    den <em|Mutatorpfad> aus <value|scheme> zu extrahieren, sollte man den
-    <value|scheme>-Befehl <verbatim|(get-mutator-path)>benutzen.
-
-    Mutatoren sind sehr nützlich, wenn <TeXmacs> mit externen Programmen
-    kommuniziert. Die derzeitige Implementierung von Computeralgebra und
-    anderen \RSessions`` benutzt Mutatoren, damit man an einem Dokument
-    arbeiten kann, während extern Berechnungen durchgeführt werden. Da
-    Mutatoren vom Editor automatisch gefunden werden, bleibt ihr Verhalten
-    auch dann korrekt, wenn die Position des Mutators im Dokument geändert
-    wird. Das geschieht beispielsweise, wenn man einen neuen Absatz am Beginn
-    des Dokuments einfügt.
+    eingestellt werden. Programmierer können auch bestimmte <scheme>-Routinen
+    als \Rsicher'' erklären. <scheme>-Programme, die nur sichere Routinen
+    enthalten werden ohne Rückfrage ausgeführt.
   </explain>
 
   <tmdoc-copyright|2004|David Allouche|Joris van der Hoeven>

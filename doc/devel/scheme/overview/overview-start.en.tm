@@ -1,14 +1,14 @@
-<TeXmacs|1.0.6.10>
+<TeXmacs|1.0.7.1>
 
 <style|tmdoc>
 
 <\body>
-  <tmdoc-title|When and how to use <value|scheme>>
+  <tmdoc-title|When and how to use <scheme>>
 
-  You may invoke <value|scheme> programs from <TeXmacs> in different ways,
+  You may invoke <scheme> programs from <TeXmacs> in different ways,
   depending on whether you want to customize some aspects of <TeXmacs>, to
   extend the editor with new functionality, to make your markup more dynamic,
-  and so on. In this section, we list the major ways to invoke <value|scheme>
+  and so on. In this section, we list the major ways to invoke <scheme>
   routines.
 
   <paragraph|User provided initialization files>
@@ -29,7 +29,7 @@
   in this file, the keyboard shortcuts <key|T h .> and <key|P r o p .> for
   starting a new theorem <abbr|resp.> proposition:
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (kbd-map
 
     \ \ ("D e f ." (make 'definition))
@@ -39,12 +39,12 @@
     \ \ ("P r o p ." (make 'proposition))
 
     \ \ ("T h ." (make 'theorem)))
-  </scheme-fragment>
+  </scm-fragment>
 
   Similarly, the following command extends the standard <menu|Insert> menu
   with a special section for the insertion of greetings:
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (menu-extend insert-menu
 
     \ \ ---
@@ -60,11 +60,11 @@
     \ \ \ \ \ \ ("Yours sincerely" (insert "Yours sincerely,"))
 
     \ \ \ \ \ \ ("Greetings" (insert "Greetings,"))))
-  </scheme-fragment>
+  </scm-fragment>
 
   The customization of the <hlink|keyboard|../utils/utils-keyboard.en.tm> and
   <hlink|menus|../utils/utils-menus.en.tm> is described in more detail in the
-  chapter about the <TeXmacs> extensions of <value|scheme>. Notice also that,
+  chapter about the <TeXmacs> extensions of <scheme>. Notice also that,
   because of the <hlink|lazy loading mechanism|overview-lazyness.en.tm>, you
   can not always assume that the standard key-bindings and menus are loaded
   before <verbatim|my-init-texmacs.scm>. This implies that some care is
@@ -73,7 +73,7 @@
   The file <verbatim|my-init-buffer.scm> can for instance be used in order to
   automatically select a certain style when starting a new document:
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (if (no-name?)
 
     \ \ \ \ (begin
@@ -81,7 +81,7 @@
     \ \ \ \ \ \ (init-style "article")
 
     \ \ \ \ \ \ (pretend-save-buffer)))
-  </scheme-fragment>
+  </scm-fragment>
 
   Notice that the check <verbatim|(no-name?)> is important: when omitted, the
   styles of existing documents would also be changed to <tmstyle|article>.
@@ -94,11 +94,11 @@
   following code will force <TeXmacs> to automatically launch a <name|Maxima>
   session for every newly opened document:
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (if (no-name?)
 
     \ \ \ \ (make-session "maxima" (url-\<gtr\>string (get-name-buffer))))
-  </scheme-fragment>
+  </scm-fragment>
 
   Using <scm|(url-\<gtr\>string (get-name-buffer))> as the second argument of
   <scm|make-session> ensures that a different session will be opened for
@@ -108,15 +108,13 @@
 
   <paragraph|User provided plug-ins>
 
-  The above technique of <value|scheme> initialization files is sufficient
-  for personal customizations of <TeXmacs>, but not very convenient if you
-  want to share extensions with other users. A more portable way to extend
-  the editor is therefore to regroup your <value|scheme> programs into a
-  <em|plug-in>.
+  The above technique of <scheme> initialization files is sufficient for
+  personal customizations of <TeXmacs>, but not very convenient if you want
+  to share extensions with other users. A more portable way to extend the
+  editor is therefore to regroup your <scheme> programs into a <em|plug-in>.
 
   The simplest way to write a plug-in <verbatim|<em|name>> with some
-  additional <value|scheme> functionality is to create two directories and a
-  file
+  additional <scheme> functionality is to create two directories and a file
 
   <\verbatim>
     \ \ \ \ ~/.TeXmacs/plugins/<em|name><new-line>
@@ -127,24 +125,23 @@
   Furthermore, the file <verbatim|init-<em|name>.scm> should a piece of
   configuration code of the form
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (plugin-configure <em|name>
 
     \ \ (:require #t))
-  </scheme-fragment>
+  </scm-fragment>
 
-  Any other <value|scheme> code present in <verbatim|init-<em|name>.scm> will
-  then be executed when the plug-in is booted, that is, shortly after
-  <TeXmacs> is started up. By using the additional <scm|(:prioritary #t)>
-  option, you may force the plug-in to be loaded earlier during the boot
-  procedure.
+  Any other <scheme> code present in <verbatim|init-<em|name>.scm> will then
+  be executed when the plug-in is booted, that is, shortly after <TeXmacs> is
+  started up. By using the additional <scm|(:prioritary #t)> option, you may
+  force the plug-in to be loaded earlier during the boot procedure.
 
   Of course, the plug-in mechanism is more interesting when the plug-in
   contains more than a few customization routines. In general, a plug-in may
   also contain additional style files or packages, scripts for launching
   extern binaries, additional icons and internationalization files, and so
-  on. Furthermore, <value|scheme> extensions are usually regrouped into
-  <value|scheme> modules in the directory
+  on. Furthermore, <scheme> extensions are usually regrouped into <scheme>
+  modules in the directory
 
   <\verbatim>
     \ \ \ \ ~/.TeXmacs/plugins/<em|name>/progs
@@ -158,13 +155,13 @@
   For more information about how to write plug-ins, we refer to the
   <hlink|corresponding chapter|../../interface/interface.en.tm>.
 
-  <paragraph|Interactive invocation of <value|scheme> commands>
+  <paragraph|Interactive invocation of <scheme> commands>
 
-  In order to rapidly test the effect of <value|scheme> commands, it is
-  convenient to execute them directly from within the editor. <TeXmacs>
-  provides two mechanisms for doing this: directly type the command on the
-  footer using the <key|M-X> shortcut, or start a <value|scheme> session
-  using <menu|Insert|Session|Scheme>.
+  In order to rapidly test the effect of <scheme> commands, it is convenient
+  to execute them directly from within the editor. <TeXmacs> provides two
+  mechanisms for doing this: directly type the command on the footer using
+  the <key|M-X> shortcut, or start a <scheme> session using
+  <menu|Insert|Session|Scheme>.
 
   The first mechanism is useful when you do not want to alter the document or
   when the current cursor position is important for the command you wish to
@@ -172,35 +169,39 @@
   whether the cursor is inside a theorem usually makes no sense when you are
   inside a session.
 
-  <value|scheme> sessions are useful when the results of the <value|scheme>
-  commands do not fit on the footer, or when you want to keep your session
-  inside a document for later use. Some typical commands you might want to
-  use inside a <value|scheme> session are as follows (try positioning your
-  cursor inside the session and execute them):
+  <scheme> sessions are useful when the results of the <scheme> commands do
+  not fit on the footer, or when you want to keep your session inside a
+  document for later use. Some typical commands you might want to use inside
+  a <scheme> session are as follows (try positioning your cursor inside the
+  session and execute them):
 
-  <with|prog-language|scheme|prog-session|default|<\session>
-    <\input|scheme] >
+  <\session|scheme|default>
+    <\folded-io|scheme] >
       (define (square x) (* x x))
-    </input>
+    <|folded-io>
+      </folded-io>
 
-    <\input|scheme] >
+    <\folded-io|scheme] >
       (square 1111111)
-    </input>
+    <|folded-io>
+      </folded-io>
 
-    <\input|scheme] >
+    <\folded-io|scheme] >
       (kbd-map ("h i ." (insert "Hi there!")))
-    </input>
+    <|folded-io>
+      </folded-io>
 
-    <\input|scheme] >
+    <\folded-io|scheme] >
       ;; try typing ``hi.''
-    </input>
-  </session>>
+    <|folded-io>
+      </folded-io>
+  </session>
 
-  <paragraph|Command-line options for executing <value|scheme> commands>
+  <paragraph|Command-line options for executing <scheme> commands>
 
   <TeXmacs> also provides several command-line options for the execution of
-  <value|scheme> commands. This is useful when you want to use <TeXmacs> as a
-  batch processor. The <value|scheme>-related options are the following:
+  <scheme> commands. This is useful when you want to use <TeXmacs> as a batch
+  processor. The <scheme>-related options are the following:
 
   <\description-long>
     <item*|<with|font-series|medium|<verbatim|-x <em|cmd>>>>Executes the
@@ -231,21 +232,21 @@
     <verbatim|<em|out>> determine their file formats.
   </description-long>
 
-  <paragraph|Invoking <value|scheme> scrips from <TeXmacs> markup>
+  <paragraph|Invoking <scheme> scrips from <TeXmacs> markup>
 
   <label|markup-scripts><TeXmacs> provides three major tags for invoking
-  <value|scheme> scripts from within the markup:
+  <scheme> scripts from within the markup:
 
   <\description-long>
     <item*|<with|font-series|medium|<explain-macro|action|text|script>>>This
     tag works like a hyperlink with body <src-arg|text>, but such that the
-    <value|scheme> command <src-arg|script> is invoked when clicking on the
+    <scheme> command <src-arg|script> is invoked when clicking on the
     <src-arg|text>. For instance, when clicking <action|here|(system
     "xterm")>, you will launch an<nbsp><verbatim|xterm>.
 
     <item*|<with|font-series|medium|<explain-macro|extern|fun|arg-1|...|arg-n>>>This
     tag is used in order to implement macros whose body is written in
-    <value|scheme> rather than the<nbsp><TeXmacs> macro language. The first
+    <scheme> rather than the<nbsp><TeXmacs> macro language. The first
     argument <src-arg|fun> is a scheme function with <src-arg|n> arguments.
     During the typesetting phase, <TeXmacs> passes the arguments
     <src-arg|arg-1> until <src-arg|arg-n> to<nbsp><src-arg|fun>, and the
@@ -257,26 +258,18 @@
 
     produces the output ``<extern|(lambda (x) `(concat "Hallo " ,x))|Piet>''.
     Notice that the argument ``Piet'' remains editable.
-
-    <item*|<with|font-series|medium|<explain-macro|mutator|text|script>>>This
-    tag may be used to implement markup which ``dynamically changes itself''.
-    More precisely,<nbsp>the <value|scheme> command <src-arg|script> is
-    repeatedly evaluated by the editor, while storing the location of
-    <src-arg|text> inside the <TeXmacs> tree. The <src-arg|script> may then
-    make use of this location so as to dynamically change the <src-arg|text>.
   </description-long>
 
-  It should be noticed that the direct invocation of <value|scheme> scripts
-  from within documents carries as risk: an evil person might send you a
-  document with a script which attempts to erase your hard disk (for
-  instance). For this reason, <TeXmacs> implements a way to test whether
-  scripts can be considered secure or not. For instance, when clicking
-  <action|here|(system "xterm")> (so as to launch an <verbatim|xterm>), the
-  editor will prompt you by default in order to confirm whether you wish to
-  execute this script. The desired level of security can be specified in
-  <menu|Edit|Preferences|Security>. When writing your own <value|scheme>
-  extensions to <TeXmacs>, it is also possible to define routines as being
-  secure.
+  It should be noticed that the direct invocation of <scheme> scripts from
+  within documents carries as risk: an evil person might send you a document
+  with a script which attempts to erase your hard disk (for instance). For
+  this reason, <TeXmacs> implements a way to test whether scripts can be
+  considered secure or not. For instance, when clicking <action|here|(system
+  "xterm")> (so as to launch an <verbatim|xterm>), the editor will prompt you
+  by default in order to confirm whether you wish to execute this script. The
+  desired level of security can be specified in
+  <menu|Edit|Preferences|Security>. When writing your own <scheme> extensions
+  to <TeXmacs>, it is also possible to define routines as being secure.
 
   <tmdoc-copyright|2005|Joris van der Hoeven>
 
