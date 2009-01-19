@@ -1,15 +1,14 @@
-<TeXmacs|1.0.4.1>
+<TeXmacs|1.0.7.1>
 
 <style|tmdoc>
 
 <\body>
   <tmdoc-title|<TeXmacs> over the network and over the web>
 
-  With the current technology of mutator tags, it should be quite easy to
-  write a plug-in for <TeXmacs> for doing instant messenging or
-  live-conferencing. We are very interested in people who would like to help
-  with this. The same techniques might be used for collaborative authoring
-  and educational purposes.
+  It should be quite easy to write a plug-in for <TeXmacs> for doing instant
+  messenging or live-conferencing. We are very interested in people who would
+  like to help with this. The same techniques might be used for collaborative
+  authoring and educational purposes.
 
   Besides live conferencing, we are also interested by people who are willing
   to program better integration of <TeXmacs> with the web. As a first step,

@@ -1,4 +1,4 @@
-<TeXmacs|1.0.4>
+<TeXmacs|1.0.7.1>
 
 <style|tmdoc>
 
@@ -18,8 +18,6 @@
     <branch|Sending commands to <TeXmacs>|interface-commands.en.tm>
 
     <branch|Background evaluations|interface-background.en.tm>
-
-    <branch|Mutator tags|interface-mutator.en.tm>
 
     <branch|Mathematical and customized input|interface-input.en.tm>
 

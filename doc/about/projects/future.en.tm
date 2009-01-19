@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7>
+<TeXmacs|1.0.7.1>
 
 <style|tmdoc>
 
@@ -77,9 +77,9 @@
   integration with preprint servers, <abbr|etc.>
 
   Another interesting thing would be to incorporate tools for live
-  conferencing inside <TeXmacs> using the recent concept of mutator tags. We
-  actually expect this to be quite easy and this would open a different road
-  towards collaborative authoring, instant messenging, <abbr|etc.>
+  conferencing inside <TeXmacs>. We actually expect this to be quite easy and
+  this would open a different road towards collaborative authoring, instant
+  messenging, <abbr|etc.>
 
   <section|Interface with computer algebra systems>
 

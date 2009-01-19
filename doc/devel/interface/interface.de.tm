@@ -1,4 +1,4 @@
-<TeXmacs|1.0.4.2>
+<TeXmacs|1.0.7.1>
 
 <style|tmdoc>
 
@@ -25,8 +25,6 @@
     <branch|Eingabe-Ergänzung|interface-tab.de.tm>
 
     <branch|Dynamisch ladbare Bibliotheken|interface-dynlibs.de.tm>
-
-    <branch|Mutatoren|interface-mutator.de.tm>
 
     <branch|Weitere Fähigkeiten|interface-misc.de.tm>
 
