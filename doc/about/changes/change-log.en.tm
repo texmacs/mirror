@@ -1,13 +1,24 @@
-<TeXmacs|1.0.7>
+<TeXmacs|1.0.7.2>
 
 <style|tmdoc>
 
 <\body>
   <tmdoc-title|<TeXmacs> changelog>
 
-  <section|Changes from version 1.0.7 to 1.0.7.1>
+  <section|Changes from version 1.0.7 to 1.0.7.2>
 
   <\itemize>
+    <item>Reimplementation of computer algebra sessions in <name|Scheme>
+    (1.0.7.2).
+
+    <item>Cut and paste conform to Opendesktop standard (1.0.7.2).
+
+    <item>Fixes in <LaTeX> export, for latest g++ and mime type support
+    (1.0.7.2).
+
+    <item>Replaced <verbatim|fatal_error> exit method by <verbatim|assert>
+    statements in code (1.0.7.2).
+
     <item>Progress on the <name|Windows> version of the <name|Qt> port
     (1.0.7.1).
 
