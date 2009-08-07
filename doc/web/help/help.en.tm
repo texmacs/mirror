@@ -1,4 +1,4 @@
-<TeXmacs|1.0.6.10>
+<TeXmacs|1.0.7.2>
 
 <style|tmweb>
 
@@ -36,6 +36,9 @@
     <item><hlink|GNU <TeXmacs>: a scientific editing
     platform|http://www.texmacs.org/Samples/texmacs.pdf>, an introduction to
     <TeXmacs> for scientists.
+
+    <item><hlink|A <TeXmacs> graphics tutorial|http://www.texmacs.org/Data/aTeXmacsGraphicsTutorial.pdf>,
+    by Henri Lesourd.
   </itemize>
 
   Notice that we also provide <hlink|several mailing lists|../home/ml.en.tm>
