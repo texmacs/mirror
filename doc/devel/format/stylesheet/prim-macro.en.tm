@@ -1,4 +1,4 @@
-<TeXmacs|1.0.3.10>
+<TeXmacs|1.0.7.2>
 
 <style|tmdoc>
 
@@ -100,7 +100,7 @@
     <src-arg|first> has been specified, then we rather start at the
     <with|mode|math|i>-th child of <src-arg|var>, where <with|mode|math|i> is
     the result of evaluating <src-arg|first>. If <src-arg|last> has been
-    specified to, then we stop at the <with|mode|math|j>-th child of
+    specified too, then we stop at the <with|mode|math|j>-th child of
     <src-arg|var> (the <with|mode|math|j>-th child not being included), where
     <with|mode|math|j> is the result of evaluating <src-arg|last>. In this
     last case, the arity of the returned tree is therefore
@@ -113,7 +113,7 @@
     <src-arg|foo> gives its position of the first argument in the expansion
     of <src-arg|var>.
 
-    The <markup|map-args> is analogue to the <value|scheme> function
+    The <markup|map-args> is analogue to the <scheme> function
     <verbatim|map>. Since <TeXmacs> use labeled trees, the label of the
     mapping list must also be specified.
 
@@ -151,7 +151,7 @@
     The <markup|compound> primitive is useful in call-back and lambda
     programming idioms, where a <def-index|higher-level macro> is given a
     macro as an operand, which it may later apply under certain conditions or
-    with operands which are not known the client code.
+    with operands which are not known to the client code.
 
     Actually, in the current implementation, <src-arg|foo> may either
     evaluate to a macro or to a literal string which gives the name of a

@@ -1,11 +1,11 @@
-<TeXmacs|1.0.3.10>
+<TeXmacs|1.0.7.2>
 
 <style|tmdoc>
 
 <\body>
   <tmdoc-title|Functional operators>
 
-  Funcational operators are used for computational purposes during the
+  Functional operators are used for computational purposes during the
   typesetting phase, such as increasing counters, localizing strings like
   ``theorem'' and so on. A fundamental set of basic functional operators are
   built-in primitives. New functional operators can easily be added using the
