@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7>
+<TeXmacs|1.0.7.2>
 
 <style|tmdoc>
 
@@ -6,6 +6,8 @@
   <tmdoc-title|Authors and maintainers of plugins for <TeXmacs>>
 
   <\description-dash>
+    <item*|Asymptote>Yann Dirson and Emmanuël Corcelle.
+
     <item*|Axiom>Andrey Grozin, Bill Page, David Mentré and Tim Daly.
 
     <item*|Cadabra>Kasper Peeters.
@@ -16,7 +18,7 @@
 
     <item*|DraTeX>Nicolas Ratier.
 
-    <item*|Eikleides>Mark Arrasmith.
+    <item*|Eukleides>Mark Arrasmith.
 
     <item*|Feynmf>Maarten Wegewijs.
 
@@ -78,5 +80,6 @@
 <\initial>
   <\collection>
     <associate|language|english>
+    <associate|preamble|false>
   </collection>
 </initial>

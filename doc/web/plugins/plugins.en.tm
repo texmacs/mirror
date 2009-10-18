@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7>
+<TeXmacs|1.0.7.2>
 
 <style|tmweb>
 
@@ -12,6 +12,8 @@
   <acronym|FSF>.
 
   <\enumerate>
+    <item><hlink|Asymptote|graphics.en.tm#asymtote>
+
     <item><hlink|Axiom|cas.en.tm#axiom>
 
     <item><hlink|Cadabra|physics.en.tm#cadabra>
@@ -55,5 +57,6 @@
 <\initial>
   <\collection>
     <associate|language|english>
+    <associate|preamble|false>
   </collection>
 </initial>

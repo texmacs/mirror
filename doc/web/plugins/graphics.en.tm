@@ -1,10 +1,14 @@
-<TeXmacs|1.0.7>
+<TeXmacs|1.0.7.2>
 
 <style|tmweb>
 
 <\body>
   <tmweb-current|Plug-ins|Graphics><tmweb-title|Visualization software and
   <TeXmacs>|<tmweb-plugin-links>>
+
+  <section|Asymptote><label|asymptote>
+
+  <tmdoc-include|plugins/asymptote/asymptote-web.en.tm>
 
   <section|Eukleides><label|eikleides>
 
@@ -30,5 +34,6 @@
 <\initial>
   <\collection>
     <associate|language|english>
+    <associate|preamble|false>
   </collection>
 </initial>
