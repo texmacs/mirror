@@ -5,9 +5,13 @@
 <\body>
   <tmdoc-title|<TeXmacs> changelog>
 
-  <section|Changes from version 1.0.7 to 1.0.7.2>
+  <section|Changes from version 1.0.7 to 1.0.7.3>
 
   <\itemize>
+    <item>Improvements in upcoming Qt port (1.0.7.3).
+
+    <item>Several bug fixes (1.0.7.3).
+
     <item>Reimplementation of computer algebra sessions in <name|Scheme>
     (1.0.7.2).
 
