@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7>
+<TeXmacs|1.0.7.3>
 
 <style|tmdoc>
 
@@ -6,6 +6,9 @@
   <tmdoc-title|Developers of <TeXmacs>>
 
   <\itemize>
+    <item>Massimiliano Gubinelli is responsable for the new Qt port and
+    several improvements for the MacOS X platform.
+
     <item>Andrey Grozin has constantly helped us with many issues: interfaces
     to several computer algebra systems, support for Cyrillic, tools for the
     manipulation of dictionaries, etc.
@@ -17,9 +20,10 @@
     <item>Henri Lesourd developed a native mode for drawing technical
     pictures inside <TeXmacs>. He also fixed a bug in the presentation mode.
 
-    <item>Massimiliano Gubinelli contributed an experimental Qt port.
-
     <item>Dan Martens made the <name|Windows> port.
+
+    <item>David Michel provided help concerning the Qt-based Windows port and
+    several portability issues.
 
     <item>Andreas Seidl has been helping with documentation, a Cygwin package
     and several other things.
@@ -27,6 +31,9 @@
     <item>Dan Grayson helped me to implement communications with computer
     algebra systems via pipes. He also provided some money support for
     <TeXmacs>, and he made many useful comments and suggestions.
+
+    <item>Fabrice Rouillier provided help on a simplified <TeXmacs> installer
+    based on Cygwin.
 
     <item>Nobuki Takayama invited me to Japan in order to add CJK support to
     <TeXmacs>. He also provided a lot of help with this task.
