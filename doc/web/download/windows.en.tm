@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7>
+<TeXmacs|1.0.7.3>
 
 <style|tmweb>
 
@@ -6,63 +6,51 @@
   <tmweb-current|Download|Windows><tmweb-title|Installing <TeXmacs> under
   <name|Windows>|<tmweb-download-links>>
 
-  In order to install <TeXmacs> under <name|Windows>, you have four options:
+  In order to install <TeXmacs> under <name|Windows>, you have two options:
 
   <\enumerate>
-    <item>For simple users, we recommend the installation of
-    <name|Cyg<TeXmacs>> as <hlink|explained below|#install>. From an internal
-    point of view, this version of <TeXmacs> is based on
-    <hlink|<name|Cygwin>|http://www.cygwin.com>, a Linux-like environment for
-    Windows. For convenience of the user, we provide a simple stand-alone
-    installer which requires no prior installation of <name|Cygwin> itself.
+    <item>Try <hlink|<name|Qt>-<TeXmacs>|#install>, our experimental native
+    Windows port of <TeXmacs>, based on <name|Qt>.
 
-    <item>If you plan to use other programs from the <name|Unix> world
-    besides <TeXmacs>, then we recommend the <hlink|installation of
-    <name|Cygwin>|cygwin.en.tm> itself. Inside <name|Cygwin>, the <TeXmacs>
-    program is available as one of the packages.
-
-    <item>If you have slow internet access, then you may also consider the
-    installation of the native <hlink|Win<TeXmacs>|wintexmacs.en.tm> port of
-    <TeXmacs>, which is both small and easy to install. Unfortunately, the
-    latest available version is 1.0.5, because we no longer have time or
-    volunteers to maintain and further develop this native port.
-
-    <item>If you are a developer, then you may try to build the experimental
-    <hlink|Qt-<TeXmacs> on Windows|winqt.en.tm>.
+    <item>Use a more stable version of <TeXmacs>, based on
+    <hlink|<name|Cygwin>|cygwin.en.tm>.
   </enumerate>
 
-  <section|Installation of <TeXmacs>><label|install>
+  Developers may also be interested in <hlink|compiling <name|Qt>-<TeXmacs>
+  from its sources on <name|Windows>|winqt.en.tm>.
 
-  In order to install the Cyg<TeXmacs> version of <TeXmacs> on Windows, you
-  should:
+  <section|Installation of <name|Qt>-<TeXmacs>><label|install>
+
+  In order to install the <name|Qt>-based version of <TeXmacs> on Windows,
+  you should:
 
   <\enumerate>
-    <item>Download <hlink|CygTeXmacs.zip|ftp://ftp.texmacs.org/pub/TeXmacs/cygwin/CygTeXmacs.zip>
+    <item>Download <hlink|<scm|texmacs-installer.exe>|ftp://ftp.texmacs.org/pub/TeXmacs/windows/texmacs-installer.exe>
     (82Mb). If you don't have ftp access, then you may also
-    <hlink|load|http://www.texmacs.org/Download/ftp/cygwin/CygTeXmacs.zip>
+    <hlink|load|http://www.texmacs.org/Download/ftp/windows/texmacs-installer.exe>
     this file from the web.
 
-    <item>Unzip the file in the directory <verbatim|C:\\CygTeXmacs> (or any
-    other directory without whitespace characters).
+    <item>Execute the downloaded <verbatim|texmacs-installer.exe> and follow
+    the installation instructions.
 
-    <item>Launch <TeXmacs> by clicking on
-    <verbatim|C:\\CygTeXmacs\\starttexmacs.bat>.
+    <item>Click on the <TeXmacs> icon on your desktop in order to launch
+    <TeXmacs>.
   </enumerate>
 
   <section|Notes>
 
   <\itemize>
-    <item>Although the <name|Windows> version of <TeXmacs> does not require
-    <TeX>/<LaTeX> to be installed on your system, you might still want to
-    install such a distribution in order to increase the number of available
-    fonts, or in order to compile bibliographies using <name|Bib><TeX>.
-    Therefore, if you have a fast internet connection, then you may want to
-    download and install <hlink|<name|Mik><TeX>|http://www.miktex.org/>.
+    <item>We are working on a version of <TeXmacs> which is completely
+    independent from <TeX>/<LaTeX>. Currently, <TeXmacs> only depends on
+    <name|Bib><TeX> for the compilation of bibliographies. If this feature is
+    essential to you, and if you have a fast internet connection, then you
+    may want to download and install <hlink|<name|Mik><TeX>|http://www.miktex.org/>.
 
-    <item>If you installed <name|Mik><TeX> in addition to <TeXmacs>, then
-    missing fonts may be generated automatically. This results in a
-    significant slow-down of <TeXmacs>. Don't panic: the fonts have to be
-    generated only once. Subsequent runs of <TeXmacs> will be fast.
+    <item>If you installed <name|Mik><TeX> in addition to <TeXmacs>, then,
+    due to the availability of some additional font templates, certain fonts
+    may be generated automatically. This results in a<nbsp>significant
+    slow-down of <TeXmacs>. Don't panic: the fonts have to be generated only
+    once. Subsequent runs of <TeXmacs> will be fast.
 
     <item><TeXmacs> can be used in combination with the <name|Windows>
     version of <hlink|<name|Maxima>|http://maxima.sourceforge.net/>. At the
@@ -70,7 +58,7 @@
     which is proposed during its installation.
   </itemize>
 
-  <tmdoc-copyright|1999--2003|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2010|Joris van der Hoeven|David Michel>
 
   <tmweb-license>
 </body>
