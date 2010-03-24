@@ -12,8 +12,8 @@
     <item>Try <hlink|<name|Qt>-<TeXmacs>|#install>, our experimental native
     Windows port of <TeXmacs>, based on <name|Qt>.
 
-    <item>Use a more stable version of <TeXmacs>, based on
-    <hlink|<name|Cygwin>|cygwin.en.tm>.
+    <item>Use a more <hlink|stable version of <TeXmacs>|cygwin.en.tm>, based
+    on <name|Cygwin>.
   </enumerate>
 
   Developers may also be interested in <hlink|compiling <name|Qt>-<TeXmacs>
@@ -25,9 +25,9 @@
   you should:
 
   <\enumerate>
-    <item>Download <hlink|<scm|texmacs-installer.exe>|ftp://ftp.texmacs.org/pub/TeXmacs/windows/texmacs-installer.exe>
-    (82Mb). If you don't have ftp access, then you may also
-    <hlink|load|http://www.texmacs.org/Download/ftp/windows/texmacs-installer.exe>
+    <item>Download <hlink|<scm|texmacs-installer.exe>|ftp://ftp.texmacs.org/pub/TeXmacs/windows/qt/texmacs-installer.exe>
+    (33Mb). If you don't have ftp access, then you may also
+    <hlink|load|http://www.texmacs.org/Download/ftp/windows/qt/texmacs-installer.exe>
     this file from the web.
 
     <item>Execute the downloaded <verbatim|texmacs-installer.exe> and follow
@@ -35,6 +35,9 @@
 
     <item>Click on the <TeXmacs> icon on your desktop in order to launch
     <TeXmacs>.
+
+    <item>The first time you run <TeXmacs>, the application will crash.
+    Subsequent runs should work.
   </enumerate>
 
   <section|Notes>
@@ -52,10 +55,8 @@
     slow-down of <TeXmacs>. Don't panic: the fonts have to be generated only
     once. Subsequent runs of <TeXmacs> will be fast.
 
-    <item><TeXmacs> can be used in combination with the <name|Windows>
-    version of <hlink|<name|Maxima>|http://maxima.sourceforge.net/>. At the
-    moment, this requires you to install <name|Maxima> at the standard place
-    which is proposed during its installation.
+    <item>The current <math|\<beta\>>-version of <name|Qt>-<TeXmacs> for
+    <name|Windows> does not yet support any plug-ins.
   </itemize>
 
   <tmdoc-copyright|1999--2010|Joris van der Hoeven|David Michel>

@@ -11,15 +11,16 @@
   In order to compile <TeXmacs> under <name|Windows>, you need <name|Qt>,
   <name|MinGW> and a certain number of libraries. We have simplified the
   installation procedure for these dependencies by creating a single zip-file
-  which contains all necessary stuff. Thus, you first have to download
+  which contains all necessary stuff. Thus, you first have to download (462
+  Mb)
 
   <\quote-env>
-    <hlink|<verbatim|ftp://ftp.texmacs.org/pub/TeXmacs/windows/TmBuildEnv.zip>|ftp://ftp.texmacs.org/pub/TeXmacs/windows/TmBuildEnv.zip>
+    <hlink|<verbatim|ftp://ftp.texmacs.org/pub/TeXmacs/windows/qt/TmBuildEnv.zip>|ftp://ftp.texmacs.org/pub/TeXmacs/windows/qt/TmBuildEnv.zip>
   </quote-env>
 
   This file must be uncompressed in the directory <verbatim|C:\\>.
   Uncompression in other directories is not supported. Copy the file
-  <verbatim|C:\\TmBuildEnv\\MSYS.lnk> to your desktop.
+  <verbatim|C:\\TmBuildEnv\\MSYS\\MSYS.lnk> to your desktop.
 
   <section|Download <TeXmacs>>
 
@@ -27,18 +28,25 @@
   terminal and fetch the latest <name|Svn> version of <TeXmacs> as follows:
 
   <\shell-fragment>
-    mkdir texmacs
+    mkdir ~/texmacs
 
-    cd texmacs
+    cd ~/texmacs
 
     svn co svn://svn.savannah.gnu.org/texmacs/trunk/src
 
     svn co svn://svn.savannah.gnu.org/texmacs/trunk/doc
   </shell-fragment>
 
-  You will also need to download the <hlink|<TeXmacs> Windows
-  fonts|ftp://ftp.texmacs.org/pub/TeXmacs/fonts/TeXmacs-windows-fonts-1.0-noarch.tar.gz>
-  and uncompress them in the directory <verbatim|~/texmacs/src/TeXmacs>.
+  You will also need to download the <TeXmacs> Windows fonts and uncompress
+  them in the directory <verbatim|~/texmacs/src/TeXmacs>:
+
+  <\shell-fragment>
+    cd ~/texmacs/src/TeXmacs
+
+    wget http://ftp.texmacs.org/TeXmacs/fonts/TeXmacs-windows-fonts-1.0-noarch.tar.gz
+
+    tar -zxvf TeXmacs-windows-fonts-1.0-noarch.tar.gz
+  </shell-fragment>
 
   <section|Compile <TeXmacs>>
 
@@ -65,14 +73,23 @@
   Run
 
   <\shell-fragment>
-    texmacs
+    ~/texmacs/distr/TeXmacs-Windows/bin/texmacs.exe
   </shell-fragment>
 
-  You can also create the <TeXmacs> installer using
+  The first time you run <TeXmacs>, the program will crash. Subsequent runs
+  should work fine.
+
+  <section|Creation of an installer>
+
+  After building <TeXmacs>, you can create an installer using
 
   <\shell-fragment>
-    ~/texmacs/distr/
+    cd ~/texmacs/src/misc/windows
+
+    iscc TeXmacs.iss
   </shell-fragment>
+
+  The installer can be found at <verbatim|~/texmacs/distr/texmacs-installer.exe>.
 
   <tmdoc-copyright|2010|David Michel|Massimiliano Gubinelli|Joris van der
   Hoeven>

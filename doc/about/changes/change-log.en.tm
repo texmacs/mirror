@@ -1,13 +1,21 @@
-<TeXmacs|1.0.7.2>
+<TeXmacs|1.0.7.3>
 
 <style|tmdoc>
 
 <\body>
   <tmdoc-title|<TeXmacs> changelog>
 
-  <section|Changes from version 1.0.7 to 1.0.7.3>
+  <section|Changes from version 1.0.7 to 1.0.7.4>
 
   <\itemize>
+    <item>Improvements in upcoming Qt port (1.0.7.4).
+
+    <item>First beta-release of Qt port for Windows, with installer and build
+    environment (1.0.7.4).
+
+    <item>First beta-release of Qt port for MacOS-X, with diskimage
+    (1.0.7.4).
+
     <item>Improvements in upcoming Qt port (1.0.7.3).
 
     <item>Several bug fixes (1.0.7.3).
