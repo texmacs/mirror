@@ -23,9 +23,12 @@
 
   <\enumerate>
     <item>Download the diskimage <hlink|<scm|TeXmacs.dmg>|ftp://ftp.texmacs.org/pub/TeXmacs/macosx/qt/TeXmacs.dmg>
-    (17Mb).
+    (17Mb, Intel processors only).
 
-    <item>
+    <item>Open the diskimage and drag the <TeXmacs> icon to your applications
+    folder.
+
+    <item>Launch <TeXmacs> from your applications folder.
   </enumerate>
 
   <tmdoc-copyright|1999--2010|Massimiliano Gubinelli|Joris van der Hoeven>
