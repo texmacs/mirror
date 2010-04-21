@@ -1,4 +1,4 @@
-<TeXmacs|1.0.5.3>
+<TeXmacs|1.0.7.4>
 
 <style|tmdoc>
 
@@ -29,6 +29,8 @@
     <branch|Structured cursor movement|man-structured-move.en.tm>
 
     <branch|Structured variants|man-structured-variants.en.tm>
+
+    <branch|Versioning tools|man-versioning.en.tm>
   </traverse>
 
   <tmdoc-copyright|1998--2005|Joris van der Hoeven>
