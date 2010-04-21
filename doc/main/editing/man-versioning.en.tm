@@ -27,7 +27,13 @@
   by special markup. If there are any changes, then the cursor will be
   positioned at the first difference.
 
-  <paragraph|Visualizing the differences>
+  It is possible to go through all the differences between the old and new
+  versions either from the items in the submenu <menu|Version|Move>, or using
+  the keyboard shortcuts <key|C-up> and <key|C-down>. One may also use the
+  more general structured navigation shortcuts <key|C-home>, <key|C-end>,
+  <key|C-pageup> and <key|C-pagedown>.
+
+  <paragraph|Visualization of the differences>
 
   Differences between the two versions can be displayed in three ways: by
   showing only the old version, only the new version, or both versions
@@ -38,17 +44,11 @@
   change, via <menu|Version|Show> or the keyboard shortcuts <key|C-left> (old
   version), <key|C-right> (new version) and <key|C-\|> (both versions). One
   may also cycle through the different style using the structured variant key
-  <key|C-tab>. The visualization style may also be specified globally, using
-  <menu|Version|File|Show old version>, <menu|Version|File|Show new version>
-  and <menu|Version|File|Show both versions>.
-
-  <paragraph|Going through the differences>
-
-  It is possible to go through all differences between the old and new
-  versions either from the items in the submenu <menu|Version|Move>, or using
-  the keyboard shortcuts <key|C-up> and <key|C-down>. One may also use the
-  more general structured navigation shortcuts <key|C-home>, <key|C-end>,
-  <key|C-pageup> and <key|C-pagedown>.
+  <key|C-tab>. If you selected some text, then the above actions will apply
+  to the whole selection. The visualization style may also be specified
+  globally, using <menu|Version|File|Show old version>,
+  <menu|Version|File|Show new version> and <menu|Version|File|Show both
+  versions>.
 
   <paragraph|Retaining a specific version>
 
@@ -60,7 +60,9 @@
   <key|C-2> and <key|C-return> to retain the old, new and currently displayed
   version, respectively. If both versions are displayed, then <key|C-return>
   retains the new version. After retaining one of the versions, we
-  automatically jump to the next difference, which can then be processed.
+  automatically jump to the next difference, which can then be processed. If
+  you selected some text, then any of the above action will retain the
+  appropriate version for each of the differences in the selection.
 
   It is also possible to globally select the old, new or current version
   using <menu|Version|File|Retain old version>, <menu|Version|File|Retain new
