@@ -73,6 +73,31 @@
   <menu|Version|File|Retain current version> as soon as all differences have
   been processed.
 
+  <paragraph|Grain control and reactualizing the differences>
+
+  The entries in the submenu <menu|Version|Grain> allow you to control the
+  grain with which differences between versions are computed. By default, we
+  use the finest grain <menu|Detailed>. It is also possible to compute
+  differences on a paragraph-based level, using <menu|Block>. In that case,
+  the entire paragraphs in which a change occurs will be highlighted. The
+  roughest grain <menu|Rough> will highlight the entire text, if a change
+  occurs within it.
+
+  The grain is used when comparing two documents using
+  <menu|Version|File|Compare>, but it is also possible to recompare the
+  differences in a selected portion of text using <menu|Version|Reactualize>.
+  The latter possibility is especially useful after a change the grain.
+
+  Similarly, the cursor is inside a difference, then you may recompare the
+  two versions <menu|Version|Reactualize>. This may be useful, if you made
+  some changes to one of the versions. For instance, assume that the old
+  version contained a theorem and that we changed it into a lemma in the new
+  version and also modified part of its inside text. When visualizing the
+  changes, the whole theorem will be highlighted, since there is no
+  appropriate markup to indicate that we just changed from a<nbsp>theorem to
+  a lemma. Nevertheless, if we want to compare the inside texts, we may turn
+  the old theorem into a lemma and then click on <menu|Version|Reactualize>.
+
   <tmdoc-copyright|2010|Joris van der Hoeven>
 
   <tmdoc-license|Permission is granted to copy, distribute and/or modify this
