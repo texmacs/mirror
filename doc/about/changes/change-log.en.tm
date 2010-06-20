@@ -8,6 +8,8 @@
   <section|Changes from version 1.0.7 to 1.0.7.5>
 
   <\itemize>
+    <item>Native BibTeX-compatible support for bibliographies (1.0.7.5).
+
     <item>Added a tool for inspection and management of differences between
     two versions (1.0.7.5).
 
