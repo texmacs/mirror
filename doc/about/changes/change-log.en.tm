@@ -8,6 +8,11 @@
   <section|Changes from version 1.0.7 to 1.0.7.5>
 
   <\itemize>
+    <item>Several bug fixes for the Qt port (1.0.7.5).
+
+    <item>Added <verbatim|--enable-pdf-rendering> configuration option for a
+    new but experimental native <name|Pdf> export facility (1.0.7.5).
+
     <item>Native BibTeX-compatible support for bibliographies (1.0.7.5).
 
     <item>Added a tool for inspection and management of differences between
