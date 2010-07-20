@@ -10,6 +10,9 @@
   <\itemize>
     <item>Several bug fixes for the Qt port (1.0.7.5).
 
+    <item>Replaced testing in <menu|Tools> menu by a nicer debugging tool
+    (1.0.7.5).
+
     <item>Added <verbatim|--enable-pdf-rendering> configuration option for a
     new but experimental native <name|Pdf> export facility (1.0.7.5).
 
