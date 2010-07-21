@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.3>
+<TeXmacs|1.0.7.5>
 
 <style|tmweb>
 
@@ -35,25 +35,24 @@
 
     <item>Click on the <TeXmacs> icon on your desktop in order to launch
     <TeXmacs>.
-
-    <item>The first time you run <TeXmacs>, the application will crash.
-    Subsequent runs should work.
   </enumerate>
 
   <section|Notes>
 
   <\itemize>
-    <item>We are working on a version of <TeXmacs> which is completely
-    independent from <TeX>/<LaTeX>. Currently, <TeXmacs> only depends on
-    <name|Bib><TeX> for the compilation of bibliographies. If this feature is
-    essential to you, and if you have a fast internet connection, then you
-    may want to download and install <hlink|<name|Mik><TeX>|http://www.miktex.org/>.
+    <item>From version 1.0.7.5 on, <TeXmacs> is completely independent from
+    <TeX>/<LaTeX>. The last remaining dependency on <name|Bib><TeX> has been
+    removed in this version: you may use <verbatim|tm-plain>,
+    <verbatim|tm-alpha>, <abbr|etc.> for your bibliography styles. The native
+    bibliography support is still a bit unstable though; it will be further
+    improved in upcoming versions.
 
-    <item>If you installed <name|Mik><TeX> in addition to <TeXmacs>, then,
-    due to the availability of some additional font templates, certain fonts
-    may be generated automatically. This results in a<nbsp>significant
-    slow-down of <TeXmacs>. Don't panic: the fonts have to be generated only
-    once. Subsequent runs of <TeXmacs> will be fast.
+    <item>If you installed <hlink|<name|Mik><TeX>|http://www.miktex.org/> in
+    addition to <TeXmacs>, then, due to the availability of some additional
+    font templates, certain fonts may be generated automatically. This
+    results in a<nbsp>significant slow-down of <TeXmacs>. Don't panic: the
+    fonts have to be generated only once. Subsequent runs of <TeXmacs> will
+    be fast.
 
     <item>The current <math|\<beta\>>-version of <name|Qt>-<TeXmacs> for
     <name|Windows> does not yet support any plug-ins.

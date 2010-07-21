@@ -1,9 +1,9 @@
-<TeXmacs|1.0.6.15>
+<TeXmacs|1.0.7.5>
 
 <style|tmweb>
 
 <\body>
-  <tmweb-current|Download|Binaries><tmweb-title|Installing <TeXmacs> on
+  <tmweb-current|Download|MacOS><tmweb-title|Installing <TeXmacs> on
   MacOS-X|<tmweb-download-links>>
 
   You may use <TeXmacs> on the MacOS-X platform using
