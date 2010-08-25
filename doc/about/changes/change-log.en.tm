@@ -1,13 +1,19 @@
-<TeXmacs|1.0.7.4>
+<TeXmacs|1.0.7.6>
 
 <style|tmdoc>
 
 <\body>
   <tmdoc-title|<TeXmacs> changelog>
 
-  <section|Changes from version 1.0.7 to 1.0.7.5>
+  <section|Changes from version 1.0.7 to 1.0.7.6>
 
   <\itemize>
+    <item>Several bug fixes (1.0.7.6).
+
+    <item>Fixes for plug-in support in the Qt port (1.0.7.6).
+
+    <item>Better support for Elsevier styles and JSC (1.0.7.6).
+
     <item>Several bug fixes for the Qt port (1.0.7.5).
 
     <item>Replaced testing in <menu|Tools> menu by a nicer debugging tool
