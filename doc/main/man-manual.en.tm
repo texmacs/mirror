@@ -1,4 +1,4 @@
-<TeXmacs|1.0.4>
+<TeXmacs|1.0.7.6>
 
 <style|tmdoc>
 
@@ -19,6 +19,8 @@
     <branch|Editing tools|editing/man-editing-tools.en.tm>
 
     <branch|Advanced layout features|layout/man-layout.en.tm>
+
+    <branch|Presentation mode|presentation/man-presentation.en.tm>
 
     <branch|<TeXmacs> plugins|../devel/plugin/plugins.en.tm>
 
