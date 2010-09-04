@@ -5,7 +5,17 @@
 <\body>
   <tmdoc-title|Presentation styles>
 
-  \;
+  In order to start writing a laptop presentation, you should first select
+  the <tmstyle|presentation> style package using <menu|Document|Add
+  package|Presentation|presentation>. Currently, there are two main
+  ``themes'' for presentations: the default <tmstyle|ridged-paper> theme and
+  the <tmstyle|metal> theme, which can be selected using <menu|Document|Add
+  package|Presentation|metal>.
+
+  The presentation style includes the <tmstyle|alt-colors> style package,
+  which features the use of colors for mathematical formulas, enunciations,
+  etc. Optionally, one may also select the <tmstyle|framed-env> package,
+  which puts frames around section titles and several standard environments.
 
   <tmdoc-copyright|2010|Joris van der Hoeven>
 
