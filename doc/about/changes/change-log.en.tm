@@ -5,9 +5,11 @@
 <\body>
   <tmdoc-title|<TeXmacs> changelog>
 
-  <section|Changes from version 1.0.7 to 1.0.7.6>
+  <section|Changes from version 1.0.7 to 1.0.7.7>
 
   <\itemize>
+    <item>Documentation for beamer style (1.0.7.7).
+
     <item>Several bug fixes (1.0.7.6).
 
     <item>Fixes for plug-in support in the Qt port (1.0.7.6).
