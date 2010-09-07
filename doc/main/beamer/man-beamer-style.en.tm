@@ -9,7 +9,7 @@
   the <tmstyle|beamer> style using <menu|Document|Style|Beamer>. Currently,
   there are two main ``themes'' for presentations: the default
   <tmstyle|ridged-paper> theme and the <tmstyle|metal> theme, which can be
-  selected using <menu|Document|Add package|Presentation|metal>.
+  selected using <menu|Document|Add package|Beamer|metal>.
 
   The presentation style includes the <tmstyle|alt-colors> style package,
   which features the use of colors for mathematical formulas, enunciations,
