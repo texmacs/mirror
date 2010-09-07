@@ -20,7 +20,7 @@
 
     <branch|Advanced layout features|layout/man-layout.en.tm>
 
-    <branch|Presentation mode|presentation/man-presentation.en.tm>
+    <branch|Laptop presentations|beamer/man-beamer.en.tm>
 
     <branch|<TeXmacs> plugins|../devel/plugin/plugins.en.tm>
 

@@ -3,7 +3,7 @@
 <style|tmdoc>
 
 <\body>
-  <tmdoc-title|Presentation mode>
+  <tmdoc-title|Laptop presentations>
 
   <TeXmacs> features a ``presentation mode'', for making presentations from a
   laptop. The presentation mode is activated/deactivated using
@@ -12,9 +12,9 @@
   making slick presentations.
 
   <\traverse>
-    <branch|Presentation styles|man-presentation-styles.en.tm>
+    <branch|Beamer styles|man-beamer-style.en.tm>
 
-    <branch|Presentation traversal|man-presentation-traversal.en.tm>
+    <branch|Traversal of a presentation|man-beamer-traversal.en.tm>
 
     <branch|Animations|man-animations.en.tm>
   </traverse>

@@ -3,7 +3,7 @@
 <style|tmdoc>
 
 <\body>
-  <tmdoc-title|Presentation traversal>
+  <tmdoc-title|Traversal of a presentation>
 
   One major family of markup tags for presentations concerns the traversal of
   the document during a presentation. The keys <key|F10> and <key|F11> are
@@ -41,7 +41,9 @@
   <menu|Insert|Fold|Folded> depending on the desired rendering. In
   particular, some of the renderings display a button which may be pushed in
   order to fold or unfold some content. The input-output fields inside
-  computer algebra sessions are also foldable.
+  computer algebra sessions are also foldable. Similarly, the tags in
+  <menu|Insert|Fold|Summarize> are switches with two branches, again with
+  different kinds of rendering.
 
   All markup for the traversal of presentations may be nested in a natural
   way. In the <menu|Insert|Fold|Traversal> menu, you may specify whether
