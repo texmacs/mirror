@@ -16,6 +16,8 @@
 
     <branch|Traversal of a presentation|man-beamer-traversal.en.tm>
 
+    <branch|Decorations|man-decorations.en.tm>
+
     <branch|Animations|man-animations.en.tm>
   </traverse>
 
