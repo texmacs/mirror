@@ -1,4 +1,4 @@
-<TeXmacs|1.0.5.1>
+<TeXmacs|1.0.7.6>
 
 <style|tmweb>
 
@@ -75,7 +75,7 @@
   More information about the developers mailing list is available at
   <hlink|Savannah|http://mail.gnu.org/mailman/listinfo/texmacs-dev>.
 
-  <tmdoc-copyright|1999--2003|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2010|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
