@@ -42,6 +42,24 @@
     <postscript|../images/texmacs-qt-2.png|480px|614px||||>
   </with>
 
+  <section|Chinese input methods in TeXmacs/Qt/MacOSX>
+
+  <\with|par-mode|center>
+    <postscript|../images/texmacs-qt-cjk.png|*1/3|||||>
+  </with>
+
+  <section|Native main menu in TeXmacs/Qt/MacOSX>
+
+  <\with|par-mode|center>
+    <postscript|../images/texmacs-qt-menus.png|*1/3|||||>
+  </with>
+
+  <section|Some maths from Wikipedia (TeXmacs/Qt/MacOSX)>
+
+  <\with|par-mode|center>
+    <postscript|../images/texmacs-qt-ramanujian.png|*1/3|*1/3||||>
+  </with>
+
   <tmdoc-copyright|1999--2010|Joris van der Hoeven>
 
   <tmweb-license>
