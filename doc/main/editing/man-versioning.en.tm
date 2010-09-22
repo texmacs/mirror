@@ -17,7 +17,7 @@
   are not yet supported. In the future, we intend to include support for such
   systems and the operation of merging two different new versions.
 
-  <paragraph|Comparing two versions>
+  <paragraph*|Comparing two versions>
 
   Assume that we have two versions <verbatim|old.tm> and <verbatim|new.tm> of
   the same document. In order to see the changes, first load the newest
@@ -33,7 +33,7 @@
   more general structured navigation shortcuts <shortcut|(traverse-first)>, <shortcut|(traverse-last)>,
   <shortcut|(traverse-previous)> and <shortcut|(traverse-next)>.
 
-  <paragraph|Visualization of the differences>
+  <paragraph*|Visualization of the differences>
 
   Differences between the two versions can be displayed in three ways: by
   showing only the old version, only the new version, or both versions
@@ -50,7 +50,7 @@
   <menu|Version|File|Show new version> and <menu|Version|File|Show both
   versions>.
 
-  <paragraph|Retaining a specific version>
+  <paragraph*|Retaining a specific version>
 
   It often occurs that we want to go through the changes between two versions
   and progressively retain either one or the other version for each
@@ -73,7 +73,7 @@
   <menu|Version|File|Retain current version> as soon as all differences have
   been processed.
 
-  <paragraph|Grain control and reactualizing the differences>
+  <paragraph*|Grain control and reactualizing the differences>
 
   The entries in the submenu <menu|Version|Grain> allow you to control the
   grain with which differences between versions are computed. By default, we

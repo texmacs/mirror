@@ -18,7 +18,7 @@
     <label|tm-tree-ex>x+y+<frac|1|2>+<sqrt|y+z>
   </equation>
 
-  <paragraph|Internal nodes of <TeXmacs> trees>
+  <paragraph*|Internal nodes of <TeXmacs> trees>
 
   Each of the internal nodes of a <TeXmacs> tree is a string symbol and each
   of the leafs is an ordinary string. A string symbol is different from a
@@ -26,7 +26,7 @@
   each symbol by a unique number, so that it is extremely fast to test
   weather two symbols are equal.
 
-  <paragraph|Leafs of <TeXmacs> trees>
+  <paragraph*|Leafs of <TeXmacs> trees>
 
   Currently, all strings are represented using the <em|universal <TeXmacs>
   encoding>. This encoding coincides with the Cork font encoding for all
@@ -56,7 +56,7 @@
     unit|lengths.en.tm>, like <verbatim|29.7cm> or <verbatim|2fn>.
   </description>
 
-  <paragraph|Serialization and preferred syntax for editing>
+  <paragraph*|Serialization and preferred syntax for editing>
 
   When storing a document as a file on your harddisk or when copying a
   document fragment to the clipboard, <TeXmacs> trees have to be represented

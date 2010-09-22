@@ -16,7 +16,7 @@
   see the <hyper-link|documentation|../regular/prim-table.en.tm#table-twith>
   of the <markup|twith> and <markup|cwith> primitives.
 
-  <paragraph|Layout of the table as a whole>
+  <paragraph*|Layout of the table as a whole>
 
   <\explain>
     <var-val|table-width|>
@@ -137,7 +137,7 @@
     <markup|eqnarray*> environment.
   </explain>
 
-  <paragraph|Layout of the individual cells>
+  <paragraph*|Layout of the individual cells>
 
   <\explain>
     <var-val|cell-background|><explain-synopsis|background color>

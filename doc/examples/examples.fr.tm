@@ -13,7 +13,7 @@
     inclure un fichier style de bibliographie ainsi que des images.
   </note>
 
-  <paragraph|Textes de <name|Joris van der Hoeven>>
+  <paragraph*|Textes de <name|Joris van der Hoeven>>
 
   <\itemize>
     <item><apply|hyper-link|Operators on generalized power
@@ -39,7 +39,7 @@
     series|http://www.texmacs.org/Examples/zerotests/issac02.tm>.
   </itemize>
 
-  <paragraph|Contributions des utilisateurs <TeXmacs>>
+  <paragraph*|Contributions des utilisateurs <TeXmacs>>
 
   <\itemize>
     <item><apply|hyper-link|<TeXmacs> with CAS|casdoc.en.tm> (une

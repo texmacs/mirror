@@ -15,7 +15,7 @@
 
   An alternative download location is <hlink|here|http://www.fmi.uni-passau.de/~seidl/texmacs/artwork.html>.
 
-  <paragraph|Banners>
+  <paragraph*|Banners>
 
   <\itemize-dot>
     <item>Banner with white background: <verbatim|texmacs-banner-white.png>
@@ -28,7 +28,7 @@
     <postscript|texmacs-banner-trans.png|*5/8|*5/8||||>
   </itemize-dot>
 
-  <paragraph|Buttons>
+  <paragraph*|Buttons>
 
   <\itemize-dot>
     <item>Button with white background: <verbatim|texmacs-button-white.png>

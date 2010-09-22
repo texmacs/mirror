@@ -29,7 +29,7 @@
     of the list following <scm-arg|head> which is not of this form.
   </explain>
 
-  <paragraph|Contextual overloading>
+  <paragraph*|Contextual overloading>
 
   We will first describe the various options for overloading. If several
   definitions are given for the same function (or macro) <scm|foo> and
@@ -146,7 +146,7 @@
     </scheme-fragment>
   </explain>
 
-  <paragraph|Other options for function and macro declarations>
+  <paragraph*|Other options for function and macro declarations>
 
   Besides the contextual overloading options, the <scm|tm-define> and
   <scm|tm-define-macro> primitives admit several other options for attaching

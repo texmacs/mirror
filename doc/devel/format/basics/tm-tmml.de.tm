@@ -19,7 +19,7 @@
   unter Verwendung konventioneller XML-Syntax entwickelt, die von den
   üblichen Standard-Werkzeugen unterstützt wird.
 
-  <paragraph|die Codierung von Zeichenketten>
+  <paragraph*|die Codierung von Zeichenketten>
 
   Die Blätter der <TeXmacs>-Bäume werden von der universellen
   <TeXmacs>-Kodierung in Unicode übertragen. Zeichen ohne
@@ -27,7 +27,7 @@
   planen wir eine <verbatim|tmsym>-Operation zur Darstellung solcher
   Zeichen).
 
-  <paragraph|XML-Darstellung von normalen Operationen>
+  <paragraph*|XML-Darstellung von normalen Operationen>
 
   Bäume mit einem einzigen Kind werden einfach durch die entsprechende
   XML-Operation ersetzt. Hat der Baum mehrere Kinder, wird jedes Kind in eine
@@ -64,7 +64,7 @@
   Standard-Variable <verbatim|xml:space> auf <verbatim|preserve> setzt, kann
   man Leerraum erhalten.\ 
 
-  <paragraph|Spezielle tags (Markierungen)>
+  <paragraph*|Spezielle tags (Markierungen)>
 
   Einige <TeXmacs>-Operationen werden auf eine spezielle Weise nach XML
   übertragen. Die Grundoperation <markup|concat> wird einfach durch die

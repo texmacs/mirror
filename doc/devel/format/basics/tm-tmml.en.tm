@@ -19,14 +19,14 @@
   conventional <acronym|XML> notations which are well supported by standard
   tools.
 
-  <paragraph|The encoding for strings>
+  <paragraph*|The encoding for strings>
 
   The leafs of <TeXmacs> trees are traslated from the universal <TeXmacs>
   encoding into Unicode. Characters without Unicode equivalents are
   represented as entities (in the future, we rather plan to create a
   <verbatim|tmsym> tag for representing such characters).
 
-  <paragraph|XML representation of regular tags>
+  <paragraph*|XML representation of regular tags>
 
   Trees with a single child are simply represented by the corresponding XML
   tag. In the case when a tree has several children, then each child is
@@ -59,7 +59,7 @@
   preserved by setting the standard <verbatim|xml:space> attribute to
   <verbatim|preserve>.
 
-  <paragraph|Special tags>
+  <paragraph*|Special tags>
 
   Some tags are represented in a special way in XML. The <markup|concat> tag
   is simply represented by a textual concatenation. For instance,

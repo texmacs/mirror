@@ -15,7 +15,7 @@
   através da web e que desenvolvedores contribuam com o esforço de
   documentação. Abaixo estão listados os principais documentos disponíveis.
 
-  <paragraph|Informação para usuários>
+  <paragraph*|Informação para usuários>
 
   <\itemize>
     <item>Um <apply|hyper-link|tutorial|tutorial/tut-tutorial.pt.tm> para
@@ -39,7 +39,7 @@
     <apply|hyper-link|doação|about/contribute/material/donations.en.tm>.
   </itemize>
 
-  <paragraph|Informação para desenvolvedores do <TeXmacs>>
+  <paragraph*|Informação para desenvolvedores do <TeXmacs>>
 
   <\itemize>
     <item>Como escrever seus próprios <apply|hyper-link|arquivos de

@@ -5,7 +5,7 @@
 <\body>
   <tmdoc-title|Limitations of the current <LaTeX> converters>
 
-  <paragraph|Limitations of the <TeXmacs> to <LaTeX> converter>
+  <paragraph*|Limitations of the <TeXmacs> to <LaTeX> converter>
 
   Some of the <TeXmacs> primitives have no analogues in <LaTeX>. When
   converting such primitives from <TeXmacs> into <LaTeX>, they will usually
@@ -47,7 +47,7 @@
   used by <TeXmacs> and <TeX>/<LaTeX>, so the <TeXmacs> to <LaTeX> is not
   intended to be <em|wysiwyg>.
 
-  <paragraph|Limitations of the <LaTeX> to <TeXmacs> converter>
+  <paragraph*|Limitations of the <LaTeX> to <TeXmacs> converter>
 
   As explained in the introduction, the conversion of <LaTeX> documents into
   <TeXmacs> is more problematic than conversions the other way around. Only a

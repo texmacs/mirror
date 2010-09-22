@@ -18,7 +18,7 @@
   such command blocks may be incorporated recursively in larger
   <render-key|DATA_BEGIN>-<render-key|DATA_END> blocks.
 
-  <paragraph|The <verbatim|menus> plug-in>
+  <paragraph*|The <verbatim|menus> plug-in>
 
   The <verbatim|nested> plug-in shows how an application can modify the
   <TeXmacs> menus in an interactive way. The plug-in consists of the files

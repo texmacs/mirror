@@ -19,7 +19,7 @@
     <key|E->.
 
     <item>Le mutazioni di carattere si ottengono utilizzando <key|tab> al
-    posto di <key|<with|mode|math|\<ast\>>> ed è possibile percorrerle
+    posto di <key|*> ed è possibile percorrerle
     all'indietro usando <key|S-tab>.
 
     <item>Le lettere dell'alfabeto greco vengono scritte utilizzando

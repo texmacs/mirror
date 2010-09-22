@@ -5,7 +5,7 @@
 <\body>
   <tmdoc-title|Making donations to the <TeXmacs> project>
 
-  <paragraph|Making donations to TeXmacs through the SPI organization>
+  <paragraph*|Making donations to TeXmacs through the SPI organization>
 
   One very important way to support <TeXmacs> is by donating money to the
   project. <TeXmacs> is currently \ one of the projets of <inactive|> SPI
@@ -16,7 +16,7 @@
   donations through vendors. See the SPI website for more information. The
   list of donators is maintained at our website.
 
-  <paragraph|Details on how to donate money>
+  <paragraph*|Details on how to donate money>
 
   To make a donation, write a check or money order to:
 
@@ -59,7 +59,7 @@
   may also <hyper-link|contact us|../../authors/contact.en.tm> for a more
   detailed discussion on this issue.
 
-  <paragraph|Important notes>
+  <paragraph*|Important notes>
 
   Let the SPI Treasurer (<verbatim|treasurer@spi-inc.org>) know if you have
   problems. When you have completed the electronic wire, please send a copy

@@ -12,7 +12,7 @@
   have a suggestion for <TeXmacs>, then please start by checking whether it
   is already part of this list. If not, then please report it to us.
 
-  <paragraph|Classification of wishes>
+  <paragraph*|Classification of wishes>
 
   The <TeXmacs> bug tracker allows you to classify wishes according to
   several criteria and to browse or filter them according to these criteria.
@@ -31,7 +31,7 @@
     integrate, and <samp|Closed> for wishes which have been implemented.
   </description>
 
-  <paragraph|Submitting new wishes>
+  <paragraph*|Submitting new wishes>
 
   New wishes can be submitted by following the link <hlink|<samp|Submit a
   Bug>|http://savannah.gnu.org/bugs/?func=addbug&group=texmacs> at the

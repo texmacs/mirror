@@ -19,7 +19,7 @@
     <key|E->.
 
     <item>Les variantes sont accessibles avec <key|tab> au lieu de
-    <key|<with|mode|math|\<ast\>>> et on peut revenir en arrière avec
+    <key|*> et on peut revenir en arrière avec
     <key|majuscule temporaire-tab>.
 
     <item>Les caractères grecs sont accessibles avec <prefix|A-C->, <prefix|math:greek> ou

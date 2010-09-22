@@ -17,7 +17,7 @@
   sieci, a deweloperom pomoc w tworzneiu dokumentacji. Poni»ej znajduj¡ si¦
   linki do podstawowych rodzajów dost¦pnej dokumentacji. \ 
 
-  <paragraph|Informacja dla u»ytkowników>
+  <paragraph*|Informacja dla u»ytkowników>
 
   <\itemize>
     <item><hyper-link|Podr¦cznik|tutorial/tut-tutorial.en.tm> dla
@@ -40,7 +40,7 @@
     <hyper-link|darowizny|about/contribute/material/donations.en.tm>.
   </itemize>
 
-  <paragraph|Informacja dla deweloperów <TeXmacs>>
+  <paragraph*|Informacja dla deweloperów <TeXmacs>>
 
   <\itemize>
     <item>Tworzenie wªasnych <hyper-link|plików

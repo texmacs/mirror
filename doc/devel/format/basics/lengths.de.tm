@@ -44,7 +44,7 @@
   auf <with|mode|math|0> gesetzt, dann werden dehnbare Längen
   <em|<strong|fix><strong|>>. Andere Werte beeinflussen das Verhalten linear.
 
-  <paragraph|Fixe Längeneinheiten>
+  <paragraph*|Fixe Längeneinheiten>
 
   <\description>
     <item*|<code*|cm>>1 Zentimeter.
@@ -56,7 +56,7 @@
     <item*|<code*|pt>>1 typographischer Punkt: 1/72 inch = 0.353 mm.
   </description>
 
-  <paragraph|kontext-abhängige Längeneinheiten>
+  <paragraph*|kontext-abhängige Längeneinheiten>
 
   <\description>
     <item*|<code*|fn>>Die Nenngröÿe der Schrift. Typischerweise sind die
@@ -87,7 +87,7 @@
     nach oben gesetzt.
   </description>
 
-  <paragraph|weitere Längeneinheiten>
+  <paragraph*|weitere Längeneinheiten>
 
   <\description>
     <item*|<code*|par>>Die zulässige Text-breite in einem Absatz. Sie hängt

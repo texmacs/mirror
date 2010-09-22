@@ -5,7 +5,7 @@
 <\body>
   <expand|tmdoc-title|Fare donazioni al progetto <TeXmacs>>
 
-  <paragraph|Fare una donazione al progetto TeXmacs attraverso
+  <paragraph*|Fare una donazione al progetto TeXmacs attraverso
   l'organizzazione SPI>
 
   Un modo importante per supportare <TeXmacs> consiste nel donare al progetto
@@ -20,7 +20,7 @@
   contenente la lista completa delle donazioni; naturalmente resta facoltà
   del donatore richiedere di non esservi incluso.
 
-  <paragraph|Dettagli sulle donazioni>
+  <paragraph*|Dettagli sulle donazioni>
 
   Per fare una donazione potete indirizzare un check o un vaglia postale a:
 
@@ -66,7 +66,7 @@
   eventualmente <apply|hyper-link|contattarci|../../authors/contact.it.tm>
   direttamente.
 
-  <paragraph|Osservazioni importanti>
+  <paragraph*|Osservazioni importanti>
 
   Nel caso in cui insorgessero dei problemi contattate il tesoriere di SPI
   (<verbatim|treasurer@spi-inc.org>). Una volta completata la transazione

@@ -112,7 +112,7 @@
     Anwendungs-Version, enthalten sind.
   </remark>
 
-  <paragraph|Das <verbatim|dynlink> plugin>
+  <paragraph*|Das <verbatim|dynlink> plugin>
 
   Das Beispiel Plugin <verbatim|dynlink> zeigt, wie dynamisch ladbare
   Bibliotheken geschrieben und benutzt werden. Es besteht aus den Dateien:

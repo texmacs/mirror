@@ -20,7 +20,7 @@
   tasks, let us first describe the fundamental underlying data types, and go
   through an example.
 
-  <paragraph|Document fragments>
+  <paragraph*|Document fragments>
 
   All <TeXmacs> documents or document fragments can be thought of as
   <em|trees>, as explained in more detail in the chapter about the
@@ -95,7 +95,7 @@
   passive. Furthermore, certain descendants of an inactive tree may be
   active, but we never have the contrary.
 
-  <paragraph|Positions inside document fragments>
+  <paragraph*|Positions inside document fragments>
 
   The main way to address positions inside a tree is via a list of positive
   integers, called a <em|path>, and corresponding to the <value|scheme> type
@@ -152,7 +152,7 @@
   <scm|position-set> and <scm|position-get> to create, delete, set and get
   persistent cursor positions.
 
-  <paragraph|Semantic navigation and further utilities>
+  <paragraph*|Semantic navigation and further utilities>
 
   Because accessing subtrees using paths may become quite cumbersome,
   <TeXmacs> provides some additional functionality to simplify this task. As
@@ -196,7 +196,7 @@
   compute the cursor position after some operations, without actually
   changing the current cursor position.
 
-  <paragraph|A worked example>
+  <paragraph*|A worked example>
 
   In order to illustrate the <TeXmacs> API for editing documents on a simple
   example, assume that we wish to write a function

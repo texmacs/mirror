@@ -9,7 +9,7 @@
   <TeXmacs> and extern applications. Some of these are very hairy or quite
   specific. Let us briefly describe a few miscellaneous features:
 
-  <paragraph|Interrupts>
+  <paragraph*|Interrupts>
 
   The ``stop'' icon can be used in order to interrupt the evaluation of some
   input. When pressing this button, <TeXmacs> will just send a
@@ -17,7 +17,7 @@
   to finish the output as usual. In particular, you should close all open
   <render-key|DATA_BEGIN>-blocks.
 
-  <paragraph|Testing whether the input is complete>
+  <paragraph*|Testing whether the input is complete>
 
   Some systems start a multiline input mode as soon as you start to define a
   function or when you enter an opening bracket without a matching closing

@@ -9,7 +9,7 @@
     (data relation descriptions)
   </tmdoc-title>
 
-  <paragraph|der sinn von Daten-Beschreibungen, <abbr|D.R.D.>s>
+  <paragraph*|der sinn von Daten-Beschreibungen, <abbr|D.R.D.>s>
 
   Einer der Hauptvorteile von <TeXmacs> ist die Verwendung von Baumstrukturen
   als allgemeines Datenformat des Editors. Wie bei <no-break>XML hat dies den
@@ -62,7 +62,7 @@
   geht, Dokumente interaktiv zu editieren, eine feinere Beschreibung von
   Eigenschaften günstiger ist.
 
-  <paragraph|Derzeitige Eigenschaften und Anwendungen von <abbr|D.R.D.>s>
+  <paragraph*|Derzeitige Eigenschaften und Anwendungen von <abbr|D.R.D.>s>
 
   Derzeit enthält die <abbr|D.R.D.> eines Dokuments die folgenden
   Informationen:
@@ -102,7 +102,7 @@
     Zweck des Konstrukts und seiner Argumente.
   </itemize>
 
-  <paragraph|Erzeugung der <abbr|Daten-Beschreibung (D.R.D.>) eines
+  <paragraph*|Erzeugung der <abbr|Daten-Beschreibung (D.R.D.>) eines
   Dokuments>
 
   <TeXmacs> erzeugt für jedes Dokument eine eigene Daten-Beschreibung,

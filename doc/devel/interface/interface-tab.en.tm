@@ -60,7 +60,7 @@
     <scm|:serializer> option.
   </remark>
 
-  <paragraph|The <verbatim|complete> plug-in>
+  <paragraph*|The <verbatim|complete> plug-in>
 
   A very rudimentary example of how the tab-completion mechanism works is
   given by the <verbatim|complete> plug-in, which consists of the following

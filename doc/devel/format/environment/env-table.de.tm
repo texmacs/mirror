@@ -17,7 +17,7 @@
   \ <hyper-link|hier|../regular/prim-table.de.tm#table-twith> für die
   Konstrukte <markup|twith> und <markup|cwith>.
 
-  <paragraph|Layout der ganzen Tabelle>
+  <paragraph*|Layout der ganzen Tabelle>
 
   <\explain>
     <var-val|table-width|>
@@ -144,7 +144,7 @@
     gesetzt.
   </explain>
 
-  <paragraph|Layout individueller Zellen>
+  <paragraph*|Layout individueller Zellen>
 
   <\explain>
     <var-val|cell-background|><explain-synopsis|Hintergrundfarbe>

@@ -18,7 +18,7 @@
   the name of the session and <verbatim|<em|expression>> a <value|scheme>
   expression which represents a <TeXmacs> tree.
 
-  <paragraph|The <verbatim|substitute> plug-in>
+  <paragraph*|The <verbatim|substitute> plug-in>
 
   Background evaluations may for instance be used in order to provide a
   feature which allows the user to select an expression and replace it by its
@@ -82,7 +82,7 @@
   Notice that these routines should really be defined in a separate module
   for larger plug-ins.
 
-  <paragraph|The <verbatim|secure> plug-in>
+  <paragraph*|The <verbatim|secure> plug-in>
 
   Another example of using an interface in the background is the
   <verbatim|secure> plug-in which consists of the files

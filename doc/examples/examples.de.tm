@@ -14,7 +14,7 @@
     möglicherweise aber auch eine Bibliotheks-Stildatei und Bilder.
   </note>
 
-  <expand|paragraph|Texte von <name|Joris van der Hoeven>>
+  <paragraph*|Texte von <name|Joris van der Hoeven>>
 
   <\itemize>
     <item><apply|hyper-link|Operators on generalized power
@@ -42,7 +42,7 @@
     series|http://www.texmacs.org/Examples/zerotests/issac02.tm>.
   </itemize>
 
-  <expand|paragraph|Beiträge von <TeXmacs> Nutzern>
+  <paragraph*|Beiträge von <TeXmacs> Nutzern>
 
   <\itemize>
     <item><apply|hyper-link|Introduction à

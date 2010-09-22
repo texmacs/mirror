@@ -25,7 +25,7 @@
   demo modes of computer algebra systems. In the future, we also plan to
   support <verbatim|error> and <verbatim|status> channels.
 
-  <paragraph|The <verbatim|prompt> plug-in>
+  <paragraph*|The <verbatim|prompt> plug-in>
 
   The <verbatim|prompt> plug-in shows how to use prompts. It consists of the
   files

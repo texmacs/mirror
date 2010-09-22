@@ -69,7 +69,7 @@
     of the arguments of the tag.
   </description>
 
-  <paragraph|The <verbatim|input> plug-in>
+  <paragraph*|The <verbatim|input> plug-in>
 
   The <verbatim|input> plug-in demonstrates the use of customized
   mathematical input. It consists of the files

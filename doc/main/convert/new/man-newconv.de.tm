@@ -13,7 +13,7 @@
   einem Unterverzeichnis <verbatim|progs/convert> ihres
   <TeXmacs>-Verzeichnisses, wie z.B. <hlink|init-html.scm|$TEXMACS_PATH/progs/convert/html/init-html.scm>.
 
-  <paragraph|neue formate definieren>
+  <paragraph*|neue formate definieren>
 
   Ein neues Format kann mit dem Befehl
 
@@ -59,7 +59,7 @@
   heuristischen Erkennung. Im zweiten Fall ist nur die heuristische Erkennung
   durch das Prädikat, predicate, maÿgeblich.
 
-  <paragraph|neue konvertierer erzeugen>
+  <paragraph*|neue konvertierer erzeugen>
 
   Neue Konvertierer können mit
 

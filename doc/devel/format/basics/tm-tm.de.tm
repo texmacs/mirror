@@ -31,7 +31,7 @@
   Hand zu editieren, es sei denn, man ist mit alle Details vertraut und weiÿ
   genau, was man tut.\ 
 
-  <paragraph|Das Prinzip der Linearisierung>
+  <paragraph*|Das Prinzip der Linearisierung>
 
   Das <TeXmacs>-Format benutzt die Sonderzeichen <verbatim|\<less\>>,
   <verbatim|\|>, <verbatim|\<gtr\>>, <verbatim|\\> und <verbatim|/>, um Bäume
@@ -104,7 +104,7 @@
   benutzt werden. Beispielsweise wird <with|mode|math|\<alpha\>+\<beta\>> zu
   <verbatim|\\\<less\>alpha\\\<gtr\>+\\\<less\>beta\\\<gtr\>> linearisiert.
 
-  <paragraph|Formatierung und Leerraum>
+  <paragraph*|Formatierung und Leerraum>
 
   Die Grundoperationen <markup|document> und <markup|concat> werden auf
   spezielle Weise linearisiert. Die Linearisierung der Grundoperation
@@ -180,7 +180,7 @@
   Ein Leerzeichen kann explizit durch die Zeichenkombination \R<verbatim|\\
   >'' erzeugt werden und ein leerer Absatz durch \R<verbatim|\\;>''.
 
-  <paragraph|Rohdaten>
+  <paragraph*|Rohdaten>
 
   Die Grundoperation <markup|raw-data> (Rohdaten) dient in <TeXmacs> zur
   Darstellung von Binärdaten wie beispielsweise Bilddateien innerhalb eines

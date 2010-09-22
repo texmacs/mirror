@@ -12,7 +12,7 @@
   support, this will allow you to optimize as a function of size, speed, or
   required dependencies.
 
-  <paragraph|General points>
+  <paragraph*|General points>
 
   The development releases of <TeXmacs> carry four numbers, like
   <verbatim|1.0.4.6> or <verbatim|1.0.5.7>. The stable releases either two or
@@ -24,7 +24,7 @@
   distribution, so that we can maintain a list with distributions which
   support <TeXmacs>.
 
-  <paragraph|<TeXmacs> dependencies>
+  <paragraph*|<TeXmacs> dependencies>
 
   Theoretically speaking, <TeXmacs> only depends on <name|X> and <name|Guile>
   in order to be built on <name|Linux>. In<nbsp>addition, you either need
@@ -56,7 +56,7 @@
   force linking at compilation time, configure using
   <verbatim|--with-imlib2=linked> and similarly for other libraries.
 
-  <paragraph|Font issues>
+  <paragraph*|Font issues>
 
   In order to keep the official <TeXmacs> distributions reasonably small,
   they are shipped with only a minimal set of <name|Type 1> fonts. For
@@ -78,7 +78,7 @@
   distributions, the situation is even worse, because all fonts created by
   <name|Metafont> are lost whenever you turn of the computer.
 
-  <paragraph|Improving the boot speed>
+  <paragraph*|Improving the boot speed>
 
   On <name|Knoppix> systems, it may be interested to shortcut several things
   which are done when you run <TeXmacs> for the first time, by making use of

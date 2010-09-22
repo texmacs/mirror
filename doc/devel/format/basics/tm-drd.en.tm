@@ -5,7 +5,7 @@
 <\body>
   <tmdoc-title|Data relation descriptions>
 
-  <paragraph|The rationale behind <abbr|D.R.D.>s>
+  <paragraph*|The rationale behind <abbr|D.R.D.>s>
 
   One major advantage of <TeXmacs> is that the editor uses general trees as
   its data format. Like for <no-break>XML, this choice has the advantages of
@@ -57,7 +57,7 @@
   properties are often usefull when manipulating documents in a more
   interactive way.
 
-  <paragraph|Current <abbr|D.R.D.> properties and applications>
+  <paragraph*|Current <abbr|D.R.D.> properties and applications>
 
   Currently, the <abbr|D.R.D.> of a document contains the following
   information:
@@ -96,7 +96,7 @@
     of tags and arguments.
   </itemize>
 
-  <paragraph|Determination of the <abbr|D.R.D.> of a document>
+  <paragraph*|Determination of the <abbr|D.R.D.> of a document>
 
   <TeXmacs> associate a unique <abbr|D.R.D.> to each document. This
   <abbr|D.R.D.> is determined in two stages. First of all, <TeXmacs> tries to

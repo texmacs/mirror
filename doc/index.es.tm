@@ -16,7 +16,7 @@
   al esfuerzo de documentación. Siga aquí los enlaces para los principales
   tipos de documentación disponible.
 
-  <paragraph|Información para usuarios generales>
+  <paragraph*|Información para usuarios generales>
 
   <\itemize>
     <item>Un <apply|hyper-link|tutorial|tutorial/tut-tutorial.en.tm> para
@@ -36,7 +36,7 @@
     to <TeXmacs> o considere hacer una <apply|hyper-link|donación|about/contribute/material/donations.es.tm>.
   </itemize>
 
-  <paragraph|Información para desarrolladores de <TeXmacs>>
+  <paragraph*|Información para desarrolladores de <TeXmacs>>
 
   <\itemize>
     <item>Cómo escribir su propio <apply|hyper-link|archivos de

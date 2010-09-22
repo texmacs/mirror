@@ -5,7 +5,7 @@
 <\body>
   <expand|tmdoc-title|Un esempio di plugin in <value|scheme>>
 
-  <paragraph|Il plugin <verbatim|world>>
+  <paragraph*|Il plugin <verbatim|world>>
 
   Consideriamo il plugin <verbatim|world> nella directory
 
@@ -32,7 +32,7 @@
   plugin dovrebbe essere automaticamente riconosciuto (un menu
   <apply|menu|World> dovrebbe comparire nella barra dei menu).
 
-  <paragraph|Come funziona>
+  <paragraph*|Come funziona>
 
   Questo file contiene essenzialmente questa parte di codice:
 

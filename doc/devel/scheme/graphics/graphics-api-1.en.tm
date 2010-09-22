@@ -5,7 +5,7 @@
 <\body>
   <tmdoc-title|Low level graphics manipulation>
 
-  <paragraph|Rationale>
+  <paragraph*|Rationale>
 
   <TeXmacs> provides a small low-level library for the manipulation of
   graphics on top of the usual tree interface. One particularity of graphics
@@ -26,7 +26,7 @@
   (future implementation), while displaying them on top of the other objects
   (if necessary).
 
-  <paragraph|Definitions>
+  <paragraph*|Definitions>
 
   <\description>
     <item*|Tree>As in the main tree API. There are three main types of trees
@@ -81,7 +81,7 @@
     together with several control points.
   </description>
 
-  <paragraph|Manipulation of enhanced trees>
+  <paragraph*|Manipulation of enhanced trees>
 
   <\explain>
     <scm|(enhanced-tree-\<gtr\>radical <scm-arg|t>)><explain-synopsis|get
@@ -142,7 +142,7 @@
     Obtain the property <scm-arg|var> of an enhanced tree <scm-arg|t>.
   </explain>
 
-  <paragraph|Sketch manipulation>
+  <paragraph*|Sketch manipulation>
 
   <\explain>
     <scm|(sketch-tree)><explain-synopsis|get current sketch>
@@ -204,7 +204,7 @@
     state of the document before the call of sketch-checkout.
   </explain>
 
-  <paragraph|Misscelaneous>
+  <paragraph*|Misscelaneous>
 
   <\explain>
     <scm|(sketch-controls-set <scm-arg|l>)><explain-synopsis|set controls>

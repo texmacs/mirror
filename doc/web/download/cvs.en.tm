@@ -24,7 +24,7 @@
     <TeXmacs>.
   </itemize>
 
-  <vspace*|1fn><paragraph|Downloading the CVS version of
+  <vspace*|1fn><paragraph*|Downloading the CVS version of
   <TeXmacs>><label|checkout>
 
   In order to download the current CVS version of <TeXmacs>, you should set
@@ -57,7 +57,7 @@
   use this version, it is therefore necessary to install the <hlink|complete
   extra fonts package|fonts.en.tm#complete>.
 
-  <vspace*|1fn><paragraph|Committing changes by CVS><label|commit>
+  <vspace*|1fn><paragraph*|Committing changes by CVS><label|commit>
 
   In order to commit changes by CVS, you first need an account on
   <verbatim|cvs.texmacs.org>. This is done as follows:

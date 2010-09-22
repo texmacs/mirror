@@ -5,7 +5,7 @@
 <\body>
   <tmdoc-title|Ein Beispiel mit <name|C++> Code>
 
-  <paragraph|Das <verbatim|minimal> plugin>
+  <paragraph*|Das <verbatim|minimal> plugin>
 
   betrachten wir das Beispiel <verbatim|minimal> im Verzeichnis
 
@@ -47,7 +47,7 @@
   Wenn Sie jetzt <TeXmacs> neu starten sollte das Plugin automatisch erkannt
   werden.
 
-  <paragraph|Wie es funktioniert.>
+  <paragraph*|Wie es funktioniert.>
 
   Das <verbatim|minimal> Plugin demonstriert eine Minimal-Schnittstelle
   zwischen <TeXmacs> und einem externen Programm. Dieses Programm und sein

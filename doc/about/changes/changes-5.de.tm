@@ -18,7 +18,7 @@
     Insbesondere benutzen Akzente jetzt <prefix|A-> anstatt <key|E->.
 
     <item>Varianten erhält man mit <key|tab> anstelle von
-    <key|<with|mode|math|\<ast\>>> und man kann zurückkehren mit
+    <key|*> und man kann zurückkehren mit
     <key|S-tab>.
 
     <item>Griechische Buchstaben erhält man mit <prefix|A-C->, <prefix|math:greek>, oder

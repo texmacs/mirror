@@ -41,7 +41,7 @@
   <with|mode|math|0>, stretchable spaces become rigid. For other values, the
   behaviour is linear.
 
-  <paragraph|Absolute length units>
+  <paragraph*|Absolute length units>
 
   <\description>
     <item*|<code*|cm>>One centimeter.
@@ -64,7 +64,7 @@
     <item*|<verbatim|cc>>One ``cicero'' equals 12 Didôt points.
   </description>
 
-  <paragraph|Rigid font-dependent length units>
+  <paragraph*|Rigid font-dependent length units>
 
   <\description>
     <verbatim|fs><item*|>The font size. When using a <verbatim|12pt> font,
@@ -92,7 +92,7 @@
     font.
   </description>
 
-  <paragraph|Stretchable font-dependent length units>
+  <paragraph*|Stretchable font-dependent length units>
 
   <\description>
     <item*|<code*|fn>>This is a stretchable variant of <verbatim|1quad>. The
@@ -120,7 +120,7 @@
     character after a period.
   </description>
 
-  <paragraph|Other length units>
+  <paragraph*|Other length units>
 
   <\description>
     <item*|<code*|par>>The width of the paragraph. That is the length the
@@ -139,7 +139,7 @@
     corresponds to <verbatim|256tmpt>.
   </description>
 
-  <paragraph|Different ways to specify lengths>
+  <paragraph*|Different ways to specify lengths>
 
   There are three types of lengths in <TeXmacs>:
 

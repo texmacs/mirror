@@ -18,7 +18,7 @@
   derartige Blöcke in gröÿere <render-key|DATA_BEGIN>-<render-key|DATA_END> Blöcke
   eingebettet sein können.
 
-  <paragraph|Das <verbatim|menus> plugin>
+  <paragraph*|Das <verbatim|menus> plugin>
 
   Das Beispiel <verbatim|menus> zeigte, wie eine Anwendung <TeXmacs>-Menüs
   interaktiv \ ändern kann. Es besteht aus den folgenden Dateien

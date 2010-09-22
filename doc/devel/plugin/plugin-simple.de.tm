@@ -5,7 +5,7 @@
 <\body>
   <tmdoc-title|Beispiel für ein Plugin mit <value|scheme>-Code>
 
-  <paragraph|Das <verbatim|world> plugin>
+  <paragraph*|Das <verbatim|world> plugin>
 
   Betrachten wir das <verbatim|world> Plugin im Verzeichnis
 
@@ -25,7 +25,7 @@
   automatisch erkannt werden und eine entsprechendes Menü eingerichtet
   werden.
 
-  <paragraph|Wie es funktioniert.>
+  <paragraph*|Wie es funktioniert.>
 
   Die Datei <verbatim|init-world.scm> enthält den folgenden Code:
 

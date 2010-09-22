@@ -5,7 +5,7 @@
 <\body>
   <tmdoc-title|Example of a plug-in with <value|scheme> code>
 
-  <paragraph|The <verbatim|world> plug-in>
+  <paragraph*|The <verbatim|world> plug-in>
 
   Consider the <verbatim|world> plug-in in the directory
 
@@ -31,7 +31,7 @@
   When relaunching <TeXmacs>, the plug-in should now be automatically
   recognized (a <menu|World> menu should appear in the menu bar).
 
-  <paragraph|How it works>
+  <paragraph*|How it works>
 
   The file <verbatim|init-world.scm> essentially contains the following code:
 

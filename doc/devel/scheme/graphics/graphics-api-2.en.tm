@@ -5,7 +5,7 @@
 <\body>
   <tmdoc-title|Graphics interface between C++ and <value|scheme>>
 
-  <paragraph|Rationale>
+  <paragraph*|Rationale>
 
   <TeXmacs> both implements a low-level part of the graphics in C++ and the
   high-level user interface in <value|scheme>. This API describes how both
@@ -18,7 +18,7 @@
   the typesetted boxes (finding the closest objects to a given point or
   region or projecting a point on a grid).
 
-  <paragraph|Definitions>
+  <paragraph*|Definitions>
 
   <\description>
     <item*|Editor coordinates>The coordinates of the outermost typesetted
@@ -45,7 +45,7 @@
     <scm|t> in the document.
   </description>
 
-  <paragraph|Coordinate transformations>
+  <paragraph*|Coordinate transformations>
 
   <\explain>
     <scm|(editor-\<gtr\>graphics <scm-arg|p>)><explain-synopsis|get graphics
@@ -62,7 +62,7 @@
     from the graphics coordinates into the editor coordinates.
   </explain>
 
-  <paragraph|Grid routines>
+  <paragraph*|Grid routines>
 
   <\explain>
     <scm|(grid-project <scm-arg|p>)><explain-synopsis|project point on grid>
@@ -88,7 +88,7 @@
     points and closer grid points are considered better than farther ones.
   </explain>
 
-  <paragraph|Selection of shapes>
+  <paragraph*|Selection of shapes>
 
   <\explain>
     <scm|(graphics-find-disk <scm-arg|p> <scm-arg|r>)><explain-synopsis|search
@@ -106,7 +106,7 @@
     with corners <scm-arg|p> and <scm-arg|q> (in graphics coordinates).
   </explain>
 
-  <paragraph|Computations with shapes>
+  <paragraph*|Computations with shapes>
 
   <\explain>
     <scm|(box-info t)><explain-synopsis|get bounding box for a shape>

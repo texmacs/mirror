@@ -14,7 +14,7 @@
   Voreinstellung aus der Papiergröÿe und der Breite des linken und rechten
   Randes berechnet.\ 
 
-  <paragraph|Papier spezifische Variablen>
+  <paragraph*|Papier spezifische Variablen>
 
   <\explain>
     <var-val|page-type|a4><explain-synopsis|die Papiergröÿe>
@@ -101,7 +101,7 @@
     Seitenlänge.
   </explain>
 
-  <paragraph|bildschirmspezifische Variablen>
+  <paragraph*|bildschirmspezifische Variablen>
 
   <\explain>
     <var-val|page-medium|papyrus><explain-synopsis|Bildschirmdarstellung>
@@ -189,7 +189,7 @@
     verschieben. Es sollten dann korrekte Werte erscheinen.\ 
   </explain>
 
-  <paragraph|Ränder für den Druck festlegen>
+  <paragraph*|Ränder für den Druck festlegen>
 
   Die Parameter, die die Ränder von Druckseiten bestimmen, sind in der
   Abbildung <no-break><reference|tm-page-fig> schematisch dargestellt. Man
@@ -285,7 +285,7 @@
     </big-figure>
   </quote-env>
 
-  <paragraph|Kopf- und Fuÿzeilen, Fuÿnoten, Randnotizen>
+  <paragraph*|Kopf- und Fuÿzeilen, Fuÿnoten, Randnotizen>
 
   <\explain>
     <var-val|page-odd-header|>

@@ -61,7 +61,7 @@
     <verbatim|:serializer> Option arbeitet.
   </remark>
 
-  <paragraph|Das plugin <verbatim|complete>>
+  <paragraph*|Das plugin <verbatim|complete>>
 
   Ein sehr rudimentäres Beispiel dafür, wie der Ergänzungs-Mechanismus
   arbeitet, findet sich in dem <verbatim|complete> Plugin, das die folgenden

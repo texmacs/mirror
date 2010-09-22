@@ -25,7 +25,7 @@
   and Korean to <TeXmacs>. This requires the installation of additional
   <hlink|CJK fonts|#fonts-cjk>.
 
-  <paragraph|RPM with extra fonts><label|fonts-rpm>
+  <paragraph*|RPM with extra fonts><label|fonts-rpm>
 
   If you installed <TeXmacs> using the RPM, then you may download an
   <hlink|RPM (5.0 Mb)|ftp://ftp.texmacs.org/pub/TeXmacs/fonts/TeXmacs-extra-fonts-1.0-1.noarch.rpm>
@@ -35,7 +35,7 @@
     \ \ \ \ rpm -i TeXmacs-extra-fonts-1.0-1.noarch.rpm
   </code>
 
-  <paragraph|Tarball with extra fonts><label|fonts-tarball>
+  <paragraph*|Tarball with extra fonts><label|fonts-tarball>
 
   If you installed <TeXmacs> from the static binaries, then you may download
   a <hlink|tarball (5.8 Mb)|ftp://ftp.texmacs.org/pub/TeXmacs/fonts/TeXmacs-extra-fonts-1.0-noarch.tar.gz>
@@ -53,7 +53,7 @@
   with the source code. Again, this directory should have a subdirectory
   <verbatim|fonts>.
 
-  <paragraph|Tarball for systems without <TeX>/<LaTeX>><label|fonts-complete>
+  <paragraph*|Tarball for systems without <TeX>/<LaTeX>><label|fonts-complete>
 
   Whenever you don't have a suitable <TeX>/<LaTeX> distribution like Te<TeX>
   installed on your system, then you may download a <hlink|tarball (10.0
@@ -68,7 +68,7 @@
     \ \ \ \ gunzip -c TeXmacs-windows-fonts-1.0-noarch.tar.gz \| tar xvf -
   </code>
 
-  <paragraph|Fonts for Chinese, Japanese and Korean><label|fonts-cjk>
+  <paragraph*|Fonts for Chinese, Japanese and Korean><label|fonts-cjk>
 
   From version 1.0.6.1 on, <TeXmacs> comes with support for Chinese, Japanese
   and Korean. However, the standard distributions do not include the

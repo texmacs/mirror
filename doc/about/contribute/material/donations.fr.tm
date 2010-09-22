@@ -5,7 +5,7 @@
 <\body>
   <expand|tmdoc-title|Comment faire un don au projet <TeXmacs>>
 
-  <paragraph|Dons effectués à TeXmacs par l'intermédiaire de SPI>
+  <paragraph*|Dons effectués à TeXmacs par l'intermédiaire de SPI>
 
   L'un des moyens les plus efficaces de soutenir le projet <TeXmacs> est de
   faire un don en espèces. <TeXmacs> est un des projets soutenus par SPI
@@ -18,7 +18,7 @@
   détails. Nous créerons bientôt une page web avec la liste des donateurs (où
   vous apparaîtrez si vous acceptez d'y être mentionné).
 
-  <paragraph|Comment Faire un Don en Espèces>
+  <paragraph*|Comment Faire un Don en Espèces>
 
   Pour faire un don, remplissez un chèque ou un ordre de virement libellé à
   l'ordre de :
@@ -65,7 +65,7 @@
   <apply|hyper-link|Contactez-nous|../../authors/contact.fr.tm> si vous
   désirez en savoir plus à ce sujet.
 
-  <paragraph|Remarques importantes>
+  <paragraph*|Remarques importantes>
 
   Contactez le trésorier de SPI (<verbatim|treasurer@spi-inc.org>) en cas de
   problèmes. Lorsque vous effectuez un virement électronique, envoyez une

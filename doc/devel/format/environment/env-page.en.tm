@@ -13,7 +13,7 @@
   instance, by default, the paragraph width is computed as a function of the
   page size and the left and right margins.
 
-  <paragraph|Paper specific variables>
+  <paragraph*|Paper specific variables>
 
   <\explain>
     <var-val|page-type|a4><explain-synopsis|the size of pages>
@@ -98,7 +98,7 @@
     extended.
   </explain>
 
-  <paragraph|Screen specific variables>
+  <paragraph*|Screen specific variables>
 
   <\explain>
     <var-val|page-medium|papyrus><explain-synopsis|the page medium>
@@ -183,7 +183,7 @@
     display by scrolling down and up should display the correct values.
   </explain>
 
-  <paragraph|Specifying the margins>
+  <paragraph*|Specifying the margins>
 
   The parameters for page margins are represented schematically at the left
   hand side in figure <no-break><reference|tm-page-fig>. One may either
@@ -283,7 +283,7 @@
     </big-figure>
   </quote-env>
 
-  <paragraph|Page decorations>
+  <paragraph*|Page decorations>
 
   <\explain>
     <label|header-footer-env><var-val|page-odd-header|>

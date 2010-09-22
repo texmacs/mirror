@@ -75,7 +75,7 @@
     Argumente des Tag benutzt werden.
   </description>
 
-  <paragraph|Das <verbatim|input> plugin>
+  <paragraph*|Das <verbatim|input> plugin>
 
   Das Beispiel <verbatim|input> demonstriert, wie man mathematische Eingabe
   anpasst und verwendet. Es besteht aus den folgenden Dateien:

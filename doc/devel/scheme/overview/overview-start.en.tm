@@ -11,7 +11,7 @@
   and so on. In this section, we list the major ways to invoke <scheme>
   routines.
 
-  <paragraph|User provided initialization files>
+  <paragraph*|User provided initialization files>
 
   In order to customize the basic aspects of <TeXmacs>, you may provide one
   or both of the initialization files
@@ -106,7 +106,7 @@
   <name|Maxima>, then you should use <scm|"default"> instead, for the second
   argument.
 
-  <paragraph|User provided plug-ins>
+  <paragraph*|User provided plug-ins>
 
   The above technique of <scheme> initialization files is sufficient for
   personal customizations of <TeXmacs>, but not very convenient if you want
@@ -155,7 +155,7 @@
   For more information about how to write plug-ins, we refer to the
   <hlink|corresponding chapter|../../interface/interface.en.tm>.
 
-  <paragraph|Interactive invocation of <scheme> commands>
+  <paragraph*|Interactive invocation of <scheme> commands>
 
   In order to rapidly test the effect of <scheme> commands, it is convenient
   to execute them directly from within the editor. <TeXmacs> provides two
@@ -197,7 +197,7 @@
       </folded-io>
   </session>
 
-  <paragraph|Command-line options for executing <scheme> commands>
+  <paragraph*|Command-line options for executing <scheme> commands>
 
   <TeXmacs> also provides several command-line options for the execution of
   <scheme> commands. This is useful when you want to use <TeXmacs> as a batch
@@ -232,7 +232,7 @@
     <verbatim|<em|out>> determine their file formats.
   </description-long>
 
-  <paragraph|Invoking <scheme> scrips from <TeXmacs> markup>
+  <paragraph*|Invoking <scheme> scrips from <TeXmacs> markup>
 
   <label|markup-scripts><TeXmacs> provides three major tags for invoking
   <scheme> scripts from within the markup:

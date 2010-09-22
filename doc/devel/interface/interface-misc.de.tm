@@ -9,7 +9,7 @@
   Programmierung von Schnittstellen beitragen. Einige davon sind sehr
   speziell.
 
-  <paragraph|Interrupts>
+  <paragraph*|Interrupts>
 
   Das \R<localize|Stop>''-Icon kann dazu benutzt werden, die Evaluierung
   abzubrechen. Es unterbricht die Evaluierung, ebenso wie der Menübefehl
@@ -17,7 +17,7 @@
   Anwendung schickt. Es erwartet, dass die Anwendung normal beendet wird, vor
   allem, dass sie alle offenen <render-key|DATA_BEGIN>-Blöcke abschlieÿt.
 
-  <paragraph|Testen, ob der Input vollständig ist.>
+  <paragraph*|Testen, ob der Input vollständig ist.>
 
   Einige Anwendungen starten in einem Eingabe-Modus, der mehrzeilige Eingabe
   ermöglicht oder erwartet, sobald Sie damit beginnen, eine Funktion zu

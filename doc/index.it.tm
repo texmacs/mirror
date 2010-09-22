@@ -16,7 +16,7 @@
   sviluppatori di contribuire al lavoro di documentazione. Qui di seguito vi
   sono i link ai tipi principali di documentazione disponibile.
 
-  <paragraph|Informazioni per gli utilizzatori generici>
+  <paragraph*|Informazioni per gli utilizzatori generici>
 
   <\itemize>
     <item>Un <hyper-link|tutorial|tutorial/tut-tutorial.it.tm> per
@@ -38,7 +38,7 @@
     <TeXmacs> o per fare una <hyper-link|donazione|about/contribute/material/donations.it.tm>.
   </itemize>
 
-  <paragraph|Informazioni per gli sviluppatori di <TeXmacs>>
+  <paragraph*|Informazioni per gli sviluppatori di <TeXmacs>>
 
   <\itemize>
     <item>Come scrivere nuovi <hyper-link|file di

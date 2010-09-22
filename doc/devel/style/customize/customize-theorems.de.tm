@@ -19,7 +19,7 @@
     <item>Die Nummerierung ändern.
   </itemize>
 
-  <paragraph|Neue Konstrukte erzeugen>
+  <paragraph*|Neue Konstrukte erzeugen>
 
   Mit den Meta-Makros <markup|new-theorem>, <markup|new-remark> und
   <markup|new-exercise> können neue nummerierte Kontexte erzeugt werden. Sie
@@ -41,7 +41,7 @@
   <translate|remark|english|german>-ähnlichen und
   <translate|exercise|english|german>-ähnlichen gehören.
 
-  <paragraph|Die Darstellung ändern>
+  <paragraph*|Die Darstellung ändern>
 
   Die Darstellung dieser Kontexte kann mit den Konstrukten
   <markup|render-theorem>, <markup|render-remark> und
@@ -98,7 +98,7 @@
     </proposition>
   </with>
 
-  <paragraph|Die Nummerierung ändern>
+  <paragraph*|Die Nummerierung ändern>
 
   In den Abschnitten über <hyper-link|Zähler und
   Zählergruppen|../../../main/styles/std/std-counter-dtd.de.tm> wird erklärt,

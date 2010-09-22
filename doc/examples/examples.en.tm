@@ -13,7 +13,7 @@
     they may also include a particular bibliography style file and pictures.
   </note>
 
-  <paragraph|Texts by <name|Joris van der Hoeven>>
+  <paragraph*|Texts by <name|Joris van der Hoeven>>
 
   <\itemize>
     <item><apply|hyper-link|Operators on generalized power
@@ -45,7 +45,7 @@
     (using switches) made at Sophia (France).
   </itemize>
 
-  <paragraph|Contributions from <TeXmacs> users>
+  <paragraph*|Contributions from <TeXmacs> users>
 
   <\itemize>
     <item><apply|hyper-link|<TeXmacs> with CAS|casdoc.en.tm> (an introduction

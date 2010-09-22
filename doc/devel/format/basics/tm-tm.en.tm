@@ -22,7 +22,7 @@
   (and especially style files) in the <TeXmacs> syntax unless you know what
   you are doing.
 
-  <paragraph|Main serialization principle>
+  <paragraph*|Main serialization principle>
 
   The <TeXmacs> format uses the special characters <verbatim|\<less\>>,
   <verbatim|\|>, <verbatim|\<gtr\>>, <verbatim|\\> and <verbatim|/> in order
@@ -92,7 +92,7 @@
   <verbatim|\\>. For instance, <with|mode|math|\<alpha\>+\<beta\>> is
   serialized as <verbatim|\\\<less\>alpha\\\<gtr\>+\\\<less\>beta\\\<gtr\>>.
 
-  <paragraph|Formatting and whitespace>
+  <paragraph*|Formatting and whitespace>
 
   The <markup|document> and <markup|concat> primitives are serialized in a
   special way. The <markup|concat> primitive is serialized as usual
@@ -162,7 +162,7 @@
   sequence ``<verbatim|\\ >''. Empty paragraphs are represented using the
   escape sequence ``<verbatim|\\;>''.
 
-  <paragraph|Raw data>
+  <paragraph*|Raw data>
 
   The <markup|raw-data> primitive is used inside <TeXmacs> for the
   representation of binary data, like image files included into the document.

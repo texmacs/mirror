@@ -5,7 +5,7 @@
 <\body>
   <tmdoc-title|Zuwendungen an das <TeXmacs> Projekt>
 
-  <paragraph|Zuwendungen an das TeXmacs Projekt durch die SPI Organisation>
+  <paragraph*|Zuwendungen an das TeXmacs Projekt durch die SPI Organisation>
 
   Eine sehr wichtige Möglichkeit <TeXmacs> zu unterstützen liegt darin, Geld
   zu spenden. <TeXmacs> ist eines der Projekte von SPI (Software in the
@@ -17,7 +17,7 @@
   bitte die SPI Webseite für weitere Informationen. Wir werden bald eine
   Webseite mit einer Liste von Sponsoren einrichten, falls Sie das möchten.
 
-  <paragraph|Details für Geldzuwendungen>
+  <paragraph*|Details für Geldzuwendungen>
 
   Um eine Geldspende zu machen, schreiben Sie eine Scheck:
 
@@ -60,7 +60,7 @@
   <hyper-link|ansprechen|../../authors/contact.de.tm>, um dies eingehender zu
   diskutieren.\ 
 
-  <paragraph|Wichtiger Hinweis>
+  <paragraph*|Wichtiger Hinweis>
 
   Lassen Sie den SPI Treasurer (<verbatim|treasurer@spi-inc.org>) es wissen,
   wenn Sie irgendwelche Probleme haben. Wenn Sie Geld überwiesen haben,

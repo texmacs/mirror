@@ -24,7 +24,7 @@
     <TeXmacs>.
   </itemize>
 
-  <vspace*|1fn><paragraph|Downloading the SVN version of
+  <vspace*|1fn><paragraph*|Downloading the SVN version of
   <TeXmacs>><label|checkout>
 
   In order to download the current SVN version of <TeXmacs> in read-only
@@ -45,7 +45,7 @@
   use this version, it is therefore necessary to install the <hlink|complete
   extra fonts package|fonts.en.tm#complete>.
 
-  <vspace*|1fn><paragraph|Committing changes by SVN><label|commit>
+  <vspace*|1fn><paragraph*|Committing changes by SVN><label|commit>
 
   In order to commit changes by SVN, you first need a user account on
   <hlink|Savannah|http://savannah.gnu.org> and send a request to join the

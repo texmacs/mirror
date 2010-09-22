@@ -18,7 +18,7 @@
     <item>Numbering the theorems in a different way.
   </itemize>
 
-  <paragraph|Defining new environments>
+  <paragraph*|Defining new environments>
 
   First of all, new environments can be added using the meta-macros
   <markup|new-theorem>, <markup|new-remark> and <markup|new-exercise>. These
@@ -37,7 +37,7 @@
   also explained how to define other numbered textual environments (besides
   theorems, remarks and exercises).
 
-  <paragraph|Customization of the rendering>
+  <paragraph*|Customization of the rendering>
 
   The principal rendering of the environments can be customized by redefining
   the <markup|render-theorem>, <markup|render-remark> and
@@ -92,7 +92,7 @@
     </proposition>
   </with>
 
-  <paragraph|Customization of the numbering>
+  <paragraph*|Customization of the numbering>
 
   In the sections about <hyper-link|counters and counter
   groups|../../../main/styles/std/std-counter-dtd.en.tm>, it is explained how

@@ -18,7 +18,7 @@
   <verbatim|scheme> format is used for sending <TeXmacs> trees in the form of
   <value|scheme> expressions.
 
-  <paragraph|The <verbatim|formula> plug-in>
+  <paragraph*|The <verbatim|formula> plug-in>
 
   The <verbatim|formula> plug-in demonstrates the use of <LaTeX> as the
   output format. It consists of the files
@@ -96,7 +96,7 @@
     for copying and pasting formulae between different systems.
   </remark>
 
-  <paragraph|The <verbatim|markup> plug-in>
+  <paragraph*|The <verbatim|markup> plug-in>
 
   It is important to remind that structured output can be combined with the
   power of <TeXmacs> as a structured editor. For instance, the

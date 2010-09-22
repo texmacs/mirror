@@ -26,7 +26,7 @@
   extensions, utilities and libraries|<point|0|-1.5>>>>>|<label|scheme-api-fig>Schematic
   organization of the <value|scheme> API.>
 
-  <paragraph|Built-in <value|scheme> commands>
+  <paragraph*|Built-in <value|scheme> commands>
 
   On the very basic level, one has the standard <value|scheme> language, with
   some enhancements by the <name|Guile> implementation (these extensions are
@@ -40,7 +40,7 @@
   \ \ \ <em|source-dir>/src/Guile/Glue/build-glue-editor.scm<new-line>
   \ \ \ <em|source-dir>/src/Guile/Glue/build-glue-server.scm>
 
-  <paragraph|Extensions to <value|scheme> and further utilities>
+  <paragraph*|Extensions to <value|scheme> and further utilities>
 
   Above the standard <value|scheme> language and the extra routines from the
   glue, <TeXmacs> comes with a second level of language extensions, utilities
@@ -77,7 +77,7 @@
   automatically loaded, all modules in <verbatim|$TEXMACS_PATH/progs/utils>
   have to be explicitly included.
 
-  <paragraph|Internal modules and plug-ins>
+  <paragraph*|Internal modules and plug-ins>
 
   The remaining <value|scheme> extensions of <TeXmacs> are regrouped into
   <em|internal modules> which usually correspond to a particular type of

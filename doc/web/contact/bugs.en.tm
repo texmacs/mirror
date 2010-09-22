@@ -12,7 +12,7 @@
   found bug, then please first check whether it is already part of this list.
   If not, then please send us a bug report.
 
-  <paragraph|Classification of bugs>
+  <paragraph*|Classification of bugs>
 
   The <TeXmacs> bug tracker allows you to classify bugs according to several
   criteria and to browse or filter the bugs according to these criteria. The
@@ -32,7 +32,7 @@
     for bugs which have been fixed.
   </description>
 
-  <paragraph|Reporting new bugs>
+  <paragraph*|Reporting new bugs>
 
   New bugs can be reported by following the link <hlink|<samp|Submit a
   Bug>|http://savannah.gnu.org/bugs/?func=addbug&group=texmacs> at the

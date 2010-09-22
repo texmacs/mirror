@@ -19,7 +19,7 @@
   <verbatim|<em|expression>> ein <value|scheme>-Ausdruck, der einen
   <TeXmacs>-Baum repräsentiert.
 
-  <paragraph|Das <verbatim|substitute> plugin>
+  <paragraph*|Das <verbatim|substitute> plugin>
 
   Evaluierungen im Hintergrund können z.B. dazu benutzt werden, dass, wenn
   der Anwender einen Ausdruck ausgewählt hat, dieser Ausdruck durch das
@@ -85,7 +85,7 @@
   Beachten Sie bitte, dass diese Routinen in gröÿeren, echten Plugins in
   eigenständige Module gehören.
 
-  <paragraph|Das <verbatim|secure> plugin>
+  <paragraph*|Das <verbatim|secure> plugin>
 
   Ein weiteres Beispiel dafür, wie man eine Schnittstelle im Hintergrund
   benutzen kann, gibt das Plugin <verbatim|secure>, das die Dateien

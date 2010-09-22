@@ -107,7 +107,7 @@
     of the protocol, <TeXmacs> and your package.
   </remark>
 
-  <paragraph|The <verbatim|dynlink> plug-in>
+  <paragraph*|The <verbatim|dynlink> plug-in>
 
   The <verbatim|dynlink> plug-in gives an example of how to write dynamically
   linked libraries. It consists of the following files:

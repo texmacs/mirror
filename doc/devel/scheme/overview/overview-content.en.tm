@@ -11,7 +11,7 @@
   <value|scheme> programs, there are two main ways to represent such trees,
   depending on whether one manipulates active or passive documents:
 
-  <paragraph|Passive documents and <value|scheme> trees><label|tree-passive>
+  <paragraph*|Passive documents and <value|scheme> trees><label|tree-passive>
 
   Passive documents, like those which are processed by a<nbsp>conversion
   tool, are usually represented by <em|scheme trees>. For instance, the
@@ -30,7 +30,7 @@
   This representation is convenient in the sense that they can be manipulated
   directly using standard <value|scheme> routines on lists.
 
-  <paragraph|Active documents and C++ trees><label|tree-active>
+  <paragraph*|Active documents and C++ trees><label|tree-active>
 
   Active documents, like ones which are visible in one of the editors
   windows, are rather represented using the internal C++ type
@@ -74,7 +74,7 @@
     </input>
   </session>>
 
-  <paragraph|A common framework><label|tree-hybrid>
+  <paragraph*|A common framework><label|tree-hybrid>
 
   From the last three lines in above experiment, it becomes apparent that it
   is quite cumbersome to manipulate trees using the standard tree
@@ -106,7 +106,7 @@
   built on top of these routines, so as to accept arguments of type
   <verbatim|content> whenever appropriate.
 
-  <paragraph|Persistent positions inside trees>
+  <paragraph*|Persistent positions inside trees>
 
   Besides the fact that trees remember their <em|positions> inside the global
   edit tree, it is also possible to create cursor positions inside the global

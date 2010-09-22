@@ -26,7 +26,7 @@
   (<verbatim|error>, <verbatim|status>) geplant. Die Voreinstellung von
   Eingaben kann vor allem für Beispiele in Computer Algebra Systemen sein.\ 
 
-  <paragraph|Das <verbatim|prompt> plugin>
+  <paragraph*|Das <verbatim|prompt> plugin>
 
   das Beispiel-Plugin <verbatim|prompt> zeigt, wie man Eingabe-Aufforderungen
   verwenden kann. Es besteht aus den Dateien:

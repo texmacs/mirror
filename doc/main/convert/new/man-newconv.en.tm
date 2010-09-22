@@ -13,7 +13,7 @@
   <verbatim|$TEXMACS_PATH/progs/convert>, like
   <hlink|init-html.scm|$TEXMACS_PATH/progs/convert/html/init-html.scm>.
 
-  <paragraph|Declaring new formats>
+  <paragraph*|Declaring new formats>
 
   A new format is declared using the command
 
@@ -58,7 +58,7 @@
   recognition and in the second case, the heuristic recognition is entirely
   determined by the document recognition predicate.
 
-  <paragraph|Declaring new converters>
+  <paragraph*|Declaring new converters>
 
   New converters are declared using
 

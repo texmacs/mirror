@@ -19,7 +19,7 @@
     <key|E->.
 
     <item>Las variantes son ahora obtenidas usando <key|tab> en lugar de
-    <key|<with|mode|math|\<ast\>>> y puede recorrerlas al revés usando
+    <key|*> y puede recorrerlas al revés usando
     <key|S-tab>.
 
     <item>Los caracteres griegos son ahora tecleados usando <prefix|A-C->,

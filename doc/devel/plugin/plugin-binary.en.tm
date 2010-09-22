@@ -5,7 +5,7 @@
 <\body>
   <tmdoc-title|Example of a plug-in with <name|C++> code>
 
-  <paragraph|The <verbatim|minimal> plug-in>
+  <paragraph*|The <verbatim|minimal> plug-in>
 
   Consider the example of the <verbatim|minimal> plug-in in the directory
 
@@ -46,7 +46,7 @@
   When relaunching <TeXmacs>, the plug-in should now be automatically
   recognized.
 
-  <paragraph|How it works>
+  <paragraph*|How it works>
 
   The <verbatim|minimal> plug-in demonstrates a minimal interface between
   <TeXmacs> and an extern program; the program <verbatim|minimal.cpp> is

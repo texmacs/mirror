@@ -16,7 +16,7 @@
   and developers to contribute to the documentation effort. Here follow links
   for the principal types of available documentation.
 
-  <paragraph|Information for general users>
+  <paragraph*|Information for general users>
 
   <\itemize>
     <item>A <hyper-link|tutorial|tutorial/tut-tutorial.en.tm> for beginners.
@@ -37,7 +37,7 @@
     <TeXmacs> or consider making a <hyper-link|donation|about/contribute/material/donations.en.tm>.
   </itemize>
 
-  <paragraph|Information for <TeXmacs> developers>
+  <paragraph*|Information for <TeXmacs> developers>
 
   <\itemize>
     <item>How to write your own <hyper-link|style

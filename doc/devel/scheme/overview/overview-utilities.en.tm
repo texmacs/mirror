@@ -12,7 +12,7 @@
   the chapter about <hlink|<TeXmacs> extensions to <value|scheme> and
   utilities|../utils/scheme-utils.en.tm>.
 
-  <paragraph|Regular expressions>
+  <paragraph*|Regular expressions>
 
   <TeXmacs> implements the routines <scm|match?> and <scm|select> for
   matching regular expressions and selecting subexpressions along a ``path''.
@@ -34,7 +34,7 @@
     </input>
   </session>>
 
-  <paragraph|Dialogues>
+  <paragraph*|Dialogues>
 
   <TeXmacs> supports several commands for asynchronous evaluation of scheme
   commands and interactive dialogues with the user. In general, asynchroneous
@@ -57,7 +57,7 @@
     </session>
   </with>
 
-  <paragraph|User preferences>
+  <paragraph*|User preferences>
 
   When writing a plug-in, you may wish to define some new user preferences.
   This can be done using the <scm|define-preferences> command, which adds a
@@ -76,7 +76,7 @@
   Preferences can be set, reset and read using <scm|set-preference>,
   <scm|reset-preference> and <scm|get-preference>.
 
-  <paragraph|New data formats and converters>
+  <paragraph*|New data formats and converters>
 
   New data formats and converters can be declared using the
   <scm|define-format> and <scm|converter> instructions. When a format can be

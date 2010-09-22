@@ -18,7 +18,7 @@
   l'enrichissement de la documentation. Vous trouverez ci-dessous des liens
   vers les principaux types de documentation disponibles.
 
-  <paragraph|Information utilisateurs>
+  <paragraph*|Information utilisateurs>
 
   <\itemize>
     <item><hyper-link|Tutoriel|tutorial/tut-tutorial.fr.tm> pour débutants.
@@ -37,7 +37,7 @@
     <TeXmacs> ou faire un <hyper-link|don|about/contribute/material/donations.fr.tm>.
   </itemize>
 
-  <paragraph|Information développeurs <TeXmacs>>
+  <paragraph*|Information développeurs <TeXmacs>>
 
   <\itemize>
     <item>Écriture de <hyper-link|fichiers de styles|devel/style/style.fr.tm>

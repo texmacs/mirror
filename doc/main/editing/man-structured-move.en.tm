@@ -22,7 +22,7 @@
 
   <todo|customizing the behaviour>
 
-  <paragraph|Structured traversal of the document>
+  <paragraph*|Structured traversal of the document>
 
   The <shortcut|(traverse-left)>, <shortcut|(traverse-right)>, <shortcut|(traverse-up)> and
   <shortcut|(traverse-down)> keys are used for the structured traversal of the entire
@@ -37,7 +37,7 @@
   keys is more context-dependent. Inside matrices, they typically allow you
   to move one row up or down.
 
-  <paragraph|Traversal of tags which are similar to the innermost tag>
+  <paragraph*|Traversal of tags which are similar to the innermost tag>
 
   This type of cursor movement allows you to quickly visit all other tags in
   the document which are <em|similar> to the innermost tag. The
@@ -50,7 +50,7 @@
   a chapter, for instance) using <shortcut|(traverse-previous)>. Notice that you may
   use <key|C-Ÿ> to jump to the previous section title.
 
-  <paragraph|Movements inside the innermost tag>
+  <paragraph*|Movements inside the innermost tag>
 
   It is also possible to quickly move inside the innermost tag without
   quitting it, using <shortcut|(structured-left)>, <shortcut|(structured-right)>, etc. We recall

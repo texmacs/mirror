@@ -17,7 +17,7 @@
   weiteren Dokumentation beizutragen. Hier folgen ein paar Links für
   prinzipielle Typen von verfügbarer Dokumentation.
 
-  <paragraph|Generelle Informationen für Benutzer>
+  <paragraph*|Generelle Informationen für Benutzer>
 
   <\itemize>
     <item>Ein Tutorial für Neueinsteiger.
@@ -31,7 +31,7 @@
     Dokumenten.
   </itemize>
 
-  <paragraph|Informationen für <TeXmacs> Entwickler>
+  <paragraph*|Informationen für <TeXmacs> Entwickler>
 
   <\itemize>
     <item>Wie man eigene <hyper-link|Stil-Dateien|devel/style/style.en.tm>
