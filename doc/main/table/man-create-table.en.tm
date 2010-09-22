@@ -9,24 +9,24 @@
   of the following keyboard shorthands:
 
   <\description>
-    <item*|<kbd-table|N t>>Create a plain table.
+    <item*|<key|table N t>>Create a plain table.
 
-    <item*|<kbd-table|N T>>Create a table whose cells are centered.
+    <item*|<key|table N T>>Create a table whose cells are centered.
 
-    <item*|<kbd-table|N b>>Create a ``block'', whose cells all have a small
+    <item*|<key|table N b>>Create a ``block'', whose cells all have a small
     border.
 
-    <item*|<kbd-table|N B>>Create a block whose cells are centered.
+    <item*|<key|table N B>>Create a block whose cells are centered.
   </description>
 
   In math mode, a few other table-like structures are provided:
 
   <\description>
-    <item*|<kbd-table|N m>>Create a matrix.
+    <item*|<key|table N m>>Create a matrix.
 
-    <item*|<kbd-table|N d>>Create a determinant.
+    <item*|<key|table N d>>Create a determinant.
 
-    <item*|<kbd-table|N c>>Create a choice list.
+    <item*|<key|table N c>>Create a choice list.
   </description>
 
   Examples of a plain table, a centered block and a matrix are shown below.
@@ -45,7 +45,7 @@
 
   <vspace*|0.5fn>There are several other table-like environments and new ones
   may be created by the user. For instance, using
-  <menu|Text|Mathematics|Equations> or <kbd-math|&>, you may insert an
+  <menu|Text|Mathematics|Equations> or <key|math &>, you may insert an
   <markup|eqnarray*> environment, which allows mathematically oriented users
   to align a list of equations which span over entire lines. An example of
   such a list of equations is

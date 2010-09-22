@@ -5,13 +5,13 @@
 <\body>
   <tmdoc-title|Main mathematical constructs>
 
-  The main mathematical objects are created using the <kbd-math|> prefix as
+  The main mathematical objects are created using the <key|math> prefix as
   follows:
 
-  <big-table|<descriptive-table|<tformat|<table|<row|<cell|Shortcut>|<cell|Purpose>|<cell|Example>>|<row|<cell|<kbd-math|$>>|<cell|Text>|<cell|<with|mode|math|L={x\|x<with|mode|text|
-  is sufficiently large>}>>>|<row|<cell|<kbd-math|f>>|<cell|Fractions>|<cell|<with|mode|math|<frac|a|b+c>>>>|<row|<cell|<kbd-math|s>>|<cell|Square
-  roots>|<cell|<with|mode|math|<sqrt|x+y>>>>|<row|<cell|<kbd-math|S>>|<cell|<with|mode|math|n>-th
-  Roots>|<cell|<with|mode|math|<sqrt|x<rsup|3>+y<rsup|3>|3>>>>|<row|<cell|<kbd-math|n>>|<cell|Negations>|<cell|<with|mode|math|<neg|<frac|a|b+c>>>>>>>>|Creation
+  <big-table|<descriptive-table|<tformat|<table|<row|<cell|Shortcut>|<cell|Purpose>|<cell|Example>>|<row|<cell|<key|math $>>|<cell|Text>|<cell|<with|mode|math|L={x\|x<with|mode|text|
+  is sufficiently large>}>>>|<row|<cell|<key|math f>>|<cell|Fractions>|<cell|<with|mode|math|<frac|a|b+c>>>>|<row|<cell|<key|math s>>|<cell|Square
+  roots>|<cell|<with|mode|math|<sqrt|x+y>>>>|<row|<cell|<key|math S>>|<cell|<with|mode|math|n>-th
+  Roots>|<cell|<with|mode|math|<sqrt|x<rsup|3>+y<rsup|3>|3>>>>|<row|<cell|<key|math n>>|<cell|Negations>|<cell|<with|mode|math|<neg|<frac|a|b+c>>>>>>>>|Creation
   of major mathematical markup.>
 
   Primes, subscripts and superscripts are created as follows:
@@ -19,8 +19,8 @@
   <big-table|<descriptive-table|<tformat|<table|<row|<cell|Shortcut>|<cell|Purpose>|<cell|Example>>|<row|<cell|<key|'>>|<cell|Primes>|<cell|<with|mode|math|f<rprime|'>>
   or <with|mode|math|<with|mode|math|><with|mode|math|(g+h)<rprime|'''>>>>>|<row|<cell|<key|`>>|<cell|Back-primes>|<cell|<with|mode|math|<lprime|`>f>>>|<row|<cell|<key|_>>|<cell|Subscripts>|<cell|<with|mode|math|x<rsub|n>>
   or <with|mode|math|x<rsub|i<rsub|3>>>>>|<row|<cell|<key|^>>|<cell|Superscripts>|<cell|<with|mode|math|x<rsup|2>>,
-  <with|mode|math|x<rsub|n><rsup|2>> or <with|mode|math|\<mathe\><rsup|\<mathe\><rsup|x>>>>>|<row|<cell|<kbd-math|l
-  _>>|<cell|Left subscripts>|<cell|<with|mode|math|<lsub|2>x>>>|<row|<cell|<kbd-math|l
+  <with|mode|math|x<rsub|n><rsup|2>> or <with|mode|math|\<mathe\><rsup|\<mathe\><rsup|x>>>>>|<row|<cell|<key|math l
+  _>>|<cell|Left subscripts>|<cell|<with|mode|math|<lsub|2>x>>>|<row|<cell|<key|math l
   ^>>|<cell|Left superscripts>|<cell|<with|mode|math|<lsup|\<pi\>>x> or
   <with|mode|math|<lsub|\<ast\>><lsup|\<ast\>>He<rsub|\<ast\>><rsup|\<ast\>>>>>>>>|Creation
   of primes, subscripts and superscripts>

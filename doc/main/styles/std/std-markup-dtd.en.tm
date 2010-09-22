@@ -49,7 +49,7 @@
 
   <\explain|<explain-macro|abbr|content>>
     An abbreviation. Example: I work at the <abbr|C.N.R.S.> An abbreviation
-    is created using <menu|Text|Content tag|Abbreviation> or the <kbd-text|a>
+    is created using <menu|Text|Content tag|Abbreviation> or the <key|text a>
     keyboard shortcut.
   </explain>
 

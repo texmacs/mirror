@@ -18,11 +18,11 @@
   <with|mode|math|\<b-cal-Z\>>.
 
   Greek characters can also be obtained as ``variants'' of Latin characters
-  using the <key|<key-variant>>-key. For instance, <key|p
-  <key-variant>> yields <with|mode|math|\<pi\>>. The
-  <key|<key-variant>>-key is also used for obtaining variants of the
-  Greek letters themselves. For instance, both <key|H-p <key-variant>>
-  and <key|p <key-variant> <key-variant>> yield
+  using the <key|var>-key. For instance, <key|p
+  var> yields <with|mode|math|\<pi\>>. The
+  <key|var>-key is also used for obtaining variants of the
+  Greek letters themselves. For instance, both <key|H-p var>
+  and <key|p var var> yield
   <with|mode|math|\<varpi\>>.
 
   Many other mathematical symbols are obtained by ``natural''
@@ -38,27 +38,27 @@
   <\description>
     <expand|item*|<key|tab>>is the main key for obtaining variants. For
     instance, <key|\<gtr\> => yields <with|mode|math|\<geqslant\>>, but
-    <key|\<gtr\> = <key-variant>> yields <format|no line
+    <key|\<gtr\> = var> yields <format|no line
     break><with|mode|math|\<geq\>>. Similarly, <key|\<less\>
-    <key-variant>> yields <with|mode|math|\<prec\>>, <key|\<less\>
-    <key-variant> => yields <with|mode|math|\<preccurlyeq\>> and
-    <key|\<less\> <key-variant> = <key-variant>> yields
-    <with|mode|math|\<preceq\>>. Also, <key|P <key-variant>> yields
-    <with|mode|math|\<wp\>> and <key|e <key-variant>> yields the
+    var> yields <with|mode|math|\<prec\>>, <key|\<less\>
+    var => yields <with|mode|math|\<preccurlyeq\>> and
+    <key|\<less\> var = var> yields
+    <with|mode|math|\<preceq\>>. Also, <key|P var> yields
+    <with|mode|math|\<wp\>> and <key|e var> yields the
     constant <with|mode|math|\<mathe\>=exp(1)>. You may ``cycle back'' using
-    <key|S-<key-variant>>.
+    <key|S-var>.
 
     <expand|item*|<key|@>>is used for putting symbols into circles or boxes.
     For instance, <key|@ +> yields <with|mode|math|\<oplus\>> and <key|@ x>
     yields <with|mode|math|\<otimes\>>. Similarly, <key|@
-    <key-variant> +> yields <with|mode|math|\<boxplus\>>.
+    var +> yields <with|mode|math|\<boxplus\>>.
 
     <expand|item*|<key|/>>is used for negations. For instance, <key|= />
     yields <with|mode|math|\<neq\>> and <key|\<less\> = /> yields
     <with|mode|math|<neg|\<leqslant\>>>. Notice that <key|\<less\> =
-    <key-variant> <key-variant> /> yields
-    <with|mode|math|\<nleqq\>>, while <key|\<less\> = <key-variant>
-    <key-variant> / <key-variant>> yields
+    var var /> yields
+    <with|mode|math|\<nleqq\>>, while <key|\<less\> = var
+    var / var> yields
     <with|mode|math|\<lneqq\>>.
 
     <expand|item*|<key|!>>is used after arrows in order to force scripts to

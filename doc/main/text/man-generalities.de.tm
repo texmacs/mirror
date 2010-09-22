@@ -8,8 +8,8 @@
   Sobald Sie die vorgehend beschriebenen vorbereitenden Aktionen durchgeführt
   haben, können Sie Ihren Text eingeben. Die üblichen englischen Buchstaben
   und Satzzeichen sind auf den meisten Tastaturen vorhanden. Buchstaben mit
-  anderer Sprachen Akzenten können mit der <kbd-text|>-Taste systematisch
-  erzeugt werden, z.B. \ ``é'' mit <kbd-text|' e>, bzw. ``à'' mit <kbd-text|`
+  anderer Sprachen Akzenten können mit der <key|text>-Taste systematisch
+  erzeugt werden, z.B. \ ``é'' mit <key|text ' e>, bzw. ``à'' mit <key|text `
   a> usw.. Längere Worte werden, wenn erforderlich, automatisch umgebrochen.
   Da die Trennungsregeln sprachabhängig sind, sollte die Sprache im Menü
   <menu|Document|Language> korrekt spezifiziert sein.

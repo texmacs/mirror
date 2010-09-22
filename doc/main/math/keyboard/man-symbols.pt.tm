@@ -18,11 +18,11 @@
   <with|mode|math|\<b-cal-Z\>>.
 
   Letras gregas também podem ser obtidas como \ ``variações'' das letras
-  latinas, através da tecla <key|<expand|key-variant>>. Por exemplo, <key|p
-  <expand|key-variant>> gera <with|mode|math|\<pi\>>. A tecla
-  <key|<expand|key-variant>> também é usada para obter variações das próprias
-  letras gregas. Por exemplo, tanto <key|H-p <expand|key-variant>> quanto
-  <key|p <expand|key-variant> <expand|key-variant>> produzem
+  latinas, através da tecla <key|var>. Por exemplo, <key|p
+  var> gera <with|mode|math|\<pi\>>. A tecla
+  <key|var> também é usada para obter variações das próprias
+  letras gregas. Por exemplo, tanto <key|H-p var> quanto
+  <key|p var var> produzem
   <with|mode|math|\<varpi\>>.
 
   Muitos outros símbolos matemáticos são inseridos com combinações
@@ -36,29 +36,29 @@
   para obter outras variações de símbolos:
 
   <\description>
-    <expand|item*|<key|<expand|key-variant>>>é a principal tecla para
+    <expand|item*|<key|var>>é a principal tecla para
     obtenção de variações. Por exemplo, <key|\<gtr\> => gera
-    <with|mode|math|\<geqslant\>>, mas <key|\<gtr\> = <expand|key-variant>>
+    <with|mode|math|\<geqslant\>>, mas <key|\<gtr\> = var>
     gera <format|no line break><with|mode|math|\<geq\>>. Da mesma forma,
-    <key|\<less\> <expand|key-variant>> produz <with|mode|math|\<prec\>>,
-    <key|\<less\> <expand|key-variant> => produz
-    <with|mode|math|\<preccurlyeq\>> e <key|\<less\> <expand|key-variant> =
-    <expand|key-variant>> produz <with|mode|math|\<preceq\>>. Além disso,
-    <key|P <expand|key-variant>> gera <with|mode|math|\<wp\>> e <key|e
-    <expand|key-variant>> gera a constante <with|mode|math|\<mathe\>=exp(1)>.
-    Você pode ``circular de volta'' usando <key|S-<expand|key-variant>>.
+    <key|\<less\> var> produz <with|mode|math|\<prec\>>,
+    <key|\<less\> var => produz
+    <with|mode|math|\<preccurlyeq\>> e <key|\<less\> var =
+    var> produz <with|mode|math|\<preceq\>>. Além disso,
+    <key|P var> gera <with|mode|math|\<wp\>> e <key|e
+    var> gera a constante <with|mode|math|\<mathe\>=exp(1)>.
+    Você pode ``circular de volta'' usando <key|S-var>.
 
     <expand|item*|<key|@>>é usado para colocar símbolos dentro de caixas, por
     exemplo <key|@ +> gera <with|mode|math|\<oplus\>> e <key|@ x> gera
-    <with|mode|math|\<otimes\>>. Similarmente, <key|@ <expand|key-variant> +>
+    <with|mode|math|\<otimes\>>. Similarmente, <key|@ var +>
     gera <with|mode|math|\<boxplus\>>.
 
     <expand|item*|<key|/>>é usada para negações. Por exemplo, <key|= />
     gera<with|mode|math|\<neq\>>and <key|\<less\> = /> gera
     <with|mode|math|<neg|\<leqslant\>>>. Note que \ <key|\<less\> =
-    <expand|key-variant> <expand|key-variant> /> gera
-    <with|mode|math|\<nleqq\>>, enquanto <key|\<less\> = <expand|key-variant>
-    <expand|key-variant> / <expand|key-variant>> gera
+    var var /> gera
+    <with|mode|math|\<nleqq\>>, enquanto <key|\<less\> = var
+    var / var> gera
     <with|mode|math|\<lneqq\>>.
 
     <expand|item*|<key|!>>é usado após setas, para forçar com que super e

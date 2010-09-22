@@ -10,12 +10,12 @@
   <value|scheme>-befehlen an <TeXmacs>. Mit anderen Worten, der Block
 
   <\quotation>
-    <framed-fragment|<verbatim|<key|DATA_BEGIN>command:<em|cmd><key|DATA_END>>>
+    <framed-fragment|<verbatim|<render-key|DATA_BEGIN>command:<em|cmd><render-key|DATA_END>>>
   </quotation>
 
   sendet den Befehl <verbatim|<em|cmd>> an <TeXmacs>, der dort sofort nach
-  dem Erhalt von <key|DATA_END> ausgeführt wird. Wir erinnern uns, dass
-  derartige Blöcke in gröÿere <key|DATA_BEGIN>-<key|DATA_END> Blöcke
+  dem Erhalt von <render-key|DATA_END> ausgeführt wird. Wir erinnern uns, dass
+  derartige Blöcke in gröÿere <render-key|DATA_BEGIN>-<render-key|DATA_END> Blöcke
   eingebettet sein können.
 
   <paragraph|Das <verbatim|menus> plugin>

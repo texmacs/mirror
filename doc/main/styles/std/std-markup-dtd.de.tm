@@ -51,7 +51,7 @@
   <\explain|<explain-macro|abbr|content> <strong|= <localize|abbr>>>
     Eine Abkürzung, z.B. Ich arbeite am <abbr|C.N.R.S.> Entspricht dem
     Menü-Eintrag <menu|Text|Content tag|Abbreviation>, Kann auch mit
-    <kbd-text|a> eingefügt werden.
+    <key|text a> eingefügt werden.
   </explain>
 
   <\explain|<explain-macro|acronym|content> <strong|= <localize|acronym>>>

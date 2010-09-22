@@ -11,30 +11,30 @@
   tem o mesmo prefixo. Os principais prefixos são:
 
   <\description>
-    <expand|item*|<key|C-<with|mode|math|x>>>Atalhos prefixados pela tecla
+    <expand|item*|<key|C->>Atalhos prefixados pela tecla
     control são usados freqüentemente para comandos de edição. Eles dependem
     particularmente do ``look and feel'' selecionado em
     <apply|menu|Edit|Preferences>. Por exemplo, se você usar o look and feel
     compatível com o <name|Emacs>, atalhos da forma
-    \ <key|C-<with|mode|math|x>> correspondem a comandos do <name|Emacs>,
+    \ <key|C-> correspondem a comandos do <name|Emacs>,
     como <key|C-y> para colar texto.
 
-    <expand|item*|<key|A-<with|mode|math|x>>>A tecla alt é usada para
+    <expand|item*|<key|A->>A tecla alt é usada para
     comandos que dependem do modo no qual você está. Por exemplo,
     <expand|kbd-text|s> produz texto <strong|realçado> no modo texto e uma
     raiz quadrada <with|mode|math|<sqrt|>> no modo matemático. Note que
     \ <key|escape escape> equivale a \ <key|A->.
 
-    <expand|item*|<key|M-<with|mode|math|x>>>A tecla meta é usada para
+    <expand|item*|<key|M->>A tecla meta é usada para
     comandos gerais do <apply|TeXmacs>, que podem ser usados em qualquer
     modo. Por exemplo, <expand|kbd-gen|!> produz um rótulo. Ela é usada
     também para outros comandos de edição, como <key|A-w> para copiar texto
     se você usa o look and feel do <name|Emacs>. Note que
     <key|escape> equivale a <key|M->.
 
-    <expand|item*|<key|H-<with|mode|math|x>>>A tecla modificadora do usuário
+    <expand|item*|<key|H->>A tecla modificadora do usuário
     é usada para inserir símbolos especiais como letras gregas no modo
-    matemático. Você pode configurar seu teclado para que a tecla caps-lock
+    matemático. Você pode configurar seu teclado para que a tecla <key|capslock>
     funcione como a tecla hiper. A tecla <shortcut|math:greek> equivale a <key|H->.
   </description>
 

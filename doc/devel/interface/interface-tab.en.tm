@@ -21,7 +21,7 @@
   <\quotation>
     <\framed-fragment>
       <\verbatim>
-        <key|DATA_COMMAND>(complete <em|input-string>
+        <render-key|DATA_COMMAND>(complete <em|input-string>
         <em|cursor-position>)<shortcut|(kbd-return)>
       </verbatim>
     </framed-fragment>
@@ -36,8 +36,8 @@
 
   <\quotation>
     <\framed-fragment>
-      <verbatim|<key|DATA_BEGIN>scheme:(tuple <em|root> <em|completion-1>
-      ><with|mode|math|\<cdots\>><verbatim| <em|completion-n>)><key|DATA_END>
+      <verbatim|<render-key|DATA_BEGIN>scheme:(tuple <em|root> <em|completion-1>
+      ><with|mode|math|\<cdots\>><verbatim| <em|completion-n>)><render-key|DATA_END>
     </framed-fragment>
   </quotation>
 

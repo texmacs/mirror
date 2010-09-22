@@ -12,13 +12,13 @@
   operation mode>. Nast¦puj¡ce tryby operowania s¡ dost¦pne:
 
   <\description>
-    <item*|<kbd-table|m c>>Dziaªanie na pojedynczej komórce.
+    <item*|<key|table m c>>Dziaªanie na pojedynczej komórce.
 
-    <item*|<kbd-table|m h>>Dziaªanie na wierszu.
+    <item*|<key|table m h>>Dziaªanie na wierszu.
 
-    <item*|<kbd-table|m v>>Dziaªanie na kolumnie.
+    <item*|<key|table m v>>Dziaªanie na kolumnie.
 
-    <item*|<kbd-table|m t>>Dziaªanie na caªej tablicy.
+    <item*|<key|table m t>>Dziaªanie na caªej tablicy.
   </description>
 
   Jest równie» mo»liwe zaznaczenie grupy komórek przy pomocy myszy i

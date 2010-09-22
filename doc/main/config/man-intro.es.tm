@@ -13,7 +13,7 @@
   <apply|TeXmacs> sean similares a los que usted usa en otras aplicaciones.
 
   También, <apply|TeXmacs> viene con un poderoso sistema de atajos de
-  teclado, el cual intenta optimizar el uso de modifcadores como <key|shift>
+  teclado, el cual intenta optimizar el uso de modifcadores como <key|S->
   y <key|control> en su teclado. Sin embargo, en muchos sistemas X Window
   esos modificadores no están bien configurados, así que puede desear rehacer
   esto por usted mismo.

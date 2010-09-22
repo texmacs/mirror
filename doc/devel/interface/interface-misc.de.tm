@@ -15,7 +15,7 @@
   abzubrechen. Es unterbricht die Evaluierung, ebenso wie der Menübefehl
   <menu|Session|Interrupt execution>, indem es <verbatim|SIGINT> an die
   Anwendung schickt. Es erwartet, dass die Anwendung normal beendet wird, vor
-  allem, dass sie alle offenen <key|DATA_BEGIN>-Blöcke abschlieÿt.
+  allem, dass sie alle offenen <render-key|DATA_BEGIN>-Blöcke abschlieÿt.
 
   <paragraph|Testen, ob der Input vollständig ist.>
 
@@ -36,7 +36,7 @@
   <\quotation>
     <\framed-fragment>
       <\verbatim>
-        <key|DATA_COMMAND>(input-done? <em|input-string>)<shortcut|(kbd-return)>
+        <render-key|DATA_COMMAND>(input-done? <em|input-string>)<shortcut|(kbd-return)>
       </verbatim>
     </framed-fragment>
   </quotation>
@@ -45,7 +45,7 @@
 
   <\quotation>
     <\framed-fragment>
-      <verbatim|<key|DATA_BEGIN>scheme:<em|done><key|DATA_END>>
+      <verbatim|<render-key|DATA_BEGIN>scheme:<em|done><render-key|DATA_END>>
     </framed-fragment>
   </quotation>
 

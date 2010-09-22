@@ -14,13 +14,13 @@
   werden:
 
   <\description>
-    <item*|<kbd-table|m c>>Operiere auf einzelnen Zellen.
+    <item*|<key|table m c>>Operiere auf einzelnen Zellen.
 
-    <item*|<kbd-table|m h>>Operiere auf Zeilen.
+    <item*|<key|table m h>>Operiere auf Zeilen.
 
-    <item*|<kbd-table|m v>>Operiere auf Spalten.
+    <item*|<key|table m v>>Operiere auf Spalten.
 
-    <item*|<kbd-table|m t>>Operiere auf der ganzen Tabelle.
+    <item*|<key|table m t>>Operiere auf der ganzen Tabelle.
   </description>
 
   Man kann aber auch einen Block von Zellen mit der Maus auswählen und eine

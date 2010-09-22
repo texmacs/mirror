@@ -18,7 +18,7 @@
   <name|Emacs>, que asegura compatibilidad limitada de los atajos de teclado
   de <TeXmacs> con aquellos <name|Emacs>. También, <apply|TeXmacs> viene con
   un poderoso sistema de atajos de teclado, el cual intenta optimizar el uso
-  de modifcadores como <key|shift> y <key|control> en su teclado. Sin
+  de modifcadores como <key|S-> y <key|control> en su teclado. Sin
   embargo, en muchos sistemas X Window esos modificadores no están bien
   configurados, así que puede desear rehacer esto por usted mismo. Más
   detalles pueden ser encontrados en la sección

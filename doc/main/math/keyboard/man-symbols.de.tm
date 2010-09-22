@@ -26,13 +26,13 @@
   <with|mode|math|\<b-cal-Z\>>.
 
   Griechische Buchstaben können auch als \RVarianten`` von lateinischen
-  Buchstaben mit der \ <key|<key-variant>>-Taste erzeugt werden.
-  Beispielsweise liefert <key|p <key-variant>> im Mathematik-Modus
-  <with|mode|math|\<pi\>>. Die <key|<key-variant>>-Taste kann auch dazu
+  Buchstaben mit der \ <key|var>-Taste erzeugt werden.
+  Beispielsweise liefert <key|p var> im Mathematik-Modus
+  <with|mode|math|\<pi\>>. Die <key|var>-Taste kann auch dazu
   gebraucht werden, Varianten von griechischen Buchstaben zu erzeugen. Z.B.
-  <key|H-p tab <key-variant>> und <key|p <key-variant> <key-variant> tab>
-  ergeben <with|mode|math|\<varpi\> >, <key|H-p <key-variant>> und <key|p
-  <key-variant> tab> \ <with|mode|math|\<mathpi\>>, \ <key|H-p> und <key|p
+  <key|H-p tab var> und <key|p var var tab>
+  ergeben <with|mode|math|\<varpi\> >, <key|H-p var> und <key|p
+  var tab> \ <with|mode|math|\<mathpi\>>, \ <key|H-p> und <key|p
   tab> \ <with|mode|math|\<pi\>>.
 
   \;
@@ -51,25 +51,25 @@
   <\description>
     <item*|<key|tab>>ist die wichtigste Taste zur Erzeugung von Varianten.
     Z.B. <key|\<gtr\> => yields <with|mode|math|\<geqslant\>>, aber
-    <key|\<gtr\> = <key-variant>> erzeugt <with|mode|math|\<geq\>>.
-    \ <key|\<less\> <key-variant>> gibt <with|mode|math|\<prec\>>,
-    <key|\<less\> <key-variant> => gibt <with|mode|math|\<preccurlyeq\>> und
-    <key|\<less\> <key-variant> = <key-variant>> gibt
-    <with|mode|math|\<preceq\>>. Also, <key|P <key-variant> tab> erzeugt
-    <with|mode|math|\<wp\>> und <key|e <key-variant> tab> ergiebt die
+    <key|\<gtr\> = var> erzeugt <with|mode|math|\<geq\>>.
+    \ <key|\<less\> var> gibt <with|mode|math|\<prec\>>,
+    <key|\<less\> var => gibt <with|mode|math|\<preccurlyeq\>> und
+    <key|\<less\> var = var> gibt
+    <with|mode|math|\<preceq\>>. Also, <key|P var tab> erzeugt
+    <with|mode|math|\<wp\>> und <key|e var tab> ergiebt die
     Konstante <with|mode|math|\<mathe\>=exp(1)>. Sie könne mit
-    <key|S-<key-variant>> wieder zurückgehen.
+    <key|S-var> wieder zurückgehen.
 
     <item*|<key|@>>liefert Zeichen in Kreisen und Quadraten. Z.B. <key|@ +>
     \ ergibt <with|mode|math|\<oplus\>>, <key|@ x>
-    \ <with|mode|math|\<otimes\>>und <key|@ <key-variant> +> gibt
+    \ <with|mode|math|\<otimes\>>und <key|@ var +> gibt
     <with|mode|math|\<boxplus\>>.
 
     <item*|<key|/>>wird für Negatioen benutzt. <key|= /> ergibt
     <with|mode|math|\<neq\>> und <key|\<less\> = />
     \ <with|mode|math|<neg|\<leqslant\>>>. Beachte, dass \ <key|\<less\> =
-    <key-variant> <key-variant> /> <with|mode|math|\<nleqq\>> ergibt, während
-    <key|\<less\> = <key-variant> <key-variant> / <key-variant>>
+    var var /> <with|mode|math|\<nleqq\>> ergibt, während
+    <key|\<less\> = var var / var>
     \ <with|mode|math|\<lneqq\>> erzeugt.
 
     <item*|<key|!>>wird nach Pfeilen benutzt, um untere und obere Indices
@@ -82,7 +82,7 @@
   Tastenkombinationen erzeugt werden können, werden mit dem Präfix <shortcut|symbol>
   eingegeben:
 
-  <big-table|<descriptive-table|<tformat|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<cwith|1|-1|2|2|cell-rborder|1ln>|<table|<row|<cell|Kurzbefehl>|<cell|Symbol>|<cell|Kurzbefehl>|<cell|Symbol>>|<row|<cell|<kbd-symb|a>>|<cell|<with|mode|math|\<amalg\>>>|<cell|>|<cell|>>|<row|<cell|<kbd-symb|n>>|<cell|<with|mode|math|\<cap\>>>|<cell|<kbd-symb|u>>|<cell|<with|mode|math|\<cup\>>>>|<row|<cell|<kbd-symb|v>>|<cell|<with|mode|math|\<vee\>>>|<cell|<kbd-symb|w>>|<cell|<with|mode|math|\<wedge\>>>>>>>|Einige
+  <big-table|<descriptive-table|<tformat|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<cwith|1|-1|2|2|cell-rborder|1ln>|<table|<row|<cell|Kurzbefehl>|<cell|Symbol>|<cell|Kurzbefehl>|<cell|Symbol>>|<row|<cell|<key|symbol a>>|<cell|<with|mode|math|\<amalg\>>>|<cell|>|<cell|>>|<row|<cell|<key|symbol n>>|<cell|<with|mode|math|\<cap\>>>|<cell|<key|symbol u>>|<cell|<with|mode|math|\<cup\>>>>|<row|<cell|<key|symbol v>>|<cell|<with|mode|math|\<vee\>>>|<cell|<key|symbol w>>|<cell|<with|mode|math|\<wedge\>>>>>>>|Einige
   Symbole, die nicht auf naheliegende Weise mit Tastenkombinationen erzeugt
   werden können.>
 

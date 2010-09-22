@@ -12,7 +12,7 @@
   <key|S->, <key|C->, <key|A->, <key|M-> e <key|H->. I tasti
   <key|S-> e \ <key|C-> si trovano su tutte
   le tastiere; il tasto \ <key|A-> su quasi tutte. Molte
-  tastiere moderne sono dotate anche del tasto <key|<expand|key-windows>>
+  tastiere moderne sono dotate anche del tasto <key|windows>
   che, in <TeXmacs>, è equivalente a <key|M->.
 
   Prima di riconfigurare la tastiera è consigliabile verificare se ciò sia
@@ -20,27 +20,27 @@
   corrispondenti a <key|S->, <key|C->,
   <key|A-> e <key|M->, probabilmente non
   saranno necessarie modifiche di configurazione. Una possibile eccezione è
-  che desideriate utilizzare il tasto <key|<expand|key-caps-lock>> per
+  che desideriate utilizzare il tasto <key|capslock> per
   scrivere simboli matematici. In questo caso dovrete far corrispondere il
-  tasto <key|<expand|key-caps-lock>> al tasto <key|H->.
+  tasto <key|capslock> al tasto <key|H->.
 
   Per riconfigurare la tastiera è sufficiente selezionare, nel menu
   <apply|menu|Edit|Preferences|Keyboard>, il modificatore logico che
   desiderate far corrispondere ad un dato tasto fisico. Ad esempio,
   selezionando <apply|menu|Windows key|Map to M modifier>, il tasto
-  <key|<expand|key-windows>> verrà fatto corrispondere al modificatore
+  <key|windows> verrà fatto corrispondere al modificatore
   <key|M->. In modo del tutto analogo, selezionando
   <apply|menu|Caps-lock key|Map to H modifier>, il tasto
-  <key|<expand|key-caps-lock>> verrà fatto corrispondere al modificatore
+  <key|capslock> verrà fatto corrispondere al modificatore
   <key|H->.
 
   Sfortunatamente il sistema X Window permette di effettuare solo
   riconfigurazioni globali. Per questo, se in <TeXmacs> viene riconfigurato
-  il tasto <key|<expand|key-caps-lock>>, il nuovo comportamento di questo
+  il tasto <key|capslock>, il nuovo comportamento di questo
   tasto interesserà anche tutte le altre applicazioni in cui questo stesso
   tasto viene utilizzato. Perciò è consigliabile riconfigurare solo i tasti
   che non vengono utilizzati per scopi diversi in altre applicazioni. Ad
-  esempio, il tasto <key|<expand|key-windows>> non viene solitamente
+  esempio, il tasto <key|windows> non viene solitamente
   utilizzato in molte altre applicazioni, percui la sua riconfigurazione non
   ha ripercussioni. Alcuni utilizzatori potrebbero decidere di effettuare una
   opportuna riconfigurazione globale della tastiera. Ciò può essere fatto
@@ -56,12 +56,12 @@
   <apply|menu|Edit|Preferences|Keyboard>.
 
   Ad esempio, per avere compatibilità con Emacs, potreste decidere di
-  scambiare il tasto <key|M-> o <key|<expand|key-windows>> con
+  scambiare il tasto <key|M-> o <key|windows> con
   il tasto <key|A-> senza tuttavia eseguire una modifica
   globale. Ciò può essere fatto cercando i modificatori corrispondenti a
   questo tasto; tipicamente avremo <key|Mod1> al posto di
   <key|A-> e <key|Mod4> al posto di
-  <key|M-> o <key|<expand|key-windows>>. Quindi eseguiremo le
+  <key|M-> o <key|windows>. Quindi eseguiremo le
   dovute permutazioni nel menu <apply|menu|Edit|Preferences|Keyboard>,
   selezionando <apply|menu|A modifier|Equivalent for Mod4> e <apply|menu|M
   modifier|Equivalent for Mod1>.

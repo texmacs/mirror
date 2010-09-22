@@ -9,28 +9,28 @@
   Stildefinitionen selbst zu schreiben, sind die folgenden:
 
   <\description>
-    <item*|<kbd-ia|=>>erzeugt eine neue Befehlsanweisung. Das erste Argument
+    <item*|<key|inactive =>>erzeugt eine neue Befehlsanweisung. Das erste Argument
     ist ein neuer Befehlsname und das zweite Argument ein Ausdruck.
 
-    <item*|<kbd-ia|w>>erzeugt eine \RWith-Anweisung``. Diese erlaubt
+    <item*|<key|inactive w>>erzeugt eine \RWith-Anweisung``. Diese erlaubt
     <TeXmacs>-Umgebungsvariablen lokal zu ändern. Sie haben die Form
     <with|mode|math|\<langle\>x<rsub|1>\|a<rsub|1>\|\<cdots\>\|x<rsub|n>\|a<rsub|n>\|b\<rangle\>>.
     Dabei sind die <with|mode|math|x<rsub|i>> die Namen der Variablen,
     <with|mode|math|a<rsub|i>> die lokalen Werte und b ein Text, auf den die
     Variablen angewendet werden.
 
-    <item*|<kbd-ia|m>>erzeugt ein Makro. Argumente können mit der
+    <item*|<key|inactive m>>erzeugt ein Makro. Argumente können mit der
     \ <key|Tab>-Taste eingefügt werden.
 
-    <item*|<kbd-ia|#>>hole den Wert eines Makroarguments.
+    <item*|<key|inactive #>>hole den Wert eines Makroarguments.
 
-    <item*|<kbd-ia|v>>hole den Wert einer <TeXmacs>-Umgebungsvariablen.
+    <item*|<key|inactive v>>hole den Wert einer <TeXmacs>-Umgebungsvariablen.
 
-    <item*|<kbd-ia|e>>expandiert ein Makro mit keinem oder mehreren
+    <item*|<key|inactive e>>expandiert ein Makro mit keinem oder mehreren
     Argumenten.
   </description>
 
-  Genauer, wenn ein mit <kbd-ia|e> expandiertes Makro
+  Genauer, wenn ein mit <key|inactive e> expandiertes Makro
   <with|mode|math|{a\|x<rsub|1>\|\<cdots\>\|x<rsub|n>}> ausgewertet wird,
   laufen folgende Vorgänge ab:
 

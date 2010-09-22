@@ -9,7 +9,7 @@
   that output from applications is encapsulated in blocks of the form
 
   <\quotation>
-    <framed-fragment|<verbatim|<key|DATA_BEGIN><em|format>:<em|message><key|DATA_END>>>
+    <framed-fragment|<verbatim|<render-key|DATA_BEGIN><em|format>:<em|message><render-key|DATA_END>>>
   </quotation>
 
   In fact, the <verbatim|<em|message>> may recursively contain blocks of the

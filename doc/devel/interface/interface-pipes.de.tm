@@ -49,7 +49,7 @@
   Anwendung. Die Kapselung sieht folgendermaÿen aus:
 
   <\quotation>
-    <framed-fragment|<verbatim|<key|DATA_BEGIN><em|format>:<em|message><key|DATA_END>>>
+    <framed-fragment|<verbatim|<render-key|DATA_BEGIN><em|format>:<em|message><render-key|DATA_END>>>
   </quotation>
 
   Hier stehen <verbatim|DATA_BEGIN> und <verbatim|DATA_END> für spezielle
@@ -70,7 +70,7 @@
   <\quotation>
     <\framed-fragment>
       <\with|font-family|tt>
-        <tabular|<tformat|<table|<row|<cell|<key|DATA_ESCAPE><space|0.6spc><key|DATA_BEGIN>>|<cell|<with|mode|math|\<longrightarrow\>>>|<cell|<key|DATA_BEGIN>>>|<row|<cell|<key|DATA_ESCAPE><space|0.6spc><key|DATA_END>>|<cell|<with|mode|math|\<longrightarrow\>>>|<cell|<key|DATA_END>>>|<row|<cell|<key|DATA_ESCAPE><space|0.6spc><key|DATA_ESCAPE>>|<cell|<with|mode|math|\<longrightarrow\>>>|<cell|<key|DATA_ESCAPE>>>>>>
+        <tabular|<tformat|<table|<row|<cell|<render-key|DATA_ESCAPE><space|0.6spc><render-key|DATA_BEGIN>>|<cell|<with|mode|math|\<longrightarrow\>>>|<cell|<render-key|DATA_BEGIN>>>|<row|<cell|<render-key|DATA_ESCAPE><space|0.6spc><render-key|DATA_END>>|<cell|<with|mode|math|\<longrightarrow\>>>|<cell|<render-key|DATA_END>>>|<row|<cell|<render-key|DATA_ESCAPE><space|0.6spc><render-key|DATA_ESCAPE>>|<cell|<with|mode|math|\<longrightarrow\>>>|<cell|<render-key|DATA_ESCAPE>>>>>>
       </with>
     </framed-fragment>
   </quotation>
@@ -104,10 +104,10 @@
 
   <\remark>
     <TeXmacs> geht davon aus, dass keine Ausgabe mehr kommt, wenn ein
-    <key|DATA_END> ein <key|DATA_BEGIN> abschlieÿt. Deshalb muss jegliche
+    <render-key|DATA_END> ein <render-key|DATA_BEGIN> abschlieÿt. Deshalb muss jegliche
     Ausgabe in einen <em|einzigen> äuÿeren
-    <key|DATA_BEGIN>-<key|DATA_END>-Block eingeschlossen werden. Es ist
-    möglich, solche abgeschlossenen <key|DATA_BEGIN>-<key|DATA_END> Blöcke in
+    <render-key|DATA_BEGIN>-<render-key|DATA_END>-Block eingeschlossen werden. Es ist
+    möglich, solche abgeschlossenen <render-key|DATA_BEGIN>-<render-key|DATA_END> Blöcke in
     einander zu verschachteln. Sie dürfen aber keinesfalls mehr als einen in
     sich geschlossenen Block senden, da <TeXmacs> sofort die Kontrolle
     übernimmt, wenn der äuÿere Block abgeschlossen ist.

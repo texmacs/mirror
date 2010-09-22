@@ -19,17 +19,17 @@
   <underline|Befehle zur Erzeugung von Tabellen:>
 
   <\description>
-    <item*|<kbd-table|N t>>Eine normale Tabelle erzeugen. Zellen sind
+    <item*|<key|table N t>>Eine normale Tabelle erzeugen. Zellen sind
     linksbündig. Keine sichtbaren Ränder. Menü-Befehl:
     <menu|Insert|Table|Plain tabular>.
 
-    <item*|<kbd-table|N T>>Eine normale Tabelle mit zentrierten Zellen.
+    <item*|<key|table N T>>Eine normale Tabelle mit zentrierten Zellen.
     Menü-Befehl: <menu|Insert|Table|Centered tabular>.
 
-    <item*|<kbd-table|N b>>Eine Tabelle mit sichtbaren Umrandungen. Zellen
+    <item*|<key|table N b>>Eine Tabelle mit sichtbaren Umrandungen. Zellen
     linksbündig. Menü-Befehl: <menu|Insert|Table|Plain block>.
 
-    <item*|<kbd-table|N B>>Eine Tabelle mit sichtbaren Umrandungen. Zellen
+    <item*|<key|table N B>>Eine Tabelle mit sichtbaren Umrandungen. Zellen
     zentriert. Menü-Befehl: <menu|Insert|Table|Centered block>.
   </description>
 
@@ -37,13 +37,13 @@
   können noch einige weitere tabellenartige Strukturen erzeugt werden:>
 
   <\description>
-    <item*|<kbd-table|N m>>Erzeuge eine Matrix:
+    <item*|<key|table N m>>Erzeuge eine Matrix:
     <with|mode|math|<matrix|<tformat|<table|<row|<cell|a>|<cell|b>>|<row|<cell|c>|<cell|d>>>>>>\ 
 
-    <item*|<kbd-table|N d>>Erzeuge eine Determinante:
+    <item*|<key|table N d>>Erzeuge eine Determinante:
     <with|mode|math|<det|<tformat|<table|<row|<cell|a>|<cell|b>>|<row|<cell|c>|<cell|d>>>>>>
 
-    <item*|<kbd-table|N c>>Erzeuge eine Auswahlliste:
+    <item*|<key|table N c>>Erzeuge eine Auswahlliste:
     <with|mode|math|<choice|<tformat|<table|<row|<cell|x\<geqslant\> 0, f=
     0>>|<row|<cell|x=0, \ f= 1>>|<row|<cell|x\<leqslant\>0, f = 0>>>>>> \ 
   </description>

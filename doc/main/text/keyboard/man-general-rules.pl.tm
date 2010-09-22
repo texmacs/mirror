@@ -13,25 +13,25 @@
     <item*|<key|C-<with|mode|math|x><em|>>>Skróty bazuj¡ce na klawiszu
     Control najcz¦±ciej s¡ u»ywane dla polece« edycyjnych. Zale»¡ one od
     ustawienia opcji Wygl¡d'' w <menu|Edytuj|Ustawienia>. Dla przykªadu
-    je±li u»ywasz wygl¡du <name|Emacs> to skróty <key|C-<with|mode|math|x>>
+    je±li u»ywasz wygl¡du <name|Emacs> to skróty <key|C->
     odpowiadaj¡ tym z <name|Emacs>, zatem <key|C-y> wkleja tekst z bufora.
 
-    <item*|<key|A-<with|mode|math|x>>>Klawisz Alternate jest u»ywany przy
+    <item*|<key|A->>Klawisz Alternate jest u»ywany przy
     poleceniach które zale»¡ od trybu w jakim si¦ znajdujesz. Na przykªad
     <shortcut|(make-sqrt)> daje <strong|mocny> tekst w trybie tekstowym i pierwiastek
     kwadratowy <no-break><with|mode|math|<sqrt|>> w trybie matematycznym.
     <key|escape escape> jest równowa»ne <key|A->.
 
-    <item*|<key|M-<with|mode|math|x>>>Klawisz meta jest klawiszem dla polece«
+    <item*|<key|M->>Klawisz meta jest klawiszem dla polece«
     <TeXmacs> ogólnego przeznaczenia, wspólnych dla wszystkich trybów. Dla
     przykªadu <key|M-!> tworzy etykiet¦. Jest równie» u»ywany dla dodatkowych
     polece« edytorskich, jak <key|M-w> dla kopiowania tekstu, je±li ustawiony
     jest wygl¡d <name|Emacs>. <key|escape> jest równowa»ny <key|M->.
 
-    <item*|<key|H-<with|mode|math|x>>>Zdefiniowany przez u»ytkownika klawisz
+    <item*|<key|H->>Zdefiniowany przez u»ytkownika klawisz
     modyfikuj¡cy jest u»ywany do tworzenia symboli specjalnych jak litery
     greckie w trybie matematycznym. Mo»na skonfigurowa¢ klawiatur¦ tak aby
-    caps-lock peªniª funkcj¦ klawisza hyper. <shortcut|math:greek> jest równowa»ne
+    <key|capslock> peªniª funkcj¦ klawisza hyper. <shortcut|math:greek> jest równowa»ne
     <key|H->.
   </description>
 

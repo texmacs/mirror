@@ -37,7 +37,7 @@
   I tasti <key|A->, <key|M-> e
   <key|H-> non sono disponibili su tutte le tastiere. Sui PC
   recenti, il tasto <key|M-> è spesso sostituito con il tasto
-  <key|<expand|key-windows>>. Nel caso in cui uno o più dei tasti
+  <key|windows>. Nel caso in cui uno o più dei tasti
   modificatori non siano presenti sulla propria tastiera, si può utilizzare
   <key|escape> invece di <key|M->, <key|escape
   escape> invece di <key|A-> e <shortcut|math:greek>,

@@ -6,10 +6,10 @@
   <tmdoc-title|Label, Verknüpfungen, Hyperlinks und Referenzen erzeugen>
 
   Sie können ein neues inaktives Label erzeugen mit dem Kurzbefehl
-  <kbd-gen|!> oder dem Menübefehl \ <menu|Insert|Link|Label>. Label sind
+  <key|M-!> oder dem Menübefehl \ <menu|Insert|Link|Label>. Label sind
   Marken, die mit einer Referenz verbunden sind und die später durch eine
   Zahl, die auf die Referenz verweist, ersetzt wird. Man erzeugt die Referenz
-  <kbd-gen|?> oder mit dem Menübefehl <menu|Insert|Link|Reference>. Die
+  <key|M-?> oder mit dem Menübefehl <menu|Insert|Link|Reference>. Die
   Plazierung eines Labels sollte mit Bedacht erfolgen, um eine korrekte
   Nummerierung zu erreichen. Wenn z.B. Abschnitte einen Label erhalten
   sollen, dann setzt man am besten das Label direkt hinter den
@@ -17,7 +17,7 @@
   man einen Punkt innerhalb der Gleichung verwenden.
 
   Man kann Hyperlinks zu anderen Dokumenten mit dem Kurzbefehl
-  \ <kbd-ia|\<gtr\>> oder mit <menu|Insert|Link|Hyperlink> erzeugen. Der
+  \ <key|inactive \<gtr\>> oder mit <menu|Insert|Link|Hyperlink> erzeugen. Der
   Hyperlink hat zwei Felder, zwei Variable. Die erste Variable ist der mit
   der Verknüpfung assoziierte Text, der, wenn der Link aktiviert ist, blau im
   Text erscheint. Die zweite Variable ist der Name des Dokuments. Wie bei
@@ -31,7 +31,7 @@
   sein.
 
   Ganz ähnlich kann eine Aktion mit Text oder Graphik verknüpft werden. Man
-  benutzt dazu den Kurzbefehl I <kbd-ia|*> oder <menu|Insert|Link|Action>.
+  benutzt dazu den Kurzbefehl I <key|inactive *> oder <menu|Insert|Link|Action>.
   Das zweite Feld enthält dann ein ausführbares Guile/Scheme-Skript, das
   ausgeführt wird, wenn man auf den Text oder die Graphik mit der Maus
   doppelklickt. Aus Sicherheitsgründen werden solche Skripts nicht immer
@@ -45,7 +45,7 @@
 
   einen Befehl Ihrer Systemumgebung (shell) ausführen können.
 
-  Schlieÿlich kann man mit \ <kbd-ia|i> bzw. <menu|Insert|Link|Include> ganze
+  Schlieÿlich kann man mit \ <key|inactive i> bzw. <menu|Insert|Link|Include> ganze
   Dokumente in den Text einfügen. Damit können Sie z.B. den Quellcode eines
   Programms in den Text einfügen und zwar so, dass jegliche Änderung am
   Quellcode sich automatisch im Textdokument wiederfindet.

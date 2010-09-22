@@ -10,7 +10,7 @@
   <key|C->, <key|A->, <key|M-> und <key|H-> abgekürzt werden. Die
   <key|Umschalt>- und die <key|Steuerung>-Taste gibt es praktisch auf allen
   Tastaturen, die \ <key|Alt>-Taste auf fast allen. Die meisten heutigen
-  Tastaturen haben auch eine \ <key|<key-windows>>-Taste, die gewöhnlich die
+  Tastaturen haben auch eine \ <key|windows>-Taste, die gewöhnlich die
   Funktion der <key|Meta>-Taste für <TeXmacs> übernimmt.
 
   Bevor Sie nun Ihre Tastatur neu konfigurieren, sollten Sie überprüfen, ob
@@ -25,7 +25,7 @@
   Um die Tastaturkonfiguration anzupassen, wählen Sie im Menü
   <menu|Edit|Preferences|Keyboard> die Taste, die Sie umlegen wollen.
   Beispielsweise wird, wenn Sie <menu|Windows key|Map to M modifier> wählen,
-  die <key|<key-windows>>-Taste der <key|Meta>-Taste entsprechen. Wenn Sie
+  die <key|windows>-Taste der <key|Meta>-Taste entsprechen. Wenn Sie
   <menu|Caps-lock key|Map to H modifier> wählten entspricht die
   <key|Feststelltaste> der <key|Hyper>-Taste.
 

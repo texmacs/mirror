@@ -9,37 +9,37 @@
   durchgeführt werden:
 
   <\description>
-    <item*|<kbd-exec|\|>>inklusives Oder von zwei Aussagen.
+    <item*|<key|executable \|>>inklusives Oder von zwei Aussagen.
 
-    <item*|<kbd-exec|^>>exklusives Oder von zwei Aussagen.
+    <item*|<key|executable ^>>exklusives Oder von zwei Aussagen.
 
-    <item*|<kbd-exec|&>>Und von zwei Aussagen.
+    <item*|<key|executable &>>Und von zwei Aussagen.
 
-    <item*|<kbd-exec|!>>Negation einer Aussage.
+    <item*|<key|executable !>>Negation einer Aussage.
 
-    <item*|<kbd-exec|+>>Addition zweier Zahlen.
+    <item*|<key|executable +>>Addition zweier Zahlen.
 
-    <item*|<kbd-exec|->>Subtraktion zweier Zahlen.
+    <item*|<key|executable ->>Subtraktion zweier Zahlen.
 
-    <item*|<kbd-exec|*>>Multiplikation zweier Zahlen.
+    <item*|<key|executable *>>Multiplikation zweier Zahlen.
 
-    <item*|<kbd-exec|/>>Division zweier Zahlen.
+    <item*|<key|executable />>Division zweier Zahlen.
 
-    <item*|<kbd-exec|;>>Zusammenfügung zweier Zeichenketten.
+    <item*|<key|executable ;>>Zusammenfügung zweier Zeichenketten.
 
-    <item*|<kbd-exec|#>>Darstellung einer Zahl in <em|Arabic>, <em|roman>,
+    <item*|<key|executable #>>Darstellung einer Zahl in <em|Arabic>, <em|roman>,
     <em|Roman>, <em|alpha> oder <em|Alpha> (wird beispielsweise in
     Aufzählungen benutzt).
 
-    <item*|<kbd-exec|\<gtr\>>>Übersetzung eines Wortes von einer Quellsprache
+    <item*|<key|executable \<gtr\>>>Übersetzung eines Wortes von einer Quellsprache
     in eine Zielsprache (siehe die Wörterbücher (dictionary) in
     <verbatim|$TEXMACS_PATH/data/dic>).
 
-    <item*|<kbd-exec|=>>Teste auf Gleichheit.
+    <item*|<key|executable =>>Teste auf Gleichheit.
 
-    <item*|<kbd-exec|E-e>>Teste auf Ungleichheit.
+    <item*|<key|executable E-e>>Teste auf Ungleichheit.
 
-    <item*|<kbd-exec|?>>Einfügung einer Wenn-Abfrage (if) mit optinalem Sonst
+    <item*|<key|executable ?>>Einfügung einer Wenn-Abfrage (if) mit optinalem Sonst
     (else).
   </description>
 

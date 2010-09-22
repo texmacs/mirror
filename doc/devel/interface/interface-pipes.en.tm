@@ -47,7 +47,7 @@
   the interactive output) inside a block of the form
 
   <\quotation>
-    <framed-fragment|<verbatim|<key|DATA_BEGIN><em|format>:<em|message><key|DATA_END>>>
+    <framed-fragment|<verbatim|<render-key|DATA_BEGIN><em|format>:<em|message><render-key|DATA_END>>>
   </quotation>
 
   Here <verbatim|DATA_BEGIN> and <verbatim|DATA_END> stand for special
@@ -68,7 +68,7 @@
   <\quotation>
     <\framed-fragment>
       <\with|font-family|tt>
-        <tabular|<tformat|<table|<row|<cell|<key|DATA_ESCAPE><space|0.6spc><key|DATA_BEGIN>>|<cell|<with|mode|math|\<longrightarrow\>>>|<cell|<key|DATA_BEGIN>>>|<row|<cell|<key|DATA_ESCAPE><space|0.6spc><key|DATA_END>>|<cell|<with|mode|math|\<longrightarrow\>>>|<cell|<key|DATA_END>>>|<row|<cell|<key|DATA_ESCAPE><space|0.6spc><key|DATA_ESCAPE>>|<cell|<with|mode|math|\<longrightarrow\>>>|<cell|<key|DATA_ESCAPE>>>>>>
+        <tabular|<tformat|<table|<row|<cell|<render-key|DATA_ESCAPE><space|0.6spc><render-key|DATA_BEGIN>>|<cell|<with|mode|math|\<longrightarrow\>>>|<cell|<render-key|DATA_BEGIN>>>|<row|<cell|<render-key|DATA_ESCAPE><space|0.6spc><render-key|DATA_END>>|<cell|<with|mode|math|\<longrightarrow\>>>|<cell|<render-key|DATA_END>>>|<row|<cell|<render-key|DATA_ESCAPE><space|0.6spc><render-key|DATA_ESCAPE>>|<cell|<with|mode|math|\<longrightarrow\>>>|<cell|<render-key|DATA_ESCAPE>>>>>>
       </with>
     </framed-fragment>
   </quotation>
@@ -101,11 +101,11 @@
 
   <\remark>
     For synchronization purposes, <TeXmacs> will assume that the output is
-    finished as soon as it encounters the <key|DATA_END> which closes the
-    initial <key|DATA_BEGIN>. So all output has to be inside one <em|single>
-    outer <key|DATA_BEGIN>-<key|DATA_END> block: if you send more blocks,
+    finished as soon as it encounters the <render-key|DATA_END> which closes the
+    initial <render-key|DATA_BEGIN>. So all output has to be inside one <em|single>
+    outer <render-key|DATA_BEGIN>-<render-key|DATA_END> block: if you send more blocks,
     then <TeXmacs> will retake control before reading all your output. It
-    <em|is> possible to nest <key|DATA_BEGIN>-<key|DATA_END> blocks though,
+    <em|is> possible to nest <render-key|DATA_BEGIN>-<render-key|DATA_END> blocks though,
     as we will see below.
   </remark>
 

@@ -18,12 +18,12 @@
   produce <with|mode|math|\<b-cal-Z\>>.
 
   I caratteri greci si possono ottenere anche come ``varianti'' dei caratteri
-  latini utilizzando il tasto <key|<expand|key-variant>>. Per esempio, <key|p
-  <expand|key-variant>> produce <with|mode|math|\<pi\>>. Il tasto
-  <key|<expand|key-variant>> viene utilizzato anche per ottenere delle
+  latini utilizzando il tasto <key|var>. Per esempio, <key|p
+  var> produce <with|mode|math|\<pi\>>. Il tasto
+  <key|var> viene utilizzato anche per ottenere delle
   varianti degli stessi caratteri greci. Per esempio, sia <key|H-p
-  <expand|key-variant> tab> che <key|p <expand|key-variant>
-  <expand|key-variant> tab> generano <with|mode|math|\<varpi\>>.
+  var tab> che <key|p var
+  var tab> generano <with|mode|math|\<varpi\>>.
 
   Molti altri simboli matematici si ottengono con ``naturali'' combinazioni
   di tasti. Per esempio, <key|- \<gtr\>> genera
@@ -38,29 +38,29 @@
   <\description>
     <expand|item*|<key|tab>>è il tasto principale per ottenere delle
     varianti. Per esempio, <key|\<gtr\> => produce
-    <with|mode|math|\<geqslant\>>, ma <key|\<gtr\> = <expand|key-variant>>
+    <with|mode|math|\<geqslant\>>, ma <key|\<gtr\> = var>
     produce <format|no line break><with|mode|math|\<geq\>>. Analogamente,
-    <key|\<less\> <expand|key-variant>> produce <with|mode|math|\<prec\>>,
-    <key|\<less\> <expand|key-variant> => produce
-    <with|mode|math|\<preccurlyeq\>> e <key|\<less\> <expand|key-variant> =
-    <expand|key-variant>> genera <with|mode|math|\<preceq\>>. Inoltre, <key|P
-    <expand|key-variant> tab> produce <with|mode|math|\<wp\>> e <key|e
-    <expand|key-variant> tab> genera la costante
+    <key|\<less\> var> produce <with|mode|math|\<prec\>>,
+    <key|\<less\> var => produce
+    <with|mode|math|\<preccurlyeq\>> e <key|\<less\> var =
+    var> genera <with|mode|math|\<preceq\>>. Inoltre, <key|P
+    var tab> produce <with|mode|math|\<wp\>> e <key|e
+    var tab> genera la costante
     <with|mode|math|\<mathe\>=exp(1)>. Si può ``tornare indietro''
-    utilizzando <key|S-<expand|key-variant>>.
+    utilizzando <key|S-var>.
 
     <expand|item*|<key|@>>viene utilizzato per inserire i simboli in
     cerchietti o in quadratini. Per esempio, <key|@ +> produce
     <with|mode|math|\<oplus\>> e <key|@ x> produce
-    <with|mode|math|\<otimes\>>. Analogamente, <key|@ <expand|key-variant> +>
+    <with|mode|math|\<otimes\>>. Analogamente, <key|@ var +>
     genera <with|mode|math|\<boxplus\>>.
 
     <expand|item*|<key|/>>permette di ottenere le negazioni. Per esempio,
     <key|= /> produce <with|mode|math|\<neq\>> e <key|\<less\> = /> produce
     <with|mode|math|<neg|\<leqslant\>>>. Si noti che <key|\<less\> =
-    <expand|key-variant> <expand|key-variant> /> genera
-    <with|mode|math|\<nleqq\>>, mentre <key|\<less\> = <expand|key-variant>
-    <expand|key-variant> / <expand|key-variant>> produce
+    var var /> genera
+    <with|mode|math|\<nleqq\>>, mentre <key|\<less\> = var
+    var / var> produce
     <with|mode|math|\<lneqq\>>.
 
     <expand|item*|<key|!>>si utilizza dopo le frecce per forzare il

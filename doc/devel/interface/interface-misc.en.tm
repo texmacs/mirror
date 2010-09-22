@@ -15,7 +15,7 @@
   input. When pressing this button, <TeXmacs> will just send a
   <verbatim|SIGINT> signal to your application. It expects your application
   to finish the output as usual. In particular, you should close all open
-  <key|DATA_BEGIN>-blocks.
+  <render-key|DATA_BEGIN>-blocks.
 
   <paragraph|Testing whether the input is complete>
 
@@ -35,7 +35,7 @@
   <\quotation>
     <\framed-fragment>
       <\verbatim>
-        <key|DATA_COMMAND>(input-done? <em|input-string>)<shortcut|(kbd-return)>
+        <render-key|DATA_COMMAND>(input-done? <em|input-string>)<shortcut|(kbd-return)>
       </verbatim>
     </framed-fragment>
   </quotation>
@@ -44,7 +44,7 @@
 
   <\quotation>
     <\framed-fragment>
-      <verbatim|<key|DATA_BEGIN>scheme:<em|done><key|DATA_END>>
+      <verbatim|<render-key|DATA_BEGIN>scheme:<em|done><render-key|DATA_END>>
     </framed-fragment>
   </quotation>
 

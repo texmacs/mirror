@@ -21,8 +21,8 @@
   (zdefiniowane przez plik stylu). Je±li tak to zostanie to wykonane
   (stworzone), przy wªa±ciwej liczbie parametrów. W innym przypadku zakªadane
   jest i» polecenie odnosi si¦ do zmiennej i nale»y wy±wietli¢ jej warto±¢.
-  Klawisz <key|\\> jest równowa»ny jednemu z polece« <kbd-ia|l>, <kbd-ia|e>,
-  <kbd-ia|a>, <kbd-ia|#> lub <kbd-ia|v>.
+  Klawisz <key|\\> jest równowa»ny jednemu z polece« <key|inactive l>, <key|inactive e>,
+  <key|inactive a>, <key|inactive #> lub <key|inactive v>.
 
   Aby wstawi¢ normalny znak \\ (backslash) nale»y u»y¢ sekwencji <key|S-F5
   \\>.

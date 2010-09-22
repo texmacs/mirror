@@ -32,7 +32,7 @@
   The <key|A->, <key|M-> and
   <key|H-> keys are not available on all keyboards. On
   recent PC's, the <key|M-> key is often replaced by the
-  <key|<key-windows>> key. In the case when one or several
+  <key|windows> key. In the case when one or several
   modifier keys are missing on your keyboard, you may use
   <key|escape> instead of <key|M->,
   <key|escape escape> instead of <key|A->

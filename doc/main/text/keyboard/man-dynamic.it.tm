@@ -17,7 +17,7 @@
   inattivo consente di scrivere le informazioni rilevanti per l'oggetto
   dinamico, come il nome dell'etichetta nel nostro caso. Alcuni oggetti
   dinamici ammettono un numero arbitrario di parametri e uno nuovo di essi
-  può essere inserito usando il tasto <key|<expand|key-variant>>.
+  può essere inserito usando il tasto <key|var>.
 
   Quando si termina di scrivere le informazioni rilevanti per il proprio
   oggetto dinamico, si può battere il tasto <key|return> per

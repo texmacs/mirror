@@ -35,7 +35,7 @@
   As teclas <key|A->, <key|M-> e
   <key|H-> não estão disponíveis em todos os teclados. Em
   computadores pessoais atuais, a tecla <key|M-> em geral é
-  substituida pela tecla <key|<expand|key-windows>>. Quando uma ou mais
+  substituida pela tecla <key|windows>. Quando uma ou mais
   teclas modificadores não existem no seu teclado, você pode usar
   <key|escape> ao invés de <key|M->, <key|escape
   escape> no lugar de <key|A-> e <shortcut|math:greek>,

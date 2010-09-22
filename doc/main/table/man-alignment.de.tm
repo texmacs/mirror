@@ -16,7 +16,7 @@
   Spezifische Ausrichtungen können auch mit den Menü-Befehlen
   <menu|Table|Horizontal cell alignment> und <menu|Table|Vertical cell
   alignment> gewählt werden. Alternativ können Sie dafür auch die Kurzbefehle
-  der Form \ <kbd-table|h <with|mode|math|x>> und <kbd-table|v
+  der Form \ <key|table h <with|mode|math|x>> und <key|table v
   <with|mode|math|x>> für horizontale bzw. vertikale Ausrichtung benutzen.
   <key|<with|mode|math|x>> kann für die folgenden Tasten stehen: <key|l> für
   \Rlinks'', <key|c> für \Rzentriert'', <key|r> für \Rrechts'', <key|b> für
@@ -28,7 +28,7 @@
   umgebenden Text ausgerichtet sein soll. das kann entweder mit den
   Menü-Befehlen aus den Menüs <menu|Table|Horizontal table alignment> und
   <menu|Table|Vertical table alignment> oder mit den Kurzbefehle der Form
-  <kbd-table|H <with|mode|math|x>> oder <kbd-table|V <with|mode|math|x>>
+  <key|table H <with|mode|math|x>> oder <key|table V <with|mode|math|x>>
   verwenden. Hier kann <key|<with|mode|math|x>> für die folgenden Tasten
   stehen: <key|l> für \Rlinks'', \ <key|c> für \Rzentriert'', <key|r> für
   \Rrechts'', <key|b> für \Runten'', <key|t> für \Roben'' und für die

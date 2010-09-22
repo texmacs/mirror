@@ -20,7 +20,7 @@
 
     <item>Las variantes son ahora obtenidas usando <key|tab> en lugar de
     <key|<with|mode|math|\<ast\>>> y puede recorrerlas al revés usando
-    <key|shift-tab>.
+    <key|S-tab>.
 
     <item>Los caracteres griegos son ahora tecleados usando <key|A-C->,
     <shortcut|math:greek>, o el modificador hiper, el cual puede ser configurado en

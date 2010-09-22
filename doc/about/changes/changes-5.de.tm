@@ -19,7 +19,7 @@
 
     <item>Varianten erhält man mit <key|tab> anstelle von
     <key|<with|mode|math|\<ast\>>> und man kann zurückkehren mit
-    <key|shift-tab>.
+    <key|S-tab>.
 
     <item>Griechische Buchstaben erhält man mit <key|A-C->, <shortcut|math:greek>, oder
     Hyper <key|H->, der in <menu|Edit|Preferences> konfiguriert werden kann.

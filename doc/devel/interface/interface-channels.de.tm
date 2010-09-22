@@ -8,13 +8,13 @@
   Neben Blöcken der Form
 
   <\quotation>
-    <framed-fragment|<verbatim|<key|DATA_BEGIN><em|format>:<em|message><key|DATA_END>>>
+    <framed-fragment|<verbatim|<render-key|DATA_BEGIN><em|format>:<em|message><render-key|DATA_END>>>
   </quotation>
 
   erlaubt das <TeXmacs>-Meta-Format auch noch Blöcke der Form
 
   <\quotation>
-    <framed-fragment|<verbatim|<key|DATA_BEGIN><em|channel>#<em|message><key|DATA_END>>>
+    <framed-fragment|<verbatim|<render-key|DATA_BEGIN><em|channel>#<em|message><render-key|DATA_END>>>
   </quotation>
 
   Hier spezifiziert <verbatim|<em|channel>> einen \RAusgabe-Kanal'', an den

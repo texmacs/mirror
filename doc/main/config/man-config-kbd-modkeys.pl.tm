@@ -8,7 +8,7 @@
   <TeXmacs> korzysta z pi¦ciu klawiszy modyfikuj¡cych: <key|S->,
   <key|C->, <key|A->, <key|M-> i
   <key|H->, skracanych do <key|S->, <key|C->, <key|A->, <key|M-> i
-  <key|H->. Klawisze <key|shift> i <key|control> s¡ obecne na praktycznie
+  <key|H->. Klawisze <key|S-> i <key|control> s¡ obecne na praktycznie
   ka»dej klawiaturze, a <key|alternate> jest na prawie wszystkich. Wi¦kszo±¢
   wspóªczesnych klawiatur posiada klawisz <key|windows>, który jest zwykle
   równowa»ny klawiszowi <key|meta> dla <TeXmacs>.
@@ -17,15 +17,15 @@
   rzeczywi±cie potrzebne. Je±li dost¦pne s¡ klawisze w wygodny sposób
   pasuj¡ce do <key|S->, <key|C->, <key|A-> i
   <key|M->, to nie trzeba nic robi¢. Prawdopodobny wyj¡tek to
-  sytuacja gdy potrzeba prostego klawisza jak <key|caps-lock> do wpisywania
-  symboli matematycznych. W takim przypadku nale»y odwzorowa¢ <key|caps-lock>
+  sytuacja gdy potrzeba prostego klawisza jak <key|capslock> do wpisywania
+  symboli matematycznych. W takim przypadku nale»y odwzorowa¢ <key|capslock>
   na <key|hyper>.
 
   Niestety w X Windows konfiguracja obejmuje od razu caªy system. Zatem je±li
-  nast¡pi przedefiniowanie klawisza <key|<key-caps-lock>> wewn¡trz <TeXmacs>
+  nast¡pi przedefiniowanie klawisza <key|capslock> wewn¡trz <TeXmacs>
   to jego nowe zachowanie b¦dzie równie» w innych aplikacjach. Czyli powinno
   si¦ przestawia¢ tylko klawisze dla które nie s¡ u»ywane przez inne
-  programy. Dla przykªadu klawisz <key|<key-windows>> jest u»ywany przez
+  programy. Dla przykªadu klawisz <key|windows> jest u»ywany przez
   niewiele apliakcji, zatem jego przedefiniowanie nie powinno wyrz¡dzi¢
   szkody. Wygodniej mo»e by¢ okre±li¢ odpowiednio konfiguracj¦ caªego
   systemu. To mo»na zrobi¢ przy u»yciu polecenia <verbatim|xmodmap>;
@@ -38,11 +38,11 @@
   <menu|Edit|Preferences|Keyboard>.
 
   Na przykªad, aby zachowa¢ kompatybilno±¢ z Emacsem mo»na spermutowa¢
-  klawisz <key|M-> lub <key|<key-windows>> z <key|A->
+  klawisz <key|M-> lub <key|windows> z <key|A->
   bez zmian dla innych cz¦±ci systemu. Nale»y znale¹¢ które modyfikatory s¡
   powi¡zane z tymi klawiszami; zwykle b¦dzie to <key|Mod1> dla
   <key|A-> i <key|Mod4> dla <key|M-> lub
-  <key|<key-windows>>. Nast¦pnie zadan¡ permutacj¦ ustawia si¦ wybieraj¡c
+  <key|windows>. Nast¦pnie zadan¡ permutacj¦ ustawia si¦ wybieraj¡c
   <menu|A modifier|Równowa»ny Modulo4> i <menu|M modifier|Równowa»ny Modulo1>
   w menu <menu|Edit|Preferences|Keyboard>.
 

@@ -10,13 +10,13 @@
   words, the block
 
   <\quotation>
-    <framed-fragment|<verbatim|<key|DATA_BEGIN>command:<em|cmd><key|DATA_END>>>
+    <framed-fragment|<verbatim|<render-key|DATA_BEGIN>command:<em|cmd><render-key|DATA_END>>>
   </quotation>
 
   will send the command <verbatim|<em|cmd>> to <TeXmacs>. Such commands are
-  executed immediately after reception of <key|DATA_END>. We also recall that
+  executed immediately after reception of <render-key|DATA_END>. We also recall that
   such command blocks may be incorporated recursively in larger
-  <key|DATA_BEGIN>-<key|DATA_END> blocks.
+  <render-key|DATA_BEGIN>-<render-key|DATA_END> blocks.
 
   <paragraph|The <verbatim|menus> plug-in>
 

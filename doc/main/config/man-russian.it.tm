@@ -105,16 +105,16 @@
   O>>|<cell|<with|language|russian|font|cyrillic|œ>>>|<row|<cell|<key|z
   h>>|<cell|<with|language|russian|font|cyrillic|æ>>|<cell|<key|Z h> <key|Z
   H>>|<cell|<with|language|russian|font|cyrillic|Æ>>>|<row|<cell|<key|j
-  <expand|key-variant>>>|<cell|<with|language|russian|font|cyrillic|æ>>|<cell|<key|J
-  <expand|key-variant>>>|<cell|<with|language|russian|font|cyrillic|Æ>>>|<row|<cell|<key|c
+  var>>|<cell|<with|language|russian|font|cyrillic|æ>>|<cell|<key|J
+  var>>|<cell|<with|language|russian|font|cyrillic|Æ>>>|<row|<cell|<key|c
   h>>|<cell|<with|language|russian|font|cyrillic|÷>>|<cell|<key|C h> <key|C
   H>>|<cell|<with|language|russian|font|cyrillic|×>>>|<row|<cell|<key|s
   h>>|<cell|<with|language|russian|font|cyrillic|ø>>|<cell|<key|S h> <key|S
   H>>|<cell|<with|language|russian|font|cyrillic|Ø>>>|<row|<cell|<key|s c
   h>>|<cell|<with|language|russian|font|cyrillic|ù>>|<cell|<key|S c h> <key|S
   C H>>|<cell|<with|language|russian|font|cyrillic|Ù>>>|<row|<cell|<key|e
-  <expand|key-variant>>>|<cell|<with|language|russian|font|cyrillic|ý>>|<cell|<key|E
-  <expand|key-variant>>>|<cell|<with|language|russian|font|cyrillic|Ý>>>|<row|<cell|<key|y
+  var>>|<cell|<with|language|russian|font|cyrillic|ý>>|<cell|<key|E
+  var>>|<cell|<with|language|russian|font|cyrillic|Ý>>>|<row|<cell|<key|y
   u>>|<cell|<with|language|russian|font|cyrillic|þ>>|<cell|<key|Y u> <key|Y
   U>>|<cell|<with|language|russian|font|cyrillic|Þ>>>|<row|<cell|<key|y
   a>>|<cell|<with|language|russian|font|cyrillic|ÿ>>|<cell|<key|Y a> <key|Y

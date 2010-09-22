@@ -86,23 +86,23 @@
   similar'' Russian one. In order to get some Russian letters, you have to
   type 2- or 3-letter combinations:<vspace|0.5fn>
 
-  <big-table|<descriptive-table|<tformat|<cwith|2|11|1|1|cell-halign|l>|<cwith|2|11|2|2|cell-halign|l>|<cwith|2|11|2|2|cell-halign|c>|<cwith|2|11|4|4|cell-halign|l>|<cwith|2|11|4|4|cell-halign|c>|<table|<row|<cell|Shorthand>|<cell|for>|<cell|Shorthand(s)>|<cell|for>>|<row|<cell|<kbd-text|"
-  e>>|<cell|<with|language|russian|font|cyrillic|¼>>|<cell|<kbd-text|"
+  <big-table|<descriptive-table|<tformat|<cwith|2|11|1|1|cell-halign|l>|<cwith|2|11|2|2|cell-halign|l>|<cwith|2|11|2|2|cell-halign|c>|<cwith|2|11|4|4|cell-halign|l>|<cwith|2|11|4|4|cell-halign|c>|<table|<row|<cell|Shorthand>|<cell|for>|<cell|Shorthand(s)>|<cell|for>>|<row|<cell|<key|text "
+  e>>|<cell|<with|language|russian|font|cyrillic|¼>>|<cell|<key|text "
   E>>|<cell|<with|language|russian|font|cyrillic|œ>>>|<row|<cell|<key|y
   o>>|<cell|<with|language|russian|font|cyrillic|¼>>|<cell|<key|Y o> <key|Y
   O>>|<cell|<with|language|russian|font|cyrillic|œ>>>|<row|<cell|<key|z
   h>>|<cell|<with|language|russian|font|cyrillic|æ>>|<cell|<key|Z h> <key|Z
   H>>|<cell|<with|language|russian|font|cyrillic|Æ>>>|<row|<cell|<key|j
-  <key-variant>>>|<cell|<with|language|russian|font|cyrillic|æ>>|<cell|<key|J
-  <key-variant>>>|<cell|<with|language|russian|font|cyrillic|Æ>>>|<row|<cell|<key|c
+  var>>|<cell|<with|language|russian|font|cyrillic|æ>>|<cell|<key|J
+  var>>|<cell|<with|language|russian|font|cyrillic|Æ>>>|<row|<cell|<key|c
   h>>|<cell|<with|language|russian|font|cyrillic|÷>>|<cell|<key|C h> <key|C
   H>>|<cell|<with|language|russian|font|cyrillic|×>>>|<row|<cell|<key|s
   h>>|<cell|<with|language|russian|font|cyrillic|ø>>|<cell|<key|S h> <key|S
   H>>|<cell|<with|language|russian|font|cyrillic|Ø>>>|<row|<cell|<key|s c
   h>>|<cell|<with|language|russian|font|cyrillic|ù>>|<cell|<key|S c h> <key|S
   C H>>|<cell|<with|language|russian|font|cyrillic|Ù>>>|<row|<cell|<key|e
-  <key-variant>>>|<cell|<with|language|russian|font|cyrillic|ý>>|<cell|<key|E
-  <key-variant>>>|<cell|<with|language|russian|font|cyrillic|Ý>>>|<row|<cell|<key|y
+  var>>|<cell|<with|language|russian|font|cyrillic|ý>>|<cell|<key|E
+  var>>|<cell|<with|language|russian|font|cyrillic|Ý>>>|<row|<cell|<key|y
   u>>|<cell|<with|language|russian|font|cyrillic|þ>>|<cell|<key|Y u> <key|Y
   U>>|<cell|<with|language|russian|font|cyrillic|Þ>>>|<row|<cell|<key|y
   a>>|<cell|<with|language|russian|font|cyrillic|ÿ>>|<cell|<key|Y a> <key|Y

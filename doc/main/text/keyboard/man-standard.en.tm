@@ -13,7 +13,7 @@
     <item*|<shortcut|(remove-structure-upwards)>>remove the containing object or
     environment.
 
-    <item*|<shortcut|(make-space "0.2spc")>insert a small space.
+    <item*|<shortcut|(make-space "0.2spc")>>insert a small space.
 
     <item*|<shortcut|(make-space "-0.2spc")>>insert a small negative space.
 

@@ -9,7 +9,7 @@
   beschrieben, dass Ausgabe in Blöcke der Form
 
   <\quotation>
-    <framed-fragment|<verbatim|<key|DATA_BEGIN><em|format>:<em|message><key|DATA_END>>>
+    <framed-fragment|<verbatim|<render-key|DATA_BEGIN><em|format>:<em|message><render-key|DATA_END>>>
   </quotation>
 
   einzukapseln sind. Die Ausgabe <verbatim|<em|message>> kann rekursiv mehrer

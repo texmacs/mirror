@@ -27,12 +27,12 @@
 
   Beispielsweise steht <shortcut|(make-with font-series bold)> für <key|Mit Alt und Strg gedrückt Taste
   b>. Leerzeichen in den Tastenkombinationen stehen für mehrfache
-  Tastenanschläge. Beispielsweise steht <kbd-table|N b> für <key|M-t> <key|N>
+  Tastenanschläge. Beispielsweise steht <key|table N b> für <key|M-t> <key|N>
   <key|b>.
 
   Die Tasten <key|Alt>, <key|Meta> und <key|Hyper> sind nicht auf allen
   Tastaturen vorhanden. Auf neueren Tastaturen ist die \ <key|Meta>-Taste oft
-  durch die \ <key|<key-windows>>-Taste ersetzt worden. Wenn einer oder
+  durch die \ <key|windows>-Taste ersetzt worden. Wenn einer oder
   verschiedene Modifiziertasten auf Ihrer Tastatur fehlen können Sie die
   Escapetaste (Esc-Taste) \ <key|Esc> anstelle von <key|M-> verwenden.
   Entsprechend <key|Esc Esc> anstelle von <key|A-> und schlieÿlich eine von

@@ -9,7 +9,7 @@
   des Paddings, der Leerraum um die Zeichen in der Zelle, in alle vier
   Richtungen festlegen: links, rechts oben und unten. Dazu können sie Befehle
   aus dem Menü <menu|Table|Cell border> benutzen oder Kurzbefehle von der
-  Form <kbd-table|b <with|mode|math|x>> für die Breite und <kbd-table|p
+  Form <key|table b <with|mode|math|x>> für die Breite und <key|table p
   <with|mode|math|x>> für das Padding. Dabei kann <key|<with|mode|math|x>>
   für die folgenden Tasten stehen: <key|l> für \Rlinks'', <key|r> für
   \Rrechts'', <key|b> für \Runten'' und <key|t> für \Roben''.

@@ -12,7 +12,7 @@
   <hlink|hier|../../../devel/style/style.de.tm>.\ 
 
   Wenn man ein dynamisches Objekt, wie z.B. eine Textmarke (label) mit
-  <kbd-gen|!> einfügt, ist der Vorgabe-Zustand \R<em|inaktiv>''. In diesem
+  <key|M-!> einfügt, ist der Vorgabe-Zustand \R<em|inaktiv>''. In diesem
   inaktiven Zustand können notwendige Parameter eingegeben werden, wie in
   unserem Fall die kennzeichnende Zeichenkette. Manche dynamischen Objekte
   können eine beliebige Anzahl Parameter aufnehmen. In diesem Fall können

@@ -8,7 +8,7 @@
   Mo»na okre±li¢ szeroko±¢ brzegu i marginesu wewn¦trznego komórki we
   wszystkich czterech mo»liwych kierunkach: z lewej, z prawej, z góry i z
   doªu (patrz <menu|Table|Cell border>). Dost¦pne s¡ skróty klawiszowe w
-  formie <kbd-table|b <with|mode|math|x>> i <kbd-table|p <with|mode|math|x>>
+  formie <key|table b <with|mode|math|x>> i <key|table p <with|mode|math|x>>
   do okre±lania szeroko±ci brzegu i marginesu komórki.
 
   Domy±lnie szeroko±¢ brzegu komórki w ±rodowisku blokowym jest równy

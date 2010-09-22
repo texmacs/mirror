@@ -7,9 +7,9 @@
 
   Man kann die Änderungen, die man in einem Dokument vorgenommen hat,
   schrittweise zurücknehmen und zwar von dem Moment an, an dem Sie <TeXmacs>
-  gestartet haben. Man erreicht das mit <menu|Edit|Undo> bzw. <kbd-gen|[>
+  gestartet haben. Man erreicht das mit <menu|Edit|Undo> bzw. <key|M-[>
   oder <key|C-_>. Nach dem Zurücksetzen kann man mit Zurückkehren in den
-  ursprünglichen Zustand wieder zurück: \ <menu|Edit|Redo> oder <kbd-gen|]>.
+  ursprünglichen Zustand wieder zurück: \ <menu|Edit|Redo> oder <key|M-]>.
 
   Die Anzahl gespeicherter Änderungen ist standardmäÿig auf 100 beschränkt.
   Man kann die Zahl aber in der persönlichen Initialisierungs-Datei z.B. auf

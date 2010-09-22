@@ -28,9 +28,9 @@
   Argumenten erzeugt. Andernfalls wird unterstellt, dass es sich um eine
   Umgebungsvariable handelt, deren Wert anschlieÿend erfragt wird. \ Die
   <key|\\>-Taste ist einer der folgenden Tastenkombinationen äquivalent
-  <kbd-ia|l>, <kbd-ia|e>, <kbd-ia|a>, <kbd-ia|#> oder <kbd-ia|v>.
+  <key|inactive l>, <key|inactive e>, <key|inactive a>, <key|inactive #> oder <key|inactive v>.
 
-  Um den Buchstaben <kbd|\\> (backslash) einzufügen, können Sie <kbd-symb|\\>
+  Um den Buchstaben <kbd|\\> (backslash) einzufügen, können Sie <key|symbol \\>
   benutzen.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>

@@ -22,7 +22,7 @@
 
   Ein <em|komplexer Index-Eintrag> hat vier Argumente. Das erste ist ein
   Schlüssel, der die Sortierung angibt. Er muss ein Tupel sein und wird mit
-  <kbd-ia|\<less\>> erzeugt. Die erste Komponente des Tupels ist die
+  <key|inactive \<less\>> erzeugt. Die erste Komponente des Tupels ist die
   Haupt-Kategorie, die zweite eine Unter-Kategorie usw.. Das zweite Argument
   eines <em|komplexen Index-Eintrags> ist entweder leer oder es ist
   \Rstrong''. In diesem Fall wird der Eintrag <strong|fett> dargestellt. Das

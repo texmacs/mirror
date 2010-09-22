@@ -9,29 +9,29 @@
   following:
 
   <\description>
-    <item*|<kbd-ia|=>>creates a new assignment. The first argument is a new
+    <item*|<key|inactive =>>creates a new assignment. The first argument is a new
     command name and the second argument an expression.
 
-    <item*|<kbd-ia|w>>permits to locally change one or more environment
+    <item*|<key|inactive w>>permits to locally change one or more environment
     variables. With statements are of the form
     <with|mode|math|\<langle\>x<rsub|1>\|a<rsub|1>\|\<cdots\>\|x<rsub|n>\|a<rsub|n>\|b\<rangle\>>,
     where the <with|mode|math|x<rsub|i>> are the names of the variables, the
     <with|mode|math|a<rsub|i>> their local values, and <with|mode|math|b> the
     text on which the local environment applies.
 
-    <item*|<kbd-ia|m>>creates a macro. Arguments to the macro can be inserted
+    <item*|<key|inactive m>>creates a macro. Arguments to the macro can be inserted
     using the <key|tab>-key.
 
-    <item*|<kbd-ia|#>>get the value of a macro argument.
+    <item*|<key|inactive #>>get the value of a macro argument.
 
-    <item*|<kbd-ia|v>>get the value of an environment variable.
+    <item*|<key|inactive v>>get the value of an environment variable.
 
-    <item*|<kbd-ia|e>>expands the macro with zero or more arguments.
+    <item*|<key|inactive e>>expands the macro with zero or more arguments.
   </description>
 
   More precisely, when evaluating a macro expansion
   <with|mode|math|{a\|x<rsub|1>\|\<cdots\>\|x<rsub|n>}> created by
-  <kbd-ia|e>, the following action is undertaken:
+  <key|inactive e>, the following action is undertaken:
 
   <\itemize>
     <item>If <with|mode|math|a> is not a string nor a macro, then

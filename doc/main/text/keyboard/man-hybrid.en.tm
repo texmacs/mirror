@@ -25,11 +25,11 @@
   expansion, function application or environment application is created (with
   the right number of arguments). Otherwise, it is assumed that your command
   corresponds to an environment variable and we ask for its value. The
-  <key|\\>-key is always equivalent to one of the commands <kbd-ia|l>,
-  <kbd-ia|e>, <kbd-ia|a>, <kbd-ia|#> or <kbd-ia|v>.
+  <key|\\>-key is always equivalent to one of the commands <key|inactive l>,
+  <key|inactive e>, <key|inactive a>, <key|inactive #> or <key|inactive v>.
 
   To insert a literal <kbd|\\> (backslash) character, you can use the
-  <kbd-symb|\\> sequence.
+  <key|symbol \\> sequence.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
 

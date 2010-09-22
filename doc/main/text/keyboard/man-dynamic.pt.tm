@@ -17,7 +17,7 @@
   digite informação que é relevante ao objeto dinâmico, tal como o nome do
   rótulo, neste caso particular. Alguns objetos dinâmicos podem ter um número
   arbitrário de parâmetros, e novos parâmetros podem ser inseridos usando-se
-  a tecla <key|<expand|key-variant>>.
+  a tecla <key|var>.
 
   Ao terminar de digitar a informação relevante do objeto dinâmico, você pode
   digitar <key|return> para <em|ativar> o objeto. Um objeto
