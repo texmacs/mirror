@@ -14,15 +14,15 @@
   benutzt:\ 
 
   <\description>
-    <item*|<key|S->>Mit gedrückt gehaltener Umschalttaste
+    <item*|<prefix|S->>Mit gedrückt gehaltener Umschalttaste
 
-    <item*|<key|C->>Mit gedrückt gehaltener Control/Steuerung-Taste
+    <item*|<prefix|C->>Mit gedrückt gehaltener Control/Steuerung-Taste
 
-    <item*|<verbatim|><key|A->>Mit gedrückt gehaltener Alt-Taste
+    <item*|<verbatim|><prefix|A->>Mit gedrückt gehaltener Alt-Taste
 
-    <item*|<key|M->>Mit gedrückt gehaltener Meta-Taste
+    <item*|<prefix|M->>Mit gedrückt gehaltener Meta-Taste
 
-    <item*|<key|H->>Mit gedrückt gehaltener Hyper-Taste
+    <item*|<prefix|H->>Mit gedrückt gehaltener Hyper-Taste
   </description>
 
   Beispielsweise steht <shortcut|(make-with font-series bold)> für <key|Mit Alt und Strg gedrückt Taste
@@ -34,10 +34,10 @@
   Tastaturen vorhanden. Auf neueren Tastaturen ist die \ <key|Meta>-Taste oft
   durch die \ <key|windows>-Taste ersetzt worden. Wenn einer oder
   verschiedene Modifiziertasten auf Ihrer Tastatur fehlen können Sie die
-  Escapetaste (Esc-Taste) \ <key|Esc> anstelle von <key|M-> verwenden.
-  Entsprechend <key|Esc Esc> anstelle von <key|A-> und schlieÿlich eine von
-  den drei Kombinationen <shortcut|math:greek>, <key|Esc Esc Esc> oder <key|A-C-> anstelle
-  von <key|H->. Beispielsweise ist \ <key|Esc w> äquivalent zu <key|A-w>. Um
+  Escapetaste (Esc-Taste) \ <key|Esc> anstelle von <prefix|M-> verwenden.
+  Entsprechend <key|Esc Esc> anstelle von <prefix|A-> und schlieÿlich eine von
+  den drei Kombinationen <prefix|math:greek>, <key|Esc Esc Esc> oder <prefix|A-C-> anstelle
+  von <prefix|H->. Beispielsweise ist \ <key|Esc w> äquivalent zu <key|A-w>. Um
   die vollen Vorteile der <TeXmacs>-Kurzbefehle nutzen zu können, können Sie
   auch die Modifiziertasten umkonfigurieren. Wie das geht, ist
   <hyper-link|hier |../config/man-config-kbd-modkeys.de.tm>beschrieben.

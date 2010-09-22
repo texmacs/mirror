@@ -7,8 +7,8 @@
 
   <apply|TeXmacs> utilise 5 touches spéciales : <key|majuscule temporaire>,
   <key|ctrl>, <key|alt>, <key|meta> et <key|hyper>, dont les abréviations
-  seront les suivantes dans ce guide : <key|S->, <key|C->, <key|A->, <key|M->
-  et <key|H->. Les touches <key|majuscule temporaire> et <key|ctrl> sont
+  seront les suivantes dans ce guide : <prefix|S->, <prefix|C->, <prefix|A->, <prefix|M->
+  et <prefix|H->. Les touches <key|majuscule temporaire> et <key|ctrl> sont
   présentes sur tous les claviers et la touche <key|alt> sur la plupart
   d'entre eux. La majorité des claviers des PC récents ont aussi une touche
   <key|windows>, qui est l'équivalent de la touche <key|meta> de <TeXmacs>.
@@ -45,7 +45,7 @@
   Dans certains cas, votre clavier possède les touches <key|alt>, <key|meta>
   et <key|hyper>, mais leur fonctionnement ne vous convient pas. Vous pouvez
   alors changer leur comportement en faisant correspondre les touches
-  <key|A->, <key|M-> et <key|H-> à d'autres touches logiques dans le premier
+  <prefix|A->, <prefix|M-> et <prefix|H-> à d'autres touches logiques dans le premier
   groupe de sous-menus du menu <apply|menu|Edit|Preferences|Keyboard>.
 
   Par exemple et pour des raisons de compatibilité avec Emacs, vous pouvez

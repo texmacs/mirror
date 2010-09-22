@@ -12,33 +12,33 @@
   are:
 
   <\description>
-    <item*|<key|C->>Control key based shortcuts are used
+    <item*|<prefix|C->>Control key based shortcuts are used
     for frequently used editing commands. They depend very much on the ``look
     and feel'' in <menu|Edit|Preferences>. For instance, if you use an
     <name|Emacs>-compatible look and feel, then the shortcuts of the form
-    <key|C-> correspond to <name|Emacs> commands, like
+    <prefix|C-> correspond to <name|Emacs> commands, like
     <key|C-y> for pasting text.
 
-    <item*|<key|A->>The alternate key is used for commands
+    <item*|<prefix|A->>The alternate key is used for commands
     which depend on the mode that you are in. For instance, <key|text s>
     produces <strong|strong> text in text mode and a square root
     <with|mode|math|<sqrt|>> in math mode. Notice that <key|escape
-    escape> is equivalent to <key|A->.
+    escape> is equivalent to <prefix|A->.
 
-    <item*|<key|M->>The meta key is used for general
+    <item*|<prefix|M->>The meta key is used for general
     purpose <TeXmacs> commands, which can be used in all modes. For instance,
     <key|M-!> produces a label. It is also used for additional editing
     commands, like <key|A-w> for copying text if you use the <name|Emacs>
-    look and feel. Notice that <key|escape> is equivalent to <key|M->.
+    look and feel. Notice that <key|escape> is equivalent to <prefix|M->.
 
-    <item*|<key|H->>The user keyboard modifier key is used
+    <item*|<prefix|H->>The user keyboard modifier key is used
     for producing special symbols like Greek characters in math mode. You may
     configure your keyboard so as to let <key|capslock> play the rôle of the hyper
-    key. The <shortcut|math:greek> is equivalent to <key|H->.
+    key. The <prefix|math:greek> is equivalent to <prefix|H->.
   </description>
 
   We recall that the particular modifier keys which are used in order to
-  obtain the <key|M-> and <key|H-> prefixes can be
+  obtain the <prefix|M-> and <prefix|H-> prefixes can be
   <hyper-link|configured|../../config/man-config-kbd-modkeys.en.tm> in
   <menu|Edit|Preferences>.
 

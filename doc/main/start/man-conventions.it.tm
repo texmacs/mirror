@@ -14,18 +14,18 @@
   combinazioni si utilizzano le abbreviazioni seguenti:
 
   <\description>
-    <expand|item*|<key|S->>Per le combinazioni che includono il tasto shift
+    <expand|item*|<prefix|S->>Per le combinazioni che includono il tasto shift
     (Maius).
 
-    <expand|item*|<key|C->>Per le combinazioni che includono il tasto control
+    <expand|item*|<prefix|C->>Per le combinazioni che includono il tasto control
     (Ctrl).
 
-    <expand|item*|<verbatim|><key|A->>Per le combinazioni che includono il
+    <expand|item*|<verbatim|><prefix|A->>Per le combinazioni che includono il
     tasto alternate (Alt).
 
-    <expand|item*|<key|M->>Per le combinazioni che includono il tasto meta.
+    <expand|item*|<prefix|M->>Per le combinazioni che includono il tasto meta.
 
-    <expand|item*|<key|H->>Per le combinazioni che includono il tasto hyper.
+    <expand|item*|<prefix|H->>Per le combinazioni che includono il tasto hyper.
   </description>
 
   Per esempio, <shortcut|(make-with font-series bold)> rappresenta <key|A--C--b>.
@@ -34,15 +34,15 @@
   <expand|kbd-table|N b> rappresenta <key|M--t> <key|N>
   <key|b>.
 
-  I tasti <key|A->, <key|M-> e
-  <key|H-> non sono disponibili su tutte le tastiere. Sui PC
-  recenti, il tasto <key|M-> è spesso sostituito con il tasto
+  I tasti <prefix|A->, <prefix|M-> e
+  <prefix|H-> non sono disponibili su tutte le tastiere. Sui PC
+  recenti, il tasto <prefix|M-> è spesso sostituito con il tasto
   <key|windows>. Nel caso in cui uno o più dei tasti
   modificatori non siano presenti sulla propria tastiera, si può utilizzare
-  <key|escape> invece di <key|M->, <key|escape
-  escape> invece di <key|A-> e <shortcut|math:greek>,
+  <key|escape> invece di <prefix|M->, <key|escape
+  escape> invece di <prefix|A-> e <prefix|math:greek>,
   <key|escape escape escape> o
-  <key|A-C-> invece di <key|H->. Per esempio, <key|escape w> è
+  <prefix|A-C-> invece di <prefix|H->. Per esempio, <key|escape w> è
   equivalente a <key|A-w>. È anche possibile <apply|hyper-link|configurare i
   tasti modificatori|../config/man-config-kbd-modkeys.it.tm> in modo da
   ottenere il massimo vantaggio dal potente insieme di abbreviazioni da

@@ -14,7 +14,7 @@
 
   Also, <apply|TeXmacs> comes with a powerful keyboard shortcut system, which
   attempts to optimize the use of the modifier keys like
-  <key|S-> and <key|C-> on your
+  <prefix|S-> and <prefix|C-> on your
   keyboard. However, on certain systems these modifier keys are not well
   configured, so that you may wish to redo this yourself.
 

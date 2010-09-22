@@ -10,8 +10,8 @@
   ou en insérant une équation (avec <apply|menu|Text|Mathematics|Equation>).
   En mode maths, il existe des commandes spécifiques et des raccourcis pour
   saisir des symboles et des formules mathématiques. Par exemple, le préfixe
-  <key|H-> permet de saisir des symboles grecs (rappelez-vous que <key|H->
-  est équivalent à <shortcut|math:greek>, <key|escape escape escape> ou <key|A-C->).
+  <prefix|H-> permet de saisir des symboles grecs (rappelez-vous que <prefix|H->
+  est équivalent à <prefix|math:greek>, <key|escape escape escape> ou <prefix|A-C->).
 
   L'éditeur traduit les formules selon certaines règles. Cette
   caractéristique, qui sera développée dans les versions suivantes, est utile

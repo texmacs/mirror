@@ -12,40 +12,40 @@
   gleichen Modifiziertaste. Die wichtigsten dieser Tasten sind die folgenden:\ 
 
   <\description>
-    <item*|<key|C->>Dies ist die Steuerungstaste
+    <item*|<prefix|C->>Dies ist die Steuerungstaste
     <key|<with|mode|math|Strg>> auf manchen (englischen) Tastaturen auch mit
     <key|<with|mode|math|Ctrl>> beschriftet. Kurzbefehle auf Basis der
     Steuerungstaste werden für häufig benutzte Editorbefehle benutzt. Es
     hängt von den Einstellungen im Menü <menu|Edit|Preferences|Look and feel>
     ab, welche Kurzbefehle in einzelnen zur Verfügung stehen. Wenn Sie
     beispielsweise <em|Emacs> gewählt haben, dann entsprechen Kurzbefehle der
-    Form <key|C-> <name|Emacs>-Kurzbefehlen, z.B. <key|C-y>
+    Form <prefix|C-> <name|Emacs>-Kurzbefehlen, z.B. <key|C-y>
     dem Befehl <em|Text einfügen>.
 
-    <item*|<key|A->>Die <key|Alt>-Taste wird für Befehle
+    <item*|<prefix|A->>Die <key|Alt>-Taste wird für Befehle
     verwendet, die davon abhängen, in welchem Modus Sie sich gerade befinden.
     Beispielsweise erzeugt <key|text s> <strong|fetten> Text im Textmodus
     aber das Quadratwurzel-Zeichen im Mathematik-Modus. Beachten Sie bitte,
     dass zweimaliges Tippen der <key|Esc>-Taste, also <key|escape
-    escape> die gleiche Funktion wie <key|A-> hat.
+    escape> die gleiche Funktion wie <prefix|A-> hat.
 
-    <item*|<key|M->>Die Meta-Taste wird für allgemeine
+    <item*|<prefix|M->>Die Meta-Taste wird für allgemeine
     <TeXmacs>-Befehle genutzt, die in allen möglichen Moden verwendet werden
     können. Beispielsweise erzeugt <key|M-!> ein Kennzeichen (label). Diese
     Taste wird auch für zusätzliche Editierbefehle genutzt, wenn die
     Einstellungen in <menu|Edit|Preferences|Look and feel> dies vorsehen.
     Beachten Sie bitte, dass einmaliges Tippen der <key|Esc>-Taste, also
-    <key|escape>, \ gleichbedeutend ist mit <key|M->.
+    <key|escape>, \ gleichbedeutend ist mit <prefix|M->.
 
-    <item*|<key|H->>Diese Modifiziertaste wird zur
+    <item*|<prefix|H->>Diese Modifiziertaste wird zur
     Erzeugung spezieller Symbole, wie z.B. griechischer Buchstaben, benutzt.
     Sie können Ihre Tastatur so konfigurieren, dass die Hochstelltaste die
     Rolle der Hypertaste spielt (<menu|Edit|Preferences|Keyboard>). Die Taste
-    <shortcut|math:greek> ist der Taste \ <key|H-> äquivalent.
+    <prefix|math:greek> ist der Taste \ <prefix|H-> äquivalent.
   </description>
 
   Es sei daran erinnert, dass die Modifiziertasten, die zur Erzeugung von
-  <key|M-> und <key|H-> benutzt werden, im Menü
+  <prefix|M-> und <prefix|H-> benutzt werden, im Menü
   <menu|Edit|Preferences|Keyboard> <hyper-link|konfiguriert|../../config/man-config-kbd-modkeys.en.tm>
   werden können.
 

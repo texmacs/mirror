@@ -38,7 +38,7 @@
 
   This means that the keyboard mode is toggled by <key|<localize|l-shift>
   <localize|r-shift>>. Other popular choices are <key|C-
-  S-> or <key|C- A->, see
+  S-> or <prefix|A-C->, see
   <with|font-family|tt|/usr/X11R6/lib/X11/xkb/> for more details. This is the
   preferred keyboard setup for modern Linux systems, if you plan to use
   Russian often.
@@ -129,11 +129,11 @@
   the yawerty layout, where the keys ``qwerty'' produce
   ``<with|language|russian|font|cyrillic|яверты''. Each Latin letter is
   mapped into a ``similar'' Russian one; some additional Russian letters are
-  produced by ><key|S->-digits. <TeXmacs> comes with a slightly
+  produced by ><prefix|S->-digits. <TeXmacs> comes with a slightly
   modified yawerty layout, because it does not redefine the keys <key|$>,
   <key|ї>, <key|<with|mode|math|\<backslash\>>>, which are important for
   <TeXmacs>, are not redefined. The corresponding Russian letters are
-  produced by some <key|S->-digit combinations instead.
+  produced by some <prefix|S->-digit combinations instead.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
 

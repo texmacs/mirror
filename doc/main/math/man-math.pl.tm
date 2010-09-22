@@ -31,8 +31,8 @@
 
   W trybie matematycznym, dost¦pne s¡ specyficzne komendy i skróty klawiszowe
   do wpisywania matematycznych symboli i wzorów. Na przykªad, prefiks
-  <key|H-> mo»e by¢ u»yty do wprowadzania symboli greckich (zauwa» i»
-  <key|H-> jest równowa»ne <shortcut|math:greek>, <key|escape escape escape> lub
+  <prefix|H-> mo»e by¢ u»yty do wprowadzania symboli greckich (zauwa» i»
+  <prefix|H-> jest równowa»ne <prefix|math:greek>, <key|escape escape escape> lub
   <key|A-C>).
 
   Odgadywanie przez program znaczenia b¦dzie rozwijane w przyszªych wersjach.

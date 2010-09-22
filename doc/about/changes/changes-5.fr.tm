@@ -9,20 +9,20 @@
   liste des changements majeurs :
 
   <\itemize>
-    <item>Le préfixe <key|E-> devient <key|M->.
+    <item>Le préfixe <key|E-> devient <prefix|M->.
 
-    <item><key|escape> est équivalent à <key|M-> et <key|escape>-<key|escape>
-    à <key|A->.
+    <item><key|escape> est équivalent à <prefix|M-> et <key|escape>-<key|escape>
+    à <prefix|A->.
 
     <item>Les commandes dépendantes du mode ont maintenant pour préfixe
-    <key|A->. Par exemple, on obtient les accents avec <key|A-> au lieu de
+    <prefix|A->. Par exemple, on obtient les accents avec <prefix|A-> au lieu de
     <key|E->.
 
     <item>Les variantes sont accessibles avec <key|tab> au lieu de
     <key|<with|mode|math|\<ast\>>> et on peut revenir en arrière avec
     <key|majuscule temporaire-tab>.
 
-    <item>Les caractères grecs sont accessibles avec <key|A-C->, <shortcut|math:greek> ou
+    <item>Les caractères grecs sont accessibles avec <prefix|A-C->, <prefix|math:greek> ou
     la touche hyper, qui peut être configurée avec
     <samp|Éditer><with|mode|math|\<rightarrow\>><samp|Préférences>. On peut
     aussi les saisir comme variantes de caractères latins. Par exemple,

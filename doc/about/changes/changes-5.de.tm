@@ -9,20 +9,20 @@
   Liste de wichtigsten Änderungen:
 
   <\itemize>
-    <item>Der <key|E->-Präfix wurde in <key|M-> umbenannt.
+    <item>Der <key|E->-Präfix wurde in <prefix|M-> umbenannt.
 
-    <item><key|escape> ist äquivalent zu <key|M-> und
-    <key|escape>-<key|escape> zu <key|A->.
+    <item><key|escape> ist äquivalent zu <prefix|M-> und
+    <key|escape>-<key|escape> zu <prefix|A->.
 
-    <item>Modus-abhängige Kurzbefehle werden jetzt mit <key|A-> eingeleitet.
-    Insbesondere benutzen Akzente jetzt <key|A-> anstatt <key|E->.
+    <item>Modus-abhängige Kurzbefehle werden jetzt mit <prefix|A-> eingeleitet.
+    Insbesondere benutzen Akzente jetzt <prefix|A-> anstatt <key|E->.
 
     <item>Varianten erhält man mit <key|tab> anstelle von
     <key|<with|mode|math|\<ast\>>> und man kann zurückkehren mit
     <key|S-tab>.
 
-    <item>Griechische Buchstaben erhält man mit <key|A-C->, <shortcut|math:greek>, oder
-    Hyper <key|H->, der in <menu|Edit|Preferences> konfiguriert werden kann.
+    <item>Griechische Buchstaben erhält man mit <prefix|A-C->, <prefix|math:greek>, oder
+    Hyper <prefix|H->, der in <menu|Edit|Preferences> konfiguriert werden kann.
     Im Mathematik-Modus kann man griechische Buchstaben auch als Variante von
     lateinischen Buchstaben erhalten, z.B. liefert <key|p tab>
     \ <with|mode|math|\<pi\>>.

@@ -9,13 +9,13 @@
   razionale. I cambiamenti maggiori sono stati i seguenti:
 
   <\itemize>
-    <item>Il prefisso <key|E-> è stato rinominato <key|M->.
+    <item>Il prefisso <key|E-> è stato rinominato <prefix|M->.
 
-    <item><key|escape> è equivalente a <key|M-> e <key|escape>-<key|escape> a
-    <key|A->.
+    <item><key|escape> è equivalente a <prefix|M-> e <key|escape>-<key|escape> a
+    <prefix|A->.
 
-    <item>I comandi dipendenti da Modo hanno come prefisso <key|A->. In
-    particolare gli accenti vengono editati utilizzando <key|A-> al posto di
+    <item>I comandi dipendenti da Modo hanno come prefisso <prefix|A->. In
+    particolare gli accenti vengono editati utilizzando <prefix|A-> al posto di
     <key|E->.
 
     <item>Le mutazioni di carattere si ottengono utilizzando <key|tab> al
@@ -23,7 +23,7 @@
     all'indietro usando <key|S-tab>.
 
     <item>Le lettere dell'alfabeto greco vengono scritte utilizzando
-    <key|A-C->, <shortcut|math:greek>, o il tasto modificatore iper configurabile in
+    <prefix|A-C->, <prefix|math:greek>, o il tasto modificatore iper configurabile in
     <samp|Edit><with|mode|math|\<rightarrow\>><samp|Preferences>. Le lettere
     dell'alfabeto greco possono essere ottenute come mutazioni delle lettere
     dell'alfabeto latino. Ad esempio digitando <key|p tab> si ottiene

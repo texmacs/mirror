@@ -6,12 +6,12 @@
   <expand|tmdoc-title|Digitando símbolos matemáticos>
 
   Letras gregas são inseridas no <apply|TeXmacs> através da combinação da
-  tecla modificadora hiper <key|H-> com uma letra. Por exemplo, <key|H-a>
+  tecla modificadora hiper <prefix|H-> com uma letra. Por exemplo, <key|H-a>
   gera <with|mode|math|\<alpha\>> e <key|H-G> produz
   <with|mode|math|\<Gamma\>>. <apply|hyper-link|Lembre-se|../../start/man-conventions.pt.tm>
-  que a tecla <shortcut|math:greek> é equivalente a <key|H->, de forma que
+  que a tecla <prefix|math:greek> é equivalente a <prefix|H->, de forma que
   <with|mode|math|\<rho\>> pode ser obtido também com <key|F5 r>. De forma
-  análoga, <shortcut|math:bold>, <shortcut|math:cal>, <shortcut|math:frak> e <shortcut|math:bbb> podem ser usados para
+  análoga, <prefix|math:bold>, <prefix|math:cal>, <prefix|math:frak> e <prefix|math:bbb> podem ser usados para
   inserir caracteres em negrito, caligráficos, fraktur e blackboard bold. Por
   exemplo, <shortcut|\<frak-m\>> produz <with|mode|math|\<frak-m\>>, <key|S-F6 R> produz
   <format|no line break><with|mode|math|\<bbb-R\>> e <shortcut|\<b-calZ\>> produz
@@ -68,7 +68,7 @@
   </description>
 
   Vários outros símbolos que não podem ser inseridos naturalmente como
-  descrito acima, podem ser obtidos usando o prefixo <shortcut|symbol>. A tabela
+  descrito acima, podem ser obtidos usando o prefixo <prefix|symbol>. A tabela
   abaixo mostra alguns destes símbolos:
 
   <expand|big-table|<expand|descriptive-table|<tformat|<cwith|1|-1|2|2|cell

@@ -17,8 +17,8 @@
   <menu|Source>-Menü, wenn Sie sich im Quellmodus befinden. Sie können sie
   auch im Textmodus erreichen über die Menüs <menu|Insert|Macro> und
   <menu|Insert|Executable>. Alternativ können Sie im Quellmodus auch die
-  Tastenkombination mit <key|A-> und <key|M-e > benutzen bzw. in den anderen
-  Moden mit <key|M-i > und <key|M-e >. Schlieÿlich erinnern wir daran, dass
+  Tastenkombination mit <prefix|A-> und <prefix|executable> benutzen bzw. in den anderen
+  Moden mit <prefix|inactive> und <prefix|executable>. Schlieÿlich erinnern wir daran, dass
   die <key|\\>-Taste benutzt werden kann, um kontextabhängig Makros oder
   Argumente zu erzeugen und dass <shortcut|(structured-insert #t)> und <shortcut|(structured-insert #f)>
   \ Argumente einfügen.

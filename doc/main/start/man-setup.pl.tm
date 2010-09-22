@@ -16,7 +16,7 @@
   Domy±lnie u»ywany jest <name|Emacs>, który zapewnia ograniczon¡
   kompatybilno±¢ skrótów klawiszowych z tymi w <name|Emacs>. Ponadto
   <TeXmacs> posiada wªasny pot¦»ny zestaw skrótów, który optymalizuje u»ycie
-  klawiszy modyfikuj¡cych takich jak <key|S-> czy <key|control>. Jednak w
+  klawiszy modyfikuj¡cych takich jak <prefix|S-> czy <key|control>. Jednak w
   wielu systemach X Window te klawisze nie s¡ najlepiej ustawione, zatem mo»e
   zachodzi¢ konieczno±¢ dostosowania. Wi¦cej szczegóªów mo»na znale¹¢ w
   cz¦±ci <hyper-link|ustawianie <TeXmacs>|../config/man-configuration.pl.tm>.

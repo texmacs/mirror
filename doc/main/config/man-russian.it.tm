@@ -41,7 +41,7 @@
   Questo significa che la modalità della tastiera può essere modificata
   attraverso <key|<apply|localize|l-shift> <apply|localize|r-shift>>. Altre
   scelte diffuse sono <key|C- S-> o
-  <key|C- A->, si veda <with|font
+  <prefix|A-C->, si veda <with|font
   family|tt|/usr/X11R6/lib/X11/xkb/> per ulteriori dettagli. Questo è il
   settaggio migliore per sistemi Linux moderni e nel caso in cui sia
   prevedibile un uso intensivo della lingua russa.
@@ -141,12 +141,12 @@
   preferiscono l'impaginazione yawertyin cui il tasto ``qwerty'' produce
   ``<with|language|russian|font|cyrillic|ÿâåðòû''>. Anche qui ogni lettera
   latina viene mappata in una russa "simile", mentre altre lettere russe
-  vengono prodotte con il tasto <key|S->-lettera. In
+  vengono prodotte con il tasto <prefix|S->-lettera. In
   <apply|TeXmacs> yawerty viene implementato in modo un pò diverso in quanto,
   per convenienza, non vengono ridefiniti i tasti <key|$>, <key|¿>,
   <key|<with|mode|math|\<backslash\>>>. Le corrispondenti lettere russe
   vengono prodotte utilizzando una combinazione del tipo
-  <key|S->-lettera.
+  <prefix|S->-lettera.
 
   <apply|tmdoc-copyright|1998--2003|Joris van der Hoeven, Andrea Centomo>
 

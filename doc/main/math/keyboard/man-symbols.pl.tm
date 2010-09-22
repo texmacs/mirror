@@ -6,12 +6,12 @@
   <tmdoc-title|Wprowadzanie symboli matematycznych>
 
   Grecki alfabet jest uzyskiwany w <TeXmacs> poprzez ª¡czenie modyfikatora
-  hyper'' <key|H-> z liter¡. Na <no-break>przykªad, <key|H-a> daje
+  hyper'' <prefix|H-> z liter¡. Na <no-break>przykªad, <key|H-a> daje
   <with|mode|math|\<alpha\>> a <key|H-G> <with|mode|math|\<Gamma\>>. Jak to
-  <hyper-link|wcze±niej|../../start/man-conventions.pl.tm> napisano <shortcut|math:greek>
-  jest równowa»ny z <key|H->, zatem <with|mode|math|\<rho\>> mo»e by¢ równie»
-  uzyskane jako <key|F5 r>. Dodatkowo <shortcut|math:bold>, <shortcut|math:cal>, <shortcut|math:frak> i
-  <shortcut|math:bbb> mog¡ by¢ u»yte do wpisania: znaku pogrubionego, kaligraficznego,
+  <hyper-link|wcze±niej|../../start/man-conventions.pl.tm> napisano <prefix|math:greek>
+  jest równowa»ny z <prefix|H->, zatem <with|mode|math|\<rho\>> mo»e by¢ równie»
+  uzyskane jako <key|F5 r>. Dodatkowo <prefix|math:bold>, <prefix|math:cal>, <prefix|math:frak> i
+  <prefix|math:bbb> mog¡ by¢ u»yte do wpisania: znaku pogrubionego, kaligraficznego,
   fraktur i blackboard odpowiednio. Na przykªad, <shortcut|\<frak-m\>> daje
   <with|mode|math|\<frak-m\>>, <key|S-F6 R> to <with|mode|math|\<bbb-R\>> a
   <shortcut|\<b-calZ\>> oznacza <with|mode|math|\<b-cal-Z\>>. Niestety aby uzyska¢
@@ -63,7 +63,7 @@
   </description>
 
   Par¦ symboli, które nie mog¡ by¢ wprowadzone naturalnie powy»szymi metodami
-  jest uzyskiwanych poprzez prefiks <shortcut|symbol>. Poni»ej krótka tabelka takich
+  jest uzyskiwanych poprzez prefiks <prefix|symbol>. Poni»ej krótka tabelka takich
   znaków:
 
   <big-table|<descriptive-table|<tformat|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<cwith|1|-1|2|2|cell-rborder|1ln>|<table|<row|<cell|Skrót>|<cell|Symbol>|<cell|Skrót>|<cell|Symbol>>|<row|<cell|<key|symbol a>>|<cell|<with|mode|math|\<amalg\>>>|<cell|>|<cell|>>|<row|<cell|<key|symbol n>>|<cell|<with|mode|math|\<cap\>>>|<cell|<key|symbol u>>|<cell|<with|mode|math|\<cup\>>>>|<row|<cell|<key|symbol v>>|<cell|<with|mode|math|\<vee\>>>|<cell|<key|symbol w>>|<cell|<with|mode|math|\<wedge\>>>>>>>|Niektóre

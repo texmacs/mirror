@@ -13,7 +13,7 @@
   bestimmten anderen Anwendungen ähnlicher.
 
   <TeXmacs> besitzt ein mächtiges System von Kurzbefehlen, das die Benutzung
-  von Modifiziertasten wie <key|S->- und <key|Strg>-Tasten zu
+  von Modifiziertasten wie <prefix|S->- und <key|Strg>-Tasten zu
   optimieren versucht. Manchmal sind die Modifiziertasten aber schlecht
   konfiguriert, so dass Sie das vielleicht selbst ändern müssen.
 

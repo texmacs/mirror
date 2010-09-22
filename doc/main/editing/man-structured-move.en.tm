@@ -17,7 +17,7 @@
   </enumerate>
 
   Most keyboard shortcuts for structured cursor movements can be used in
-  combination with the<nbsp><key|S->-key so as to similtaneously
+  combination with the<nbsp><prefix|S->-key so as to similtaneously
   select text while moving around.
 
   <todo|customizing the behaviour>
@@ -54,10 +54,10 @@
 
   It is also possible to quickly move inside the innermost tag without
   quitting it, using <key|H-left>, <key|H-right>, etc. We recall
-  that the <key|H-> prefix corresponds to the <key|hyper>-key, which does not
-  exist on most keyboards. In order to compose <key|H->-based shortcuts, you
+  that the <prefix|H-> prefix corresponds to the <key|hyper>-key, which does not
+  exist on most keyboards. In order to compose <prefix|H->-based shortcuts, you
   may either <hyper-link|configure your keyboard|../config/man-config-kbd-modkeys.en.tm>
-  so as to map another key to <key|H->, or simulate the hyper key using
+  so as to map another key to <prefix|H->, or simulate the hyper key using
   <key|escape escape escape> or <key|C-escape>.
 
   In general, <key|H-left>, <key|H-right>, <key|H-home> and

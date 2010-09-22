@@ -13,30 +13,30 @@
     <item*|<key|C-<with|mode|math|x><em|>>>Skróty bazuj¡ce na klawiszu
     Control najcz¦±ciej s¡ u»ywane dla polece« edycyjnych. Zale»¡ one od
     ustawienia opcji Wygl¡d'' w <menu|Edytuj|Ustawienia>. Dla przykªadu
-    je±li u»ywasz wygl¡du <name|Emacs> to skróty <key|C->
+    je±li u»ywasz wygl¡du <name|Emacs> to skróty <prefix|C->
     odpowiadaj¡ tym z <name|Emacs>, zatem <key|C-y> wkleja tekst z bufora.
 
-    <item*|<key|A->>Klawisz Alternate jest u»ywany przy
+    <item*|<prefix|A->>Klawisz Alternate jest u»ywany przy
     poleceniach które zale»¡ od trybu w jakim si¦ znajdujesz. Na przykªad
     <shortcut|(make-sqrt)> daje <strong|mocny> tekst w trybie tekstowym i pierwiastek
     kwadratowy <no-break><with|mode|math|<sqrt|>> w trybie matematycznym.
-    <key|escape escape> jest równowa»ne <key|A->.
+    <key|escape escape> jest równowa»ne <prefix|A->.
 
-    <item*|<key|M->>Klawisz meta jest klawiszem dla polece«
+    <item*|<prefix|M->>Klawisz meta jest klawiszem dla polece«
     <TeXmacs> ogólnego przeznaczenia, wspólnych dla wszystkich trybów. Dla
     przykªadu <key|M-!> tworzy etykiet¦. Jest równie» u»ywany dla dodatkowych
     polece« edytorskich, jak <key|M-w> dla kopiowania tekstu, je±li ustawiony
-    jest wygl¡d <name|Emacs>. <key|escape> jest równowa»ny <key|M->.
+    jest wygl¡d <name|Emacs>. <key|escape> jest równowa»ny <prefix|M->.
 
-    <item*|<key|H->>Zdefiniowany przez u»ytkownika klawisz
+    <item*|<prefix|H->>Zdefiniowany przez u»ytkownika klawisz
     modyfikuj¡cy jest u»ywany do tworzenia symboli specjalnych jak litery
     greckie w trybie matematycznym. Mo»na skonfigurowa¢ klawiatur¦ tak aby
-    <key|capslock> peªniª funkcj¦ klawisza hyper. <shortcut|math:greek> jest równowa»ne
-    <key|H->.
+    <key|capslock> peªniª funkcj¦ klawisza hyper. <prefix|math:greek> jest równowa»ne
+    <prefix|H->.
   </description>
 
-  Konkretne klawisze które mog¡ by¢ u»yte do otrzymania prefiksów <key|M-> i
-  <key|H-> mo»na <hyper-link|ustawi¢|../../config/man-config-kbd-modkeys.pl.tm>
+  Konkretne klawisze które mog¡ by¢ u»yte do otrzymania prefiksów <prefix|M-> i
+  <prefix|H-> mo»na <hyper-link|ustawi¢|../../config/man-config-kbd-modkeys.pl.tm>
   poprzez <menu|Edit|Preferences>.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>

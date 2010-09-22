@@ -15,16 +15,16 @@
   usadas para estes atalhos:
 
   <\description>
-    <expand|item*|<key|S->>Para combinações precedidas pela tecla shift.
+    <expand|item*|<prefix|S->>Para combinações precedidas pela tecla shift.
 
-    <expand|item*|<key|C->>Para combinações precedidas pela tecla control.
+    <expand|item*|<prefix|C->>Para combinações precedidas pela tecla control.
 
-    <expand|item*|<verbatim|><key|A->>Para combinações precedidas pela tecla
+    <expand|item*|<verbatim|><prefix|A->>Para combinações precedidas pela tecla
     alt.
 
-    <expand|item*|<key|M->>Para combinações precedidas pela tecla meta.
+    <expand|item*|<prefix|M->>Para combinações precedidas pela tecla meta.
 
-    <expand|item*|<key|H->>Para combinações precedidas pela tecla hyper.
+    <expand|item*|<prefix|H->>Para combinações precedidas pela tecla hyper.
   </description>
 
   Por exemplo, <shortcut|(make-with font-series bold)> significa <key|A--C--b>.
@@ -32,15 +32,15 @@
   teclas individualmente. Por exemplo, <expand|kbd-table|N b> significa
   <key|M--t> <key|N> <key|b>.
 
-  As teclas <key|A->, <key|M-> e
-  <key|H-> não estão disponíveis em todos os teclados. Em
-  computadores pessoais atuais, a tecla <key|M-> em geral é
+  As teclas <prefix|A->, <prefix|M-> e
+  <prefix|H-> não estão disponíveis em todos os teclados. Em
+  computadores pessoais atuais, a tecla <prefix|M-> em geral é
   substituida pela tecla <key|windows>. Quando uma ou mais
   teclas modificadores não existem no seu teclado, você pode usar
-  <key|escape> ao invés de <key|M->, <key|escape
-  escape> no lugar de <key|A-> e <shortcut|math:greek>,
+  <key|escape> ao invés de <prefix|M->, <key|escape
+  escape> no lugar de <prefix|A-> e <prefix|math:greek>,
   <key|escape escape escape> ou
-  <key|A-C-> no lugar de <key|H->. Por exemplo, <key|escape w>
+  <prefix|A-C-> no lugar de <prefix|H->. Por exemplo, <key|escape w>
   equivale a <key|A-w>. Você pode também <apply|hyper-link|configurar as
   teclas modificadoras|../config/man-config-kbd-modkeys.pt.tm> para
   aproveitar completamente o poderoso conjunto de atalhos de teclado que é

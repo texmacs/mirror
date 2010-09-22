@@ -6,12 +6,12 @@
   <expand|tmdoc-title|Simboli matematici>
 
   In <TeXmacs>, i caratteri greci si ottengono combinando il tasto
-  modificatore <key|H-> con una lettera. Per esempio, <key|H-a> genera
+  modificatore <prefix|H-> con una lettera. Per esempio, <key|H-a> genera
   <with|mode|math|\<alpha\>> e <key|H-G> genera <with|mode|math|\<Gamma\>>.
   <apply|hyper-link|Ricordiamo|../../start/man-conventions.it.tm> che il
-  tasto <shortcut|math:greek> è equivalente a <key|H->, quindi <with|mode|math|\<rho\>>
+  tasto <prefix|math:greek> è equivalente a <prefix|H->, quindi <with|mode|math|\<rho\>>
   può anche essere ottenuto battendo i tasti <key|F5 r>. Analogamente,
-  <shortcut|math:bold>, <shortcut|math:cal>, <shortcut|math:frak> e <shortcut|math:bbb> possono essere utilizzati per
+  <prefix|math:bold>, <prefix|math:cal>, <prefix|math:frak> e <prefix|math:bbb> possono essere utilizzati per
   scrivere caratteri in grassetto, calligrafici, fraktur e lavagna grassetto.
   Per esempio, <shortcut|\<frak-m\>> produce <with|mode|math|\<frak-m\>>, <key|S-F6 R>
   produce <format|no line break><with|mode|math|\<bbb-R\>> e <shortcut|\<b-calZ\>>
@@ -72,7 +72,7 @@
 
   Molti altri simboli, che non possono essere inseriti in modo naturale come
   nei casi descritti qui sopra, si possono ottenere utilizzando il prefisso
-  <shortcut|symbol>. Qui di seguito riportiamo una piccola tabella con alcuni di
+  <prefix|symbol>. Qui di seguito riportiamo una piccola tabella con alcuni di
   tali simboli:
 
   <expand|big-table|<expand|descriptive-table|<tformat|<cwith|1|-1|2|2|cell

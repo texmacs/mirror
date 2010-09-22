@@ -6,33 +6,33 @@
   <expand|tmdoc-title|Configurazione dei tasti modificatori>
 
   <apply|TeXmacs> utilizza cinque principali modificatori da tastiera:
-  <key|S->, <key|C->,
-  <key|A->, <key|M-> e
-  <key|H->, che vengono abbreviati rispettivamente con
-  <key|S->, <key|C->, <key|A->, <key|M-> e <key|H->. I tasti
-  <key|S-> e \ <key|C-> si trovano su tutte
-  le tastiere; il tasto \ <key|A-> su quasi tutte. Molte
+  <prefix|S->, <prefix|C->,
+  <prefix|A->, <prefix|M-> e
+  <prefix|H->, che vengono abbreviati rispettivamente con
+  <prefix|S->, <prefix|C->, <prefix|A->, <prefix|M-> e <prefix|H->. I tasti
+  <prefix|S-> e \ <prefix|C-> si trovano su tutte
+  le tastiere; il tasto \ <prefix|A-> su quasi tutte. Molte
   tastiere moderne sono dotate anche del tasto <key|windows>
-  che, in <TeXmacs>, è equivalente a <key|M->.
+  che, in <TeXmacs>, è equivalente a <prefix|M->.
 
   Prima di riconfigurare la tastiera è consigliabile verificare se ciò sia
   veramente necessario. Se sulla vostra tastiera ci sono i tasti
-  corrispondenti a <key|S->, <key|C->,
-  <key|A-> e <key|M->, probabilmente non
+  corrispondenti a <prefix|S->, <prefix|C->,
+  <prefix|A-> e <prefix|M->, probabilmente non
   saranno necessarie modifiche di configurazione. Una possibile eccezione è
   che desideriate utilizzare il tasto <key|capslock> per
   scrivere simboli matematici. In questo caso dovrete far corrispondere il
-  tasto <key|capslock> al tasto <key|H->.
+  tasto <key|capslock> al tasto <prefix|H->.
 
   Per riconfigurare la tastiera è sufficiente selezionare, nel menu
   <apply|menu|Edit|Preferences|Keyboard>, il modificatore logico che
   desiderate far corrispondere ad un dato tasto fisico. Ad esempio,
   selezionando <apply|menu|Windows key|Map to M modifier>, il tasto
   <key|windows> verrà fatto corrispondere al modificatore
-  <key|M->. In modo del tutto analogo, selezionando
+  <prefix|M->. In modo del tutto analogo, selezionando
   <apply|menu|Caps-lock key|Map to H modifier>, il tasto
   <key|capslock> verrà fatto corrispondere al modificatore
-  <key|H->.
+  <prefix|H->.
 
   Sfortunatamente il sistema X Window permette di effettuare solo
   riconfigurazioni globali. Per questo, se in <TeXmacs> viene riconfigurato
@@ -48,20 +48,20 @@
   rimanda alle corrispondenti pagine del manuale.
 
   In alcuni casi può accadere che i tasti corrispondenti a
-  <key|A->, <key|M-> e
-  <key|H->, siano presenti sulla tastiera ma non funzionino
+  <prefix|A->, <prefix|M-> e
+  <prefix|H->, siano presenti sulla tastiera ma non funzionino
   nel modo desiderato. Per farli funzionare adeguatamente è sufficiente
-  rimappare i prefissi <key|A->, <key|M-> e <key|H-> in altri modificatori
+  rimappare i prefissi <prefix|A->, <prefix|M-> e <prefix|H-> in altri modificatori
   logici appartenenti al primo gruppo di sottomenu in
   <apply|menu|Edit|Preferences|Keyboard>.
 
   Ad esempio, per avere compatibilità con Emacs, potreste decidere di
-  scambiare il tasto <key|M-> o <key|windows> con
-  il tasto <key|A-> senza tuttavia eseguire una modifica
+  scambiare il tasto <prefix|M-> o <key|windows> con
+  il tasto <prefix|A-> senza tuttavia eseguire una modifica
   globale. Ciò può essere fatto cercando i modificatori corrispondenti a
   questo tasto; tipicamente avremo <key|Mod1> al posto di
-  <key|A-> e <key|Mod4> al posto di
-  <key|M-> o <key|windows>. Quindi eseguiremo le
+  <prefix|A-> e <key|Mod4> al posto di
+  <prefix|M-> o <key|windows>. Quindi eseguiremo le
   dovute permutazioni nel menu <apply|menu|Edit|Preferences|Keyboard>,
   selezionando <apply|menu|A modifier|Equivalent for Mod4> e <apply|menu|M
   modifier|Equivalent for Mod1>.

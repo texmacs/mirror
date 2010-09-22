@@ -14,15 +14,15 @@
   clavier :
 
   <\description>
-    <expand|item*|<key|S->>Combinaison avec touche majuscule temporaire.
+    <expand|item*|<prefix|S->>Combinaison avec touche majuscule temporaire.
 
-    <expand|item*|<key|C->>Combinaison avec touche ctrl.
+    <expand|item*|<prefix|C->>Combinaison avec touche ctrl.
 
-    <expand|item*|<verbatim|><key|A->>Combinaison avec touche alt.
+    <expand|item*|<verbatim|><prefix|A->>Combinaison avec touche alt.
 
-    <expand|item*|<key|M->>Combinaison avec touche meta.
+    <expand|item*|<prefix|M->>Combinaison avec touche meta.
 
-    <expand|item*|<key|H->>Combinaison avec touche hyper.
+    <expand|item*|<prefix|H->>Combinaison avec touche hyper.
   </description>
 
   Par exemple, <shortcut|(make-with font-series bold)> correspond à <key|alt-ctrl-b>. Les espaces dans
@@ -32,8 +32,8 @@
   Les touches <key|alt>, <key|meta> et <key|hyper> ne sont pas disponibles
   sur tous les claviers. Sur les PC récents, la touche <key|meta> est souvent
   remplacée par la touche <key|windows>. Vous pouvez utiliser <key|escape> au
-  lieu de <key|M->, <key|escape escape> au lieu de <key|A-> et <shortcut|math:greek>,
-  <key|escape escape escape> ou <key|A-C-> au lieu de <key|H->, si votre
+  lieu de <prefix|M->, <key|escape escape> au lieu de <prefix|A-> et <prefix|math:greek>,
+  <key|escape escape escape> ou <prefix|A-C-> au lieu de <prefix|H->, si votre
   clavier ne comporte pas ces touches spéciales. Par exemple, la combinaison
   <key|escape w> est équivalente à <key|A-w>. Vous pouvez aussi
   <apply|hyper-link|configurer les touches

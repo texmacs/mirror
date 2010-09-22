@@ -12,36 +12,36 @@
   son:
 
   <\description>
-    <expand|item*|<key|C->>Los atajos de teclado basados en
+    <expand|item*|<prefix|C->>Los atajos de teclado basados en
     la tecla Control son usados para comandos de edición frecuentemente
     usados. Ellos dependen mucho del ``aspecto y comportamiento'' en
     <apply|menu|Edit|Preferences>. Por ejemplo, si usted usa un aspecto y
     comportamiento comatible con <name|Emacs>, entonces los atajos de la
-    forma <key|C-> corresponden a los comandos
+    forma <prefix|C-> corresponden a los comandos
     <name|Emacs>, como <key|C-y> para pegar texto.
 
-    <expand|item*|<key|A->>La tecla alternate key es usada
+    <expand|item*|<prefix|A->>La tecla alternate key es usada
     para comandos que dependen del modo en el cual usted está. Por ejemplo,
     <expand|kbd-text|s> produce texto <strong|resaltado> en el modo texto y
     una raíz cuadrada en <with|mode|math|<sqrt|>> en el modo matemático. Note
-    que <key|escape escape> es equivalente a <key|A->.
+    que <key|escape escape> es equivalente a <prefix|A->.
 
-    <expand|item*|<key|M->>La tecla meta es usada para
+    <expand|item*|<prefix|M->>La tecla meta es usada para
     comandos <apply|TeXmacs> de propósito general, que pueden ser usados en
     todos los modos. Por ejemplo, <expand|kbd-gen|!> produces una etiqueta.
     Es también usado para comandos de edición adicional, como <key|A-w> para
     copiar texto si usted usa el aspecto y comportamiento <name|Emacs>. Note
-    que <key|escape> es equivalente a <key|M->.
+    que <key|escape> es equivalente a <prefix|M->.
 
-    <expand|item*|<key|H->>El modificador de teclado de
+    <expand|item*|<prefix|H->>El modificador de teclado de
     usuario es usado para producer símbolos especiales como los catacteres
     griegos en el modo matemático. Puede configurar su teclado para dejar que
-    la tecla de mayúsculas juegue el rol de la tecla hiper. El <shortcut|math:greek> is
-    equivalent to <key|M->.
+    la tecla de mayúsculas juegue el rol de la tecla hiper. El <prefix|math:greek> is
+    equivalent to <prefix|M->.
   </description>
 
   Recordamos que los modificadores particulares que son usados a fin de
-  obtener los prefijos <key|M-> y <key|H-> pueden ser
+  obtener los prefijos <prefix|M-> y <prefix|H-> pueden ser
   <apply|hyper-link|configurados|../../config/man-config-kbd-modkeys.es.tm>
   en <apply|menu|Edit|Preferences>.
 

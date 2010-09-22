@@ -12,7 +12,7 @@
   innych aplikacji.
 
   <TeXmacs> posiada wªasny, pot¦»ny zestaw skrótów. Optymalizuje on
-  wykorzystanie klawiszy modyfikuj¡cych <key|S-> i <key|control>. Jednak w
+  wykorzystanie klawiszy modyfikuj¡cych <prefix|S-> i <key|control>. Jednak w
   niektórych systemach klawisze te s¡ nienajlepiej skonfigurowane, zatem
   u»ytkownik mo»e chcie¢ je przedefiniowa¢.
 

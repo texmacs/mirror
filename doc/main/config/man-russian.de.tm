@@ -133,7 +133,7 @@
   Diejenigen, die keine russische Tastatur besitzen, bevorzugen oft das
   \Ryawerty``-Layout, bei dem die Tasten \Rqwerty'' die Ausgabe
   \R<with|language|russian|font|cyrillic|ÿâåðòû>`` und zusätzliche
-  kyrillische Schriftzeichen mit der Umschalt-Taste, <key|S->,
+  kyrillische Schriftzeichen mit der Umschalt-Taste, <prefix|S->,
   erzeugt werden können. <TeXmacs> hat ein etwas modifizierte
   \Ryawerty\R-Layout, denn es ändert nicht die Tasten <key|$>, <key|¿>,
   <key|<with|mode|math|\<backslash\>>>, da diese für <TeXmacs> wichtig sind

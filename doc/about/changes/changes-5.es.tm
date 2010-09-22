@@ -9,21 +9,21 @@
   continuación sigue una lista de los cambios principales:
 
   <\itemize>
-    <item>El <key|E-> prefijo ha sido renombrado a <key|M->.
+    <item>El <key|E-> prefijo ha sido renombrado a <prefix|M->.
 
-    <item><key|escape> es equivalente a <key|M-> y <key|escape>-<key|escape>
-    a <key|A->.
+    <item><key|escape> es equivalente a <prefix|M-> y <key|escape>-<key|escape>
+    a <prefix|A->.
 
-    <item>Comando dependientes del modo están ahora precedidos por <key|A->.
-    En particular, los acentos son tecleados usando <key|A-> en lugar de
+    <item>Comando dependientes del modo están ahora precedidos por <prefix|A->.
+    En particular, los acentos son tecleados usando <prefix|A-> en lugar de
     <key|E->.
 
     <item>Las variantes son ahora obtenidas usando <key|tab> en lugar de
     <key|<with|mode|math|\<ast\>>> y puede recorrerlas al revés usando
     <key|S-tab>.
 
-    <item>Los caracteres griegos son ahora tecleados usando <key|A-C->,
-    <shortcut|math:greek>, o el modificador hiper, el cual puede ser configurado en
+    <item>Los caracteres griegos son ahora tecleados usando <prefix|A-C->,
+    <prefix|math:greek>, o el modificador hiper, el cual puede ser configurado en
     <apply|menu|Edit|Preferences>. También puede obtener caracteres griegos
     como variantes de caracteres latinos. Por ejemplo, <key|p tab> produce
     <with|mode|math|\<pi\>>.

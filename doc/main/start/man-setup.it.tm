@@ -18,8 +18,8 @@
   una limitata compatibilità delle abbreviazioni da tastiera dei comandi di
   <TeXmacs> con quelle di <name|Emacs>. Inoltre, <apply|TeXmacs> possiede un
   potente sistema di comandi rapidi da tastiera, che tenta di ottimizzare
-  l'uso di tasti modificatori come <key|S-> e
-  <key|C->. Comunque, su molti sistemi X Window, questi
+  l'uso di tasti modificatori come <prefix|S-> e
+  <prefix|C->. Comunque, su molti sistemi X Window, questi
   tasti modificatori non sono ben configurati e in tal caso si può provvedere
   alla loro riconfigurazione. Maggiori dettagli a questo proposito si possono
   trovare nella sezione riguardante la <apply|hyper-link|configurazione di

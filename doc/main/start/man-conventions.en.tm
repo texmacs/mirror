@@ -13,15 +13,15 @@
   The following abbreviations are used for such keystrokes:
 
   <\description>
-    <expand|item*|<key|S->>For shift key combinations.
+    <expand|item*|<prefix|S->>For shift key combinations.
 
-    <expand|item*|<key|C->>For control key combinations.
+    <expand|item*|<prefix|C->>For control key combinations.
 
-    <expand|item*|<verbatim|><key|A->>For alternate key combinations.
+    <expand|item*|<verbatim|><prefix|A->>For alternate key combinations.
 
-    <expand|item*|<key|M->>For meta key combinations.
+    <expand|item*|<prefix|M->>For meta key combinations.
 
-    <expand|item*|<key|H->>For hyper key combinations.
+    <expand|item*|<prefix|H->>For hyper key combinations.
   </description>
 
   For instance, <shortcut|(make-with font-series bold)> stands for <key|A--C--b>.
@@ -29,15 +29,15 @@
   instance, <expand|kbd-table|N b> stands for <key|M--t>
   <key|N> <key|b>.
 
-  The <key|A->, <key|M-> and
-  <key|H-> keys are not available on all keyboards. On
-  recent PC's, the <key|M-> key is often replaced by the
+  The <prefix|A->, <prefix|M-> and
+  <prefix|H-> keys are not available on all keyboards. On
+  recent PC's, the <prefix|M-> key is often replaced by the
   <key|windows> key. In the case when one or several
   modifier keys are missing on your keyboard, you may use
-  <key|escape> instead of <key|M->,
-  <key|escape escape> instead of <key|A->
-  and <shortcut|math:greek>, <key|escape escape
-  escape> or <key|A-C-> instead of <key|H->. For instance,
+  <key|escape> instead of <prefix|M->,
+  <key|escape escape> instead of <prefix|A->
+  and <prefix|math:greek>, <key|escape escape
+  escape> or <prefix|A-C-> instead of <prefix|H->. For instance,
   <key|escape w> is equivalent to <key|A-w>. You may also
   <apply|hyper-link|configure the keyboard
   modifiers|../config/man-config-kbd-modkeys.en.tm> in order to take full

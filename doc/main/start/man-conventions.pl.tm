@@ -13,27 +13,27 @@
   Nast¦puj¡ce oznaczenia s¡ u»ywane przy skrótach klawiszowych:
 
   <\description>
-    <item*|<key|S->>Dla kombinacji z klawiszem shift.
+    <item*|<prefix|S->>Dla kombinacji z klawiszem shift.
 
-    <item*|<key|C->>Dla kombinacji z klawiszem control.
+    <item*|<prefix|C->>Dla kombinacji z klawiszem control.
 
-    <item*|<verbatim|><key|A->>Dla kombinacji z klawiszem alternate.
+    <item*|<verbatim|><prefix|A->>Dla kombinacji z klawiszem alternate.
 
-    <item*|<key|M->>Dla kombinacji z klawiszem meta.
+    <item*|<prefix|M->>Dla kombinacji z klawiszem meta.
 
-    <item*|<key|H->>Dla kombinacji z klawiszem hyper.
+    <item*|<prefix|H->>Dla kombinacji z klawiszem hyper.
   </description>
 
   Dla przykªadu <shortcut|(make-with font-series bold)> oznacza <key|A--C--b>.
   Spacja wewn¡trz skrótu informuje i» jest to wielokrokowa sekwencja. Czyli,
   <key|M-t N b> oznacza <key|meta-t> <key|N> <key|b>.
 
-  Klawisze <key|A->, <key|M-> i <key|H-> nie s¡
+  Klawisze <prefix|A->, <prefix|M-> i <prefix|H-> nie s¡
   na wszystkich klawiaturach. Wspóªczesne PC-ty maj¡ klawisz <key|meta>
   cz¦sto zast¡piony przez <key|windows>. W przypadku, gdy na klawiaturze
   brakuje jednego lub kilku modyfikatorów, mo»na u»y¢ <key|escape> zamiast
-  <key|M->, <key|escape escape> zamiast <key|A-> i <shortcut|math:greek>, <key|escape
-  escape escape> lub <key|A-C-> zamiast <key|H->. Czyli, <key|escape w> to
+  <prefix|M->, <key|escape escape> zamiast <prefix|A-> i <prefix|math:greek>, <key|escape
+  escape escape> lub <prefix|A-C-> zamiast <prefix|H->. Czyli, <key|escape w> to
   jest to samo co <key|M-w>. Mo»na równie» <hyper-link|dostosowa¢ klawisz
   modyfikuj¡ce|../config/man-config-kbd-modkeys.pl.tm> aby w peªni cieszy¢
   si¦ zaletami pot¦»nego zbioru skrótów klawiszowych dost¦pnych w <TeXmacs>.

@@ -27,7 +27,7 @@
 
   There are two ways to make selections using the keyboard. When using the
   cursor keys <key|left>, <key|right>, <abbr|etc.> while holding
-  down the <key|S-> button, you may select text while moving around
+  down the <prefix|S-> button, you may select text while moving around
   the cursor. Alternatively, you may press <shortcut|(kbd-select-enlarge)> once to fix a
   starting position. When moving around using the cursor keys, the text
   between the starting position and the current position keeps being

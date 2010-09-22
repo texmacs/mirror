@@ -59,7 +59,7 @@
   </description>
 
   In math mode, you have specific commands and key-combinations to type
-  mathematical symbols and formulas. For instance, the <shortcut|math:greek> prefix can be
+  mathematical symbols and formulas. For instance, the <prefix|math:greek> prefix can be
   used in order to enter Greek symbols.
 
   The editor favors typing mathematics with a certain meaning. This feature,

@@ -15,8 +15,8 @@
   Most style-sheet primitives can be obtained from the <menu|Source> menu
   when you are in source mode. You may also obtain them from the
   <menu|Insert|Macro> and <menu|Insert|Executable> menus when editing usual
-  text. Alternatively, you may use the <key|A-> and <key|M-e > prefixes in
-  source mode and the <key|M-i > and <key|M-e > prefixes otherwise.
+  text. Alternatively, you may use the <prefix|A-> and <prefix|executable> prefixes in
+  source mode and the <prefix|inactive> and <prefix|executable> prefixes otherwise.
   Furthermore, we recall that the hybrid <key|\\>-key may be used for
   creating macro-applications or arguments, depending on the context.
   Finally, the <shortcut|(structured-insert #t)> and <shortcut|(structured-insert #f)> keys are used for

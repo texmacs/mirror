@@ -5,7 +5,7 @@
 <\body>
   <tmdoc-title|Podstawowe konstrukcje matematyczne>
 
-  Podstawowe obiekty matematyczne tworzone s¡ przy pomocy prefiksu <key|A->
+  Podstawowe obiekty matematyczne tworzone s¡ przy pomocy prefiksu <prefix|A->
   na przykªad:
 
   <big-table|<descriptive-table|<tformat|<table|<row|<cell|Skrót>|<cell|Znaczenie>|<cell|Przykªad>>|<row|<cell|<key|math $>>|<cell|Tekst>|<cell|<with|mode|math|L={x\|x<with|mode|text|

@@ -18,8 +18,8 @@
   <TeXmacs> é emular o <name|Emacs> , o que fornece alguma compatibilidade
   entre os atalhos de teclado do \ <TeXmacs> e do <name|Emacs>. Além disso, o
   <apply|TeXmacs> vem com um sistema poderoso para atalhos de teclado, \ que
-  tenta otimizar o uso de teclas modificadoras como <key|S->
-  e <key|C->. Entretanto, em muitos sistemas X Window estas
+  tenta otimizar o uso de teclas modificadoras como <prefix|S->
+  e <prefix|C->. Entretanto, em muitos sistemas X Window estas
   teclas não estão configuradas corretamente, de modo que você pode querer
   redefinir estes atalhos. Mais detalhes podem ser encontrados na seção sobre
   a <apply|hyper-link|configuração do <TeXmacs>|../config/man-configuration.pt.tm>.

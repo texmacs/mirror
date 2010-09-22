@@ -42,10 +42,10 @@
   </description>
 
   Im Mathematik-Modus gibt es spezielle Befehle und Kurzbefehle, um
-  mathematische Formeln einzugeben. Z.B. kann die Sondertaste <key|H-> zur
+  mathematische Formeln einzugeben. Z.B. kann die Sondertaste <prefix|H-> zur
   Eingabe griechischer Buchstaben benutzt werden. Denken Sie bitte daran,
-  dass <key|H-> äquivalent zu <shortcut|math:greek> ist und auch mit <key|escape
-  escape escape> oder <key|A-C-> eingegeben werden kann.
+  dass <prefix|H-> äquivalent zu <prefix|math:greek> ist und auch mit <key|escape
+  escape escape> oder <prefix|A-C-> eingegeben werden kann.
 
   Der Editor favorisiert mathematische Eingabe mit einer bestimmten
   Bedeutung. Diese Funktion soll in Zukunft weiter ausgebaut werden, denn es

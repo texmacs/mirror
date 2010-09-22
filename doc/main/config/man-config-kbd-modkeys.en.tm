@@ -6,33 +6,33 @@
   <expand|tmdoc-title|Configuration of the modifier keys>
 
   <apply|TeXmacs> uses five major keyboard modifiers:
-  <key|S->, <key|C->,
-  <key|A->, <key|M-> and
-  <key|H->, which are abbreviated as <key|S->, <key|C->,
-  <key|A->, <key|M-> and <key|H->. The <key|S-> and
-  <key|C-> keys are present on virtually all keyboards and
-  the <key|A-> key on almost all. Most keyboards for PC's
+  <prefix|S->, <prefix|C->,
+  <prefix|A->, <prefix|M-> and
+  <prefix|H->, which are abbreviated as <prefix|S->, <prefix|C->,
+  <prefix|A->, <prefix|M-> and <prefix|H->. The <prefix|S-> and
+  <prefix|C-> keys are present on virtually all keyboards and
+  the <prefix|A-> key on almost all. Most keyboards for PC's
   nowadays also have a <key|windows> key, which is usually
-  equivalent to <key|M-> for <TeXmacs>.
+  equivalent to <prefix|M-> for <TeXmacs>.
 
   Before reconfiguring your keyboard, you should first check that this is
   indeed necessary. If you have keys which correspond to
-  <key|S->, <key|C->,
-  <key|A-> and <key|M-> in a suitable way,
+  <prefix|S->, <prefix|C->,
+  <prefix|A-> and <prefix|M-> in a suitable way,
   then you probably do not want to do anything. A possible exception is when
   you want to use a simple key like <key|capslock> for
   typing mathematical symbols. In that case, you should map
-  <key|capslock> to <key|H->.
+  <key|capslock> to <prefix|H->.
 
   In order to reconfigure the keyboard, you simply select the logicial
   modifier that you want to correspond to a given physical key in
   <apply|menu|Edit|Preferences|Keyboard>. For instance, selecting
   <apply|menu|Windows key|Map to M modifier>, the
   <key|windows> key will correspond to the
-  <key|M-> modifier. Similarly, when selecting
+  <prefix|M-> modifier. Similarly, when selecting
   <apply|menu|Caps-lock key|Map to H modifier>, the
   <key|capslock> key will correspond to the
-  <key|H-> modifier.
+  <prefix|H-> modifier.
 
   Unfortunately, X Window only allows system-wide reconfiguration.
   Consequently, if you reconfigure the <key|capslock> key
@@ -47,18 +47,18 @@
   information.
 
   In certain cases, you already have keys on your keyboard which correspond
-  to <key|A->, <key|M-> and
-  <key|H->, but not in the way you want. This can be done by
-  remapping the <key|A->, <key|M-> and <key|H-> prefixes to other logical
+  to <prefix|A->, <prefix|M-> and
+  <prefix|H->, but not in the way you want. This can be done by
+  remapping the <prefix|A->, <prefix|M-> and <prefix|H-> prefixes to other logical
   modifiers in the first group of submenus of
   <apply|menu|Edit|Preferences|Keyboard>.
 
   For instance, for Emacs compatability, you might want to permute the
-  <key|M-> or <key|windows> key with
-  <key|A-> without making any system-wide changes. This
+  <prefix|M-> or <key|windows> key with
+  <prefix|A-> without making any system-wide changes. This
   can be done by finding out which modifiers correspond to these keys;
-  usually this will be <key|Mod1> for <key|A-> and
-  <key|Mod4> for <key|M-> or <key|windows>.
+  usually this will be <key|Mod1> for <prefix|A-> and
+  <key|Mod4> for <prefix|M-> or <key|windows>.
   We next perform the necessary permutation in
   <apply|menu|Edit|Preferences|Keyboard>, by selecting <apply|menu|A
   modifier|Equivalent for Mod4> and <apply|menu|M modifier|Equivalent for

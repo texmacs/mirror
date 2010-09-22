@@ -6,14 +6,14 @@
   <tmdoc-title|Mathematische Symbole eingeben>
 
   Die griechischen Buchstaben können in <TeXmacs> eingegeben werden, indem
-  die <em|Hyper-Modifiertaste> <key|H-> mit einem Buchstaben kombiniert wird.
+  die <em|Hyper-Modifiertaste> <prefix|H-> mit einem Buchstaben kombiniert wird.
   Beispielsweise ergibt <key|H-a> \ <with|mode|math|\<alpha\>> und <key|H-G>
   gibt <with|mode|math|\<Gamma\>>. <hyper-link|Erinnern Sie
-  sich|../../start/man-conventions.de.tm>, dass <shortcut|math:greek> zu <key|H->
+  sich|../../start/man-conventions.de.tm>, dass <prefix|math:greek> zu <prefix|H->
   äquivalent ist, so dass man <with|mode|math|\<rho\>> mit <key|F5 r>
   erhalten kann.
 
-  In ähnlicher Weise können <shortcut|math:bold>, <shortcut|math:cal>, <shortcut|math:frak> und <shortcut|math:bbb>
+  In ähnlicher Weise können <prefix|math:bold>, <prefix|math:cal>, <prefix|math:frak> und <prefix|math:bbb>
   benutzt werden, um in dieser Reihenfolge,
   <with|mode|math|\<b-f\>\<b-e\>\<b-t\>\<b-t\>\<b-e\>\<b-n\>
   \<b-T\>\<b-e\>\<b-x\>\<b-t\>>, <with|mode|math|\<cal-K\>\<cal-A\>\<cal-L\>\<cal-L\>\<cal-I\>\<cal-G\>\<cal-R\>\<cal-A\>\<cal-F\>\<cal-I\>\<cal-S\>\<cal-C\>\<cal-H\>\<cal-E\>\<cal-N\>
@@ -79,7 +79,7 @@
   </description>
 
   Einige andere Symbole, die nicht durch \Rnahe liegende``
-  Tastenkombinationen erzeugt werden können, werden mit dem Präfix <shortcut|symbol>
+  Tastenkombinationen erzeugt werden können, werden mit dem Präfix <prefix|symbol>
   eingegeben:
 
   <big-table|<descriptive-table|<tformat|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<cwith|1|-1|2|2|cell-rborder|1ln>|<table|<row|<cell|Kurzbefehl>|<cell|Symbol>|<cell|Kurzbefehl>|<cell|Symbol>>|<row|<cell|<key|symbol a>>|<cell|<with|mode|math|\<amalg\>>>|<cell|>|<cell|>>|<row|<cell|<key|symbol n>>|<cell|<with|mode|math|\<cap\>>>|<cell|<key|symbol u>>|<cell|<with|mode|math|\<cup\>>>>|<row|<cell|<key|symbol v>>|<cell|<with|mode|math|\<vee\>>>|<cell|<key|symbol w>>|<cell|<with|mode|math|\<wedge\>>>>>>>|Einige

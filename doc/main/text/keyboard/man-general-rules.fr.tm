@@ -11,36 +11,36 @@
   Les préfixes les plus courants sont :\ 
 
   <\description>
-    <expand|item*|<key|C->>Les raccourcis clavier basés sur
+    <expand|item*|<prefix|C->>Les raccourcis clavier basés sur
     la touche contrôle sont utilisés pour les commandes d'édition courantes.
     Ils dépendent de l'apparence définie avec
     <apply|menu|Édition|Préférences>. Si vous utilisez une apparence
-    <name|Emacs>, les raccourcis clavier de forme <key|C->
+    <name|Emacs>, les raccourcis clavier de forme <prefix|C->
     correspondent aux commandes <name|Emacs>. Exemple : <key|C-y> pour coller
     du texte.
 
-    <expand|item*|<key|A->>La touche alt est utilisée pour
+    <expand|item*|<prefix|A->>La touche alt est utilisée pour
     les commandes qui dépendent du mode dans lequel vous êtes. Par exemple,
     <expand|kbd-text|s> génère du texte <strong|important> en mode texte et
     une racine carrée <with|mode|math|<sqrt|>> en mode maths. Notez que
-    <key|escape escape> est équivalent à <key|A->.
+    <key|escape escape> est équivalent à <prefix|A->.
 
-    <expand|item*|<key|M->>La touche meta est utilisée pour
+    <expand|item*|<prefix|M->>La touche meta est utilisée pour
     les commandes <apply|TeXmacs> générales, celles qui peuvent être
     utilisées dans tous les modes. Par exemple, <expand|kbd-gen|!> génère une
     étiquette. Elle est aussi utilisée pour certaines commandes d'édition
     avec l'apparence Emacs, comme <key|A-w> pour copier du texte. Notez que
-    <key|escape> est équivalent à <key|M->.
+    <key|escape> est équivalent à <prefix|M->.
 
-    <expand|item*|<key|H->>La touche hyper est utilisée
+    <expand|item*|<prefix|H->>La touche hyper est utilisée
     pour générer des symboles spéciaux, tels les caractères grecs en mode
     maths. Vous pouvez configurer votre clavier de telle sorte que la touche
     majuscule fixe joue le rôle de la touche hyper. La touche de fonction
-    <shortcut|math:greek> est équivalente à <key|M->.
+    <prefix|math:greek> est équivalente à <prefix|M->.
   </description>
 
   Rappelons que les touches spéciales de modification utilisées pour générer
-  les préfixes <key|M-> et <key|H-> peuvent être
+  les préfixes <prefix|M-> et <prefix|H-> peuvent être
   <apply|hyper-link|configurées|../../config/man-config-kbd-modkeys.fr.tm>
   avec <apply|menu|Édition|Préférences>.
 
