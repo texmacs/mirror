@@ -7,7 +7,7 @@
 
   Se sul proprio sistema è stato installato il programma <verbatim|ispell>,
   allora lo si può utilizzare per controllare la presenza di errori
-  ortografici tramite <expand|kbd-gen|$> o <apply|menu|Edit|Spell>. Si noti
+  ortografici tramite <shortcut|(spell-start)> o <apply|menu|Edit|Spell>. Si noti
   che si deve verificare che i dizionari corrispondenti alle lingue
   utilizzate nel proprio testo siano stati installati nel sistema; cosa che
   generalmente accade per la lingua inglese.

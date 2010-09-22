@@ -5,14 +5,14 @@
 <\body>
   <tmdoc-title|Tworzenie etykiet, linków i odsyªaczy>
 
-  Now¡ etykiet¦ mo»na stworzy¢ poprzez <key|M-!> lub menu
-  <menu|Insert|Link|Label> a odsyªacz do niej u»ywaj¡c <key|M-?> lub
+  Now¡ etykiet¦ mo»na stworzy¢ poprzez <shortcut|(make-label)> lub menu
+  <menu|Insert|Link|Label> a odsyªacz do niej u»ywaj¡c <shortcut|(make 'reference)> lub
   <menu|Insert|Link|Reference>. Nale»y umieszcza¢ etykiety tak, aby
   przyjmowaªy prawidªowe numery. Przy akapitach rekomendowane jest
   umieszczanie ich tu» za nazw¡ akapitu. Gdy oznaczane s¡ równania, zalecane
   jest umieszczenie na pocz¡tku, wewn¡trz równania.
 
-  Mo»na tworzy¢ aktywne powi¡zania do innych dokumentów u»ywaj¡c <key|M-i
+  Mo»na tworzy¢ aktywne powi¡zania do innych dokumentów u»ywaj¡c <key|inactive
   \<gtr\>> lub <menu|Insert|Link|Hyperlink>. Pierwsze pole to powi¡zany
   tekst, wy±wietlany na niebiesko w aktywnym linku. Druga pozycja to nazwa
   dokumentu, który mo»e by¢ w internecie. Jak zwykle przy odsyªaczach forma
@@ -21,7 +21,7 @@
   <verbatim|url>.
 
   W podobny sposób, operacja mo»e by¢ dowi¡zana do fragmentu tekstu lub
-  grafiki, poprzez <key|M-i *> lub <menu|Insert|Link|Action>. Drugie pole
+  grafiki, poprzez <key|inactive *> lub <menu|Insert|Link|Action>. Drugie pole
   zawiera polecenie skryptowe Guile/Scheme, wykonywane po dwuklikni¦ciu na
   tekst. Ze wzgl¦dów bezpiecze«stwa takie skrypty nie zawsze s¡ akceptowane.
   Domy±lnie program prosi o akceptacje. To zachowanie mo»e by¢ zmienione
@@ -34,7 +34,7 @@
   wykonuje <verbatim|shell-command> jako polecenie shellowe
 
   Ostatecznie, mo»na bezpo±rednio wª¡cza¢ inne dokumenty w zadany u»ywaj¡c
-  <key|M-i i> lub <menu|Insert|Link|Include>. W ten sposób wszystkie
+  <key|inactive i> lub <menu|Insert|Link|Include>. W ten sposób wszystkie
   pó¹niejsze zmiany wstawionego dokumentu b¦d¡ uwzgl¦dnione.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>

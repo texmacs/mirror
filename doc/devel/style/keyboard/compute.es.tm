@@ -8,36 +8,36 @@
   Los siguientes comandos pueden ser usados para realizar cáculos dinámicos:
 
   <\description>
-    <expand|item*|<expand|kbd-exec|\|>>``o'' secuencial de dos condiciones.
+    <expand|item*|<key|executable \|>>``o'' secuencial de dos condiciones.
 
-    <expand|item*|<expand|kbd-exec|^>>``o'' exclusivo de dos condiciones.
+    <expand|item*|<key|executable ^>>``o'' exclusivo de dos condiciones.
 
-    <expand|item*|<expand|kbd-exec|&>>``y'' secuencial de dos condiciones
+    <expand|item*|<key|executable &>>``y'' secuencial de dos condiciones
 
-    <expand|item*|<expand|kbd-exec|!>>negación de una condición.
+    <expand|item*|<key|executable !>>negación de una condición.
 
-    <expand|item*|<expand|kbd-exec|+>>sumar dos números o longitudes.
+    <expand|item*|<key|executable +>>sumar dos números o longitudes.
 
-    <expand|item*|<expand|kbd-exec|->>restar dos números o longitudes.
+    <expand|item*|<key|executable ->>restar dos números o longitudes.
 
-    <expand|item*|<expand|kbd-exec|*>>multiplicar dos números.
+    <expand|item*|<key|executable *>>multiplicar dos números.
 
-    <expand|item*|<expand|kbd-exec|/>>dividir dos números.
+    <expand|item*|<key|executable />>dividir dos números.
 
-    <expand|item*|<expand|kbd-exec|;>>concatenar dos cadenas.
+    <expand|item*|<key|executable ;>>concatenar dos cadenas.
 
-    <expand|item*|<expand|kbd-exec|#>>mostrar un número en Árabigo, roman,
+    <expand|item*|<key|executable #>>mostrar un número en Árabigo, roman,
     Roman, alfa o Alfa (utilizado por ejemplo en las enumeraciones).
 
-    <expand|item*|<expand|kbd-exec|\<gtr\>>>traducir una palabra de un idioma
+    <expand|item*|<key|executable \<gtr\>>>traducir una palabra de un idioma
     fuente a un idioma destino (ver los diccionarios en
     <verbatim|$TEXMACS_PATH/data/dic>).
 
-    <expand|item*|<expand|kbd-exec|=>>comprobación de igualdad.
+    <expand|item*|<key|executable =>>comprobación de igualdad.
 
-    <expand|item*|<expand|kbd-exec|E-e>>comprobación de desigualdad.
+    <expand|item*|<key|executable E-e>>comprobación de desigualdad.
 
-    <expand|item*|<expand|kbd-exec|?>>insertar una instrucción <verbatim|if>
+    <expand|item*|<key|executable ?>>insertar una instrucción <verbatim|if>
     con una parte <verbatim|else> opcional.
   </description>
 

@@ -8,8 +8,8 @@
   È possibile annullare gradualmente le modifiche eseguite in un documento
   dal momento in cui è stato lanciato <apply|TeXmacs>. Ciò può essre fatto
   tramite <apply|menu|Edit|Undo> o utilizzando le combinazioni di tasti
-  <expand|kbd-gen|[> o <shortcut|(undo 0)>. Le modifiche annullate possono essere
-  ripristinate mediante <apply|menu|Edit|Redo> o <expand|kbd-gen|]>.
+  <shortcut|(undo 0)> o <shortcut|(undo 0)>. Le modifiche annullate possono essere
+  ripristinate mediante <apply|menu|Edit|Redo> o <shortcut|(redo 0)>.
 
   Per limitare l'uso della memoria, il numero di azioni successive che
   possono essere annullate è per default limitato a 100. È comunque possibile

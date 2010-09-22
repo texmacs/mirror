@@ -20,8 +20,8 @@
   <apply|menu|Session|Insert fields|Insert text field>. Atalhos do teclado
   para inserção de campos são <shortcut|(structured-insert-up)> (insere acima) a
   <shortcut|(structured-insert-down)> (insere abaixo). Atalhos de teclado para campos
-  de texto/entrada/saída correspondentes são \ <key|A-backspace>
-  (remove para trás) e <key|A-delete> (remove os campos
+  de texto/entrada/saída correspondentes são \ <shortcut|(structured-remove #f)>
+  (remove para trás) e <shortcut|(structured-remove #t)> (remove os campos
   correntes).
 
   É possível criar ``sub-sessões'' usando <apply|menu|Session|Insert
@@ -29,8 +29,8 @@
   corrente de texto, entrada ou saída torna-se o corpo de uma sub-sessão
   ``desdobrada''. Esta sub-sessão consiste de um texto explicativo junto a
   uma seqüência de campos de entrada e saída. Subsessões podem ser
-  ``dobradas'' e ``desdobradas'' com \ <key|M-A-up> e
-  <key|M-A-down>, respectivamente. A formatação gráfica das
+  ``dobradas'' e ``desdobradas'' com \ <shortcut|(fold)> e
+  <shortcut|(unfold)>, respectivamente. A formatação gráfica das
   subsessões na tela é muito atraente quando se usa o pacote
   <tmpackage|varsession> que está em <apply|menu|Document|Use
   package|Program>.

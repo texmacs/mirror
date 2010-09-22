@@ -7,8 +7,8 @@
 
   Vous pouvez définir la largeur des bordures et de l'espace intercellulaire
   dans toutes les directions (voir <apply|menu|Table|Cell border>). Il existe
-  aussi des raccourcis clavier de la forme <expand|kbd-table|b
-  <with|mode|math|x>> et <expand|kbd-table|p <with|mode|math|x>>.
+  aussi des raccourcis clavier de la forme <key|table b
+ ><render-key|<with|mode|math|x>> et <key|table p><render-key|<with|mode|math|x>>.
 
   La largeur par défaut des bordures de cellules en environnement bloc est de
   <verbatim|1ln>, soit la largeur d'une ligne dans la police active

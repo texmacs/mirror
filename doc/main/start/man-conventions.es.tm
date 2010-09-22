@@ -28,7 +28,7 @@
 
   Por ejemplo, <shortcut|(make-with font-series bold)> representa <key|alt-ctrl-b>. Epacios dentro de los
   atajos de teclado indican múltiple presiones de tecla. Por ejemplo,
-  <expand|kbd-table|N b> representa <key|meta-t> <key|N> <key|b>.
+  <key|table N b> representa <key|meta-t> <key|N> <key|b>.
 
   Las teclas <key|alt>, <key|meta> e <key|hyper> no están disponibles en
   todos los teclados. En los PC's recientes, la tecla <key|meta> es a menudo

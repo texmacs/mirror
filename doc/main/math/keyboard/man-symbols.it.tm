@@ -14,7 +14,7 @@
   <prefix|math:bold>, <prefix|math:cal>, <prefix|math:frak> e <prefix|math:bbb> possono essere utilizzati per
   scrivere caratteri in grassetto, calligrafici, fraktur e lavagna grassetto.
   Per esempio, <shortcut|\<frak-m\>> produce <with|mode|math|\<frak-m\>>, <key|S-F6 R>
-  produce <format|no line break><with|mode|math|\<bbb-R\>> e <shortcut|\<b-calZ\>>
+  produce <format|no line break><with|mode|math|\<bbb-R\>> e <shortcut|\<b-cal-Z\>>
   produce <with|mode|math|\<b-cal-Z\>>.
 
   I caratteri greci si possono ottenere anche come ``varianti'' dei caratteri
@@ -77,7 +77,7 @@
 
   <expand|big-table|<expand|descriptive-table|<tformat|<cwith|1|-1|2|2|cell
   halign|c>|<cwith|1|-1|4|4|cell halign|c>|<cwith|1|-1|2|2|cell
-  rborder|1ln>|<table|<row|<cell|Abbreviazione>|<cell|Simbolo>|<cell|Abbreviazione>|<cell|Simbolo>>|<row|<cell|<expand|kbd-symb|a>>|<cell|<with|mode|math|\<amalg\>>>|<cell|>|<cell|>>|<row|<cell|<expand|kbd-symb|n>>|<cell|<with|mode|math|\<cap\>>>|<cell|<expand|kbd-symb|u>>|<cell|<with|mode|math|\<cup\>>>>|<row|<cell|<expand|kbd-symb|v>>|<cell|<with|mode|math|\<vee\>>>|<cell|<expand|kbd-symb|w>>|<cell|<with|mode|math|\<wedge\>>>>>>>|Alcuni
+  rborder|1ln>|<table|<row|<cell|Abbreviazione>|<cell|Simbolo>|<cell|Abbreviazione>|<cell|Simbolo>>|<row|<cell|<key|symbol a>>|<cell|<with|mode|math|\<amalg\>>>|<cell|>|<cell|>>|<row|<cell|<key|symbol n>>|<cell|<with|mode|math|\<cap\>>>|<cell|<key|symbol u>>|<cell|<with|mode|math|\<cup\>>>>|<row|<cell|<key|symbol v>>|<cell|<with|mode|math|\<vee\>>>|<cell|<key|symbol w>>|<cell|<with|mode|math|\<wedge\>>>>>>>|Alcuni
   simboli che non possono essere ottenuti utilizzando in modo naturale le
   regole generali.>
 

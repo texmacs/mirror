@@ -12,13 +12,13 @@
 
   <\description>
     <expand|item*|<markup|key>>Cette macro est utilisée pour signaler des
-    saisies clavier, telle <key|C-x C-s>. Les macros spécifiques
+    saisies clavier, telle <shortcut|(save-buffer)>. Les macros spécifiques
     <markup|kbd-gen>, <markup|kbd-text>, <markup|kbd-math>,
     <markup|kbd-symb>, <markup|kbd-big>, <markup|kbd-large>, <markup|kbd-ia>,
     <markup|kbd-exec> \ et <markup|kbd-table> sont utilisées pour les saisies
     clavier correspondant à un type spécifique d'action ou de mode. Par
     exemple, la macro <markup|kbd-math> correspond aux raccourcis clavier
-    pour les opérations mathématiques, tel <expand|kbd-math|f>, qui débute
+    pour les opérations mathématiques, tel <key|math f>, qui débute
     une fraction.
 
     <expand|item*|<markup|menu>>Cette fonction, composée d'un nombre

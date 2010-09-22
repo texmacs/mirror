@@ -17,9 +17,9 @@
 
     <item*|<shortcut|(make-space "-0.2spc")>>insert a small negative space.
 
-    <item*|<key|M-A-home>>manually set start of the selection.
+    <item*|<shortcut|(selection-set-start)>>manually set start of the selection.
 
-    <item*|<key|M-A-end>>manually set end of the selection.
+    <item*|<shortcut|(selection-set-end)>>manually set end of the selection.
 
     <item*|<shortcut|(go-start)>>go to the start of the document.
 

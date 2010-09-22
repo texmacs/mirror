@@ -31,7 +31,7 @@
   <verbatim| \ \ \ ru basic grp:shift_toggle>
 
   To oznacza i» tryb klawiatury jest zmieniany przez <key|l-S-
-  r-S->. Inne popularne metody to <key|C- S->
+  r-S->. Inne popularne metody to <prefix|C-S->
   lub <prefix|A-C->, w
   <with|font-family|tt|/usr/X11R6/lib/X11/xkb/> mo»na znale¹¢ szczegóªy. To
   zalecana konfiguracja klawiatury dla wspóªczesnych systemów linuxowych,

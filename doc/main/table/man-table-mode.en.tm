@@ -13,13 +13,13 @@
   operation mode>. The following operation modes are available:
 
   <\description>
-    <expand|item*|<expand|kbd-table|m c>>Operate on individual cells.
+    <expand|item*|<key|table m c>>Operate on individual cells.
 
-    <expand|item*|<expand|kbd-table|m h>>Operate on rows.
+    <expand|item*|<key|table m h>>Operate on rows.
 
-    <expand|item*|<expand|kbd-table|m v>>Operate on columns.
+    <expand|item*|<key|table m v>>Operate on columns.
 
-    <expand|item*|<expand|kbd-table|m t>>Operate on the entire table.
+    <expand|item*|<key|table m t>>Operate on the entire table.
   </description>
 
   It is also possible to select a block of cells using the mouse and perform

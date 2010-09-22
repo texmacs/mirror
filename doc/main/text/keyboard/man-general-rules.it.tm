@@ -22,14 +22,14 @@
 
     <expand|item*|<prefix|A->>Il tasto alternate è utilizzato
     per i comandi che dipendono dalla modalità in cui si sta lavorando. Per
-    esempio, <expand|kbd-text|s> produce del testo <strong|enfatizzato> in
+    esempio, <key|text s> produce del testo <strong|enfatizzato> in
     modalità testo e una radice quadrata <with|mode|math|<sqrt|>> in modalità
     matematica. Si noti che che <key|escape escape>
     è equivalente a <prefix|A->.
 
     <expand|item*|<prefix|M->>Il tasto meta è utilizzato per
     comandi <TeXmacs> generici, che possono essere usati in tutte le
-    modalità. Per esempio, <expand|kbd-gen|!> produce un'etichetta. Esso
+    modalità. Per esempio, <shortcut|(make-label)> produce un'etichetta. Esso
     viene anche utilizzato per comandi addizionali di redazione, come
     <key|A-w> per copiare del testo se si usa l'aspetto <name|Emacs>. Si noti
     che <key|escape> è equivalente a <prefix|M->.

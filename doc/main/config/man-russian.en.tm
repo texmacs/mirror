@@ -1,4 +1,4 @@
-<TeXmacs|1.0.6>
+<TeXmacs|1.0.7.6>
 
 <style|tmdoc>
 
@@ -36,9 +36,8 @@
 
   <verbatim| \ \ \ ru basic grp:shift_toggle>
 
-  This means that the keyboard mode is toggled by <key|<localize|l-shift>
-  <localize|r-shift>>. Other popular choices are <key|C-
-  S-> or <prefix|A-C->, see
+  This means that the keyboard mode is toggled by <render-key|l-shift
+  r-shift>. Other popular choices are <prefix|C-S-> or <prefix|A-C->, see
   <with|font-family|tt|/usr/X11R6/lib/X11/xkb/> for more details. This is the
   preferred keyboard setup for modern Linux systems, if you plan to use
   Russian often.
@@ -86,8 +85,8 @@
   similar'' Russian one. In order to get some Russian letters, you have to
   type 2- or 3-letter combinations:<vspace|0.5fn>
 
-  <big-table|<descriptive-table|<tformat|<cwith|2|11|1|1|cell-halign|l>|<cwith|2|11|2|2|cell-halign|l>|<cwith|2|11|2|2|cell-halign|c>|<cwith|2|11|4|4|cell-halign|l>|<cwith|2|11|4|4|cell-halign|c>|<table|<row|<cell|Shorthand>|<cell|for>|<cell|Shorthand(s)>|<cell|for>>|<row|<cell|<key|text "
-  e>>|<cell|<with|language|russian|font|cyrillic|¼>>|<cell|<key|text "
+  <big-table|<descriptive-table|<tformat|<cwith|2|11|1|1|cell-halign|l>|<cwith|2|11|2|2|cell-halign|l>|<cwith|2|11|2|2|cell-halign|c>|<cwith|2|11|4|4|cell-halign|l>|<cwith|2|11|4|4|cell-halign|c>|<table|<row|<cell|Shorthand>|<cell|for>|<cell|Shorthand(s)>|<cell|for>>|<row|<cell|<key|text
+  " e>>|<cell|<with|language|russian|font|cyrillic|¼>>|<cell|<key|text "
   E>>|<cell|<with|language|russian|font|cyrillic|œ>>>|<row|<cell|<key|y
   o>>|<cell|<with|language|russian|font|cyrillic|¼>>|<cell|<key|Y o> <key|Y
   O>>|<cell|<with|language|russian|font|cyrillic|œ>>>|<row|<cell|<key|z
@@ -129,11 +128,11 @@
   the yawerty layout, where the keys ``qwerty'' produce
   ``<with|language|russian|font|cyrillic|ÿâåðòû''. Each Latin letter is
   mapped into a ``similar'' Russian one; some additional Russian letters are
-  produced by ><prefix|S->-digits. <TeXmacs> comes with a slightly
-  modified yawerty layout, because it does not redefine the keys <key|$>,
-  <key|¿>, <key|<with|mode|math|\<backslash\>>>, which are important for
-  <TeXmacs>, are not redefined. The corresponding Russian letters are
-  produced by some <prefix|S->-digit combinations instead.
+  produced by ><prefix|S->-digits. <TeXmacs> comes with a slightly modified
+  yawerty layout, because it does not redefine the keys <key|$>,
+  <render-key|¿>, <key|\\>, which are important for <TeXmacs>, are not
+  redefined. The corresponding Russian letters are produced by some
+  <prefix|S->-digit combinations instead.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
 

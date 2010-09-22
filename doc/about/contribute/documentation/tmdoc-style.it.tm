@@ -13,13 +13,13 @@
 
   <\description>
     <expand|item*|<markup|key>>questa macro viene utilizzata per indicare
-    comandi da tastiera come <key|C-x C-s>. Le macro specializzate
+    comandi da tastiera come <shortcut|(save-buffer)>. Le macro specializzate
     <markup|kbd-gen>, <markup|kbd-text>, <markup|kbd-math>,
     <markup|kbd-symb>, <markup|kbd-big>, <markup|kbd-large>, <markup|kbd-ia>,
     <markup|kbd-exec> e <markup|kbd-table> vengono utilizzate per comandi da
     tastiera corrispondenti ad uno specifico tipo di azione o di modalità. Ad
     esempio, <markup|kbd-math> corrisponde al comando da tastiera per
-    l'inserimento di espressioni matematiche come <expand|kbd-math|f> che
+    l'inserimento di espressioni matematiche come <key|math f> che
     indica l'inizio di una frazione.
 
     <expand|item*|<markup|menu>>questa funzione, che si riferisce ad un

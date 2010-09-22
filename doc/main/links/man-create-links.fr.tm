@@ -5,16 +5,16 @@
 <\body>
   <expand|tmdoc-title|Création d'étiquettes, de liens et de références>
 
-  Vous pouvez créer une nouvelle étiquette inactive avec \ <expand|kbd-gen|!>
+  Vous pouvez créer une nouvelle étiquette inactive avec \ <shortcut|(make-label)>
   ou <apply|menu|Insert|Link|Label> et une référence à cette étiquette avec
-  <expand|kbd-gen|?> ou <apply|menu|Insert|Link|Reference>. Faites attention
+  <shortcut|(make 'reference)> ou <apply|menu|Insert|Link|Reference>. Faites attention
   à mettre l'étiquette à un endroit où sa numérotation est correcte. Lors de
   l'étiquetage de sections, il vaut mieux placer l'étiquette juste après le
   nom de la section. Lors de l'étiquetage d'équations, il vaut mieux placer
   l'étiquette juste au début de l'équation.
 
   On peut créer des hyperliens vers d'autres documents avec
-  <expand|kbd-ia|\<gtr\>> ou <apply|menu|Insert|Link|Hyperlink>. Le premier
+  <key|inactive \<gtr\>> ou <apply|menu|Insert|Link|Hyperlink>. Le premier
   champ de l'hyperlien est le texte associé, affiché en bleu lorsque le lien
   est activé. Le deuxième champ contient le nom d'un document, qui peut être
   sur la toile. Comme d'habitude pour les hyperliens, un lien de la forme
@@ -25,7 +25,7 @@
   shape|italic|url>>.
 
   De même, on peut associer une action à un texte ou une image avec
-  <expand|kbd-ia|*> ou <apply|menu|Insert|Link|Action>. Le second champ
+  <key|inactive *> ou <apply|menu|Insert|Link|Action>. Le second champ
   contient alors un script Guile/Scheme, qui est exécuté quand on
   double-clique sur le texte après son activation. Pour des raisons de
   sécurité, ces scripts sont parfois refusés. Par défaut, on vous demande si
@@ -40,7 +40,7 @@
   évalue <verbatim|commande-shell> en tant que commande shell.
 
   Enfin, vous pouvez inclure directement d'autres documents dans un document
-  donné avec <expand|kbd-ia|i> ou <apply|menu|Insert|Link|Include>. Cela vous
+  donné avec <key|inactive i> ou <apply|menu|Insert|Link|Include>. Cela vous
   permet, par exemple, d'inclure le listing d'un programme dans votre
   document de telle façon que les modifications dans votre programme se
   reflètent automatiquement dans le document.

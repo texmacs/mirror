@@ -6,7 +6,7 @@
   <tmdoc-title|Rechtschreibprüfung>
 
   Wenn Sie das Programm <verbatim|ispell> installiert haben, dann können sie
-  es zur Rechtschreibprüfung benutzen, indem Sie <key|M-$> oder den
+  es zur Rechtschreibprüfung benutzen, indem Sie <shortcut|(spell-start)> oder den
   Menübefehl <menu|Edit|Spell> ausführen. Sie sollten sich aber vergewissern,
   dass die Wörterbücher, der von Ihnen benutzten Sprachen vorhanden sind.
 

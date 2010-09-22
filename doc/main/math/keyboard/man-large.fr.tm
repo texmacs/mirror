@@ -130,7 +130,7 @@
     lsep|1spc>|<cwith|6|6|3|3|cell rsep|1spc>|<cwith|6|6|3|3|cell
     bsep|1spc>|<cwith|6|6|3|3|cell tsep|1spc>|<cwith|6|6|2|2|cell
     rborder|1ln>|<cwith|1|-1|1|1|cell halign|c>|<cwith|1|-1|3|3|cell
-    halign|c>|<table|<row|<cell|Raccourcis>|<cell|Résultats>|<cell|Raccourcis>|<cell|Résultats>>|<row|<cell|<expand|kbd-large|(>>|<cell|<with|mode|math|<left|(><space|0fn|-0.3fn|0.8fn>>>|<cell|<expand|kbd-large|)>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|)>>>>|<row|<cell|<expand|kbd-large|[>>|<cell|<with|mode|math|<left|[><space|0fn|-0.3fn|0.8fn>>>|<cell|<expand|kbd-large|]>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|]>>>>|<row|<cell|<expand|kbd-large|{>>|<cell|<with|mode|math|<left|{><space|0fn|-0.3fn|0.8fn>>>|<cell|<expand|kbd-large|}>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|}>>>>|<row|<cell|<expand|kbd-large|\<less\>>>|<cell|<with|mode|math|<left|langle><space|0fn|-0.3fn|0.8fn>>>|<cell|<expand|kbd-large|\<gtr\>>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|rangle>>>>|<row|<cell|<expand|kbd-large|/>>|<cell|<with|mode|math|<mid|/><space|0fn|-0.3fn|0.8fn>>>|<cell|<expand|kbd-large|\\>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><mid|\\>>>>>>>
+    halign|c>|<table|<row|<cell|Raccourcis>|<cell|Résultats>|<cell|Raccourcis>|<cell|Résultats>>|<row|<cell|<key|math:large (>>|<cell|<with|mode|math|<left|(><space|0fn|-0.3fn|0.8fn>>>|<cell|<key|math:large )>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|)>>>>|<row|<cell|<key|math:large [>>|<cell|<with|mode|math|<left|[><space|0fn|-0.3fn|0.8fn>>>|<cell|<key|math:large ]>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|]>>>>|<row|<cell|<key|math:large {>>|<cell|<with|mode|math|<left|{><space|0fn|-0.3fn|0.8fn>>>|<cell|<key|math:large }>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|}>>>>|<row|<cell|<key|math:large \<less\>>>|<cell|<with|mode|math|<left|langle><space|0fn|-0.3fn|0.8fn>>>|<cell|<key|math:large \<gtr\>>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|rangle>>>>|<row|<cell|<key|math:large />>|<cell|<with|mode|math|<mid|/><space|0fn|-0.3fn|0.8fn>>>|<cell|<key|math:large \\>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><mid|\\>>>>>>>
   </expand|Raccourcis clavier pour les grands délimiteurs.>
 
   Dans <apply|TeXmacs>, les grands délimiteurs sont répertoriés suivant trois
@@ -142,13 +142,13 @@
   <with|mode|math|),],}> et <with|mode|math|\<rangle\>> sont des délimiteurs
   fermants et <with|mode|math|\|,/> et <with|mode|math|\<backslash\>> sont
   des délimiteurs internes. Mais ce statut peut être modifié avec
-  \ <expand|kbd-large|l>, <expand|kbd-large|r> et <expand|kbd-large|m>. Par
-  exemple, \ <expand|kbd-large|l )> donne <with|mode|math|)>, considéré comme
+  \ <key|math:large l>, <key|math:large r> et <key|math:large m>. Par
+  exemple, \ <key|math:large l )> donne <with|mode|math|)>, considéré comme
   un délimiteur ouvrant.
 
-  De manière générale, <expand|kbd-large|l> transforme un délimiteur en
-  délimiteur ouvrant, <expand|kbd-large|r> en délimiteur fermant et
-  <expand|kbd-large|m> en délimiteur interne.
+  De manière générale, <key|math:large l> transforme un délimiteur en
+  délimiteur ouvrant, <key|math:large r> en délimiteur fermant et
+  <key|math:large m> en délimiteur interne.
 
   Dans <apply|TeX> et <apply|LaTeX>, les <space|0.2spc>délimiteurs
   internes<space|0.2spc>, ou <space|0.2spc>séparateurs<space|0.2spc>,

@@ -8,37 +8,37 @@
   Os comandos abaixo podem ser usados para cálculos e computação:
 
   <\description>
-    <expand|item*|<expand|kbd-exec|\|>>ou sequëncial de duas condições
+    <expand|item*|<key|executable \|>>ou sequëncial de duas condições
 
-    <expand|item*|<expand|kbd-exec|^>>ou exclusivo de duas condições.
+    <expand|item*|<key|executable ^>>ou exclusivo de duas condições.
 
-    <expand|item*|<expand|kbd-exec|&>>e seqüencial de duas condições.
+    <expand|item*|<key|executable &>>e seqüencial de duas condições.
 
-    <expand|item*|<expand|kbd-exec|!>>negação de uma condição.
+    <expand|item*|<key|executable !>>negação de uma condição.
 
-    <expand|item*|<expand|kbd-exec|+>>adição de dois números ou comprimentos.
+    <expand|item*|<key|executable +>>adição de dois números ou comprimentos.
 
-    <expand|item*|<expand|kbd-exec|->>subtração de dois números ou comprimentos.
+    <expand|item*|<key|executable ->>subtração de dois números ou comprimentos.
 
-    <expand|item*|<expand|kbd-exec|*>>multiplicação de dois números.
+    <expand|item*|<key|executable *>>multiplicação de dois números.
 
-    <expand|item*|<expand|kbd-exec|/>>divisão de dois números.
+    <expand|item*|<key|executable />>divisão de dois números.
 
-    <expand|item*|<expand|kbd-exec|;>>concatenação de duas cadeias de
+    <expand|item*|<key|executable ;>>concatenação de duas cadeias de
     caracteres.
 
-    <expand|item*|<expand|kbd-exec|#>>exibe um número em Arábico, romano,
+    <expand|item*|<key|executable #>>exibe um número em Arábico, romano,
     Romano, alpha ou Alpha (usado em enumerações, por exemplo.)
 
-    <expand|item*|<expand|kbd-exec|\<gtr\>>>traduz uma palavra da língua
+    <expand|item*|<key|executable \<gtr\>>>traduz uma palavra da língua
     original para a língua de destino (ver os dicionários em
     <verbatim|$TEXMACS_PATH/data/dic>).
 
-    <expand|item*|<expand|kbd-exec|=>>testa igualdade
+    <expand|item*|<key|executable =>>testa igualdade
 
-    <expand|item*|<expand|kbd-exec|E-e>>testa desigualdade
+    <expand|item*|<key|executable E-e>>testa desigualdade
 
-    <expand|item*|<expand|kbd-exec|?>>insere um if com um else opcional.
+    <expand|item*|<key|executable ?>>insere um if com um else opcional.
   </description>
 
   <apply|tmdoc-copyright|1998--2003|Joris van der Hoeven & 

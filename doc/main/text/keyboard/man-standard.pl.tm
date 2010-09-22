@@ -16,9 +16,9 @@
 
     <item*|<shortcut|(make-space "-0.2spc")>>Wstawia maªy ujemny odst¦p.
 
-    <item*|<key|M-A-home>>Ustawia pocz¡tek zaznaczenia.
+    <item*|<shortcut|(selection-set-start)>>Ustawia pocz¡tek zaznaczenia.
 
-    <item*|<key|M-A-end>>Ustawia koniec zaznaczenia.
+    <item*|<shortcut|(selection-set-end)>>Ustawia koniec zaznaczenia.
 
     <item*|<shortcut|(go-start)>>Przenosi na pocz¡tek dokumentu.
 

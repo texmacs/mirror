@@ -16,7 +16,7 @@
   i pod-podrz¦dnego'' s¡ u»ywane aby ustawi¢ hierarchi¦ pozycji indeksu.
 
   Zªo»one hasªo indeksu przyjmuje cztery argumenty. Pierwszy to klucz pod
-  jakim jest przechowywane i musi to by¢ tuple'' (tworzone przez <key|M-i
+  jakim jest przechowywane i musi to by¢ tuple'' (tworzone przez <key|inactive
   \<less\>>) którego pierwszym skªadnikiem jest gªówna kategoria, drugim
   podkategoria itd. Drugi argument zªo»onego hasªa jest albo pusty lub
   strong'', w przypadku którego numer strony zostanie napisany tªust¡

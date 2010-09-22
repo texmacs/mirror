@@ -10,8 +10,8 @@
   simboli di punteggiatura si ottengono facilmente sulla maggior parte delle
   tastiere. I caratteri accentati delle lingue straniere possono essere
   ottenuti sistematicamente utilizzando i tasti di escape. Per esempio, ``é''
-  si ottiene scrivendo <expand|kbd-text|' e>. Similmente, si ottiene ``à''
-  mediante <expand|kbd-text|` a> e così via. La sillabazione delle parole
+  si ottiene scrivendo <key|text ' e>. Similmente, si ottiene ``à''
+  mediante <key|text ` a> e così via. La sillabazione delle parole
   lunghe ai bordi di righe successive viene gestita automaticamente. Affinchè
   la sillabazione delle lingue straniere avvenga correttamente, si deve
   specificare la lingua in cui viene scritto il documento nel menu

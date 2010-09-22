@@ -9,37 +9,37 @@
   dynamiques :
 
   <\description>
-    <expand|item*|<expand|kbd-exec|\|>>ou inclusif sur deux termes.
+    <expand|item*|<key|executable \|>>ou inclusif sur deux termes.
 
-    <expand|item*|<expand|kbd-exec|^>>ou exclusif sur deux termes.
+    <expand|item*|<key|executable ^>>ou exclusif sur deux termes.
 
-    <expand|item*|<expand|kbd-exec|&>>et sur deux termes.
+    <expand|item*|<key|executable &>>et sur deux termes.
 
-    <expand|item*|<expand|kbd-exec|!>>négation d'un terme.
+    <expand|item*|<key|executable !>>négation d'un terme.
 
-    <expand|item*|<expand|kbd-exec|+>>somme de deux nombres.
+    <expand|item*|<key|executable +>>somme de deux nombres.
 
-    <expand|item*|<expand|kbd-exec|->>soustraction de deux nombres.
+    <expand|item*|<key|executable ->>soustraction de deux nombres.
 
-    <expand|item*|<expand|kbd-exec|*>>multiplication de deux nombres.
+    <expand|item*|<key|executable *>>multiplication de deux nombres.
 
-    <expand|item*|<expand|kbd-exec|/>>division de deux nombres.
+    <expand|item*|<key|executable />>division de deux nombres.
 
-    <expand|item*|<expand|kbd-exec|;>>concaténation de deux chaînes.
+    <expand|item*|<key|executable ;>>concaténation de deux chaînes.
 
-    <expand|item*|<expand|kbd-exec|#>>affichage d'un nombre en notation
+    <expand|item*|<key|executable #>>affichage d'un nombre en notation
     arabe, indice, romain, alpha minuscule, alpha majuscule (utilisés par
     exemple dans les énumérations).
 
-    <expand|item*|<expand|kbd-exec|\<gtr\>>>traduction d'un mot d'un langage
+    <expand|item*|<key|executable \<gtr\>>>traduction d'un mot d'un langage
     source dans un langage destination (voir les dictionnaires dans
     <verbatim|$TEXMACS_PATH/data/dic>).
 
-    <expand|item*|<expand|kbd-exec|=>>test d'égalité.
+    <expand|item*|<key|executable =>>test d'égalité.
 
-    <expand|item*|<expand|kbd-exec|E-e>>test d'inégalité.
+    <expand|item*|<key|executable E-e>>test d'inégalité.
 
-    <expand|item*|<expand|kbd-exec|?>>insertion d'un ordre si avec un
+    <expand|item*|<key|executable ?>>insertion d'un ordre si avec un
     autrement facultatif.
   </description>
 

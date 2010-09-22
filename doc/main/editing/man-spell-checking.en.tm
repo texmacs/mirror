@@ -7,7 +7,7 @@
 
   If the program <verbatim|ispell> has been installed on your system, then
   you may use it to check your text for misspelled words by pressing
-  <expand|kbd-gen|$> or <submenu|Edit|spell>. Notice that you might have to
+  <shortcut|(spell-start)> or <submenu|Edit|spell>. Notice that you might have to
   verify that the dictionaries corresponding to the languages in which your
   texts have been written have been installed on your system; this is usually
   the case for English.

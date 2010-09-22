@@ -20,7 +20,7 @@
 
   Una entrada de índice compleja toma cuatro argumentos. El primero es una
   clave que sirve exclusivamente para ubicar la entrada en el índice, y debe
-  ser una ``tupla'' (creada usando <expand|kbd-ia|\<less\>>) cuyo primer
+  ser una ``tupla'' (creada usando <key|inactive \<less\>>) cuyo primer
   componente es la categoría principal, el segundo la subcategoría, etc. El
   segundo argumento de una entrada de índice compleja es o bien ``blank'' o
   ``strong''; en este último caso, el número de página de la entrada

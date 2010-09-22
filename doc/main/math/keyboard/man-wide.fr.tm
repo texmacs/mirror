@@ -244,13 +244,13 @@
     rsep|1spc>|<cwith|7|7|1|1|cell bsep|1spc>|<cwith|7|7|1|1|cell
     tsep|1spc>|<cwith|7|7|3|3|cell rborder|1ln>|<cwith|7|7|1|1|cell
     halign|c>|<cwith|7|7|2|2|cell halign|c>|<table|<row|<cell|Raccourcis>|<cell|Exemples>|<cell|Variantes
-    larges>|<cell|Raccourcis>|<cell|Résultats>>|<row|<cell|<expand|kbd-large|~>>|<cell|<with|mode|math|<wide|x|~>>>|<cell|<with|mode|math|<wide|x+y|~>>>|<cell|<expand|kbd-large|'>>|<cell|<with|mode|math|<wide|x|\<acute\>>>>>|<row|<cell|<expand|kbd-large|^>>|<cell|<with|mode|math|<wide|x|^>>>|<cell|<with|mode|math|<wide|x+y|^>>>|<cell|<expand|kbd-large|`>>|<cell|<with|mode|math|<wide|x|\<grave\>>>>>|<row|<cell|<expand|kbd-large|B>>|<cell|<with|mode|math|<wide|x|\<bar\>>>>|<cell|<with|mode|math|<wide|x+y|\<bar\>>>>|<cell|<expand|kbd-large|.>>|<cell|<with|mode|math|<wide|x|\<dot\>>>>>|<row|<cell|<expand|kbd-large|V>>|<cell|<with|mode|math|<wide|x|\<vect\>>>>|<cell|<with|mode|math|<wide|AB|\<vect\>>>>|<cell|<expand|kbd-large|">>|<cell|<with|mode|math|<wide|x|\<ddot\>>>>>|<row|<cell|<expand|kbd-large|C>>|<cell|<with|mode|math|<wide|x|\<check\>>>>|<cell|<with|mode|math|<wide|x+y|\<check\>>>>|<cell|>|<cell|>>|<row|<cell|<expand|kbd-large|U>>|<cell|<with|mode|math|<wide|x|\<breve\>>>>|<cell|<with|mode|math|<wide|x+y|\<breve\>>>>|<cell|>|<cell|>>>>>
+    larges>|<cell|Raccourcis>|<cell|Résultats>>|<row|<cell|<key|math:large ~>>|<cell|<with|mode|math|<wide|x|~>>>|<cell|<with|mode|math|<wide|x+y|~>>>|<cell|<key|math:large '>>|<cell|<with|mode|math|<wide|x|\<acute\>>>>>|<row|<cell|<key|math:large ^>>|<cell|<with|mode|math|<wide|x|^>>>|<cell|<with|mode|math|<wide|x+y|^>>>|<cell|<key|math:large `>>|<cell|<with|mode|math|<wide|x|\<grave\>>>>>|<row|<cell|<key|math:large B>>|<cell|<with|mode|math|<wide|x|\<bar\>>>>|<cell|<with|mode|math|<wide|x+y|\<bar\>>>>|<cell|<key|math:large .>>|<cell|<with|mode|math|<wide|x|\<dot\>>>>>|<row|<cell|<key|math:large V>>|<cell|<with|mode|math|<wide|x|\<vect\>>>>|<cell|<with|mode|math|<wide|AB|\<vect\>>>>|<cell|<key|math:large ">>|<cell|<with|mode|math|<wide|x|\<ddot\>>>>>|<row|<cell|<key|math:large C>>|<cell|<with|mode|math|<wide|x|\<check\>>>>|<cell|<with|mode|math|<wide|x+y|\<check\>>>>|<cell|>|<cell|>>|<row|<cell|<key|math:large U>>|<cell|<with|mode|math|<wide|x|\<breve\>>>>|<cell|<with|mode|math|<wide|x+y|\<breve\>>>>|<cell|>|<cell|>>>>>
   </expand|Raccourcis clavier pour les accents mathématiques larges.>
 
   NdT : Si vous n'arrivez pas à obtenir certains de ces symboles, utilisez la
   barre de menu maths visible quand vous entrez en mode math.
 
-  Sur un clavier français, vous pouvez utiliser <expand|kbd-large|AltGr-9> si
+  Sur un clavier français, vous pouvez utiliser <key|math:large AltGr-9> si
   vous disposez d'une touche <key|AltGr> ou bien <key|\\ h a t retour
   chariot> dans le cas contraire.
 

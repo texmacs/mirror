@@ -5,9 +5,9 @@
 <\body>
   <expand|tmdoc-title|Creare etichette, collegamenti e riferimenti>
 
-  Si può creare una nuova etichetta inattiva utilizzando <expand|kbd-gen|!> o
+  Si può creare una nuova etichetta inattiva utilizzando <shortcut|(make-label)> o
   <apply|menu|Insert|Link|Label> e un riferimento a questa etichetta
-  utilizzando <expand|kbd-gen|?> o <apply|menu|Insert|Link|Reference>. Si
+  utilizzando <shortcut|(make 'reference)> o <apply|menu|Insert|Link|Reference>. Si
   faccia attenzione a porre l'etichetta in un punto in cui il suo numero sarà
   corretto. Quando si assegnano etichette alle sezioni, la posizione
   raccomandata è quella subito dopo il nome della sezione. Quando si
@@ -15,7 +15,7 @@
   dell'equazione.
 
   È possibile creare degli hyperlink ad altri documenti utilizzando
-  <expand|kbd-ia|\<gtr\>> o <apply|menu|Insert|Link|Hyperlink>. Il primo
+  <key|inactive \<gtr\>> o <apply|menu|Insert|Link|Hyperlink>. Il primo
   campo dell'hyperlink è associato al testo, che risulta visualizzato in blu
   quando viene attivato. Il secondo campo contiene il nome di un documento,
   che può torvarsi sul web. Come usualmente accade per gli hyperlink, un
@@ -26,7 +26,7 @@
   <verbatim|<with|font shape|italic|url>>.
 
   In maniera simile, si può associare un'azione ad una parte di testo o a
-  degli elementi grafici utilizzando <expand|kbd-ia|*> o
+  degli elementi grafici utilizzando <key|inactive *> o
   <apply|menu|Insert|Link|Action>. In questo caso, il secondo campo contiene
   uno script Guile/Scheme, che viene eseguito ogni volta che si fa doppio
   click due volte sul testo, dopo la sua attivazione. Per ragioni di
@@ -42,7 +42,7 @@
   valuta <verbatim|shell-command> come comando shell.
 
   Infine, si possono includere direttamente altri documenti in un dato
-  documento utilizzando <expand|kbd-ia|i> o <apply|menu|Insert|Link|Include>.
+  documento utilizzando <key|inactive i> o <apply|menu|Insert|Link|Include>.
   Ciò consente per esempio di includere il listato di un programma nel
   proprio testo, in modo che le modifiche che verranno compiute sul programma
   si riflettano automaticamente nel testo in cui è esso stato incluso.

@@ -12,7 +12,7 @@
   encontrados na documentação sobre a <apply|hyper-link|escrita de arquivos
   de estilo|../../../devel/style/keyboard/style-kbd.pt.tm>.
 
-  Na inserção de um objeto dinâmico como um rótulo usando <expand|kbd-gen|!>,
+  Na inserção de um objeto dinâmico como um rótulo usando <shortcut|(make-label)>,
   o estado padrão do objeto é <em|inativo>. O estado inativo permite que você
   digite informação que é relevante ao objeto dinâmico, tal como o nome do
   rótulo, neste caso particular. Alguns objetos dinâmicos podem ter um número

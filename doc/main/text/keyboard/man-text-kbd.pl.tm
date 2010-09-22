@@ -22,7 +22,7 @@
   >|<cell|<key|text U g>>|<cell|§>|<cell|<key|text V>>|<cell|Check
   >|<cell|<key|text V s>>|<cell|²>>|<row|<cell|<key|text O>>|<cell|Above
   ring >|<cell|<key|text O a>>|<cell|å>|<cell|<key|text .>>|<cell|Above dot
-  \n>|<cell|<key|text <group|.> z>>|<cell|»>>|<row|<cell|<key|text H>>|<cell|Hungarian
+  \n>|<cell|<key|text . z>>|<cell|»>>|<row|<cell|<key|text H>>|<cell|Hungarian
   >|<cell|<key|text H o>>|<cell|®>|<cell|>|<cell|>|<cell|>|<cell|>>>>>|Wprowadzanie
   znaków ogonkowych.>
 

@@ -9,36 +9,36 @@
   arquivos de estilo são as seguintes:
 
   <\description>
-    <expand|item*|<expand|kbd-gen|=>>cria uma nova atribuição. O primeiro
+    <expand|item*|<key|M-=>>cria uma nova atribuição. O primeiro
     argumento é o nome do novo comando e o segundo uma expressão.
 
-    <expand|item*|<expand|kbd-gen|w>>permite mudar localmente uma ou mais
+    <expand|item*|<key|M-w>>permite mudar localmente uma ou mais
     variáveis do ambiente. Comandos `with' são da forma 
     <with|mode|math|\<langle\>x<rsub|1>\|a<rsub|1>\|\<cdots\>\|x<rsub|n>\|a<r\
     sub|n>\|b\<rangle\>>, onde os <with|mode|math|x<rsub|i>> são os nomes das
     variáveis, os <with|mode|math|a<rsub|i>> seus valores locais, e
     <with|mode|math|b> o texto ao qual aplica-se a variável local.
 
-    <expand|item*|<expand|kbd-gen|m>>cria um macro. Argumentos para o macro 
+    <expand|item*|<key|M-m>>cria um macro. Argumentos para o macro 
     podem ser inseridos com a tecla <key|tab>.  
 
-    <expand|item*|<expand|kbd-gen|f>>cria uma função. Argumentos para a função
+    <expand|item*|<key|M-f>>cria uma função. Argumentos para a função
     podem ser inseridas com a tecla  <key|tab>.
 
-    <expand|item*|<expand|kbd-ia|#>>obtém o valor de um argumento de um macro.
+    <expand|item*|<key|inactive #>>obtém o valor de um argumento de um macro.
 
-    <expand|item*|<expand|kbd-ia|v>>obtém o valor de uma variável do ambiente.
+    <expand|item*|<key|inactive v>>obtém o valor de uma variável do ambiente.
 
-    <expand|item*|<expand|kbd-ia|e>>expande o macro com zero ou mais
+    <expand|item*|<key|inactive e>>expande o macro com zero ou mais
     argumentos.
 
-    <expand|item*|<expand|kbd-ia|a>>aplica a função a zero ou mais
+    <expand|item*|<key|inactive a>>aplica a função a zero ou mais
     argumentos.
   </description>
 
   Mais precisamente, durante a expansão de um macro
   <with|mode|math|{a\|x<rsub|1>\|\<cdots\>\|x<rsub|n>}> criado por
-  <expand|kbd-ia|e>, acontecem a seguinte seqüência:
+  <key|inactive e>, acontecem a seguinte seqüência:
 
   <\itemize>
     <item>Se <with|mode|math|a> não é uma cadeia de caracteres ou um macro,

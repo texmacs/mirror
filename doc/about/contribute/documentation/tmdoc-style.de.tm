@@ -12,7 +12,7 @@
 
   <\description>
     <item*|<markup|key>>Dieses Makro wird benutzt, um Keyboard-Eingaben zu
-    kennzeichnen, wie <key|C-x C-s>.
+    kennzeichnen, wie <shortcut|(save-buffer)>.
 
     <item*|<markup|menu>>Dieses Makro kennzeichnet ein Hauptmenü, wie
     <menu|Datei>.

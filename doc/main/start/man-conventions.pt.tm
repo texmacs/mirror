@@ -27,10 +27,10 @@
     <expand|item*|<prefix|H->>Para combinações precedidas pela tecla hyper.
   </description>
 
-  Por exemplo, <shortcut|(make-with font-series bold)> significa <key|A--C--b>.
+  Por exemplo, <shortcut|(make-with font-series bold)> significa <key|A-C-b>.
   Espaços dentro de atalhos de teclado significam que você deve digitar as
-  teclas individualmente. Por exemplo, <expand|kbd-table|N b> significa
-  <key|M--t> <key|N> <key|b>.
+  teclas individualmente. Por exemplo, <key|table N b> significa
+  <prefix|table> <key|N> <key|b>.
 
   As teclas <prefix|A->, <prefix|M-> e
   <prefix|H-> não estão disponíveis em todos os teclados. Em

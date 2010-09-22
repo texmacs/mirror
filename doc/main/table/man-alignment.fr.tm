@@ -7,8 +7,8 @@
 
   L'opération de mise en page la plus fréquente sur un tableau est
   l'alignement horizontal ou vertical d'un bloc de cellules. On peut utiliser
-  <key|M-<with|mode|math|\<leftarrow\>>>,
-  <key|M-<with|mode|math|\<rightarrow\>>>,
+  <shortcut|(positioning-left)>,
+  <shortcut|(positioning-right)>,
   <shortcut|(positioning-up)> et
   <shortcut|(positioning-down)> pour cadrer à gauche, à droite, en
   haut ou en bas.
@@ -16,15 +16,15 @@
   On peut aussi choisir un alignement spécifique avec les menus
   <apply|menu|Table|Horizontal cell alignment> et <apply|menu|Table|Vertical
   cell alignment>, ou bien utiliser les raccourcis clavier
-  <expand|kbd-table|h <with|mode|math|x>> et <expand|kbd-table|v
-  <with|mode|math|x>> pour l'alignement horizontal resp. vertical.
+  <key|table h><render-key|<with|mode|math|x>> et <key|table v
+ ><render-key|<with|mode|math|x>> pour l'alignement horizontal resp. vertical.
 
   De même, on peut choisir l'alignement du tableau par rapport au texte
   environnant. Pour ce faire, utilisez les sous-menus
   <apply|menu|Table|Horizontal table alignment> et <apply|menu|Table|Vertical
-  cell alignment>, ou les raccourcis clavier de la forme <expand|kbd-table|H
-  <with|mode|math|x>> ou <expand|kbd-table|V <with|mode|math|x>>. Ici
-  <key|<with|mode|math|x>> représente <key|l> pour gauche, <key|c> pour
+  cell alignment>, ou les raccourcis clavier de la forme <key|table H
+ ><render-key|<with|mode|math|x>> ou <key|table V><render-key|<with|mode|math|x>>. Ici
+  <render-key|<with|mode|math|x>> représente <key|l> pour gauche, <key|c> pour
   centré ou <key|r> pour droit, <key|b> pour vers le bas et <key|t> pour vers
   le haut.
 

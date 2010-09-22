@@ -8,8 +8,8 @@
   É possível desfazer gradualmente todas as mudanças que você fez em um
   documento a partir do momento em que você iniciou o <apply|TeXmacs>. Isto
   pode ser feito com o menu <apply|menu|Edit|Undo> ou usando as teclas
-  <expand|kbd-gen|[> ou <shortcut|(undo 0)>. Alterações desfeitas podem ser refeitas
-  com <apply|menu|Edit|Redo> ou <expand|kbd-gen|]>.
+  <shortcut|(undo 0)> ou <shortcut|(undo 0)>. Alterações desfeitas podem ser refeitas
+  com <apply|menu|Edit|Redo> ou <shortcut|(redo 0)>.
 
   Para economizar memória, o número de ações sucessivas que podem ser
   desfeitas é limitado normalmente a 100. É possível aumentar este número

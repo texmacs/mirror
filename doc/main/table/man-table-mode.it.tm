@@ -14,13 +14,13 @@
   modalità per le operazioni di formattazione:
 
   <\description>
-    <expand|item*|<expand|kbd-table|m c>>Opera su celle individuali.
+    <expand|item*|<key|table m c>>Opera su celle individuali.
 
-    <expand|item*|<expand|kbd-table|m h>>Opera sulle righe.
+    <expand|item*|<key|table m h>>Opera sulle righe.
 
-    <expand|item*|<expand|kbd-table|m v>>Opera sulle colonne.
+    <expand|item*|<key|table m v>>Opera sulle colonne.
 
-    <expand|item*|<expand|kbd-table|m t>>Opera sull'intera tabella.
+    <expand|item*|<key|table m t>>Opera sull'intera tabella.
   </description>
 
   E' possibile anche selezionare un blocco di celle utilizzando il mouse e

@@ -24,7 +24,7 @@
 
     <item*|<prefix|M->>Klawisz meta jest klawiszem dla polece«
     <TeXmacs> ogólnego przeznaczenia, wspólnych dla wszystkich trybów. Dla
-    przykªadu <key|M-!> tworzy etykiet¦. Jest równie» u»ywany dla dodatkowych
+    przykªadu <shortcut|(make-label)> tworzy etykiet¦. Jest równie» u»ywany dla dodatkowych
     polece« edytorskich, jak <key|M-w> dla kopiowania tekstu, je±li ustawiony
     jest wygl¡d <name|Emacs>. <key|escape> jest równowa»ny <prefix|M->.
 

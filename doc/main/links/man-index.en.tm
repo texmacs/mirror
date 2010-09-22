@@ -19,7 +19,7 @@
 
   A complex index entry takes four arguments. The first one is a key how the
   entry has to be sorted and it must be a ``tuple'' (created using
-  <expand|kbd-ia|\<less\>>) whose first component is the main category, the
+  <key|inactive \<less\>>) whose first component is the main category, the
   second a subcategory, etc. The second argument of a complex index entry is
   either blank or ``strong'', in which case the page number of your entry
   will appear in a bold typeface. The third argument is usually blank, but if

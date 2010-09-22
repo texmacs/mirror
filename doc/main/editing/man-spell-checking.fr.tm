@@ -7,7 +7,7 @@
 
   Si le programme <verbatim|ispell> est installé sur votre système, vous
   pouvez l'utiliser pour vérifier les fautes d'orthographe avec
-  <expand|kbd-gen|$> or <apply|menu|Edit|Spell>. Notez que vous devez
+  <shortcut|(spell-start)> or <apply|menu|Edit|Spell>. Notez que vous devez
   vérifier que vous avez installé les dictionnaires correspondant aux langues
   utilisées dans vos textes ; c'est en général le cas pour l'anglais.
 

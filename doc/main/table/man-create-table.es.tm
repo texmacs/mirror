@@ -9,26 +9,26 @@
   o uno de los siguientes atajos de teclado:
 
   <\description>
-    <expand|item*|<expand|kbd-table|N t>>Crea una tabla normal.
+    <expand|item*|<key|table N t>>Crea una tabla normal.
 
-    <expand|item*|<expand|kbd-table|N T>>Crea una tabla cuyas celdas están
+    <expand|item*|<key|table N T>>Crea una tabla cuyas celdas están
     centradas.
 
-    <expand|item*|<expand|kbd-table|N b>>Crea un ``bloque'' normal cuyas
+    <expand|item*|<key|table N b>>Crea un ``bloque'' normal cuyas
     celdas entán separadas por líneas.
 
-    <expand|item*|<expand|kbd-table|N B>>Crea un bloque cuyas celdas están
+    <expand|item*|<key|table N B>>Crea un bloque cuyas celdas están
     centradas.
   </description>
 
   En modo matemático algunas estructuras tipo tabla son proveidas:
 
   <\description>
-    <expand|item*|<expand|kbd-table|N m>>Crea una matriz.
+    <expand|item*|<key|table N m>>Crea una matriz.
 
-    <expand|item*|<expand|kbd-table|N d>>Crea un determinante.
+    <expand|item*|<key|table N d>>Crea un determinante.
 
-    <expand|item*|<expand|kbd-table|N c>>Crea una lista de elecciones.
+    <expand|item*|<key|table N c>>Crea una lista de elecciones.
   </description>
 
   El entorno <verbatim|\\eqnarray*> es también una clase especial de

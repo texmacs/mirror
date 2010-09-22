@@ -15,16 +15,16 @@
   Um alinhamento específico também pode ser selecionado nos menus
   <apply|menu|Table|Horizontal cell alignment> e <apply|menu|Table|Vertical
   cell alignment>. Ou você pode usar atalhos de teclado como
-  \ <expand|kbd-table|h <with|mode|math|x>> e <expand|kbd-table|v
-  <with|mode|math|x>> para o alinhamento horizontal e vertical,
+  \ <key|table h><render-key|<with|mode|math|x>> e <key|table v
+ ><render-key|<with|mode|math|x>> para o alinhamento horizontal e vertical,
   respectivamente.
 
   De forma análoga, você pode especificar como a própria tabela deve ser
   alinha com respeito ao texto à sua volta. Isto é feito com o submenus de
   alinhamento <apply|menu|Table|Horizontal table alignment> e
   <apply|menu|Table|Vertical table alignment>, ou usando atalhos de teclado
-  da forma <expand|kbd-table|H <with|mode|math|x>> ou <expand|kbd-table|V
-  <with|mode|math|x>>. Aqui \ <key|<with|mode|math|x>> representa <key|l>
+  da forma <key|table H><render-key|<with|mode|math|x>> ou <key|table V
+ ><render-key|<with|mode|math|x>>. Aqui \ <render-key|<with|mode|math|x>> representa <key|l>
   para ``esquerda'', <key|c> para ``centrado'', <key|r> for ``direita'',
   <key|b> for ``abaixo'' e \ <key|t> for ``acima''.
 

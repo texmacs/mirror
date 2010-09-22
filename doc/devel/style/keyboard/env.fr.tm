@@ -9,10 +9,10 @@
   fichiers de style sont les suivantes :
 
   <\description>
-    <expand|item*|<expand|kbd-gen|=>>crée une nouvelle commande. Le premier
+    <expand|item*|<key|M-=>>crée une nouvelle commande. Le premier
     argument est le nom de la nouvelle commande, le second une expression.
 
-    <expand|item*|<expand|kbd-gen|w>>permet de changer localement une ou
+    <expand|item*|<key|M-w>>permet de changer localement une ou
     plusieurs variables d'environnement. Les ordres with
     <em|<em|<em|<em|<em|<em|<em|<em|<em|<em|<em|<em|<em|<em|<em|<em|<em|<em|>>>>>>>>>>>>>>>>>>ont
     la forme suivante : <with|mode|math|\<langle\>x<rsub|1>\|a<rsub|1>\|\<cdots\>\|x<rsub|n>\|a<rsub|n>\|b\<rangle\>>,
@@ -20,28 +20,28 @@
     <with|mode|math|a<rsub|i>> sa valeur locale et <with|mode|math|b> le
     texte sur lequel s'applique l'environnement local.
 
-    <expand|item*|<expand|kbd-gen|m>>crée une macro. Les arguments de la
+    <expand|item*|<key|M-m>>crée une macro. Les arguments de la
     macro sont insérés avec la touche <key|tab>.
 
-    <expand|item*|<expand|kbd-gen|f>>crée une fonction. Les arguments de la
+    <expand|item*|<key|M-f>>crée une fonction. Les arguments de la
     fonction sont insérés avec la touche <key|tab>.
 
-    <expand|item*|<expand|kbd-ia|#>>renvoie la valeur d'un argument de la
+    <expand|item*|<key|inactive #>>renvoie la valeur d'un argument de la
     macro.
 
-    <expand|item*|<expand|kbd-ia|v>>renvoie la valeur d'une variable
+    <expand|item*|<key|inactive v>>renvoie la valeur d'une variable
     d'environnement.
 
-    <expand|item*|<expand|kbd-ia|e>>développe une macro à n arguments (n
+    <expand|item*|<key|inactive e>>développe une macro à n arguments (n
     positif ou nul).
 
-    <expand|item*|<expand|kbd-ia|a>>exécute une fonction à n arguments (n
+    <expand|item*|<key|inactive a>>exécute une fonction à n arguments (n
     positif ou nul).
   </description>
 
   Plus précisément, lors de l'évaluation d'une macro
   <with|mode|math|{a\|x<rsub|1>\|\<cdots\>\|x<rsub|n>}> créée avec
-  <expand|kbd-ia|e>, voici ce qu'il se passe :
+  <key|inactive e>, voici ce qu'il se passe :
 
   <\itemize>
     <item>Si <with|mode|math|a> n'est ni une chaîne de caractères, ni une

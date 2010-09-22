@@ -19,7 +19,7 @@
 
   Uma entrada de índice completa necessita de quatro argumentos. O primeiro é
   a chave com a qual a entrada será ordenada e ele deve ser uma ``tupla''
-  (criada com <expand|kbd-ia|\<less\>>) na qual o primeiro componente é a
+  (criada com <key|inactive \<less\>>) na qual o primeiro componente é a
   categoria principal, o segundo uma subcategoria, etc. O segundo argumento
   de uma entrada complexa pode ser vazio ou então ``strong'', indicando que
   esta entrada aparecerá em negrito no índice. O terceiro argumento

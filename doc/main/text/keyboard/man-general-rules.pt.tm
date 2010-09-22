@@ -21,13 +21,13 @@
 
     <expand|item*|<prefix|A->>A tecla alt é usada para
     comandos que dependem do modo no qual você está. Por exemplo,
-    <expand|kbd-text|s> produz texto <strong|realçado> no modo texto e uma
+    <key|text s> produz texto <strong|realçado> no modo texto e uma
     raiz quadrada <with|mode|math|<sqrt|>> no modo matemático. Note que
     \ <key|escape escape> equivale a \ <prefix|A->.
 
     <expand|item*|<prefix|M->>A tecla meta é usada para
     comandos gerais do <apply|TeXmacs>, que podem ser usados em qualquer
-    modo. Por exemplo, <expand|kbd-gen|!> produz um rótulo. Ela é usada
+    modo. Por exemplo, <shortcut|(make-label)> produz um rótulo. Ela é usada
     também para outros comandos de edição, como <key|A-w> para copiar texto
     se você usa o look and feel do <name|Emacs>. Note que
     <key|escape> equivale a <prefix|M->.

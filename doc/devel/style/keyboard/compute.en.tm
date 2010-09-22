@@ -8,36 +8,36 @@
   The following commands can be used for performing dynamic computations:
 
   <\description>
-    <expand|item*|<expand|kbd-exec|\|>>sequential or of two conditions.
+    <expand|item*|<key|executable \|>>sequential or of two conditions.
 
-    <expand|item*|<expand|kbd-exec|^>>exclusive or of two conditions.
+    <expand|item*|<key|executable ^>>exclusive or of two conditions.
 
-    <expand|item*|<expand|kbd-exec|&>>sequential and of two conditions.
+    <expand|item*|<key|executable &>>sequential and of two conditions.
 
-    <expand|item*|<expand|kbd-exec|!>>negation of a condition.
+    <expand|item*|<key|executable !>>negation of a condition.
 
-    <expand|item*|<expand|kbd-exec|+>>add two numbers or lengths.
+    <expand|item*|<key|executable +>>add two numbers or lengths.
 
-    <expand|item*|<expand|kbd-exec|->>subtract two numbers or lengths.
+    <expand|item*|<key|executable ->>subtract two numbers or lengths.
 
-    <expand|item*|<expand|kbd-exec|*>>multiply two numbers.
+    <expand|item*|<key|executable *>>multiply two numbers.
 
-    <expand|item*|<expand|kbd-exec|/>>divide two numbers.
+    <expand|item*|<key|executable />>divide two numbers.
 
-    <expand|item*|<expand|kbd-exec|;>>concatenate two strings.
+    <expand|item*|<key|executable ;>>concatenate two strings.
 
-    <expand|item*|<expand|kbd-exec|#>>display a number in Arabic, roman,
+    <expand|item*|<key|executable #>>display a number in Arabic, roman,
     Roman, alpha or Alpha (used for instance in enumerations).
 
-    <expand|item*|<expand|kbd-exec|\<gtr\>>>translate a word from a source
+    <expand|item*|<key|executable \<gtr\>>>translate a word from a source
     language into a destination language (see the dictionaries in
     <verbatim|$TEXMACS_PATH/data/dic>).
 
-    <expand|item*|<expand|kbd-exec|=>>test equality.
+    <expand|item*|<key|executable =>>test equality.
 
-    <expand|item*|<expand|kbd-exec|E-e>>test inequality.
+    <expand|item*|<key|executable E-e>>test inequality.
 
-    <expand|item*|<expand|kbd-exec|?>>insert an if statement with an optional
+    <expand|item*|<key|executable ?>>insert an if statement with an optional
     else part.
   </description>
 

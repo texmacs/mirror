@@ -31,7 +31,7 @@
 
     <item*|<prefix|M->>Die Meta-Taste wird für allgemeine
     <TeXmacs>-Befehle genutzt, die in allen möglichen Moden verwendet werden
-    können. Beispielsweise erzeugt <key|M-!> ein Kennzeichen (label). Diese
+    können. Beispielsweise erzeugt <shortcut|(make-label)> ein Kennzeichen (label). Diese
     Taste wird auch für zusätzliche Editierbefehle genutzt, wenn die
     Einstellungen in <menu|Edit|Preferences|Look and feel> dies vorsehen.
     Beachten Sie bitte, dass einmaliges Tippen der <key|Esc>-Taste, also

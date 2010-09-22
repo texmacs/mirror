@@ -19,10 +19,10 @@
     <item*|<shortcut|(make-space "-0.2spc")>>füge einen kurzen negativen Abstand
     ein.
 
-    <item*|<key|M-A-home>>setze manuell den Beginn einer Auswahl
+    <item*|<shortcut|(selection-set-start)>>setze manuell den Beginn einer Auswahl
     (Markierung).
 
-    <item*|<key|M-A-end>>setze manuell das Ende einer Auswahl
+    <item*|<shortcut|(selection-set-end)>>setze manuell das Ende einer Auswahl
     (Markierung).
 
     <item*|<shortcut|(go-start)>>gehe an den Anfang des Dokuments.

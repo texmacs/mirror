@@ -9,38 +9,38 @@
   archivos de estilo son las siguientes:
 
   <\description>
-    <expand|item*|<expand|kbd-gen|=>>crea una nueva asignación. El primer
+    <expand|item*|<key|M-=>>crea una nueva asignación. El primer
     argumento es el nombre de un nuevo comando y el segundo una expresión.
 
-    <expand|item*|<expand|kbd-gen|w>>permite cambiar localmente una o más
+    <expand|item*|<key|M-w>>permite cambiar localmente una o más
     variables de entorno. Las sentencias <with|font family|tt|with> son de la
     forma <with|mode|math|\<langle\>x<rsub|1>\|a<rsub|1>\|\<cdots\>\|x<rsub|n>\|a<rsub|n>\|b\<rangle\>>,
     donde los <with|mode|math|x<rsub|i>> son los nombres de las variables,
     los <with|mode|math|a<rsub|i>> son sus valores locales, y
     <with|mode|math|b> es el texto sobre el que se aplica el entorno local.
 
-    <expand|item*|<expand|kbd-gen|m>>crea un macro. Los argumentos se
+    <expand|item*|<key|M-m>>crea un macro. Los argumentos se
     insertan utilizando la tecla <key|tab>.
 
-    <expand|item*|<expand|kbd-gen|f>>crea una función. Los argumentos se
+    <expand|item*|<key|M-f>>crea una función. Los argumentos se
     insertan utilizando la tecla <key|tab>.
 
-    <expand|item*|<expand|kbd-ia|#>>obtiene el valor de un argumento del
+    <expand|item*|<key|inactive #>>obtiene el valor de un argumento del
     macro.
 
-    <expand|item*|<expand|kbd-ia|v>>obtiene el valor de una variable de
+    <expand|item*|<key|inactive v>>obtiene el valor de una variable de
     entorno.
 
-    <expand|item*|<expand|kbd-ia|e>>expande el macro con cero o más
+    <expand|item*|<key|inactive e>>expande el macro con cero o más
     argumentos.
 
-    <expand|item*|<expand|kbd-ia|a>>aplica una función a cero o más
+    <expand|item*|<key|inactive a>>aplica una función a cero o más
     argumentos.
   </description>
 
   Más precisamente, cuando se evalua una expasión de macro
   <with|mode|math|{a\|x<rsub|1>\|\<cdots\>\|x<rsub|n>}> creada por
-  <expand|kbd-ia|e>, las siguientes acciones son llevadas a cabo:
+  <key|inactive e>, las siguientes acciones son llevadas a cabo:
 
   <\itemize>
     <item>Si <with|mode|math|a> no es una cadena ni un macro, entonces

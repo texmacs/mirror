@@ -53,24 +53,24 @@
   <paragraph|Movements inside the innermost tag>
 
   It is also possible to quickly move inside the innermost tag without
-  quitting it, using <key|H-left>, <key|H-right>, etc. We recall
+  quitting it, using <shortcut|(structured-left)>, <shortcut|(structured-right)>, etc. We recall
   that the <prefix|H-> prefix corresponds to the <key|hyper>-key, which does not
   exist on most keyboards. In order to compose <prefix|H->-based shortcuts, you
   may either <hyper-link|configure your keyboard|../config/man-config-kbd-modkeys.en.tm>
   so as to map another key to <prefix|H->, or simulate the hyper key using
   <key|escape escape escape> or <key|C-escape>.
 
-  In general, <key|H-left>, <key|H-right>, <key|H-home> and
-  <key|H-end> provide a way to move to the previous, next, first or
-  last argument of the innermost tag. Furthermore, the shortcuts <key|H-(>
-  and <key|H-)> may be used to exit the innermost tag on the left or on the
+  In general, <shortcut|(structured-left)>, <shortcut|(structured-right)>, <shortcut|(structured-first)> and
+  <shortcut|(structured-last)> provide a way to move to the previous, next, first or
+  last argument of the innermost tag. Furthermore, the shortcuts <shortcut|(structured-exit-left)>
+  and <shortcut|(structured-exit-right)> may be used to exit the innermost tag on the left or on the
   right.
 
   This default behaviour may be overridden in special contexts. For instance,
   inside tables or trees, they rather correspond to cell-by-cell or
   node-by-node cursor movement. In addition, these cases associate vertical
-  cursor movements to <key|H-up>, <key|H-down>,
-  <key|H-pageup> and<nbsp><key|H-pagedown>.
+  cursor movements to <shortcut|(structured-up)>, <shortcut|(structured-down)>,
+  <shortcut|(structured-top)> and<nbsp><shortcut|(structured-bottom)>.
 
   <tmdoc-copyright|1998--2005|Joris van der Hoeven>
 

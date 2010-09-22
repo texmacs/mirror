@@ -55,21 +55,21 @@
     lsep|1spc>|<cwith|2|2|3|3|cell rsep|1spc>|<cwith|2|2|3|3|cell
     bsep|1spc>|<cwith|2|2|3|3|cell tsep|1spc>|<cwith|1|1|2|2|cell
     halign|c>|<cwith|1|1|4|4|cell halign|c>|<cwith|1|-1|2|2|cell
-    rborder|1ln>|<table|<row|<cell|Atalho>|<cell|Resultado>|<cell|Atalho>|<cell|Resultado>>|<row|<cell|<expand|kbd-big|I>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|int>>>>|<cell|<expand|kbd-big|O>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|oint>>>>>|<row|<cell|<expand|kbd-big|P>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|prod>>>>|<cell|<expand|kbd-big|A>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|amalg>>>>>|<row|<cell|<expand|kbd-big|S>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|sum>>>>|<cell|<expand|kbd-big|@
+    rborder|1ln>|<table|<row|<cell|Atalho>|<cell|Resultado>|<cell|Atalho>|<cell|Resultado>>|<row|<cell|<key|symbol I>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|int>>>>|<cell|<key|symbol O>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|oint>>>>>|<row|<cell|<key|symbol P>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|prod>>>>|<cell|<key|symbol A>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|amalg>>>>>|<row|<cell|<key|symbol S>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|sum>>>>|<cell|<key|symbol @
     +>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|oplus>>>>>|<row|<cell|<expand|kbd-big|@
+    style|true|<big|oplus>>>>>|<row|<cell|<key|symbol @
     x>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|otimes>>>>|<cell|<expand|kbd-big|@
+    style|true|<big|otimes>>>>|<cell|<key|symbol @
     .>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|odot>>>>>|<row|<cell|<expand|kbd-big|U>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|cup>>>>|<cell|<expand|kbd-big|N>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|cap>>>>>|<row|<cell|<expand|kbd-big|V>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|vee>>>>|<cell|<expand|kbd-big|W>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|odot>>>>>|<row|<cell|<key|symbol U>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|cup>>>>|<cell|<key|symbol N>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|cap>>>>>|<row|<cell|<key|symbol V>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|vee>>>>|<cell|<key|symbol W>>|<cell|<with|mode|math|<with|formula
     style|true|<big|wedge>>>>>>>>
   </expand|Operadores matemáticos grandes.>
 
@@ -87,8 +87,8 @@
     <big|intlim><rsub|0><rsup|\<infty\>><frac|\<mathd\> x|1+x<rsup|2>>.
   </expand>
 
-  é obtida com <expand|kbd-big|L I>. Da mesma forma, você pode digitar
-  <expand|kbd-big|L O> para obter <with|mode|math|<big|oint><op|>> com
+  é obtida com <key|symbol L I>. Da mesma forma, você pode digitar
+  <key|symbol L O> para obter <with|mode|math|<big|oint><op|>> com
   limites.
 
   <apply|tmdoc-copyright|1998--2003|Joris van der Hoeven|Ramiro Brito

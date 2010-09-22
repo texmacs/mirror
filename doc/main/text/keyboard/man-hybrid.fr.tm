@@ -27,9 +27,9 @@
   fonction ou de l'environnement compte tenu des arguments fournis. Dans le
   cas contraire, le programme considère que vous voulez définir une variable
   d'environnement et vous demande sa valeur. La touche <key|\\> est toujours
-  équivalente à l'une des commandes suivantes : <expand|kbd-ia|l>,
-  <expand|kbd-ia|e>, <expand|kbd-ia|a>, <expand|kbd-ia|#> ou
-  <expand|kbd-ia|v>.
+  équivalente à l'une des commandes suivantes : <key|inactive l>,
+  <key|inactive e>, <key|inactive a>, <key|inactive #> ou
+  <key|inactive v>.
 
   <apply|tmdoc-copyright|1998--2002|Joris van der Hoeven|Michèle Garoche>
 

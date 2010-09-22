@@ -21,7 +21,7 @@
 
   Le voci di un indice complesso ammettono quattro argomenti. Il primo è una
   chiave secondo la quale la voce sarà ordinata e dovrà essere una ``-upla''
-  (creata utilizzando <expand|kbd-ia|\<less\>>) la cui prima componente è la
+  (creata utilizzando <key|inactive \<less\>>) la cui prima componente è la
   categoria principale, la seconda una sottocategoria, ecc. Il secondo
   argomento delle voci di un indice complesso è bianca o ``strong'', nel qual
   caso il numero della pagina della voce corrispondente apparirà in

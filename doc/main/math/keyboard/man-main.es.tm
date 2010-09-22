@@ -6,12 +6,12 @@
   <expand|tmdoc-title|Principales constructos matemáticos >
 
   Los principales objetos matemáticos son creados usando el prefijo
-  <expand|kbd-math|> como sigue:
+  <key|math > como sigue:
 
-  <expand|big-table|<expand|descriptive-table|<tformat|<table|<row|<cell|Atajo>|<cell|Propósito>|<cell|Ejemplo>>|<row|<cell|<expand|kbd-math|$>>|<cell|Texto>|<cell|<with|mode|math|L={x\|x<with|mode|text|
-  es suficientemente grande>}>>>|<row|<cell|<expand|kbd-math|f>>|<cell|Fracciones>|<cell|<with|mode|math|<frac|a|b+c>>>>|<row|<cell|<expand|kbd-math|s>>|<cell|Raices
-  cuadradas>|<cell|<with|mode|math|<sqrt|x+y>>>>|<row|<cell|<expand|kbd-math|S>>|<cell|Raices
-  <with|mode|math|n>-ésimas>|<cell|<with|mode|math|<sqrt|x<rsup|3>+y<rsup|3>|3>>>>|<row|<cell|<expand|kbd-math|n>>|<cell|Negaciones>|<cell|<with|mode|math|<neg|<frac|a|b+c>>>>>>>>|Creación
+  <expand|big-table|<expand|descriptive-table|<tformat|<table|<row|<cell|Atajo>|<cell|Propósito>|<cell|Ejemplo>>|<row|<cell|<key|math $>>|<cell|Texto>|<cell|<with|mode|math|L={x\|x<with|mode|text|
+  es suficientemente grande>}>>>|<row|<cell|<key|math f>>|<cell|Fracciones>|<cell|<with|mode|math|<frac|a|b+c>>>>|<row|<cell|<key|math s>>|<cell|Raices
+  cuadradas>|<cell|<with|mode|math|<sqrt|x+y>>>>|<row|<cell|<key|math S>>|<cell|Raices
+  <with|mode|math|n>-ésimas>|<cell|<with|mode|math|<sqrt|x<rsup|3>+y<rsup|3>|3>>>>|<row|<cell|<key|math n>>|<cell|Negaciones>|<cell|<with|mode|math|<neg|<frac|a|b+c>>>>>>>>|Creación
   del principal etiquetamiento matemático.>
 
   Las primas, subíndices and superíndices son creados como sigue:
@@ -20,8 +20,8 @@
   o <with|mode|math|<with|mode|math|><with|mode|math|(g+h)<rprime|'''>>>>>|<row|<cell|<key|`>>|<cell|Primas
   anteriores>|<cell|<with|mode|math|<lprime|`>f>>>|<row|<cell|<key|_>>|<cell|Subíndices>|<cell|<with|mode|math|x<rsub|n>>
   o <with|mode|math|x<rsub|i<rsub|3>>>>>|<row|<cell|<key|^>>|<cell|Superíndices>|<cell|<with|mode|math|x<rsup|2>>,
-  <with|mode|math|x<rsub|n><rsup|2>> o <with|mode|math|\<mathe\><rsup|\<mathe\><rsup|x>>>>>|<row|<cell|<expand|kbd-math|l
-  _>>|<cell|Subíndices a izquierda>|<cell|<with|mode|math|<lsub|2>x>>>|<row|<cell|<expand|kbd-math|l
+  <with|mode|math|x<rsub|n><rsup|2>> o <with|mode|math|\<mathe\><rsup|\<mathe\><rsup|x>>>>>|<row|<cell|<key|math l
+  _>>|<cell|Subíndices a izquierda>|<cell|<with|mode|math|<lsub|2>x>>>|<row|<cell|<key|math l
   ^>>|<cell|Superíndices a izquierda>|<cell|<with|mode|math|<lsup|\<pi\>>x>
   or <with|mode|math|<lsub|\<ast\>><lsup|\<ast\>>He<rsub|\<ast\>><rsup|\<ast\>>>>>>>>|Creación
   de primas, subíndices y superíndices>

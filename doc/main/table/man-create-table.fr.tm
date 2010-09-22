@@ -9,28 +9,28 @@
   ou l'un des raccourcis clavier suivants :\ 
 
   <\description>
-    <expand|item*|<expand|kbd-table|N t>>Crée un tableau ordinaire (sans
+    <expand|item*|<key|table N t>>Crée un tableau ordinaire (sans
     bordure, ni encadrement).
 
-    <expand|item*|<expand|kbd-table|N T>>Crée un tableau ordinaire dont les
+    <expand|item*|<key|table N T>>Crée un tableau ordinaire dont les
     cellules sont centrées.
 
-    <expand|item*|<expand|kbd-table|N b>>Crée un
+    <expand|item*|<key|table N b>>Crée un
     <space|0.2spc>bloc<space|0.2spc> ordinaire (tableau avec bordures et
     encadrement)
 
-    <expand|item*|<expand|kbd-table|N B>>Crée un bloc dont les cellules sont
+    <expand|item*|<key|table N B>>Crée un bloc dont les cellules sont
     centrées.
   </description>
 
   En mode math, vous pouvez aussi créer les structures tabulaires suivantes :
 
   <\description>
-    <expand|item*|<expand|kbd-table|N m>>Crée une matrice.
+    <expand|item*|<key|table N m>>Crée une matrice.
 
-    <expand|item*|<expand|kbd-table|N d>>Crée un déterminant.
+    <expand|item*|<key|table N d>>Crée un déterminant.
 
-    <expand|item*|<expand|kbd-table|N c>>Crée une liste de choix.
+    <expand|item*|<key|table N c>>Crée une liste de choix.
   </description>
 
   L'environnement <verbatim|\\eqnarray*> est, lui aussi, une sorte de
@@ -41,8 +41,8 @@
   cellules sont vides. On peut insérer de nouvelles lignes et de nouvelles
   colonnes avec les raccourcis <key|A-<with|mode|math|<op|\<leftarrow\>>>>,
   <key|A-<with|mode|math|<op|\<rightarrow\>>>>,
-  <key|A-<with|mode|math|\<uparrow\>>> et
-  <key|A-<with|mode|math|\<downarrow\>>>. Par exemple,
+  <shortcut|(structured-insert-up)> et
+  <shortcut|(structured-insert-down)>. Par exemple,
   <key|A-<with|mode|math|<op|\<rightarrow\>>>> crée une nouvelle colonne à la
   droite de la position du curseur. On peut aussi créer une nouvelle ligne
   en-dessous de la position du curseur en appuyant sur la touche <key|retour

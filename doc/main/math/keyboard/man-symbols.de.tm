@@ -22,7 +22,7 @@
   und <with|mode|math|\<bbb-F\>\<bbb-E\>\<bbb-T\>\<bbb-T\>\<bbb-E\>
   \ \ \ \ \ \<bbb-T\>\<bbb-A\>\<bbb-F\>\<bbb-E\>\<bbb-L\>\<bbb-S\>\<bbb-C\>\<bbb-H\>\<bbb-R\>\<bbb-F\>\<bbb-T\>>
   zu erzeugen. \ <shortcut|\<frak-m\>> gibt <with|mode|math|\<frak-m\>>, <key|S-F6 R>
-  gibt <no-break><with|mode|math|\<bbb-R\>> und <shortcut|\<b-calZ\>> ergibt
+  gibt <no-break><with|mode|math|\<bbb-R\>> und <shortcut|\<b-cal-Z\>> ergibt
   <with|mode|math|\<b-cal-Z\>>.
 
   Griechische Buchstaben können auch als \RVarianten`` von lateinischen

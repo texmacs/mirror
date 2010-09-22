@@ -14,7 +14,7 @@
   <prefix|math:bbb> mog¡ by¢ u»yte do wpisania: znaku pogrubionego, kaligraficznego,
   fraktur i blackboard odpowiednio. Na przykªad, <shortcut|\<frak-m\>> daje
   <with|mode|math|\<frak-m\>>, <key|S-F6 R> to <with|mode|math|\<bbb-R\>> a
-  <shortcut|\<b-calZ\>> oznacza <with|mode|math|\<b-cal-Z\>>. Niestety aby uzyska¢
+  <shortcut|\<b-cal-Z\>> oznacza <with|mode|math|\<b-cal-Z\>>. Niestety aby uzyska¢
   <with|mode|math|<with|math-font|Bbb*|1>> trzeba u»y¢ czcionki blackboard
   (<key|M-A-B>).
 

@@ -11,8 +11,8 @@
     de la celda y el texto propiamente dicho en el interior de la misma.
   </footnote> de una celda en las cuatro posibles direcciones: a la
   izquierda, derecha, arriba y abajo (ver <apply|menu|Table|Cell border> ).
-  Usted tiene los atajos de teclado \ <expand|kbd-table|b <with|mode|math|x>>
-  y <expand|kbd-table|p <with|mode|math|x>> para especificar los anchos de
+  Usted tiene los atajos de teclado \ <key|table b><render-key|<with|mode|math|x>>
+  y <key|table p><render-key|<with|mode|math|x>> para especificar los anchos de
   borde y de acolchado de la celda.
 
   <tabular|<tformat|<table|<row|<cell|>>>>>El ancho del borde por defecto

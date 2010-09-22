@@ -7,7 +7,7 @@
 
   Si el programa <verbatim|ispell> ha sido instalado en su sistema, entonces
   puede usarlo para hacer la revisión ortográfica de sus documentos, pulsando
-  <expand|kbd-gen|$> o mediante <apply|menu|Edit|Spell>. Esto actuará sobre
+  <shortcut|(spell-start)> o mediante <apply|menu|Edit|Spell>. Esto actuará sobre
   el texto completo o sobre la región seleccionada, si la tienes. Observe que
   debes verificar que el diccionario de español (o del idioma en que escriba)
   está instalado en su sistema. El inglés suele venir por defecto.

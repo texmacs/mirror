@@ -22,13 +22,13 @@
 
     <expand|item*|<prefix|A->>La tecla alternate key es usada
     para comandos que dependen del modo en el cual usted está. Por ejemplo,
-    <expand|kbd-text|s> produce texto <strong|resaltado> en el modo texto y
+    <key|text s> produce texto <strong|resaltado> en el modo texto y
     una raíz cuadrada en <with|mode|math|<sqrt|>> en el modo matemático. Note
     que <key|escape escape> es equivalente a <prefix|A->.
 
     <expand|item*|<prefix|M->>La tecla meta es usada para
     comandos <apply|TeXmacs> de propósito general, que pueden ser usados en
-    todos los modos. Por ejemplo, <expand|kbd-gen|!> produces una etiqueta.
+    todos los modos. Por ejemplo, <shortcut|(make-label)> produces una etiqueta.
     Es también usado para comandos de edición adicional, como <key|A-w> para
     copiar texto si usted usa el aspecto y comportamiento <name|Emacs>. Note
     que <key|escape> es equivalente a <prefix|M->.

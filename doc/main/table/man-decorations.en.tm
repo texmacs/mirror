@@ -8,8 +8,8 @@
   You may specify the border widths and padding spaces of a cell in all
   possible four directions: on the left, on the right, at the bottom and at
   the top (see <submenu|Table|cell border>). You have keyboard shorthands of
-  the forms <expand|kbd-table|b <with|mode|math|x>> and <expand|kbd-table|p
-  <with|mode|math|x>> in order to specify border widths and cell padding.
+  the forms <key|table b><render-key|<with|mode|math|x>> and <key|table p
+ ><render-key|<with|mode|math|x>> in order to specify border widths and cell padding.
 
   The default border width for cells in the block environment is
   <verbatim|1ln>, i.e. the standard line width in the current font (like the

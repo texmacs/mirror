@@ -11,7 +11,7 @@
     <expand|item*|<key|S-return>>per iniziare un nuovo
     paragrafo.
 
-    <expand|item*|<key|C-backspace>>per rimuovere un oggetto o
+    <expand|item*|<shortcut|(remove-structure-upwards)>>per rimuovere un oggetto o
     un ambiente.
 
     <expand|item*|<shortcut|(make-space "0.2spc")>per inserire un piccolo

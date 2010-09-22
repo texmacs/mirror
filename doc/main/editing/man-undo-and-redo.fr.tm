@@ -8,9 +8,9 @@
   Il est possible d'annuler un par un les changements faits dans un document
   à partir du moment où vous avez lancé <apply|TeXmacs>. Pour ce faire,
   utilisez <apply|menu|Edit|Undo> ou utilisez les combinaisons
-  <expand|kbd-gen|[> ou <shortcut|(undo 0)>. Pour rétablir les changements
+  <shortcut|(undo 0)> ou <shortcut|(undo 0)>. Pour rétablir les changements
   <space|0.2spc>annulés<space|0.2spc>, utilisez <apply|menu|Edit|Redo> ou
-  <expand|kbd-gen|]>.
+  <shortcut|(redo 0)>.
 
   Pour ne pas utiliser trop de mémoire, le nombre d'actions successives
   annulables est limité à 100 (par défaut). Vous pouvez changer ce nombre en

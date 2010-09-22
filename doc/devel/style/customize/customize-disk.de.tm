@@ -54,7 +54,7 @@
       \ \ \ \ $TEXMACS_PATH/packages
     </verbatim>
 
-    Wenn man <key|C-x C-f> benutzt, um Dateien zu laden, dann sind die oben
+    Wenn man <shortcut|(interactive load-buffer)> benutzt, um Dateien zu laden, dann sind die oben
     genannten Pfade mit im Standard-Pfad. Wenn Sie also das
     <tmpackage|std-markup>-Paket ansehen wollen, brauchen sie nur <key|C-x
     C-f>, eingeben und den Datei-Namen <verbatim|std-markup.ts> und

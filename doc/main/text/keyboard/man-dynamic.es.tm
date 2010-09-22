@@ -14,7 +14,7 @@
   estilo|../../../devel/style/keyboard/style-kbd.en.tm>.
 
   Cuando se ingresa un objeto dinámico como un rótulo usando
-  <expand|kbd-gen|!>, el estado por defecto es <em|inactivo>. Este estado
+  <shortcut|(make-label)>, el estado por defecto es <em|inactivo>. Este estado
   inactibo le permite teclar información que es relevandte al objeto
   dinámico, tal como el nombre del rótulo en nuestro caso. Ciertos objetos
   dinámicos toman un número arbitrario de parámetros y los nuevos pueden ser

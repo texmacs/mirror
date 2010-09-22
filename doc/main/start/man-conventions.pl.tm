@@ -24,7 +24,7 @@
     <item*|<prefix|H->>Dla kombinacji z klawiszem hyper.
   </description>
 
-  Dla przykªadu <shortcut|(make-with font-series bold)> oznacza <key|A--C--b>.
+  Dla przykªadu <shortcut|(make-with font-series bold)> oznacza <key|A-C-b>.
   Spacja wewn¡trz skrótu informuje i» jest to wielokrokowa sekwencja. Czyli,
   <key|M-t N b> oznacza <key|meta-t> <key|N> <key|b>.
 

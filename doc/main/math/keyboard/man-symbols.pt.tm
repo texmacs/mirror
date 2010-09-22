@@ -14,7 +14,7 @@
   análoga, <prefix|math:bold>, <prefix|math:cal>, <prefix|math:frak> e <prefix|math:bbb> podem ser usados para
   inserir caracteres em negrito, caligráficos, fraktur e blackboard bold. Por
   exemplo, <shortcut|\<frak-m\>> produz <with|mode|math|\<frak-m\>>, <key|S-F6 R> produz
-  <format|no line break><with|mode|math|\<bbb-R\>> e <shortcut|\<b-calZ\>> produz
+  <format|no line break><with|mode|math|\<bbb-R\>> e <shortcut|\<b-cal-Z\>> produz
   <with|mode|math|\<b-cal-Z\>>.
 
   Letras gregas também podem ser obtidas como \ ``variações'' das letras
@@ -73,7 +73,7 @@
 
   <expand|big-table|<expand|descriptive-table|<tformat|<cwith|1|-1|2|2|cell
   halign|c>|<cwith|1|-1|4|4|cell halign|c>|<cwith|1|-1|2|2|cell
-  rborder|1ln>|<table|<row|<cell|Atalho>|<cell|Símbolo>|<cell|Atalho>|<cell|Símbolo>>|<row|<cell|<expand|kbd-symb|a>>|<cell|<with|mode|math|\<amalg\>>>|<cell|>|<cell|>>|<row|<cell|<expand|kbd-symb|n>>|<cell|<with|mode|math|\<cap\>>>|<cell|<expand|kbd-symb|u>>|<cell|<with|mode|math|\<cup\>>>>|<row|<cell|<expand|kbd-symb|v>>|<cell|<with|mode|math|\<vee\>>>|<cell|<expand|kbd-symb|w>>|<cell|<with|mode|math|\<wedge\>>>>>>>|Alguns
+  rborder|1ln>|<table|<row|<cell|Atalho>|<cell|Símbolo>|<cell|Atalho>|<cell|Símbolo>>|<row|<cell|<key|symbol a>>|<cell|<with|mode|math|\<amalg\>>>|<cell|>|<cell|>>|<row|<cell|<key|symbol n>>|<cell|<with|mode|math|\<cap\>>>|<cell|<key|symbol u>>|<cell|<with|mode|math|\<cup\>>>>|<row|<cell|<key|symbol v>>|<cell|<with|mode|math|\<vee\>>>|<cell|<key|symbol w>>|<cell|<with|mode|math|\<wedge\>>>>>>>|Alguns
   símbolos que não podem ser obtidos usando-se as regras gerais.>
 
   <apply|tmdoc-copyright|1998--2003|Joris van der Hoeven|Ramiro Brito

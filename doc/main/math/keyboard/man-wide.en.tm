@@ -245,19 +245,16 @@
     tsep|1spc>|<cwith|7|7|3|3|cell rborder|1ln>|<cwith|7|7|1|1|cell
     halign|c>|<cwith|7|7|2|2|cell halign|c>|<table|<row|<cell|Shortcut>|<cell\
     |Example>|<cell|Wide variant>|<cell|Shortcut>|<cell|Result>>|<row|<cell|<\
-    expand|kbd-large|~>>|<cell|<with|mode|math|<wide|x|~>>>|<cell|<with|mode|\
-    math|<wide|x+y|~>>>|<cell|<expand|kbd-large|'>>|<cell|<with|mode|math|<wi\
-    de|x|\<acute\>>>>>|<row|<cell|<expand|kbd-large|^>>|<cell|<with|mode|math\
-    |<wide|x|^>>>|<cell|<with|mode|math|<wide|x+y|^>>>|<cell|<expand|kbd-larg\
-    e|`>>|<cell|<with|mode|math|<wide|x|\<grave\>>>>>|<row|<cell|<expand|kbd-\
-    large|B>>|<cell|<with|mode|math|<wide|x|\<bar\>>>>|<cell|<with|mode|math|\
-    <wide|x+y|\<bar\>>>>|<cell|<expand|kbd-large|.>>|<cell|<with|mode|math|<w\
-    ide|x|\<dot\>>>>>|<row|<cell|<expand|kbd-large|V>>|<cell|<with|mode|math|\
+    expand|key|math:large ~>>|<cell|<with|mode|math|<wide|x|~>>>|<cell|<with|mode|\
+    math|<wide|x+y|~>>>|<cell|<key|math:large '>>|<cell|<with|mode|math|<wi\
+    de|x|\<acute\>>>>>|<row|<cell|<key|math:large ^>>|<cell|<with|mode|math\
+    |<wide|x|^>>>|<cell|<with|mode|math|<wide|x+y|^>>>|<cell|<key|math:large `>>|<cell|<with|mode|math|<wide|x|\<grave\>>>>>|<row|<cell|<key|math:large B>>|<cell|<with|mode|math|<wide|x|\<bar\>>>>|<cell|<with|mode|math|\
+    <wide|x+y|\<bar\>>>>|<cell|<key|math:large .>>|<cell|<with|mode|math|<w\
+    ide|x|\<dot\>>>>>|<row|<cell|<key|math:large V>>|<cell|<with|mode|math|\
     <wide|x|\<vect\>>>>|<cell|<with|mode|math|<wide|AB|\<vect\>>>>|<cell|<exp\
-    and|kbd-large|">>|<cell|<with|mode|math|<wide|x|\<ddot\>>>>>|<row|<cell|<\
-    expand|kbd-large|C>>|<cell|<with|mode|math|<wide|x|\<check\>>>>|<cell|<wi\
-    th|mode|math|<wide|x+y|\<check\>>>>|<cell|>|<cell|>>|<row|<cell|<expand|k\
-    bd-large|U>>|<cell|<with|mode|math|<wide|x|\<breve\>>>>|<cell|<with|mode|\
+    and|key|math:large ">>|<cell|<with|mode|math|<wide|x|\<ddot\>>>>>|<row|<cell|<\
+    expand|key|math:large C>>|<cell|<with|mode|math|<wide|x|\<check\>>>>|<cell|<wi\
+    th|mode|math|<wide|x+y|\<check\>>>>|<cell|>|<cell|>>|<row|<cell|<expand|key|math:large U>>|<cell|<with|mode|math|<wide|x|\<breve\>>>>|<cell|<with|mode|\
     math|<wide|x+y|\<breve\>>>>|<cell|>|<cell|>>>>>
   </expand|Keyboard shortcuts for wide mathemarical accents.>
 

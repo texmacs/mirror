@@ -9,8 +9,8 @@
   commencer la saisie. Les caractères anglais usuels et les signes de
   ponctuation sont accessibles sur la plupart des claviers. Les caractères
   accentués existant dans d'autres langages peuvent être obtenus avec la
-  touche escape. Par exemple, on obtient é avec <expand|kbd-text|' e>. De
-  même, on obtient à avec <expand|kbd-text|` a> et ainsi de suite. La
+  touche escape. Par exemple, on obtient é avec <key|text ' e>. De
+  même, on obtient à avec <key|text ` a> et ainsi de suite. La
   césure des mots en fin de chaque ligne d'un paragraphe est systématique.
   Pour que la césure soit correctement appliquée dans une langue autre que
   l'anglais, il faut indiquer la langue utilisée dans le document avec

@@ -13,7 +13,7 @@
   file di stile|../../../devel/style/keyboard/style-kbd.it.tm>.
 
   Quando si inserisce un oggetto dinamico come un'etichetta usando
-  <expand|kbd-gen|!>, lo stato predefinito è <em|inattivo>. Questo stato
+  <shortcut|(make-label)>, lo stato predefinito è <em|inattivo>. Questo stato
   inattivo consente di scrivere le informazioni rilevanti per l'oggetto
   dinamico, come il nome dell'etichetta nel nostro caso. Alcuni oggetti
   dinamici ammettono un numero arbitrario di parametri e uno nuovo di essi

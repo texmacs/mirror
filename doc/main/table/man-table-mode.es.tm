@@ -14,13 +14,13 @@
   siguientes modos de operación están disponibles:
 
   <\description>
-    <expand|item*|<expand|kbd-table|m c>>Operar sobre celdas individuales.
+    <expand|item*|<key|table m c>>Operar sobre celdas individuales.
 
-    <expand|item*|<expand|kbd-table|m h>>Operar sobre filas.
+    <expand|item*|<key|table m h>>Operar sobre filas.
 
-    <expand|item*|<expand|kbd-table|m v>>Operar sobre columnas.
+    <expand|item*|<key|table m v>>Operar sobre columnas.
 
-    <expand|item*|<expand|kbd-table|m t>>Operar sobre toda la tabla.
+    <expand|item*|<key|table m t>>Operar sobre toda la tabla.
   </description>
 
   También es posible seleccionar un bloque de celdas usando el ratón y

@@ -11,7 +11,7 @@
     <expand|item*|<key|S-return>>sempre começa um novo
     parágrafo.
 
-    <expand|item*|<key|C-backspace>>remove um objeto ou
+    <expand|item*|<shortcut|(remove-structure-upwards)>>remove um objeto ou
     ambiente.
 
     <expand|item*|<shortcut|(make-space "0.2spc")>insere um espaço pequeno.

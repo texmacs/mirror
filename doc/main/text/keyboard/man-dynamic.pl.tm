@@ -11,7 +11,7 @@
   przykªadów dynamik mo»na znale¹¢ w dokumentacji o <hyper-link|tworzeniu
   plików styli|../../../devel/style/keyboard/style-kbd.pl.tm>.
 
-  Przy wprowadzaniu dynamicznego obiektu jak etykieta u»ywaj¡c <key|M-!>,
+  Przy wprowadzaniu dynamicznego obiektu jak etykieta u»ywaj¡c <shortcut|(make-label)>,
   domy±lny stan to <em|nieaktywny>. Ten stan pozwala wprowadzi¢ informacje
   istotne dla dynamicznego obiektu, tak jak nazwa etykiety w podanym
   przykªadzie. Niektóre obiekty przyjmuj¡ ró»n¡ liczb¦ parametrów, nowe mo»na

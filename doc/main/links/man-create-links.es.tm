@@ -5,16 +5,16 @@
 <\body>
   <expand|tmdoc-title|Creación de rótulos, enlaces y referencias>
 
-  Puede crear un nuevo rótulo inactivo usando <expand|kbd-gen|!> o
+  Puede crear un nuevo rótulo inactivo usando <shortcut|(make-label)> o
   <apply|menu|Insert|Link|Label> y una referencia a este rótulo usando
-  <expand|kbd-gen|?> o <apply|menu|Insert|Link|Reference>. Sea cuidadoso de
+  <shortcut|(make 'reference)> o <apply|menu|Insert|Link|Reference>. Sea cuidadoso de
   poner el rótulo a un punto donde su número será correcto. Cuando rotule las
   secciones, el lugar recomendado es justo después del nombre de la sección.
   Cuando rotule ecuaciones, el lugar recomendado es al inicio dentro de la
   ecuación.\ 
 
   Es posible crear hiperenlaces a otros documentos usando
-  <expand|kbd-ia|\<gtr\>> o <apply|menu|Insert|Link|Hyperlink>. El segundo
+  <key|inactive \<gtr\>> o <apply|menu|Insert|Link|Hyperlink>. El segundo
   campo de un hiperenlace es el texto asociado, que es mostrado en azul
   cuando es activado. El segundo campo contiene el nombre de un documetno, el
   cual puede estar en la Web. Como es usual para los hiperenlaces, un enlace
@@ -24,7 +24,7 @@
   documento localizado en la <verbatim|<with|font shape|italic|url>>.
 
   De modo similar, una acción puede ser asociada a una pieza de texto o
-  gráficos usando <expand|kbd-ia|*> o <apply|menu|Insert|Link|Action>. El
+  gráficos usando <key|inactive *> o <apply|menu|Insert|Link|Action>. El
   segundo campo ahora contiene un comando de <em|script> de Guile/Scheme, en
   cual es ejecutado en el momento que haga doble click sobre el texto,
   después de su activación. Por razones de seguridad, tales <em|scripts> no
@@ -39,7 +39,7 @@
   evalua <verbatim|shell-command> como un comando de shell.
 
   Finalmente, usted puede directamente incluir otros documentos dentro de un
-  documento usando <expand|kbd-ia|i> o <apply|menu|Insert|Link|Include>. Esto
+  documento usando <key|inactive i> o <apply|menu|Insert|Link|Include>. Esto
   le permite por ejemplo incluir un listado de un programa en su texto de
   forma tal que sus modificaciones en su programa son automáticamente
   reflejadas en su texto.

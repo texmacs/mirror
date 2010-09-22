@@ -8,16 +8,16 @@
   Les raccourcis clavier qui fonctionnent dans tous les modes sont :
 
   <\description>
-    <expand|item*|<key|S-entrée>>effectue un saut de ligne, retour chariot.
+    <expand|item*|<key|S-return>>effectue un saut de ligne, retour chariot.
 
-    <expand|item*|<key|C-retour arrière>>supprime un objet ou un
+    <expand|item*|<shortcut|(remove-structure-upwards)>>supprime un objet ou un
     environnement.
 
     <expand|item*|<shortcut|(make-space "0.2spc")>>insère un petit espace.
 
     <expand|item*|<shortcut|(make-space "-0.2spc")>>insère un petit espace négatif.
 
-    <expand|item*|<key|A-début>>marque le début d'une sélection.
+    <expand|item*|<shortcut|(structured-insert-start)>>marque le début d'une sélection.
 
     <expand|item*|<shortcut|(structured-insert-end)>>marque la fin d'une sélection.
 

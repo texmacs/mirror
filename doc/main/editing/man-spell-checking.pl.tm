@@ -6,7 +6,7 @@
   <tmdoc-title|Sprawdzanie pisowni>
 
   Je±li zainstalowany jest program <verbatim|ispell>, to mo»na go u»y¢ do
-  wyszukania ¹le wpisanych sªów poprzez <key|M-$> lub <menu|Edit|Spell>.
+  wyszukania ¹le wpisanych sªów poprzez <shortcut|(spell-start)> lub <menu|Edit|Spell>.
   Istotne jest aby w systemie byªy zainstalowane sªowniki dla j¦zyka w którym
   napisany zostaª dokument.
 

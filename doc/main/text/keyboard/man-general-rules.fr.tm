@@ -21,13 +21,13 @@
 
     <expand|item*|<prefix|A->>La touche alt est utilisée pour
     les commandes qui dépendent du mode dans lequel vous êtes. Par exemple,
-    <expand|kbd-text|s> génère du texte <strong|important> en mode texte et
+    <key|text s> génère du texte <strong|important> en mode texte et
     une racine carrée <with|mode|math|<sqrt|>> en mode maths. Notez que
     <key|escape escape> est équivalent à <prefix|A->.
 
     <expand|item*|<prefix|M->>La touche meta est utilisée pour
     les commandes <apply|TeXmacs> générales, celles qui peuvent être
-    utilisées dans tous les modes. Par exemple, <expand|kbd-gen|!> génère une
+    utilisées dans tous les modes. Par exemple, <shortcut|(make-label)> génère une
     étiquette. Elle est aussi utilisée pour certaines commandes d'édition
     avec l'apparence Emacs, comme <key|A-w> pour copier du texte. Notez que
     <key|escape> est équivalent à <prefix|M->.

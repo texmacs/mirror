@@ -14,7 +14,7 @@
   <prefix|math:frak> and <prefix|math:bbb> can be used in order to type bold, calligraphic,
   fraktur and blackboard bold characters. For instance, <shortcut|\<frak-m\>> yields
   <with|mode|math|\<frak-m\>>, <key|S-F6 R> yields <format|no line
-  break><with|mode|math|\<bbb-R\>> and <shortcut|\<b-calZ\>> yields
+  break><with|mode|math|\<bbb-R\>> and <shortcut|\<b-cal-Z\>> yields
   <with|mode|math|\<b-cal-Z\>>.
 
   Greek characters can also be obtained as ``variants'' of Latin characters
@@ -73,7 +73,7 @@
 
   <expand|big-table|<expand|descriptive-table|<tformat|<cwith|1|-1|2|2|cell
   halign|c>|<cwith|1|-1|4|4|cell halign|c>|<cwith|1|-1|2|2|cell
-  rborder|1ln>|<table|<row|<cell|Shortcut>|<cell|Symbol>|<cell|Shortcut>|<cell|Symbol>>|<row|<cell|<expand|kbd-symb|a>>|<cell|<with|mode|math|\<amalg\>>>|<cell|>|<cell|>>|<row|<cell|<expand|kbd-symb|n>>|<cell|<with|mode|math|\<cap\>>>|<cell|<expand|kbd-symb|u>>|<cell|<with|mode|math|\<cup\>>>>|<row|<cell|<expand|kbd-symb|v>>|<cell|<with|mode|math|\<vee\>>>|<cell|<expand|kbd-symb|w>>|<cell|<with|mode|math|\<wedge\>>>>>>>|Some
+  rborder|1ln>|<table|<row|<cell|Shortcut>|<cell|Symbol>|<cell|Shortcut>|<cell|Symbol>>|<row|<cell|<key|symbol a>>|<cell|<with|mode|math|\<amalg\>>>|<cell|>|<cell|>>|<row|<cell|<key|symbol n>>|<cell|<with|mode|math|\<cap\>>>|<cell|<key|symbol u>>|<cell|<with|mode|math|\<cup\>>>>|<row|<cell|<key|symbol v>>|<cell|<with|mode|math|\<vee\>>>|<cell|<key|symbol w>>|<cell|<with|mode|math|\<wedge\>>>>>>>|Some
   symbols which cannot be obtained using general rules in a natural way.>
 
   <apply|tmdoc-copyright|1998--2002|Joris van der Hoeven>

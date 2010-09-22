@@ -7,7 +7,7 @@
 
   Se o programa <verbatim|ispell> estiver instalado no seu sistema, então
   você pode usá-lo para verificar seu texto em relação a palavras digitadas
-  incorretamente. Você pode pressionar <expand|kbd-gen|$> ou
+  incorretamente. Você pode pressionar <shortcut|(spell-start)> ou
   <apply|menu|Edit|Spell>. Note que você pode ter que verificar se os
   dicionários correspondentes às línguas dos seus textos estão instalados no
   seu sistema; isto é comum para o Inglês.

@@ -9,15 +9,15 @@
   dos atalhos abaixo:
 
   <\description>
-    <expand|item*|<expand|kbd-table|N t>>Criar uma tabela regular.
+    <expand|item*|<key|table N t>>Criar uma tabela regular.
 
-    <expand|item*|<expand|kbd-table|N T>>Criar uma tabela regular com células
+    <expand|item*|<key|table N T>>Criar uma tabela regular com células
     centradas.
 
-    <expand|item*|<expand|kbd-table|N b>>Criar um ``bloco'', cujas células
+    <expand|item*|<key|table N b>>Criar um ``bloco'', cujas células
     são separadas por linhas.
 
-    <expand|item*|<expand|kbd-table|N B>>Cria um bloco cujas células são
+    <expand|item*|<key|table N B>>Cria um bloco cujas células são
     centradas.
   </description>
 
@@ -25,11 +25,11 @@
   disponíveis:
 
   <\description>
-    <expand|item*|<expand|kbd-table|N m>>Criar uma matriz.
+    <expand|item*|<key|table N m>>Criar uma matriz.
 
-    <expand|item*|<expand|kbd-table|N d>>Criar um determinante.
+    <expand|item*|<key|table N d>>Criar um determinante.
 
-    <expand|item*|<expand|kbd-table|N c>>Criar uma lista de opções.
+    <expand|item*|<key|table N c>>Criar uma lista de opções.
   </description>
 
   O ambiente <verbatim|\\eqnarray*> é também um tipo especial de estrutura

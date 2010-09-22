@@ -230,8 +230,8 @@
     <src-arg|alternative>s hat die Form: <verbatim|<tuple|<tmarker>|<inactive|<compound|document|alt2>>|<inactive|<compound|document|alt3>>>>,
     wobei angenommen wurde, dass <src-arg|current> die erste Alternative ist.
     Die Tastenkombination <key|M-A-nachoben> schaltet zur ersten Ebene,
-    \ <key|M-A-nachunten> \ zur letzten, <key|M-A-links> um eine nach vorne
-    und \ <key|M-A-rechts> um eine nach hinten. Es können auch die
+    \ <key|M-A-nachunten> \ zur letzten, <key|M-A-left> um eine nach vorne
+    und \ <key|M-A-right> um eine nach hinten. Es können auch die
     Menübefehle <menu|Insert|Switches|Switch to previous> bis
     \ <menu|Insert|Switches|Switch to last> benutzt werden.\ 
 

@@ -13,13 +13,13 @@
 
   <\description>
     <expand|item*|<markup|key>>Este macro es usado para indicar una entrada
-    de teclado como <key|C-x C-s>. Los macros especializados
+    de teclado como <shortcut|(save-buffer)>. Los macros especializados
     <markup|kbd-gen>, <markup|kbd-text>, <markup|kbd-math>,
     <markup|kbd-symb>, <markup|kbd-big>, <markup|kbd-large>, <markup|kbd-ia>,
     <markup|kbd-exec> y <markup|kbd-table> son usados para entradas de
     teclado correspondientes a tipos específicos de acción o modos. Por
     ejemplo, <markup|kbd-math> corresponde a atajos de teclado para
-    operaciones matemáticas, tales como <expand|kbd-math|f>, el cual inicia
+    operaciones matemáticas, tales como <key|math f>, el cual inicia
     una fracción.
 
     <expand|item*|<markup|menu>>Esta función con un número arbitrario de

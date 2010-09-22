@@ -8,8 +8,8 @@
   Você pode especificar a espessura das bordas e o espaço vazio de enchimento
   dentro da célula em todas as quatro direções possíveis: à esquerda,
   direita, acima e abaixo (ver <apply|menu|Table|Cell border>). Você tem
-  atalhos de teclado da forma \ <expand|kbd-table|b <with|mode|math|x>> e
-  <expand|kbd-table|p <with|mode|math|x>> para especificar a espessura da
+  atalhos de teclado da forma \ <key|table b><render-key|<with|mode|math|x>> e
+  <key|table p><render-key|<with|mode|math|x>> para especificar a espessura da
   moldura e do enchimento.
 
   A largura padrão das molduras para células no ambiente bloco é

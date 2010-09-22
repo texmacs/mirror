@@ -27,7 +27,7 @@
 
     <item*|<prefix|M->>The meta key is used for general
     purpose <TeXmacs> commands, which can be used in all modes. For instance,
-    <key|M-!> produces a label. It is also used for additional editing
+    <shortcut|(make-label)> produces a label. It is also used for additional editing
     commands, like <key|A-w> for copying text if you use the <name|Emacs>
     look and feel. Notice that <key|escape> is equivalent to <prefix|M->.
 

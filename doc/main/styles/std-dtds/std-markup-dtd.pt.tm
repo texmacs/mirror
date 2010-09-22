@@ -42,7 +42,7 @@
 
     <expand|item*|<markup|abbr>>Uma abreviação. Por exemplo, eu trabalho no
     <abbr|C.N.R.S.> Um abreviação é criada com <apply|menu|Text|Content
-    tag|Abbreviation> ou com o atalho de teclado <expand|kbd-text|a>.
+    tag|Abbreviation> ou com o atalho de teclado <key|text a>.
 
     <expand|item*|<markup|acronym>>Um acrônimo é uma abreviação formada com a
     primeira letra de cada palavra de uma frase, como <acronym|HTML> ou

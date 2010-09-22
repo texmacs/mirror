@@ -6,10 +6,10 @@
   <tmdoc-title|Sitzungen editieren>
 
   Innerhalb der Eingabefelder von Sitzungen haben die Cursor-Tasten eine
-  besondere Bedeutung. Die Tasten <key|<with|mode|math|\<uparrow\>>> und
-  <key|<with|mode|math|\<downarrow\>>> führen zu den vorgehenden bzw.
-  nachfolgenden Feldern. Die Tasten <key|<with|mode|math|\<leftarrow\>>> und
-  <key|<with|mode|math|\<rightarrow\>>> verlassen nie das Eingabefeld. Dazu
+  besondere Bedeutung. Die Tasten <key|up> und
+  <key|down> führen zu den vorgehenden bzw.
+  nachfolgenden Feldern. Die Tasten <key|left> und
+  <key|right> verlassen nie das Eingabefeld. Dazu
   sollten Sie die Maus benutzen.
 
   Die Menüs <menu|Session|Insert fields> und <menu|Session|Remove fields>,
@@ -18,9 +18,9 @@
   zugehörige Ein- bzw. Ausgabe-Felder. Mit dem Befehl <menu|Session|Insert
   fields|Insert text field> kann zu einem Eingabefeld ein erklärendes
   Textfeld eingefügt werden. Kurzbefehle zum Einfügen von Eingabefeldern sind
-  <shortcut|(structured-insert-up)>, ( <key|A-<with|mode|math|\<uparrow\>>>,
+  <shortcut|(structured-insert-up)>, ( <shortcut|(structured-insert-up)>,
   <menu|Session|Insert fields|Insert field above>) und <shortcut|(structured-insert-down)>, (
-  <key|A-<with|mode|math|\<downarrow\>>>, <menu|Session|Insert fields|Insert
+  <shortcut|(structured-insert-down)>, <menu|Session|Insert fields|Insert
   field below>). Mit dem Kurzbefehl <shortcut|(structured-remove #t)>, ( <key|Entf>,
   <menu|Session|Remove fields|Remove inputfield> ) \ wird das aktuelle
   Eingabefeld entfernt. <shortcut|(structured-remove #f)>, (
@@ -30,13 +30,13 @@
   outputfields> werden alle Ausgabefelder entfernt.
 
   Mit <menu|Session|Insert fields|Fold input field> oder <shortcut|(structured-insert #t)>
-  ( <key|<with|mode|math|\<rightarrow\>>> ) können Sie eine \RUnter-Sitzung''
+  ( <key|right> ) können Sie eine \RUnter-Sitzung''
   starten. Die aktuellen Eingabe-, Ausgabe- und Text-Felder werden zum Rumpf
   einer neuen nicht verborgenen \ \RUnter-Sitzung'' . Diese bestehen aus
   einem erklärenden Text und einer Folge von Text-, Eingabe- und
   Ausgabe-Feldern. Man kann verborgene Unter-Sitzungen mit
-  \ <key|M-A-<with|mode|math|\<uparrow\>>> sichtbar machen und mit
-  <key|M-A-<with|mode|math|\<downarrow\>>> verbergen. Unter-Sitzungen werden
+  \ <key|M-A-up> sichtbar machen und mit
+  <key|M-A-down> verbergen. Unter-Sitzungen werden
   besonders gut dargestellt, wenn man das <tmpackage|varsession>-Paket
   benutzt: <menu|Document|Add package|Program|Varsession>.
 

@@ -20,7 +20,7 @@
   \H>|<cell|<key|text U g>>|<cell|§>|<cell|<key|text V>>|<cell|Tschechisch
   \G>|<cell|<key|text V s>>|<cell|²>>|<row|<cell|<key|text O>>|<cell|Nordischer
   Akzent\F>|<cell|<key|text O a>>|<cell|å>|<cell|<key|text .>>|<cell|Hochpunkt
-  \n>|<cell|<key|text <group|.> z>>|<cell|»>>|<row|<cell|<key|text H>>|<cell|Ungarische
+  \n>|<cell|<key|text . z>>|<cell|»>>|<row|<cell|<key|text H>>|<cell|Ungarische
   Tilde \E>|<cell|<key|text H o>>|<cell|®>|<cell|>|<cell|>|<cell|>|<cell|>>>>>|Akzentuierte
   (diakritische) Buchstaben.>
 

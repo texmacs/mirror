@@ -26,8 +26,8 @@
   macro, aplicación de la función o del entorno, es creada (con el número
   debido de argumentos). En otro caso, se supone que su comando corresponde a
   una variable de entorno y pedimos su valor. La tecla <key|\\> es siempre
-  equivalente a uno de los comandos \ <expand|kbd-ia|l>, <expand|kbd-ia|e>,
-  <expand|kbd-ia|a>, <expand|kbd-ia|#> o <expand|kbd-ia|v>.
+  equivalente a uno de los comandos \ <key|inactive l>, <key|inactive e>,
+  <key|inactive a>, <key|inactive #> o <key|inactive v>.
 
   <apply|tmdoc-copyright|1998--2002|Joris van der Hoeven|Álvaro Cantero
   Tejero|Pablo Ruiz Múzquiz|David Moriano Garcia|Offray Vladimir Luna

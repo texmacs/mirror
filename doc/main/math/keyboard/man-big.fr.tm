@@ -55,21 +55,21 @@
     lsep|1spc>|<cwith|2|2|3|3|cell rsep|1spc>|<cwith|2|2|3|3|cell
     bsep|1spc>|<cwith|2|2|3|3|cell tsep|1spc>|<cwith|1|1|2|2|cell
     halign|c>|<cwith|1|1|4|4|cell halign|c>|<cwith|1|-1|2|2|cell
-    rborder|1ln>|<table|<row|<cell|Raccourcis>|<cell|Résultat>|<cell|Raccourcis>|<cell|Résultat>>|<row|<cell|<expand|kbd-big|I>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|int>>>>|<cell|<expand|kbd-big|O>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|oint>>>>>|<row|<cell|<expand|kbd-big|P>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|prod>>>>|<cell|<expand|kbd-big|A>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|amalg>>>>>|<row|<cell|<expand|kbd-big|S>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|sum>>>>|<cell|<expand|kbd-big|@
+    rborder|1ln>|<table|<row|<cell|Raccourcis>|<cell|Résultat>|<cell|Raccourcis>|<cell|Résultat>>|<row|<cell|<key|symbol I>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|int>>>>|<cell|<key|symbol O>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|oint>>>>>|<row|<cell|<key|symbol P>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|prod>>>>|<cell|<key|symbol A>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|amalg>>>>>|<row|<cell|<key|symbol S>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|sum>>>>|<cell|<key|symbol @
     +>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|oplus>>>>>|<row|<cell|<expand|kbd-big|@
+    style|true|<big|oplus>>>>>|<row|<cell|<key|symbol @
     x>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|otimes>>>>|<cell|<expand|kbd-big|@
+    style|true|<big|otimes>>>>|<cell|<key|symbol @
     .>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|odot>>>>>|<row|<cell|<expand|kbd-big|U>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|cup>>>>|<cell|<expand|kbd-big|N>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|cap>>>>>|<row|<cell|<expand|kbd-big|V>>|<cell|<with|mode|math|<with|formula
-    style|true|<big|vee>>>>|<cell|<expand|kbd-big|W>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|odot>>>>>|<row|<cell|<key|symbol U>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|cup>>>>|<cell|<key|symbol N>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|cap>>>>>|<row|<cell|<key|symbol V>>|<cell|<with|mode|math|<with|formula
+    style|true|<big|vee>>>>|<cell|<key|symbol W>>|<cell|<with|mode|math|<with|formula
     style|true|<big|wedge>>>>>>>>
   </expand|Grands opérateurs mathématiques.>
 
@@ -87,13 +87,13 @@
     <big|intlim><rsub|0><rsup|\<infty\>><frac|\<mathd\> x|1+x<rsup|2>>.
   </expand>
 
-  utilisez <expand|kbd-big|L I>. De même, utilisez <expand|kbd-big|L O> pour
+  utilisez <key|symbol L I>. De même, utilisez <key|symbol L O> pour
   obtenir la variante <with|mode|math|<big|oint><op|>>avec
   <space|0.2spc>limites<space|0.2spc>.\ 
 
   Nd<with|mode|math|>T : Si vous n'arrivez pas à produire les grands symboles
   mathématiques composés de deux lettres après la combinaison
-  <expand|kbd-big|>, utilisez la barre de menu math qui s'affiche lorsque
+  <key|symbol >, utilisez la barre de menu math qui s'affiche lorsque
   vous passez en mode math.<with|mode|math|>
 
   <apply|tmdoc-copyright|1998--2002|Joris van der Hoeven|Michèle Garoche>

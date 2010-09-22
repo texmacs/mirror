@@ -14,7 +14,7 @@
   <prefix|math:bold>, <prefix|math:cal>, <prefix|math:frak> et <prefix|math:bbb> permettent d'obtenir des
   caractères gras, calligraphiques, gothiques ou des onciales. Par exemple,
   <shortcut|\<frak-m\>> donne <with|mode|math|\<frak-m\>>, <key|S-F6 R> donne <format|no
-  line break><with|mode|math|\<bbb-R\>> et <shortcut|\<b-calZ\>> donne
+  line break><with|mode|math|\<bbb-R\>> et <shortcut|\<b-cal-Z\>> donne
   <with|mode|math|\<b-cal-Z\>>.
 
   Les caractères grecs peuvent aussi être obtenus en tant que
@@ -70,7 +70,7 @@
 
   <expand|big-table|<expand|descriptive-table|<tformat|<cwith|1|-1|2|2|cell
   halign|c>|<cwith|1|-1|4|4|cell halign|c>|<cwith|1|-1|2|2|cell
-  rborder|1ln>|<table|<row|<cell|Raccourcis>|<cell|Symboles>|<cell|Raccourcis>|<cell|Symboles>>|<row|<cell|<expand|kbd-symb|a>>|<cell|<with|mode|math|\<amalg\>>>|<cell|>|<cell|>>|<row|<cell|<expand|kbd-symb|n>>|<cell|<with|mode|math|\<cap\>>>|<cell|<expand|kbd-symb|u>>|<cell|<with|mode|math|\<cup\>>>>|<row|<cell|<expand|kbd-symb|v>>|<cell|<with|mode|math|\<vee\>>>|<cell|<expand|kbd-symb|w>>|<cell|<with|mode|math|\<wedge\>>>>>>>|Symboles
+  rborder|1ln>|<table|<row|<cell|Raccourcis>|<cell|Symboles>|<cell|Raccourcis>|<cell|Symboles>>|<row|<cell|<key|symbol a>>|<cell|<with|mode|math|\<amalg\>>>|<cell|>|<cell|>>|<row|<cell|<key|symbol n>>|<cell|<with|mode|math|\<cap\>>>|<cell|<key|symbol u>>|<cell|<with|mode|math|\<cup\>>>>|<row|<cell|<key|symbol v>>|<cell|<with|mode|math|\<vee\>>>|<cell|<key|symbol w>>|<cell|<with|mode|math|\<wedge\>>>>>>>|Symboles
   ne pouvant être obtenus par les règles générales édictées ci-dessus.>
 
   <apply|tmdoc-copyright|1998--2002|Joris van der Hoeven|Michèle Garoche>

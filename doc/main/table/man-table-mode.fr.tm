@@ -13,13 +13,13 @@
   operation mode>. Les modes opératoires suivants sont disponibles :
 
   <\description>
-    <expand|item*|<expand|kbd-table|m c>>Opère sur des cellules.
+    <expand|item*|<key|table m c>>Opère sur des cellules.
 
-    <expand|item*|<expand|kbd-table|m h>>Opère sur des lignes.
+    <expand|item*|<key|table m h>>Opère sur des lignes.
 
-    <expand|item*|<expand|kbd-table|m v>>Opère sur des colonnes.
+    <expand|item*|<key|table m v>>Opère sur des colonnes.
 
-    <expand|item*|<expand|kbd-table|m t>>Opère sur l'ensemble du tableau.
+    <expand|item*|<key|table m t>>Opère sur l'ensemble du tableau.
   </description>
 
   On peut aussi sélectionner un bloc de cellules en utilisant la souris et

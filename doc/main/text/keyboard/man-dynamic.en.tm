@@ -12,7 +12,7 @@
   found in the documentation about <hyper-link|writing style
   files|../../../devel/style/keyboard/style-kbd.en.tm>.
 
-  When entering a dynamic object like a label using <key|M-!>, the default
+  When entering a dynamic object like a label using <shortcut|(make-label)>, the default
   state is <em|inactive>. This inactive state enables you to type the
   information which is relevant to the dynamic object, such as the name of
   the label in our case. Certain dynamic objects take an arbitrary number of

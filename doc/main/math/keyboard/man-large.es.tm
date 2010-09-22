@@ -130,7 +130,7 @@
     lsep|1spc>|<cwith|6|6|3|3|cell rsep|1spc>|<cwith|6|6|3|3|cell
     bsep|1spc>|<cwith|6|6|3|3|cell tsep|1spc>|<cwith|6|6|2|2|cell
     rborder|1ln>|<cwith|1|-1|1|1|cell halign|c>|<cwith|1|-1|3|3|cell
-    halign|c>|<table|<row|<cell|Atajo>|<cell|Resultado>|<cell|Atajo>|<cell|Resultado>>|<row|<cell|<expand|kbd-large|(>>|<cell|<with|mode|math|<left|(><space|0fn|-0.3fn|0.8fn>>>|<cell|<expand|kbd-large|)>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|)>>>>|<row|<cell|<expand|kbd-large|[>>|<cell|<with|mode|math|<left|[><space|0fn|-0.3fn|0.8fn>>>|<cell|<expand|kbd-large|]>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|]>>>>|<row|<cell|<expand|kbd-large|{>>|<cell|<with|mode|math|<left|{><space|0fn|-0.3fn|0.8fn>>>|<cell|<expand|kbd-large|}>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|}>>>>|<row|<cell|<expand|kbd-large|\<less\>>>|<cell|<with|mode|math|<left|langle><space|0fn|-0.3fn|0.8fn>>>|<cell|<expand|kbd-large|\<gtr\>>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|rangle>>>>|<row|<cell|<expand|kbd-large|/>>|<cell|<with|mode|math|<mid|/><space|0fn|-0.3fn|0.8fn>>>|<cell|<expand|kbd-large|\\>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><mid|\\>>>>>>>
+    halign|c>|<table|<row|<cell|Atajo>|<cell|Resultado>|<cell|Atajo>|<cell|Resultado>>|<row|<cell|<key|math:large (>>|<cell|<with|mode|math|<left|(><space|0fn|-0.3fn|0.8fn>>>|<cell|<key|math:large )>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|)>>>>|<row|<cell|<key|math:large [>>|<cell|<with|mode|math|<left|[><space|0fn|-0.3fn|0.8fn>>>|<cell|<key|math:large ]>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|]>>>>|<row|<cell|<key|math:large {>>|<cell|<with|mode|math|<left|{><space|0fn|-0.3fn|0.8fn>>>|<cell|<key|math:large }>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|}>>>>|<row|<cell|<key|math:large \<less\>>>|<cell|<with|mode|math|<left|langle><space|0fn|-0.3fn|0.8fn>>>|<cell|<key|math:large \<gtr\>>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|rangle>>>>|<row|<cell|<key|math:large />>|<cell|<with|mode|math|<mid|/><space|0fn|-0.3fn|0.8fn>>>|<cell|<key|math:large \\>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><mid|\\>>>>>>>
   </expand|Atajos de teclado para los delimitadores grandes.>
 
   En <TeXmacs> los delimitadores grandes pueden ser ``delimitadores
@@ -141,8 +141,8 @@
   <with|mode|math|><with|mode|math|<right|rangle>> son delimitadores derechos
   y <with|mode|math|<mid|\|>,<mid|/>> y <with|mode|math|<mid|\\> >son
   delimitadores centrales. Pero su naturaleza puede cambiarse usando las
-  combinaciones de teclas <expand|kbd-large|l>, <expand|kbd-large|r> y
-  <expand|kbd-large|m>. Por ejemplo, <expand|kbd-large|l )> produce
+  combinaciones de teclas <key|math:large l>, <key|math:large r> y
+  <key|math:large m>. Por ejemplo, <key|math:large l )> produce
   <with|mode|math|<right|)>> considerado como delimitador izquierdo grande.
 
   En <apply|TeX> o <apply|LaTeX>, los delimitadores centrales o

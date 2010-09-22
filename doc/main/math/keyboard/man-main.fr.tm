@@ -6,13 +6,13 @@
   <expand|tmdoc-title|Principaux objets mathématiques>
 
   Les principaux objets mathématiques sont créés avec le préfixe
-  <expand|kbd-math|>, comme suit :
+  <key|math >, comme suit :
 
   <expand|big-table|<expand|descriptive-table|<tformat|<cwith|1|1|2|2|cell
-  halign|c>|<cwith|1|1|3|3|cell halign|c>|<table|<row|<cell|Raccourcis>|<cell|Objet>|<cell|Exemples>>|<row|<cell|<expand|kbd-math|$>>|<cell|Texte>|<cell|<with|mode|math|L={x\|x<with|mode|text|
-  est assez grand>}>>>|<row|<cell|<expand|kbd-math|f>>|<cell|Fractions>|<cell|<with|mode|math|<frac|a|b+c>>>>|<row|<cell|<expand|kbd-math|s>>|<cell|Racines
-  carrées>|<cell|<with|mode|math|<sqrt|x+y>>>>|<row|<cell|<expand|kbd-math|S>>|<cell|Racines
-  <with|font shape|italic|nièmes>>|<cell|<with|mode|math|<sqrt|x<rsup|3>+y<rsup|3>|3>>>>|<row|<cell|<expand|kbd-math|n>>|<cell|Négations>|<cell|<with|mode|math|<neg|<frac|a|b+c>>>>>>>>|Raccourcis
+  halign|c>|<cwith|1|1|3|3|cell halign|c>|<table|<row|<cell|Raccourcis>|<cell|Objet>|<cell|Exemples>>|<row|<cell|<key|math $>>|<cell|Texte>|<cell|<with|mode|math|L={x\|x<with|mode|text|
+  est assez grand>}>>>|<row|<cell|<key|math f>>|<cell|Fractions>|<cell|<with|mode|math|<frac|a|b+c>>>>|<row|<cell|<key|math s>>|<cell|Racines
+  carrées>|<cell|<with|mode|math|<sqrt|x+y>>>>|<row|<cell|<key|math S>>|<cell|Racines
+  <with|font shape|italic|nièmes>>|<cell|<with|mode|math|<sqrt|x<rsup|3>+y<rsup|3>|3>>>>|<row|<cell|<key|math n>>|<cell|Négations>|<cell|<with|mode|math|<neg|<frac|a|b+c>>>>>>>>|Raccourcis
   mathématiques principaux.>
 
   Les symboles prime, prime à gauche, exposants et indices sont créés de la
@@ -24,8 +24,8 @@
   <with|mode|math|<with|mode|math|><with|mode|math|(g+h)<rprime|'''>>>>>|<row|<cell|<key|`>>|<cell|Symbole
   prime à gauche>|<cell|<with|mode|math|<lprime|`>f>>>|<row|<cell|<key|_>>|<cell|Indices>|<cell|<with|mode|math|x<rsub|n>>
   or <with|mode|math|x<rsub|i<rsub|3>>>>>|<row|<cell|<key|^>>|<cell|Exposants>|<cell|<with|mode|math|x<rsup|2>>,
-  <with|mode|math|x<rsub|n><rsup|2>> or <with|mode|math|\<mathe\><rsup|\<mathe\><rsup|x>>>>>|<row|<cell|<expand|kbd-math|l
-  _>>|<cell|Indices à gauche>|<cell|<with|mode|math|<lsub|2>x>>>|<row|<cell|<expand|kbd-math|l
+  <with|mode|math|x<rsub|n><rsup|2>> or <with|mode|math|\<mathe\><rsup|\<mathe\><rsup|x>>>>>|<row|<cell|<key|math l
+  _>>|<cell|Indices à gauche>|<cell|<with|mode|math|<lsub|2>x>>>|<row|<cell|<key|math l
   ^>>|<cell|Exposants à gauche>|<cell|<with|mode|math|<lsup|\<pi\>>x> or
   <with|mode|math|<lsub|\<ast\>><lsup|\<ast\>>He<rsub|\<ast\>><rsup|\<ast\>>>>>>>>|Création
   de symboles primes, indices et exposants>

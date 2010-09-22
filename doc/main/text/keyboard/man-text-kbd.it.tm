@@ -42,19 +42,19 @@
   halign|c>|<cwith|6|6|5|7|cell halign|c>|<cwith|6|6|6|6|cell
   halign|l>|<cwith|6|6|7|8|cell halign|c>|<cwith|6|6|7|7|cell
   halign|c>|<cwith|6|6|7|8|cell halign|c>|<cwith|6|6|7|7|cell
-  halign|c>|<table|<row|<cell|Abbreviazione>|<cell|>|<cell|Esempio>|<cell|>|<cell|Abbreviazione>|<cell|>|<cell|Esempio>|<cell|>>|<row|<cell|<expand|kbd-text|'>>|<cell|Acuto
-  >|<cell|<expand|kbd-text|' e>>|<cell|é>|<cell|<expand|kbd-text|`>>|<cell|Grave
-  `>|<cell|<expand|kbd-text|` e>>|<cell|è>>|<row|<cell|<expand|kbd-text|^>>|<cell|Circonflesso
-  >|<cell|<expand|kbd-text|^ e>>|<cell|ê>|<cell|<expand|kbd-text|^>>|<cell|Umlaut
-  >|<cell|<expand|kbd-text|" e>>|<cell|ë>>|<row|<cell|<expand|kbd-text|~>>|<cell|Tilde
-  >|<cell|<expand|kbd-text|~ a>>|<cell|ã>|<cell|<expand|kbd-text|C>>|<cell|Cedilla
-  >|<cell|<expand|kbd-text|C c>>|<cell|ç>>|<row|<cell|<expand|kbd-text|U>>|<cell|Breve
-  >|<cell|<expand|kbd-text|U g>>|<cell|§>|<cell|<expand|kbd-text|V>>|<cell|Ceco
-  >|<cell|<expand|kbd-text|V s>>|<cell|²>>|<row|<cell|<expand|kbd-text|O>>|<cell|cerchio
-  in alto >|<cell|<expand|kbd-text|O a>>|<cell|å>|<cell|<expand|kbd-text|.>>|<cell|punto
-  in alto \n>|<cell|<expand|kbd-text|<group|.>
-  z>>|<cell|»>>|<row|<cell|<expand|kbd-text|H>>|<cell|Ungherese
-  >|<cell|<expand|kbd-text|H o>>|<cell|®>|<cell|>|<cell|>|<cell|>|<cell|>>>>>|Caratteri
+  halign|c>|<table|<row|<cell|Abbreviazione>|<cell|>|<cell|Esempio>|<cell|>|<cell|Abbreviazione>|<cell|>|<cell|Esempio>|<cell|>>|<row|<cell|<key|text '>>|<cell|Acuto
+  >|<cell|<key|text ' e>>|<cell|é>|<cell|<key|text `>>|<cell|Grave
+  `>|<cell|<key|text ` e>>|<cell|è>>|<row|<cell|<key|text ^>>|<cell|Circonflesso
+  >|<cell|<key|text ^ e>>|<cell|ê>|<cell|<key|text ^>>|<cell|Umlaut
+  >|<cell|<key|text " e>>|<cell|ë>>|<row|<cell|<key|text ~>>|<cell|Tilde
+  >|<cell|<key|text ~ a>>|<cell|ã>|<cell|<key|text C>>|<cell|Cedilla
+  >|<cell|<key|text C c>>|<cell|ç>>|<row|<cell|<key|text U>>|<cell|Breve
+  >|<cell|<key|text U g>>|<cell|§>|<cell|<key|text V>>|<cell|Ceco
+  >|<cell|<key|text V s>>|<cell|²>>|<row|<cell|<key|text O>>|<cell|cerchio
+  in alto >|<cell|<key|text O a>>|<cell|å>|<cell|<key|text .>>|<cell|punto
+  in alto \n>|<cell|<key|text .
+  z>>|<cell|»>>|<row|<cell|<key|text H>>|<cell|Ungherese
+  >|<cell|<key|text H o>>|<cell|®>|<cell|>|<cell|>|<cell|>|<cell|>>>>>|Caratteri
   accentati in <TeXmacs>.>
 
   I caratteri speciali ÿ, ß, ÷, ×, æ e Æ si ottengono mediante <key|S-F5 s>,

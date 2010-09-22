@@ -9,8 +9,8 @@
   nelle quattro direzioni possibili: a sinistra, a destra, in basso e in alto
   (si veda il menu <apply|menu|Table|Cell border>). Per specificare le
   dimensioni dei bordi e le spaziature di una cella si possono anche
-  utilizzare delle scorciatoie da tastiera della forma <expand|kbd-table|b
-  <with|mode|math|x>> e <expand|kbd-table|p <with|mode|math|x>>.
+  utilizzare delle scorciatoie da tastiera della forma <key|table b
+ ><render-key|<with|mode|math|x>> e <key|table p><render-key|<with|mode|math|x>>.
 
   Per default, la larghezza dei bordi delle celle nell'ambiente blocco è
   <verbatim|1ln>, cioè la larghezza standard di una linea nel font corrente

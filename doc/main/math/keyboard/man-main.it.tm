@@ -6,12 +6,12 @@
   <expand|tmdoc-title|Oggetti matematici principali >
 
   Gli oggetti matematici principali vengono creati utilizzando il prefisso
-  <expand|kbd-math|> come segue:
+  <key|math > come segue:
 
-  <expand|big-table|<expand|descriptive-table|<tformat|<table|<row|<cell|Abbreviazione>|<cell|Scopo>|<cell|Esempio>>|<row|<cell|<expand|kbd-math|$>>|<cell|Testo>|<cell|<with|mode|math|L={x\|x<with|mode|text|
-  sia sufficientemente grande>}>>>|<row|<cell|<expand|kbd-math|f>>|<cell|Frazioni>|<cell|<with|mode|math|<frac|a|b+c>>>>|<row|<cell|<expand|kbd-math|s>>|<cell|Radici
-  quadrate>|<cell|<with|mode|math|<sqrt|x+y>>>>|<row|<cell|<expand|kbd-math|S>>|<cell|Radici
-  <with|mode|math|n>-esime>|<cell|<with|mode|math|<sqrt|x<rsup|3>+y<rsup|3>|3>>>>|<row|<cell|<expand|kbd-math|n>>|<cell|Negazioni>|<cell|<with|mode|math|<neg|<frac|a|b+c>>>>>>>>|Creazione
+  <expand|big-table|<expand|descriptive-table|<tformat|<table|<row|<cell|Abbreviazione>|<cell|Scopo>|<cell|Esempio>>|<row|<cell|<key|math $>>|<cell|Testo>|<cell|<with|mode|math|L={x\|x<with|mode|text|
+  sia sufficientemente grande>}>>>|<row|<cell|<key|math f>>|<cell|Frazioni>|<cell|<with|mode|math|<frac|a|b+c>>>>|<row|<cell|<key|math s>>|<cell|Radici
+  quadrate>|<cell|<with|mode|math|<sqrt|x+y>>>>|<row|<cell|<key|math S>>|<cell|Radici
+  <with|mode|math|n>-esime>|<cell|<with|mode|math|<sqrt|x<rsup|3>+y<rsup|3>|3>>>>|<row|<cell|<key|math n>>|<cell|Negazioni>|<cell|<with|mode|math|<neg|<frac|a|b+c>>>>>>>>|Creazione
   dei principali oggetti matematici.>
 
   Apici, apici a sinistra, pedici e indici posti in alto sono creati come
@@ -22,8 +22,8 @@
   a sinistra>|<cell|<with|mode|math|<lprime|`>f>>>|<row|<cell|<key|_>>|<cell|Indici>|<cell|<with|mode|math|x<rsub|n>>
   o <with|mode|math|x<rsub|i<rsub|3>>>>>|<row|<cell|<key|^>>|<cell|Indici
   posti in alto>|<cell|<with|mode|math|x<rsup|2>>,
-  <with|mode|math|x<rsub|n><rsup|2>> o <with|mode|math|\<mathe\><rsup|\<mathe\><rsup|x>>>>>|<row|<cell|<expand|kbd-math|l
-  _>>|<cell|Indici a sinistra>|<cell|<with|mode|math|<lsub|2>x>>>|<row|<cell|<expand|kbd-math|l
+  <with|mode|math|x<rsub|n><rsup|2>> o <with|mode|math|\<mathe\><rsup|\<mathe\><rsup|x>>>>>|<row|<cell|<key|math l
+  _>>|<cell|Indici a sinistra>|<cell|<with|mode|math|<lsub|2>x>>>|<row|<cell|<key|math l
   ^>>|<cell|Indici in alto a sinistra>|<cell|<with|mode|math|<lsup|\<pi\>>x>
   o <with|mode|math|<lsub|\<ast\>><lsup|\<ast\>>He<rsub|\<ast\>><rsup|\<ast\>>>>>>>>|Creazione
   di apici, indici e indici posti in alto>

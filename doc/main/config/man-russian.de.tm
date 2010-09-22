@@ -1,4 +1,4 @@
-<TeXmacs|1.0.4.5>
+<TeXmacs|1.0.7.6>
 
 <style|tmdoc>
 
@@ -38,10 +38,9 @@
 
   <verbatim| \ \ \ ru basic grp:shift_toggle>
 
-  Das bedeutet, dass der Tastatur-Modus mit <key|<localize|l-shift>
-  <localize|r-shift>> umgeschaltet wird. Andere häufig benutzte Alternativen
-  sind <key|C- S-> oder <key|C-
-  A->. Sehen sie in <with|font-family|tt|/usr/X11R6/lib/X11/xkb/>
+  Das bedeutet, dass der Tastatur-Modus mit <render-key|l-shift r-shift>
+  umgeschaltet wird. Andere häufig benutzte Alternativen sind <prefix|C-S->
+  oder <key|C- A->. Sehen sie in <with|font-family|tt|/usr/X11R6/lib/X11/xkb/>
   für weitere Einzelheiten. Wenn Sie häufiger russische Texte schreiben
   wollen, dann ist das die bevorzugte Methode auf modernen Linux-Systemen.\ 
 
@@ -89,8 +88,8 @@
   Buchstaben müssen Sie Zwei- oder Drei-Buchstaben-Kombinationen
   verwenden:<vspace|0.5fn>
 
-  <big-table|<descriptive-table|<tformat|<cwith|2|11|1|1|cell-halign|l>|<cwith|2|11|2|2|cell-halign|l>|<cwith|2|11|2|2|cell-halign|c>|<cwith|2|11|4|4|cell-halign|l>|<cwith|2|11|4|4|cell-halign|c>|<table|<row|<cell|Eingabe>|<cell|für>|<cell|Eingabe(n)>|<cell|für>>|<row|<cell|<key|text "
-  e>>|<cell|<with|language|russian|font|cyrillic|¼>>|<cell|<key|text "
+  <big-table|<descriptive-table|<tformat|<cwith|2|11|1|1|cell-halign|l>|<cwith|2|11|2|2|cell-halign|l>|<cwith|2|11|2|2|cell-halign|c>|<cwith|2|11|4|4|cell-halign|l>|<cwith|2|11|4|4|cell-halign|c>|<table|<row|<cell|Eingabe>|<cell|für>|<cell|Eingabe(n)>|<cell|für>>|<row|<cell|<key|text
+  " e>>|<cell|<with|language|russian|font|cyrillic|¼>>|<cell|<key|text "
   E>>|<cell|<with|language|russian|font|cyrillic|œ>>>|<row|<cell|<key|y
   o>>|<cell|<with|language|russian|font|cyrillic|¼>>|<cell|<key|Y o> <key|Y
   O>>|<cell|<with|language|russian|font|cyrillic|œ>>>|<row|<cell|<key|z
@@ -133,13 +132,12 @@
   Diejenigen, die keine russische Tastatur besitzen, bevorzugen oft das
   \Ryawerty``-Layout, bei dem die Tasten \Rqwerty'' die Ausgabe
   \R<with|language|russian|font|cyrillic|ÿâåðòû>`` und zusätzliche
-  kyrillische Schriftzeichen mit der Umschalt-Taste, <prefix|S->,
-  erzeugt werden können. <TeXmacs> hat ein etwas modifizierte
-  \Ryawerty\R-Layout, denn es ändert nicht die Tasten <key|$>, <key|¿>,
-  <key|<with|mode|math|\<backslash\>>>, da diese für <TeXmacs> wichtig sind
-  sind und eine spezielle Bedeutung haben. Die dazugehörigen kyrillischen
-  Buchstaben können durch bestimmte Kombinationen mit der Umschalt-Taste
-  erzeugt werden.
+  kyrillische Schriftzeichen mit der Umschalt-Taste, <prefix|S->, erzeugt
+  werden können. <TeXmacs> hat ein etwas modifizierte \Ryawerty\R-Layout,
+  denn es ändert nicht die Tasten <key|$>, <render-key|¿>, <key|\\>, da diese
+  für <TeXmacs> wichtig sind sind und eine spezielle Bedeutung haben. Die
+  dazugehörigen kyrillischen Buchstaben können durch bestimmte Kombinationen
+  mit der Umschalt-Taste erzeugt werden.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
 

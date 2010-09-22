@@ -13,7 +13,7 @@
   style|../../../devel/style/keyboard/style-kbd.fr.tm>.
 
   À la création d'un objet dynamique, telle une étiquette avec
-  <expand|kbd-gen|!>, son état est <em|inactif> par défaut. Cet état inactif
+  <shortcut|(make-label)>, son état est <em|inactif> par défaut. Cet état inactif
   vous permet de saisir les informations nécessaires à la création de l'objet
   dynamique, tel le nom de l'étiquette dans notre cas. Certains objets
   dynamiques peuvent prendre un nombre arbitraire de paramètres ; on insère

@@ -27,7 +27,7 @@
 
   Beispielsweise steht <shortcut|(make-with font-series bold)> für <key|Mit Alt und Strg gedrückt Taste
   b>. Leerzeichen in den Tastenkombinationen stehen für mehrfache
-  Tastenanschläge. Beispielsweise steht <key|table N b> für <key|M-t> <key|N>
+  Tastenanschläge. Beispielsweise steht <key|table N b> für <prefix|table> <key|N>
   <key|b>.
 
   Die Tasten <key|Alt>, <key|Meta> und <key|Hyper> sind nicht auf allen

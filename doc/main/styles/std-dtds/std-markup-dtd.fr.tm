@@ -43,7 +43,7 @@
     <expand|item*|<markup|abbr>>Abréviation. Exemple : Je travaille au
     <abbr|C.N.R.S.> Vous pouvez créer une abréviation avec
     <apply|menu|Text|Content tag|Abbreviation> ou avec le raccourci clavier
-    <expand|kbd-text|a>.
+    <key|text a>.
 
     <expand|item*|<markup|acronym>>Un acronyme est une abréviation formée à
     partir de la première lettre des mots d'un nom ou d'une phrase, tels

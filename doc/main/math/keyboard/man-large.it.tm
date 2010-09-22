@@ -131,7 +131,7 @@
     lsep|1spc>|<cwith|6|6|3|3|cell rsep|1spc>|<cwith|6|6|3|3|cell
     bsep|1spc>|<cwith|6|6|3|3|cell tsep|1spc>|<cwith|6|6|2|2|cell
     rborder|1ln>|<cwith|1|-1|1|1|cell halign|c>|<cwith|1|-1|3|3|cell
-    halign|c>|<table|<row|<cell|Combinazione>|<cell|Risultato>|<cell|Combinazione>|<cell|Risultato>>|<row|<cell|<expand|kbd-large|(>>|<cell|<with|mode|math|<left|(><space|0fn|-0.3fn|0.8fn>>>|<cell|<expand|kbd-large|)>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|)>>>>|<row|<cell|<expand|kbd-large|[>>|<cell|<with|mode|math|<left|[><space|0fn|-0.3fn|0.8fn>>>|<cell|<expand|kbd-large|]>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|]>>>>|<row|<cell|<expand|kbd-large|{>>|<cell|<with|mode|math|<left|{><space|0fn|-0.3fn|0.8fn>>>|<cell|<expand|kbd-large|}>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|}>>>>|<row|<cell|<expand|kbd-large|\<less\>>>|<cell|<with|mode|math|<left|langle><space|0fn|-0.3fn|0.8fn>>>|<cell|<expand|kbd-large|\<gtr\>>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|rangle>>>>|<row|<cell|<expand|kbd-large|/>>|<cell|<with|mode|math|<mid|/><space|0fn|-0.3fn|0.8fn>>>|<cell|<expand|kbd-large|\\>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><mid|\\>>>>>>>
+    halign|c>|<table|<row|<cell|Combinazione>|<cell|Risultato>|<cell|Combinazione>|<cell|Risultato>>|<row|<cell|<key|math:large (>>|<cell|<with|mode|math|<left|(><space|0fn|-0.3fn|0.8fn>>>|<cell|<key|math:large )>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|)>>>>|<row|<cell|<key|math:large [>>|<cell|<with|mode|math|<left|[><space|0fn|-0.3fn|0.8fn>>>|<cell|<key|math:large ]>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|]>>>>|<row|<cell|<key|math:large {>>|<cell|<with|mode|math|<left|{><space|0fn|-0.3fn|0.8fn>>>|<cell|<key|math:large }>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|}>>>>|<row|<cell|<key|math:large \<less\>>>|<cell|<with|mode|math|<left|langle><space|0fn|-0.3fn|0.8fn>>>|<cell|<key|math:large \<gtr\>>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><right|rangle>>>>|<row|<cell|<key|math:large />>|<cell|<with|mode|math|<mid|/><space|0fn|-0.3fn|0.8fn>>>|<cell|<key|math:large \\>>|<cell|<with|mode|math|<space|0fn|-0.3fn|0.8fn><mid|\\>>>>>>>
   </expand|Combinazioni di tasti per ottenere i delimitatori grandi.>
 
   In <apply|TeXmacs>, i delimitatori grandi possono essere di tre tipi:
@@ -142,8 +142,8 @@
   delimitatori a destra mentre <with|mode|math|\|,/> e
   <with|mode|math|\<backslash\>> sono i delimitatori interni. Ma questo stato
   può essere modificato utilizzando le combinazioni di tasti
-  <expand|kbd-large|l>, <expand|kbd-large|r> e <expand|kbd-large|m> . Per
-  esempio, <expand|kbd-large|l )> produce <with|mode|math|)> considerata come
+  <key|math:large l>, <key|math:large r> e <key|math:large m> . Per
+  esempio, <key|math:large l )> produce <with|mode|math|)> considerata come
   delimitatore a sinistra.
 
   In <apply|TeX> e <apply|LaTeX>, i ``delimitatori interni'' o ``separatori''

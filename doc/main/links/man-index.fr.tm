@@ -21,7 +21,7 @@
 
   Une entrée d'index complexe comporte quatre arguments. La première est une
   clé de tri sur l'entrée et doit être un
-  <space|0.2spc>tuplet<space|0.2spc> (créé avec <expand|kbd-ia|\<less\>>),
+  <space|0.2spc>tuplet<space|0.2spc> (créé avec <key|inactive \<less\>>),
   dont le premier élément est la clé principale, le second la clé secondaire,
   etc... Le second argument d'une entrée d'index complexe est soit vide soit
   <space|0.2spc>strong<space|0.2spc>, auquel cas le numéro de la page

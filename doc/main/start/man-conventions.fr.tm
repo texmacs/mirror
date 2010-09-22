@@ -27,7 +27,7 @@
 
   Par exemple, <shortcut|(make-with font-series bold)> correspond à <key|alt-ctrl-b>. Les espaces dans
   les raccourcis clavier indiquent des frappe-clavier successives. Par
-  exemple, <expand|kbd-table|N b> correspond à <key|alt-t> <key|N> <key|b>.
+  exemple, <key|table N b> correspond à <key|alt-t> <key|N> <key|b>.
 
   Les touches <key|alt>, <key|meta> et <key|hyper> ne sont pas disponibles
   sur tous les claviers. Sur les PC récents, la touche <key|meta> est souvent

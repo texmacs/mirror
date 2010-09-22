@@ -9,26 +9,26 @@
   <apply|menu|Insert|Table> o una delle seguenti combinazioni di tasti:
 
   <\description>
-    <expand|item*|<expand|kbd-table|N t>>Per creare una tabella normale.
+    <expand|item*|<key|table N t>>Per creare una tabella normale.
 
-    <expand|item*|<expand|kbd-table|N T>>Per creare una tabella le cui celle
+    <expand|item*|<key|table N T>>Per creare una tabella le cui celle
     sono centrate.
 
-    <expand|item*|<expand|kbd-table|N b>>Per creare un ``blocco'' normale, le
+    <expand|item*|<key|table N b>>Per creare un ``blocco'' normale, le
     cui celle sono separate da linee.
 
-    <expand|item*|<expand|kbd-table|N B>>Per creare un blocco le cui celle
+    <expand|item*|<key|table N B>>Per creare un blocco le cui celle
     sono centrate.
   </description>
 
   In modalità matematica, sono disponibili altre strutture di tipo tabella:
 
   <\description>
-    <expand|item*|<expand|kbd-table|N m>>Per creare una matrice.
+    <expand|item*|<key|table N m>>Per creare una matrice.
 
-    <expand|item*|<expand|kbd-table|N d>>Per creare un determinante.
+    <expand|item*|<key|table N d>>Per creare un determinante.
 
-    <expand|item*|<expand|kbd-table|N c>>Per creare una lista di scelta.
+    <expand|item*|<key|table N c>>Per creare una lista di scelta.
   </description>
 
   Anche l'ambiente <verbatim|\\eqnarray*> è una speciale struttura di tipo

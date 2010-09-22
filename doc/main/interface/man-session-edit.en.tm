@@ -20,8 +20,8 @@
   subsession> or <shortcut|(structured-insert #t)>. In that case, the current input-output
   field becomes the body of an unfolded subsession. Such a subsession
   consists of an explanatory text together with the subsession body.
-  Subsessions can be folded and unfolded using <key|M-A-up>
-  <abbr|resp.> <key|M-A-down>. Subsessions have a nice rendering on the
+  Subsessions can be folded and unfolded using <shortcut|(fold)>
+  <abbr|resp.> <shortcut|(unfold)>. Subsessions have a nice rendering on the
   screen when using the <tmpackage|varsession> package in <menu|Document|Use
   package|Program>.
 

@@ -15,7 +15,7 @@
   <prefix|math:bbb> pueden ser usados a fin de teclear caractéres resaltados,
   caligráficos, fraktur y blackboard. Por ejmplo <shortcut|\<frak-m\>> produce
   <with|mode|math|\<frak-m\>>, <key|S-F6 R> produce
-  <with|mode|math|\<bbb-R\>> y <shortcut|\<b-calZ\>> produce
+  <with|mode|math|\<bbb-R\>> y <shortcut|\<b-cal-Z\>> produce
   <with|mode|math|\<b-cal-Z\>>.
 
   Los caracteres griegos pueden también ser obtenidos como ``variantes'' de
@@ -71,7 +71,7 @@
 
   <expand|big-table|<expand|descriptive-table|<tformat|<cwith|1|-1|2|2|cell
   halign|c>|<cwith|1|-1|4|4|cell halign|c>|<cwith|1|-1|2|2|cell
-  rborder|1ln>|<table|<row|<cell|Atajo>|<cell|Símbolo>|<cell|Atajo>|<cell|Símbolo>>|<row|<cell|<expand|kbd-symb|a>>|<cell|<with|mode|math|\<amalg\>>>|<cell|>|<cell|>>|<row|<cell|<expand|kbd-symb|n>>|<cell|<with|mode|math|\<cap\>>>|<cell|<expand|kbd-symb|u>>|<cell|<with|mode|math|\<cup\>>>>|<row|<cell|<expand|kbd-symb|v>>|<cell|<with|mode|math|\<vee\>>>|<cell|<expand|kbd-symb|w>>|<cell|<with|mode|math|\<wedge\>>>>>>>|Algunos
+  rborder|1ln>|<table|<row|<cell|Atajo>|<cell|Símbolo>|<cell|Atajo>|<cell|Símbolo>>|<row|<cell|<key|symbol a>>|<cell|<with|mode|math|\<amalg\>>>|<cell|>|<cell|>>|<row|<cell|<key|symbol n>>|<cell|<with|mode|math|\<cap\>>>|<cell|<key|symbol u>>|<cell|<with|mode|math|\<cup\>>>>|<row|<cell|<key|symbol v>>|<cell|<with|mode|math|\<vee\>>>|<cell|<key|symbol w>>|<cell|<with|mode|math|\<wedge\>>>>>>>|Algunos
   símboloss que no pueden ser obtenidos usando reglas generales en una forma
   natural.>
 

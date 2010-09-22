@@ -28,10 +28,10 @@
     <expand|item*|<prefix|H->>Per le combinazioni che includono il tasto hyper.
   </description>
 
-  Per esempio, <shortcut|(make-with font-series bold)> rappresenta <key|A--C--b>.
+  Per esempio, <shortcut|(make-with font-series bold)> rappresenta <key|A-C-b>.
   Gli spazi all'interno delle abbreviazioni da tastiera indicano che sono
   premuti più tasti, o combinazioni di tasti, in sequenza. Per esempio,
-  <expand|kbd-table|N b> rappresenta <key|M--t> <key|N>
+  <key|table N b> rappresenta <prefix|table> <key|N>
   <key|b>.
 
   I tasti <prefix|A->, <prefix|M-> e

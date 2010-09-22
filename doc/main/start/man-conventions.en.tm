@@ -24,9 +24,9 @@
     <expand|item*|<prefix|H->>For hyper key combinations.
   </description>
 
-  For instance, <shortcut|(make-with font-series bold)> stands for <key|A--C--b>.
+  For instance, <shortcut|(make-with font-series bold)> stands for <key|A-C-b>.
   Spaces inside keyboard shortcuts indicate multiple key-presses. For
-  instance, <expand|kbd-table|N b> stands for <key|M--t>
+  instance, <key|table N b> stands for <prefix|table>
   <key|N> <key|b>.
 
   The <prefix|A->, <prefix|M-> and

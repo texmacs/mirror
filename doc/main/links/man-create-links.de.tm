@@ -6,10 +6,10 @@
   <tmdoc-title|Label, Verknüpfungen, Hyperlinks und Referenzen erzeugen>
 
   Sie können ein neues inaktives Label erzeugen mit dem Kurzbefehl
-  <key|M-!> oder dem Menübefehl \ <menu|Insert|Link|Label>. Label sind
+  <shortcut|(make-label)> oder dem Menübefehl \ <menu|Insert|Link|Label>. Label sind
   Marken, die mit einer Referenz verbunden sind und die später durch eine
   Zahl, die auf die Referenz verweist, ersetzt wird. Man erzeugt die Referenz
-  <key|M-?> oder mit dem Menübefehl <menu|Insert|Link|Reference>. Die
+  <shortcut|(make 'reference)> oder mit dem Menübefehl <menu|Insert|Link|Reference>. Die
   Plazierung eines Labels sollte mit Bedacht erfolgen, um eine korrekte
   Nummerierung zu erreichen. Wenn z.B. Abschnitte einen Label erhalten
   sollen, dann setzt man am besten das Label direkt hinter den

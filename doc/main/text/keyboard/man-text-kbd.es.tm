@@ -19,7 +19,7 @@
   \H>|<cell|<key|text U g>>|<cell|§>|<cell|<key|text V>>|<cell|Check
   \G>|<cell|<key|text V s>>|<cell|²>>|<row|<cell|<key|text O>>|<cell|Anillo
   superior \F>|<cell|<key|text O a>>|<cell|å>|<cell|<key|text .>>|<cell|Punto
-  superior \n>|<cell|<key|text <group|.> z>>|<cell|»>>|<row|<cell|<key|text H>>|<cell|Hungarian
+  superior \n>|<cell|<key|text . z>>|<cell|»>>|<row|<cell|<key|text H>>|<cell|Hungarian
   \E>|<cell|<key|text H o>>|<cell|®>|<cell|>|<cell|>|<cell|>|<cell|>>>>>|Tecleando
   caracteres acentuados con <TeXmacs>.>
 

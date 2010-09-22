@@ -26,8 +26,8 @@
   do ambiente é feita (com o número correto de argumentos). Caso contrário,
   supomos que seu comando corresponde a uma variável do ambiente e usamos o
   seu valor. A tecla \ <key|\\> é sempre equivalente a um dos comandos
-  <expand|kbd-ia|l>, <expand|kbd-ia|e>, <expand|kbd-ia|a>, <expand|kbd-ia|#>
-  ou <expand|kbd-ia|v>.
+  <key|inactive l>, <key|inactive e>, <key|inactive a>, <key|inactive #>
+  ou <key|inactive v>.
 
   <apply|tmdoc-copyright|1998--2003|Joris van der Hoeven|Ramiro Brito
   Willmersdorf>

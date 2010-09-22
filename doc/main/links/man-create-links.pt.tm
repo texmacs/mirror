@@ -6,15 +6,15 @@
   <expand|tmdoc-title|Criando rótulos, ligações e referencias>
 
   Você pode criar um novo rótulo, que é inicializado desativado, usando
-  \ <expand|kbd-gen|!> ou <apply|menu|Insert|Link|Label> e uma referência
-  para este rótulo usando <expand|kbd-gen|?> ou
+  \ <shortcut|(make-label)> ou <apply|menu|Insert|Link|Label> e uma referência
+  para este rótulo usando <shortcut|(make 'reference)> ou
   <apply|menu|Insert|Link|Reference>. Tome cuidado e insira o rótulo em um
   ponto no qual seu número será correto. Quando rotular seções, por exemplo,
   a posição recomendada é logo após o nome da seção. Quando você rotular
   equações, o local recomendado é dentro da equação, em seu início.
 
   É possível criar hiper ligações para outros documentos usando
-  <expand|kbd-ia|\<gtr\>> ou <apply|menu|Insert|Link|Hyperlink>. O primeiro
+  <key|inactive \<gtr\>> ou <apply|menu|Insert|Link|Hyperlink>. O primeiro
   campo da hiper ligação é o texto associado, que é exibido em azul quando a
   hiper ligação está ativa. O segundo campo contém o nome de um documento,
   que pode inclusive estar na rede. Como é usual para hiper ligações, uma
@@ -24,7 +24,7 @@
   documento localizado na <verbatim|<with|font shape|italic|url>>.
 
   Da mesma forma, uma ação pode ser associada a um trecho de texto ou gráfico
-  usando <expand|kbd-ia|*> ou <apply|menu|Insert|Link|Action>. O segundo
+  usando <key|inactive *> ou <apply|menu|Insert|Link|Action>. O segundo
   campo agora contém um script Guile/Scheme, que é executado sempre que você
   clica duplamente naquele texto, desde que o mesmo esteja ativo. Por motivos
   de segurança, a execução destes scripts não é automática. O comportamento
@@ -39,7 +39,7 @@
   executa <verbatim|shell-command> como um comando do seu shell.
 
   Finalmente, você pode incluir outros documentos diretamente dentro de um
-  dado documento usando <expand|kbd-ia|i> ou
+  dado documento usando <key|inactive i> ou
   <apply|menu|Insert|Link|Include>. Isto permite, por exemplo, que seja
   incluída uma listagem de um programa no seu texto, de forma que alterações
   no programa sejam automaticamente refletidas no texto.

@@ -5,8 +5,8 @@
 <\body>
   <tmdoc-title|Creating labels, links and references>
 
-  You may create a new inactive label using <key|M-!> or
-  <menu|Insert|Link|Label> and a reference to this label using <key|M-?> or
+  You may create a new inactive label using <shortcut|(make-label)> or
+  <menu|Insert|Link|Label> and a reference to this label using <shortcut|(make 'reference)> or
   <menu|Insert|Link|Reference>. After typing the name of the label or
   reference, remember to hit <shortcut|(kbd-return)> in order to
   <hlink|activate|../text/keyboard/man-hybrid.en.tm> it. You may also type

@@ -12,13 +12,13 @@
 
   <\description>
     <expand|item*|<markup|key>>This macro is used to indicate keyboard input
-    like <key|C-x C-s>. The specialized macros <markup|kbd-gen>,
+    like <shortcut|(save-buffer)>. The specialized macros <markup|kbd-gen>,
     <markup|kbd-text>, <markup|kbd-math>, <markup|kbd-symb>,
     <markup|kbd-big>, <markup|kbd-large>, <markup|kbd-ia>, <markup|kbd-exec>
     and <markup|kbd-table> are used for keyboard input corresponding to a
     specific type of action or mode. For instance, <markup|kbd-math>
     corresponds to keyboard shortcuts for mathematical operations, such as
-    <expand|kbd-math|f>, which starts a fraction.
+    <key|math f>, which starts a fraction.
 
     <expand|item*|<markup|menu>>This function with an arbitrary number of
     arguments indicates a menu like <apply|menu|File> or

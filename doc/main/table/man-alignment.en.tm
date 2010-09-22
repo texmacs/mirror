@@ -16,15 +16,15 @@
   A specific alignment can also be selected in the
   <apply|menu|Table|Horizontal cell alignment> and <apply|menu|Table|Vertical
   cell alignment> menus. Alternatively, you may use keyboard shorthands of
-  the types <expand|kbd-table|h <with|mode|math|x>> and <expand|kbd-table|v
-  <with|mode|math|x>> for horizontal resp. vertical alignment.
+  the types <key|table h><render-key|<with|mode|math|x>> and <key|table v
+ ><render-key|<with|mode|math|x>> for horizontal resp. vertical alignment.
 
   Similarly, you may specify how the table itself should be aligned with
   respect to the surrounding text. This is either done via the
   <apply|menu|Table|Horizontal table alignment> and
   <apply|menu|Table|Vertical table alignment> submenus, or using keyboard
-  shorthands of the form <expand|kbd-table|H <with|mode|math|x>> or
-  <expand|kbd-table|V <with|mode|math|x>>. Here <key|<with|mode|math|x>>
+  shorthands of the form <key|table H><render-key|<with|mode|math|x>> or
+  <key|table V><render-key|<with|mode|math|x>>. Here <render-key|<with|mode|math|x>>
   represents <key|l> for ``left'', <key|c> for ``centered'', <key|r> for
   ``right'', <key|b> for ``bottom'' and <key|t> for ``top''.
 
