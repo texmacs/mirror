@@ -22,19 +22,19 @@
     <item*|<key|A-<with|mode|math|x>>>The alternate key is used for commands
     which depend on the mode that you are in. For instance, <kbd-text|s>
     produces <strong|strong> text in text mode and a square root
-    <with|mode|math|<sqrt|>> in math mode. Notice that <key|<key-escape>
-    <key-escape>> is equivalent to <key|A->.
+    <with|mode|math|<sqrt|>> in math mode. Notice that <key|escape
+    escape> is equivalent to <key|A->.
 
     <item*|<key|M-<with|mode|math|x>>>The meta key is used for general
     purpose <TeXmacs> commands, which can be used in all modes. For instance,
     <kbd-gen|!> produces a label. It is also used for additional editing
     commands, like <key|A-w> for copying text if you use the <name|Emacs>
-    look and feel. Notice that <key|<key-escape>> is equivalent to <key|M->.
+    look and feel. Notice that <key|escape> is equivalent to <key|M->.
 
     <item*|<key|H-<with|mode|math|x>>>The user keyboard modifier key is used
     for producing special symbols like Greek characters in math mode. You may
     configure your keyboard so as to let caps-lock play the rôle of the hyper
-    key. The <key|F5> is equivalent to <key|H->.
+    key. The <shortcut|math:greek> is equivalent to <key|H->.
   </description>
 
   We recall that the particular modifier keys which are used in order to

@@ -7,7 +7,7 @@
 
   <TeXmacs> features a ``presentation mode'', for making presentations from a
   laptop. The presentation mode is activated/deactivated using
-  <menu|View|Presentation mode> or <key|C-F9>. In this chapter, we describe
+  <menu|View|Presentation mode> or <shortcut|(toggle-full-screen-mode)>. In this chapter, we describe
   several dedicated style packages and markup elements which can be used for
   making slick presentations.
 

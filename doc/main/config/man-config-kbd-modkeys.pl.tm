@@ -5,9 +5,9 @@
 <\body>
   <tmdoc-title|Ustawienia klawiszy modyfikuj¡cych>
 
-  <TeXmacs> korzysta z pi¦ciu klawiszy modyfikuj¡cych: <key|<key-shift>>,
-  <key|<key-control>>, <key|<key-alternate>>, <key|<key-meta>> i
-  <key|<key-hyper>>, skracanych do <key|S->, <key|C->, <key|A->, <key|M-> i
+  <TeXmacs> korzysta z pi¦ciu klawiszy modyfikuj¡cych: <key|S->,
+  <key|C->, <key|A->, <key|M-> i
+  <key|H->, skracanych do <key|S->, <key|C->, <key|A->, <key|M-> i
   <key|H->. Klawisze <key|shift> i <key|control> s¡ obecne na praktycznie
   ka»dej klawiaturze, a <key|alternate> jest na prawie wszystkich. Wi¦kszo±¢
   wspóªczesnych klawiatur posiada klawisz <key|windows>, który jest zwykle
@@ -15,8 +15,8 @@
 
   Przed zmian¡ ustawie« klawiatury nale»y najpierw sprawdzi¢ czy jest to
   rzeczywi±cie potrzebne. Je±li dost¦pne s¡ klawisze w wygodny sposób
-  pasuj¡ce do <key|<key-shift>>, <key|<key-control>>, <key|<key-alternate>> i
-  <key|<key-meta>>, to nie trzeba nic robi¢. Prawdopodobny wyj¡tek to
+  pasuj¡ce do <key|S->, <key|C->, <key|A-> i
+  <key|M->, to nie trzeba nic robi¢. Prawdopodobny wyj¡tek to
   sytuacja gdy potrzeba prostego klawisza jak <key|caps-lock> do wpisywania
   symboli matematycznych. W takim przypadku nale»y odwzorowa¢ <key|caps-lock>
   na <key|hyper>.
@@ -32,16 +32,16 @@
   dokªadniejsze informacje w jego dokumentacji.
 
   W niektórych wypadkach, na klawiaturze s¡ klawisze odpowiadaj¡ce
-  <key|<key-alternate>>, <key|<key-meta>> i <key|<key-hyper>>, jednak
+  <key|A->, <key|M-> i <key|H->, jednak
   ustawione inaczej ni» pasuje u»ytkownikowi. Mo»na zmieni¢ przypisanie
   prefiksów <key|A->, <key|M->, i <key|H-> do modyfikatorów poprzez menu
   <menu|Edit|Preferences|Keyboard>.
 
   Na przykªad, aby zachowa¢ kompatybilno±¢ z Emacsem mo»na spermutowa¢
-  klawisz <key|<key-meta>> lub <key|<key-windows>> z <key|<key-alternate>>
+  klawisz <key|M-> lub <key|<key-windows>> z <key|A->
   bez zmian dla innych cz¦±ci systemu. Nale»y znale¹¢ które modyfikatory s¡
   powi¡zane z tymi klawiszami; zwykle b¦dzie to <key|Mod1> dla
-  <key|<key-alternate>> i <key|Mod4> dla <key|<key-meta>> lub
+  <key|A-> i <key|Mod4> dla <key|M-> lub
   <key|<key-windows>>. Nast¦pnie zadan¡ permutacj¦ ustawia si¦ wybieraj¡c
   <menu|A modifier|Równowa»ny Modulo4> i <menu|M modifier|Równowa»ny Modulo1>
   w menu <menu|Edit|Preferences|Keyboard>.

@@ -54,7 +54,7 @@
     path. For instance, if you want to take a look at the
     <tmpackage|std-markup> package, then it suffices to type <key|C-x C-f>,
     followed by the file name <verbatim|std-markup.ts> and
-    <key|<key-return>>.
+    <shortcut|(kbd-return)>.
   </remark>
 
   <\remark>

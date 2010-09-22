@@ -21,7 +21,7 @@
     <key|<with|mode|math|\<ast\>>> und man kann zurückkehren mit
     <key|shift-tab>.
 
-    <item>Griechische Buchstaben erhält man mit <key|A-C->, <key|F5>, oder
+    <item>Griechische Buchstaben erhält man mit <key|A-C->, <shortcut|math:greek>, oder
     Hyper <key|H->, der in <menu|Edit|Preferences> konfiguriert werden kann.
     Im Mathematik-Modus kann man griechische Buchstaben auch als Variante von
     lateinischen Buchstaben erhalten, z.B. liefert <key|p tab>

@@ -18,7 +18,7 @@
     left. Limits can be displayed below in formulas with <menu|Format|Formula
     style|on>. In formulas, formula style is off by default.
 
-    <item*|<menu|Insert|Mathematics|Equation> or <key|A-$>>
+    <item*|<menu|Insert|Mathematics|Equation> or <shortcut|(make-equation*)>>
 
     This entry is used for entering bigger <em|displayed equations>, like
 
@@ -27,11 +27,11 @@
     </equation*>
 
     which are typeset in a paragraph of their own. You may use the shortcut
-    <key|A-*> in order to give the equation a number (or to remove the number
-    of an equation). Also, <key|C-<key-tab>> allows you to switch between
+    <shortcut|(toggle-number)> in order to give the equation a number (or to remove the number
+    of an equation). Also, <shortcut|(variant-circulate #t)> allows you to switch between
     inline formulas and displayed equations.
 
-    <item*|<menu|Insert|Mathematics|Equations> or <key|A-&>>
+    <item*|<menu|Insert|Mathematics|Equations> or <shortcut|(make-eqnarray*)>>
 
     This entry allows you to create an <markup|eqnarray*>, a three columns
     wide table-like environment (see <hyper-link|creating
@@ -59,7 +59,7 @@
   </description>
 
   In math mode, you have specific commands and key-combinations to type
-  mathematical symbols and formulas. For instance, the <key|F5> prefix can be
+  mathematical symbols and formulas. For instance, the <shortcut|math:greek> prefix can be
   used in order to enter Greek symbols.
 
   The editor favors typing mathematics with a certain meaning. This feature,

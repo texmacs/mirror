@@ -42,7 +42,7 @@
   Untermenü.
 
   Lassen Sie uns nun ein einfaches Makro <markup|hi> erzeugen, das \RHello
-  world'' auf dem Bildschirm ausgibt. Zuerst tippen Sie <key|A-=> oder
+  world'' auf dem Bildschirm ausgibt. Zuerst tippen Sie <shortcut|(make 'assign)> oder
   <key|M-i =>, um eine Zuordnung, engl. \Rassignment'', zu erzeugen. Sie
   sollten nun auf dem Bildschirm Folgendes sehen
 
@@ -51,7 +51,7 @@
   </tm-fragment>
 
   Geben Sie nun ``hi'' als erstes Argument ein, gehen zum zweiten Argument
-  und tippen <key|A-m> oder <key|M-i m> um ein Makro einzufügen. Jetzt sollte
+  und tippen <shortcut|(make 'macro)> oder <key|M-i m> um ein Makro einzufügen. Jetzt sollte
   es so aussehen:
 
   <\tm-fragment>
@@ -69,14 +69,14 @@
   das Makro verwenden, z.B., indem Sie ein neues Dokument erstellen und es
   mit Ihrem Stil-Paket mit <menu|Dokument|Paket hinzufügen> verbinden. Sie
   benutzen das Makro <markup|hi> durch Eintippen von \ <key|\\ h i> mit
-  nachfolgendem Drücken der Eingabetaste, <key|<key-return>>.
+  nachfolgendem Drücken der Eingabetaste, <shortcut|(kbd-return)>.
 
   Analog können Sie Makros mit Argumenten erzeugen, die Sie zur Laufzeit
   eingeben und im Makro auswerten können. Wenn Sie z.B. in gleicher Weise ein
   Makro <markup|hello> erzeugt haben, können Sie mit der Tastenkombination
-  <key|A-links> oder <key|M-i links> im Makrorumpf ein zusätzliches Argument
+  <shortcut|(structured-insert #f)> oder <key|M-i links> im Makrorumpf ein zusätzliches Argument
   auf der linken Seite des Cursors einfügen. \Rlinks`` steht dabei für die
-  linke Pfeiltaste. Nachdem Sie mit dem Cursor im Makrorumpf <key|A-links>
+  linke Pfeiltaste. Nachdem Sie mit dem Cursor im Makrorumpf <shortcut|(structured-insert #f)>
   oder <key|M-i links> eingetippt haben, geben Sie dem Argument einen Namen,
   z.B. \Rname'', um anschlieÿend darauf zugreifen zu können. Sie sollten nun
   Folgendes sehen:
@@ -87,7 +87,7 @@
 
   In die zweite Argumentposition des Makrorumpfes tippen Sie nun Ihren Text
   z.B. \RHallo``, dann um das mit dem Namen \Rname`` bezeichnete erste
-  Argument einzusetzen, drücken Sie die Kombinationen \ <key|A-#> oder
+  Argument einzusetzen, drücken Sie die Kombinationen \ <shortcut|(make 'arg)> oder
   <key|M-i #> tippen dann schlieÿlich \Rname'', drücken <key|rechts>, das ist
   die rechte Pfeiltaste \ und geben weiter Text ein z.B. \R, wie geht es
   Ihnen?''. Das sieht dann so aus:
@@ -97,11 +97,11 @@
     Ihnen?>>>
   </tm-fragment>
 
-  Die Kurzbefehlkombination <key|A-#> bzw. <key|M-i #> wird zum Zugriff auf
-  das Makroargument, hier \ <src-arg|name>, verwendet. Anstatt \ <key|A-#>
-  bzw. <key|M-i #> zu benutzen, dann \Rname'' and <key|<key-right>>
+  Die Kurzbefehlkombination <shortcut|(make 'arg)> bzw. <key|M-i #> wird zum Zugriff auf
+  das Makroargument, hier \ <src-arg|name>, verwendet. Anstatt \ <shortcut|(make 'arg)>
+  bzw. <key|M-i #> zu benutzen, dann \Rname'' and <key|right>
   einzutippen, können Sie auch die <key|\\>-Taste benutzen und \ <key|\\ n a
-  m e> gefolgt von der Eingabetaste <key|<key-return>> eintippen. Nachdem Sie
+  m e> gefolgt von der Eingabetaste <shortcut|(kbd-return)> eintippen. Nachdem Sie
   Ihr Stil-Paket gesichert haben, können Sie Ihr neues Makro in jedem
   Dokument, dem Sie dieses Paket zugefügt haben, benutzen, indem Sie
   \ <key|\\ h e l l o> eingeben und die <key|return>-Taste betätigen.
@@ -144,12 +144,12 @@
 
   Um in die Makrodefinition <inactive*|<person|<arg|name>>> einzufügen,
   müssen Sie zuerst an seiner Stelle ein Leerkonstrukt (compound) erzeugen.
-  Dazu benutzen Sie <key|A-c> oder <key|M-i c>, tippen dann \Rperson'', fügen
-  ein Argument mit \ <key|A-rechts> oder <key|M-i rechts> hinzu, und tippen
+  Dazu benutzen Sie <shortcut|(make 'compound)> oder <key|M-i c>, tippen dann \Rperson'', fügen
+  ein Argument mit \ <shortcut|(structured-insert #t)> oder <key|M-i rechts> hinzu, und tippen
   schlieÿlich den Namen des Arguments <src-arg|name>. Schhlieÿlich drücken
-  Sie \ <key|<key-return>>, um das <with|color|blue|<translate|compound|english|german>>
+  Sie \ <shortcut|(kbd-return)>, um das <with|color|blue|<translate|compound|english|german>>
   in ein <markup|person>-Makro umzuwandeln. Alternativ können Sie <key|\\>,
-  ``person'', <key|A-rechts> und \Rname'' tippen.
+  ``person'', <shortcut|(structured-insert #t)> und \Rname'' tippen.
 
   Durch Kombination der vorgehend beschriebenen Vorgehensweisen sollte der
   Durchschnittsanwender bereits Stil-Pakete für alle häufig vorkommenden

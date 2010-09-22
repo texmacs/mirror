@@ -7,10 +7,10 @@
 
   The most frequent formatting operation is the horizontal or vertical
   alignment of a block of cells. You may use the
-  <key|M-<with|mode|math|<op|\<leftarrow\>>>>,
-  <key|M-<with|mode|math|<op|\<rightarrow\>>>>,
-  <key|M-<with|mode|math|\<uparrow\>>> and
-  <key|M-<with|mode|math|\<downarrow\>>> keystrokes to quickly align more to
+  <shortcut|(positioning-left)>,
+  <shortcut|(positioning-right)>,
+  <shortcut|(positioning-up)> and
+  <shortcut|(positioning-down)> keystrokes to quickly align more to
   the left, right, top or bottom.
 
   A specific alignment can also be selected in the

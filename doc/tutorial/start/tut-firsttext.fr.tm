@@ -17,7 +17,7 @@
   Quand vous aurez fini la saisie, nous vous recommandons de sauvegarder
   votre document en cliquant sur l'icône <apply|icon|tm_save.png> et en
   choisissant <with|font series|bold|sauvegarder tampon> dans le menu, ou en
-  appuyant sur la touche <key|F3>. Un message dans la barre de statut
+  appuyant sur la touche <shortcut|(save-buffer)>. Un message dans la barre de statut
   confirme le succès de l'opération :
 
   <expand|big-figure|<apply|screenshot|simple-2.png>|Sauvegarde du texte.>
@@ -37,7 +37,7 @@
   À la fin de la saisie, vous souhaiterez sans doute imprimer votre document.
   Vous pouvez le faire en sélectionnant <apply|menu|Print all> dans le menu
   de l'icône <apply|icon|tm_print.png>, ou en appuyant sur la touche
-  <key|F4>. Avant d'imprimer, il vous faudra configurer votre imprimante en
+  <shortcut|(print-buffer)>. Avant d'imprimer, il vous faudra configurer votre imprimante en
   cliquant sur <apply|menu|Setup printer> dans le menu de l'icône
   <apply|icon|tm_print.png>. Vous indiquerez alors la commande d'impression à
   utiliser (par exemple <with|font family|tt|lpr>), le format de papier de
@@ -47,7 +47,7 @@
 
   Pour récupérer votre texte après avoir quitté TeXmacs, il vous faudra
   d'abord cliquer sur <apply|menu|Load buffer> dans le menu de l'icône
-  <apply|icon|tm_load.png> ou sur la touche \ <key|F2>. Vous pourrez ensuite
+  <apply|icon|tm_load.png> ou sur la touche \ <shortcut|(open-buffer)>. Vous pourrez ensuite
   choisir le fichier avec le navigateur de fichiers. Dans notre exemple, le
   fichier <with|font family|tt|test.tm> apparaît tout de suite dans le
   navigateur et vous pouvez le récupérer rapidement en double-cliquant

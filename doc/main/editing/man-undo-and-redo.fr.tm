@@ -8,7 +8,7 @@
   Il est possible d'annuler un par un les changements faits dans un document
   à partir du moment où vous avez lancé <apply|TeXmacs>. Pour ce faire,
   utilisez <apply|menu|Edit|Undo> ou utilisez les combinaisons
-  <expand|kbd-gen|[> ou <key|C-/>. Pour rétablir les changements
+  <expand|kbd-gen|[> ou <shortcut|(undo 0)>. Pour rétablir les changements
   <space|0.2spc>annulés<space|0.2spc>, utilisez <apply|menu|Edit|Redo> ou
   <expand|kbd-gen|]>.
 

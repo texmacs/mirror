@@ -8,27 +8,27 @@
   Alcune azioni standard della tastiera, valide in tutte le modalità sono:
 
   <\description>
-    <expand|item*|<key|S-<expand|key-return>>>per iniziare un nuovo
+    <expand|item*|<key|S-return>>per iniziare un nuovo
     paragrafo.
 
-    <expand|item*|<key|C-<expand|key-backspace>>>per rimuovere un oggetto o
+    <expand|item*|<key|C-backspace>>per rimuovere un oggetto o
     un ambiente.
 
-    <expand|item*|<key|A-<apply|localize|space>>>per inserire un piccolo
+    <expand|item*|<shortcut|(make-space "0.2spc")>per inserire un piccolo
     spazio.
 
-    <expand|item*|<key|A-S-<apply|localize|space>>>per inserire un piccolo
+    <expand|item*|<shortcut|(make-space -0.2spc)>>per inserire un piccolo
     spazio negativo.
 
-    <expand|item*|<key|A-A-<expand|key-home>>>per marcare manualmente
+    <expand|item*|<shortcut|(structured-insert-start)>>per marcare manualmente
     l'inizio di una selezione.
 
-    <expand|item*|<key|A-A-<expand|key-end>>>per marcare manualmente la fine
+    <expand|item*|<shortcut|(structured-insert-end)>>per marcare manualmente la fine
     di una selezione.
 
-    <expand|item*|<key|M-\<less\>>>per andare all'inizio del documento.
+    <expand|item*|<shortcut|(go-start)>>per andare all'inizio del documento.
 
-    <expand|item*|<key|M-\<gtr\>>>per andare alla fine del documento.
+    <expand|item*|<shortcut|(go-end)>>per andare alla fine del documento.
   </description>
 
   <apply|tmdoc-copyright|1998--2003|Joris van der Hoeven|Lucia

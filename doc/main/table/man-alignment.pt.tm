@@ -7,9 +7,9 @@
 
   A operação de formatação mais freqüente é o alinhamento horizontal ou
   vertical de um bloco de células. Você pode usar as combinações de teclas
-  <key|M-<with|mode|math|<op|\<leftarrow\>>>>,
-  <key|M-<with|mode|math|<op|\<rightarrow\>>>>,
-  <key|M-<with|mode|math|\<uparrow\>>> e <key|M-<with|mode|math|\<downarrow\>>>
+  <shortcut|(positioning-left)>,
+  <shortcut|(positioning-right)>,
+  <shortcut|(positioning-up)> e <shortcut|(positioning-down)>
   para rapidamente alinhar mais para a esquerda, direita, acima ou abaixo.
 
   Um alinhamento específico também pode ser selecionado nos menus

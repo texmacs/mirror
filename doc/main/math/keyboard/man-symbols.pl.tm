@@ -8,13 +8,13 @@
   Grecki alfabet jest uzyskiwany w <TeXmacs> poprzez ª¡czenie modyfikatora
   hyper'' <key|H-> z liter¡. Na <no-break>przykªad, <key|H-a> daje
   <with|mode|math|\<alpha\>> a <key|H-G> <with|mode|math|\<Gamma\>>. Jak to
-  <hyper-link|wcze±niej|../../start/man-conventions.pl.tm> napisano <key|F5>
+  <hyper-link|wcze±niej|../../start/man-conventions.pl.tm> napisano <shortcut|math:greek>
   jest równowa»ny z <key|H->, zatem <with|mode|math|\<rho\>> mo»e by¢ równie»
-  uzyskane jako <key|F5 r>. Dodatkowo <key|F6>, <key|F7>, <key|F8> i
-  <key|S-F6> mog¡ by¢ u»yte do wpisania: znaku pogrubionego, kaligraficznego,
-  fraktur i blackboard odpowiednio. Na przykªad, <key|F8 m> daje
+  uzyskane jako <key|F5 r>. Dodatkowo <shortcut|math:bold>, <shortcut|math:cal>, <shortcut|math:frak> i
+  <shortcut|math:bbb> mog¡ by¢ u»yte do wpisania: znaku pogrubionego, kaligraficznego,
+  fraktur i blackboard odpowiednio. Na przykªad, <shortcut|\<frak-m\>> daje
   <with|mode|math|\<frak-m\>>, <key|S-F6 R> to <with|mode|math|\<bbb-R\>> a
-  <key|F6 F7 Z> oznacza <with|mode|math|\<b-cal-Z\>>. Niestety aby uzyska¢
+  <shortcut|\<b-calZ\>> oznacza <with|mode|math|\<b-cal-Z\>>. Niestety aby uzyska¢
   <with|mode|math|<with|math-font|Bbb*|1>> trzeba u»y¢ czcionki blackboard
   (<key|M-A-B>).
 
@@ -63,7 +63,7 @@
   </description>
 
   Par¦ symboli, które nie mog¡ by¢ wprowadzone naturalnie powy»szymi metodami
-  jest uzyskiwanych poprzez prefiks <key|S-F5>. Poni»ej krótka tabelka takich
+  jest uzyskiwanych poprzez prefiks <shortcut|symbol>. Poni»ej krótka tabelka takich
   znaków:
 
   <big-table|<descriptive-table|<tformat|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<cwith|1|-1|2|2|cell-rborder|1ln>|<table|<row|<cell|Skrót>|<cell|Symbol>|<cell|Skrót>|<cell|Symbol>>|<row|<cell|<kbd-symb|a>>|<cell|<with|mode|math|\<amalg\>>>|<cell|>|<cell|>>|<row|<cell|<kbd-symb|n>>|<cell|<with|mode|math|\<cap\>>>|<cell|<kbd-symb|u>>|<cell|<with|mode|math|\<cup\>>>>|<row|<cell|<kbd-symb|v>>|<cell|<with|mode|math|\<vee\>>>|<cell|<kbd-symb|w>>|<cell|<with|mode|math|\<wedge\>>>>>>>|Niektóre

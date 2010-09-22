@@ -19,7 +19,7 @@
   replace <verbatim|-load> by <verbatim|-p>. Known problems:
 
   <\itemize>
-    <item>If you press <key|<key-return>> when a statement is not
+    <item>If you press <shortcut|(kbd-return)> when a statement is not
     complete (typically, terminated by <verbatim|;> or <verbatim|$>), the
     interface will hang.
 

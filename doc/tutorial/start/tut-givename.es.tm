@@ -19,7 +19,7 @@
   para guardarlo bajo un nuevo nombre>
 
   Notesé que usted puede hacer el mismo procedmiento presionando
-  simultáneamente la tecla <key|shift> y la tecla <key|F3>, como sugiere la
+  simultáneamente la tecla <key|shift> y la tecla <shortcut|(save-buffer)>, como sugiere la
   <with|font-shape|italic|ayuda del menu>. Esta ayuda del menu se muestra
   automáticamente cuando se deja el puntero del ratón sobre el menú
   <menu|Guardar búfer como> por un rato. Después de que usted libere el botón

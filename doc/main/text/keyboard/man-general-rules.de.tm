@@ -26,8 +26,8 @@
     verwendet, die davon abhängen, in welchem Modus Sie sich gerade befinden.
     Beispielsweise erzeugt <kbd-text|s> <strong|fetten> Text im Textmodus
     aber das Quadratwurzel-Zeichen im Mathematik-Modus. Beachten Sie bitte,
-    dass zweimaliges Tippen der <key|Esc>-Taste, also <key|<key-escape>
-    <key-escape>> die gleiche Funktion wie <key|A-> hat.
+    dass zweimaliges Tippen der <key|Esc>-Taste, also <key|escape
+    escape> die gleiche Funktion wie <key|A-> hat.
 
     <item*|<key|M-<with|mode|math|x>>>Die Meta-Taste wird für allgemeine
     <TeXmacs>-Befehle genutzt, die in allen möglichen Moden verwendet werden
@@ -35,13 +35,13 @@
     Taste wird auch für zusätzliche Editierbefehle genutzt, wenn die
     Einstellungen in <menu|Edit|Preferences|Look and feel> dies vorsehen.
     Beachten Sie bitte, dass einmaliges Tippen der <key|Esc>-Taste, also
-    <key|<key-escape>>, \ gleichbedeutend ist mit <key|M->.
+    <key|escape>, \ gleichbedeutend ist mit <key|M->.
 
     <item*|<key|H-<with|mode|math|x>>>Diese Modifiziertaste wird zur
     Erzeugung spezieller Symbole, wie z.B. griechischer Buchstaben, benutzt.
     Sie können Ihre Tastatur so konfigurieren, dass die Hochstelltaste die
     Rolle der Hypertaste spielt (<menu|Edit|Preferences|Keyboard>). Die Taste
-    <key|F5> ist der Taste \ <key|H-> äquivalent.
+    <shortcut|math:greek> ist der Taste \ <key|H-> äquivalent.
   </description>
 
   Es sei daran erinnert, dass die Modifiziertasten, die zur Erzeugung von

@@ -23,9 +23,9 @@
   </big-figure|Inactive label>
 
   When you finished typing the relevant information for your dynamic object,
-  you may type <key|<key-return>> in order to <em|activate> the object. An
+  you may type <shortcut|(kbd-return)> in order to <em|activate> the object. An
   active dynamic object may be deactivated by placing your cursor just behind
-  the object and hitting <key|<key-backspace>>.
+  the object and hitting <key|backspace>.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
 

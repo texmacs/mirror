@@ -26,7 +26,7 @@
     <expand|item*|<key|H->>Para combinaciones con la tecla hyper.
   </description>
 
-  Por ejemplo, <key|A-C-b> representa <key|alt-ctrl-b>. Epacios dentro de los
+  Por ejemplo, <shortcut|(make-with font-series bold)> representa <key|alt-ctrl-b>. Epacios dentro de los
   atajos de teclado indican múltiple presiones de tecla. Por ejemplo,
   <expand|kbd-table|N b> representa <key|meta-t> <key|N> <key|b>.
 
@@ -34,7 +34,7 @@
   todos los teclados. En los PC's recientes, la tecla <key|meta> es a menudo
   reemplazada por la tecla <key|windows>. In the case when one or several
   modifier keys are missing on your keyboard, you may use <key|escape>
-  instead of <key|M->, <key|escape escape> instead of <key|A-> and <key|F5>,
+  instead of <key|M->, <key|escape escape> instead of <key|A-> and <shortcut|math:greek>,
   <key|escape escape escape> or <key|A-C-> instead of <key|H->. For instance,
   <key|escape w> is equivalent to <key|A-w>. Uste puede también
   <apply|hyper-link|configurar los modificadores de

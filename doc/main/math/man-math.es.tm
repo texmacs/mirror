@@ -11,7 +11,7 @@
   matemático, puede tener comandos específicos y combinaciones de teclas para
   teclaer símbolos matemáticos y fórmulas. Por ejemplo el prefijo <key|H->
   puede ser usado a fin de ingresar símbolos griegos (recuerdo que <key|H->
-  es equivalente a <key|F5>, <key|escape escape escape> o <key|A-C->).
+  es equivalente a <shortcut|math:greek>, <key|escape escape escape> o <key|A-C->).
 
   El editor favorece teclear matemáticas con un cierto significado. Esta
   característica será desarrollada aún más en las versiones futuras, es útil

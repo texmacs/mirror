@@ -37,9 +37,9 @@
 
   Cuando creas una nueva tabla, su tamaño es mínimo (usualmente
   <with|mode|math|1\<times\>1>) y sus celdas están vacías. Puedes insertar
-  nuevas filas y columnas usando los atajos de teclado <key|A-izquierda>,
-  <key|A-derecha>, <key|A-arriba> y <key|A-abajo>. Por ejemplo,
-  <key|A-derecha> crea una nueva columna a la derecha de la columna que ocupa
+  nuevas filas y columnas usando los atajos de teclado <shortcut|(structured-insert #f)>,
+  <shortcut|(structured-insert #t)>, <key|A-arriba> y <key|A-abajo>. Por ejemplo,
+  <shortcut|(structured-insert #t)> crea una nueva columna a la derecha de la columna que ocupa
   actualmente el cursor. También puede crear una nueva fila debajo de la fila
   actual del cursor pulsando <key|enter>.
 

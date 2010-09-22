@@ -35,7 +35,7 @@
 
   Die Abbildungs-ähnlichen Kontexte haben auch unnummerierte Varianten
   <markup|small-figure*>, <markup|big-figure*>, <abbr|usw.>, zu denen man mit
-  dem Kurzbefehl <key|A-*> wechseln kann und umgekehrt.\ 
+  dem Kurzbefehl <shortcut|(toggle-number)> wechseln kann und umgekehrt.\ 
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
 

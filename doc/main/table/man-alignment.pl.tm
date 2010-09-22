@@ -8,7 +8,7 @@
   Najcz¦±ciej u»ywan¡ operacj¡ formatowania jest wyrównanie pionowe i poziome
   komórek. Mo»na u»ywa¢ skrótów <key|M-<with|mode|math|\<leftarrow\>>>,
   <key|M--<with|mode|math|\<rightarrow\>>>,
-  <key|M-<with|mode|math|\<uparrow\>>> i <key|M-<with|mode|math|\<downarrow\>>>
+  <shortcut|(positioning-up)> i <shortcut|(positioning-down)>
   aby szybko wyrówna¢ bardziej w lewo, prawo, gór¦ i dóª.
 
   Konkretne wyrównanie mo»e by¢ równie» wybrane poprzez menu

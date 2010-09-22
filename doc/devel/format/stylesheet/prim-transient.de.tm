@@ -31,7 +31,7 @@
     die Wurzel des Inhalts <src-arg|content>. Gewöhnlich kann ein Tag, der
     verborgene Informationen enthält wie z.B. <markup|hlink> dadurch
     deaktiviert werden, dass der Cursor direkt dahinter positioniert wird und
-    dann die <key|<key-backspace>>-Taste gedrückt wird. Damit wird der
+    dann die <key|backspace>-Taste gedrückt wird. Damit wird der
     Hyperlink in einen inaktiven Tag der Form
     \ <explain-macro|inactive|<with|font-shape|right|<explain-macro|hlink|body|ref>>>
     transformiert.
@@ -155,7 +155,7 @@
     Die Befehle sind werden nur während der Eingabe von speziellen Inhalten
     verwendet.
 
-    Wenn <key|C-q> gedrückt wird, wird ein <markup|symbol>-Befehl erzeugt.
+    Wenn <shortcut|(make 'symbol)> gedrückt wird, wird ein <markup|symbol>-Befehl erzeugt.
     Nachdem der Name eines Symbols oder sein ASCII-Code eingegeben wurde und
     die <key|Rücklauf>-Taste gedrückt wurde, wird der Symbol-Befehl durch das
     entsprechende Symbol ersetzt, das ist normalerweise eine Zeichenkette in

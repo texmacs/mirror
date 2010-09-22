@@ -32,9 +32,9 @@
   verändert, wie oben gezeigt, die Darstellung der Aufzählungsmarke. Die
   äuÿerste Aufzählung benutzt <with|mode|math|\<bullet\>>, die nächst innere
   \ <with|mode|math|<op|\<circ\>>>, usw.. Wenn Sie sich innerhalb einer
-  Aufzählung befinden, startet die Eingabetaste <key|<key-return>>
+  Aufzählung befinden, startet die Eingabetaste <shortcut|(kbd-return)>
   automatisch einen neuen Eintrag. Wenn Sie Einträge haben, die über mehrere
-  Absätze gehen, können Sie \ <key|S-<key-return>> benutzen, um einen neuen
+  Absätze gehen, können Sie \ <shortcut|(kbd-shift-return)> benutzen, um einen neuen
   Absatz im gleichen Eintrag zu beginnen.
 
   Nummerierte Aufzählungen, die mit <menu|Text|Enumerate> gestartet werden,

@@ -9,12 +9,12 @@
   modifier key <key|H-> with a letter. For instance, <key|H-a> yields
   <with|mode|math|\<alpha\>> and <key|H-G> yields <with|mode|math|\<Gamma\>>.
   <apply|hyper-link|Recall|../../start/man-conventions.en.tm> that the
-  <key|F5> key is equivalent to <key|H->, so that <with|mode|math|\<rho\>>
-  can also be obtained by typing <key|F5 r>. Similarly, <key|F6>, <key|F7>,
-  <key|F8> and <key|S-F6> can be used in order to type bold, calligraphic,
-  fraktur and blackboard bold characters. For instance, <key|F8 m> yields
+  <shortcut|math:greek> key is equivalent to <key|H->, so that <with|mode|math|\<rho\>>
+  can also be obtained by typing <key|F5 r>. Similarly, <shortcut|math:bold>, <shortcut|math:cal>,
+  <shortcut|math:frak> and <shortcut|math:bbb> can be used in order to type bold, calligraphic,
+  fraktur and blackboard bold characters. For instance, <shortcut|\<frak-m\>> yields
   <with|mode|math|\<frak-m\>>, <key|S-F6 R> yields <format|no line
-  break><with|mode|math|\<bbb-R\>> and <key|F6 F7 Z> yields
+  break><with|mode|math|\<bbb-R\>> and <shortcut|\<b-calZ\>> yields
   <with|mode|math|\<b-cal-Z\>>.
 
   Greek characters can also be obtained as ``variants'' of Latin characters
@@ -68,7 +68,7 @@
   </description>
 
   Several other symbols which cannot be entered naturally in the above way
-  are obtained using the <key|S-F5> prefix. Here follows a short table of
+  are obtained using the <shortcut|symbol> prefix. Here follows a short table of
   such symbols:
 
   <expand|big-table|<expand|descriptive-table|<tformat|<cwith|1|-1|2|2|cell

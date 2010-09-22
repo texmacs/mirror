@@ -24,21 +24,21 @@
     <expand|item*|<key|H->>For hyper key combinations.
   </description>
 
-  For instance, <key|A-C-b> stands for <key|<key-alternate>-<key-control>-b>.
+  For instance, <shortcut|(make-with font-series bold)> stands for <key|A--C--b>.
   Spaces inside keyboard shortcuts indicate multiple key-presses. For
-  instance, <expand|kbd-table|N b> stands for <key|<key-meta>-t>
+  instance, <expand|kbd-table|N b> stands for <key|M--t>
   <key|N> <key|b>.
 
-  The <key|<key-alternate>>, <key|<key-meta>> and
-  <key|<key-hyper>> keys are not available on all keyboards. On
-  recent PC's, the <key|<key-meta>> key is often replaced by the
+  The <key|A->, <key|M-> and
+  <key|H-> keys are not available on all keyboards. On
+  recent PC's, the <key|M-> key is often replaced by the
   <key|<key-windows>> key. In the case when one or several
   modifier keys are missing on your keyboard, you may use
-  <key|<key-escape>> instead of <key|M->,
-  <key|<key-escape> <key-escape>> instead of <key|A->
-  and <key|F5>, <key|<key-escape> <key-escape>
-  <key-escape>> or <key|A-C-> instead of <key|H->. For instance,
-  <key|<key-escape> w> is equivalent to <key|A-w>. You may also
+  <key|escape> instead of <key|M->,
+  <key|escape escape> instead of <key|A->
+  and <shortcut|math:greek>, <key|escape escape
+  escape> or <key|A-C-> instead of <key|H->. For instance,
+  <key|escape w> is equivalent to <key|A-w>. You may also
   <apply|hyper-link|configure the keyboard
   modifiers|../config/man-config-kbd-modkeys.en.tm> in order to take full
   advantage out of the powerful set of keyboard shortcuts which is provided

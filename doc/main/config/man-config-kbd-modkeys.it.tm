@@ -6,33 +6,33 @@
   <expand|tmdoc-title|Configurazione dei tasti modificatori>
 
   <apply|TeXmacs> utilizza cinque principali modificatori da tastiera:
-  <key|<expand|key-shift>>, <key|<expand|key-control>>,
-  <key|<expand|key-alternate>>, <key|<expand|key-meta>> e
-  <key|<expand|key-hyper>>, che vengono abbreviati rispettivamente con
+  <key|S->, <key|C->,
+  <key|A->, <key|M-> e
+  <key|H->, che vengono abbreviati rispettivamente con
   <key|S->, <key|C->, <key|A->, <key|M-> e <key|H->. I tasti
-  <key|<expand|key-shift>> e \ <key|<expand|key-control>> si trovano su tutte
-  le tastiere; il tasto \ <key|<expand|key-alternate>> su quasi tutte. Molte
+  <key|S-> e \ <key|C-> si trovano su tutte
+  le tastiere; il tasto \ <key|A-> su quasi tutte. Molte
   tastiere moderne sono dotate anche del tasto <key|<expand|key-windows>>
-  che, in <TeXmacs>, è equivalente a <key|<expand|key-meta>>.
+  che, in <TeXmacs>, è equivalente a <key|M->.
 
   Prima di riconfigurare la tastiera è consigliabile verificare se ciò sia
   veramente necessario. Se sulla vostra tastiera ci sono i tasti
-  corrispondenti a <key|<expand|key-shift>>, <key|<expand|key-control>>,
-  <key|<expand|key-alternate>> e <key|<expand|key-meta>>, probabilmente non
+  corrispondenti a <key|S->, <key|C->,
+  <key|A-> e <key|M->, probabilmente non
   saranno necessarie modifiche di configurazione. Una possibile eccezione è
   che desideriate utilizzare il tasto <key|<expand|key-caps-lock>> per
   scrivere simboli matematici. In questo caso dovrete far corrispondere il
-  tasto <key|<expand|key-caps-lock>> al tasto <key|<expand|key-hyper>>.
+  tasto <key|<expand|key-caps-lock>> al tasto <key|H->.
 
   Per riconfigurare la tastiera è sufficiente selezionare, nel menu
   <apply|menu|Edit|Preferences|Keyboard>, il modificatore logico che
   desiderate far corrispondere ad un dato tasto fisico. Ad esempio,
   selezionando <apply|menu|Windows key|Map to M modifier>, il tasto
   <key|<expand|key-windows>> verrà fatto corrispondere al modificatore
-  <key|<expand|key-meta>>. In modo del tutto analogo, selezionando
+  <key|M->. In modo del tutto analogo, selezionando
   <apply|menu|Caps-lock key|Map to H modifier>, il tasto
   <key|<expand|key-caps-lock>> verrà fatto corrispondere al modificatore
-  <key|<expand|key-hyper>>.
+  <key|H->.
 
   Sfortunatamente il sistema X Window permette di effettuare solo
   riconfigurazioni globali. Per questo, se in <TeXmacs> viene riconfigurato
@@ -48,20 +48,20 @@
   rimanda alle corrispondenti pagine del manuale.
 
   In alcuni casi può accadere che i tasti corrispondenti a
-  <key|<expand|key-alternate>>, <key|<expand|key-meta>> e
-  <key|<expand|key-hyper>>, siano presenti sulla tastiera ma non funzionino
+  <key|A->, <key|M-> e
+  <key|H->, siano presenti sulla tastiera ma non funzionino
   nel modo desiderato. Per farli funzionare adeguatamente è sufficiente
   rimappare i prefissi <key|A->, <key|M-> e <key|H-> in altri modificatori
   logici appartenenti al primo gruppo di sottomenu in
   <apply|menu|Edit|Preferences|Keyboard>.
 
   Ad esempio, per avere compatibilità con Emacs, potreste decidere di
-  scambiare il tasto <key|<expand|key-meta>> o <key|<expand|key-windows>> con
-  il tasto <key|<expand|key-alternate>> senza tuttavia eseguire una modifica
+  scambiare il tasto <key|M-> o <key|<expand|key-windows>> con
+  il tasto <key|A-> senza tuttavia eseguire una modifica
   globale. Ciò può essere fatto cercando i modificatori corrispondenti a
   questo tasto; tipicamente avremo <key|Mod1> al posto di
-  <key|<expand|key-alternate>> e <key|Mod4> al posto di
-  <key|<expand|key-meta>> o <key|<expand|key-windows>>. Quindi eseguiremo le
+  <key|A-> e <key|Mod4> al posto di
+  <key|M-> o <key|<expand|key-windows>>. Quindi eseguiremo le
   dovute permutazioni nel menu <apply|menu|Edit|Preferences|Keyboard>,
   selezionando <apply|menu|A modifier|Equivalent for Mod4> e <apply|menu|M
   modifier|Equivalent for Mod1>.

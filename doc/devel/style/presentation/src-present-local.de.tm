@@ -58,7 +58,7 @@
 
   Teile des Codes können aktiviert werden, indem man es mit der Maus auswählt
   und dann das Menü <menu|Source|Activation|Activate> oder die
-  Tastenkombination <key|M-+> verwendet. Entsprechend kann Code nach
+  Tastenkombination <shortcut|(make-mod-active 'active*)> verwendet. Entsprechend kann Code nach
   Markierung mit \ <key|<group|M->-> deaktiviert werden. Im obigen Beispiel
   haben wir das für die Darstellung der Argumente benutzt und zwar zur
   Darstellung der Variablen <src-arg|var> and <src-arg|dim> in beiden

@@ -9,9 +9,9 @@
 
   L'operazione di formattazione più frequente è l'allineamento orizzontale o
   verticale di un blocco di celle. Si possono utilizzare le combinazioni di
-  tasti <key|M-<with|mode|math|<op|\<leftarrow\>>>>,
-  <key|M-<with|mode|math|<op|\<rightarrow\>>>>,
-  <key|M-<with|mode|math|\<uparrow\>>> e <key|M-<with|mode|math|\<downarrow\>>>
+  tasti <shortcut|(positioning-left)>,
+  <shortcut|(positioning-right)>,
+  <shortcut|(positioning-up)> e <shortcut|(positioning-down)>
   per allineare rapidamente più a sinistra, a destra, in alto o in basso.
 
   Un allineamento specifico può anche essere selezionato nei menu

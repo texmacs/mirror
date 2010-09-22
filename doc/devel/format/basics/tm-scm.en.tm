@@ -34,7 +34,7 @@
   <value|scheme> fragments into <TeXmacs> using <menu|Edit|Paste
   from|Scheme>. The <value|scheme> format may also used interactively inside
   <value|scheme> sessions or interactive commands. For instance, typing
-  <key|M-x> followed by the interactive command
+  <shortcut|(interactive exec-interactive-command)> followed by the interactive command
 
   <\scheme-fragment>
     (insert '(frac "1" "2"))

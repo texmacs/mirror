@@ -9,8 +9,8 @@
   l'alignement horizontal ou vertical d'un bloc de cellules. On peut utiliser
   <key|M-<with|mode|math|\<leftarrow\>>>,
   <key|M-<with|mode|math|\<rightarrow\>>>,
-  <key|M-<with|mode|math|\<uparrow\>>> et
-  <key|M-<with|mode|math|\<downarrow\>>> pour cadrer à gauche, à droite, en
+  <shortcut|(positioning-up)> et
+  <shortcut|(positioning-down)> pour cadrer à gauche, à droite, en
   haut ou en bas.
 
   On peut aussi choisir un alignement spécifique avec les menus

@@ -17,7 +17,7 @@
   Cuando usted termine con la escritura, recomendamos que primero guarde el
   documento, usando la opción <with|font-series|bold|guardar buffer> del
   botón <icon|tm_save.png> de la barra de menus o presionando la tecla
-  <key|F3>. Un mensaje en la parte baja de la ventana confirmará la
+  <shortcut|(save-buffer)>. Un mensaje en la parte baja de la ventana confirmará la
   operación.\ 
 
   \;
@@ -39,7 +39,7 @@
   Cuando usted haya terminado de escribir, usualmente querá imprimir su
   documento. Esto se puede hacer seleccionando la opción <menu|Print all> del
   botón <icon|tm_print.png>de la barra de menus, o presionando la tecla
-  <key|F4>. Antes de imprimir, usted puede configurar su impresora usando el
+  <shortcut|(print-buffer)>. Antes de imprimir, usted puede configurar su impresora usando el
   menu \ <menu|File|Page setup>. Usted puede especificar el comando de
   impresión (como <verbatim|lpr>), el tipo de papel de la impresora (como
   <verbatim|a4> en Europa o <verbatim|carta> en U.S.A.) y la presición de la
@@ -47,7 +47,7 @@
 
   Para recuperar el texto después de haber cerrado <TeXmacs>, primero tiene
   que seleccionar la opción <menu|Load buffer> del botón
-  <icon|tm_load.png>del menu o presionar la tecla <key|F2>. Después, puede
+  <icon|tm_load.png>del menu o presionar la tecla <shortcut|(open-buffer)>. Después, puede
   seleccionar el archivo usando el manejador de archivos. En nuestro ejemplo,
   el archivo <verbatim|test.tm> aparece en el manejador de archivos y podemos
   recuperarlo rápidamente haciendo doble click sobre él.\ 

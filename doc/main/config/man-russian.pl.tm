@@ -30,9 +30,9 @@
 
   <verbatim| \ \ \ ru basic grp:shift_toggle>
 
-  To oznacza i» tryb klawiatury jest zmieniany przez <key|l-<key-shift>
-  r-<key-shift>>. Inne popularne metody to <key|<key-control> <key-shift>>
-  lub <key|<key-control> <key-alternate>>, w
+  To oznacza i» tryb klawiatury jest zmieniany przez <key|l-S-
+  r-S->. Inne popularne metody to <key|C- S->
+  lub <key|C- A->, w
   <with|font-family|tt|/usr/X11R6/lib/X11/xkb/> mo»na znale¹¢ szczegóªy. To
   zalecana konfiguracja klawiatury dla wspóªczesnych systemów linuxowych,
   je±li planowane jest cz¦ste korzystanie z cyrylicy.
@@ -115,7 +115,7 @@
   Je±li na klawiaturze nie ma podpisów cyrylic¡ wygodniejszy mo»e by¢ ukªad
   yawerty, gdzie klawisze qwerty'' daj¡ <with|language|russian|<with|font|cyrillic|ÿâåðòû>>''.
   Ka»dy znak ªaci«ski jest przeksztaªcany w podobny'' rosyjski; niektóre
-  dodatkowe litery rosyjskie s¡ uzyskiwane poprzez <key|<key-shift>>-cyfra.
+  dodatkowe litery rosyjskie s¡ uzyskiwane poprzez <key|S->-cyfra.
   <TeXmacs> u»ywa troch¦ zmodyfikowanego ukªadu yawerty, poniewa» nie u»ywa
   dla niego klawiszy <key|$>, <key|¿>, <key|\\>, które s¡ wa»ne dla
   <TeXmacs>. Odpowiadaj¡ce znaki rosyjskie s¡ tworzone przez kombinacje

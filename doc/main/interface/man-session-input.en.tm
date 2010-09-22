@@ -6,14 +6,14 @@
   <expand|tmdoc-title|Selecting the input method>
 
   By default, <TeXmacs> will attempt to evaluate the input field when
-  pressing <key|<expand|key-return>>. Multiline input can be created using
-  <key|S-<expand|key-return>>. Alternatively, when selecting the multiline
+  pressing <key|return>. Multiline input can be created using
+  <key|S-return>. Alternatively, when selecting the multiline
   input mode using <apply|menu|Session|Input mode|Multiline input>, the
-  <key|<expand|key-return>> key will behave as usual and
-  <key|S-<expand|key-return>> may be used in order to evaluate the input
+  <key|return> key will behave as usual and
+  <key|S-return> may be used in order to evaluate the input
   field. Notice finally that certain systems admit built-in heuristics for
   testing whether the input has been completed; if not, then the
-  <key|<expand|key-return>> may behave as usual.
+  <key|return> may behave as usual.
 
   Certain applications allow you to type the mathematical input in a
   graphical, two dimensional form. This feature can be used by selecting

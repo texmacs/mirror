@@ -13,17 +13,17 @@
     <expand|item*|<key|C-retour arrière>>supprime un objet ou un
     environnement.
 
-    <expand|item*|<key|A-espace>>insère un petit espace.
+    <expand|item*|<shortcut|(make-space "0.2spc")>>insère un petit espace.
 
-    <expand|item*|<key|A-S-espace>>insère un petit espace négatif.
+    <expand|item*|<shortcut|(make-space "-0.2spc")>>insère un petit espace négatif.
 
-    <expand|item*|<key|A-A-début>>marque le début d'une sélection.
+    <expand|item*|<key|A-début>>marque le début d'une sélection.
 
-    <expand|item*|<key|A-A-fin>>marque la fin d'une sélection.
+    <expand|item*|<shortcut|(structured-insert-end)>>marque la fin d'une sélection.
 
-    <expand|item*|<key|M-\<less\>>>va au début du document.
+    <expand|item*|<shortcut|(go-start)>>va au début du document.
 
-    <expand|item*|<key|M-\<gtr\>>>va à la fin du document.
+    <expand|item*|<shortcut|(go-end)>>va à la fin du document.
   </description>
 
   <apply|tmdoc-copyright|1998--2002|Joris van der Hoeven|Michèle Garoche>

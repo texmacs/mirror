@@ -8,22 +8,22 @@
   Some standard keyboard actions which are valid in all modes are:
 
   <\description>
-    <item*|<key|S-<key-return>>>always starts a new paragraph.
+    <item*|<shortcut|(kbd-shift-return)>>always starts a new paragraph.
 
-    <item*|<key|C-<key-backspace>>>remove the containing object or
+    <item*|<shortcut|(remove-structure-upwards)>>remove the containing object or
     environment.
 
-    <item*|<key|A-<localize|space>>>insert a small space.
+    <item*|<shortcut|(make-space "0.2spc")>insert a small space.
 
-    <item*|<key|A-S-<localize|space>>>insert a small negative space.
+    <item*|<shortcut|(make-space "-0.2spc")>>insert a small negative space.
 
-    <item*|<key|M-A-<key-home>>>manually set start of the selection.
+    <item*|<key|M-A-home>>manually set start of the selection.
 
-    <item*|<key|M-A-<key-end>>>manually set end of the selection.
+    <item*|<key|M-A-end>>manually set end of the selection.
 
-    <item*|<key|M-\<less\>>>go to the start of the document.
+    <item*|<shortcut|(go-start)>>go to the start of the document.
 
-    <item*|<key|M-\<gtr\>>>go to the end of the document.
+    <item*|<shortcut|(go-end)>>go to the end of the document.
   </description>
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>

@@ -6,14 +6,14 @@
   <tmdoc-title|Eine Eingabemethode auswählen>
 
   In der Grundeinstellung versucht <TeXmacs> das Eingabefeld zu evaluieren,
-  wenn <key|<key-return>> gedrückt wird. Mehrzeilige Eingaben können mit
-  <key|S-<key-return>> erzeugt werden. Alternativ können Sie auch den
+  wenn <shortcut|(kbd-return)> gedrückt wird. Mehrzeilige Eingaben können mit
+  <shortcut|(kbd-shift-return)> erzeugt werden. Alternativ können Sie auch den
   Mehrzeilen-Modus mit <menu|Session|Input mode|Multiline input> auswählen.
-  Dann wirkt die <key|<key-return>>-Taste wie sonst die
-  <key|S-<key-return>>-Tastenkombination. Beachten Sie aber bitte, dass
+  Dann wirkt die <shortcut|(kbd-return)>-Taste wie sonst die
+  <shortcut|(kbd-shift-return)>-Tastenkombination. Beachten Sie aber bitte, dass
   einige Anwendungen eigene heuristische Systeme besitzen, um herauszufinden,
   ob die Eingabe beendet wurde oder nicht. Wenn das nicht der Fall ist, kann
-  <key|<key-return>>, wie gewohnt, reagieren
+  <shortcut|(kbd-return)>, wie gewohnt, reagieren
 
   Bei bestimmten Anwendungen können Sie mathematische Eingaben in einer
   graphischen zweidimensionalen Form eingeben. Diese Form der Eingabe können

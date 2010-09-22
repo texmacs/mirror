@@ -24,7 +24,7 @@
   feature which allows the user to select an expression and replace it by its
   evaluation. For instance, the <verbatim|substitute> plug-in converts
   mathematical <LaTeX> expressions into <TeXmacs>, and it provides the
-  <key|C-F12> keyboard shortcut for replacing a selected text by its
+  <shortcut|(substitute-substitute)> keyboard shortcut for replacing a selected text by its
   conversion. The plug-in consists of the following files
 
   <\verbatim>
@@ -71,7 +71,7 @@
     \ \ \ \ \ \ \ \ (insert (stree-\<gtr\>tree u)))))
   </scheme-fragment>
 
-  as well as the keyboard shortcut for <key|C-F12>:
+  as well as the keyboard shortcut for <shortcut|(substitute-substitute)>:
 
   <\scheme-fragment>
     (kbd-map

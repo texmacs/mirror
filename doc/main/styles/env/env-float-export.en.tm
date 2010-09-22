@@ -35,7 +35,7 @@
 
   The figure-like environments also admit \ unnumbered versions
   <markup|small-figure*>, <markup|big-figure*>, <abbr|etc.>, which are
-  obtained using <key|A-*>.
+  obtained using <shortcut|(toggle-number)>.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
 

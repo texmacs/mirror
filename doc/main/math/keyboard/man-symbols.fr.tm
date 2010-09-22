@@ -9,12 +9,12 @@
   <key|H-> avec une lettre. Par exemple, <key|H-a> produit le caractère
   <with|mode|math|\<alpha\>> et <key|H-G> le caractère
   <with|mode|math|\<Gamma\>>. <apply|hyper-link|Souvenez-vous|../../start/man-conventions.fr.tm>
-  que la touche <key|F5> est équivalente à <key|H-> ; vous pouvez donc aussi
+  que la touche <shortcut|math:greek> est équivalente à <key|H-> ; vous pouvez donc aussi
   utiliser <key|F5 r> pour obtenir <with|mode|math|\<rho\>>. De même,
-  <key|F6>, <key|F7>, <key|F8> et <key|S-F6> permettent d'obtenir des
+  <shortcut|math:bold>, <shortcut|math:cal>, <shortcut|math:frak> et <shortcut|math:bbb> permettent d'obtenir des
   caractères gras, calligraphiques, gothiques ou des onciales. Par exemple,
-  <key|F8 m> donne <with|mode|math|\<frak-m\>>, <key|S-F6 R> donne <format|no
-  line break><with|mode|math|\<bbb-R\>> et <key|F6 F7 Z> donne
+  <shortcut|\<frak-m\>> donne <with|mode|math|\<frak-m\>>, <key|S-F6 R> donne <format|no
+  line break><with|mode|math|\<bbb-R\>> et <shortcut|\<b-calZ\>> donne
   <with|mode|math|\<b-cal-Z\>>.
 
   Les caractères grecs peuvent aussi être obtenus en tant que
@@ -66,7 +66,7 @@
   </description>
 
   Certains symboles ne peuvent être obtenus comme ci-dessus, il faut alors
-  utiliser le préfixe <key|S-F5>. En voici le tableau :
+  utiliser le préfixe <shortcut|symbol>. En voici le tableau :
 
   <expand|big-table|<expand|descriptive-table|<tformat|<cwith|1|-1|2|2|cell
   halign|c>|<cwith|1|-1|4|4|cell halign|c>|<cwith|1|-1|2|2|cell

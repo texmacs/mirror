@@ -7,7 +7,7 @@
 
   Jest mo»liwe stopniowe cofanie zmian zrobionych w dokumencie od chwili
   uruchomienia <TeXmacs>. To mo»na zrobi¢ poprzez menu <menu|Edit|Undo> lub
-  skrótami <key|M-[> albo <key|C-/>. Cofni¦te zmiany mog¡ by¢ przywrócone
+  skrótami <key|M-[> albo <shortcut|(undo 0)>. Cofni¦te zmiany mog¡ by¢ przywrócone
   poprzez <menu|Edit|Redo> lub <kbd-gen|]>.
 
   Aby oszcz¦dzi¢ pami¦¢ liczba operacji które mo»na cofn¡¢ limitowana jest

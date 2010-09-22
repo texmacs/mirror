@@ -8,7 +8,7 @@
   Si può dare inizio ad una sessione dal menu <apply|menu|Text|Session>. Una
   sessione consiste di una sequenza di ambienti input e output, e tra questi,
   eventualmente, delle parti di testo. Quando si preme il tasto
-  <key|<expand|key-return>> all'interno di un ambiente di input di una
+  <key|return> all'interno di un ambiente di input di una
   sessione, il testo nell'ambiente stesso viene valutato e il risultato viene
   visualizzato in un ambiente di output.
 
@@ -28,7 +28,7 @@
   bidimensionale. \ Altri due bottoni consentono di interrompere l'esecuzione
   di un particolare comando (ma ciò non funziona bene per alcuni sistemi) o
   di disconnettere l'esecuzione del sistema esterno. \ Quando si preme il
-  tasto <key|<expand|key-return>> nell'input di un sistema non connesso,
+  tasto <key|return> nell'input di un sistema non connesso,
   questo verrà automaticamente riconnesso.
 
   <apply|tmdoc-copyright|1998--2003|Joris van der Hoeven|Lucia

@@ -79,7 +79,7 @@
     <item>Scrivere il codice latex <verbatim|blauw\\-bil\\-gor\\-gel> con la
     sillabazione corretta.
 
-    <item>Premere <key|<expand|key-return>> per attivare il testo specifico
+    <item>Premere <key|return> per attivare il testo specifico
     di <apply|LaTeX>.
   </enumerate>
 

@@ -2882,7 +2882,7 @@
   Gnuplot supporta molte caratteristiche per creare eccellenti grafici. Se il
   numero di comandi è più di uno, si devono separare con un simbolo
   <verbatim|~> o con una riga. Ricordiamo che si inizia una nuova riga usando
-  <key|S-<expand|key-return>>.
+  <key|S-return>.
 
   <apply|tmdoc-copyright|2003|Chu-Ching Huang, Lucia Gecchelin>
 

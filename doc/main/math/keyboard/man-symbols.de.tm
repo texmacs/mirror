@@ -9,11 +9,11 @@
   die <em|Hyper-Modifiertaste> <key|H-> mit einem Buchstaben kombiniert wird.
   Beispielsweise ergibt <key|H-a> \ <with|mode|math|\<alpha\>> und <key|H-G>
   gibt <with|mode|math|\<Gamma\>>. <hyper-link|Erinnern Sie
-  sich|../../start/man-conventions.de.tm>, dass <key|F5> zu <key|H->
+  sich|../../start/man-conventions.de.tm>, dass <shortcut|math:greek> zu <key|H->
   äquivalent ist, so dass man <with|mode|math|\<rho\>> mit <key|F5 r>
   erhalten kann.
 
-  In ähnlicher Weise können <key|F6>, <key|F7>, <key|F8> und <key|S-F6>
+  In ähnlicher Weise können <shortcut|math:bold>, <shortcut|math:cal>, <shortcut|math:frak> und <shortcut|math:bbb>
   benutzt werden, um in dieser Reihenfolge,
   <with|mode|math|\<b-f\>\<b-e\>\<b-t\>\<b-t\>\<b-e\>\<b-n\>
   \<b-T\>\<b-e\>\<b-x\>\<b-t\>>, <with|mode|math|\<cal-K\>\<cal-A\>\<cal-L\>\<cal-L\>\<cal-I\>\<cal-G\>\<cal-R\>\<cal-A\>\<cal-F\>\<cal-I\>\<cal-S\>\<cal-C\>\<cal-H\>\<cal-E\>\<cal-N\>
@@ -21,8 +21,8 @@
   <with|mode|math|\<frak-F\>\<frak-r\>\<frak-a\>\<frak-k\>\<frak-t\>\<frak-u\>\<frak-r\>>
   und <with|mode|math|\<bbb-F\>\<bbb-E\>\<bbb-T\>\<bbb-T\>\<bbb-E\>
   \ \ \ \ \ \<bbb-T\>\<bbb-A\>\<bbb-F\>\<bbb-E\>\<bbb-L\>\<bbb-S\>\<bbb-C\>\<bbb-H\>\<bbb-R\>\<bbb-F\>\<bbb-T\>>
-  zu erzeugen. \ <key|F8 m> gibt <with|mode|math|\<frak-m\>>, <key|S-F6 R>
-  gibt <no-break><with|mode|math|\<bbb-R\>> und <key|F6 F7 Z> ergibt
+  zu erzeugen. \ <shortcut|\<frak-m\>> gibt <with|mode|math|\<frak-m\>>, <key|S-F6 R>
+  gibt <no-break><with|mode|math|\<bbb-R\>> und <shortcut|\<b-calZ\>> ergibt
   <with|mode|math|\<b-cal-Z\>>.
 
   Griechische Buchstaben können auch als \RVarianten`` von lateinischen
@@ -79,7 +79,7 @@
   </description>
 
   Einige andere Symbole, die nicht durch \Rnahe liegende``
-  Tastenkombinationen erzeugt werden können, werden mit dem Präfix <key|S-F5>
+  Tastenkombinationen erzeugt werden können, werden mit dem Präfix <shortcut|symbol>
   eingegeben:
 
   <big-table|<descriptive-table|<tformat|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<cwith|1|-1|2|2|cell-rborder|1ln>|<table|<row|<cell|Kurzbefehl>|<cell|Symbol>|<cell|Kurzbefehl>|<cell|Symbol>>|<row|<cell|<kbd-symb|a>>|<cell|<with|mode|math|\<amalg\>>>|<cell|>|<cell|>>|<row|<cell|<kbd-symb|n>>|<cell|<with|mode|math|\<cap\>>>|<cell|<kbd-symb|u>>|<cell|<with|mode|math|\<cup\>>>>|<row|<cell|<kbd-symb|v>>|<cell|<with|mode|math|\<vee\>>>|<cell|<kbd-symb|w>>|<cell|<with|mode|math|\<wedge\>>>>>>>|Einige

@@ -9,12 +9,12 @@
   modificatore <key|H-> con una lettera. Per esempio, <key|H-a> genera
   <with|mode|math|\<alpha\>> e <key|H-G> genera <with|mode|math|\<Gamma\>>.
   <apply|hyper-link|Ricordiamo|../../start/man-conventions.it.tm> che il
-  tasto <key|F5> è equivalente a <key|H->, quindi <with|mode|math|\<rho\>>
+  tasto <shortcut|math:greek> è equivalente a <key|H->, quindi <with|mode|math|\<rho\>>
   può anche essere ottenuto battendo i tasti <key|F5 r>. Analogamente,
-  <key|F6>, <key|F7>, <key|F8> e <key|S-F6> possono essere utilizzati per
+  <shortcut|math:bold>, <shortcut|math:cal>, <shortcut|math:frak> e <shortcut|math:bbb> possono essere utilizzati per
   scrivere caratteri in grassetto, calligrafici, fraktur e lavagna grassetto.
-  Per esempio, <key|F8 m> produce <with|mode|math|\<frak-m\>>, <key|S-F6 R>
-  produce <format|no line break><with|mode|math|\<bbb-R\>> e <key|F6 F7 Z>
+  Per esempio, <shortcut|\<frak-m\>> produce <with|mode|math|\<frak-m\>>, <key|S-F6 R>
+  produce <format|no line break><with|mode|math|\<bbb-R\>> e <shortcut|\<b-calZ\>>
   produce <with|mode|math|\<b-cal-Z\>>.
 
   I caratteri greci si possono ottenere anche come ``varianti'' dei caratteri
@@ -72,7 +72,7 @@
 
   Molti altri simboli, che non possono essere inseriti in modo naturale come
   nei casi descritti qui sopra, si possono ottenere utilizzando il prefisso
-  <key|S-F5>. Qui di seguito riportiamo una piccola tabella con alcuni di
+  <shortcut|symbol>. Qui di seguito riportiamo una piccola tabella con alcuni di
   tali simboli:
 
   <expand|big-table|<expand|descriptive-table|<tformat|<cwith|1|-1|2|2|cell

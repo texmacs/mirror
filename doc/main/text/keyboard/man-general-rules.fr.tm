@@ -36,7 +36,7 @@
     pour générer des symboles spéciaux, tels les caractères grecs en mode
     maths. Vous pouvez configurer votre clavier de telle sorte que la touche
     majuscule fixe joue le rôle de la touche hyper. La touche de fonction
-    <key|F5> est équivalente à <key|M->.
+    <shortcut|math:greek> est équivalente à <key|M->.
   </description>
 
   Rappelons que les touches spéciales de modification utilisées pour générer

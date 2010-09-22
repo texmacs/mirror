@@ -119,7 +119,7 @@
     <item>Type the latex code <verbatim|blauw\\-bil\\-gor\\-gel> with the
     correct hyphenation.
 
-    <item>Press <key|<key-return>> to activate the <LaTeX>-specific text.
+    <item>Press <shortcut|(kbd-return)> to activate the <LaTeX>-specific text.
   </enumerate>
 
   In a similar fashion, you may insert <LaTeX>-specific line breaks, page

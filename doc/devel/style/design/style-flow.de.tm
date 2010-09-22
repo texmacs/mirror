@@ -16,7 +16,7 @@
   Makroargumente ab. Die Erreichbarkeit kann aber nicht vorab geprüft werden!
 
   Das wichtigste Konstrukt ist <markup|if>, das mit dem Kurzbefehl
-  \ <key|A-?> erzeugt werden kann. Damit kann man bedingten Schriftsatz
+  \ <shortcut|(make 'if)> erzeugt werden kann. Damit kann man bedingten Schriftsatz
   erreichen:
 
   <\tm-fragment>

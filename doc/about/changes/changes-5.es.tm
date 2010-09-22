@@ -23,7 +23,7 @@
     <key|shift-tab>.
 
     <item>Los caracteres griegos son ahora tecleados usando <key|A-C->,
-    <key|F5>, o el modificador hiper, el cual puede ser configurado en
+    <shortcut|math:greek>, o el modificador hiper, el cual puede ser configurado en
     <apply|menu|Edit|Preferences>. También puede obtener caracteres griegos
     como variantes de caracteres latinos. Por ejemplo, <key|p tab> produce
     <with|mode|math|\<pi\>>.

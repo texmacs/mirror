@@ -7,9 +7,9 @@
 
   La operación más frecuente de formateo es el alineamiento horizontal o
   vertical de un bloque de celdas. Puede usar los atajos de teclado
-  <key|M-<with|mode|math|<op|\<leftarrow\>>>>,
-  <key|M-<with|mode|math|<op|\<rightarrow\>>>>,
-  <key|M-<with|mode|math|\<uparrow\>>> y <key|M-<with|mode|math|\<downarrow\>>>
+  <shortcut|(positioning-left)>,
+  <shortcut|(positioning-right)>,
+  <shortcut|(positioning-up)> y <shortcut|(positioning-down)>
   para alinear rápidamente más a la izquierda, derecha, arriba o abajo,
   respectivamente.
 

@@ -35,7 +35,7 @@
 
   Alle diese Kontexte gibt es auch in einer unnummerierten Variante
   \ <markup|theorem*>, <markup|proposition*>, <abbr|usw.>. Man kann den
-  Kurzbefehl \ <key|A-*> \ benutzen, um zwischen der nummerierten und der
+  Kurzbefehl \ <shortcut|(toggle-number)> \ benutzen, um zwischen der nummerierten und der
   unnummerierten Variante zu wechseln. Auÿerdem gibt es noch:
 
   <\explain|<explain-macro|proof|body>>

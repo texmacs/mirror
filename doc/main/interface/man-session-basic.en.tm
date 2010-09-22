@@ -7,7 +7,7 @@
 
   A session can be started from the <menu|Insert|Session> menu. A session
   consists of a sequence of input and output fields and possible text between
-  them. When pressing <key|<key-return>> inside an input field of a session,
+  them. When pressing <shortcut|(kbd-return)> inside an input field of a session,
   the text inside the environment is evaluated and the result is displayed in
   an output field.
 
@@ -26,7 +26,7 @@
   processes and sessions with the same name share a common process.
 
   In order to finish the process which underlies a given session, you may use
-  <menu|Session|Close session>. When pressing <key|<key-return>> in the input
+  <menu|Session|Close session>. When pressing <shortcut|(kbd-return)> in the input
   of a non-connected system, the system will be restarted automatically. You
   may also use <menu|Session|Interrupt execution> in order to interrupt the
   execution of a command. However, several applications do not support this

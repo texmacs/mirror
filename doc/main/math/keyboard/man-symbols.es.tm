@@ -9,13 +9,13 @@
   de la tecla modificadora <key|H-> con una letra. Por ejemplo, <key|H-a>
   produce <with|mode|math|\<alpha\>> y <key|H-G> produce
   <with|mode|math|\<Gamma\>>. <apply|hyper-link|Recuerde|../../start/man-conventions.es.tm>
-  que la tecla <key|F5> es equivalente a <key|H->, así que
+  que la tecla <shortcut|math:greek> es equivalente a <key|H->, así que
   <with|mode|math|\<rho\>> puede también ser obtenido tecleando
-  <with|mode|math|\<rho\>>. Similarmente, <key|F6>, <key|F7>, <key|F8> y
-  <key|S-F6> pueden ser usados a fin de teclear caractéres resaltados,
-  caligráficos, fraktur y blackboard. Por ejmplo <key|F8 m> produce
+  <with|mode|math|\<rho\>>. Similarmente, <shortcut|math:bold>, <shortcut|math:cal>, <shortcut|math:frak> y
+  <shortcut|math:bbb> pueden ser usados a fin de teclear caractéres resaltados,
+  caligráficos, fraktur y blackboard. Por ejmplo <shortcut|\<frak-m\>> produce
   <with|mode|math|\<frak-m\>>, <key|S-F6 R> produce
-  <with|mode|math|\<bbb-R\>> y <key|F6 F7 Z> produce
+  <with|mode|math|\<bbb-R\>> y <shortcut|\<b-calZ\>> produce
   <with|mode|math|\<b-cal-Z\>>.
 
   Los caracteres griegos pueden también ser obtenidos como ``variantes'' de
@@ -66,7 +66,7 @@
   </description>
 
   Varios otros símbolos que no pueden ser ingresados manualmente en la forma
-  anterior son obtenidos usando el prefijo <key|S-F5>. A continuación se
+  anterior son obtenidos usando el prefijo <shortcut|symbol>. A continuación se
   muestra una pequeña tabla de tales símbolos:
 
   <expand|big-table|<expand|descriptive-table|<tformat|<cwith|1|-1|2|2|cell

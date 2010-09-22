@@ -80,7 +80,7 @@
     <item>Dann <verbatim|früh\\-kon\\-stan\\-ti\\-no\\-po\\-li\\-ta\\-nisch>
     mit der korrekten Trennung ein.\ 
 
-    <item>Drücken Sie <key|<key-return>>, um den <LaTeX>-spezifischen Text zu
+    <item>Drücken Sie <shortcut|(kbd-return)>, um den <LaTeX>-spezifischen Text zu
     aktivieren.
   </enumerate>
 

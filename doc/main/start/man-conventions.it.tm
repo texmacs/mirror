@@ -28,21 +28,21 @@
     <expand|item*|<key|H->>Per le combinazioni che includono il tasto hyper.
   </description>
 
-  Per esempio, <key|A-C-b> rappresenta <key|<expand|key-alternate>-<expand|key-control>-b>.
+  Per esempio, <shortcut|(make-with font-series bold)> rappresenta <key|A--C--b>.
   Gli spazi all'interno delle abbreviazioni da tastiera indicano che sono
   premuti più tasti, o combinazioni di tasti, in sequenza. Per esempio,
-  <expand|kbd-table|N b> rappresenta <key|<expand|key-meta>-t> <key|N>
+  <expand|kbd-table|N b> rappresenta <key|M--t> <key|N>
   <key|b>.
 
-  I tasti <key|<expand|key-alternate>>, <key|<expand|key-meta>> e
-  <key|<expand|key-hyper>> non sono disponibili su tutte le tastiere. Sui PC
-  recenti, il tasto <key|<expand|key-meta>> è spesso sostituito con il tasto
+  I tasti <key|A->, <key|M-> e
+  <key|H-> non sono disponibili su tutte le tastiere. Sui PC
+  recenti, il tasto <key|M-> è spesso sostituito con il tasto
   <key|<expand|key-windows>>. Nel caso in cui uno o più dei tasti
   modificatori non siano presenti sulla propria tastiera, si può utilizzare
-  <key|<expand|key-escape>> invece di <key|M->, <key|<expand|key-escape>
-  <expand|key-escape>> invece di <key|A-> e <key|F5>,
-  <key|<expand|key-escape> <expand|key-escape> <expand|key-escape>> o
-  <key|A-C-> invece di <key|H->. Per esempio, <key|<expand|key-escape> w> è
+  <key|escape> invece di <key|M->, <key|escape
+  escape> invece di <key|A-> e <shortcut|math:greek>,
+  <key|escape escape escape> o
+  <key|A-C-> invece di <key|H->. Per esempio, <key|escape w> è
   equivalente a <key|A-w>. È anche possibile <apply|hyper-link|configurare i
   tasti modificatori|../config/man-config-kbd-modkeys.it.tm> in modo da
   ottenere il massimo vantaggio dal potente insieme di abbreviazioni da

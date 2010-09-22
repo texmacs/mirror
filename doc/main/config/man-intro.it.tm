@@ -15,7 +15,7 @@
 
   Allo stesso tempo <apply|TeXmacs> gestisce un potente ambiente di comandi
   abbreviati da tastiera, in modo da ottimizzare l'uso di tasti modificatori
-  come <key|<expand|key-shift>> e <key|<expand|key-control>>. In alcuni
+  come <key|S-> e <key|C->. In alcuni
   sistemi tuttavia questi tasti non sono ben configurati percui è necessario
   procedere alla loro riconfigurazione.
 

@@ -7,10 +7,10 @@
 
   Die häufigste Formatierungs-Operation die vertikale oder horizontale
   Ausrichtung von einzelnen Zellen oder Zellblöcken. Sie können
-  <key|M-<with|mode|math|<op|\<leftarrow\>>>>,
-  <key|M-<with|mode|math|<op|\<rightarrow\>>>>,
-  <key|M-<with|mode|math|\<uparrow\>>> und
-  <key|M-<with|mode|math|\<downarrow\>>> verwenden, um schnell nach links,
+  <shortcut|(positioning-left)>,
+  <shortcut|(positioning-right)>,
+  <shortcut|(positioning-up)> und
+  <shortcut|(positioning-down)> verwenden, um schnell nach links,
   rechts, oben oder unten auszurichten.
 
   Spezifische Ausrichtungen können auch mit den Menü-Befehlen

@@ -39,7 +39,7 @@
 
   may both be used as an inline tag and a block environment. When placing
   your cursor just before the <markup|with>-tag and hitting
-  <key|<key-return>> followed by <key|<key-backspace>>, you obtain
+  <shortcut|(kbd-return)> followed by <key|backspace>, you obtain
 
   <\tm-fragment>
     <inactive*|<assign|very-important|<\macro|body>

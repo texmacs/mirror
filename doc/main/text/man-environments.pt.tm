@@ -27,7 +27,7 @@
   ambientes com exibição similar aos teoremas são <markup|proposição>,
   <markup|lema>, <markup|corolário>, <markup|axioma>, <markup|definição>.
   Você pode usar o macro <markup|dueto> (o macro é ativado digitando <key|d u
-  e t o <expand|key-return>>) para registrar as pessoas às quais se deve o
+  e t o return>) para registrar as pessoas às quais se deve o
   teorema, como em:
 
   <\theorem>

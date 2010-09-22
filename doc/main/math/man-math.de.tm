@@ -26,11 +26,11 @@
     Menübefehl <menu|Format|Formula style|On>. Für Formeln im Flieÿtext ist
     dieser Stil vorgabemäÿig deaktiviert.
 
-    <item*|<localize|Equation> <key|A-$>>ist die Struktur für eigenständige
+    <item*|<localize|Equation> <shortcut|(make-equation*)>>ist die Struktur für eigenständige
     mathematische Formeln, die in einen eigenen Block gesetzt werden. Sie
     werden mit dem Menübefehl <menu|Insert|Mathematics|Equation> eingefügt.
 
-    <item*|<localize|Equations> <key|A-&>>erzeugt einen Block für mehrere
+    <item*|<localize|Equations> <shortcut|(make-eqnarray*)>>erzeugt einen Block für mehrere
     mathematische Ausdrücke, eine dreispaltige Tabelle, <markup|eqnarray*>.
     Zur Erzeugung dient der Menübefehl <menu|Insert|Mathematics|Equations>.
     Siehe auch <hyper-link|Tabellen erzeugen|../table/man-create-table.en.tm>.
@@ -44,8 +44,8 @@
   Im Mathematik-Modus gibt es spezielle Befehle und Kurzbefehle, um
   mathematische Formeln einzugeben. Z.B. kann die Sondertaste <key|H-> zur
   Eingabe griechischer Buchstaben benutzt werden. Denken Sie bitte daran,
-  dass <key|H-> äquivalent zu <key|F5> ist und auch mit <key|<key-escape>
-  <key-escape> <key-escape>> oder <key|A-C-> eingegeben werden kann.
+  dass <key|H-> äquivalent zu <shortcut|math:greek> ist und auch mit <key|escape
+  escape escape> oder <key|A-C-> eingegeben werden kann.
 
   Der Editor favorisiert mathematische Eingabe mit einer bestimmten
   Bedeutung. Diese Funktion soll in Zukunft weiter ausgebaut werden, denn es

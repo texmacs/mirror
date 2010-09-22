@@ -30,13 +30,13 @@
     (:test-input-done #t)
   </scheme-fragment>
 
-  spezifizieren. Wenn Sie nun <key|<key-return>> in Ihrer Eingabe drücken,
+  spezifizieren. Wenn Sie nun <shortcut|(kbd-return)> in Ihrer Eingabe drücken,
   dann sendet <TeXmacs> den Befehl
 
   <\quotation>
     <\framed-fragment>
       <\verbatim>
-        <key|DATA_COMMAND>(input-done? <em|input-string>)<key|<key-return>>
+        <key|DATA_COMMAND>(input-done? <em|input-string>)<shortcut|(kbd-return)>
       </verbatim>
     </framed-fragment>
   </quotation>

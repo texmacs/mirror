@@ -10,19 +10,19 @@
   <\description>
     <item*|<key|S-return>>Tworzy nowy akapit.
 
-    <item*|<key|C-<key-backspace>>>Usuwa zawarte obiekty lub 徘odowiska.
+    <item*|<shortcut|(remove-structure-upwards)>>Usuwa zawarte obiekty lub 徘odowiska.
 
-    <item*|<key|A-<localize|space>>>Wstawia ma泊 odst如.
+    <item*|<shortcut|(make-space "0.2spc")>Wstawia ma泊 odst如.
 
-    <item*|<key|A-S-<localize|space>>>Wstawia ma泊 ujemny odst如.
+    <item*|<shortcut|(make-space "-0.2spc")>>Wstawia ma泊 ujemny odst如.
 
-    <item*|<key|M-A-<key-home>>>Ustawia pocz﹀ek zaznaczenia.
+    <item*|<key|M-A-home>>Ustawia pocz﹀ek zaznaczenia.
 
-    <item*|<key|M-A-<key-end>>>Ustawia koniec zaznaczenia.
+    <item*|<key|M-A-end>>Ustawia koniec zaznaczenia.
 
-    <item*|<key|M-\<less\>>>Przenosi na pocz﹀ek dokumentu.
+    <item*|<shortcut|(go-start)>>Przenosi na pocz﹀ek dokumentu.
 
-    <item*|<key|M-\<gtr\>>>Przenosi na koniec dokumentu.
+    <item*|<shortcut|(go-end)>>Przenosi na koniec dokumentu.
   </description>
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>

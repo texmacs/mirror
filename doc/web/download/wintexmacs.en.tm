@@ -51,7 +51,7 @@
   <section|Known problems><label|problems>
 
   <\itemize>
-    <item>The online help system (using <key|F1>) is broken.
+    <item>The online help system (using <shortcut|(interactive docgrep-in-doc)>) is broken.
 
     <item>Connections via pipes are still under development. Some interfaces
     work (<name|Pari>, <name|Yacas> and <name|Maxima>), but others don't. Any

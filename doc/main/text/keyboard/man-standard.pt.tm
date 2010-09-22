@@ -8,26 +8,26 @@
   Alguns atalhos de teclado que são válidos em todos os modos são:
 
   <\description>
-    <expand|item*|<key|S-<expand|key-return>>>sempre começa um novo
+    <expand|item*|<key|S-return>>sempre começa um novo
     parágrafo.
 
-    <expand|item*|<key|C-<expand|key-backspace>>>remove um objeto ou
+    <expand|item*|<key|C-backspace>>remove um objeto ou
     ambiente.
 
-    <expand|item*|<key|A-<apply|localize|space>>>insere um espaço pequeno.
+    <expand|item*|<shortcut|(make-space "0.2spc")>insere um espaço pequeno.
 
-    <expand|item*|<key|A-S-<apply|localize|space>>>insere um espaço pequeno
+    <expand|item*|<shortcut|(make-space -0.2spc)>>insere um espaço pequeno
     negativo.
 
-    <expand|item*|<key|A-A-<expand|key-home>>>posiciona manualmente o início
+    <expand|item*|<shortcut|(structured-insert-start)>>posiciona manualmente o início
     da seleção.
 
-    <expand|item*|<key|A-A-<expand|key-end>>>posiciona manualmente o final da
+    <expand|item*|<shortcut|(structured-insert-end)>>posiciona manualmente o final da
     seleção.
 
-    <expand|item*|<key|M-\<less\>>>vai para o início do documento.
+    <expand|item*|<shortcut|(go-start)>>vai para o início do documento.
 
-    <expand|item*|<key|M-\<gtr\>>>vai para o final do documento.
+    <expand|item*|<shortcut|(go-end)>>vai para o final do documento.
   </description>
 
   <apply|tmdoc-copyright|1998--2003|Joris van der Hoeven|Ramiro Brito

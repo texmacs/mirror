@@ -20,9 +20,9 @@
   a tecla <key|<expand|key-variant>>.
 
   Ao terminar de digitar a informação relevante do objeto dinâmico, você pode
-  digitar <key|<expand|key-return>> para <em|ativar> o objeto. Um objeto
+  digitar <key|return> para <em|ativar> o objeto. Um objeto
   dinâmico ativo pode ser desativado colocando o cursor logo após o objeto e
-  digitando <key|<expand|key-backspace>>.
+  digitando <key|backspace>.
 
   <apply|tmdoc-copyright|1998--2003|Joris van der Hoeven|Ramiro Brito
   Willmersdorf>

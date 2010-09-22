@@ -25,14 +25,14 @@
     <expand|item*|<key|H->>Combinaison avec touche hyper.
   </description>
 
-  Par exemple, <key|A-C-b> correspond à <key|alt-ctrl-b>. Les espaces dans
+  Par exemple, <shortcut|(make-with font-series bold)> correspond à <key|alt-ctrl-b>. Les espaces dans
   les raccourcis clavier indiquent des frappe-clavier successives. Par
   exemple, <expand|kbd-table|N b> correspond à <key|alt-t> <key|N> <key|b>.
 
   Les touches <key|alt>, <key|meta> et <key|hyper> ne sont pas disponibles
   sur tous les claviers. Sur les PC récents, la touche <key|meta> est souvent
   remplacée par la touche <key|windows>. Vous pouvez utiliser <key|escape> au
-  lieu de <key|M->, <key|escape escape> au lieu de <key|A-> et <key|F5>,
+  lieu de <key|M->, <key|escape escape> au lieu de <key|A-> et <shortcut|math:greek>,
   <key|escape escape escape> ou <key|A-C-> au lieu de <key|H->, si votre
   clavier ne comporte pas ces touches spéciales. Par exemple, la combinaison
   <key|escape w> est équivalente à <key|A-w>. Vous pouvez aussi

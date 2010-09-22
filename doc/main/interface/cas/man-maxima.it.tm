@@ -21,7 +21,7 @@
   noti:
 
   <\itemize>
-    <item>se si preme <key|<expand|key-return>> quando un comando è
+    <item>se si preme <key|return> quando un comando è
     incompleto (tipicamente non concluso con <verbatim|;> o <verbatim|$>),
     l'interfaccia si blocca;
 

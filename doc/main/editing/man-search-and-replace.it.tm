@@ -14,7 +14,7 @@
   ripetizione successiva. Un suono indica che nel documento non sono state
   trovate altre ripetizioni; premendo ancora <key|C-s> la ricerca continuerà
   dall'inizio del documento. Si può premere il tasto
-  <key|<expand|key-backspace>> per annullare l'azione attivata dopo aver
+  <key|backspace> per annullare l'azione attivata dopo aver
   premuto un tasto durante la ricerca.
 
   Generalmente, un testo viene cercato nel documento dalla posizione corrente

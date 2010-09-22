@@ -25,7 +25,7 @@
     <item*|<key|H->>Mit gedrückt gehaltener Hyper-Taste
   </description>
 
-  Beispielsweise steht <key|A-C-b> für <key|Mit Alt und Strg gedrückt Taste
+  Beispielsweise steht <shortcut|(make-with font-series bold)> für <key|Mit Alt und Strg gedrückt Taste
   b>. Leerzeichen in den Tastenkombinationen stehen für mehrfache
   Tastenanschläge. Beispielsweise steht <kbd-table|N b> für <key|M-t> <key|N>
   <key|b>.
@@ -36,7 +36,7 @@
   verschiedene Modifiziertasten auf Ihrer Tastatur fehlen können Sie die
   Escapetaste (Esc-Taste) \ <key|Esc> anstelle von <key|M-> verwenden.
   Entsprechend <key|Esc Esc> anstelle von <key|A-> und schlieÿlich eine von
-  den drei Kombinationen <key|F5>, <key|Esc Esc Esc> oder <key|A-C-> anstelle
+  den drei Kombinationen <shortcut|math:greek>, <key|Esc Esc Esc> oder <key|A-C-> anstelle
   von <key|H->. Beispielsweise ist \ <key|Esc w> äquivalent zu <key|A-w>. Um
   die vollen Vorteile der <TeXmacs>-Kurzbefehle nutzen zu können, können Sie
   auch die Modifiziertasten umkonfigurieren. Wie das geht, ist

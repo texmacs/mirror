@@ -27,7 +27,7 @@
   environments with a similar rendering as theorems are <markup|proposition>,
   <markup|lemma>, <markup|corollary>, <markup|axiom>, <markup|definition>.
   You may use the <markup|dueto> macro (entered using <key|\\ d u e t o
-  <key-return>>) in order to specify the person(s) to which the
+  return>) in order to specify the person(s) to which the
   theorem is due, like in
 
   <\theorem>

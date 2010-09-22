@@ -9,12 +9,12 @@
   tecla modificadora hiper <key|H-> com uma letra. Por exemplo, <key|H-a>
   gera <with|mode|math|\<alpha\>> e <key|H-G> produz
   <with|mode|math|\<Gamma\>>. <apply|hyper-link|Lembre-se|../../start/man-conventions.pt.tm>
-  que a tecla <key|F5> é equivalente a <key|H->, de forma que
+  que a tecla <shortcut|math:greek> é equivalente a <key|H->, de forma que
   <with|mode|math|\<rho\>> pode ser obtido também com <key|F5 r>. De forma
-  análoga, <key|F6>, <key|F7>, <key|F8> e <key|S-F6> podem ser usados para
+  análoga, <shortcut|math:bold>, <shortcut|math:cal>, <shortcut|math:frak> e <shortcut|math:bbb> podem ser usados para
   inserir caracteres em negrito, caligráficos, fraktur e blackboard bold. Por
-  exemplo, <key|F8 m> produz <with|mode|math|\<frak-m\>>, <key|S-F6 R> produz
-  <format|no line break><with|mode|math|\<bbb-R\>> e <key|F6 F7 Z> produz
+  exemplo, <shortcut|\<frak-m\>> produz <with|mode|math|\<frak-m\>>, <key|S-F6 R> produz
+  <format|no line break><with|mode|math|\<bbb-R\>> e <shortcut|\<b-calZ\>> produz
   <with|mode|math|\<b-cal-Z\>>.
 
   Letras gregas também podem ser obtidas como \ ``variações'' das letras
@@ -68,7 +68,7 @@
   </description>
 
   Vários outros símbolos que não podem ser inseridos naturalmente como
-  descrito acima, podem ser obtidos usando o prefixo <key|S-F5>. A tabela
+  descrito acima, podem ser obtidos usando o prefixo <shortcut|symbol>. A tabela
   abaixo mostra alguns destes símbolos:
 
   <expand|big-table|<expand|descriptive-table|<tformat|<cwith|1|-1|2|2|cell

@@ -20,7 +20,7 @@
   Problemas conhecidos:
 
   <\itemize>
-    <item>Se você pressionar <key|<expand|key-return>> quando um comando não
+    <item>Se você pressionar <key|return> quando um comando não
     completou, (tipicamente, terminado por <verbatim|;> ou <verbatim|$>), a
     interface vai travar.
 

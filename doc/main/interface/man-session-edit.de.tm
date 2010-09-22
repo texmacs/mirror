@@ -18,18 +18,18 @@
   zugehörige Ein- bzw. Ausgabe-Felder. Mit dem Befehl <menu|Session|Insert
   fields|Insert text field> kann zu einem Eingabefeld ein erklärendes
   Textfeld eingefügt werden. Kurzbefehle zum Einfügen von Eingabefeldern sind
-  <key|A-<key-up>>, ( <key|A-<with|mode|math|\<uparrow\>>>,
-  <menu|Session|Insert fields|Insert field above>) und <key|A-<key-down>>, (
+  <shortcut|(structured-insert-up)>, ( <key|A-<with|mode|math|\<uparrow\>>>,
+  <menu|Session|Insert fields|Insert field above>) und <shortcut|(structured-insert-down)>, (
   <key|A-<with|mode|math|\<downarrow\>>>, <menu|Session|Insert fields|Insert
-  field below>). Mit dem Kurzbefehl <key|A-<key-delete>>, ( <key|Entf>,
+  field below>). Mit dem Kurzbefehl <shortcut|(structured-remove #t)>, ( <key|Entf>,
   <menu|Session|Remove fields|Remove inputfield> ) \ wird das aktuelle
-  Eingabefeld entfernt. <key|A-<key-backspace>>, (
+  Eingabefeld entfernt. <shortcut|(structured-remove #f)>, (
   <key|A-<with|mode|math|<with|mode|math|\<longleftarrow\>>>>,
   \ <menu|Session|Remove fields|Remove inputfield above> ) entfernt das
   vorgehende Eingabefeld. Mit <menu|Session|Remove fields|Remove all
   outputfields> werden alle Ausgabefelder entfernt.
 
-  Mit <menu|Session|Insert fields|Fold input field> oder <key|A-<key-right>>
+  Mit <menu|Session|Insert fields|Fold input field> oder <shortcut|(structured-insert #t)>
   ( <key|<with|mode|math|\<rightarrow\>>> ) können Sie eine \RUnter-Sitzung''
   starten. Die aktuellen Eingabe-, Ausgabe- und Text-Felder werden zum Rumpf
   einer neuen nicht verborgenen \ \RUnter-Sitzung'' . Diese bestehen aus

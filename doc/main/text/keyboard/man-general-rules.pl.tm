@@ -18,7 +18,7 @@
 
     <item*|<key|A-<with|mode|math|x>>>Klawisz Alternate jest u»ywany przy
     poleceniach które zale»¡ od trybu w jakim si¦ znajdujesz. Na przykªad
-    <key|A-s> daje <strong|mocny> tekst w trybie tekstowym i pierwiastek
+    <shortcut|(make-sqrt)> daje <strong|mocny> tekst w trybie tekstowym i pierwiastek
     kwadratowy <no-break><with|mode|math|<sqrt|>> w trybie matematycznym.
     <key|escape escape> jest równowa»ne <key|A->.
 
@@ -31,7 +31,7 @@
     <item*|<key|H-<with|mode|math|x>>>Zdefiniowany przez u»ytkownika klawisz
     modyfikuj¡cy jest u»ywany do tworzenia symboli specjalnych jak litery
     greckie w trybie matematycznym. Mo»na skonfigurowa¢ klawiatur¦ tak aby
-    caps-lock peªniª funkcj¦ klawisza hyper. <key|F5> jest równowa»ne
+    caps-lock peªniª funkcj¦ klawisza hyper. <shortcut|math:greek> jest równowa»ne
     <key|H->.
   </description>
 

@@ -15,9 +15,9 @@
     \ \ \ \ \<less\>return\<gtr\>: action to be undertaken
   </verbatim>
 
-  When you hit the <key|<key-return>>-key at this stage, your command will be
+  When you hit the <shortcut|(kbd-return)>-key at this stage, your command will be
   executed. For instance, in math-mode, you may create a fraction by typing
-  <key|\\ f r a c <key-return>>.
+  <key|\\ f r a c return>.
 
   If the command you have typed is not a (recognized) <LaTeX> command, then
   we first look whether the command is an existing <TeXmacs> macro, function

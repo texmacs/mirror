@@ -23,7 +23,7 @@
     all'indietro usando <key|shift-tab>.
 
     <item>Le lettere dell'alfabeto greco vengono scritte utilizzando
-    <key|A-C->, <key|F5>, o il tasto modificatore iper configurabile in
+    <key|A-C->, <shortcut|math:greek>, o il tasto modificatore iper configurabile in
     <samp|Edit><with|mode|math|\<rightarrow\>><samp|Preferences>. Le lettere
     dell'alfabeto greco possono essere ottenute come mutazioni delle lettere
     dell'alfabeto latino. Ad esempio digitando <key|p tab> si ottiene

@@ -30,10 +30,10 @@
   nidificazione. Al livello più esterno, si utilizza il tag
   <with|mode|math|\<bullet\>>, al secondo livello
   <with|mode|math|<op|\<circ\>>>, e così via. Si noti che, quando il cursore
-  è all'interno di una lista, premendo il tasto <key|<expand|key-return>>
+  è all'interno di una lista, premendo il tasto <key|return>
   viene creato automaticamente un nuovo elemento. Se la lunghezza di un
   elemento supera la lunghezza della riga, allora si può utilizzare
-  <key|S-<expand|key-return>> per iniziare un nuovo paragrafo senza passare
+  <key|S-return> per iniziare un nuovo paragrafo senza passare
   ad un altro elemento della lista.
 
   Le liste numerate, che sono create utilizzando <apply|menu|Text|Enumerate>,

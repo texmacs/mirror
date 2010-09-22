@@ -29,13 +29,13 @@
     (:test-input-done #t)
   </scheme-fragment>
 
-  As soon as you will press <key|<key-return>> in your input, <TeXmacs> will
+  As soon as you will press <shortcut|(kbd-return)> in your input, <TeXmacs> will
   then send the command
 
   <\quotation>
     <\framed-fragment>
       <\verbatim>
-        <key|DATA_COMMAND>(input-done? <em|input-string>)<key|<key-return>>
+        <key|DATA_COMMAND>(input-done? <em|input-string>)<shortcut|(kbd-return)>
       </verbatim>
     </framed-fragment>
   </quotation>

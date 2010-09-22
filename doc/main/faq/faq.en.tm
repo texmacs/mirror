@@ -424,14 +424,14 @@
 
   <answer|This is because <TeXmacs> thinks, that the sentence ends after the
   dot in the abbreviation. To resolve this <em|a posteriori>, mark the
-  abbreviation and press <key|A-a>. To care for this while writing: <key|A-a>
+  abbreviation and press <shortcut|(make 'abbr)>. To care for this while writing: <shortcut|(make 'abbr)>
   <key|etc.> <key|[right]>.>
 
   <\question>
     <label|typo-2>How to add unbreakable space?
   </question>
 
-  <answer|Type <key|M-/> after the space.>
+  <answer|Type <shortcut|(make 'no-break)> after the space.>
 
   <section*|Remaining legacy questions>
 

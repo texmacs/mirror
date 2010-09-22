@@ -11,8 +11,8 @@
   modalità matematica, si hanno a disposizione dei comandi specifici e delle
   combinazioni di tasti per scrivere simboli matematici e formule. Per
   esempio, il prefisso <key|H-> può essere utilizzato per scrivere le lettere
-  greche (si ricordi che <key|H-> è equivalente a \ <key|F5>,
-  <key|<expand|key-escape> <expand|key-escape> <expand|key-escape>> o
+  greche (si ricordi che <key|H-> è equivalente a \ <shortcut|math:greek>,
+  <key|escape escape escape> o
   <key|A-C->).
 
   L'editor agevola la scrittura di formule matematiche seguendo certe regole.

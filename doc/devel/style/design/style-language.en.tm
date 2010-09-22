@@ -19,7 +19,7 @@
   source mode and the <key|M-i > and <key|M-e > prefixes otherwise.
   Furthermore, we recall that the hybrid <key|\\>-key may be used for
   creating macro-applications or arguments, depending on the context.
-  Finally, the <key|A-<key-right>> and <key|A-<key-left>> keys are used for
+  Finally, the <shortcut|(structured-insert #t)> and <shortcut|(structured-insert #f)> keys are used for
   inserting arguments.
 
   <\traverse>

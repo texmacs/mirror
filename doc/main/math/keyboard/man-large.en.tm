@@ -34,8 +34,8 @@
   Sometimes you may want large delimiters of a particular size, instead of
   self-adjusting ones. This can be achieved by specifying a value for the
   optional second argument of the <markup|left>, <markup|mid> and
-  <markup|right> tags. For instance, typing <key|left A-<key-right> (
-  A-<key-right> <em|size> <key-return>> allows you to type a left bracket of
+  <markup|right> tags. For instance, typing <key|left A-right (
+  A-right <em|size> return> allows you to type a left bracket of
   a given <verbatim|<em|size>>. Brackets for sizes 1, 2, 3, 4 and
   <verbatim|5mm> are displayed below:
 

@@ -8,7 +8,7 @@
   It is possible to gradually undo the changes you made in a document from
   the moment that you launched <apply|TeXmacs>. This can be done via
   <submenu|Edit|undo> or using the keystrokes <expand|kbd-gen|[> or
-  <key|C-/>. Undone changes can be ``redone'' using <submenu|Edit|redo> or
+  <shortcut|(undo 0)>. Undone changes can be ``redone'' using <submenu|Edit|redo> or
   <expand|kbd-gen|]>.
 
   In order to save memory, the number of successive actions which can be

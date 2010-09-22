@@ -24,9 +24,9 @@
 
   Wenn alle relevanten Informationen in das inaktive dynamische Objekt
   eingegeben sind, dann können sie es mit Wagenrücklauf-Taste
-  <key|<key-return>> <em|aktivieren>. Ein aktives dynamisches Objekt kann
+  <shortcut|(kbd-return)> <em|aktivieren>. Ein aktives dynamisches Objekt kann
   deaktiviert werden, indem man den Cursor unmittelbar dahinter positioniert
-  und dann die Rücktaste <key|<key-backspace>>betätigt.
+  und dann die Rücktaste <key|backspace>betätigt.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
 

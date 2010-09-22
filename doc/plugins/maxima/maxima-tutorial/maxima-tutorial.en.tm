@@ -47,8 +47,8 @@
   can be used for input expressions to a large extent. Don't forget to use
   <key|*> for multiplication; it is not visible, just produces a little
   space. Powers are produced using the toolbar or <key|^>; fractions -- by
-  the toolbar or <key|A-f>; square roots -- by the toolbar or <key|A-s>;
-  large (automatically resizable) brackets -- by <key|A-(> (note that with
+  the toolbar or <shortcut|(make-fraction)>; square roots -- by the toolbar or <shortcut|(make-sqrt)>;
+  large (automatically resizable) brackets -- by <shortcut|(make-bracket-open "(" ")" #t)> (note that with
   our settings this produces both the opening bracket and the closing one,
   and the cursor is left between them). You can use greek letters. For
   example, <with|mode|math|\<alpha\>> can be produced via the toolbar, by
@@ -115,8 +115,8 @@
   <postscript|c13.png|*5/8|*5/8||||>
 
   Maxima understands matrices and determinants. They are produced via the
-  toolbar. New columns and rows are inserted by <key|A-right>, <key|A-left>,
-  <key|A-down>, <key|A-up>. The imaginary unit <with|mode|math|\<mathi\>> is
+  toolbar. New columns and rows are inserted by <shortcut|(structured-insert #t)>, <shortcut|(structured-insert #f)>,
+  <shortcut|(structured-insert-down)>, <shortcut|(structured-insert-up)>. The imaginary unit <with|mode|math|\<mathi\>> is
   produced via the toolbar or by <key|i tab tab>.
 
   <postscript|c14.png|*5/8|*5/8||||>

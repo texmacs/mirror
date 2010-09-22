@@ -58,11 +58,11 @@
 
   When starting a new table, its size is minimal (usually
   <with|mode|math|1\<times\>1>) and its cells are empty. New rows and columns
-  are inserted using the <key|A-<key-left>>, <key|A-<key-right>>,
-  <key|A-<key-up>> and <key|A-<key-down>> shorthands. For instance,
-  <key|A-<key-right>> creates a new column at the right of the current cursor
+  are inserted using the <shortcut|(structured-insert #f)>, <shortcut|(structured-insert #t)>,
+  <shortcut|(structured-insert-up)> and <shortcut|(structured-insert-down)> shorthands. For instance,
+  <shortcut|(structured-insert #t)> creates a new column at the right of the current cursor
   position, as illustrated in the figure below. You may also start a new row
-  below the current cursor position by hitting <key|<key-return>>.
+  below the current cursor position by hitting <shortcut|(kbd-return)>.
 
   <\big-figure>
     <\equation*>
@@ -71,7 +71,7 @@
   <|big-figure>
     Example of the insertion of a new column in a matrix. Assuming that the
     cursor is at the position indicated in the left-hand matrix, insertion of
-    a new column using <key|A-<key-right>> results in the right-hand matrix.
+    a new column using <shortcut|(structured-insert #t)> results in the right-hand matrix.
   </big-figure>
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>

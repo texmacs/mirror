@@ -38,12 +38,12 @@
 
   Em uma tabela recém criada, seu tamanho é o mínimo (em geral
   <with|mode|math|1\<times\>1>) e suas células são vazias. Novas linhas e
-  colunas podem ser inseridas com as combinações <key|A-<expand|key-left>>,
-  <key|A-<expand|key-right>>, <key|A-<expand|key-up>> e
-  <key|A-<expand|key-down>>. Por exemplo, <key|A-<expand|key-right>> \ cria
+  colunas podem ser inseridas com as combinações <shortcut|(structured-insert #f)>,
+  <shortcut|(structured-insert #t)>, <shortcut|(structured-insert-up)> e
+  <shortcut|(structured-insert-down)>. Por exemplo, <shortcut|(structured-insert #t)> \ cria
   uma nova coluna à direita da posição corrente do cursor. Você também pode
   começar uma nova linha após a posição corrente do cursor digitando
-  <key|<expand|key-return>>.
+  <key|return>.
 
   <apply|tmdoc-copyright|1998--2002|Joris van der Hoeven|Ramiro Brito
   Willmersdorf>

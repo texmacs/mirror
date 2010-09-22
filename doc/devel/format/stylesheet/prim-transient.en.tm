@@ -28,7 +28,7 @@
     The <markup|active> and <markup|inactive> tags only activate or
     desactivate the root tag of the <src-arg|content>. Typically, a tag which
     contains hidden information (like <markup|hlink>) can be disactivated by
-    positioning the cursor just behind it and pressing <key|<key-backspace>>.
+    positioning the cursor just behind it and pressing <key|backspace>.
     This action just disactivates the hyperlink, but not the potentially
     complicated body of the hyperlink. Therefore, the hyperlink is
     transformed into an inactive tag of the form
@@ -148,7 +148,7 @@
   <|explain>
     These tags are used only temporarily when entering special content.
 
-    When pressing <key|C-q>, a <markup|symbol> tag is created. After entering
+    When pressing <shortcut|(make 'symbol)>, a <markup|symbol> tag is created. After entering
     the name of the symbol, or the ASCII-code of the symbol and pressing
     return, the <markup|symbol> tag is replaced by the corresponding symbol
     (usually a string enclosed in <verbatim|\<less\>\<gtr\>>).

@@ -13,18 +13,18 @@
 
     <expand|item*|<key|C-backspace>>remueve un objeto o entorno.
 
-    <expand|item*|<key|A-space>>inserta un espacio pequeño.
+    <expand|item*|<shortcut|(make-space "0.2spc")>>inserta un espacio pequeño.
 
-    <expand|item*|<key|A-S-space>>insertar un pequeño espacio negativo.
+    <expand|item*|<shortcut|(make-space "-0.2spc")>>insertar un pequeño espacio negativo.
 
-    <expand|item*|<key|A-A-home>>fija manualmente el comienzo de una
+    <expand|item*|<shortcut|(structured-insert-start)>>fija manualmente el comienzo de una
     selección.
 
-    <expand|item*|<key|A-A-end>>fija manualmente el fin de una selección
+    <expand|item*|<shortcut|(structured-insert-end)>>fija manualmente el fin de una selección
 
-    <expand|item*|<key|M-\<less\>>>ir al principio del documento.
+    <expand|item*|<shortcut|(go-start)>>ir al principio del documento.
 
-    <expand|item*|<key|M-\<gtr\>>>ir al final del documento.
+    <expand|item*|<shortcut|(go-end)>>ir al final del documento.
   </description>
 
   <apply|tmdoc-copyright|1998--2002|Joris van der Hoeven|Álvaro Cantero

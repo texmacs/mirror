@@ -12,7 +12,7 @@
   wci±ni¦ciu <key|C-s> podczas wyszukiwania, znalezione zostanie nast¦pne
   wyst¡pienie. Bipni¦cie oznacza i» nie znaleziono wi¦cej wyst¡pie«; teraz
   <key|C-s> spowoduje przeszukanie od pocz¡tku dokumentu. Klawisz
-  <key|<key-backspace>> cofa ostatnio wprowadzony znak wzorca.
+  <key|backspace> cofa ostatnio wprowadzony znak wzorca.
 
   <key|C-s> powoduje przeszukanie dokumentu w przód, od pozycji kursora. Aby
   szuka¢ wstecz nale»y u»y¢ <key|C-r>. Przy szukaniu, tylko tekst z tego

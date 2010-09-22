@@ -30,7 +30,7 @@
   </tm-fragment>
 
   A piece of code can be activated by selecting it and using
-  <menu|Source|Activation|Activate> or <key|M-+>. Similarly, a piece of
+  <menu|Source|Activation|Activate> or <shortcut|(make-mod-active 'active*)>. Similarly, a piece of
   content may be deactivated using <key|<group|M->-> (we used this in the
   second example above for the rendering of the arguments <src-arg|var> and
   <src-arg|dim>). Activation and deactivation either apply to the whole tree,

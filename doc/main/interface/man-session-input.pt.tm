@@ -6,14 +6,14 @@
   <expand|tmdoc-title|Escolhendo o método de entrada>
 
   O comportamento padrão do <TeXmacs> é tentar executar o campo de entrada
-  quando a tecla <key|<expand|key-return>> é pressionada. Uma entrada com
-  várias linhas pode ser criada usando-se <key|S-<expand|key-return>>. Ou, de
+  quando a tecla <key|return> é pressionada. Uma entrada com
+  várias linhas pode ser criada usando-se <key|S-return>. Ou, de
   forma alternativa, você pode escolher <apply|menu|Session|Input
-  mode|Multiline input>, e a tecla <key|<expand|key-return>> comporta-se da
-  maneira normal e a tecla <key|S-<expand|key-return>> é usada para executar
+  mode|Multiline input>, e a tecla <key|return> comporta-se da
+  maneira normal e a tecla <key|S-return> é usada para executar
   o campo de entrada. Observe também que alguns sistemas tem heurísticas
   internas para determinar quando a entrada está completa; caso não esteja,
-  então a tecla <key|<expand|key-return>> comporta-se da maneira usual.
+  então a tecla <key|return> comporta-se da maneira usual.
 
   Alguns aplicativos permitem que você entre com fórmulas matemáticas de
   maneira gráfica, em duas dimensões. Esta característica pode ser usada

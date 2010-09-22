@@ -15,9 +15,9 @@
     \ \ \ \ \<less\>return\<gtr\>: action to be undertaken
   </verbatim>
 
-  Quando você digitar <key|<expand|key-return>>, seu comando será executado.
+  Quando você digitar <key|return>, seu comando será executado.
   Por exemplo, no modo matemático você pode criar uma fração digitando
-  \ <key|\\ f r a c <expand|key-return>>.
+  \ <key|\\ f r a c return>.
 
   Se o comando que você digitou não é um comando (reconhecido) do
   <apply|LaTeX>, então primeiramente verificamos se o comando é um macro,

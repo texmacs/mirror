@@ -16,7 +16,7 @@
   conditions.
 
   The most important primitive <markup|if>, which can be entered using
-  <key|A-?>, allows for basic conditional typesetting:
+  <shortcut|(make 'if)>, allows for basic conditional typesetting:
 
   <\tm-fragment>
     <inactive*|<assign|appendix|<\macro|title|body>

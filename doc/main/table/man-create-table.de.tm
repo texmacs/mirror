@@ -54,11 +54,11 @@
 
   Wenn man eine neue Tabelle erzeugt hat, hat dies die Minimal-Gröÿe und
   enthält normalerweise nur eine einzige Zelle, die leer ist. Neue Zeilen und
-  Spalten können mit den Kurzbefehlen <key|A-<key-left>>,
-  <key|A-<key-right>>, <key|A-<key-up>> und <key|A-<key-down>> erzeugt
-  werden. Beispielsweise erzeugt <key|A-<key-right>> eine neue Spalte rechts
+  Spalten können mit den Kurzbefehlen <shortcut|(structured-insert #f)>,
+  <shortcut|(structured-insert #t)>, <shortcut|(structured-insert-up)> und <shortcut|(structured-insert-down)> erzeugt
+  werden. Beispielsweise erzeugt <shortcut|(structured-insert #t)> eine neue Spalte rechts
   von der Cursorposition. Neue Zeilen unterhalb kann man auch mit
-  <key|<key-return>> erzeugen. Man verlässt die Tabellen mit den Pfeiltasten
+  <shortcut|(kbd-return)> erzeugen. Man verlässt die Tabellen mit den Pfeiltasten
   oder der Maus.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>

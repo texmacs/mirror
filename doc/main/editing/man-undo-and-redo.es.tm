@@ -7,7 +7,7 @@
 
   Es posible deshacer gradualmente todos los cambios que haya hecho en el
   documento hasta llegar al momento de lanzar <TeXmacs>, usando
-  <apply|menu|Edit|Undo> o las combinaciones <expand|kbd-gen|[> o <key|C-/>.
+  <apply|menu|Edit|Undo> o las combinaciones <expand|kbd-gen|[> o <shortcut|(undo 0)>.
   Los cambios deshechos pueden ser ``rehechos`` mediante
   \ <apply|menu|Edit|Redo> o <expand|kbd-gen|]>.
 

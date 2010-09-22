@@ -16,9 +16,9 @@
     \ \ \ \ \<less\>return\<gtr\>: comando da eseguire
   </verbatim>
 
-  Quando si batte il tasto <key|<expand|key-return>> il comando verrà
+  Quando si batte il tasto <key|return> il comando verrà
   eseguito. Per esempio, in modalità matematica, si può creare una frazione
-  digitando <key|\\ f r a c <expand|key-return>>.
+  digitando <key|\\ f r a c return>.
 
   Se il comando richiesto non è (riconosciuto come) un comando <apply|LaTeX>,
   il programma controllerà innanzitutto se il comando esiste come macro,

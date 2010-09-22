@@ -30,9 +30,9 @@
   aninhamento. No nível mais externo, a marca é <with|mode|math|\<bullet\>>,
   no segundo nível é <with|mode|math|<op|\<circ\>>>, e assim por diante.
   Quando você está dentro de uma lista, note que pressionar
-  \ <key|<expand|key-return>> automaticamente começa um novo ítem. Se você
+  \ <key|return> automaticamente começa um novo ítem. Se você
   necessita de ítens formados por vários parágrafos, então você pode usar
-  <key|S-<expand|key-return>> para iniciar um novo parágrafo.
+  <key|S-return> para iniciar um novo parágrafo.
 
   Ambientes de enumeração, que são criados usando
   <apply|menu|Text|Enumerate>, comportam-se como aqueles criados acima,

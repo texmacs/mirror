@@ -26,19 +26,19 @@
   specify as many other buffers as you like.
 
   There are two ways to make selections using the keyboard. When using the
-  cursor keys <key|<key-left>>, <key|<key-right>>, <abbr|etc.> while holding
-  down the <key|<key-shift>> button, you may select text while moving around
-  the cursor. Alternatively, you may press <key|C-<key-space>> once to fix a
+  cursor keys <key|left>, <key|right>, <abbr|etc.> while holding
+  down the <key|S-> button, you may select text while moving around
+  the cursor. Alternatively, you may press <shortcut|(kbd-select-enlarge)> once to fix a
   starting position. When moving around using the cursor keys, the text
   between the starting position and the current position keeps being
-  selected. The selection gets cleared when pressing <key|C-g>.
+  selected. The selection gets cleared when pressing <shortcut|(selection-cancel)>.
 
-  Notice that the <key|C-<key-space>> shortcut also allows you to make
+  Notice that the <shortcut|(kbd-select-enlarge)> shortcut also allows you to make
   <em|structured selections>. You may select the current word you are in by
-  pressing<nbsp><key|C-<key-space>> twice. Each additional time you press
-  <key|C-<key-space>> results in the selection of the smallest structure
+  pressing<nbsp><shortcut|(kbd-select-enlarge)> twice. Each additional time you press
+  <shortcut|(kbd-select-enlarge)> results in the selection of the smallest structure
   which englobes the current selection. Ultimately, when the entire document
-  gets selected, pressing <key|C-<key-space>> once more clears the selection.
+  gets selected, pressing <shortcut|(kbd-select-enlarge)> once more clears the selection.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
 

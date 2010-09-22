@@ -20,7 +20,7 @@
   werden. Bekannte Probleme:
 
   <\itemize>
-    <item>Wenn man <key|<key-return>> drückt und der Befehl ist nicht
+    <item>Wenn man <shortcut|(kbd-return)> drückt und der Befehl ist nicht
     komplett (weil z.B. ; oder <verbatim|$> fehlt), dann hängt sich die
     Schnittstelle auf.\ 
 

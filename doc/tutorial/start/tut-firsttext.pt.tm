@@ -15,7 +15,7 @@
 
   Quando você terminar de digitar, recomendamos que você salve imediatamente
   o documento, usado a entrada <with|font series|bold|save buffer> no ícone
-  de menu <apply|icon|tm_save.png>, ou pressionando a tecla <key|F3>. Uma
+  de menu <apply|icon|tm_save.png>, ou pressionando a tecla <shortcut|(save-buffer)>. Uma
   mensagem no rodapé deve confirmar o sucesso desta operação:
 
   <expand|big-figure|<apply|screenshot|simple-2.en.png>|Acabamos de salvar o
@@ -35,7 +35,7 @@
   Quando você termina a digitação, normalmente você deseja imprimir seu
   documento. Isto pode ser feito escolhendo <apply|menu|Print all> no ícone
   de menu <apply|icon|tm_print.png>, \ ou então pressionando a tecla
-  <key|F4>. Antes de imprimir o documento, provavelmente você deve ajustar as
+  <shortcut|(print-buffer)>. Antes de imprimir o documento, provavelmente você deve ajustar as
   propriedades da sua impressora usando <apply|menu|File|Page setup>. Você
   pode especificar qual o comando de impressão (como <with|font
   family|tt|lpr>), o tamanho do papel da sua impressora (como <with|font
@@ -44,7 +44,7 @@
 
   Para recuperar seu documento depois de fechar o <TeXmacs>, você deve
   primeiro clicar em <apply|menu|Load buffer> no ícone de menu
-  <apply|icon|tm_load.png> ou pressionar a tecla <key|F2>. Em seguida, você
+  <apply|icon|tm_load.png> ou pressionar a tecla <shortcut|(open-buffer)>. Em seguida, você
   deve escolher seu arquivo usando o navegador de arquivos. Em nosso exemplo,
   o arquivo <with|font family|tt|test.tm> aparece no navegador e podemos
   carregá-lo clicando duas vezes em rápida sucessão sobre o seu nome no

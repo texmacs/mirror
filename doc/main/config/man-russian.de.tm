@@ -40,8 +40,8 @@
 
   Das bedeutet, dass der Tastatur-Modus mit <key|<localize|l-shift>
   <localize|r-shift>> umgeschaltet wird. Andere häufig benutzte Alternativen
-  sind <key|<key-control> <key-shift>> oder <key|<key-control>
-  <key-alternate>>. Sehen sie in <with|font-family|tt|/usr/X11R6/lib/X11/xkb/>
+  sind <key|C- S-> oder <key|C-
+  A->. Sehen sie in <with|font-family|tt|/usr/X11R6/lib/X11/xkb/>
   für weitere Einzelheiten. Wenn Sie häufiger russische Texte schreiben
   wollen, dann ist das die bevorzugte Methode auf modernen Linux-Systemen.\ 
 
@@ -133,7 +133,7 @@
   Diejenigen, die keine russische Tastatur besitzen, bevorzugen oft das
   \Ryawerty``-Layout, bei dem die Tasten \Rqwerty'' die Ausgabe
   \R<with|language|russian|font|cyrillic|ÿâåðòû>`` und zusätzliche
-  kyrillische Schriftzeichen mit der Umschalt-Taste, <key|<key-shift>>,
+  kyrillische Schriftzeichen mit der Umschalt-Taste, <key|S->,
   erzeugt werden können. <TeXmacs> hat ein etwas modifizierte
   \Ryawerty\R-Layout, denn es ändert nicht die Tasten <key|$>, <key|¿>,
   <key|<with|mode|math|\<backslash\>>>, da diese für <TeXmacs> wichtig sind

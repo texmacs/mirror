@@ -6,33 +6,33 @@
   <expand|tmdoc-title|Configuration of the modifier keys>
 
   <apply|TeXmacs> uses five major keyboard modifiers:
-  <key|<expand|key-shift>>, <key|<expand|key-control>>,
-  <key|<expand|key-alternate>>, <key|<expand|key-meta>> and
-  <key|<expand|key-hyper>>, which are abbreviated as <key|S->, <key|C->,
-  <key|A->, <key|M-> and <key|H->. The <key|<expand|key-shift>> and
-  <key|<expand|key-control>> keys are present on virtually all keyboards and
-  the <key|<expand|key-alternate>> key on almost all. Most keyboards for PC's
+  <key|S->, <key|C->,
+  <key|A->, <key|M-> and
+  <key|H->, which are abbreviated as <key|S->, <key|C->,
+  <key|A->, <key|M-> and <key|H->. The <key|S-> and
+  <key|C-> keys are present on virtually all keyboards and
+  the <key|A-> key on almost all. Most keyboards for PC's
   nowadays also have a <key|<key-windows>> key, which is usually
-  equivalent to <key|<expand|key-meta>> for <TeXmacs>.
+  equivalent to <key|M-> for <TeXmacs>.
 
   Before reconfiguring your keyboard, you should first check that this is
   indeed necessary. If you have keys which correspond to
-  <key|<expand|key-shift>>, <key|<expand|key-control>>,
-  <key|<expand|key-alternate>> and <key|<expand|key-meta>> in a suitable way,
+  <key|S->, <key|C->,
+  <key|A-> and <key|M-> in a suitable way,
   then you probably do not want to do anything. A possible exception is when
   you want to use a simple key like <key|<key-caps-lock>> for
   typing mathematical symbols. In that case, you should map
-  <key|<key-caps-lock>> to <key|<expand|key-hyper>>.
+  <key|<key-caps-lock>> to <key|H->.
 
   In order to reconfigure the keyboard, you simply select the logicial
   modifier that you want to correspond to a given physical key in
   <apply|menu|Edit|Preferences|Keyboard>. For instance, selecting
   <apply|menu|Windows key|Map to M modifier>, the
   <key|<key-windows>> key will correspond to the
-  <key|<expand|key-meta>> modifier. Similarly, when selecting
+  <key|M-> modifier. Similarly, when selecting
   <apply|menu|Caps-lock key|Map to H modifier>, the
   <key|<key-caps-lock>> key will correspond to the
-  <key|<expand|key-hyper>> modifier.
+  <key|H-> modifier.
 
   Unfortunately, X Window only allows system-wide reconfiguration.
   Consequently, if you reconfigure the <key|<key-caps-lock>> key
@@ -47,18 +47,18 @@
   information.
 
   In certain cases, you already have keys on your keyboard which correspond
-  to <key|<expand|key-alternate>>, <key|<expand|key-meta>> and
-  <key|<expand|key-hyper>>, but not in the way you want. This can be done by
+  to <key|A->, <key|M-> and
+  <key|H->, but not in the way you want. This can be done by
   remapping the <key|A->, <key|M-> and <key|H-> prefixes to other logical
   modifiers in the first group of submenus of
   <apply|menu|Edit|Preferences|Keyboard>.
 
   For instance, for Emacs compatability, you might want to permute the
-  <key|<expand|key-meta>> or <key|<key-windows>> key with
-  <key|<expand|key-alternate>> without making any system-wide changes. This
+  <key|M-> or <key|<key-windows>> key with
+  <key|A-> without making any system-wide changes. This
   can be done by finding out which modifiers correspond to these keys;
-  usually this will be <key|Mod1> for <key|<expand|key-alternate>> and
-  <key|Mod4> for <key|<expand|key-meta>> or <key|<key-windows>>.
+  usually this will be <key|Mod1> for <key|A-> and
+  <key|Mod4> for <key|M-> or <key|<key-windows>>.
   We next perform the necessary permutation in
   <apply|menu|Edit|Preferences|Keyboard>, by selecting <apply|menu|A
   modifier|Equivalent for Mod4> and <apply|menu|M modifier|Equivalent for

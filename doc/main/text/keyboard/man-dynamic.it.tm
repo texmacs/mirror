@@ -20,10 +20,10 @@
   può essere inserito usando il tasto <key|<expand|key-variant>>.
 
   Quando si termina di scrivere le informazioni rilevanti per il proprio
-  oggetto dinamico, si può battere il tasto <key|<expand|key-return>> per
+  oggetto dinamico, si può battere il tasto <key|return> per
   <em|attivare> l'oggetto. Un oggetto dinamico attivo può essere disattivato
   ponendo il cursore appena dietro l'oggetto e premendo il tasto
-  <key|<expand|key-backspace>>.
+  <key|backspace>.
 
   <apply|tmdoc-copyright|1998--2003|Joris van der Hoeven|Lucia
   Gecchelin|Andrea Centomo>

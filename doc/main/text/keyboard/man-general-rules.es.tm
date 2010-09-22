@@ -36,7 +36,7 @@
     <expand|item*|<key|H-<with|mode|math|x>>>El modificador de teclado de
     usuario es usado para producer símbolos especiales como los catacteres
     griegos en el modo matemático. Puede configurar su teclado para dejar que
-    la tecla de mayúsculas juegue el rol de la tecla hiper. El <key|F5> is
+    la tecla de mayúsculas juegue el rol de la tecla hiper. El <shortcut|math:greek> is
     equivalent to <key|M->.
   </description>
 

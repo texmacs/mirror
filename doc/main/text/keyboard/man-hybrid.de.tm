@@ -15,8 +15,8 @@
     \ \ \ \ return: <em|Befehl>
   </verbatim>
 
-  Wenn Sie <key|<key-return>> eingeben, wird Ihr Befehl ausgeführt.
-  Beispielsweise können Sie mit <key|\\ f r a c <key-return>> einen Bruch
+  Wenn Sie <shortcut|(kbd-return)> eingeben, wird Ihr Befehl ausgeführt.
+  Beispielsweise können Sie mit <key|\\ f r a c return> einen Bruch
   erzeugen und werden anschlieÿend zur Eingabe von Zähler und Nenner über die
   Fuÿzeile aufgefordert.
 

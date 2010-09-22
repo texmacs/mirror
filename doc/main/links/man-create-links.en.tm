@@ -8,9 +8,9 @@
   You may create a new inactive label using <kbd-gen|!> or
   <menu|Insert|Link|Label> and a reference to this label using <kbd-gen|?> or
   <menu|Insert|Link|Reference>. After typing the name of the label or
-  reference, remember to hit <key|<key-return>> in order to
+  reference, remember to hit <shortcut|(kbd-return)> in order to
   <hlink|activate|../text/keyboard/man-hybrid.en.tm> it. You may also type
-  the first characters of the name of a reference and use the <key|<key-tab>>
+  the first characters of the name of a reference and use the <key|tab>
   key in order to automatically complete it.
 
   You should be careful to put the label at a point where its number will be
@@ -19,7 +19,7 @@
   <menu|Insert|Mathematics|Equation>), the recommended place is at the start
   inside the equation. When labeling multiple equations (created using
   <menu|Insert|Mathematics|Equations>), you must put the labels just behind
-  the equation numbers. Recall that you may use <key|A-*> in order to
+  the equation numbers. Recall that you may use <shortcut|(toggle-number)> in order to
   transform an unnumbered environment or equation into a numbered one, and
   vice versa.
 

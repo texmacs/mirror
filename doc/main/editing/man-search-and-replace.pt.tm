@@ -13,7 +13,7 @@
   durante uma busca, a próxima ocorrência é procurada. Um sinal sonoro indica
   que não existem mais outras ocorrências da cadeia procurada; pressionar
   <key|C-s> novamente faz com que a busca recomece do início do documento.
-  Você pode usar a tecla <key|<expand|key-backspace>> para apagar caracteres
+  Você pode usar a tecla <key|backspace> para apagar caracteres
   digitados durante a busca.
 
   Normalmente, o texto é procurado para a frente, começando da posição

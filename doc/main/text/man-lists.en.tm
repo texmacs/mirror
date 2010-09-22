@@ -28,9 +28,9 @@
   The default tag is rendered in a different way depending on the level of
   nesting. At the outermost level, we used the <with|mode|math|\<bullet\>>
   tag, at the second level <with|mode|math|<op|\<circ\>>>, and so on. When
-  you are inside a list, notice that pressing <key|<key-return>>
+  you are inside a list, notice that pressing <shortcut|(kbd-return)>
   automatically starts a new item. If you need items which are several
-  paragraphs long, then you may always use <key|S-<key-return>> in
+  paragraphs long, then you may always use <shortcut|(kbd-shift-return)> in
   order to start a new paragraph.
 
   Enumerate environments, which are started using

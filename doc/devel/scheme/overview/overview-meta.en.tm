@@ -34,11 +34,11 @@
   This information is exploited by <TeXmacs> in several ways. For instance,
   the synopsis of the function can be retrieved by executing <scm|(help
   square)>. More interestingly, assuming that we defined <scm|square> as
-  above, typing <key|M-x> followed by <scm|square> and <key|<key-return>>
+  above, typing <shortcut|(interactive exec-interactive-command)> followed by <scm|square> and <shortcut|(kbd-return)>
   allows you to execute <scm|square> in an interactive way: you will be
-  prompted for ``A number'' on the footer. Moreover, after typing <key|M-x>,
+  prompted for ``A number'' on the footer. Moreover, after typing <shortcut|(interactive exec-interactive-command)>,
   you will be able to use ``tab-completion'' in order to enter <scm|square>:
-  typing <key|s q u <key-tab>> will usually complete into<nbsp><scm|square>.
+  typing <key|s q u tab> will usually complete into<nbsp><scm|square>.
 
   In a similar vein, the <scm|:interactive> and <scm|:check-mark> options
   allow you to specify that a given routine requires interactive user input

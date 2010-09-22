@@ -12,7 +12,7 @@
   <hyper-link|here|../../main/start/man-conventions.en.tm> with your mouse in
   order to learn more about the conventions which are used throughout the
   documentation. You may search for words in the documentation by pressing
-  <no-break><key|F1>. Another important thing you might want to do is to
+  <no-break><shortcut|(interactive docgrep-in-doc)>. Another important thing you might want to do is to
   <hyper-link|configure|../../main/config/man-configuration.en.tm> <TeXmacs>
   so that it will suit your needs best.
 

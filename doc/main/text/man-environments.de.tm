@@ -32,7 +32,7 @@
   <menu|Text|Environment>: \ <menu|Theorem>, <menu|Proof>,
   <menu|Proposition>, <menu|Lemma>, <menu|Corollary>, <menu|Axiom> und
   <menu|Definition>. Innerhalb \ <em|<menu|Environment>> können Sie das
-  <markup|dueto>-Makro benutzen und \ <key|\\ d u e t o <key-return>>
+  <markup|dueto>-Makro benutzen und \ <key|\\ d u e t o return>
   eintippen, dann die Person(en), von der die Aussage stammt, und schlieÿlich
   <key|Entf> , um das Makro zu verlassen. So erhalten Sie z.B.:
 

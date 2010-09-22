@@ -15,7 +15,7 @@
 
   When you are done with typing, we recommend you to first save your
   document, using the <with|font series|bold|save buffer> item in the
-  <apply|icon|tm_save.png> icon menu, or by pressing the <key|F3> key. A
+  <apply|icon|tm_save.png> icon menu, or by pressing the <shortcut|(save-buffer)> key. A
   message on the footer should confirm the success of this operation:
 
   <expand|big-figure|<apply|screenshot|simple-2.en.png>|We just save the
@@ -33,7 +33,7 @@
 
   When you are done with typing, you usually want to print your document out.
   This can be done by selecting the <apply|menu|Print all> item in the
-  <apply|icon|tm_print.png> icon menu, or by pressing the <key|F4> key.
+  <apply|icon|tm_print.png> icon menu, or by pressing the <shortcut|(print-buffer)> key.
   Before printing, it might be that you want to setup your printer using
   <apply|menu|File|Page setup>. You may specify a printing command (like
   <with|font family|tt|lpr>), the paper type of your printer (like <with|font
@@ -43,7 +43,7 @@
 
   In order to retrieve your text after closing TeXmacs, you first have to
   push the <apply|menu|Load buffer> item in the <apply|icon|tm_load.png> icon
-  menu or hit the <key|F2> key. Next, you may select your file using the file
+  menu or hit the <shortcut|(open-buffer)> key. Next, you may select your file using the file
   browser. In our example, the file <with|font family|tt|test.tm> indeed
   appears in the file browser and we may retrieve it by rapidly clicking
   twice on it.

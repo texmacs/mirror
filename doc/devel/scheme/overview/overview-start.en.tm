@@ -160,7 +160,7 @@
   In order to rapidly test the effect of <scheme> commands, it is convenient
   to execute them directly from within the editor. <TeXmacs> provides two
   mechanisms for doing this: directly type the command on the footer using
-  the <key|M-X> shortcut, or start a <scheme> session using
+  the <shortcut|(interactive footer-eval)> shortcut, or start a <scheme> session using
   <menu|Insert|Session|Scheme>.
 
   The first mechanism is useful when you do not want to alter the document or

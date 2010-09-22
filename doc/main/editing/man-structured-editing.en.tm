@@ -9,8 +9,8 @@
   conditioned by the <em|innermost tag> for which a particular behaviour has
   been defined.
 
-  For instance, the <em|structured insertion> commands <key|A-<key-left>>,
-  <key|A-<key-right>>, <key|A-<key-up>> and <key|A-<key-down>> have a
+  For instance, the <em|structured insertion> commands <shortcut|(structured-insert #f)>,
+  <shortcut|(structured-insert #t)>, <shortcut|(structured-insert-up)> and <shortcut|(structured-insert-down)> have a
   particular meaning both inside tables and trees. Inside tables, they allow
   you to insert new rows and columns (see
   figure<nbsp><reference|matrix-insert-fig>). Inside trees, they correspond
@@ -21,7 +21,7 @@
 
   In many cases, a ``default particular behaviour'' has been defined for all
   tags minus some exceptional ones. In our example of structured insertion,
-  the default behaviour of <key|A-<key-left>> and <key|A-<key-right>> is to
+  the default behaviour of <shortcut|(structured-insert #f)> and <shortcut|(structured-insert #t)> is to
   insert a new argument to the tag at the left or at the right (when
   allowed).
 
@@ -33,28 +33,28 @@
     <label|matrix-insert-fig>Assume that the cursor is at the position of
     <value|cursor> inside the left-most matrix. Then the four other matrices
     respectively correspond to the insertion of a new column at the
-    left<nbsp>(<key|A-<key-left>>) or right<nbsp>(<key|A-<key-right>>),
-    <abbr|resp.> a new row above<nbsp>(<key|A-<key-up>>) or
-    below<nbsp>(<key|A-<key-down>>).
+    left<nbsp>(<shortcut|(structured-insert #f)>) or right<nbsp>(<shortcut|(structured-insert #t)>),
+    <abbr|resp.> a new row above<nbsp>(<shortcut|(structured-insert-up)>) or
+    below<nbsp>(<shortcut|(structured-insert-down)>).
   </big-figure>
 
   <\big-figure|<tree|a|b|c<value|cursor>|d><space|3em><space|3em><tree|a|b|<value|cursor>|c|d><space|3em><tree|a|b|c|<value|cursor>|d><space|3em><tree|a|b|<tree|<value|cursor>|c>|d><space|3em><tree|a|b|<tree|c|<value|cursor>>|d>>
     <label|tree-insert-fig>Assume that the cursor is at the position of
     <value|cursor> inside the left-most tree. Then the four other trees
     respectively correspond to the insertion of a new node at the
-    left<nbsp>(<key|A-<key-left>>), at the right<nbsp>(<key|A-<key-right>>),
-    above<nbsp>(<key|A-<key-up>>) or below<nbsp>(<key|A-<key-down>>).
+    left<nbsp>(<shortcut|(structured-insert #f)>), at the right<nbsp>(<shortcut|(structured-insert #t)>),
+    above<nbsp>(<shortcut|(structured-insert-up)>) or below<nbsp>(<shortcut|(structured-insert-down)>).
   </big-figure>
 
-  Similarly, in the case of matrices, the keys <key|A-<key-home>>,
-  <key|A-<key-end>>, <key|A-<key-pageup>> and <key|A-<key-pagedown>> can be
+  Similarly, in the case of matrices, the keys <shortcut|(structured-insert-start)>,
+  <shortcut|(structured-insert-end)>, <shortcut|(structured-insert-top)> and <shortcut|(structured-insert-bottom)> can be
   used for inserting a new first or last column, <abbr|resp.> a new first or
-  last row. The keys <key|A-<key-backspace>> and <key|A-<key-delete>> are
+  last row. The keys <shortcut|(structured-remove #f)> and <shortcut|(structured-remove #t)> are
   mapped to the commands for backward <abbr|resp.> forward <em|structured
   deletion>. In the case of matrices, this will result in the removal of the
   column before or after the cursor (see figure<nbsp><reference|matrix-remove-fig>).
   In order to remove the enclosing environment you may use
-  <key|C-<key-backspace>> or <key|C-<key-delete>>.
+  <shortcut|(remove-structure-upwards)> or <shortcut|(remove-structure-upwards)>.
 
   <\big-figure>
     <\equation*>
@@ -63,9 +63,9 @@
   <|big-figure>
     <label|matrix-remove-fig>Assume that the cursor is at the position of
     <value|cursor> inside the left-most matrix. Then pressing the
-    keys<nbsp><key|A-<key-backspace>> and <key|A-<key-delete>> respectively
+    keys<nbsp><shortcut|(structured-remove #f)> and <shortcut|(structured-remove #t)> respectively
     result in the next two matrices. Pressing
-    either<nbsp><key|C-<key-backspace>> or <key|C-<key-delete>> replaces the
+    either<nbsp><shortcut|(remove-structure-upwards)> or <shortcut|(remove-structure-upwards)> replaces the
     matrix by the content of the cell in which you are, leaving you with the
     <with|mode|math|b> at the right-hand side.
   </big-figure>

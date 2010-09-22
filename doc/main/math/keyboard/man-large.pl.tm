@@ -15,7 +15,7 @@
   ogranicznik'' oraz ±rodkowy separotor''. Domy±lnie, (, [, { i \<less\> s¡
   lewymi ogranicznikami, ), ], }, \<gtr\> prawymi a \|, /,
   <with|mode|math|\<backslash\>> ±rodkowymi. Ale to mo»na zmieni¢ u»ywaj¡c
-  skrótów <key|A-l>, <key|A-r> i <key|A-m>. Na przykªad <key|A-l )> tworzy ),
+  skrótów <key|A-l>, <key|A-r> i <shortcut|(make 'macro)>. Na przykªad <key|A-l )> tworzy ),
   uwa»any za du»y lewy ogranicznik.
 
   Zarówno <TeX> jak i <LaTeX> nie maj¡ ±rodkowych ograniczników''; przydaj¡

@@ -16,22 +16,22 @@
 
   in der Initialisierungs-Datei <verbatim|init-<em|myplugin>.scm> so setzen,
   dass <TeXmacs> geeignete Anforderungen an die Anwendung richtet, wenn die
-  <key|<key-tab>>-Taste innerhalb einer solchen Sitzung gedrückt wird. Diese
+  <key|tab>-Taste innerhalb einer solchen Sitzung gedrückt wird. Diese
   Befehle haben die Form
 
   <\quotation>
     <\framed-fragment>
       <\verbatim>
         <key|DATA_COMMAND>(complete <em|input-string>
-        <em|cursor-position>)<key|<key-return>>
+        <em|cursor-position>)<shortcut|(kbd-return)>
       </verbatim>
     </framed-fragment>
   </quotation>
 
   Hier steht <verbatim|DATA_COMMAND> für das Zeichen <verbatim|'\\20'> (ASCII
   16). Der <verbatim|<em|input-string>> ist die komplette Zeichenkette, in
-  der <key|<key-tab>> auftrat und <verbatim|<em|cursor-position>> eine
-  Ganzzahl, die die Position des Cursors angibt, bei der <key|<key-tab>>
+  der <key|tab> auftrat und <verbatim|<em|cursor-position>> eine
+  Ganzzahl, die die Position des Cursors angibt, bei der <key|tab>
   gedrückt wurde. <TeXmacs> erwartet von der Anwendung ein Tupel mit allen
   möglichen Ergänzungen der Form
 

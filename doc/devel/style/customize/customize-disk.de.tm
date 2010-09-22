@@ -58,7 +58,7 @@
     genannten Pfade mit im Standard-Pfad. Wenn Sie also das
     <tmpackage|std-markup>-Paket ansehen wollen, brauchen sie nur <key|C-x
     C-f>, eingeben und den Datei-Namen <verbatim|std-markup.ts> und
-    schlieÿlich \ <key|<key-return>>.
+    schlieÿlich \ <shortcut|(kbd-return)>.
   </remark>
 
   <\remark>

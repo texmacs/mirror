@@ -41,7 +41,7 @@
   Entsprechend können Sie externen <value|scheme>-Code in einen
   <TeXmacs>-Text einfügen, indem Sie <menu|Edit|Paste from|Scheme> benutzen.
   Das <value|scheme>-Format kann auch mit interaktiven Kurzbefehlen verwendet
-  werden. Z.B. führt die Eingabe von <key|M-x> \ mit nachfolgendem
+  werden. Z.B. führt die Eingabe von <shortcut|(interactive exec-interactive-command)> \ mit nachfolgendem
 
   <\scheme-fragment>
     (insert '(frac "1" "2"))

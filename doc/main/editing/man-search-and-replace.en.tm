@@ -12,7 +12,7 @@
   <key|C-s> a second time during a search, the next occurrence is being
   searched. A beep indicates that no more occurrences were found in the
   document; pressing <key|C-s> will continue the search at the beginning of
-  your document. You may press <key|<key-backspace>> in order to undo key
+  your document. You may press <key|backspace> in order to undo key
   presses during a search.
 
   Usually, text is being searched for in a forward manner, starting from the

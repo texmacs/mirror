@@ -16,22 +16,22 @@
 
   in your <verbatim|init-<em|myplugin>.scm> file, so that <TeXmacs> will send
   special tab-completion requests to your application whenever you press
-  <key|<key-tab>> inside a session. These commands are of the form
+  <key|tab> inside a session. These commands are of the form
 
   <\quotation>
     <\framed-fragment>
       <\verbatim>
         <key|DATA_COMMAND>(complete <em|input-string>
-        <em|cursor-position>)<key|<key-return>>
+        <em|cursor-position>)<shortcut|(kbd-return)>
       </verbatim>
     </framed-fragment>
   </quotation>
 
   Here <verbatim|DATA_COMMAND> stands for the special character
   <verbatim|'\\20'> (ASCII 16). The <verbatim|<em|input-string>> is the
-  complete string in which the <key|<key-tab>> occurred and the
+  complete string in which the <key|tab> occurred and the
   <verbatim|<em|cursor-position>> is an integer which specifies the position
-  of the cursor when you pressed <key|<key-tab>>. <TeXmacs> expects your
+  of the cursor when you pressed <key|tab>. <TeXmacs> expects your
   application to return a tuple with all possible tab-completions of the form
 
   <\quotation>

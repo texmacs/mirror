@@ -8,26 +8,26 @@
   Die folgenden Kurzbefehle haben in allen Moden die gleiche Funktion:
 
   <\description>
-    <item*|<key|S-<key-return>>>beginnt einen neuen Absatz.
+    <item*|<shortcut|(kbd-shift-return)>>beginnt einen neuen Absatz.
 
-    <item*|<key|C-<key-backspace>>>entfernt das <TeXmacs>-Objekt, die
+    <item*|<shortcut|(remove-structure-upwards)>>entfernt das <TeXmacs>-Objekt, die
     <TeXmacs>-Umgebung, die den dargestellten Text enthält. Der
     eingeschlossene Text bleibt erhalten.
 
-    <item*|<key|A-<localize|space>>>füge einen kurzen Abstand ein.
+    <item*|<shortcut|(make-space "0.2spc")>füge einen kurzen Abstand ein.
 
-    <item*|<key|A-S-<localize|space>>>füge einen kurzen negativen Abstand
+    <item*|<shortcut|(make-space "-0.2spc")>>füge einen kurzen negativen Abstand
     ein.
 
-    <item*|<key|M-A-<key-home>>>setze manuell den Beginn einer Auswahl
+    <item*|<key|M-A-home>>setze manuell den Beginn einer Auswahl
     (Markierung).
 
-    <item*|<key|M-A-<key-end>>>setze manuell das Ende einer Auswahl
+    <item*|<key|M-A-end>>setze manuell das Ende einer Auswahl
     (Markierung).
 
-    <item*|<key|M-\<less\>>>gehe an den Anfang des Dokuments.
+    <item*|<shortcut|(go-start)>>gehe an den Anfang des Dokuments.
 
-    <item*|<key|M-\<gtr\>>>gehe an das Ende des Dokuments.
+    <item*|<shortcut|(go-end)>>gehe an das Ende des Dokuments.
   </description>
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>

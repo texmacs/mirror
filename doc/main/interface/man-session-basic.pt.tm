@@ -8,7 +8,7 @@
   Uma seção interativa pode ser iniciada com o menu
   <apply|menu|Text|Session>. Uma seção consiste de uma seqüência de ambientes
   de entrada e saída, possivelmente com algum texto entre eles. Quando você
-  pressiona <key|<expand|key-return>> dentro de um ambiente de entrada de uma
+  pressiona <key|return> dentro de um ambiente de entrada de uma
   sessão, o texto dentro deste ambiente é executado e o resultado é mostrado
   no ambiente de saída.
 
@@ -29,7 +29,7 @@
 
   Para terminar o processo subjacente a uma dada sessão, você pode usar
   <apply|menu|Session|Close session>. Quando você tecla
-  <key|<expand|key-return>> na entrada de um sistema que não está conectado,
+  <key|return> na entrada de um sistema que não está conectado,
   ele será reiniciado automaticamente. Você também pode usar
   <apply|menu|Session|Interrupt execution> para interromper a execução de um
   comando. Vários aplicativos, no entanto, não tem esta funcionalidade.

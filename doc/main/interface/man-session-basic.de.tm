@@ -7,7 +7,7 @@
 
   Eine Sitzung kann mit Befehlen aus dem Menü <menu|Text|Session> gestartet
   werden. Sie besteht aus einer Folge von Eingabe- und Ausgabe-Feldern. Wenn
-  man <key|<key-return>> innerhalb eines Eingabefeldes benutzt, dann wird der
+  man <shortcut|(kbd-return)> innerhalb eines Eingabefeldes benutzt, dann wird der
   Text innerhalb dieses Feldes von dem externen Programm evaluiert und in
   einem Ausgabefeld gezeigt.
 
@@ -30,7 +30,7 @@
   Um den Prozess, der einer Sitzung zugrunde liegt, zu beenden, benutzen Sie
   <menu|Session|Close session>. Die <menu|Session>-Befehle erscheinen
   automatisch, wenn Sie sich in einer Sitzung befinden.Wenn man
-  <key|<key-return>> in einer Sitzung drückt, die nicht mehr verbunden ist,
+  <shortcut|(kbd-return)> in einer Sitzung drückt, die nicht mehr verbunden ist,
   dann wird diese wieder automatisch gestartet. Sie können
   <menu|Session|Interrupt execution> benutzen, um die Ausführung eines
   Befehls in der Sitzung zu unterbrechen, wenn die Anwendung dies erlaubt.

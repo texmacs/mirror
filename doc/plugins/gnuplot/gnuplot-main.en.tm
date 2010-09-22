@@ -2881,7 +2881,7 @@
   Gnuplot supports many fancy features for users to make high-class graphs.
   If the number of commands is more than one, then you may separate the
   commands by <verbatim|~> or a newline. We recall that a newline is started
-  using <key|S-<expand|key-return>>.
+  using <key|S-return>.
 
   <apply|tmdoc-copyright|2003|Chu-Ching Huang>
 

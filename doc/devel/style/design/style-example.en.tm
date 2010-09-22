@@ -31,14 +31,14 @@
   the corresponding submenu of <menu|Document|Package>.
 
   Let us now create a simple macro <markup|hi> which displays ``Hello
-  world''. First type <key|A-=>, so as to create an assignment. You should
+  world''. First type <shortcut|(make 'assign)>, so as to create an assignment. You should
   see something like
 
   <\tm-fragment>
     <inactive*|<assign||>>
   </tm-fragment>
 
-  Now enter ``hi'' as the first argument and type <key|A-m> inside the second
+  Now enter ``hi'' as the first argument and type <shortcut|(make 'macro)> inside the second
   argument in order to create a macro. You should now see something like
 
   <\tm-fragment>
@@ -55,11 +55,11 @@
   After saving your style package, opening a new document and selecting your
   package in the <menu|Document|Use package> menu, you may now use the macro
   <markup|hi> in your document by typing <key|\\ h i> and hitting
-  <key|<key-return>>.
+  <shortcut|(kbd-return)>.
 
   In a similar way, you may create macros with arguments. For instance,
   assume that we started entering a macro <markup|hello> in a similar way as
-  above. Instead of typing ``Hello world'', we first type <key|A-<key-left>>
+  above. Instead of typing ``Hello world'', we first type <shortcut|(structured-insert #f)>
   inside the macro body so as to create an additional argument on the left
   hand side of the cursor. We next enter the name of the argument, say
   ``name''. You should now see something like below:
@@ -68,8 +68,8 @@
     <inactive*|<assign|hello|<macro|name|>>>
   </tm-fragment>
 
-  In the second argument of the body, we now type ``Hello '', <key|A-#>,
-  ``name'', <key|<key-right>> and ``, how are you today?''. After this you
+  In the second argument of the body, we now type ``Hello '', <shortcut|(make 'arg)>,
+  ``name'', <key|right> and ``, how are you today?''. After this you
   should see
 
   <\tm-fragment>
@@ -77,10 +77,10 @@
     today?>>>
   </tm-fragment>
 
-  The <key|A-#> shortcut is used to retrieve the macro argument
-  <src-arg|name>. Instead of typing <key|A-#>, ``name'' and
-  <key|<key-right>>, you may also use the hybrid <key|\\>-key and type
-  <key|\\ n a m e> followed by <key|<key-return>>. After saving your style
+  The <shortcut|(make 'arg)> shortcut is used to retrieve the macro argument
+  <src-arg|name>. Instead of typing <shortcut|(make 'arg)>, ``name'' and
+  <key|right>, you may also use the hybrid <key|\\>-key and type
+  <key|\\ n a m e> followed by <shortcut|(kbd-return)>. After saving your style
   package, you may again use the macro in any document which uses your
   package by typing <key|\\ h e l l o> and hitting <key|return>.
 
@@ -117,12 +117,12 @@
   </tm-fragment>
 
   In order to produce the macro application <inactive*|<person|<arg|name>>>,
-  you first have to start a compound tag using <key|A-c>, type the name
-  ``person'', insert an argument <key|A-<key-right>>, and enter the argument
+  you first have to start a compound tag using <shortcut|(make 'compound)>, type the name
+  ``person'', insert an argument <shortcut|(structured-insert #t)>, and enter the argument
   <src-arg|name> as before. When you are done, you may press
-  <key|<key-return>> in order to change the <markup|compound> tag into a
+  <shortcut|(kbd-return)> in order to change the <markup|compound> tag into a
   <markup|person> tag. Alternatively, you may type <key|\\>, ``person'',
-  <key|A-<key-right>> and ``name''.
+  <shortcut|(structured-insert #t)> and ``name''.
 
   By combining the above constructs, an ordinary user should already be able
   to produce style packages for all frequently used notations. An interesting

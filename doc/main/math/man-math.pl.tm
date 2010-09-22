@@ -17,10 +17,10 @@
     Na przykªad granice s¡ wy±wietlane po lewej. To mo»na zmieni¢ ustawiaj¡c
     <menu|Format|Display style|Wª¡cz>.\ 
 
-    <item*|Równanie <key|A-$>>‘rodowisko dla wi¦kszych wyra»e« matematycznych
+    <item*|Równanie <shortcut|(make-equation*)>>‘rodowisko dla wi¦kszych wyra»e« matematycznych
     które s¡ umieszczane w samodzielnych paragrafach.
 
-    <item*|Równania <key|A-&>>Tworzy <markup|eqnarray*>, trójkolumnowe
+    <item*|Równania <shortcut|(make-eqnarray*)>>Tworzy <markup|eqnarray*>, trójkolumnowe
     ±rodowisko tablicopodobne (zobacz <hyper-link|tworzenie
     tablic|../table/man-create-table.pl.tm>).
 
@@ -32,7 +32,7 @@
   W trybie matematycznym, dost¦pne s¡ specyficzne komendy i skróty klawiszowe
   do wpisywania matematycznych symboli i wzorów. Na przykªad, prefiks
   <key|H-> mo»e by¢ u»yty do wprowadzania symboli greckich (zauwa» i»
-  <key|H-> jest równowa»ne <key|F5>, <key|escape escape escape> lub
+  <key|H-> jest równowa»ne <shortcut|math:greek>, <key|escape escape escape> lub
   <key|A-C>).
 
   Odgadywanie przez program znaczenia b¦dzie rozwijane w przyszªych wersjach.

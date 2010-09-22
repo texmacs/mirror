@@ -41,11 +41,11 @@
   <menu|Format|Language|Japanese>.
 
   Inside a Japanese portion of text, and depending on your input method, you
-  usually have to type<nbsp><key|S-<key-space>> in order to start Kana to
+  usually have to type<nbsp><key|S-space> in order to start Kana to
   Kanji conversion. A small window shows up where you can type phonetic
-  characters and use <key|<key-space>> in order to start conversion to Kanji
-  characters. When pressing <key|<key-return>>, the text is inserted into the
-  main <TeXmacs> window. Pressing <key|S-<key-space>> once again returns to
+  characters and use <key|space> in order to start conversion to Kanji
+  characters. When pressing <shortcut|(kbd-return)>, the text is inserted into the
+  main <TeXmacs> window. Pressing <key|S-space> once again returns to
   the classical <TeXmacs> input method.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>

@@ -29,7 +29,7 @@
   simile ai teoremi sono <markup|propositione>, <markup|lemma>,
   <markup|corollario>, <markup|assioma>, <markup|definizione>. Si può
   utilizzare la macro <markup|dueto> (attivata utilizzando <key|\\ d u e t o
-  <expand|key-return>>) per specificare la persona (o le persone) a cui
+  return>) per specificare la persona (o le persone) a cui
   appartiene il teorema, come nel seguente esempio
 
   <\theorem>

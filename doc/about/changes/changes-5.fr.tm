@@ -22,7 +22,7 @@
     <key|<with|mode|math|\<ast\>>> et on peut revenir en arrière avec
     <key|majuscule temporaire-tab>.
 
-    <item>Les caractères grecs sont accessibles avec <key|A-C->, <key|F5> ou
+    <item>Les caractères grecs sont accessibles avec <key|A-C->, <shortcut|math:greek> ou
     la touche hyper, qui peut être configurée avec
     <samp|Éditer><with|mode|math|\<rightarrow\>><samp|Préférences>. On peut
     aussi les saisir comme variantes de caractères latins. Par exemple,

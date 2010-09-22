@@ -18,7 +18,7 @@
   ensures a limited compatibility of the <TeXmacs> keyboard shortcuts with
   those of <name|Emacs>. Also, <apply|TeXmacs> comes with a powerful keyboard
   shortcut system, which attempts to optimize the use of the modifier keys
-  like <key|<key-shift>> and <key|<key-control>> on
+  like <key|S-> and <key|C-> on
   your keyboard. However, on many X Window systems these modifier keys are
   not well configured, so that you may wish to redo this yourself. More
   details can be found in the section about the

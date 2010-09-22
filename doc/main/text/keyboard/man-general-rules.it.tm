@@ -24,7 +24,7 @@
     per i comandi che dipendono dalla modalità in cui si sta lavorando. Per
     esempio, <expand|kbd-text|s> produce del testo <strong|enfatizzato> in
     modalità testo e una radice quadrata <with|mode|math|<sqrt|>> in modalità
-    matematica. Si noti che che <key|<expand|key-escape> <expand|key-escape>>
+    matematica. Si noti che che <key|escape escape>
     è equivalente a <key|A->.
 
     <expand|item*|<key|M-<with|mode|math|x>>>Il tasto meta è utilizzato per
@@ -32,12 +32,12 @@
     modalità. Per esempio, <expand|kbd-gen|!> produce un'etichetta. Esso
     viene anche utilizzato per comandi addizionali di redazione, come
     <key|A-w> per copiare del testo se si usa l'aspetto <name|Emacs>. Si noti
-    che <key|<expand|key-escape>> è equivalente a <key|M->.
+    che <key|escape> è equivalente a <key|M->.
 
     <expand|item*|<key|H-<with|mode|math|x>>>Il tasto hyper è utilizzato per
     produrre simboli speciali come i caratteri greci in modalità matematica.
     Si può configurare la propria tastiera in modo tale che il tasto Maius
-    svolga il ruolo del tasto hyper. Il tasto <key|F5> è equivalente a
+    svolga il ruolo del tasto hyper. Il tasto <shortcut|math:greek> è equivalente a
     <key|H->.
   </description>
 
