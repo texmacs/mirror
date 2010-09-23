@@ -42,19 +42,19 @@
   halign|c>|<cwith|6|6|5|7|cell halign|c>|<cwith|6|6|6|6|cell
   halign|l>|<cwith|6|6|7|8|cell halign|c>|<cwith|6|6|7|7|cell
   halign|c>|<cwith|6|6|7|8|cell halign|c>|<cwith|6|6|7|7|cell
-  halign|c>|<table|<row|<cell|Shortcut>|<cell|>|<cell|Example>|<cell|>|<cell|Shortcut>|<cell|>|<cell|Example>|<cell|>>|<row|<cell|<key|text '>>|<cell|Agudo
-  >|<cell|<key|text ' e>>|<cell|é>|<cell|<key|text `>>|<cell|Grave
-  `>|<cell|<key|text ` e>>|<cell|è>>|<row|<cell|<key|text ^>>|<cell|Circunflexo
-  >|<cell|<key|text ^ e>>|<cell|ê>|<cell|<key|text ^>>|<cell|Trema
-  >|<cell|<key|text " e>>|<cell|ë>>|<row|<cell|<key|text ~>>|<cell|Til
-  >|<cell|<key|text ~ a>>|<cell|ã>|<cell|<key|text C>>|<cell|Cedilha
-  >|<cell|<key|text C c>>|<cell|ç>>|<row|<cell|<key|text U>>|<cell|Breve
-  >|<cell|<key|text U g>>|<cell|§>|<cell|<key|text V>>|<cell|Check
-  >|<cell|<key|text V s>>|<cell|²>>|<row|<cell|<key|text O>>|<cell|Anel
-  superior >|<cell|<key|text O a>>|<cell|å>|<cell|<key|text .>>|<cell|Ponto
-  superior \n>|<cell|<key|text .
-  z>>|<cell|»>>|<row|<cell|<key|text H>>|<cell|
-  Húngaro>|<cell|<key|text H o>>|<cell|®>|<cell|>|<cell|>|<cell|>|<cell|>>>>>|Digitando
+  halign|c>|<table|<row|<cell|Shortcut>|<cell|>|<cell|Example>|<cell|>|<cell|Shortcut>|<cell|>|<cell|Example>|<cell|>>|<row|<cell|<key|accent:acute>>|<cell|Agudo
+  >|<cell|<key|accent:acute e>>|<cell|é>|<cell|<key|accent:grave>>|<cell|Grave
+  `>|<cell|<key|accent:grave e>>|<cell|è>>|<row|<cell|<key|accent:hat>>|<cell|Circunflexo
+  >|<cell|<key|accent:hat e>>|<cell|ê>|<cell|<key|accent:hat>>|<cell|Trema
+  >|<cell|<key|accent:umlaut e>>|<cell|ë>>|<row|<cell|<key|accent:tilde>>|<cell|Til
+  >|<cell|<key|accent:tilde a>>|<cell|ã>|<cell|<key|accent:cedilla>>|<cell|Cedilha
+  >|<cell|<key|accent:cedilla c>>|<cell|ç>>|<row|<cell|<key|accent:breve>>|<cell|Breve
+  >|<cell|<key|accent:breve g>>|<cell|§>|<cell|<key|accent:check>>|<cell|Check
+  >|<cell|<key|accent:check s>>|<cell|²>>|<row|<cell|<key|accent:abovering>>|<cell|Anel
+  superior >|<cell|<key|accent:abovering a>>|<cell|å>|<cell|<key|accent:abovedot>>|<cell|Ponto
+  superior \n>|<cell|<key|accent:abovedot
+  z>>|<cell|»>>|<row|<cell|<key|accent:doubleacute>>|<cell|
+  Húngaro>|<cell|<key|accent:doubleacute o>>|<cell|®>|<cell|>|<cell|>|<cell|>|<cell|>>>>>|Digitando
   caracteres acentuados com o <TeXmacs>.>
 
   Os caracteres especiais ÿ, ß, ÷, ×, æ e Æ são obtidos digitando-se

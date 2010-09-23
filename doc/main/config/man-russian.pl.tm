@@ -77,8 +77,8 @@
   najbardziej podobny'' znak rosyjski. Aby uzyska¢ niektóre znaki potrzeba
   wpisa¢ 2- lub 3-literowe kombinacje:<vspace|1fn>
 
-  <big-table|<descriptive-table|<tformat|<cwith|2|11|1|1|cell-halign|l>|<cwith|2|11|2|2|cell-halign|l>|<cwith|2|11|2|2|cell-halign|c>|<cwith|2|11|4|4|cell-halign|l>|<cwith|2|11|4|4|cell-halign|c>|<table|<row|<cell|Skrót>|<cell|Znak>|<cell|Skrót(y)>|<cell|znak>>|<row|<cell|<key|text "
-  e>>|<cell|<with|language|russian|font|cyrillic|¼>>|<cell|<key|text "
+  <big-table|<descriptive-table|<tformat|<cwith|2|11|1|1|cell-halign|l>|<cwith|2|11|2|2|cell-halign|l>|<cwith|2|11|2|2|cell-halign|c>|<cwith|2|11|4|4|cell-halign|l>|<cwith|2|11|4|4|cell-halign|c>|<table|<row|<cell|Skrót>|<cell|Znak>|<cell|Skrót(y)>|<cell|znak>>|<row|<cell|<key|accent:umlaut
+  e>>|<cell|<with|language|russian|font|cyrillic|¼>>|<cell|<key|accent:umlaut
   E>>|<cell|<with|language|russian|font|cyrillic|œ>>>|<row|<cell|<key|y
   o>>|<cell|<with|language|russian|font|cyrillic|¼>>|<cell|<key|Y o> <key|Y
   O>>|<cell|<with|language|russian|font|cyrillic|œ>>>|<row|<cell|<key|z

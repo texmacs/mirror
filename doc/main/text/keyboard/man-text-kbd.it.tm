@@ -42,19 +42,19 @@
   halign|c>|<cwith|6|6|5|7|cell halign|c>|<cwith|6|6|6|6|cell
   halign|l>|<cwith|6|6|7|8|cell halign|c>|<cwith|6|6|7|7|cell
   halign|c>|<cwith|6|6|7|8|cell halign|c>|<cwith|6|6|7|7|cell
-  halign|c>|<table|<row|<cell|Abbreviazione>|<cell|>|<cell|Esempio>|<cell|>|<cell|Abbreviazione>|<cell|>|<cell|Esempio>|<cell|>>|<row|<cell|<key|text '>>|<cell|Acuto
-  >|<cell|<key|text ' e>>|<cell|é>|<cell|<key|text `>>|<cell|Grave
-  `>|<cell|<key|text ` e>>|<cell|è>>|<row|<cell|<key|text ^>>|<cell|Circonflesso
-  >|<cell|<key|text ^ e>>|<cell|ê>|<cell|<key|text ^>>|<cell|Umlaut
-  >|<cell|<key|text " e>>|<cell|ë>>|<row|<cell|<key|text ~>>|<cell|Tilde
-  >|<cell|<key|text ~ a>>|<cell|ã>|<cell|<key|text C>>|<cell|Cedilla
-  >|<cell|<key|text C c>>|<cell|ç>>|<row|<cell|<key|text U>>|<cell|Breve
-  >|<cell|<key|text U g>>|<cell|§>|<cell|<key|text V>>|<cell|Ceco
-  >|<cell|<key|text V s>>|<cell|²>>|<row|<cell|<key|text O>>|<cell|cerchio
-  in alto >|<cell|<key|text O a>>|<cell|å>|<cell|<key|text .>>|<cell|punto
-  in alto \n>|<cell|<key|text .
-  z>>|<cell|»>>|<row|<cell|<key|text H>>|<cell|Ungherese
-  >|<cell|<key|text H o>>|<cell|®>|<cell|>|<cell|>|<cell|>|<cell|>>>>>|Caratteri
+  halign|c>|<table|<row|<cell|Abbreviazione>|<cell|>|<cell|Esempio>|<cell|>|<cell|Abbreviazione>|<cell|>|<cell|Esempio>|<cell|>>|<row|<cell|<key|accent:acute>>|<cell|Acuto
+  >|<cell|<key|accent:acute e>>|<cell|é>|<cell|<key|accent:grave>>|<cell|Grave
+  `>|<cell|<key|accent:grave e>>|<cell|è>>|<row|<cell|<key|accent:hat>>|<cell|Circonflesso
+  >|<cell|<key|accent:hat e>>|<cell|ê>|<cell|<key|accent:hat>>|<cell|Umlaut
+  >|<cell|<key|accent:umlaut e>>|<cell|ë>>|<row|<cell|<key|accent:tilde>>|<cell|Tilde
+  >|<cell|<key|accent:tilde a>>|<cell|ã>|<cell|<key|accent:cedilla>>|<cell|Cedilla
+  >|<cell|<key|accent:cedilla c>>|<cell|ç>>|<row|<cell|<key|accent:breve>>|<cell|Breve
+  >|<cell|<key|accent:breve g>>|<cell|§>|<cell|<key|accent:check>>|<cell|Ceco
+  >|<cell|<key|accent:check s>>|<cell|²>>|<row|<cell|<key|accent:abovering>>|<cell|cerchio
+  in alto >|<cell|<key|accent:abovering a>>|<cell|å>|<cell|<key|accent:abovedot>>|<cell|punto
+  in alto \n>|<cell|<key|accent:abovedot
+  z>>|<cell|»>>|<row|<cell|<key|accent:doubleacute>>|<cell|Ungherese
+  >|<cell|<key|accent:doubleacute o>>|<cell|®>|<cell|>|<cell|>|<cell|>|<cell|>>>>>|Caratteri
   accentati in <TeXmacs>.>
 
   I caratteri speciali ÿ, ß, ÷, ×, æ e Æ si ottengono mediante <key|S-F5 s>,

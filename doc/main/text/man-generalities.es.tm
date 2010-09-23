@@ -9,8 +9,8 @@
   arriba, puede iniciar a teclear. Los caracteres y símbolos de puntuación
   pueden ser fácilmente obtenidos en la mayoría de los teclados. Los
   caracteres acentuados pueden ser sistemáticamente obtenidos usando la tecla
-  de escape. Por ejemplo ``é'' es obtenida tecleando <key|text ' e>.
-  Similarmente, obtenemos ``à'' via <key|text ` a> y así. Las palabras
+  de escape. Por ejemplo ``é'' es obtenida tecleando <key|accent:acute e>.
+  Similarmente, obtenemos ``à'' via <key|accent:grave a> y así. Las palabras
   largas de líneas sucesivas son automáticamente separadas silábicamente. A
   fin de obtener correctamente separación silábica para lenguajes extrageros,
   debe espeficicar el lenguaje del documento en el menu

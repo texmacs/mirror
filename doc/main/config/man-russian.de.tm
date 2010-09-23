@@ -89,7 +89,7 @@
   verwenden:<vspace|0.5fn>
 
   <big-table|<descriptive-table|<tformat|<cwith|2|11|1|1|cell-halign|l>|<cwith|2|11|2|2|cell-halign|l>|<cwith|2|11|2|2|cell-halign|c>|<cwith|2|11|4|4|cell-halign|l>|<cwith|2|11|4|4|cell-halign|c>|<table|<row|<cell|Eingabe>|<cell|für>|<cell|Eingabe(n)>|<cell|für>>|<row|<cell|<key|text
-  " e>>|<cell|<with|language|russian|font|cyrillic|¼>>|<cell|<key|text "
+  " e>>|<cell|<with|language|russian|font|cyrillic|¼>>|<cell|<key|accent:umlaut
   E>>|<cell|<with|language|russian|font|cyrillic|œ>>>|<row|<cell|<key|y
   o>>|<cell|<with|language|russian|font|cyrillic|¼>>|<cell|<key|Y o> <key|Y
   O>>|<cell|<with|language|russian|font|cyrillic|œ>>>|<row|<cell|<key|z

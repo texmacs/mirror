@@ -9,8 +9,8 @@
   você pode começar a digitar. Os caracteres usuais do Inglês e os sinais de
   pontuação estão diretamente acessíveis na \ maioria dos teclados.
   Caracteres acentuados podem ser obtidos com a tecla de escape. Por exemplo,
-  obtemos ``é'' digitando <key|text ' e>. De maneira análoga, obtemos
-  ``à'' com \ <key|text ` a> e assim por diante. Palavras longas nos
+  obtemos ``é'' digitando <key|accent:acute e>. De maneira análoga, obtemos
+  ``à'' com \ <key|accent:grave a> e assim por diante. Palavras longas nos
   finais de linhas sucessivas são hifenizadas automaticamente. Para hifenizar
   documentos em línguas estrangeiras corretamenet, você deve especificar a
   língua empregada no documento com o menu <apply|menu|Document|Language>.

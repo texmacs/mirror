@@ -9,8 +9,8 @@
   you can start typing. The usual English characters and punctuation symbols
   can easily be obtained on most keyboards. Accented characters from foreign
   languages can systematically be obtained using the escape key. For
-  instance, ``é'' is obtained by typing <key|text ' e>. Similarly, we obtain
-  ``à'' via <key|text ` a> and so on. Long words at borders of successive
+  instance, ``é'' is obtained by typing <key|accent:acute e>. Similarly, we obtain
+  ``à'' via <key|accent:grave a> and so on. Long words at borders of successive
   lines are automatically hyphenated. In order to hyphenate foreign languages
   correctly, you should specify the language of the document in the menu
   <menu|Document|Language>.

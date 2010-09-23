@@ -42,25 +42,25 @@
   halign|c>|<cwith|6|6|5|7|cell halign|c>|<cwith|6|6|6|6|cell
   halign|l>|<cwith|6|6|7|8|cell halign|c>|<cwith|6|6|7|7|cell
   halign|c>|<cwith|6|6|7|8|cell halign|c>|<cwith|6|6|7|7|cell
-  halign|c>|<table|<row|<cell|Raccourcis>|<cell|>|<cell|Exemples>|<cell|>|<cell|Raccourcis>|<cell|>|<cell|Exemples>|<cell|>>|<row|<cell|<key|text '>>|<cell|Accent
-  aigu <with|font size|1.19|>>|<cell|<key|text '
-  e>>|<cell|é>|<cell|<key|text `>>|<cell|Accent grave <with|font
-  size|1.19|`>>|<cell|<key|text `
-  e>>|<cell|è>>|<row|<cell|<key|text ^>>|<cell|Accent circonflexe
-  <with|font size|1.19|>>|<cell|<key|text ^
-  e>>|<cell|ê>|<cell|<key|text ^>>|<cell|Tréma <with|font
-  size|1.19|>>|<cell|<key|text " e>>|<cell|ë>>|<row|<cell|<key|text ~>>|<cell|Tilde
-  <with|font size|1.19|>>|<cell|<key|text ~
-  a>>|<cell|ã>|<cell|<key|text C>>|<cell|Cédille<with|font size|1.19|
-  >>|<cell|<key|text C c>>|<cell|ç>>|<row|<cell|<key|text U>>|<cell|Brève
-  <with|font size|1.19|>>|<cell|<key|text U
-  g>>|<cell|§>|<cell|<key|text V>>|<cell|Caron <with|font
-  size|1.19|>>|<cell|<key|text V s>>|<cell|²>>|<row|<cell|<key|text O>>|<cell|Rond
-  en chef <with|font size|1.19|>>|<cell|<key|text O
-  a>>|<cell|å>|<cell|<key|text .>>|<cell|Point en chef <with|font
-  size|1.19|\n>>|<cell|<key|text .
-  z>>|<cell|»>>|<row|<cell|<key|text H>>|<cell|Double accent aigu
-  <with|font size|1.19|>>|<cell|<key|text H
+  halign|c>|<table|<row|<cell|Raccourcis>|<cell|>|<cell|Exemples>|<cell|>|<cell|Raccourcis>|<cell|>|<cell|Exemples>|<cell|>>|<row|<cell|<key|accent:acute>>|<cell|Accent
+  aigu <with|font size|1.19|>>|<cell|<key|accent:acute
+  e>>|<cell|é>|<cell|<key|accent:grave>>|<cell|Accent grave <with|font
+  size|1.19|`>>|<cell|<key|accent:grave
+  e>>|<cell|è>>|<row|<cell|<key|accent:hat>>|<cell|Accent circonflexe
+  <with|font size|1.19|>>|<cell|<key|accent:hat
+  e>>|<cell|ê>|<cell|<key|accent:hat>>|<cell|Tréma <with|font
+  size|1.19|>>|<cell|<key|accent:umlaut e>>|<cell|ë>>|<row|<cell|<key|accent:tilde>>|<cell|Tilde
+  <with|font size|1.19|>>|<cell|<key|accent:tilde
+  a>>|<cell|ã>|<cell|<key|accent:cedilla>>|<cell|Cédille<with|font size|1.19|
+  >>|<cell|<key|accent:cedilla c>>|<cell|ç>>|<row|<cell|<key|accent:breve>>|<cell|Brève
+  <with|font size|1.19|>>|<cell|<key|accent:breve
+  g>>|<cell|§>|<cell|<key|accent:check>>|<cell|Caron <with|font
+  size|1.19|>>|<cell|<key|accent:check s>>|<cell|²>>|<row|<cell|<key|accent:abovering>>|<cell|Rond
+  en chef <with|font size|1.19|>>|<cell|<key|accent:abovering
+  a>>|<cell|å>|<cell|<key|accent:abovedot>>|<cell|Point en chef <with|font
+  size|1.19|\n>>|<cell|<key|accent:abovedot
+  z>>|<cell|»>>|<row|<cell|<key|accent:doubleacute>>|<cell|Double accent aigu
+  <with|font size|1.19|>>|<cell|<key|accent:doubleacute
   o>>|<cell|®>|<cell|>|<cell|>|<cell|>|<cell|>>>>>|Saisie de caractères
   accentués dans <TeXmacs>.>
 
