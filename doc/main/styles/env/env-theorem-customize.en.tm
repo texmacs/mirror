@@ -1,4 +1,4 @@
-<TeXmacs|1.0.4>
+<TeXmacs|1.0.7.6>
 
 <style|tmdoc>
 
@@ -8,25 +8,33 @@
   The following customizable macros are used for the rendering of textual
   environments:
 
+  <\explain|<explain-macro|render-enunciation|name|body>>
+    This macro is used for displaying a theorem-like and remark-like
+    environments. The first argument <src-arg|name> specifies the name of the
+    theorem, like ``Theorem 1.2'' and the second argument <src-arg|body>
+    contains the body of the theorem.
+  </explain>
+
   <\explain|<explain-macro|render-theorem|name|body>>
-    This macro is used for displaying a theorem-like environments. The first
-    argument <src-arg|name> specifies the name of the theorem, like ``Theorem
-    1.2'' and the second argument <src-arg|body> contains the body of the
-    theorem. This environment is used for environments defined by
+    This macro, based on <markup|render-enunciation>, is used for displaying
+    a theorem-like environments, and used for environments defined by
     <markup|new-theorem>.
   </explain>
 
   <\explain|<explain-macro|render-remark|name|body>>
-    Similar to <markup|render-theorem>, but for remark-like environments.
+    This macro, based on <markup|render-enunciation>, is used for displaying
+    a remark-like environments, and used for environments defined by
+    <markup|new-remark>.
   </explain>
 
   <\explain|<explain-macro|render-exercise|name|body>>
-    Similar to <markup|render-theorem>, but for exercise-like environments.
+    Similar to <markup|render-enunciation>, but for exercise-like
+    environments.
   </explain>
 
   <\explain|<explain-macro|render-proof|name|body>>
-    Similar to <markup|render-theorem>, but for proofs. This environment is
-    mainly used for customizing the name of a proof, like in ``End of the
+    Similar to <markup|render-enunciation>, but for proofs. This environment
+    is mainly used for customizing the name of a proof, like in ``End of the
     proof of theorem 1.2''.
   </explain>
 
@@ -36,23 +44,38 @@
 
   The following tags can be used for further customization of the rendering:
 
-  <\explain|<explain-macro|theorem-name|name>>
-    This macro controls the appearance of the names of theorem-like <em|and>
-    remark-like environments. Most styles use bold face or small capitals.
+  <\explain|<explain-macro|enunciation-name|name>>
+    This macro controls the appearance of the names of theorem-like,
+    remark-like <em|and> exercise-like environments. Most styles use bold
+    face or small capitals.
   </explain>
 
-  <\explain|<explain-macro|exercise-name|name>>
-    Similar to <markup|theorem-name>, but for exercises.
+  <\explain>
+    <explain-macro|theorem-name|name>
+
+    <explain-macro|remark-name|name>
+
+    <explain-macro|exercise-name|name>
+  <|explain>
+    These macros default to <markup|enunciation-name>, but can be customized
+    individually.
   </explain>
 
-  <\explain|<explain-macro|theorem-sep>>
-    The separator between the name of a theorem-like or remark-like
-    environment and its main body. By default, this is a period followed by a
-    space.
+  <\explain|<explain-macro|enunciation-sep>>
+    The separator between the name of a theorem-like, remark-like or
+    exercise-like environment and its main body. By default, this is a period
+    followed by a space.
   </explain>
 
-  <\explain|<explain-macro|exercise-sep>>
-    Similar to <markup|theorem-sep>, but for exercises.
+  <\explain>
+    <explain-macro|theorem-sep>
+
+    <explain-macro|remark-sep>
+
+    <explain-macro|exercise-sep>
+  <|explain>
+    These macros default to <markup|enunciation-sep>, but can be customized
+    individually.
   </explain>
 
   Each standard environment <markup|<em|x>> also comes with a customizable
