@@ -25,7 +25,7 @@
 
     <expand|item*|<prefix|M->>Per le combinazioni che includono il tasto meta.
 
-    <expand|item*|<prefix|H->>Per le combinazioni che includono il tasto hyper.
+    <expand|item*|<prefix|M-A->>Per le combinazioni che includono il tasto hyper.
   </description>
 
   Per esempio, <shortcut|(make-with font-series bold)> rappresenta <key|A-C-b>.
@@ -35,14 +35,14 @@
   <key|b>.
 
   I tasti <prefix|A->, <prefix|M-> e
-  <prefix|H-> non sono disponibili su tutte le tastiere. Sui PC
+  <prefix|M-A-> non sono disponibili su tutte le tastiere. Sui PC
   recenti, il tasto <prefix|M-> è spesso sostituito con il tasto
   <key|windows>. Nel caso in cui uno o più dei tasti
   modificatori non siano presenti sulla propria tastiera, si può utilizzare
   <key|escape> invece di <prefix|M->, <key|escape
   escape> invece di <prefix|A-> e <prefix|math:greek>,
   <key|escape escape escape> o
-  <prefix|A-C-> invece di <prefix|H->. Per esempio, <key|escape w> è
+  <prefix|A-C-> invece di <prefix|M-A->. Per esempio, <key|escape w> è
   equivalente a <key|A-w>. È anche possibile <apply|hyper-link|configurare i
   tasti modificatori|../config/man-config-kbd-modkeys.it.tm> in modo da
   ottenere il massimo vantaggio dal potente insieme di abbreviazioni da

@@ -32,14 +32,14 @@
     se você usa o look and feel do <name|Emacs>. Note que
     <key|escape> equivale a <prefix|M->.
 
-    <expand|item*|<prefix|H->>A tecla modificadora do usuário
+    <expand|item*|<prefix|M-A->>A tecla modificadora do usuário
     é usada para inserir símbolos especiais como letras gregas no modo
     matemático. Você pode configurar seu teclado para que a tecla <key|capslock>
-    funcione como a tecla hiper. A tecla <prefix|math:greek> equivale a <prefix|H->.
+    funcione como a tecla hiper. A tecla <prefix|math:greek> equivale a <prefix|M-A->.
   </description>
 
   Lembramos que as teclas modificadoras usadas para a obtenção dos prefixos
-  <prefix|M-> e <prefix|H-> podem ser <apply|hyper-link|configuradas|../../config/man-config-kbd-modkeys.pt.tm>
+  <prefix|M-> e <prefix|M-A-> podem ser <apply|hyper-link|configuradas|../../config/man-config-kbd-modkeys.pt.tm>
   em <apply|menu|Edit|Preferences>.
 
   <apply|tmdoc-copyright|1998--2003|Joris van der Hoeven|Ramiro Brito

@@ -7,8 +7,8 @@
 
   <TeXmacs> korzysta z pi¦ciu klawiszy modyfikuj¡cych: <prefix|S->,
   <prefix|C->, <prefix|A->, <prefix|M-> i
-  <prefix|H->, skracanych do <prefix|S->, <prefix|C->, <prefix|A->, <prefix|M-> i
-  <prefix|H->. Klawisze <prefix|S-> i <key|control> s¡ obecne na praktycznie
+  <prefix|M-A->, skracanych do <prefix|S->, <prefix|C->, <prefix|A->, <prefix|M-> i
+  <prefix|M-A->. Klawisze <prefix|S-> i <key|control> s¡ obecne na praktycznie
   ka»dej klawiaturze, a <key|alternate> jest na prawie wszystkich. Wi¦kszo±¢
   wspóªczesnych klawiatur posiada klawisz <key|windows>, który jest zwykle
   równowa»ny klawiszowi <key|meta> dla <TeXmacs>.
@@ -32,9 +32,9 @@
   dokªadniejsze informacje w jego dokumentacji.
 
   W niektórych wypadkach, na klawiaturze s¡ klawisze odpowiadaj¡ce
-  <prefix|A->, <prefix|M-> i <prefix|H->, jednak
+  <prefix|A->, <prefix|M-> i <prefix|M-A->, jednak
   ustawione inaczej ni» pasuje u»ytkownikowi. Mo»na zmieni¢ przypisanie
-  prefiksów <prefix|A->, <prefix|M->, i <prefix|H-> do modyfikatorów poprzez menu
+  prefiksów <prefix|A->, <prefix|M->, i <prefix|M-A-> do modyfikatorów poprzez menu
   <menu|Edit|Preferences|Keyboard>.
 
   Na przykªad, aby zachowa¢ kompatybilno±¢ z Emacsem mo»na spermutowa¢

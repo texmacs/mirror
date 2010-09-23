@@ -24,7 +24,7 @@
 
     <expand|item*|<prefix|M->>Para combinações precedidas pela tecla meta.
 
-    <expand|item*|<prefix|H->>Para combinações precedidas pela tecla hyper.
+    <expand|item*|<prefix|M-A->>Para combinações precedidas pela tecla hyper.
   </description>
 
   Por exemplo, <shortcut|(make-with font-series bold)> significa <key|A-C-b>.
@@ -33,14 +33,14 @@
   <prefix|table> <key|N> <key|b>.
 
   As teclas <prefix|A->, <prefix|M-> e
-  <prefix|H-> não estão disponíveis em todos os teclados. Em
+  <prefix|M-A-> não estão disponíveis em todos os teclados. Em
   computadores pessoais atuais, a tecla <prefix|M-> em geral é
   substituida pela tecla <key|windows>. Quando uma ou mais
   teclas modificadores não existem no seu teclado, você pode usar
   <key|escape> ao invés de <prefix|M->, <key|escape
   escape> no lugar de <prefix|A-> e <prefix|math:greek>,
   <key|escape escape escape> ou
-  <prefix|A-C-> no lugar de <prefix|H->. Por exemplo, <key|escape w>
+  <prefix|A-C-> no lugar de <prefix|M-A->. Por exemplo, <key|escape w>
   equivale a <key|A-w>. Você pode também <apply|hyper-link|configurar as
   teclas modificadoras|../config/man-config-kbd-modkeys.pt.tm> para
   aproveitar completamente o poderoso conjunto de atalhos de teclado que é

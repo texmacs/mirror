@@ -10,8 +10,8 @@
   un'equazione (utilizzando <apply|menu|Text|Mathematics|Equation>). In
   modalità matematica, si hanno a disposizione dei comandi specifici e delle
   combinazioni di tasti per scrivere simboli matematici e formule. Per
-  esempio, il prefisso <prefix|H-> può essere utilizzato per scrivere le lettere
-  greche (si ricordi che <prefix|H-> è equivalente a \ <prefix|math:greek>,
+  esempio, il prefisso <prefix|M-A-> può essere utilizzato per scrivere le lettere
+  greche (si ricordi che <prefix|M-A-> è equivalente a \ <prefix|math:greek>,
   <key|escape escape escape> o
   <prefix|A-C->).
 

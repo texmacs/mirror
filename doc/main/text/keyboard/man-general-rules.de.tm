@@ -37,15 +37,15 @@
     Beachten Sie bitte, dass einmaliges Tippen der <key|Esc>-Taste, also
     <key|escape>, \ gleichbedeutend ist mit <prefix|M->.
 
-    <item*|<prefix|H->>Diese Modifiziertaste wird zur
+    <item*|<prefix|M-A->>Diese Modifiziertaste wird zur
     Erzeugung spezieller Symbole, wie z.B. griechischer Buchstaben, benutzt.
     Sie können Ihre Tastatur so konfigurieren, dass die Hochstelltaste die
     Rolle der Hypertaste spielt (<menu|Edit|Preferences|Keyboard>). Die Taste
-    <prefix|math:greek> ist der Taste \ <prefix|H-> äquivalent.
+    <prefix|math:greek> ist der Taste \ <prefix|M-A-> äquivalent.
   </description>
 
   Es sei daran erinnert, dass die Modifiziertasten, die zur Erzeugung von
-  <prefix|M-> und <prefix|H-> benutzt werden, im Menü
+  <prefix|M-> und <prefix|M-A-> benutzt werden, im Menü
   <menu|Edit|Preferences|Keyboard> <hyper-link|konfiguriert|../../config/man-config-kbd-modkeys.en.tm>
   werden können.
 

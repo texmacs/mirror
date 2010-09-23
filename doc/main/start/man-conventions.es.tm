@@ -23,7 +23,7 @@
 
     <expand|item*|<prefix|M->>Para combinaciones con la tecla meta.
 
-    <expand|item*|<prefix|H->>Para combinaciones con la tecla hyper.
+    <expand|item*|<prefix|M-A->>Para combinaciones con la tecla hyper.
   </description>
 
   Por ejemplo, <shortcut|(make-with font-series bold)> representa <key|alt-ctrl-b>. Epacios dentro de los
@@ -35,7 +35,7 @@
   reemplazada por la tecla <key|windows>. In the case when one or several
   modifier keys are missing on your keyboard, you may use <key|escape>
   instead of <prefix|M->, <key|escape escape> instead of <prefix|A-> and <prefix|math:greek>,
-  <key|escape escape escape> or <prefix|A-C-> instead of <prefix|H->. For instance,
+  <key|escape escape escape> or <prefix|A-C-> instead of <prefix|M-A->. For instance,
   <key|escape w> is equivalent to <key|A-w>. Uste puede también
   <apply|hyper-link|configurar los modificadores de
   teclado|../config/man-config-kbd-modkeys.es.tm> a fin de tomar ventaja

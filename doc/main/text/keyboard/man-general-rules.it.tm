@@ -34,15 +34,15 @@
     <key|A-w> per copiare del testo se si usa l'aspetto <name|Emacs>. Si noti
     che <key|escape> è equivalente a <prefix|M->.
 
-    <expand|item*|<prefix|H->>Il tasto hyper è utilizzato per
+    <expand|item*|<prefix|M-A->>Il tasto hyper è utilizzato per
     produrre simboli speciali come i caratteri greci in modalità matematica.
     Si può configurare la propria tastiera in modo tale che il tasto Maius
     svolga il ruolo del tasto hyper. Il tasto <prefix|math:greek> è equivalente a
-    <prefix|H->.
+    <prefix|M-A->.
   </description>
 
   Ricordiamo che i particolari tasti modificatori, che sono utilizzati per
-  ottenere i prefissi <prefix|M-> e <prefix|H->, possono essere
+  ottenere i prefissi <prefix|M-> e <prefix|M-A->, possono essere
   <apply|hyper-link|configurati|../../config/man-config-kbd-modkeys.it.tm> in
   <apply|menu|Edit|Preferences>.
 

@@ -6,10 +6,10 @@
   <tmdoc-title|Mathematische Symbole eingeben>
 
   Die griechischen Buchstaben können in <TeXmacs> eingegeben werden, indem
-  die <em|Hyper-Modifiertaste> <prefix|H-> mit einem Buchstaben kombiniert wird.
+  die <em|Hyper-Modifiertaste> <prefix|M-A-> mit einem Buchstaben kombiniert wird.
   Beispielsweise ergibt <key|H-a> \ <with|mode|math|\<alpha\>> und <key|H-G>
   gibt <with|mode|math|\<Gamma\>>. <hyper-link|Erinnern Sie
-  sich|../../start/man-conventions.de.tm>, dass <prefix|math:greek> zu <prefix|H->
+  sich|../../start/man-conventions.de.tm>, dass <prefix|math:greek> zu <prefix|M-A->
   äquivalent ist, so dass man <with|mode|math|\<rho\>> mit <key|F5 r>
   erhalten kann.
 

@@ -6,10 +6,10 @@
   <expand|tmdoc-title|Simboli matematici>
 
   In <TeXmacs>, i caratteri greci si ottengono combinando il tasto
-  modificatore <prefix|H-> con una lettera. Per esempio, <key|H-a> genera
+  modificatore <prefix|M-A-> con una lettera. Per esempio, <key|H-a> genera
   <with|mode|math|\<alpha\>> e <key|H-G> genera <with|mode|math|\<Gamma\>>.
   <apply|hyper-link|Ricordiamo|../../start/man-conventions.it.tm> che il
-  tasto <prefix|math:greek> è equivalente a <prefix|H->, quindi <with|mode|math|\<rho\>>
+  tasto <prefix|math:greek> è equivalente a <prefix|M-A->, quindi <with|mode|math|\<rho\>>
   può anche essere ottenuto battendo i tasti <key|F5 r>. Analogamente,
   <prefix|math:bold>, <prefix|math:cal>, <prefix|math:frak> e <prefix|math:bbb> possono essere utilizzati per
   scrivere caratteri in grassetto, calligrafici, fraktur e lavagna grassetto.

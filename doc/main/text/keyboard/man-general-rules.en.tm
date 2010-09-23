@@ -1,4 +1,4 @@
-<TeXmacs|1.0.3>
+<TeXmacs|1.0.7.6>
 
 <style|tmdoc>
 
@@ -8,39 +8,35 @@
   Since there are many keyboard shortcuts, it is important to have some ways
   of classifying them in several categories, in order to make it easier to
   memorize them. As a general rule, keyboard shortcuts which fall in the same
-  category are identified by a common prefix. The main such common prefixes
-  are:
+  category are identified by a common prefix. The active prefixes heavily
+  depend on the selected ``look and feel'' in <menu|Edit|Preferences>. For
+  instance, when selecting and <name|Emacs> look and feel, \ the main common
+  prefixes are:
 
   <\description>
-    <item*|<prefix|C->>Control key based shortcuts are used
-    for frequently used editing commands. They depend very much on the ``look
-    and feel'' in <menu|Edit|Preferences>. For instance, if you use an
-    <name|Emacs>-compatible look and feel, then the shortcuts of the form
-    <prefix|C-> correspond to <name|Emacs> commands, like
+    <item*|<prefix|C->>Control key based shortcuts are used for frequently
+    used editing commands. In the <name|Emacs>-compatible look and feel, the
+    <prefix|C->-based shortcuts correspond to <name|Emacs> commands, such as
     <key|C-y> for pasting text.
 
-    <item*|<prefix|A->>The alternate key is used for commands
-    which depend on the mode that you are in. For instance, <key|text s>
-    produces <strong|strong> text in text mode and a square root
-    <with|mode|math|<sqrt|>> in math mode. Notice that <key|escape
-    escape> is equivalent to <prefix|A->.
+    <item*|<prefix|A->>The alternate key is used for commands which depend on
+    the mode that you are in. For instance, <key|text s> produces
+    <strong|strong> text in text mode and a square root
+    <with|mode|math|<sqrt|>> in math mode. Notice that <prefix|A-> is
+    equivalent to <key*|escape escape>.
 
-    <item*|<prefix|M->>The meta key is used for general
-    purpose <TeXmacs> commands, which can be used in all modes. For instance,
-    <shortcut|(make-label)> produces a label. It is also used for additional editing
-    commands, like <key|A-w> for copying text if you use the <name|Emacs>
-    look and feel. Notice that <key|escape> is equivalent to <prefix|M->.
-
-    <item*|<prefix|H->>The user keyboard modifier key is used
-    for producing special symbols like Greek characters in math mode. You may
-    configure your keyboard so as to let <key|capslock> play the rôle of the hyper
-    key. The <prefix|math:greek> is equivalent to <prefix|H->.
+    <item*|<prefix|M->>The meta key is used for general purpose <TeXmacs>
+    commands, which can be used in all modes. For instance,
+    <shortcut|(make-label)> produces a label. It is also used for additional
+    editing commands, such as <key|A-w> for copying text. Notice that
+    <prefix|M-> is equivalent to <key*|escape>.
   </description>
 
-  We recall that the particular modifier keys which are used in order to
-  obtain the <prefix|M-> and <prefix|H-> prefixes can be
-  <hyper-link|configured|../../config/man-config-kbd-modkeys.en.tm> in
-  <menu|Edit|Preferences>.
+  In the MacOS ``look and feel'', the <key|M->-based shortcuts are designed
+  so as to correspond as much as possible to standard shortcuts from MacOS.
+  Please refer to the section on <hlink|general
+  conventions|../../start/man-conventions.en.tm> for detailed explanations of
+  the abbreviations used in this manual for printing keyboard shortcuts.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
 
@@ -54,35 +50,6 @@
 
 <\initial>
   <\collection>
-    <associate|page-even|30mm>
-    <associate|page-reduce-bot|15mm>
-    <associate|page-reduce-right|25mm>
-    <associate|page-reduce-left|25mm>
-    <associate|sfactor|4>
-    <associate|page-top|30mm>
-    <associate|page-type|a4>
-    <associate|page-right|30mm>
-    <associate|par-width|150mm>
-    <associate|page-odd|30mm>
-    <associate|page-bot|30mm>
     <associate|language|english>
-    <associate|page-reduce-top|15mm>
   </collection>
 </initial>
-
-<\references>
-  <\collection>
-    <associate|idx-1|<tuple|<uninit>|?>>
-    <associate|idx-2|<tuple|<uninit>|?>>
-  </collection>
-</references>
-
-<\auxiliary>
-  <\collection>
-    <\associate|idx>
-      <tuple|<tuple|<with|font-family|<quote|ss>|Edit>|<with|font-family|<quote|ss>|Preferences>>|<pageref|idx-1>>
-
-      <tuple|<tuple|<with|font-family|<quote|ss>|Edit>|<with|font-family|<quote|ss>|Preferences>>|<pageref|idx-2>>
-    </associate>
-  </collection>
-</auxiliary>

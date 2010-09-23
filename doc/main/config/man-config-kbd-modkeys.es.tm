@@ -7,7 +7,7 @@
 
   <apply|TeXmacs> usa cinco modificadores de teclado principales:
   <prefix|S->, <key|control>, <key|alternate>, <key|meta> e <key|hyper>, que
-  son abreviadas como <prefix|S->, <prefix|C->, <prefix|A->, <prefix|M-> and <prefix|H->.
+  son abreviadas como <prefix|S->, <prefix|C->, <prefix|A->, <prefix|M-> and <prefix|M-A->.
   Las teclas <prefix|S-> y <key|control> están presentes en virtualmente
   todos los teclados y la tecla <key|alternate> en la mayoría. Muchos
   fabricantes de PC's estos días tienen también una tecla \ <key|windows>, la
@@ -43,7 +43,7 @@
   En ciertos casos, usted ya tiene teclas en su teclado que corresponde a
   <key|alter>, <key|meta> e <key|hyper>, pero no en la forma en que usted
   quiere. Esto puede ser hecho reasinando los prefijos \ <prefix|A->, <prefix|M-> y
-  <prefix|H-> a otros modificadores lógicos en el primer grupo de submenus de
+  <prefix|M-A-> a otros modificadores lógicos en el primer grupo de submenus de
   <apply|menu|Edit|Preferences|Keyboard>.
 
   Por ejemplo, para compatibilidad con <name|Emacs>, podría querer permutar

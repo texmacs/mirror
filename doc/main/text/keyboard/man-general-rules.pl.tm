@@ -28,15 +28,15 @@
     polece« edytorskich, jak <key|M-w> dla kopiowania tekstu, je±li ustawiony
     jest wygl¡d <name|Emacs>. <key|escape> jest równowa»ny <prefix|M->.
 
-    <item*|<prefix|H->>Zdefiniowany przez u»ytkownika klawisz
+    <item*|<prefix|M-A->>Zdefiniowany przez u»ytkownika klawisz
     modyfikuj¡cy jest u»ywany do tworzenia symboli specjalnych jak litery
     greckie w trybie matematycznym. Mo»na skonfigurowa¢ klawiatur¦ tak aby
     <key|capslock> peªniª funkcj¦ klawisza hyper. <prefix|math:greek> jest równowa»ne
-    <prefix|H->.
+    <prefix|M-A->.
   </description>
 
   Konkretne klawisze które mog¡ by¢ u»yte do otrzymania prefiksów <prefix|M-> i
-  <prefix|H-> mo»na <hyper-link|ustawi¢|../../config/man-config-kbd-modkeys.pl.tm>
+  <prefix|M-A-> mo»na <hyper-link|ustawi¢|../../config/man-config-kbd-modkeys.pl.tm>
   poprzez <menu|Edit|Preferences>.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>

@@ -1,48 +1,46 @@
-<TeXmacs|1.0.1.11>
+<TeXmacs|1.0.7.6>
 
 <style|tmdoc>
 
 <\body>
-  <expand|tmdoc-title|Conventions for this manual>
+  <tmdoc-title|Conventions for this manual>
+
+  <paragraph*|Menu entries>
 
   Throughout the <TeXmacs> manual, menu entries will be typeset using a
-  <em|sans serif> font, like in <apply|menu|Document>, <apply|menu|File|Load>
-  or <apply|menu|Text|Font shape|Italic>. Keyboard input will be typeset in a
-  <em|typewriter> font inside boxes, like in <key|C-s>. At the righthand side
-  of menu entries, you see keystroke equivalents, when these are available.
-  The following abbreviations are used for such keystrokes:
+  <em|sans serif> font, like in <menu|Document>, <menu|File|Load> or
+  <menu|Text|Font shape|Italic>.
+
+  <paragraph*|Keyboard modifiers>
+
+  <TeXmacs> makes use of the following keyboard modifiers:
 
   <\description>
-    <expand|item*|<prefix|S->>For shift key combinations.
+    <item*|<prefix|S->>For shift key combinations.
 
-    <expand|item*|<prefix|C->>For control key combinations.
+    <item*|<prefix|C->>For control key combinations.
 
-    <expand|item*|<verbatim|><prefix|A->>For alternate key combinations.
+    <item*|<verbatim|><prefix|A->>For alternate key combinations.
 
-    <expand|item*|<prefix|M->>For meta key combinations.
-
-    <expand|item*|<prefix|H->>For hyper key combinations.
+    <item*|<prefix|M->>For meta key combinations.
   </description>
 
-  For instance, <shortcut|(make-with font-series bold)> stands for <key|A-C-b>.
-  Spaces inside keyboard shortcuts indicate multiple key-presses. For
-  instance, <key|table N b> stands for <prefix|table>
-  <key|N> <key|b>.
+  For instance, <key*|M-S-x> stands for the action which consists of
+  simultaneously pressing the three keys <prefix|M->, <prefix|S-> and
+  <key|x>.
 
-  The <prefix|A->, <prefix|M-> and
-  <prefix|H-> keys are not available on all keyboards. On
-  recent PC's, the <prefix|M-> key is often replaced by the
-  <key|windows> key. In the case when one or several
-  modifier keys are missing on your keyboard, you may use
-  <key|escape> instead of <prefix|M->,
-  <key|escape escape> instead of <prefix|A->
-  and <prefix|math:greek>, <key|escape escape
-  escape> or <prefix|A-C-> instead of <prefix|H->. For instance,
-  <key|escape w> is equivalent to <key|A-w>. You may also
-  <apply|hyper-link|configure the keyboard
-  modifiers|../config/man-config-kbd-modkeys.en.tm> in order to take full
-  advantage out of the powerful set of keyboard shortcuts which is provided
-  by <TeXmacs>.
+  <paragraph*|Keyboard shortcuts>
+
+  More complex keyboard shortcuts are obtain by pressing several keys or
+  ``modified keys'' in succession. For instance, the shortcut <key|- \<gtr\>>
+  corresponds on first pressing the <key|-> key and then the key
+  <key|\<gtr\>>. Inside mathematical formulas, this shortcut inserts the
+  arrow <math|<op|\<rightarrow\>>>. Similarly, the shortcut <key*|C-x C-f>
+  consists of first pressing the keys <prefix|C-> and <key|x> together, and
+  next pressing the keys <prefix|C-> and <key|f> again together. In the
+  <name|Emacs> ``look and feel'', this shortcut enables you to open a new
+  file. Some common keyboard prefixes are detailed in the section on
+  <hlink|general keyboard rules|../text/keyboard/man-general-rules.en.tm>.
 
   Notice that the <TeXmacs> menus and keyboard behavior are <em|contextual>,
   <abbr|i.e.> they depend on the current mode (i.e. text mode or ``math
@@ -51,54 +49,36 @@
   shortcuts which are handy for typing mathematical formulas, but which are
   useless in text mode.
 
-  <apply|tmdoc-copyright|1998--2002|Joris van der Hoeven>
+  <paragraph*|Special keys>
 
-  <expand|tmdoc-license|Permission is granted to copy, distribute and/or
-  modify this document under the terms of the GNU Free Documentation License,
-  Version 1.1 or any later version published by the Free Software Foundation;
-  with no Invariant Sections, with no Front-Cover Texts, and with no
-  Back-Cover Texts. A copy of the license is included in the section entitled
-  "GNU Free Documentation License".>
+  On some platforms, some special keys such as the Return key are depicted by
+  short glyphs. Below follows the table with all such special keys and there
+  meaning.
+
+  <\big-table|<descriptive-table|<tformat|<cwith|1|-1|3|3|cell-lborder|1ln>|<cwith|1|-1|1|-1|cell-halign|l>|<cwith|1|-1|1|-1|cell-row-span|1>|<cwith|1|-1|1|-1|cell-col-span|1>|<cwith|7|11|1|1|cell-lborder|1ln>|<cwith|7|11|1|2|cell-halign|l>|<cwith|7|11|1|2|cell-row-span|1>|<cwith|7|11|1|2|cell-col-span|1>|<table|<row|<cell|Key>|<cell|Meaning>|<cell|Key>|<cell|Meaning>>|<row|<cell|<key|S->>|<cell|Shift
+  modifier>|<cell|<key|left>>|<cell|Cursor
+  left>>|<row|<cell|<key|capslock>>|<cell|Caps
+  lock>|<cell|<key|right>>|<cell|Cursor right>>|<row|<cell|<key|C->>|<cell|Control
+  modifier>|<cell|<key|up>>|<cell|Cursor up>>|<row|<cell|<key|A->>|<cell|Alternate
+  modifier>|<cell|<key|down>>|<cell|Cursor
+  down>>|<row|<cell|<key|M->>|<cell|Meta modifier>|<cell|<key|home>>|<cell|Home>>|<row|<cell|<key|return>>|<cell|Return>|<cell|<key|end>>|<cell|End>>|<row|<cell|<key|delete>>|<cell|Forward
+  delete>|<cell|<key|pageup>>|<cell|Page up>>|<row|<cell|<key|backspace>>|<cell|Backspace>|<cell|<key|pagedown>>|<cell|Page
+  down>>|<row|<cell|<key|escape>>|<cell|Escape>|<cell|<key|space>>|<cell|Space>>|<row|<cell|<key|tab>>|<cell|Tab>|<cell|>|<cell|>>>>>>
+    Special keys.
+  </big-table>
+
+  <tmdoc-copyright|1998--2002|Joris van der Hoeven>
+
+  <tmdoc-license|Permission is granted to copy, distribute and/or modify this
+  document under the terms of the GNU Free Documentation License, Version 1.1
+  or any later version published by the Free Software Foundation; with no
+  Invariant Sections, with no Front-Cover Texts, and with no Back-Cover
+  Texts. A copy of the license is included in the section entitled "GNU Free
+  Documentation License".>
 </body>
 
 <\initial>
   <\collection>
-    <associate|paragraph width|150mm>
-    <associate|odd page margin|30mm>
-    <associate|shrinking factor|4>
-    <associate|page right margin|30mm>
-    <associate|page top margin|30mm>
-    <associate|reduction page right margin|25mm>
-    <associate|page type|a4>
-    <associate|reduction page bottom margin|15mm>
-    <associate|even page margin|30mm>
-    <associate|reduction page left margin|25mm>
-    <associate|page bottom margin|30mm>
-    <associate|reduction page top margin|15mm>
     <associate|language|english>
   </collection>
 </initial>
-
-<\references>
-  <\collection>
-    <associate|toc-1|<tuple|<uninit>|?>>
-    <associate|idx-1|<tuple|<uninit>|?>>
-    <associate|idx-2|<tuple|<uninit>|?>>
-    <associate|idx-3|<tuple|<uninit>|?>>
-  </collection>
-</references>
-
-<\auxiliary>
-  <\collection>
-    <\associate|idx>
-      <tuple|<tuple|<with|font family|<quote|ss>|Document>>|<pageref|idx-1>>
-
-      <tuple|<tuple|<with|font family|<quote|ss>|File>|<with|font
-      family|<quote|ss>|Load>>|<pageref|idx-2>>
-
-      <tuple|<tuple|<with|font family|<quote|ss>|Text>|<with|font
-      family|<quote|ss>|Font shape>|<with|font
-      family|<quote|ss>|Italic>>|<pageref|idx-3>>
-    </associate>
-  </collection>
-</auxiliary>

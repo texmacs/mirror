@@ -6,10 +6,10 @@
   <expand|tmdoc-title|Tecleando símbolos matemáticos>
 
   Los caracteres griegos son obtenidos en <apply|TeXmacs> por la combinación
-  de la tecla modificadora <prefix|H-> con una letra. Por ejemplo, <key|H-a>
+  de la tecla modificadora <prefix|M-A-> con una letra. Por ejemplo, <key|H-a>
   produce <with|mode|math|\<alpha\>> y <key|H-G> produce
   <with|mode|math|\<Gamma\>>. <apply|hyper-link|Recuerde|../../start/man-conventions.es.tm>
-  que la tecla <prefix|math:greek> es equivalente a <prefix|H->, así que
+  que la tecla <prefix|math:greek> es equivalente a <prefix|M-A->, así que
   <with|mode|math|\<rho\>> puede también ser obtenido tecleando
   <with|mode|math|\<rho\>>. Similarmente, <prefix|math:bold>, <prefix|math:cal>, <prefix|math:frak> y
   <prefix|math:bbb> pueden ser usados a fin de teclear caractéres resaltados,

@@ -33,7 +33,7 @@
     copiar texto si usted usa el aspecto y comportamiento <name|Emacs>. Note
     que <key|escape> es equivalente a <prefix|M->.
 
-    <expand|item*|<prefix|H->>El modificador de teclado de
+    <expand|item*|<prefix|M-A->>El modificador de teclado de
     usuario es usado para producer símbolos especiales como los catacteres
     griegos en el modo matemático. Puede configurar su teclado para dejar que
     la tecla de mayúsculas juegue el rol de la tecla hiper. El <prefix|math:greek> is
@@ -41,7 +41,7 @@
   </description>
 
   Recordamos que los modificadores particulares que son usados a fin de
-  obtener los prefijos <prefix|M-> y <prefix|H-> pueden ser
+  obtener los prefijos <prefix|M-> y <prefix|M-A-> pueden ser
   <apply|hyper-link|configurados|../../config/man-config-kbd-modkeys.es.tm>
   en <apply|menu|Edit|Preferences>.
 

@@ -8,8 +8,8 @@
   <apply|TeXmacs> utilizza cinque principali modificatori da tastiera:
   <prefix|S->, <prefix|C->,
   <prefix|A->, <prefix|M-> e
-  <prefix|H->, che vengono abbreviati rispettivamente con
-  <prefix|S->, <prefix|C->, <prefix|A->, <prefix|M-> e <prefix|H->. I tasti
+  <prefix|M-A->, che vengono abbreviati rispettivamente con
+  <prefix|S->, <prefix|C->, <prefix|A->, <prefix|M-> e <prefix|M-A->. I tasti
   <prefix|S-> e \ <prefix|C-> si trovano su tutte
   le tastiere; il tasto \ <prefix|A-> su quasi tutte. Molte
   tastiere moderne sono dotate anche del tasto <key|windows>
@@ -22,7 +22,7 @@
   saranno necessarie modifiche di configurazione. Una possibile eccezione è
   che desideriate utilizzare il tasto <key|capslock> per
   scrivere simboli matematici. In questo caso dovrete far corrispondere il
-  tasto <key|capslock> al tasto <prefix|H->.
+  tasto <key|capslock> al tasto <prefix|M-A->.
 
   Per riconfigurare la tastiera è sufficiente selezionare, nel menu
   <apply|menu|Edit|Preferences|Keyboard>, il modificatore logico che
@@ -32,7 +32,7 @@
   <prefix|M->. In modo del tutto analogo, selezionando
   <apply|menu|Caps-lock key|Map to H modifier>, il tasto
   <key|capslock> verrà fatto corrispondere al modificatore
-  <prefix|H->.
+  <prefix|M-A->.
 
   Sfortunatamente il sistema X Window permette di effettuare solo
   riconfigurazioni globali. Per questo, se in <TeXmacs> viene riconfigurato
@@ -49,9 +49,9 @@
 
   In alcuni casi può accadere che i tasti corrispondenti a
   <prefix|A->, <prefix|M-> e
-  <prefix|H->, siano presenti sulla tastiera ma non funzionino
+  <prefix|M-A->, siano presenti sulla tastiera ma non funzionino
   nel modo desiderato. Per farli funzionare adeguatamente è sufficiente
-  rimappare i prefissi <prefix|A->, <prefix|M-> e <prefix|H-> in altri modificatori
+  rimappare i prefissi <prefix|A->, <prefix|M-> e <prefix|M-A-> in altri modificatori
   logici appartenenti al primo gruppo di sottomenu in
   <apply|menu|Edit|Preferences|Keyboard>.
 

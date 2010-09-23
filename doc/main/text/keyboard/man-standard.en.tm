@@ -1,4 +1,4 @@
-<TeXmacs|1.0.2.9>
+<TeXmacs|1.0.7.6>
 
 <style|tmdoc>
 
@@ -10,16 +10,12 @@
   <\description>
     <item*|<shortcut|(kbd-shift-return)>>always starts a new paragraph.
 
-    <item*|<shortcut|(remove-structure-upwards)>>remove the containing object or
-    environment.
+    <item*|<shortcut|(remove-structure-upwards)>>remove the containing object
+    or environment.
 
     <item*|<shortcut|(make-space "0.2spc")>>insert a small space.
 
     <item*|<shortcut|(make-space "-0.2spc")>>insert a small negative space.
-
-    <item*|<shortcut|(selection-set-start)>>manually set start of the selection.
-
-    <item*|<shortcut|(selection-set-end)>>manually set end of the selection.
 
     <item*|<shortcut|(go-start)>>go to the start of the document.
 
@@ -38,18 +34,6 @@
 
 <\initial>
   <\collection>
-    <associate|page-even|30mm>
-    <associate|page-reduce-bot|15mm>
-    <associate|page-reduce-right|25mm>
-    <associate|page-reduce-left|25mm>
-    <associate|sfactor|4>
-    <associate|page-top|30mm>
-    <associate|page-type|a4>
-    <associate|page-right|30mm>
-    <associate|par-width|150mm>
-    <associate|page-odd|30mm>
-    <associate|page-bot|30mm>
     <associate|language|english>
-    <associate|page-reduce-top|15mm>
   </collection>
 </initial>

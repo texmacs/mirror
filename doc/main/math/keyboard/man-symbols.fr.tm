@@ -6,10 +6,10 @@
   <expand|tmdoc-title|Saisie de symboles mathématiques>
 
   Dans <apply|TeXmacs>, on accède aux caractères grecs en combinant la touche
-  <prefix|H-> avec une lettre. Par exemple, <key|H-a> produit le caractère
+  <prefix|M-A-> avec une lettre. Par exemple, <key|H-a> produit le caractère
   <with|mode|math|\<alpha\>> et <key|H-G> le caractère
   <with|mode|math|\<Gamma\>>. <apply|hyper-link|Souvenez-vous|../../start/man-conventions.fr.tm>
-  que la touche <prefix|math:greek> est équivalente à <prefix|H-> ; vous pouvez donc aussi
+  que la touche <prefix|math:greek> est équivalente à <prefix|M-A-> ; vous pouvez donc aussi
   utiliser <key|F5 r> pour obtenir <with|mode|math|\<rho\>>. De même,
   <prefix|math:bold>, <prefix|math:cal>, <prefix|math:frak> et <prefix|math:bbb> permettent d'obtenir des
   caractères gras, calligraphiques, gothiques ou des onciales. Par exemple,

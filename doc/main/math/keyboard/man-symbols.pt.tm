@@ -6,10 +6,10 @@
   <expand|tmdoc-title|Digitando símbolos matemáticos>
 
   Letras gregas são inseridas no <apply|TeXmacs> através da combinação da
-  tecla modificadora hiper <prefix|H-> com uma letra. Por exemplo, <key|H-a>
+  tecla modificadora hiper <prefix|M-A-> com uma letra. Por exemplo, <key|H-a>
   gera <with|mode|math|\<alpha\>> e <key|H-G> produz
   <with|mode|math|\<Gamma\>>. <apply|hyper-link|Lembre-se|../../start/man-conventions.pt.tm>
-  que a tecla <prefix|math:greek> é equivalente a <prefix|H->, de forma que
+  que a tecla <prefix|math:greek> é equivalente a <prefix|M-A->, de forma que
   <with|mode|math|\<rho\>> pode ser obtido também com <key|F5 r>. De forma
   análoga, <prefix|math:bold>, <prefix|math:cal>, <prefix|math:frak> e <prefix|math:bbb> podem ser usados para
   inserir caracteres em negrito, caligráficos, fraktur e blackboard bold. Por

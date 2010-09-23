@@ -6,10 +6,10 @@
   <tmdoc-title|Wprowadzanie symboli matematycznych>
 
   Grecki alfabet jest uzyskiwany w <TeXmacs> poprzez ª¡czenie modyfikatora
-  hyper'' <prefix|H-> z liter¡. Na <no-break>przykªad, <key|H-a> daje
+  hyper'' <prefix|M-A-> z liter¡. Na <no-break>przykªad, <key|H-a> daje
   <with|mode|math|\<alpha\>> a <key|H-G> <with|mode|math|\<Gamma\>>. Jak to
   <hyper-link|wcze±niej|../../start/man-conventions.pl.tm> napisano <prefix|math:greek>
-  jest równowa»ny z <prefix|H->, zatem <with|mode|math|\<rho\>> mo»e by¢ równie»
+  jest równowa»ny z <prefix|M-A->, zatem <with|mode|math|\<rho\>> mo»e by¢ równie»
   uzyskane jako <key|F5 r>. Dodatkowo <prefix|math:bold>, <prefix|math:cal>, <prefix|math:frak> i
   <prefix|math:bbb> mog¡ by¢ u»yte do wpisania: znaku pogrubionego, kaligraficznego,
   fraktur i blackboard odpowiednio. Na przykªad, <shortcut|\<frak-m\>> daje

@@ -7,7 +7,7 @@
 
   <TeXmacs> benutzt fünf Tastatur-Modifikatoren: <key|Umschalt>,
   <key|Steuerung>, <key|Alt>, <key|Meta> und <key|Hyper>, die mit \ <prefix|S->,
-  <prefix|C->, <prefix|A->, <prefix|M-> und <prefix|H-> abgekürzt werden. Die
+  <prefix|C->, <prefix|A->, <prefix|M-> und <prefix|M-A-> abgekürzt werden. Die
   <key|Umschalt>- und die <key|Steuerung>-Taste gibt es praktisch auf allen
   Tastaturen, die \ <key|Alt>-Taste auf fast allen. Die meisten heutigen
   Tastaturen haben auch eine \ <key|windows>-Taste, die gewöhnlich die
@@ -42,7 +42,7 @@
   Manchmal haben Sie bereits Tasten auf Ihrer Tastatur, die in ihrer Funktion
   \ <key|Alt>, <key|Meta> und <key|Hyper> entsprechen, aber nicht gerade so,
   wie Sie es gerne hätten. Dann können Sie die Kurzbefehle <prefix|A->, <prefix|M->
-  und <prefix|H-> auf andere logische Modifikatoren (Mod1 bis Mod4) mit den
+  und <prefix|M-A-> auf andere logische Modifikatoren (Mod1 bis Mod4) mit den
   Befehlen der ersten Gruppe des Menüs \ <menu|Edit|Preferences|Keyboard>
   umlegen. Wenn Sie beispielsweise Emacs Kompatibilität haben wollen, möchten
   Sie vielleicht die \ <key|Meta>- oder die <key|Windows>-Taste mit der

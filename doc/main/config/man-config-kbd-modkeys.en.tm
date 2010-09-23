@@ -8,8 +8,8 @@
   <apply|TeXmacs> uses five major keyboard modifiers:
   <prefix|S->, <prefix|C->,
   <prefix|A->, <prefix|M-> and
-  <prefix|H->, which are abbreviated as <prefix|S->, <prefix|C->,
-  <prefix|A->, <prefix|M-> and <prefix|H->. The <prefix|S-> and
+  <prefix|M-A->, which are abbreviated as <prefix|S->, <prefix|C->,
+  <prefix|A->, <prefix|M-> and <prefix|M-A->. The <prefix|S-> and
   <prefix|C-> keys are present on virtually all keyboards and
   the <prefix|A-> key on almost all. Most keyboards for PC's
   nowadays also have a <key|windows> key, which is usually
@@ -22,7 +22,7 @@
   then you probably do not want to do anything. A possible exception is when
   you want to use a simple key like <key|capslock> for
   typing mathematical symbols. In that case, you should map
-  <key|capslock> to <prefix|H->.
+  <key|capslock> to <prefix|M-A->.
 
   In order to reconfigure the keyboard, you simply select the logicial
   modifier that you want to correspond to a given physical key in
@@ -32,7 +32,7 @@
   <prefix|M-> modifier. Similarly, when selecting
   <apply|menu|Caps-lock key|Map to H modifier>, the
   <key|capslock> key will correspond to the
-  <prefix|H-> modifier.
+  <prefix|M-A-> modifier.
 
   Unfortunately, X Window only allows system-wide reconfiguration.
   Consequently, if you reconfigure the <key|capslock> key
@@ -48,8 +48,8 @@
 
   In certain cases, you already have keys on your keyboard which correspond
   to <prefix|A->, <prefix|M-> and
-  <prefix|H->, but not in the way you want. This can be done by
-  remapping the <prefix|A->, <prefix|M-> and <prefix|H-> prefixes to other logical
+  <prefix|M-A->, but not in the way you want. This can be done by
+  remapping the <prefix|A->, <prefix|M-> and <prefix|M-A-> prefixes to other logical
   modifiers in the first group of submenus of
   <apply|menu|Edit|Preferences|Keyboard>.
 

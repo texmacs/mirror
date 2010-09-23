@@ -9,8 +9,8 @@
   matemático'' presionando la tecla <key|$>- o mediante la inserción de una
   ecuación (usando <apply|menu|Insert|Mathematics|Equation>). En modo
   matemático, puede tener comandos específicos y combinaciones de teclas para
-  teclaer símbolos matemáticos y fórmulas. Por ejemplo el prefijo <prefix|H->
-  puede ser usado a fin de ingresar símbolos griegos (recuerdo que <prefix|H->
+  teclaer símbolos matemáticos y fórmulas. Por ejemplo el prefijo <prefix|M-A->
+  puede ser usado a fin de ingresar símbolos griegos (recuerdo que <prefix|M-A->
   es equivalente a <prefix|math:greek>, <key|escape escape escape> o <prefix|A-C->).
 
   El editor favorece teclear matemáticas con un cierto significado. Esta

@@ -32,7 +32,7 @@
     avec l'apparence Emacs, comme <key|A-w> pour copier du texte. Notez que
     <key|escape> est équivalent à <prefix|M->.
 
-    <expand|item*|<prefix|H->>La touche hyper est utilisée
+    <expand|item*|<prefix|M-A->>La touche hyper est utilisée
     pour générer des symboles spéciaux, tels les caractères grecs en mode
     maths. Vous pouvez configurer votre clavier de telle sorte que la touche
     majuscule fixe joue le rôle de la touche hyper. La touche de fonction
@@ -40,7 +40,7 @@
   </description>
 
   Rappelons que les touches spéciales de modification utilisées pour générer
-  les préfixes <prefix|M-> et <prefix|H-> peuvent être
+  les préfixes <prefix|M-> et <prefix|M-A-> peuvent être
   <apply|hyper-link|configurées|../../config/man-config-kbd-modkeys.fr.tm>
   avec <apply|menu|Édition|Préférences>.
 

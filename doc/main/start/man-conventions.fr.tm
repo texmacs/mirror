@@ -22,7 +22,7 @@
 
     <expand|item*|<prefix|M->>Combinaison avec touche meta.
 
-    <expand|item*|<prefix|H->>Combinaison avec touche hyper.
+    <expand|item*|<prefix|M-A->>Combinaison avec touche hyper.
   </description>
 
   Par exemple, <shortcut|(make-with font-series bold)> correspond à <key|alt-ctrl-b>. Les espaces dans
@@ -33,7 +33,7 @@
   sur tous les claviers. Sur les PC récents, la touche <key|meta> est souvent
   remplacée par la touche <key|windows>. Vous pouvez utiliser <key|escape> au
   lieu de <prefix|M->, <key|escape escape> au lieu de <prefix|A-> et <prefix|math:greek>,
-  <key|escape escape escape> ou <prefix|A-C-> au lieu de <prefix|H->, si votre
+  <key|escape escape escape> ou <prefix|A-C-> au lieu de <prefix|M-A->, si votre
   clavier ne comporte pas ces touches spéciales. Par exemple, la combinaison
   <key|escape w> est équivalente à <key|A-w>. Vous pouvez aussi
   <apply|hyper-link|configurer les touches

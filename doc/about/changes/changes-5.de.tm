@@ -22,7 +22,7 @@
     <key|S-tab>.
 
     <item>Griechische Buchstaben erhält man mit <prefix|A-C->, <prefix|math:greek>, oder
-    Hyper <prefix|H->, der in <menu|Edit|Preferences> konfiguriert werden kann.
+    Hyper <prefix|M-A->, der in <menu|Edit|Preferences> konfiguriert werden kann.
     Im Mathematik-Modus kann man griechische Buchstaben auch als Variante von
     lateinischen Buchstaben erhalten, z.B. liefert <key|p tab>
     \ <with|mode|math|\<pi\>>.
