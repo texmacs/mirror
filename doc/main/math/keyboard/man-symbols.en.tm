@@ -20,7 +20,9 @@
   <with|mode|math|\<pi\>>. The <key|var>-key is also used for obtaining
   variants of the Greek letters themselves. For instance, both
   <key|math:greek p var> and <key|p var var> yield
-  <with|mode|math|\<varpi\>>.
+  <with|mode|math|\<varpi\>>. An alternative way to enter blackboard bold
+  characters is to type the same capital twice. For instance, <key|Z Z>
+  yields<nbsp><math|\<bbb-Z\>>.
 
   Many other mathematical symbols are obtained by ``natural''
   key-combinations. For instance, <key|- \<gtr\>> yields
