@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.6>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
@@ -8,6 +8,15 @@
   <section|Changes from version 1.0.7 to 1.0.7.7>
 
   <\itemize>
+    <item>Reorganization of keyboard shortcuts and better support for MacOS
+    (1.0.7.7).
+
+    <item>Implementation of a packrat parsing utility (1.0.7.7).
+
+    <item>Add tag type information to DRD (1.0.7.7).
+
+    <item>Source code highlighting based on DRD (1.0.7.7).
+
     <item>Documentation for beamer style (1.0.7.7).
 
     <item>Several bug fixes (1.0.7.6).
@@ -222,8 +231,7 @@
     <item>More reliable quoting routines and related bug corrections
     (1.0.5.10).
 
-    <item>Release <with|mode|math|\<alpha\>>-version of graphical mode
-    (1.0.5.9).
+    <item>Release <math|\<alpha\>>-version of graphical mode (1.0.5.9).
 
     <item>Improved exportation to Html (1.0.5.9).
 
@@ -361,10 +369,10 @@
     <item>Drag and drop and more intuitive buttons in graphical mode
     (1.0.4.4).
 
-    <item>Synchronization with <with|mode|math|\<beta\>>-version of the
-    Windows port (1.0.4.4).
+    <item>Synchronization with <math|\<beta\>>-version of the Windows port
+    (1.0.4.4).
 
-    <item><with|mode|math|\<beta\>>-version of the Windows port (1.0.4.3).
+    <item><math|\<beta\>>-version of the Windows port (1.0.4.3).
 
     <item>Faster string and pk font loading (1.0.4.3).
 
