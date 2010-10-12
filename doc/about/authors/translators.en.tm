@@ -6,7 +6,7 @@
   <tmdoc-title|Internationalization of <TeXmacs>>
 
   <\description>
-    <item*|Chinese>Chu-Ching Huang.
+    <item*|Chinese>Chu-Ching Huang and Zou-Hu.
 
     <item*|Czech>David Rezac.
 

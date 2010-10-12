@@ -50,6 +50,8 @@
     <item>Josef Weidendorfer made several patches for improving the
     performance of <TeXmacs>.
 
+    <item>Zou Hu for his help on CJK support and the Windows port.
+
     <item>Stéphane Payrard made an important bugfix for destroying windows.
 
     <item>Bruno Rino has helperd us migrating from CVS to SVN.
