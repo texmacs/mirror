@@ -6,7 +6,7 @@
   <tmdoc-title|Sonstige Konstrukte>
 
   <\explain>
-    <explain-macro|group|content><explain-synopsis|Atom>
+    <explain-macro|rigid|content><explain-synopsis|Atom>
   <|explain>
     Setze <src-arg|content>, der Zeileninhalt sein muss, als Atom, d.h. als
     Einheit, die nicht getrennt wird und an deren Grenzen auch keine

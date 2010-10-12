@@ -61,7 +61,7 @@
     Setze einen Trennpunkt mit einer unendlich hohen Trennstrafe, verbiete
     also die Trennung an dieser Stelle. Das ist manchmal sehr nützlich. Eine
     andere Möglichkeit unerwünschte Trennungen zu verhindern, ist das
-    <markup|group>-Konstrukt.
+    <markup|rigid>-Konstrukt.
   </explain>
 
   <tmdoc-copyright|2004|David Allouche|Joris van der Hoeven>

@@ -59,7 +59,7 @@
     Set an hyphenation point with an infinite penalty. That is useful when
     the hyphenation patterns for a language fall short of preventing some
     forbidden patterns like ``arse-nal'' or ``con-genital''. An alternative
-    way to prevent breaks is to use the <markup|group> tag.
+    way to prevent breaks is to use the <markup|rigid> tag.
   </explain>
 
   <tmdoc-copyright|2004|David Allouche|Joris van der Hoeven>

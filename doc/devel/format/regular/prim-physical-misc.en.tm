@@ -6,10 +6,10 @@
   <tmdoc-title|Miscellaneous physical markup>
 
   <\explain>
-    <explain-macro|group|content><explain-synopsis|atomic entity>
+    <explain-macro|rigid|content><explain-synopsis|atomic entity>
   <|explain>
     Typeset the <src-arg|content>, which must be <re-index|line content>, as
-    an atomic line item. Hyphenation within the <markup|group> and special
+    an atomic line item. Hyphenation within the <markup|rigid> and special
     spacing handling on its borders are disabled.
   </explain>
 
