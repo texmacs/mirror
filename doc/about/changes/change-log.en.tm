@@ -8,6 +8,8 @@
   <section|Changes from version 1.0.7 to 1.0.7.7>
 
   <\itemize>
+    <item>Beta-support for (non rubber) Stix (and some other) fonts (1.0.7.7).
+
     <item>Reorganization of keyboard shortcuts and better support for MacOS
     (1.0.7.7).
 
