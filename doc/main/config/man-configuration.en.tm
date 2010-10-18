@@ -8,7 +8,7 @@
   <\traverse>
     <branch|User preferences|man-preferences.en.tm>
 
-    <branch|Keyboard modifiers|man-config-kbd-modkeys.en.tm>
+    <branch|Keyboard configuration|man-config-keyboard.en.tm>
 
     <branch|Notes for users of Cyrillic languages|man-russian.en.tm>
 
