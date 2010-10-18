@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.4>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
@@ -11,9 +11,8 @@
   which exploits the document structure. Examples of such features are
   \ ``structured cursor movement'' and ``structured variants''. It should be
   noticed that more traditional functions like ``search and replace'' also
-  attempt to exploit the structure. For instance, when searching
-  <with|mode|math|x> in math mode, you will only find matches which are also
-  in math mode.
+  attempt to exploit the structure. For instance, when searching <math|x> in
+  math mode, you will only find matches which are also in math mode.
 
   <\traverse>
     <branch|Cut and paste|man-cut-and-paste.en.tm>
@@ -29,6 +28,8 @@
     <branch|Structured cursor movement|man-structured-move.en.tm>
 
     <branch|Structured variants|man-structured-variants.en.tm>
+
+    <branch|Positioning and resizing objects|man-structured-geometry.en.tm>
 
     <branch|Versioning tools|man-versioning.en.tm>
   </traverse>

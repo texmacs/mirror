@@ -3,21 +3,15 @@
 <style|tmdoc>
 
 <\body>
-  <tmdoc-title|Mastering the keyboard>
+  <tmdoc-title|Positioning and resizing objects>
 
-  <\traverse>
-    <branch|General prefix rules|man-general-rules.en.tm>
+  The <prefix|structured:geometry> prefix may be used for positioning and
+  resizing objects.
 
-    <branch|Some keyboard shortcuts in text mode|man-text-kbd.en.tm>
+  <space|0.2spc>For instance, inside a cell of a table, you may use
+  <key|structured:geometry right> to align the cell more to the right.
 
-    <branch|Hybrid commands and <LaTeX> simulation|man-hybrid.en.tm>
-
-    <branch|Dynamic objects|man-dynamic.en.tm>
-
-    <branch|Various useful keyboard shortcuts|man-standard.en.tm>
-  </traverse>
-
-  <tmdoc-copyright|1998--2002|Joris van der Hoeven>
+  <tmdoc-copyright|1998--2010|Joris van der Hoeven>
 
   <tmdoc-license|Permission is granted to copy, distribute and/or modify this
   document under the terms of the GNU Free Documentation License, Version 1.1

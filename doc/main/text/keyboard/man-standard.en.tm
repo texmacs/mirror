@@ -1,28 +1,28 @@
-<TeXmacs|1.0.7.6>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
 <\body>
-  <tmdoc-title|Some fundamental keyboard shortcuts>
+  <tmdoc-title|Various useful keyboard shortcuts>
 
-  Some standard keyboard actions which are valid in all modes are:
+  Some assorted shortcuts which are valid in all modes are as follows:
 
-  <\description>
-    <item*|<shortcut|(kbd-shift-return)>>always starts a new paragraph.
+  <\big-table|<descriptive-table|<tformat|<table|<row|<cell|Shortcut>|<cell|Action>>|<row|<cell|<shortcut|(remove-structure-upwards)>>|<cell|Remove
+  the containing object or environment.>>|<row|<cell|<shortcut|(make
+  'nbsp)>>|<cell|Insert a non breaking space.>>|<row|<cell|<shortcut|(make-space
+  "0.2spc")>>|<cell|Insert a small space.>>|<row|<cell|<shortcut|(make-space
+  "1em")>>|<cell|Insert a quad space.>>|<row|<cell|<shortcut|(make-space
+  "-0.2spc")>>|<cell|Insert a small negative
+  space.>>|<row|<cell|<shortcut|(make-htab "5mm")>>|<cell|Insert a
+  ``tab''>>|<row|<cell|<shortcut|(go-start)>>|<cell|Go to the start of the
+  document.>>|<row|<cell|<shortcut|(go-end)>>|<cell|Go to the end of the
+  document.>>|<row|<cell|<shortcut|(make 'line-break)>>|<cell|Insert a line
+  break.>>|<row|<cell|<shortcut|(make-rigid)>>|<cell|Insert a ``rigid'' piece
+  of text, which cannot be line-broken.>>>>>>
+    Various useful keyboard shortcuts
+  </big-table>
 
-    <item*|<shortcut|(remove-structure-upwards)>>remove the containing object
-    or environment.
-
-    <item*|<shortcut|(make-space "0.2spc")>>insert a small space.
-
-    <item*|<shortcut|(make-space "-0.2spc")>>insert a small negative space.
-
-    <item*|<shortcut|(go-start)>>go to the start of the document.
-
-    <item*|<shortcut|(go-end)>>go to the end of the document.
-  </description>
-
-  <tmdoc-copyright|1998--2002|Joris van der Hoeven>
+  <tmdoc-copyright|1998--2010|Joris van der Hoeven>
 
   <tmdoc-license|Permission is granted to copy, distribute and/or modify this
   document under the terms of the GNU Free Documentation License, Version 1.1

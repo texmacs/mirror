@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.6>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
@@ -9,36 +9,57 @@
   of classifying them in several categories, in order to make it easier to
   memorize them. As a general rule, keyboard shortcuts which fall in the same
   category are identified by a common prefix. The active prefixes heavily
-  depend on the selected ``look and feel'' in <menu|Edit|Preferences>. For
-  instance, when selecting and <name|Emacs> look and feel, \ the main common
-  prefixes are:
+  depend on the selected ``look and feel'' in <menu|Edit|Preferences>. In the
+  current look and feel of your <TeXmacs> system,<space|0.4spc>the main
+  common prefixes are as follows:
 
   <\description>
-    <item*|<prefix|C->>Control key based shortcuts are used for frequently
-    used editing commands. In the <name|Emacs>-compatible look and feel, the
-    <prefix|C->-based shortcuts correspond to <name|Emacs> commands, such as
-    <key|C-y> for pasting text.
+    <item*|<prefix|std>>Standard shortcuts, which are similar to shortcuts
+    used by other applications (for the selected look and feel). For
+    instance, <shortcut|(clipboard-paste "primary")> can be used for pasting
+    text on your system.
 
-    <item*|<prefix|A->>The alternate key is used for commands which depend on
-    the mode that you are in. For instance, <key|text s> produces
-    <strong|strong> text in text mode and a square root
-    <with|mode|math|<sqrt|>> in math mode. Notice that <prefix|A-> is
-    equivalent to <key*|escape escape>.
+    <item*|<prefix|cmd>><TeXmacs> shortcuts, which often rely on the current
+    editing mode. For instance, <key|text s> produces <strong|strong> text in
+    text mode and a square root <math|<sqrt|>> in math mode.
 
-    <item*|<prefix|M->>The meta key is used for general purpose <TeXmacs>
-    commands, which can be used in all modes. For instance,
-    <shortcut|(make-label)> produces a label. It is also used for additional
-    editing commands, such as <key|A-w> for copying text. Notice that
-    <prefix|M-> is equivalent to <key*|escape>.
+    <item*|<prefix|altcmd>>Compound <TeXmacs> shortcuts. Usually, these
+    shortcuts first indicate the kind of markup to which the command will
+    apply and then specify the specific command. For instance, the
+    <key|executable> prefix is used for insering executable markup, which is
+    useful for <hlink|writing style files|../../../devel/style/style.en.tm>.
+    One example is the shortcut <key|executable +> for the insertion of an
+    addition.
+
+    <item*|<prefix|structured:geometry>>This prefix is used in combination
+    with arrow keys and certain other special keys for <hlink|positioning and
+    resizing objects|../../editing/man-structured-geometry.en.tm>.
+
+    <item*|<prefix|structured:move>>This prefix is used in combination with
+    arrow keys and some other special keys for <hlink|structured cursor
+    movements|../../editing/man-structured-move.en.tm>.
+
+    <item*|<prefix|special>>This prefix is occasionally used in combination
+    with letters and ponctuation symbols for creating some additional easy to
+    remind shortcuts.
+
+    <item*|<prefix|symbol>>This prefix can be used in combination with normal
+    letters for the insertion of special symbols. For instance,
+    <key|text:symbol s> yields ÿ and <key|math:symbol a> yields
+    <math|<op|\<amalg\>>>. The <prefix|symbol> prefix is also used for the
+    insertion of ``literal characters''. For instance, <key|symbol \\> will
+    always produce the \\ character, whereas the <key|\\> key is used for
+    entering <hlink|hybrid commands|man-hybrid.en.tm>.
   </description>
 
-  In the MacOS ``look and feel'', the <key|M->-based shortcuts are designed
-  so as to correspond as much as possible to standard shortcuts from MacOS.
-  Please refer to the section on <hlink|general
-  conventions|../../start/man-conventions.en.tm> for detailed explanations of
-  the abbreviations used in this manual for printing keyboard shortcuts.
+  Unfortunately, <prefix|altcmd>-based shortcuts are superseded by system
+  shortcuts on several systems. For instance, accented characters and common
+  special symbols are entered using this prefix under <name|Mac OS>. In that
+  case, you may use the <key*|escape> key as an equivalent for <key|altcmd>.
+  For more information, we refer to the section on <hlink|keyboard
+  configuration|../../config/man-config-keyboard.en.tm>.
 
-  <tmdoc-copyright|1998--2002|Joris van der Hoeven>
+  <tmdoc-copyright|1998--2010|Joris van der Hoeven>
 
   <tmdoc-license|Permission is granted to copy, distribute and/or modify this
   document under the terms of the GNU Free Documentation License, Version 1.1

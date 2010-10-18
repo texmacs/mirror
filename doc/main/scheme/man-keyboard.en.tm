@@ -1,4 +1,4 @@
-<TeXmacs|1.0.6.10>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
@@ -7,27 +7,27 @@
 
   Keymaps are specified using the command
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (kbd-map . <scm-arg|keymaps>)
-  </scheme-fragment>
+  </scm-fragment>
 
   Optionally, you may specify conditions which must be satisfied for the
   keymap to be valid using the <scm|:mode> option. For instance, the command
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (kbd-map (:mode in-math?) . <scm-arg|keymaps>)
-  </scheme-fragment>
+  </scm-fragment>
 
   specifies a list of keyboard shortcuts which will only be valid in
   math-mode. Each item in <scm-arg|keymaps> is of one of the following forms:
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (<em|key-combination> <scm-arg|action_1> ... <scm-arg|action_n>)
 
     (<em|key-combination> <scm-arg|result>)
 
     (<em|key-combination> <scm-arg|result> <scm-arg|help-message>)
-  </scheme-fragment>
+  </scm-fragment>
 
   In the first case, the <scm-arg|action_i> are <scheme> commands associated
   to the string <scm-arg|key-combination>. In the second and third case,

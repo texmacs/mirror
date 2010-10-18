@@ -1,19 +1,21 @@
-<TeXmacs|1.0.2.9>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
 <\body>
   <tmdoc-title|Generalities for typing text>
 
-  As soon as you have performed the preparatory actions as explained above,
-  you can start typing. The usual English characters and punctuation symbols
-  can easily be obtained on most keyboards. Accented characters from foreign
-  languages can systematically be obtained using the escape key. For
-  instance, ``é'' is obtained by typing <key|accent:acute e>. Similarly, we obtain
-  ``à'' via <key|accent:grave a> and so on. Long words at borders of successive
-  lines are automatically hyphenated. In order to hyphenate foreign languages
-  correctly, you should specify the language of the document in the menu
-  <menu|Document|Language>.
+  The usual English characters and punctuation symbols can easily be obtained
+  on most keyboards. Most modern system also implement standard shortcuts in
+  order to obtain accented characters and other special symbols. If
+  necessary, accented characters can also be obtained using the
+  <prefix|accent> prefix. For instance, ``é'' is obtained by typing
+  <key|accent:acute e>. Similarly, we obtain ``à'' via <key|accent:grave a>
+  and so on.
+
+  Long words at borders of successive lines are automatically hyphenated. In
+  order to hyphenate foreign languages correctly, you should specify the
+  language of the document in the menu <menu|Document|Language>.
 
   At the left hand side of the footer, you see the document style, the text
   properties at the current cursor position. Initially, it displays ``generic
@@ -42,47 +44,6 @@
 
 <\initial>
   <\collection>
-    <associate|page-even|30mm>
-    <associate|page-reduce-bot|15mm>
-    <associate|page-reduce-right|25mm>
-    <associate|page-reduce-left|25mm>
-    <associate|sfactor|4>
-    <associate|page-top|30mm>
-    <associate|page-type|a4>
-    <associate|page-right|30mm>
-    <associate|par-width|150mm>
-    <associate|page-odd|30mm>
-    <associate|page-bot|30mm>
     <associate|language|english>
-    <associate|page-reduce-top|15mm>
   </collection>
 </initial>
-
-<\references>
-  <\collection>
-    <associate|idx-5|<tuple|<uninit>|?>>
-    <associate|idx-6|<tuple|<uninit>|?>>
-    <associate|idx-7|<tuple|<uninit>|?>>
-    <associate|idx-1|<tuple|<uninit>|?>>
-    <associate|toc-1|<tuple|<uninit>|?>>
-    <associate|idx-2|<tuple|<uninit>|?>>
-    <associate|idx-3|<tuple|<uninit>|?>>
-    <associate|idx-4|<tuple|<uninit>|?>>
-  </collection>
-</references>
-
-<\auxiliary>
-  <\collection>
-    <\associate|idx>
-      <tuple|<tuple|<with|font-family|<quote|ss>|Document>|<with|font-family|<quote|ss>|Language>>|<pageref|idx-1>>
-
-      <tuple|<tuple|<with|font-family|<quote|ss>|Text>>|<pageref|idx-2>>
-
-      <tuple|<tuple|<with|font-family|<quote|ss>|Text>>|<pageref|idx-3>>
-
-      <tuple|<tuple|<with|font-family|<quote|ss>|Document>|<with|font-family|<quote|ss>|Font>>|<pageref|idx-4>>
-
-      <tuple|<tuple|<with|font-family|<quote|ss>|Document>|<with|font-family|<quote|ss>|Language>>|<pageref|idx-5>>
-    </associate>
-  </collection>
-</auxiliary>

@@ -43,7 +43,7 @@
     <item><TeXmacs> contains many keyboard macros involving one or more
     modifier keys and the arrow keys (including <key|home>, <key|end>,
     <key|pageup> and <key|pagedown>). Shortcuts which involve the arrow keys
-    are therefore reserved, except for those which also involve the principal
+    are therefore reserved, except for those which are based on the principal
     modifier key<nbsp><key|std>.
   </itemize>
 
@@ -85,7 +85,8 @@
   shortcuts in the responsible applications. For instance, <name|Spaces> can
   be configured to use <prefix|M-A-C-> as a prefix instead of <prefix|C->
   (click on the popup menu behind ``To switch between spaces'' and
-  simultaneously press <prefix|M->, <prefix|A-> and <prefix|C->).
+  simultaneously press <prefix|M->, <prefix|A-> and <prefix|C->). Notice that
+  <prefix|fn> is another key which is not used by <TeXmacs>.
 
   If you cannot or do not want to change the system-wide shortcuts, then you
   may use the <rigid|<key*|escape>-key> in order to produce equivalents for
@@ -100,7 +101,9 @@
   keys>>|<row|<cell|<key*|escape>>|<cell|<key|escape>>>|<row|<cell|<key*|escape
   escape>>|<cell|<key|escape escape>>>|<row|<cell|<key*|escape escape
   escape>>|<cell|<key|escape escape escape>>>|<row|<cell|<key*|S-escape>>|<cell|<key|S-escape>>>|<row|<cell|<key*|S-escape
-  S-escape><space|1em>>|<cell|<key|S-escape S-escape>>>>>>>
+  S-escape><space|1em>>|<cell|<key|S-escape
+  S-escape>>>|<row|<cell|<key*|S-escape S-escape
+  S-escape>>|<cell|<key|S-escape S-escape S-escape>>>>>>>
     <label|kbd-escape-table>Keyboard shortcuts for modifier keys or modifier
     key combinations.
   </big-table>
