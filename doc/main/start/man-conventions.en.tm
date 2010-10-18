@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.6>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
@@ -27,7 +27,8 @@
 
   For instance, <key*|M-S-x> stands for the action which consists of
   simultaneously pressing the three keys <prefix|M->, <prefix|S-> and
-  <key|x>.
+  <key|x>. Notice also that <prefix|M-> is equivalent to <key*|escape>, and
+  <prefix|A-> is equivalent to <key*|escape escape>.
 
   <paragraph*|Keyboard shortcuts>
 

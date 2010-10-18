@@ -15,15 +15,18 @@
   The following user preferences are available:
 
   <\description>
-    <item*|<menu|Look and feel>>This very important preference controls the
-    general ``look and feel'' of <TeXmacs>. The look and feel mainly affects
-    the behaviour of the keyboard. The <menu|default> look and feel depends
-    on your system (<menu|Emacs> under <name|Linux>, <menu|Mac OS> under
-    <name|Mac OS>, and <menu|Windows> under <name|Windows>). Alternatively,
-    under <name|Linux>, you may choose the <menu|Gnome> or <menu|KDE> look
-    and feel. The <menu|Emacs> look and feel was the default for all
-    <TeXmacs> versions prior to 1.0.7.6, and can also be used under <name|Mac
-    OS> and <name|Windows>.
+    <item*|<menu|Look and feel>><label|preferences:look-and-feel>This
+    preference controls the general ``look and feel'' of <TeXmacs>, and
+    mainly affects the behaviour of the keyboard. The <menu|default> look and
+    feel depends on your system (<menu|Emacs> under <name|Linux>, <menu|Mac
+    OS> under <name|Mac OS>, and <menu|Windows> under <name|Windows>).
+    Alternatively, under <name|Linux>, you may choose the <menu|Gnome> or
+    <menu|KDE> look and feel. The <menu|Emacs> look and feel was the default
+    for all <TeXmacs> versions prior to<nbsp>1.0.7.6, and can also be used
+    under <name|Mac OS> and <name|Windows>.
+
+    More details on the <hlink|keyboard configuration on different
+    systems|man-config-keyboard.en.tm> can be found below.
 
     <item*|<menu|Interactive questions>>This preference specifies how the
     user will be prompted for input when required. Questions may either be
@@ -39,15 +42,37 @@
     <item*|<menu|Language>>Your preferred language for the <TeXmacs>
     interface.
 
-    <item*|<menu|Keyboard>>
+    <item*|<menu|Keyboard>><label|preferences:keyboard>In addition to the
+    general look and feel, a few additional settings determine the behaviour
+    of the keyboard:
 
-    <item*|<menu|Printer>>
+    <\itemize>
+      <item>The <menu|Cyrillic input method> specifies <hlink|how to type
+      text in Cyrillic languages|man-russian.en.tm>.
 
-    <item*|<menu|Security>>
+      <item>Quotes can be automatically closed according to the
+      <menu|Automatic quotes> style.
 
-    <item*|<menu|Converters>>
+      <item>Brackets can be automatically closed by enabling
+      <menu|Automatically close brackets>.
+    </itemize>
 
-    <item*|<menu|Scripts>>
+    <item*|<menu|Printer>>The printer setup can be configured from this
+    submenu.
+
+    <item*|<menu|Security>>In theory, <TeXmacs> documents may embed macros or
+    hyperlinks which give rise to the execution of arbitrary commands (as
+    specified by the author). In practice, this feature may involve a
+    security risk,. Therefore, the <menu|Security> preference allows the user
+    to specify what should be done with untrusted executable code.
+
+    <item*|<menu|Converters>>The behaviour of converters between <TeXmacs>
+    various other data formats may be configured from this menu. For more
+    details, we refer to the <hlink|chapter on compatibility with other
+    formats|../convert/man-convert.en.tm>.
+
+    <item*|<menu|Scripts>>Specify a default scripting language for all
+    external scripts.
 
     <item*|<menu|Tools>><TeXmacs> features a few additional tools which the
     user may wish to work under certain circumstances:
@@ -76,7 +101,7 @@
     alternative tool for the compilation of bibliographies.
   </description>
 
-  <tmdoc-copyright|1998--2002|Joris van der Hoeven>
+  <tmdoc-copyright|1998--2010|Joris van der Hoeven>
 
   <tmdoc-license|Permission is granted to copy, distribute and/or modify this
   document under the terms of the GNU Free Documentation License, Version 1.1
