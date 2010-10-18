@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.6>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
@@ -6,7 +6,9 @@
   <tmdoc-title|Configuration of <TeXmacs>>
 
   <\traverse>
-    <branch|Introduction|man-intro.en.tm>
+    <branch|User preferences|man-preferences.en.tm>
+
+    <branch|Keyboard modifiers|man-config-kbd-modkeys.en.tm>
 
     <branch|Notes for users of Cyrillic languages|man-russian.en.tm>
 
