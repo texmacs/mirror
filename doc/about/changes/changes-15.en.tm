@@ -23,7 +23,9 @@
   contrary cases, including installation of <TeXmacs> on a<nbsp>new computer,
   you probably need to retake a look at our sections on <hlink|keyboard
   configuration|$TEXMACS_DOC_PATH/main/config/man-config-keyboard.en.tm> and
-  <hlink|mastering the keyboard|$TEXMACS_DOC_PATH/main/text/keyboard/man-keyboard.en.tm>.
+  <hlink|mastering the keyboard|$TEXMACS_DOC_PATH/main/text/keyboard/man-keyboard.en.tm>. In cases of doubt, please refer to the user manual;
+  the keyboard shortcuts in the manual are automatically adapted
+  to the active <em|look and feel>.
 
   <tmdoc-copyright|2010|Joris van der Hoeven>
 
