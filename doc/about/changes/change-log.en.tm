@@ -19,6 +19,8 @@
     <item>Beta-support for (non rubber) Stix (and some other) fonts
     (1.0.7.7).
 
+    <item>Rudimentary support of CJK input methods in Qt version (1.0.7.7).
+
     <item>Implementation of a packrat parsing utility (1.0.7.7).
 
     <item>Add tag type information to DRD (1.0.7.7).
