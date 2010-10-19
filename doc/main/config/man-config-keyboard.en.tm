@@ -45,10 +45,10 @@
     is reserved for <TeXmacs>.
 
     <item><TeXmacs> contains many keyboard macros involving one or more
-    modifier keys and the arrow keys (including <key|home>, <key|end>,
-    <key|pageup> and <key|pagedown>). Shortcuts which involve the arrow keys
-    are therefore reserved, except for those which are based on the principal
-    modifier key<nbsp><key|std>.
+    modifier keys and the special keys <key|left>, <key|right>, <key|up>,
+    <key|down>, <key|home>, <key|end>, <key|pageup>, <key|pagedown>,
+    <key|backspace>, <key|delete>, <key|space>, <key|tab> and <key|return>.
+    The behaviour of shortcuts of this kind is occasionally non standard.
   </itemize>
 
   <paragraph*|Potential conflicts>
@@ -59,7 +59,7 @@
   less standard shortcuts, which might work in other applications, but which
   will usually not work inside <TeXmacs>.
 
-  <\big-table|<descriptive-table|<tformat|<cwith|1|-1|1|-1|cell-halign|l>|<cwith|22|22|1|4|cell-halign|l>|<cwith|25|25|1|4|cell-halign|l>|<cwith|6|6|1|4|cell-halign|l>|<cwith|8|8|1|4|cell-halign|l>|<cwith|7|7|3|4|cell-halign|l>|<cwith|7|7|3|4|cell-halign|l>|<cwith|8|8|3|4|cell-halign|l>|<cwith|8|8|3|4|cell-halign|l>|<table|<row|<cell|Look
+  <\big-table|<descriptive-table|<tformat|<cwith|1|-1|1|-1|cell-halign|l>|<cwith|24|24|1|4|cell-halign|l>|<cwith|27|27|1|4|cell-halign|l>|<cwith|6|6|1|4|cell-halign|l>|<cwith|8|8|1|4|cell-halign|l>|<cwith|7|7|3|4|cell-halign|l>|<cwith|7|7|3|4|cell-halign|l>|<cwith|8|8|3|4|cell-halign|l>|<cwith|8|8|3|4|cell-halign|l>|<cwith|11|11|1|4|cell-halign|l>|<table|<row|<cell|Look
   and feel>|<cell|Shortcut>|<cell|Alternative>|<cell|Meaning>>|<row|<cell|Emacs>|<cell|<key|F10>>|<cell|>|<cell|Show
   menu bar in window>>|<row|<cell|Emacs>|<cell|<key|M-!>>|<cell|>|<cell|Shell
   command>>|<row|<cell|Emacs>|<cell|<key|M-'>/<key|M-`>/<key|M-^>>|<cell|>|<cell|Needed
@@ -67,8 +67,12 @@
   word back/forward>>|<row|<cell|Emacs>|<cell|<key|M-a>/<key|M-e>>|<cell|<key|C-up>/<key|C-down>>|<cell|Move
   paragraph back/forward>>|<row|<cell|Emacs>|<cell|<key|M-b>/<key|M-f>>|<cell|<key|C-left>/<key|C-right>>|<cell|Move
   word back/forward>>|<row|<cell|Emacs>|<cell|<key|M-l>/<key|M-t>>|<cell|>|<cell|Locase/transpose
-  words>>|<row|<cell|Windows>|<cell|<key|F5>>|<cell|>|<cell|Refresh>>|<row|<cell|Windows>|<cell|<key|A-backspace>>|<cell|<key|C-z>>|<cell|Undo>>|<row|<cell|Windows>|<cell|<key|A-S-backspace>>|<cell|<key|C-Z>,
-  <key|C-y>>|<cell|Redo>>|<row|<cell|Mac OS>|<cell|<key|C-F5>/<key|C-F6>/<key|C-S-F6>>|<cell|>|<cell|Move
+  words>>|<row|<cell|Windows>|<cell|<key|F5>>|<cell|>|<cell|Refresh/Switch to
+  next pane>>|<row|<cell|Windows>|<cell|<key|F6>/<key|C-F6>/<key|C-S-F6>>|<cell|>|<cell|Switch
+  to next/previous pane/tab>>|<row|<cell|Windows>|<cell|<key|C-space>>|<cell|>|<cell|Remove
+  formatting>>|<row|<cell|Windows>|<cell|<key|C-tab>>|<cell|>|<cell|Switch to
+  next child window>>|<row|<cell|Windows>|<cell|<key|C-backspace>/<key|C-delete>>|<cell|>|<cell|Delete
+  word>>|<row|<cell|Mac OS>|<cell|<key|C-F5>/<key|C-F6>/<key|C-S-F6>>|<cell|>|<cell|Move
   focus to toolbar/panels>>|<row|<cell|Mac
   OS>|<cell|<key|C-F7>>|<cell|>|<cell|Override keyboard access
   mode>>|<row|<cell|Mac OS>|<cell|<key|F9>/<key|F10>>|<cell|>|<cell|Tile or
