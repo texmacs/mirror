@@ -18,12 +18,11 @@
     <item*|<menu|Look and feel>><label|preferences:look-and-feel>This
     preference controls the general ``look and feel'' of <TeXmacs>, and
     mainly affects the behaviour of the keyboard. The <menu|default> look and
-    feel depends on your system (<menu|Emacs> under <name|Linux>, <menu|Mac
-    OS> under <name|Mac OS>, and <menu|Windows> under <name|Windows>).
-    Alternatively, under <name|Linux>, you may choose the <menu|Gnome> or
-    <menu|KDE> look and feel. The <menu|Emacs> look and feel was the default
-    for all <TeXmacs> versions prior to<nbsp>1.0.7.6, and can also be used
-    under <name|Mac OS> and <name|Windows>.
+    feel depends on your system (<menu|Gnome>, <menu|KDE> or <menu|Emacs>
+    under <name|Linux>, <menu|Mac OS> under <name|Mac OS>, and <menu|Windows>
+    under <name|Windows>). The <menu|Emacs> look and feel can be used as an
+    alternative on all systems; it has been the default for all <TeXmacs>
+    versions prior to<nbsp>1.0.7.6.
 
     More details on the <hlink|keyboard configuration on different
     systems|man-config-keyboard.en.tm> can be found below.
