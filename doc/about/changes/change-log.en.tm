@@ -8,9 +8,15 @@
   <section|Changes from version 1.0.7 to 1.0.7.7>
 
   <\itemize>
-    <item>Beta-support for (non rubber) Stix (and some other) fonts (1.0.7.7).
+    <item>Default look and feel now becomes highly system dependent
+    (1.0.7.7).
 
-    <item>Reorganization of keyboard shortcuts and better support for MacOS
+    <item>Complete reorganization of keyboard shortcuts (1.0.7.7).
+
+    <item>Better support for Gnome, KDE, MacOS and Windows shortcuts
+    (1.0.7.7).
+
+    <item>Beta-support for (non rubber) Stix (and some other) fonts
     (1.0.7.7).
 
     <item>Implementation of a packrat parsing utility (1.0.7.7).
