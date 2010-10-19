@@ -59,8 +59,15 @@
   less standard shortcuts, which might work in other applications, but which
   will usually not work inside <TeXmacs>.
 
-  <\big-table|<descriptive-table|<tformat|<cwith|1|-1|1|-1|cell-halign|l>|<cwith|14|14|1|4|cell-halign|l>|<cwith|17|17|1|4|cell-halign|l>|<table|<row|<cell|Look
-  and feel>|<cell|Shortcut>|<cell|Alternative>|<cell|Meaning>>|<row|<cell|Windows>|<cell|<key|F5>>|<cell|>|<cell|Refresh>>|<row|<cell|Windows>|<cell|<key|A-backspace>>|<cell|<key|C-z>>|<cell|Undo>>|<row|<cell|Windows>|<cell|<key|A-S-backspace>>|<cell|<key|C-Z>,
+  <\big-table|<descriptive-table|<tformat|<cwith|1|-1|1|-1|cell-halign|l>|<cwith|22|22|1|4|cell-halign|l>|<cwith|25|25|1|4|cell-halign|l>|<cwith|6|6|1|4|cell-halign|l>|<cwith|8|8|1|4|cell-halign|l>|<cwith|7|7|3|4|cell-halign|l>|<cwith|7|7|3|4|cell-halign|l>|<cwith|8|8|3|4|cell-halign|l>|<cwith|8|8|3|4|cell-halign|l>|<table|<row|<cell|Look
+  and feel>|<cell|Shortcut>|<cell|Alternative>|<cell|Meaning>>|<row|<cell|Emacs>|<cell|<key|F10>>|<cell|>|<cell|Show
+  menu bar in window>>|<row|<cell|Emacs>|<cell|<key|M-!>>|<cell|>|<cell|Shell
+  command>>|<row|<cell|Emacs>|<cell|<key|M-'>/<key|M-`>/<key|M-^>>|<cell|>|<cell|Needed
+  for <TeXmacs> accents>>|<row|<cell|Emacs>|<cell|<key|M-/>/<key|M-\\>/<key|M-:>/<key|M-;>>|<cell|>|<cell|>>|<row|<cell|Emacs>|<cell|<key|M-left>/<key|M-right>>|<cell|<key|C-left>/<key|C-right>>|<cell|Move
+  word back/forward>>|<row|<cell|Emacs>|<cell|<key|M-a>/<key|M-e>>|<cell|<key|C-up>/<key|C-down>>|<cell|Move
+  paragraph back/forward>>|<row|<cell|Emacs>|<cell|<key|M-b>/<key|M-f>>|<cell|<key|C-left>/<key|C-right>>|<cell|Move
+  word back/forward>>|<row|<cell|Emacs>|<cell|<key|M-l>/<key|M-t>>|<cell|>|<cell|Locase/transpose
+  words>>|<row|<cell|Windows>|<cell|<key|F5>>|<cell|>|<cell|Refresh>>|<row|<cell|Windows>|<cell|<key|A-backspace>>|<cell|<key|C-z>>|<cell|Undo>>|<row|<cell|Windows>|<cell|<key|A-S-backspace>>|<cell|<key|C-Z>,
   <key|C-y>>|<cell|Redo>>|<row|<cell|Mac OS>|<cell|<key|C-F5>/<key|C-F6>/<key|C-S-F6>>|<cell|>|<cell|Move
   focus to toolbar/panels>>|<row|<cell|Mac
   OS>|<cell|<key|C-F7>>|<cell|>|<cell|Override keyboard access
