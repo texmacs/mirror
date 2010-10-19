@@ -19,9 +19,13 @@
   </itemize>
 
   We will now detail specific issues related to the keyboard configuration on
-  various systems. For more information on keyboard shortcuts, we refer to
-  the general section on how the <hlink|master the
-  keyboard|../text/keyboard/man-keyboard.en.tm>.
+  various systems.
+
+  Please refer to the section on <hlink|general
+  conventions|../start/man-conventions.en.tm> for explanations on the way
+  keyboard shortcuts are printed in this manual. For more information on
+  keyboard shortcuts, we refer to the general section on how the
+  <hlink|master the keyboard|../text/keyboard/man-keyboard.en.tm>.
 
   <paragraph*|Standard conformance>
 
