@@ -57,23 +57,33 @@
   conventions. <space|0.2spc>Nevertheless, in
   table<nbsp><reference|kbd-conflict-table>, we have displayed some more or
   less standard shortcuts, which might work in other applications, but which
-  will not work inside <TeXmacs>. Fortunately, most of these shortcuts admit
-  even more standard equivalents.
+  will usually not work inside <TeXmacs>.
 
-  <\big-table|<descriptive-table|<tformat|<cwith|1|-1|1|-1|cell-halign|l>|<table|<row|<cell|Look
-  and feel>|<cell|Shortcut>|<cell|Alternative>|<cell|Meaning>>|<row|<cell|All
-  except Emacs>|<cell|<key|F5>>|<cell|>|<cell|Refresh>>|<row|<cell|Windows>|<cell|<key|A-backspace>>|<cell|<key|C-z>>|<cell|Undo>>|<row|<cell|Windows>|<cell|<key|A-S-backspace>>|<cell|<key|C-Z>,
-  <key|C-y>>|<cell|Redo>>|<row|<cell|Mac OS>|<cell|<key|C-a>>|<cell|<key|A-up>>|<cell|Move
-  to start of block>>|<row|<cell|Mac OS>|<cell|<key|C-e>>|<cell|<key|A-down>>|<cell|Move
-  to end of block>>|<row|<cell|Mac OS>|<cell|<key|A-pageup>, <key|C-up>,
-  <key|C-pageup>>|<cell|<key|pageup>>|<cell|Page up>>|<row|<cell|Mac
-  OS>|<cell|<key|A-pagedown>, <key|C-down>,
+  <\big-table|<descriptive-table|<tformat|<cwith|1|-1|1|-1|cell-halign|l>|<cwith|14|14|1|4|cell-halign|l>|<cwith|17|17|1|4|cell-halign|l>|<table|<row|<cell|Look
+  and feel>|<cell|Shortcut>|<cell|Alternative>|<cell|Meaning>>|<row|<cell|Windows>|<cell|<key|F5>>|<cell|>|<cell|Refresh>>|<row|<cell|Windows>|<cell|<key|A-backspace>>|<cell|<key|C-z>>|<cell|Undo>>|<row|<cell|Windows>|<cell|<key|A-S-backspace>>|<cell|<key|C-Z>,
+  <key|C-y>>|<cell|Redo>>|<row|<cell|Mac OS>|<cell|<key|C-F5>/<key|C-F6>/<key|C-S-F6>>|<cell|>|<cell|Move
+  focus to toolbar/panels>>|<row|<cell|Mac
+  OS>|<cell|<key|C-F7>>|<cell|>|<cell|Override keyboard access
+  mode>>|<row|<cell|Mac OS>|<cell|<key|F9>/<key|F10>>|<cell|>|<cell|Tile or
+  untile windows>>|<row|<cell|Mac OS>|<cell|<key|F11>/<key|F12>>|<cell|>|<cell|Hide
+  or show windows/dashboard>>|<row|<cell|Mac
+  OS>|<cell|<key|tab>/<key|S-tab>>|<cell|>|<cell|Navigate through
+  controls>>|<row|<cell|Mac OS>|<cell|<key|C-tab>,
+  <key|C-S-tab>>|<cell|>|<cell|Move focus within control
+  groups>>|<row|<cell|Mac OS>|<cell|<key|C-space>/<key|M-C-space>>|<cell|>|<cell|Toggle
+  between input sources>>|<row|<cell|Mac OS>|<cell|<key|C-left>/<key|C-right>>|<cell|<key|structured:move
+  left>/<key|structured:move right>>|<cell|Move one cell left/right in
+  table>>|<row|<cell|Mac OS>|<cell|<key|C-up>/<key|C-down>>|<cell|<key|structured:move
+  up>/<key|structured:move down>>|<cell|Move one cell up/down in
+  table>>|<row|<cell|Mac OS>|<cell|<key|home>/<key|end>>|<cell|<key|M-up>/<key|M-down>>|<cell|Move
+  to start/end of document>>|<row|<cell|Mac OS>|<cell|<key|A-pageup>,
+  <key|C-up>, <key|C-pageup>>|<cell|<key|pageup>>|<cell|Page
+  up>>|<row|<cell|Mac OS>|<cell|<key|A-pagedown>, <key|C-down>,
   <key|C-pagedown>>|<cell|<key|pagedown>>|<cell|Page down>>|<row|<cell|Mac
-  OS>|<cell|<key|home>>|<cell|<key|M-up>>|<cell|Move to start of
-  document>>|<row|<cell|Mac OS>|<cell|<key|end>>|<cell|<key|M-down>>|<cell|Move
-  to end of document>>>>>>
+  OS>|<cell|<key|C-a>/<key|C-e>>|<cell|<key|A-up>/<key|A-down>>|<cell|Move to
+  start/end of block>>>>>>
     <label|kbd-conflict-table>Some shortcuts that might work in other
-    applications, but not in <TeXmacs>.
+    applications, but usually not in <TeXmacs>.
   </big-table>
 
   <paragraph*|System-wide shortcuts which may take precedence>
