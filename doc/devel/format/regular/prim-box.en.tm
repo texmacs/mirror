@@ -1,4 +1,4 @@
-<TeXmacs|1.0.3.10>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
@@ -10,8 +10,21 @@
     position>
   <|explain>
     This primitive moves the box with the specified <src-arg|content> by
-    <src-arg|delta-x> to the right and <src-arg|delta-y> upwards. It may be
-    used for fine-grained positioning.
+    <src-arg|delta-x> to the right and <rigid|<src-arg|delta-y>> upwards. It
+    may be used for fine-grained positioning. During the evaluation of
+    <src-arg|delta-x> and <src-arg|delta-y>, the <hlink|box
+    lengths|../basics/lengths.en.tm#box-lengths> <verbatim|w>, <verbatim|h>,
+    <verbatim|l>, <verbatim|r>, <verbatim|b> and <verbatim|t> of
+    <src-arg|content> are defined.
+  </explain>
+
+  <\explain>
+    <explain-macro|shift|content|delta-x|delta-y><explain-synopsis|shift
+    contents, not the bounding box>
+  <|explain>
+    This primitive is similar to <markup|move>, except that the bounding box
+    of the shifted <src-arg|content> is the same as the bounding box of the
+    original <src-arg|content>.
   </explain>
 
   <\explain>
@@ -20,31 +33,29 @@
   <|explain>
     Resize the box for the <src-arg|content> according to new left, bottom,
     right and top limits <src-arg|left-lim>, <src-arg|bot-lim>,
-    <src-arg|right-lim> and <src-arg|top-lim>. The limits may be either be
-    empty strings (in which case the old limit is taken), an absolute
-    coordinate, or a limit computed as a function of the old limit.
-
-    In the last case, the limit string should be of the form
-    <verbatim|\<less\>pos\<gtr\>\<less\>op\<gtr\>\<less\>len\<gtr\>>. The
-    first character <verbatim|\<less\>pos\<gtr\>> indicates a position in the
-    old box and should be either <verbatim|l> (left), <verbatim|b> (bottom),
-    <verbatim|c> (center), <verbatim|r> (right) or <verbatim|t> (top). The
-    second character <verbatim|\<less\>op\<gtr\>> indicates the operation
-    which will be performed on this position and the remaining length string
-    <verbatim|\<less\>len\<gtr\>> in order to yield the new position.
-    Possible operations are <verbatim|+>, <verbatim|->, <verbatim|[> and
-    <verbatim|]>. The brackets <verbatim|[> and <verbatim|]> stand for
-    ``minimum'' and ``maximum''. For instance, the code
+    <src-arg|right-lim> and <src-arg|top-lim>. The limits may be specified in
+    terms of the <hlink|box lengths|../basics/lengths.en.tm#box-lengths>
+    <verbatim|w>, <verbatim|h>, <verbatim|l>, <verbatim|r>, <verbatim|b> and
+    <verbatim|t> of <src-arg|content>. For instance, the code
 
     <\tm-fragment>
-      <inactive*|(<resize|Hopsa|l-5mm||r+5mm||>)>
+      <inactive*|(<resize|Hopsa|<minus|1l|5mm>||<plus|1r|5mm>|>)>
     </tm-fragment>
 
     widens the box for ``Hopsa'' by <verbatim|5mm> on each side:
 
     <\tm-fragment>
-      (<resize|Hopsa|l-5mm||r+5mm||>)
+      (<resize|Hopsa|<minus|1l|5mm>||<plus|1r|5mm>|>)
     </tm-fragment>
+  </explain>
+
+  <\explain>
+    <explain-macro|clipped|content|left-lim|bot-lim|right-lim|top-lim><explain-synopsis|adjust
+    size and clip>
+  <|explain>
+    This primitive is similar to <markup|resize>, except that the
+    <src-arg|content> is clipped so as to fit in the specified new bounding
+    box.
   </explain>
 
   <\explain>

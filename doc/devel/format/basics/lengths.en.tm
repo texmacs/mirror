@@ -1,4 +1,4 @@
-<TeXmacs|1.0.4>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
@@ -36,10 +36,9 @@
 
   In the case of page breaking, the <src-var|page-flexibility> environment
   provides additional control over the stretchability of white space. When
-  setting the <src-var|page-flexibility> to <with|mode|math|1>, stretchable
-  spaces behave as usual. When setting the <src-var|page-flexibility> to
-  <with|mode|math|0>, stretchable spaces become rigid. For other values, the
-  behaviour is linear.
+  setting the <src-var|page-flexibility> to <math|1>, stretchable spaces
+  behave as usual. When setting the <src-var|page-flexibility> to <math|0>,
+  stretchable spaces become rigid. For other values, the behaviour is linear.
 
   <paragraph*|Absolute length units>
 
@@ -51,10 +50,9 @@
     <item*|<code*|in>>One inch.
 
     <item*|<code*|pt>>The standard typographic point corresponds to
-    <with|mode|math|1/72.27> of an inch.
+    <math|1/72.27> of an inch.
 
-    <item*|<verbatim|bp>>A big point corresponds to <with|mode|math|1/72> of
-    an inch.
+    <item*|<verbatim|bp>>A big point corresponds to <math|1/72> of an inch.
 
     <item*|<verbatim|dd>>The Didôt point equals 1/72 of a French inch,
     <abbr|i.e.> <verbatim|0.376mm>.
@@ -67,10 +65,10 @@
   <paragraph*|Rigid font-dependent length units>
 
   <\description>
-    <verbatim|fs><item*|>The font size. When using a <verbatim|12pt> font,
+    <item*|<verbatim|fs>>The font size. When using a <verbatim|12pt> font,
     <verbatim|1fs> corresponds to <verbatim|12pt>.
 
-    <verbatim|fbs><item*|>The base font size. Typically, when selecting
+    <item*|<verbatim|fbs>>The base font size. Typically, when selecting
     <verbatim|10> as the font size for your document and when typing large
     text, the base font size is <verbatim|10pt> and the font size
     <verbatim|12pt>.
@@ -119,6 +117,38 @@
     <item*|<verbatim|xspc>>The additional (stretchable) width of a space
     character after a period.
   </description>
+
+  <paragraph*|Box lengths><label|box-lengths>
+
+  Box length units can only be used within some special markup elements, such
+  as <markup|move>, <markup|shift>, <markup|resize>, <markup|clipped> and
+  <markup|image>. The principal body of this content (<abbr|e.g.> the content
+  being ``moved'' in the case of <markup|move>) is typeset as a box. The
+  following lengths units then correspond to the size and the extents of the
+  box.
+
+  <\description>
+    <item*|<code*|w>>The width of the box.
+
+    <item*|<verbatim|h>>The height of the box.
+
+    <item*|<code*|l>>The logical left <math|x>-coordinate of the box.
+
+    <item*|<code*|r>>The logical right <math|x>-coordinate of the box.
+
+    <item*|<code*|b>>The logical bottom <math|y>-coordinate of the box.
+
+    <item*|<code*|t>>The logical top <math|y>-coordinate of the box.
+  </description>
+
+  For instance, the code
+
+  <\tm-fragment>
+    <inactive*|<move|Hello there||<plus|-0.5b|-0.5t>>>
+  </tm-fragment>
+
+  can be used to center <move|Hello there||<plus|-0.5b|-0.5t>> at the
+  base-line.
 
   <paragraph*|Other length units>
 
