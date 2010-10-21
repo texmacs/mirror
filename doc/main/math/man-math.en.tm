@@ -1,4 +1,4 @@
-<TeXmacs|1.0.5.3>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
@@ -12,11 +12,11 @@
     <item*|<menu|Insert|Mathematics|Formula> or <key|$>>
 
     This entry corresponds to small <em|inline formulas> like
-    <with|mode|math|a<rsup|2>+b<rsup|2>=c<rsup|2>> inside a textual
-    paragraph. Note that formulas are typeset specially so they do not take
-    too much vertical space. For example, limits are always displayed on the
-    left. Limits can be displayed below in formulas with <menu|Format|Formula
-    style|on>. In formulas, formula style is off by default.
+    <math|a<rsup|2>+b<rsup|2>=c<rsup|2>> inside a textual paragraph. Note
+    that formulas are typeset specially so they do not take too much vertical
+    space. For example, limits are always displayed on the left. Limits can
+    be displayed below in formulas with <menu|Format|Formula style|on>. In
+    formulas, formula style is off by default.
 
     <item*|<menu|Insert|Mathematics|Equation> or <shortcut|(make-equation*)>>
 
@@ -27,14 +27,16 @@
     </equation*>
 
     which are typeset in a paragraph of their own. You may use the shortcut
-    <shortcut|(toggle-number)> in order to give the equation a number (or to remove the number
-    of an equation). Also, <shortcut|(variant-circulate #t)> allows you to switch between
-    inline formulas and displayed equations.
+    <shortcut|(toggle-number)> in order to give the equation a number (or to
+    remove the number of an equation). Also, <shortcut|(variant-circulate
+    #t)> allows you to switch between inline formulas and displayed
+    equations.
 
-    <item*|<menu|Insert|Mathematics|Equations> or <shortcut|(make-eqnarray*)>>
+    <item*|<menu|Insert|Mathematics|Equations> or
+    <shortcut|(make-eqnarray*)>>
 
     This entry allows you to create an <markup|eqnarray*>, a three columns
-    wide table-like environment (see <hyper-link|creating
+    wide table-like environment (see <hlink|creating
     tables|../table/man-create-table.en.tm>). This environment is typically
     used for lists of multiple relations like
 
@@ -59,15 +61,15 @@
   </description>
 
   In math mode, you have specific commands and key-combinations to type
-  mathematical symbols and formulas. For instance, the <prefix|math:greek> prefix can be
-  used in order to enter Greek symbols.
+  mathematical symbols and formulas. For instance, the <prefix|math:greek>
+  prefix can be used in order to enter Greek symbols.
 
   The editor favors typing mathematics with a certain meaning. This feature,
   which will be developed more in future releases, is useful when
   communicating with a computer algebra package. At this moment, you should
   for instance explicitly type the multiplication <key|*> between symbols
-  <with|mode|math|a> and <with|mode|math|b>. By default, typing <key|a b>
-  will yield <with|mode|math|mode|text|ab> and not <with|mode|math|a*b>.
+  <math|a> and <math|b>. By default, typing <key|a b> will yield
+  <with|mode|math|mode|text|ab> and not <math|a*b>.
 
   <\traverse>
     <branch|Main mathematical constructs|keyboard/man-main.en.tm>
@@ -79,6 +81,8 @@
     <branch|Large delimiters|keyboard/man-large.en.tm>
 
     <branch|Wide accents|keyboard/man-wide.en.tm>
+
+    <branch|Mathematical semantics|semantics/man-semantics.en.tm>
   </traverse>
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
