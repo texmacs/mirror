@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.6>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
@@ -17,7 +17,10 @@
   figure<nbsp><reference|translate-fig>. Similarly, using the second menu, it
   is possible to create content which only progressively appears on the
   screen. The various kinds of progressive content are illustrated in
-  figure<nbsp><reference|progressive-fig>.
+  figure<nbsp><reference|progressive-fig>. The duration of the animations can
+  be <hlink|modified <em|a<nbsp>posteriori>|../editing/man-structured-geometry.en.tm>
+  by putting your cursor inside them and using the shortcuts
+  <shortcut|(geometry-left)> and<nbsp><shortcut|(geometry-right)>.
 
   <big-figure|<tabular*|<tformat|<cwith|1|1|1|1|cell-lsep|0.5em>|<cwith|1|1|1|1|cell-rsep|0.5em>|<cwith|1|1|1|1|cell-bsep|0.5em>|<cwith|1|1|1|1|cell-tsep|0.5em>|<cwith|1|1|1|1|cell-background|pastel
   yellow>|<cwith|2|2|1|1|cell-tsep|0.5em>|<table|<row|<cell|<anim-translate|<large|Hello
