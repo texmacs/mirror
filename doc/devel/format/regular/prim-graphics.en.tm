@@ -1,4 +1,4 @@
-<TeXmacs|1.0.3.10>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
@@ -9,19 +9,19 @@
   documented later.
 
   <\explain>
-    <explain-macro|postscript|url|width|height|clip-left|clip-bottom|clip-right|clip-top>
+    <explain-macro|image|url|width|height|x-pos|y-pos>
   <|explain>
     Please document.
   </explain>
 
   <\explain>
-    <explain-macro|superpose|content-1|<with|mode|math|\<cdots\>>|content-n>
+    <explain-macro|superpose|content-1|<math|\<cdots\>>|content-n>
   <|explain>
     Please document.
   </explain>
 
   <\explain>
-    <explain-macro|graphics|gr-content-1|<with|mode|math|\<cdots\>>|gr-content-n>
+    <explain-macro|graphics|gr-content-1|<math|\<cdots\>>|gr-content-n>
   <|explain>
     Please document.
   </explain>
@@ -33,37 +33,37 @@
   </explain>
 
   <\explain>
-    <explain-macro|point|coord-1|<with|mode|math|\<cdots\>>|coord-n>
+    <explain-macro|point|coord-1|<math|\<cdots\>>|coord-n>
   <|explain>
     Please document.
   </explain>
 
   <\explain>
-    <explain-macro|line|point-1|<with|mode|math|\<cdots\>>|point-n>
+    <explain-macro|line|point-1|<math|\<cdots\>>|point-n>
   <|explain>
     Please document.
   </explain>
 
   <\explain>
-    <explain-macro|cline|point-1|<with|mode|math|\<cdots\>>|point-n>
+    <explain-macro|cline|point-1|<math|\<cdots\>>|point-n>
   <|explain>
     Please document.
   </explain>
 
   <\explain>
-    <explain-macro|spline|point-1|<with|mode|math|\<cdots\>>|point-n>
+    <explain-macro|spline|point-1|<math|\<cdots\>>|point-n>
   <|explain>
     Please document.
   </explain>
 
   <\explain>
-    <explain-macro|spline*|point-1|<with|mode|math|\<cdots\>>|point-n>
+    <explain-macro|spline*|point-1|<math|\<cdots\>>|point-n>
   <|explain>
     Please document.
   </explain>
 
   <\explain>
-    <explain-macro|cspline|point-1|<with|mode|math|\<cdots\>>|point-n>
+    <explain-macro|cspline|point-1|<math|\<cdots\>>|point-n>
   <|explain>
     Please document.
   </explain>
