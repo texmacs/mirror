@@ -1,4 +1,4 @@
-<TeXmacs|1.0.6.9>
+<TeXmacs|1.0.7.7>
 
 <style|tmweb>
 
@@ -182,10 +182,10 @@
 
   <answer|You will find out, that much <LaTeX>-knowledge can be reused. For
   example, you can start a section by typing <key|\\section[return]> or you
-  get <with|mode|math|\<alpha\><rsub|1>> by typing <key|$\\alpha_1$>. Note
-  that there are even shorter ways provided, for example <key|$a[tab]$> gives
-  you an alpha as well, so you might want to migrate after a while. Styles
-  like article, book or seminar, as known from <LaTeX>, are provided as well.
+  get <math|\<alpha\><rsub|1>> by typing <key|$\\alpha_1$>. Note that there
+  are even shorter ways provided, for example <key|$a[tab]$> gives you an
+  alpha as well, so you might want to migrate after a while. Styles like
+  article, book or seminar, as known from <LaTeX>, are provided as well.
   Furthermore, many <name|Emacs> shortcuts like <key|C-x C-s> for saving a
   file, or <key|C-_> for undo will work. >
 
@@ -380,8 +380,8 @@
 
     <\enumerate>
       <item>Create a PostScript image of your table using OpenOffice
-      (<samp|File<with|mode|math|\<rightarrow\>>Print<with|mode|math|\<rightarrow\>>Print
-      to file)>. Name the file, for example, ``<kbd|table1.ps>''.
+      (<samp|File<math|\<rightarrow\>>Print<math|\<rightarrow\>>Print to
+      file)>. Name the file, for example, ``<kbd|table1.ps>''.
 
       <item>Convert the PostScript file to an Encapsulated PostScript file
       (<verbatim|.eps>) using <verbatim|ps2epsi> in a shell. Just type:
@@ -405,14 +405,17 @@
 
   <\answer>
     Put your cursor right behind the image and press <key|backspace>. You
-    will see the name of the image, followed by six other fields. The two
+    will see the name of the image, followed by four other fields. The two
     fields after the name of the image are respectively its width and its
     height. You may for instance set the width to <verbatim|5cm> and the
     height to <verbatim|27mm>. When leaving the width open, it will
     automatically be determined as a function of the height (and vice versa).
     When leaving both fields open, the image will be reproduced at its
     original size. Notice that a width of <verbatim|1par> will span your
-    image over the paragraph width.
+    image over the paragraph width. The remaining two fields specify the
+    <math|x>-offset and <math|y>-offset of the image. By default, images are
+    aligned at the bottom. When specifying <verbatim|-0.5h> for the last
+    field, the image will be vertically aligned at the center.
   </answer>
 
   <section*|Microtypography>
@@ -424,8 +427,8 @@
 
   <answer|This is because <TeXmacs> thinks, that the sentence ends after the
   dot in the abbreviation. To resolve this <em|a posteriori>, mark the
-  abbreviation and press <shortcut|(make 'abbr)>. To care for this while writing: <shortcut|(make 'abbr)>
-  <key|etc.> <key|[right]>.>
+  abbreviation and press <shortcut|(make 'abbr)>. To care for this while
+  writing: <shortcut|(make 'abbr)> <key|etc.> <key|[right]>.>
 
   <\question>
     <label|typo-2>How to add unbreakable space?

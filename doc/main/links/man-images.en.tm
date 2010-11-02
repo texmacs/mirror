@@ -29,7 +29,9 @@
 
   <\itemize>
     <item>When specifying a new width, but no height at the prompt (or vice
-    versa), the image is resized so as to preserve the aspect ration.
+    versa), the image is resized so as to preserve the aspect ration. For
+    instance, entering a width of <verbatim|1par> will make the image span
+    over the entire paragraph width and adjust the height proportionally.
 
     You may use <verbatim|w> and <verbatim|h> as special lengths for the
     default width and height of the image. For instance, specifying
