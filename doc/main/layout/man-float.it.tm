@@ -8,19 +8,19 @@
   Gli oggetti fluttuanti si possono muovere nella pagina indipendentemente
   dal testo principale. Generalmente essi contengono delle figure o delle
   tabelle che sono troppo grandi per adattarsi bene nel testo principale. Un
-  oggetto fluttuante può essere inserito tramite <apply|menu|Insert|Page
+  oggetto fluttuante può essere inserito tramite <apply|menu|Format|Page
   insertion|Floating object>.
 
   Si può anche creare un oggetto fluttuante e inserire direttamente in esso
-  una figura o una tabella utilizzando <apply|menu|Insert|Page
-  insertion|Floating figure> e <apply|menu|Insert|Page insertion|Floating
+  una figura o una tabella utilizzando <apply|menu|Format|Page
+  insertion|Floating figure> e <apply|menu|Format|Page insertion|Floating
   table>. A volte si può desiderare di inserire figure molte piccole o
   tabelle in un oggetto fluttuante. Si può fare ciò usando
   \ <apply|menu|Insert|Image|Small figure> e <apply|menu|Insert|Table|Small
   table>.
 
   Dopo aver creato un oggetto fluttuante, si può controllare la sua posizione
-  mediante <apply|menu|Insert|Page insertion|Position float> (quando ci si
+  mediante <apply|menu|Format|Page insertion|Position float> (quando ci si
   trova all'interno dell'oggetto fluttuante). Si può così specificare se si
   vuole che l'oggetto compaia all'inizio della pagina, in basso, direttamente
   nel testo o nella pagina successiva. Per default, l'oggetto fluttuante può

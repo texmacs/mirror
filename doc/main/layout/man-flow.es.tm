@@ -12,7 +12,7 @@
   uno para los flotantes e incluso otro más para el texto a dos columnas. Los
   diferentes flujos se rompen en páginas de un modo bastante independiente.
 
-  A fin de insertar una nota al pie puede usar <apply|menu|Insert|Page
+  A fin de insertar una nota al pie puede usar <apply|menu|Format|Page
   insertion|Footnote>. el número de columnas puede ser cambiado en
   <apply|menu|Paragraph|Number of columns>.
 

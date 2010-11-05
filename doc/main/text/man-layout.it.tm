@@ -11,7 +11,7 @@
   dovrebbero inserire degli spazi o delle righe bianche con l'intento di
   sostituire spazi orizzontali o verticali tra le parole o tra le righe; gli
   spazi addizionali dovrebbero essere inseriti esplicitamente utilizzando
-  <apply|menu|Insert|Space>. In questo modo si renderà il documento più
+  <apply|menu|Format|Space>. In questo modo si renderà il documento più
   robusto nel senso che non si dovrà rimettere mano all'impaginazione se si
   apporta qualche piccola modifica, che influisce su alcune righe o alcune
   pagine, o una modifica maggiore, come un cambiamento dello stile del

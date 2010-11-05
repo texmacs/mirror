@@ -8,12 +8,12 @@
   Objetos flutuantes podem mover-se na página de modo independente do corpo
   principal do texto. Normalmente eles contém figuras ou tabelas que são
   muito grandes para serem inseridas diretamente no corpo do texto. Um objeto
-  flutuante pode ser inserido com <apply|menu|Insert|Page insertion|Floating
+  flutuante pode ser inserido com <apply|menu|Format|Page insertion|Floating
   object>.
 
   Você também pode criar um objeto flutuante e inserir diretamente a figura
-  ou tabela dentro dele com <apply|menu|Insert|Page insertion|Floating
-  figure> ou <apply|menu|Insert|Page insertion|Floating table>,
+  ou tabela dentro dele com <apply|menu|Format|Page insertion|Floating
+  figure> ou <apply|menu|Format|Page insertion|Floating table>,
   respectivamente. Algumas vezes, no entanto, você pode querer inserir várias
   figuras e tabelas dentro de um único objeto flutuante. Você pode fazer isto
   com <apply|menu|Insert|Image|Small figure> e <apply|menu|Insert|Table|Small

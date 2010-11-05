@@ -12,7 +12,7 @@
   column text. The different flows are broken across pages in a quite
   independent way.
 
-  In order to insert a footnote, you may use <subsubmenu|Insert|page
+  In order to insert a footnote, you may use <subsubmenu|Format|page
   insertion|footnote>. The number of columns of the text may be changed in
   <submenu|Paragraph|number of columns>.
 

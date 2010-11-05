@@ -12,7 +12,7 @@
   tekstu dwukolumnowego. Ró»ne strumienie s¡ ªamane na stronach w niezale»ny
   sposób.
 
-  Aby wstawi¢ przypis mo»na u»y¢ <menu|Insert|Page insertion|Footnote>.
+  Aby wstawi¢ przypis mo»na u»y¢ <menu|Format|Page insertion|Footnote>.
   Liczba kolumn w tek±cie jest zmieniana poprzez <menu|Paragraph|Number of
   columns>.
 

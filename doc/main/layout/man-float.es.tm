@@ -8,12 +8,12 @@
   A los objetos flotantes se les permite desplazarse por la página
   independientemente del cuerpo del texto. Normalmente, los flotantes
   contienen figuras o tablas demasiado grandes para ajustar bien en el cuerpo
-  del texto. Se insertan usando <apply|menu|Insert|Page insertion|Floating
+  del texto. Se insertan usando <apply|menu|Format|Page insertion|Floating
   object>.
 
   Puede también en un objeto flotante insertar directamente una figura o
-  tabla, mediante <apply|menu|Insert|Page insertion|Floating figure> o,
-  respectivamente, <apply|menu|Insert|Page insertion|Floating table>. Sin
+  tabla, mediante <apply|menu|Format|Page insertion|Floating figure> o,
+  respectivamente, <apply|menu|Format|Page insertion|Floating table>. Sin
   embargo a veces es posible que uno quiera ubicar varias figuras o tablas
   pequeñas dentro de un mismo objeto flotante. Puede hacer esto mediante
   <apply|menu|Insert|Image|Small figure> en el caso de las figuras y

@@ -10,7 +10,7 @@
   \ Leerzeichen oder Leerzeilen über die Tastatur eingeben, um horizontale
   und vertikale Abstände zu erzeugen, obwohl dies nicht verboten ist und oft
   der Gewohnheit entspricht. Sie sollten dafür die Befehle aus dem Menü
-  <menu|Insert|Spaces> verwenden. Das hat den Vorteil, dass bei kleinen
+  <menu|Format|Spaces> verwenden. Das hat den Vorteil, dass bei kleinen
   Änderungen, die den Zeilen- oder Seitenumbruch verändern, und auch bei
   groÿen wie einem Wechsel des Dokumentstiles, die Darstellung des Textes
   unverändert bleibt. Wenn Sie sich daran halten, müssen Sie nach solchen

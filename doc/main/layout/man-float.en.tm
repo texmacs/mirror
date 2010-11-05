@@ -8,11 +8,11 @@
   Floating objects are allowed to move on the page independently from the
   main text. Usually they contain figures or tables which are too large to
   nicely fit into the main text. A floating object may be inserted using
-  <subsubmenu|Insert|page insertion|floating object>.
+  <subsubmenu|Format|page insertion|floating object>.
 
   You may also create a floating object and directly insert a figure or table
-  inside it using <subsubmenu|Insert|page insertion|floating figure> resp.
-  <subsubmenu|Insert|page insertion|floating table>. However, sometimes you
+  inside it using <subsubmenu|Format|page insertion|floating figure> resp.
+  <subsubmenu|Format|page insertion|floating table>. However, sometimes you
   might want to insert several smaller figures or tables inside one floating
   object. You may do this using <subsubmenu|Insert|image|small figure> resp.
   <subsubmenu|Insert|table|small table>.

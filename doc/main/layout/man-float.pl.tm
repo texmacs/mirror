@@ -8,11 +8,11 @@
   Pªywaj¡ce obiekty mog¡ przemieszcza¢ si¦ po stronie niezale»nie od gªównego
   tekstu. Zwykle zawieraj¡ wykresy i tablice które s¡ za du»e aby ªadnie
   dopasowa¢ si¦ do gªównego tekstu. Pªywaj¡ce obiekty s¡ wstawiane poprzez
-  <menu|Insert|Page insertion|Floating object>.
+  <menu|Format|Page insertion|Floating object>.
 
   Mo»na równie» stworzy¢ pªywaj¡cy obiekt i bezpo±rednio umie±ci¢ w nim
-  obrazek lub tablic¦ poprzez <menu|Insert|Page insertion|Floating figure>
-  odpowiednio <menu|Insert|Page insertion|Floating table>. Oczywi±cie w
+  obrazek lub tablic¦ poprzez <menu|Format|Page insertion|Floating figure>
+  odpowiednio <menu|Format|Page insertion|Floating table>. Oczywi±cie w
   pªynny obiekt mo»na wstawi¢ mniejsze obrazki lub tablice u»ywaj¡c
   <menu|Insert|Image|Small figure> oraz <menu|Insert|Table|Small table>.
 

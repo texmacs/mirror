@@ -13,7 +13,7 @@
   texto em duas colunas. As quebras de páginas dos diferentes fluxos são
   feitas de forma muito independente.
 
-  Para inserir uma nota de rodapé, você pode usar <apply|menu|Insert|Page
+  Para inserir uma nota de rodapé, você pode usar <apply|menu|Format|Page
   insertion|Footnote>. O número de colunas do texto pode ser modificado em
   <apply|menu|Paragraph|Number of columns>.
 

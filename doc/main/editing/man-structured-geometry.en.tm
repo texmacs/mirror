@@ -8,7 +8,7 @@
   The <prefix|structured:geometry> prefix may be used for positioning and
   resizing objects. For instance, inside a cell of a<nbsp>table, you may use
   <key|structured:geometry right> to align the cell more to the right. Behind
-  a space introduced <em|via> <menu|Insert|Space>, the same key allows you to
+  a space introduced <em|via> <menu|Format|Space>, the same key allows you to
   increase the width of space. More generally, the following shortcuts are
   implemented:
 
@@ -51,7 +51,7 @@
 
   <\description>
     <item*|Spaces>Both horizontal and vertical spaces from the
-    <menu|Insert|Space> menu. You should put the cursor just after the space
+    <menu|Format|Space> menu. You should put the cursor just after the space
     tag for the shortcuts to apply.
 
     <item*|Box modifiers>The tags <markup|move>, <markup|shift>,

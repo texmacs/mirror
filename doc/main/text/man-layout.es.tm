@@ -10,7 +10,7 @@
   componer su documento visualmente. Por ejemplo, no debería insertar
   espacios o líneas en blanco como sustitutos del espacio vertical u
   horizontal entre palabras y líneas; en lugar de ello, el espacio adicional
-  debería insertarse utilizando <apply|menu|Insert|Space>. Esto hará su texto
+  debería insertarse utilizando <apply|menu|Format|Space>. Esto hará su texto
   más robusto en el sentido de que no tendrá que reconsiderar la presentación
   cuando apliques pequeños cambios que afecten a los saltos de línea o
   página, o grandes cambios, como los de estilo del documento.

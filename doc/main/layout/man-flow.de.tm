@@ -13,7 +13,7 @@
   für mehrspaltigen Text. Die verschiedenen Ströme verteilen sich über die
   Seiten ziemlich unabhängig von einander.\ 
 
-  Um eine Fuÿnote einzufügen, benutzen Sie <menu|Insert|Page
+  Um eine Fuÿnote einzufügen, benutzen Sie <menu|Format|Page
   insertion|Footnote>. Die Anzahl der Spalten kann im Menü
   <menu|Paragraph|Number of columns> eingestellt werden.
 

@@ -10,7 +10,7 @@
   wizualnie. Dla przykªadu, nie nale»y wstawia¢ spacji lub pustych lini jako
   substytutów pionowych i poziomych odst¦pów pomi¦dzy sªowami i liniami.
   Zamiast tego dodatkowe spacje powinny by¢ umieszczane bezpo±rednio u»ywaj¡c
-  <menu|Insert|Space>. W ten sposób ukªad tekstu b¦dzie odporny na drobne
+  <menu|Format|Space>. W ten sposób ukªad tekstu b¦dzie odporny na drobne
   zmiany zwi¡zane z ªamaniem lini i stron, jak i powa»ne zmiany takie jak
   ustawienie innego stylu.
 

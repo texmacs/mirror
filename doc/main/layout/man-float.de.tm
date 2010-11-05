@@ -8,18 +8,18 @@
   Bewegliche Objekte dürfen auf der Seite unabhängig vom Haupt-Text
   positioniert werden. Normalerweise enthalten sie Abbildungen oder Tabellen,
   die zu groÿ sind, um leicht in den Haupt-Text zu passen. Ein solches Objekt
-  wird mit <menu|Insert|Page insertion|Floating object> erzeugt.
+  wird mit <menu|Format|Page insertion|Floating object> erzeugt.
 
   Sie können aber auch ein bewegliches Objekt, erstellen, das eine Abbildung
-  oder eine Tabelle, enthält. Dazu dienen die Befehle <menu|Insert|Page
-  insertion|Floating figure> bzw. <menu|Insert|Page insertion|Floating
+  oder eine Tabelle, enthält. Dazu dienen die Befehle <menu|Format|Page
+  insertion|Floating figure> bzw. <menu|Format|Page insertion|Floating
   table>. Manchmal will man aber mehrere kleine Abbildungen oder Tabellen in
   einem beweglichen Objekt unterbringen. Man kann dies mit den Befehlen
   <menu|Insert|Image|Small figure> bzw. <menu|Insert|Table|Small table>.
 
   Nachdem Sie ein bewegliches Objekt erzeugt haben, können Sie im gewissen
   Umfang steuern, wo dieses Objekt eingefügt werden soll. Dazu dient das Menü
-  \ <menu|Insert|Page insertion|Position float>. Dazu müssen Sie sich aber
+  \ <menu|Format|Page insertion|Position float>. Dazu müssen Sie sich aber
   innerhalb des beweglichen Objektes befinden. Sie können festlegen, dass das
   bewegliche Objekt \R<localize|top>`` auf der Seite, \R<localize|bottom>``,
   \ \R<localize|here>`` oder auf \R<localize|other pages>`` erscheint. Die

@@ -10,7 +10,7 @@
   você o faça, nós não encorajamos que você tente fazer a diagramação do seu
   documento visualmente. Por exemplo, você não deve inserir espaços ou linhas
   em branco para criar espaçamento vertical ou horizontal; espaço adicional
-  deve ser inserido explicitamente com <apply|menu|Insert|Space>. Isto
+  deve ser inserido explicitamente com <apply|menu|Format|Space>. Isto
   tornará seu texto mais robusto, no sentido de que você não terá que refazer
   a diagramação quando realizar pequenas alterações, que podem mudar quebras
   de linhas ou páginas, ou grandes alterações, como mudar o estilo do

@@ -12,7 +12,7 @@
   <em|a posteriori>|../../editing/man-structured-geometry.en.tm> using the
   shortcuts <shortcut|(geometry-left)> and<nbsp><shortcut|(geometry-right)>.
   This kind of resizing actually works for more general horizontal and
-  vertical spaces inserted from the menu <menu|Insert|Space>, as well as
+  vertical spaces inserted from the menu <menu|Format|Space>, as well as
   several other objects, such as images.
 
   <\big-table|<descriptive-table|<tformat|<table|<row|<cell|Shortcut>|<cell|Action>>|<row|<cell|<shortcut|(remove-structure-upwards)>>|<cell|Remove

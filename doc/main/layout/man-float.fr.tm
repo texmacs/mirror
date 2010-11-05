@@ -8,19 +8,19 @@
   Les objets flottants peuvent être déplacés dans la page indépendamment du
   texte principal. Ils contiennent, en général, des figures ou des tableaux
   trop grands pour s'insérer harmonieusement dans le texte principal. On peut
-  insérer un objet flottant avec <apply|menu|Insert|Page insertion|Floating
+  insérer un objet flottant avec <apply|menu|Format|Page insertion|Floating
   object>.
 
   Vous pouvez aussi créer un objet flottant et y insérer directement une
-  figure ou un tableau avec <apply|menu|Insert|Page insertion|Floating
-  figure> resp. <apply|menu|Insert|Page insertion|Floating table> Il se peut
+  figure ou un tableau avec <apply|menu|Format|Page insertion|Floating
+  figure> resp. <apply|menu|Format|Page insertion|Floating table> Il se peut
   que, parfois, vous souhaitiez insérer plusieurs petites figures ou tableaux
   dans un objet flottant. Vous pouvez le faire avec
   <apply|menu|Insert|Image|Small figure> resp. <apply|menu|Insert|Table|Small
   table>.
 
   Après avoir créé un objet flottant, vous pouvez contrôler sa position avec
-  <apply|menu|Insert|Page insertion|Position float> (quand vous êtes dans la
+  <apply|menu|Format|Page insertion|Position float> (quand vous êtes dans la
   zone de l'objet flottant). Vous pouvez spécifier que l'objet flottant
   apparaisse en haut ou en bas de page, directement dans le texte, ou sur la
   page suivante. Par défaut, un objet flottant peut apparaître n'importe où.

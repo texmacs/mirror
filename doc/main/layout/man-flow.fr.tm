@@ -14,7 +14,7 @@
   indépendamment les uns des autres.
 
   Pour insérer une note en bas de page, vous pouvez utiliser
-  <apply|menu|Insert|Page insertion|Footnote>. Le nombre de colonnes du texte
+  <apply|menu|Format|Page insertion|Footnote>. Le nombre de colonnes du texte
   peut être modifié avec <apply|menu|Format|Number of columns> si vous
   désirez changer le nombre de colonnes sur une partie du texte ou bien avec
   <apply|menu|Document|Paragraph|Number of column> si vous désirez le changer

@@ -14,7 +14,7 @@
   dall'altro.
 
   Per poter inserire note a piè di pagin, si può utilizzare
-  <apply|menu|Insert|Page insertion|Footnote>. Il numero di colonne del testo
+  <apply|menu|Format|Page insertion|Footnote>. Il numero di colonne del testo
   può essere modificato in <apply|menu|Document|Paragraph|Number of columns>.
 
   <apply|tmdoc-copyright|1998--2003|Joris van der Hoeven|Lucia
