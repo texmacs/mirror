@@ -5,7 +5,7 @@
 <\body>
   <expand|tmdoc-title|Listas>
 
-  Usando <apply|menu|Text|Itemize> usted puede empezar una lista no numerada.
+  Usando <apply|menu|Insert|Itemize> usted puede empezar una lista no numerada.
   Puede también seleccionar una marca particular como
   <with|mode|math|\<bullet\>> (bolos), <with|mode|math|<op|->> (guiones) o
   <with|mode|math|<op|\<rightarrow\>>> (flechas) para indicar las entradas en
@@ -35,10 +35,10 @@
   a fin de iniciar un nuevo párrafo.
 
   Los entornos enumerados, que son iniciados usando
-  <apply|menu|Text|Enumerate>, se comporta en una forma similar como una
+  <apply|menu|Insert|Enumerate>, se comporta en una forma similar como una
   lista no numerada, excepto que los items son numerados. A continuación
   sigue un ejemplo de una enumeración que puede ser iniciada usando
-  <apply|menu|Text|Enumerate|Roman>:
+  <apply|menu|Insert|Enumerate|Roman>:
 
   <\expand|enumerate-Roman>
     <item>Un primer item.
@@ -49,7 +49,7 @@
   </expand>
 
   El último tipo de listas son las listas descriptivas. Ellas son iniciadas
-  usando, <apply|menu|Text|Description> y permite describir una lista de
+  usando, <apply|menu|Insert|Description> y permite describir una lista de
   conceptos:
 
   <\description>

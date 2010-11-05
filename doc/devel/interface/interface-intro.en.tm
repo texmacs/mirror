@@ -10,7 +10,7 @@
   <hyper-link|plugins|../plugin/plugins.en.tm>. The plug-in may either
   contain the extern application, or provide the ``glue'' between <TeXmacs>
   and the application. Usually, interfaces are used interactively in shell
-  sessions (see <menu|Text|Session>). But they may also be designed for
+  sessions (see <menu|Insert|Session>). But they may also be designed for
   background tasks, such as spell checking or typesetting.
 
   The communication between <TeXmacs> and the application takes place using a

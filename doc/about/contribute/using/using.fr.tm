@@ -11,7 +11,7 @@
   le fait que vous utilisez TeXmacs pour écrire vos articles lors de leur
   remise. \ Il vous suffit pour cela d'insérer la marque
   <markup|made-by-TeXmacs> tag dans le titre avec
-  <apply|menu|Text|Title|TeXmacs notice>.
+  <apply|menu|Insert|Title|TeXmacs notice>.
 
   Besides these general (but very important) ways to contribute, your help on
   the more specific subjects below would be appreciated. Outre ces moyens

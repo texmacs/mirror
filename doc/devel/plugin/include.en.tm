@@ -50,7 +50,7 @@
   <verbatim|output-format> is <verbatim|generic>. Other available formats are
   <verbatim|scheme>, <verbatim|latex>, <verbatim|html> and <verbatim|ps>. The
   <verbatim|:session> instruction makes shell sessions available for your
-  plugin from the menu <apply|menu|Text|Session|Myplugin>.
+  plugin from the menu <apply|menu|Insert|Session|Myplugin>.
 
   If everything works well, and you wish to make it possible for others to
   use your system inside the official <apply|TeXmacs> distribution, then

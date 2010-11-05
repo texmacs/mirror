@@ -5,7 +5,7 @@
 <\body>
   <expand|tmdoc-title|Liste>
 
-  Usando <apply|menu|Text|Itemize> si può costruire una lista non numerata.
+  Usando <apply|menu|Insert|Itemize> si può costruire una lista non numerata.
   Per indicare gli elementi della lista si può utilizzare il tag di default
   oppure si può selezionare un tag particolare come
   <with|mode|math|\<bullet\>> (puntine), <with|mode|math|<op|->> (trattini) o
@@ -36,10 +36,10 @@
   <key|S-return> per iniziare un nuovo paragrafo senza passare
   ad un altro elemento della lista.
 
-  Le liste numerate, che sono create utilizzando <apply|menu|Text|Enumerate>,
+  Le liste numerate, che sono create utilizzando <apply|menu|Insert|Enumerate>,
   si comportano in maniera analoga alle liste puntate, con l'unica differenza
   che gli elementi sono numerati. Qui di seguito vi è un esempio di una lista
-  numerata creata utilizzando <apply|menu|Text|Enumerate|I, II, III>:
+  numerata creata utilizzando <apply|menu|Insert|Enumerate|I, II, III>:
 
   <\expand|enumerate-Roman>
     <item>Primo elemento.
@@ -50,7 +50,7 @@
   </expand>
 
   L'ultimo tipo di liste serve per creare delle descrizioni. Vengono create
-  utilizzando <apply|menu|Text|Description> e consentono di descrivere una
+  utilizzando <apply|menu|Insert|Description> e consentono di descrivere una
   lista di concetti:
 
   <\description>

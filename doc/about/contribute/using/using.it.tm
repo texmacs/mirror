@@ -10,7 +10,7 @@
   all'autore bug o malfunzionamenti in genere. Da questo punto di vista,
   quando inviate articoli scritti con <TeXmacs>, siete invitati a segnalarlo.
   Per fare questo è sufficiente inserire il tag <markup|made-by-TeXmacs> da
-  qualche parte nel titolo utilizzando il menu <apply|menu|Text|Title|TeXmacs
+  qualche parte nel titolo utilizzando il menu <apply|menu|Insert|Title|TeXmacs
   notice>.
 
   Oltre a questo modo generico (ma molto importante) di contribuire a

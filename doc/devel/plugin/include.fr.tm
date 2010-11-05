@@ -52,7 +52,7 @@
   autres formats possibles sont : <verbatim|scheme>, <verbatim|latex>,
   <verbatim|html> et <verbatim|ps>. L'instruction <verbatim|:session> rend
   les sessions shell disponible pour votre plugin à partir du menu
-  <apply|menu|Text|Session|Myplugin>.
+  <apply|menu|Insert|Session|Myplugin>.
 
   Si tout fonctionne correctement et que vous souhaitez faire profiter les
   autres de votre système dans la version officielle de <apply|TeXmacs>

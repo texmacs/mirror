@@ -7,7 +7,7 @@
 
   Per poter comporre delle formule matematiche, si deve innanzitutto attivare
   la ``modalità matematica'' premendo il tasto <key|$> o inserendo
-  un'equazione (utilizzando <apply|menu|Text|Mathematics|Equation>). In
+  un'equazione (utilizzando <apply|menu|Insert|Mathematics|Equation>). In
   modalità matematica, si hanno a disposizione dei comandi specifici e delle
   combinazioni di tasti per scrivere simboli matematici e formule. Per
   esempio, il prefisso <prefix|M-A-> può essere utilizzato per scrivere le lettere

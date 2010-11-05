@@ -13,7 +13,7 @@
   unnatural behaviour to us. Please mention the fact that you wrote articles
   using <TeXmacs> when submitting them. You can do this by putting the
   <markup|made-by-TeXmacs> tag somewhere inside your title using
-  <apply|menu|Text|Title|TeXmacs notice>.
+  <apply|menu|Insert|Title|TeXmacs notice>.
 
   Besides these general (but very important) ways to contribute, you may also
   <apply|hyper-link|donate|donations.en.tm> money to us, or actively help

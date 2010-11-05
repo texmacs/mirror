@@ -15,7 +15,7 @@
   </verbatim>
 
   \ Per richiamare <name|Gnuplot> in <TeXmacs> si utilizza
-  <apply|menu|Text|Session|Gnuplot>. Qui di seguito vi è un esempio di
+  <apply|menu|Insert|Session|Gnuplot>. Qui di seguito vi è un esempio di
   sessione:
 
   <\session|gnuplot|default>

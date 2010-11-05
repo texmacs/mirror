@@ -153,7 +153,7 @@
   </tm-fragment>
 
   Auf diese Weise wird die Ausgabe zentriert, wenn sie mit
-  <menu|Text|Session|Markup> gestartet werden.
+  <menu|Insert|Session|Markup> gestartet werden.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
 

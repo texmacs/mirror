@@ -7,66 +7,66 @@
 
   Varias etiquetas estándar están definidas en <tmdtd|std-markup>. Los
   siguientes etiquetas de contenido textual toman todas un argumento. La
-  maryoría puede ser encontradas en el menú <apply|menu|Text|Content tag>.
+  maryoría puede ser encontradas en el menú <apply|menu|Insert|Content tag>.
 
   <\description>
     <expand|item*|<markup|strong>>Indica una <strong|importante> región de
-    texto. Pueden entrar esta etiqueta vía <apply|menu|Text|Content
+    texto. Pueden entrar esta etiqueta vía <apply|menu|Insert|Content
     tag|Strong>.
 
     <expand|item*|<markup|em>>Enfatiza una región del texto como en ``la cosa
     <em|real>''. Esta etiqueta corresponde a la entrada del menú
-    \ <apply|menu|Text|Content tag|Emphasize>.
+    \ <apply|menu|Insert|Content tag|Emphasize>.
 
     <expand|item*|<markup|dfn>>Para definiciones como ``un <dfn|gnu> es una
-    bestia cornuda''. Esta etiqueta corresponde a <apply|menu|Text|Content
+    bestia cornuda''. Esta etiqueta corresponde a <apply|menu|Insert|Content
     tag|Definition>.
 
     <expand|item*|<markup|samp>>Una secuencia de caracteres literales como la
     ligadura <samp|ae> (æ). Puede obtener esta etiqueta vía
-    <apply|menu|Text|Content tag|Sample>.
+    <apply|menu|Insert|Content tag|Sample>.
 
     <expand|item*|<markup|name>>El nombre de una cosa o concepto particular
     como el sistema <name|Linux>. Esta etiqueta es obtenida usando
-    <apply|menu|Text|Content tag|Name>.
+    <apply|menu|Insert|Content tag|Name>.
 
     <expand|item*|<markup|person>>El nombre de una persona como <name|Joris>.
-    Esta etiqueta corresponde a <apply|menu|Text|Content tag|Person>.
+    Esta etiqueta corresponde a <apply|menu|Insert|Content tag|Person>.
 
     <expand|item*|<markup|cite*>>Una cita bibliográfica particuar como un
     libro o revista. Ejemplo: <expand|cite*|Moby Dick> de Melville. Esta
-    etiqueta, que es obtenida usando <apply|menu|Text|Content tag|Cite>, no
+    etiqueta, que es obtenida usando <apply|menu|Insert|Content tag|Cite>, no
     debe ser confundida con <markup|cite>. La última etiqueta es también
     usada para citas, pero cuando el artumento se refiere a una entrada en
     una base de datos con referencias bibliográficas.
 
     <expand|item*|<markup|abbr>>Una abreviación. Ejemplo: trabajo en el
-    <abbr|C.N.R.S.> Una abreviación es creada usando <apply|menu|Text|Content
+    <abbr|C.N.R.S.> Una abreviación es creada usando <apply|menu|Insert|Content
     tag|Abbreviation> o el atajo de teclado <key|text a>.
 
     <expand|item*|<markup|acronym>>Un acrónimo es una abreviación formada por
     la priemra letra de cada palabra en un nombre o frase, tal como
     <acronym|HTML> o <acronym|IBM>. En particular, las letras no están
     separadas por puntos. Puede entrar un acrónimo usando
-    <apply|menu|Text|Content tag|Acronym>.
+    <apply|menu|Insert|Content tag|Acronym>.
 
     <expand|item*|<markup|verbatim>>Texto literal como la salida de un
     programa de computador. Ejemplo: El programa dijo <verbatim|hola>. Puede
-    ingresar texto literal vía <apply|menu|Text|Content tag|Verbatim>. La
+    ingresar texto literal vía <apply|menu|Insert|Content tag|Verbatim>. La
     etiqueta también puede ser usada como un entorno para texto multipárrafo.
 
     <expand|item*|<markup|kbd>>Texto que debería ser ingresado en el teclado.
     Ejemplo: por favor presione <kbd|enter>. Esta etiqueta corresponde a la
-    entrada de menú <apply|menu|Text|Content tag|Keyboard>.
+    entrada de menú <apply|menu|Insert|Content tag|Keyboard>.
 
     <expand|item*|<markup|code*>>Código de un programa de computadora como en
     ``<expand|code*|cout \<less\>\<less\> 1+1;> produce <verbatim|2>''. Esto
-    es entrado usando <apply|menu|Text|Content tag|Code>. Para trozos más
+    es entrado usando <apply|menu|Insert|Content tag|Code>. Para trozos más
     largos de código, debería usar el entorno <markup|code>.
 
     <expand|item*|<markup|var>>Variables en un programa de computador como en
     <verbatim|cp <var|src-file> <var|dest-file>>. Esta etiqueta corresponde a
-    la entrada del menú <apply|menu|Text|Content tag|Variable>.
+    la entrada del menú <apply|menu|Insert|Content tag|Variable>.
 
     <expand|item*|<markup|math>>Esta es una etiqueta que será usada en el
     futuro para texto matemático dentro del texto regular. Ejemplo: la

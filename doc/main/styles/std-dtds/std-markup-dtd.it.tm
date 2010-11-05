@@ -7,68 +7,68 @@
 
   Vari markup standard sono definiti in <tmdtd|std-markup>. I seguenti tag
   contestuali prendono tutti un solo argomento. La maggior parte può essere
-  trovata nel menu <apply|menu|Text|Content tag>.
+  trovata nel menu <apply|menu|Insert|Content tag>.
 
   <\description>
     <expand|item*|<markup|strong>>Indica una regione <strong|importante> del
-    testo. Si può attivare questo tag attraverso <apply|menu|Text|Content
+    testo. Si può attivare questo tag attraverso <apply|menu|Insert|Content
     tag|Strong>.
 
     <expand|item*|<markup|em>>Enfatizza una regione del testo come in ``la
     cosa <em|vera>''. Questo tag corrisponde alla voce di menu
-    <apply|menu|Text|Content tag|Emphasize>.
+    <apply|menu|Insert|Content tag|Emphasize>.
 
     <expand|item*|<markup|dfn>>Per le definizioni come ``uno <dfn|gnu> è una
-    bestia con le corna''. Questo tag corrisponde a <apply|menu|Text|Content
+    bestia con le corna''. Questo tag corrisponde a <apply|menu|Insert|Content
     tag|Definition>.
 
     <expand|item*|<markup|samp>>Una sequenza di caratteri letterali, come i
     caratteri <samp|ae> nella legatura æ. Si può attivare questo tag
-    attraverso <apply|menu|Text|Content tag|Sample>.
+    attraverso <apply|menu|Insert|Content tag|Sample>.
 
     <expand|item*|<markup|name>>Il nome di una cosa particolare o un concetto
     come il sistema <name|Linux>. Questo ta si ottiene usando
-    <apply|menu|Text|Content tag|Name>.
+    <apply|menu|Insert|Content tag|Name>.
 
     <expand|item*|<markup|person>>Il nome di una persona come <name|Joris>.
-    Questo tag corrisponde a <apply|menu|Text|Content tag|Person>.
+    Questo tag corrisponde a <apply|menu|Insert|Content tag|Person>.
 
     <expand|item*|<markup|cite*>>Una citazione bibliografica come un libro o
     una rivista. Per esempio, <expand|cite*|Moby Dick> di Melville. Questo
-    tag, che si ottieneusando <apply|menu|Text|Content tag|Cite>, non deve
+    tag, che si ottieneusando <apply|menu|Insert|Content tag|Cite>, non deve
     essere confuso con <markup|cite>. Quest'ultimo tag viene usato anche per
     le citazioni, ma dove l'argomento si riferisce a una voce in un database
     con riferimenti bibliografici.
 
     <expand|item*|<markup|abbr>>Un'abbreviazione. Esempio: io lavoro al
     <abbr|C.N.R.S.> Un'abbreviazione viene creata usando
-    <apply|menu|Text|Content tag|Abbreviation> o la scorciatoia da tastiera
+    <apply|menu|Insert|Content tag|Abbreviation> o la scorciatoia da tastiera
     <key|text a>.
 
     <expand|item*|<markup|acronym>>Un acronimo è un'abbreviazione formata
     dalla prima lettera di ciascuna parola in un nome o una frase, come
     <acronym|HTML> o <acronym|IBM>. In particolare, le lettere non sono
     separate da punti. Si può inserire un acronimo usando
-    <apply|menu|Text|Content tag|Acronym>.
+    <apply|menu|Insert|Content tag|Acronym>.
 
     <expand|item*|<markup|verbatim>>Testo verbatim come l'output di un
     programma informatico. Esempio: il programma restituisce
     <verbatim|hello>. Si può inserire del testo verbatim attraverso
-    <apply|menu|Text|Content tag|Verbatim>. Il tag può anche essere usato
+    <apply|menu|Insert|Content tag|Verbatim>. Il tag può anche essere usato
     come un ambiente per un testo con molti paragrafi.
 
     <expand|item*|<markup|kbd>>Testo che deve essere inserito da tastiera.
     Esempio: per favore premere <kbd|return>. Questo tag corrisponde alla
-    voce di menu <apply|menu|Text|Content tag|Keyboard>.
+    voce di menu <apply|menu|Insert|Content tag|Keyboard>.
 
     <expand|item*|<markup|code*>>Codice di un programma come in
     ``<expand|code*|cout \<less\>\<less\> 1+1;> yields <verbatim|2>''. Questo
-    si attiva usando <apply|menu|Text|Content tag|Code>. Per pezzi di codice
+    si attiva usando <apply|menu|Insert|Content tag|Code>. Per pezzi di codice
     più lunghi, si dovrebbe usare l'ambiente <markup|code>.
 
     <expand|item*|<markup|var>>Variabili in un programma informatico come in
     <verbatim|cp <var|src-file> <var|dest-file>>. Questo tag corrisponde alla
-    voce di menu <apply|menu|Text|Content tag|Variable>.
+    voce di menu <apply|menu|Insert|Content tag|Variable>.
 
     <expand|item*|<markup|math>>Questo è un tag che verrà usato in futuro per
     inserire parti di carattere matematico nel testo regolare. Esempio: la

@@ -5,7 +5,7 @@
 <\body>
   <expand|tmdoc-title|Listes>
 
-  Vous pouvez insérer un liste ordinaire avec <apply|menu|Text|Itemize>. Vous
+  Vous pouvez insérer un liste ordinaire avec <apply|menu|Insert|Itemize>. Vous
   pouvez aussi choisir un marqueur particulier pour chaque élément de la
   liste : <with|mode|math|\<bullet\>> (puces), <with|mode|math|<op|->>
   (tirets) or <with|mode|math|<op|\<rightarrow\>>> (flèches) ou utiliser le
@@ -34,9 +34,9 @@
   longueur de certains éléments dépasse la longueur de la ligne, appuyez sur
   <key|S-retour chariot> pour aller à la ligne sans sortir de l'élément.
 
-  Les énumérations, obtenues avec <apply|menu|Text|Enumerate>, ont des
+  Les énumérations, obtenues avec <apply|menu|Insert|Enumerate>, ont des
   propriétés similaires aux listes ordinaires. Leurs éléments sont numérotés.
-  Voici une énumération obtenue avec <apply|menu|Text|Enumerate|I, II, III> :
+  Voici une énumération obtenue avec <apply|menu|Insert|Enumerate|I, II, III> :
 
   <\expand|enumerate-Roman>
     <item>Premier élément.
@@ -47,7 +47,7 @@
   </expand>
 
   Le dernier type de liste sert à faire une description. On la génère avec
-  <apply|menu|Text|Description> et cela permet de définir une liste de choses
+  <apply|menu|Insert|Description> et cela permet de définir une liste de choses
   :
 
   <\description>

@@ -17,7 +17,7 @@
   La procedura di installazione dai sorgenti è ancora piuttosto instabile,
   pertanto raccomandiamo di usare le distribuzioni binarie o i pacchetti rpm.
   Qui di seguito è riportata un esempio di sessione, che si inizia usando
-  <apply|menu|Text|Session|Maxima>:
+  <apply|menu|Insert|Session|Maxima>:
 
   <\session|maxima|default>
     <\output>

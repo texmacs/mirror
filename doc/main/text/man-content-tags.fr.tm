@@ -6,7 +6,7 @@
   <expand|tmdoc-title|Balises de contenu>
 
   L'exemple le plus simple de structure de texte est le marqueur de contenu.
-  Vous pouvez en voir la liste avec <apply|menu|Text|Content tag>. Les
+  Vous pouvez en voir la liste avec <apply|menu|Insert|Content tag>. Les
   marqueurs de contenu indiquent qu'une certaine partie de texte a un style
   particulier ou sert un but spécifique. Par exemple, une partie de texte
   important peut être marquée avec <markup|strong>. On utilise alors une

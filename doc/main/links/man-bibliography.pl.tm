@@ -18,7 +18,7 @@
     <verbatim|.bib>.
 
     <item>W miejscu stworzenia bibliografii nale»y wstawi¢
-    <menu|Text|Automatic|Bibliography> oraz poda¢ styl pliku (jak
+    <menu|Insert|Automatic|Bibliography> oraz poda¢ styl pliku (jak
     <verbatim|plain>, <verbatim|alpha>, <verbatim|abbrv> itp.)
 
     <item>Po zmianach w dokumencie (dodanie/usuni¦cie) cytatów bibliografi¦

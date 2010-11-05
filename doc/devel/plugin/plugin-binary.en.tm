@@ -69,7 +69,7 @@
   <verbatim|Makefile>). The <scheme-code|:launch> option specifies how to
   launch the extern program. The <verbatim|:session> option indicates that it
   will be possible to create sessions for the <verbatim|minimal> plug-in
-  using <menu|Text|Session|Minimal>.
+  using <menu|Insert|Session|Minimal>.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
 

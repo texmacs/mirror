@@ -23,7 +23,7 @@
     Je n'ai pas la place de faire la démonstration ici.
   </proof>
 
-  Vous pouvez activer un environnement avec <apply|menu|Text|Environment>.
+  Vous pouvez activer un environnement avec <apply|menu|Insert|Environment>.
   D'autres environnements, tels <markup|proposition>, <markup|lemma>,
   <markup|corollary>, <markup|axiom>, <markup|definition>, génèrent un rendu
   similaire à celui de théorème. Utilisez la macro <markup|dueto> (avec

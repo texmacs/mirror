@@ -24,7 +24,7 @@
     No tengo espacio suficiente aquí para escribir la prueba.
   </proof>
 
-  Usted puede ingresar entornos usando <apply|menu|Text|Environment>. Otros
+  Usted puede ingresar entornos usando <apply|menu|Insert|Environment>. Otros
   entornos con una visualización similar a los teoremas con
   <markup|proposition>, <markup|lemma>, <markup|corollary>, <markup|axiom>,
   <markup|definition>. Puede usar el macro <markup|dueto> (ingresado usando

@@ -18,7 +18,7 @@
     <verbatim|.bib> file.
 
     <item>At the place where your bibliography should be compiled, click on
-    <menu|Text|Automatic|Bibliography>. At the prompt, you should enter a
+    <menu|Insert|Automatic|Bibliography>. At the prompt, you should enter a
     <verbatim|bibtex> style (such as <verbatim|plain>, <verbatim|alpha>,
     <verbatim|abbrv>, etc.) and your <verbatim|.bib> file.
 

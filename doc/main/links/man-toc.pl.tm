@@ -6,7 +6,7 @@
   <tmdoc-title|Tworzenie spisu tre±ci>
 
   Tworzenie spisu tre±ci dla dokumentu jest bardzo proste. Wystarczy w
-  miejscu gdzie ma si¦ znajdowa¢ u»y¢ <menu|Text|Automatic|Table of
+  miejscu gdzie ma si¦ znajdowa¢ u»y¢ <menu|Insert|Automatic|Table of
   contents>.
 
   Aby stworzy¢ spis tre±ci powinno si¦ by¢ w trybie, gdzie widoczne s¡

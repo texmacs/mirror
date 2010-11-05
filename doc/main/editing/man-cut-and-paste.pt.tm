@@ -15,8 +15,8 @@
   Também é possível mudar as propriedades de uma região selecionada. Por
   exemplo, para transformar algum texto negro em vermelho, você seleciona a
   região usando o botão esquerdo do mouse e clica em
-  <apply|menu|Text|Color|Red>. Da mesma forma, se você seleciona uma fórmula
-  e clica em <apply|menu|Insert|Mathematics|Fraction>, então a fórmula
+  <apply|menu|Format|Color|Red>. Da mesma forma, se você seleciona uma fórmula
+  e clica em <apply|menu|Insert|Fraction>, então a fórmula
   torna-se o numerador de uma fração
 
   Quando você usa o mecanismo de cortar e colar para trocar dados com outros

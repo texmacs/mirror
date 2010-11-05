@@ -7,7 +7,7 @@
 
   Generare un sommario per il proprio documento è molto facile. E'
   sufficiente posizionare il cursore nella posizione in cui si vuole il
-  sommario e cliccare su <apply|menu|Text|Automatic|Table of contents>.
+  sommario e cliccare su <apply|menu|Insert|Automatic|Table of contents>.
 
   Per generare il sommario, si dovrebbe essere in una modalità in cui le
   interruzioni di pagina siano visibili (si selezioni il foglio in

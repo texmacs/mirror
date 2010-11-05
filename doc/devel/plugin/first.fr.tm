@@ -22,7 +22,7 @@
   </enumerate>
 
   Après avoir fait cela, votre programme sera accessible sous le nom de
-  <apply|menu|Mycas> via <apply|menu|Text|Session>. Nous vous expliquerons
+  <apply|menu|Mycas> via <apply|menu|Insert|Session>. Nous vous expliquerons
   plus loin comment afficher votre système sous son vrai nom, comment le
   personnaliser et comment intégrer l'interface dans la distribution
   officielle de <apply|TeXmacs>.

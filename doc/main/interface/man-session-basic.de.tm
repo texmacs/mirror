@@ -5,7 +5,7 @@
 <\body>
   <tmdoc-title|Sitzungen erzeugen>
 
-  Eine Sitzung kann mit Befehlen aus dem Menü <menu|Text|Session> gestartet
+  Eine Sitzung kann mit Befehlen aus dem Menü <menu|Insert|Session> gestartet
   werden. Sie besteht aus einer Folge von Eingabe- und Ausgabe-Feldern. Wenn
   man <shortcut|(kbd-return)> innerhalb eines Eingabefeldes benutzt, dann wird der
   Text innerhalb dieses Feldes von dem externen Programm evaluiert und in

@@ -16,11 +16,11 @@
   Quatro estilos de documentos padrão foram implementados até agora: carta,
   artigo, livro e seminário. O estilo seminário é usado para criação de
   transparências. Assim que você tenha escolhido um estilo, você pode
-  organizar seu texto em seções (ver <apply|menu|Text|Section>), e usar
+  organizar seu texto em seções (ver <apply|menu|Insert|Section>), e usar
   <em|ambientes> específicos. Exemplos de ambientes são teoremas,
-  proposições, observações e similares (ver <apply|menu|Text|Environment>).
-  Outros exemplos são listas de ítens (ver <apply|menu|Text|Itemize>) ou
-  listas numeradas (ver <apply|menu|Text|Enumerate>).
+  proposições, observações e similares (ver <apply|menu|Insert|Environment>).
+  Outros exemplos são listas de ítens (ver <apply|menu|Insert|Itemize>) ou
+  listas numeradas (ver <apply|menu|Insert|Enumerate>).
 
   Quando você se acostumar mais com o <apply|TeXmacs>, será possível
   adicionar seus próprios ambientes nos seu próprios arquivos de estilo.

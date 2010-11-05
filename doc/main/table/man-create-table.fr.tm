@@ -35,7 +35,7 @@
 
   L'environnement <verbatim|\\eqnarray*> est, lui aussi, une sorte de
   structure tabulaire qui s'étend sur plusieurs lignes. Vous pouvez créer une
-  liste d'équations avec <apply|menu|Text|Mathematics|Equation>.
+  liste d'équations avec <apply|menu|Insert|Mathematics|Equation>.
 
   À la création, un tableau a une taille minimale (en général 1 x 1) et ses
   cellules sont vides. On peut insérer de nouvelles lignes et de nouvelles

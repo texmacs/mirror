@@ -19,7 +19,7 @@
     <key|enter>-Taste.\ 
 
     <item>An der Stelle, an der das Literaturverzeichnis eingefügt werden
-    soll, klicken Sie auf \ <menu|Text|Automatic-generated-lists|Bibliography>.
+    soll, klicken Sie auf \ <menu|Insert|Automatic-generated-lists|Bibliography>.
     An der Eingabeaufforderung geben Sie einen <verbatim|bibtex>-Stil ein und
     ihre <verbatim|.bib>-Datei. Es gibt sehr viele <verbatim|bibtex>-Stile.
     Standard-Stile sind z.B.: <strong|plain> (Die Einträge sind alphabetisch

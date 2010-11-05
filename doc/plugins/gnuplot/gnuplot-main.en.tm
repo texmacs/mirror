@@ -14,7 +14,7 @@
     \ \ \ \ http://gnuplot.sf.net
   </verbatim>
 
-  \ Press <apply|menu|Text|Session|Gnuplot> in order to invoke
+  \ Press <apply|menu|Insert|Session|Gnuplot> in order to invoke
   <name|Gnuplot>. Here follows an example session:
 
   <\session|gnuplot|default>

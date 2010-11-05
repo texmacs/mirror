@@ -9,7 +9,7 @@
   Stichwort-Einträge (Index-Einträge) in Ihrem Dokument machen. Dazu dient
   die Befehle aus dem Menü <menu|Insert|Link|Index entry>. Als zweites müssen
   Sie an der Stelle, an der das Stichwortverzeichnis erscheinen soll, den
-  Menübefehl <menu|Text|Automatic-generated-lists|Index> ausführen. Das
+  Menübefehl <menu|Insert|Automatic-generated-lists|Index> ausführen. Das
   Stichwortverzeichnis wird dann in ähnlicher Weise erstellt wie das
   Inhaltsverzeichnis.
 

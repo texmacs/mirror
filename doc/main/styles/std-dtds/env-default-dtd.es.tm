@@ -15,18 +15,18 @@
   <\description>
     <expand|item*|Variantes de teoremas.>Los cuerpos de los entornos tipo
     teorema son usualmente enfatizados. Por defecto, los siguientes de tales
-    entornos están disponibles vía <apply|menu|Text|Environment>:
+    entornos están disponibles vía <apply|menu|Insert|Environment>:
     <markup|theorem>, <markup|proposition>, <markup|lemma>,
     <markup|corollary>, <markup|axiom>, <markup|definition>,
     <markup|notation>, <markup|conjecture>.
 
     <expand|item*|Variantes de observaciones.>Los siguientes está disponibles
-    vía <apply|menu|Text|Environment>: <markup|remark>, <markup|example>,
+    vía <apply|menu|Insert|Environment>: <markup|remark>, <markup|example>,
     <markup|note>, <markup|warning>, <markup|convention>.
 
     <expand|item*|Variantes de ejercicios.>Dos de tales entornos son
     provistos por defecto y están disponibles vía
-    <apply|menu|Text|Environment>: <markup|exercise> y <markup|problem>.
+    <apply|menu|Insert|Environment>: <markup|exercise> y <markup|problem>.
 
     <expand|item*|Variantes de figuras.>Estos entornos siempre vienen por
     pares: grandes y pequeños. Por defecto, proveemos <markup|big-figure>,

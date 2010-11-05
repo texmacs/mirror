@@ -14,7 +14,7 @@
     \ \ \ \ http://octave.sf.net
   </verbatim>
 
-  An <name|Octave> session is started using <apply|menu|Text|Session|Octave>.
+  An <name|Octave> session is started using <apply|menu|Insert|Session|Octave>.
   Below, it is shown how to do linear algebra operations with <name|Octave>,
   such as matrix multiplication, inversion and diagonalization. Notice that
   you need to use the <verbatim|tmdisp> command (at the moment) in order to

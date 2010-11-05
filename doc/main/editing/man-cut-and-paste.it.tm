@@ -17,7 +17,7 @@
   selezionata. Per esempio, per trasformare del testo scritto in nero in
   rosso, lo si seleziona usando il tasto sinistro del mouse e poi si clicca
   su <apply|menu|Format|Color|Red>. Analogamente, se si seleziona una formula
-  e si clicca su <apply|menu|Insert|Mathematics|Fraction>, allora la formula
+  e si clicca su <apply|menu|Insert|Fraction>, allora la formula
   diventa il numeratore di una frazione.
 
   Quando si utilizza il meccanismo copia-incolla per comunicare con altre

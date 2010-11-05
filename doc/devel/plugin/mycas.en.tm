@@ -18,7 +18,7 @@
 
   and move the binary <verbatim|mycas> to some location in your path. When
   starting up <apply|TeXmacs>, you should then have a <apply|menu|Mycas>
-  entry in the <apply|menu|Text|Session> menu.
+  entry in the <apply|menu|Insert|Session> menu.
 
   <section|Studying the source code step by step>
 

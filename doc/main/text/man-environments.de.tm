@@ -29,7 +29,7 @@
   </proof>
 
   Sie finden alle Befehle für <menu|Environment> unter
-  <menu|Text|Environment>: \ <menu|Theorem>, <menu|Proof>,
+  <menu|Insert|Environment>: \ <menu|Theorem>, <menu|Proof>,
   <menu|Proposition>, <menu|Lemma>, <menu|Corollary>, <menu|Axiom> und
   <menu|Definition>. Innerhalb \ <em|<menu|Environment>> können Sie das
   <markup|dueto>-Makro benutzen und \ <key|\\ d u e t o return>

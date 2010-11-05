@@ -18,7 +18,7 @@
   </verbatim>
 
   Per poter lanciare una sessione di <name|R> in <TeXmacs>, si utilizza
-  <apply|menu|Text|Session|R>. La funzione <verbatim|v()>può essere
+  <apply|menu|Insert|Session|R>. La funzione <verbatim|v()>può essere
   utilizzata per includere il contenuto delle finestre grafiche di <name|R>
   nel proprio foglio di lavoro.
 

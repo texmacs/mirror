@@ -6,7 +6,7 @@
   <expand|tmdoc-title|Etiquetas de conteúdo>
 
   Os exemplos mais simples de estrutura em um texto são as etiquetas de
-  conteúdo. No menu <apply|menu|Text|content tags> você pode ver uma lista
+  conteúdo. No menu <apply|menu|Insert|content tags> você pode ver uma lista
   destas etiquetas. Etiquetas de conteúdo indicam que uma certa parte do
   texto é de um tipo particular ou serve a uma finalidade específica. Por
   exemplo, um trecho importante deve ser marcado com a etiqueta

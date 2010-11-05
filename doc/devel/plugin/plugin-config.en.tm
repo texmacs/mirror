@@ -62,7 +62,7 @@
     <item*|<verbatim|<with|font-series|medium|(:session
     <em|menu-name>)>>>This option indicates that the plug-in supports an
     evaluator for interactive shell sessions. An item
-    <verbatim|<em|menu-item>> will be inserted to the <menu|Text|Session>
+    <verbatim|<em|menu-item>> will be inserted to the <menu|Insert|Session>
     menu in order to launch such sessions.
 
     <item*|<verbatim|<with|font-series|medium|(:serializer

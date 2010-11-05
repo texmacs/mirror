@@ -69,7 +69,7 @@
     <em|menu-nome>)>>>questa opzione indica che il plugin supporta una
     valutazione per sessioni interattive da shell. Un oggetto de tipo
     <verbatim|<em|menu-oggetto>> verrà inserito nel menu
-    <apply|menu|Text|Session> per lanciare questo tipo di sessioni;
+    <apply|menu|Insert|Session> per lanciare questo tipo di sessioni;
 
     <expand|item*|<verbatim|<with|font series|medium|(:serializer
     ,<em|fun-nome>)>>>se il plugin si può utilizzare in modalità di

@@ -14,8 +14,8 @@
   Jest równie» mo»liwe zmienianie wªa±ciwo±ci tekstu w zaznaczonym obszarze.
   Dla przykªadu aby przeksztaªci¢ pewien czarny tekst na czerwony nale»y
   zaznaczy¢ go u»ywaj¡c lewego przycisku myszy i uruchomi¢
-  <menu|Text|Color|Red>. Podobnie, je±li zaznaczony zostanie wzór i u»yte
-  <menu|Insert|Mathematics|Fraction>, to wzór stanie si¦ mianownikiem nowego
+  <menu|Format|Color|Red>. Podobnie, je±li zaznaczony zostanie wzór i u»yte
+  <menu|Insert|Fraction>, to wzór stanie si¦ mianownikiem nowego
   uªamka.
 
   Przy u»ywaniu mechanizmu kopiuj i wklej do komunikacji z innymi programami,

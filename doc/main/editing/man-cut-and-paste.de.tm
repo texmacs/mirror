@@ -16,8 +16,8 @@
 
   Wenn Sie ein Textstück durch Markieren ausgewählt haben, können Sie die
   Eigenschaften dieser Auswahl ändern. Z.B. können Sie sie rot färben mit
-  <menu|Text|Color|Red>. Oder, wenn Sie einen Teil einer Formel auswählen und
-  dann auf <menu|Insert|Mathematics|Fraction>, wird aus der Auswahl der
+  <menu|Format|Color|Red>. Oder, wenn Sie einen Teil einer Formel auswählen und
+  dann auf <menu|Insert|Fraction>, wird aus der Auswahl der
   Zähler eines Bruchs.
 
   Wenn man den Ausschneiden-und-Einfügen-Mechanismus zur Kommunikation mit

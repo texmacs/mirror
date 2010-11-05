@@ -19,7 +19,7 @@
     correspondem a entradas no seu arquivo <verbatim|.bib>.
 
     <item>No lugar em a sua bibliografia deve ser compilada, clique em
-    <apply|menu|Text|Automatic|Bibliography>. Você deve responder à pergunta
+    <apply|menu|Insert|Automatic|Bibliography>. Você deve responder à pergunta
     com um estilo do <verbatim|bibtex> (como <verbatim|plain>,
     <verbatim|alpha>, <verbatim|abbrv>, etc.) e seu arquivo <verbatim|.bib>.
 

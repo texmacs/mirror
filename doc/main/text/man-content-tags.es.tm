@@ -6,7 +6,7 @@
   <expand|tmdoc-title|Etiquetas basadas en contenido>
 
   Los más simples ejemplos de estructura en un texto son las etiquetas
-  basadas en contenido. En <apply|menu|Text|content tags> puede ver una lista
+  basadas en contenido. En <apply|menu|Insert|content tags> puede ver una lista
   de ellas. Las etiquetas basadas en contenido indican que una porción de un
   texto es de una clase particular o que sirve para un propósito especial.
   Por ejemplo, el texto importante debería ser marcado usanso la etiqueta

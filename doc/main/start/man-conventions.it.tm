@@ -7,7 +7,7 @@
 
   In tutto il manuale di <TeXmacs> le voci dei menu saranno scritte
   utilizzando font di tipo <em|sans serif>, come in <apply|menu|Document>,
-  <apply|menu|File|Load> o <apply|menu|Text|Font shape|Italic>. I comandi da
+  <apply|menu|File|Load> o <apply|menu|Format|Font shape|Italic>. I comandi da
   tastiera saranno scritti con un font di tipo <em|typewriter> all'interno di
   un riquadro, come ad esempio <key|C-s>. A destra delle voci dei menu si
   vedono, se disponibili, le equivalenti combinazioni di tasti. Per tali

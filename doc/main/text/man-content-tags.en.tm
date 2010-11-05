@@ -6,7 +6,7 @@
   <expand|tmdoc-title|Content-based tags>
 
   The simplest examples of structure in a text are content-based tags. In
-  <apply|menu|Text|content tags> you see a list of them. Content based tags
+  <apply|menu|Insert|content tags> you see a list of them. Content based tags
   indicate that a given portion of text is of a particular kind or that it
   serves a specific purpose. For instance, important text should be marked
   using the <markup|strong> tag. Its default rendering uses a bold type face,

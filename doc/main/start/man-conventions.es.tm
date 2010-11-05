@@ -7,7 +7,7 @@
 
   A través del manual de <TeXmacs>, las entradas de menu serán escritas
   usando una fuente <em|sans serif>, como en <apply|menu|Document>,
-  <apply|menu|File|Load> o <apply|menu|Text|Font shape|Italic>. Las entradas
+  <apply|menu|File|Load> o <apply|menu|Format|Font shape|Italic>. Las entradas
   de teclado serán escritas en fuente de <em|máquina de escribir> dentro de
   cajas, como en in <key|C-s>. En la parte lateral izquierda de las entradas
   de menu, verá el equivalente de teclado, cuando estos estén disponibles.

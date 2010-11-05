@@ -50,7 +50,7 @@
 
   Der Kontext <markup|eqnarray*> ist eine spezielle tabellenartige Struktur,
   die sich über eine ganze Zeile erstreckt. Man erzeugt diese mit dem
-  Menübefehl <menu|Text|Mathematics|Equations>.
+  Menübefehl <menu|Insert|Mathematics|Equations>.
 
   Wenn man eine neue Tabelle erzeugt hat, hat dies die Minimal-Gröÿe und
   enthält normalerweise nur eine einzige Zelle, die leer ist. Neue Zeilen und

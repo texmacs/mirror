@@ -7,7 +7,7 @@
 
   Pour saisir des formules mathématiques, vous devez d'abord passer en
   <space|0.2spc>math mode<space|0.2spc> en appuyant sur la touche <key|$>
-  ou en insérant une équation (avec <apply|menu|Text|Mathematics|Equation>).
+  ou en insérant une équation (avec <apply|menu|Insert|Mathematics|Equation>).
   En mode maths, il existe des commandes spécifiques et des raccourcis pour
   saisir des symboles et des formules mathématiques. Par exemple, le préfixe
   <prefix|M-A-> permet de saisir des symboles grecs (rappelez-vous que <prefix|M-A->

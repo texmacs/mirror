@@ -148,7 +148,7 @@
   </tm-fragment>
 
   This has the effect of centering the output in sessions started using
-  <menu|Text|Session|Markup>.
+  <menu|Insert|Session|Markup>.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
 

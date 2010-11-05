@@ -22,8 +22,8 @@
   También se puede cambiar las propiedades de la región seleccionada. Por
   ejemplo, para transformar un trozo de texto negro en rojo, lo seleccionas
   con el botón izquierdo del ratón y hace click en
-  <apply|menu|Text|Color|Red>. Por un mecanismo similar, si selecciona una
-  fórmula y hace click en <apply|menu|Insert|Mathematics|Fraction>, la
+  <apply|menu|Format|Color|Red>. Por un mecanismo similar, si selecciona una
+  fórmula y hace click en <apply|menu|Insert|Fraction>, la
   fórmula se convertirá en el numerador de alguna fracción.
 
   Cuando se usa el mecanismo de copiado/pegado para comunicarse con otras

@@ -7,7 +7,7 @@
 
   Die <tmdtd|env-theorem> <abbr|D.T.D.> enthält die nummerierten
   (Theorem-ähnlichen) Standard-Kontexte und andere Standard-Text-Kontexte,
-  die über das Menü <menu|Text|Environment> erreicht werden können. Sie
+  die über das Menü <menu|Insert|Environment> erreicht werden können. Sie
   können in drei Haupt-Kategorien unterteilt werden:
 
   <\description>
@@ -19,16 +19,16 @@
     <markup|axiom> (<localize|axiom>), <markup|definition>
     (<localize|definition>), <markup|notation> (<localize|notation>),
     <markup|conjecture> (<localize|conjecture>), die über das Menü
-    <menu|Text|Environment> zugänglich sind.
+    <menu|Insert|Environment> zugänglich sind.
 
-    <item*|<localize|remark>-Varianten>Im Menü<menu|Text|Environment> lassen
+    <item*|<localize|remark>-Varianten>Im Menü<menu|Insert|Environment> lassen
     sich folgende erzeugen: <markup|remark> (<localize|remark>),
     <markup|example> (<localize|example>), <markup|note> (<localize|note>),
     <markup|warning> (<localize|warning>), <markup|convention>
     (<localize|convention>).
 
     <item*|<localize|exercise>-Varianten>Zwei solche Kontexte besitzt
-    <TeXmacs>, die über das Menü <menu|Text|Environment> erzeugt werden
+    <TeXmacs>, die über das Menü <menu|Insert|Environment> erzeugt werden
     können: <markup|exercise> (<localize|exercise>) und <markup|problem>
     (<localize|problem>).
   </description>

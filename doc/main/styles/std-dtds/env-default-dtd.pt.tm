@@ -12,17 +12,17 @@
     <expand|item*|Variantes de teoremas.>Os corpos de ambientes de teoremas e
     similares são geralmente enfatizados. Em uma instalação padrão, os
     seguintes ambientes estão disponíveis no menu
-    <apply|menu|Text|Environment>: <markup|theorem>, <markup|proposition>,
+    <apply|menu|Insert|Environment>: <markup|theorem>, <markup|proposition>,
     <markup|lemma>, <markup|corollary>, <markup|axiom>, <markup|definition>,
     <markup|notation>, <markup|conjecture>.
 
     <expand|item*|Variantes de comentários.>Os seguintes ambientes estão
-    disponíveis através do menu: <apply|menu|Text|Environment>:
+    disponíveis através do menu: <apply|menu|Insert|Environment>:
     <markup|remark>, <markup|example>, <markup|note>, <markup|warning>,
     <markup|convention>.
 
     <expand|item*|Variantes de exercícios.>O menu
-    <apply|menu|Text|Environment> fornece dois ambientes assim:
+    <apply|menu|Insert|Environment> fornece dois ambientes assim:
     <markup|exercise> and <markup|problem>.
 
     <expand|item*|Variantes de figuras.>Estes ambientes sempre vem aos pares,

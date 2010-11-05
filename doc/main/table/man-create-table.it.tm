@@ -33,7 +33,7 @@
 
   Anche l'ambiente <verbatim|\\eqnarray*> è una speciale struttura di tipo
   tabella, che si estende su più righe. Si può creare una lista di equazioni
-  utilizzando <apply|menu|Text|Mathematics|Equations>.
+  utilizzando <apply|menu|Insert|Mathematics|Equations>.
 
   Appena si crea una tabella, le sue dimensioni sono minime (solitamente
   <with|mode|math|1\<times\>1>) e le sue celle sono vuote. Nuove righe e

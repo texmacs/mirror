@@ -5,7 +5,7 @@
 <\body>
   <expand|tmdoc-title|Utilizzo base>
 
-  Si può dare inizio ad una sessione dal menu <apply|menu|Text|Session>. Una
+  Si può dare inizio ad una sessione dal menu <apply|menu|Insert|Session>. Una
   sessione consiste di una sequenza di ambienti input e output, e tra questi,
   eventualmente, delle parti di testo. Quando si preme il tasto
   <key|return> all'interno di un ambiente di input di una

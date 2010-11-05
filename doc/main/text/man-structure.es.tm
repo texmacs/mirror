@@ -16,12 +16,12 @@
   Actualmente existen cuatro estilos estándar de documento: carta, artículo,
   libro y seminario. El estilo seminario se utiliza para hacer
   transparencias. Tan pronto como haya escogido uno de estos estilos podrá
-  organizar su texto en secciones (vea <apply|menu|Text|Section>) y usar
+  organizar su texto en secciones (vea <apply|menu|Insert|Section>) y usar
   <em|entornos> específicos. Teorema, proposición, comentario, etc. son
   ejemplos de diversos entornos disponibles (vea
-  <apply|menu|Text|Environment>). Otros ejemplos son listas de items (vea
-  <apply|menu|Text|Itemize>) y listas numeradas (vea
-  <apply|menu|Text|Enumerate>).
+  <apply|menu|Insert|Environment>). Otros ejemplos son listas de items (vea
+  <apply|menu|Insert|Itemize>) y listas numeradas (vea
+  <apply|menu|Insert|Enumerate>).
 
   Cuando esté más familiarizado con <apply|TeXmacs>, es posible adicionar sus
   propios entornos nuevos en su propio archivo de estilos. \ Imagine por

@@ -14,8 +14,8 @@
 
   It is also possible to the change text properties of a selected region. For
   instance, in order to transform some black text in red, you select it using
-  the left mouse button and click on <menu|Text|Color|Red>. Similarly, if you
-  select a formula and you click on <menu|Insert|Mathematics|Fraction>, then
+  the left mouse button and click on <menu|Format|Color|Red>. Similarly, if you
+  select a formula and you click on <menu|Insert|Fraction>, then
   the formula becomes the numerator of some fraction.
 
   When using the copy and paste mechanism to communicate with other

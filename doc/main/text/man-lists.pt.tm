@@ -5,7 +5,7 @@
 <\body>
   <expand|tmdoc-title|Listas>
 
-  Usando <apply|menu|Text|Itemize> você pode criar um lista sem numeração.
+  Usando <apply|menu|Insert|Itemize> você pode criar um lista sem numeração.
   Você pode selecionar uma marca específica como <with|mode|math|\<bullet\>>
   (bolas), <with|mode|math|<op|->> (travessões) ou
   <with|mode|math|<op|\<rightarrow\>>> (setas) para indicar entradas na
@@ -35,9 +35,9 @@
   <key|S-return> para iniciar um novo parágrafo.
 
   Ambientes de enumeração, que são criados usando
-  <apply|menu|Text|Enumerate>, comportam-se como aqueles criados acima,
+  <apply|menu|Insert|Enumerate>, comportam-se como aqueles criados acima,
   exceto que os ítens são numerados. Abaixo está um exemplo de enumeração que
-  foi criado com <apply|menu|Text|Enumerate|Roman>:
+  foi criado com <apply|menu|Insert|Enumerate|Roman>:
 
   <\expand|enumerate-Roman>
     <item>O primeiro item.
@@ -48,7 +48,7 @@
   </expand>
 
   O último tipo de listas são listas descritivas. Elas são criadas com
-  <apply|menu|Text|Description> e permitem que você descreva uma lista de
+  <apply|menu|Insert|Description> e permitem que você descreva uma lista de
   conceitos:
 
   <\description>

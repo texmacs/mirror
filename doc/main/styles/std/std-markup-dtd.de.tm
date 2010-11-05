@@ -7,42 +7,42 @@
 
   In <tmdtd|std-markup> wird eine gröÿere Anzahl von unterschiedlichen
   Kontexten definiert. Die folgenden Text-Befehle haben alle ein Argument.
-  Die meisten können im Menü <menu|Text|Content tag> gefunden werden.
+  Die meisten können im Menü <menu|Insert|Content tag> gefunden werden.
 
   <\explain|<explain-macro|strong|content> <strong|= <localize|strong>>>
     Geeignet zur Hervorhebung von \ <strong|wichtigen> Textstellen. Sie
-    können diesen Tag mit <menu|Text|Content tag|Strong> einfügen.
+    können diesen Tag mit <menu|Insert|Content tag|Strong> einfügen.
   </explain>
 
   <\explain|<explain-macro|em|content> <strong|= <localize|em>>>
     Hebt Text mit der Schriftart <em|Italic> hervor. Entspricht dem
-    Menü-Eintrag <menu|Text|Content tag|Emphasize>.
+    Menü-Eintrag <menu|Insert|Content tag|Emphasize>.
   </explain>
 
   <\explain|<explain-macro|dfn|content> <strong|= <localize|dfn>>>
-    Für <dfn|Definitionen>. \ Entspricht dem Menü-Eintrag <menu|Text|Content
+    Für <dfn|Definitionen>. \ Entspricht dem Menü-Eintrag <menu|Insert|Content
     tag|Definition>.
   </explain>
 
   <\explain|<explain-macro|samp|content> <strong|= <localize|samp>>>
     Eine Sequenz von Zeichen wie z.B. \ <samp|ae> ligature æ. \ Entspricht
-    dem Menü-Eintrag <menu|Text|Content tag|Sample>.
+    dem Menü-Eintrag <menu|Insert|Content tag|Sample>.
   </explain>
 
   <\explain|<explain-macro|name|content> <strong|= <localize|name>>>
     Der Name, die Bezeichnung von etwas (nicht einer Person), z.B.
-    <name|Linux>. \ Entspricht dem Menü-Eintrag <menu|Text|Content tag|Name>.
+    <name|Linux>. \ Entspricht dem Menü-Eintrag <menu|Insert|Content tag|Name>.
   </explain>
 
   <\explain|<explain-macro|person|content><strong|= <localize|person>>>
     Der Name einer person, z.B. \ <name|Joris>. Entspricht dem Menü-Eintrag
-    <menu|Text|Content tag|Person>.
+    <menu|Insert|Content tag|Person>.
   </explain>
 
   <\explain|<explain-macro|cite*|content><strong|= <localize|cite*>>>
     Ein bibliographisches Zitat im Text (Hinweis auf ein Buch oder
     Zeitschrift). Z.B. \ Melville's <cite*|Moby Dick>. Entspricht dem
-    Menü-Eintrag <menu|Text|Content tag|Cite>. <strong|Achtung!>, dies sollte
+    Menü-Eintrag <menu|Insert|Content tag|Cite>. <strong|Achtung!>, dies sollte
     nicht mit <markup|cite> verwechselt werden. Letzteres ist dient zum
     Referenzieren von Literaturzitaten, die sich in einer besonderen Datei
     befinden.
@@ -50,7 +50,7 @@
 
   <\explain|<explain-macro|abbr|content> <strong|= <localize|abbr>>>
     Eine Abkürzung, z.B. Ich arbeite am <abbr|C.N.R.S.> Entspricht dem
-    Menü-Eintrag <menu|Text|Content tag|Abbreviation>, Kann auch mit
+    Menü-Eintrag <menu|Insert|Content tag|Abbreviation>, Kann auch mit
     <key|text a> eingefügt werden.
   </explain>
 
@@ -58,25 +58,25 @@
     Ein Akronym ist eine Abkürzung, die aus den ersten Buchstaben jedes
     Wortes eines Namens oder eines Satzes besteht, z.B. \ <acronym|HTML> oder
     <acronym|IBM>. Die Buchstaben werden nicht durch Punkte getrennt.
-    \ Entspricht dem Menü-Eintrag <menu|Text|Content tag|Acronym>.
+    \ Entspricht dem Menü-Eintrag <menu|Insert|Content tag|Acronym>.
   </explain>
 
   <\explain|<explain-macro|verbatim|content> <strong|= <localize|verbatim>>>
     Wörtlicher Text, wie z.B. die Ausgabe eines anderen Computer-Programm:
     Das Programm sagte: <verbatim|Hallo>. Entspricht dem Menü-Eintrag
-    <menu|Text|Content tag|Verbatim>. Der Befehl kann auch als Kontext für
+    <menu|Insert|Content tag|Verbatim>. Der Befehl kann auch als Kontext für
     Text benutzt werden, der aus mehreren Absätzen besteht.
   </explain>
 
   <\explain|<explain-macro|kbd|content> <strong|= <localize|kbd>>>
     Text, der über die Tastatur eingegeben werden soll. Bitte geben Sie
-    \R<kbd|end>`` ein. Entspricht dem Menü-Eintrag <menu|Text|Content
+    \R<kbd|end>`` ein. Entspricht dem Menü-Eintrag <menu|Insert|Content
     tag|Keyboard>.
   </explain>
 
   <\explain|<explain-macro|code*|content> <strong|= <localize|code*>>>
     Quellcode von Programmiersprachen, z.B. \R<code*|cout \<less\>\<less\>
-    1+1;> gibt <verbatim|2>''. Entspricht dem Menü-Eintrag <menu|Text|Content
+    1+1;> gibt <verbatim|2>''. Entspricht dem Menü-Eintrag <menu|Insert|Content
     tag|Code>. Für mehrzeiligen Quellcode sollte <markup|code> benutzt
     werden.
   </explain>
@@ -84,7 +84,7 @@
   <\explain|<explain-macro|var|content> <strong|= <localize|var>>>
     Variablen in einem Computerprogramm, wie z.B. in \R<verbatim|cp
     <var|src-datei> <var|ziel-datei>>``. Entspricht dem Menü-Eintrag
-    <menu|Text|Content tag|Variable>.
+    <menu|Insert|Content tag|Variable>.
   </explain>
 
   <\explain|<explain-macro|math|content> <strong|= <localize|math>>>
@@ -190,7 +190,7 @@
 
   <\explain|<explain-macro|overline|content> <strong|= <localize|overline>>>
     <overline|Versieht den Inhalt mit einem Überstrich, der mehrere Zeilen
-    überstreichen kann. Kann mit <menu|Text|Presentation tag|Overline>
+    überstreichen kann. Kann mit <menu|Insert|Presentation tag|Overline>
     eingefügt werden.>
 
     \;
@@ -199,7 +199,7 @@
   <\explain|<explain-macro|underline|content> <strong|=
   <localize|underline>>>
     <underline|Versieht den Inhalt mit einem Unterstrich, der mehrere Zeilen
-    überstreichen kann. Kann mit <menu|Text|Presentation tag|Underline>
+    überstreichen kann. Kann mit <menu|Insert|Presentation tag|Underline>
     eingefügt werden.>
 
     \;

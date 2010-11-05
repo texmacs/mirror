@@ -6,7 +6,7 @@
   <expand|tmdoc-title|Uso básico>
 
   Uma seção interativa pode ser iniciada com o menu
-  <apply|menu|Text|Session>. Uma seção consiste de uma seqüência de ambientes
+  <apply|menu|Insert|Session>. Uma seção consiste de uma seqüência de ambientes
   de entrada e saída, possivelmente com algum texto entre eles. Quando você
   pressiona <key|return> dentro de um ambiente de entrada de uma
   sessão, o texto dentro deste ambiente é executado e o resultado é mostrado
@@ -21,7 +21,7 @@
   Para cada tipo de aplicativo externo, você pode escolher entre compartilhar
   um único processo por todas as sessões abertas, ou iniciar um processo
   diferente para cada sessão. Mais precisamente, quando você insere uma
-  sessão com <apply|menu|Text|Session|Other>, você pode especificar tanto o
+  sessão com <apply|menu|Insert|Session|Other>, você pode especificar tanto o
   ``tipo da sessão'' (Shell, Pari, Maxima, etc.) quando um ``nome da sessão''
   (o nome padrão é ``default''). Sessões com nomes diferentes correspondem a
   processos diferentes, e sessões com o mesmo nome compartilham um mesmo

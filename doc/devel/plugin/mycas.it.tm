@@ -20,7 +20,7 @@
 
   e spostare il file binario <verbatim|mycas> in qualche punto del vostro
   path. All'avvio di <apply|TeXmacs> è quindi necessario avere a disposizione
-  la voce <apply|menu|Mycas> nel menu <apply|menu|Text|Session>.
+  la voce <apply|menu|Mycas> nel menu <apply|menu|Insert|Session>.
 
   <section|Studiamo il codice sorgente passo dopo passo>
 

@@ -15,11 +15,11 @@
   Currently, four standard document styles have been implemented: letter,
   article, book and seminar. The seminar style is used for making
   transparencies. As soon as you have selected such a style, you can organize
-  your text into sections (see <menu|Text|Section>) and use specific
+  your text into sections (see <menu|Insert|Section>) and use specific
   <def-index|environments>. Examples of environments are theorem,
-  proposition, remark and so on (see <menu|Text|Environment>). Other examples
-  are lists of items (see <menu|Text|Itemize>) or numbered lists (see
-  <menu|Text|Enumerate>).
+  proposition, remark and so on (see <menu|Insert|Environment>). Other examples
+  are lists of items (see <menu|Insert|Itemize>) or numbered lists (see
+  <menu|Insert|Enumerate>).
 
   When you get more acquainted with <TeXmacs>, it is possible to add your own
   new environments in your own style file. Assume for instance that you often

@@ -11,16 +11,16 @@
   <\description>
     <expand|item*|Variantes de théorèmes.>Le corps des environnements de type
     théorème est généralement mis en relief. Par défaut, ces environnements
-    sont accessibles avec <apply|menu|Text|Environment> : <markup|theorem>,
+    sont accessibles avec <apply|menu|Insert|Environment> : <markup|theorem>,
     <markup|proposition>, <markup|lemma>, <markup|corollary>, <markup|axiom>,
     <markup|definition>, <markup|notation>, <markup|conjecture>.
 
     <expand|item*|Variantes de remarques.>Elles sont accessibles via
-    <apply|menu|Text|Environment> : <markup|remark>, <markup|example>,
+    <apply|menu|Insert|Environment> : <markup|remark>, <markup|example>,
     <markup|note>, <markup|warning>, <markup|convention>.
 
     <expand|item*|Variantes d'exercices.>Deux environnements sont disponibles
-    par défaut via <apply|menu|Text|Environment>: <markup|exercise> et
+    par défaut via <apply|menu|Insert|Environment>: <markup|exercise> et
     <markup|problem>.
 
     <expand|item*|Variantes de figures.>Ces environnements existent toujours

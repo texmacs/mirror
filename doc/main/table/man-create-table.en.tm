@@ -45,7 +45,7 @@
 
   <vspace*|0.5fn>There are several other table-like environments and new ones
   may be created by the user. For instance, using
-  <menu|Text|Mathematics|Equations> or <key|math &>, you may insert an
+  <menu|Insert|Mathematics|Equations> or <key|math &>, you may insert an
   <markup|eqnarray*> environment, which allows mathematically oriented users
   to align a list of equations which span over entire lines. An example of
   such a list of equations is

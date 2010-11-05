@@ -9,7 +9,7 @@
   dell'indice nel proprio documento usando <apply|menu|Insert|Link|Index
   entry>. Al passo successivo, si deve porre il cursore nella posizione in
   cui si desidera che venga generato l'indice e di deve cliccare su
-  <apply|menu|Text|Automatic|Index>. L'indice verrà così generato in maniera
+  <apply|menu|Insert|Automatic|Index>. L'indice verrà così generato in maniera
   simile al sommario.
 
   Nel menu <apply|menu|Insert|Link|Index entry>, si trovano diversi tipi voci

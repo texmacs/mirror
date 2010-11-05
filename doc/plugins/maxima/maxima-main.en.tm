@@ -18,7 +18,7 @@
   recommend you to use the binary distributions or the rpm.
 
   Here follows a sample session, which was started using
-  <menu|Text|Session|Maxima>. A nice <hlink|tutorial|maxima-tutorial/maxima-tutorial.en.tm>
+  <menu|Insert|Session|Maxima>. A nice <hlink|tutorial|maxima-tutorial/maxima-tutorial.en.tm>
   by Andrey Grozin is also available.
 
   <with|prog-language|maxima|prog-session|default|<\session>

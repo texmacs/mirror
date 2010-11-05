@@ -7,69 +7,69 @@
 
   Diverses balises standards sont définies dans <tmdtd|std-markup>. Les
   balises de texte suivantes comportent un argument. Vous trouverez la
-  plupart d'entre elles dans le menu <apply|menu|Text|Content tag>.
+  plupart d'entre elles dans le menu <apply|menu|Insert|Content tag>.
 
   <\description>
     <expand|item*|<markup|strong>>Signale une zone de texte
     <strong|importante>. Vous pouvez entrer cette balise avec
-    <apply|menu|Text|Content tag|Strong>.
+    <apply|menu|Insert|Content tag|Strong>.
 
     <expand|item*|<markup|em>>Met l'accent sur une zone de texte, comme dans
     \ <space|0.2spc>la <em|pure> vérité<space|0.2spc>. Cette balise
-    correspond au menu <apply|menu|Text|Content tag|Emphasize>.
+    correspond au menu <apply|menu|Insert|Content tag|Emphasize>.
 
     <expand|item*|<markup|dfn>>Pour les définitions, comme dans
     <space|0.2spc>un <dfn|gnou> est une bête à cornes<space|0.2spc>. Cette
-    balise correspond au menu <apply|menu|Text|Content tag|Definition>.
+    balise correspond au menu <apply|menu|Insert|Content tag|Definition>.
 
     <expand|item*|<markup|samp>>Suite de caractères, comme les caractères
     <samp|ae> dans la ligature æ. Cette balise est accessible à partir de
-    <apply|menu|Text|Content tag|Sample>.
+    <apply|menu|Insert|Content tag|Sample>.
 
     <expand|item*|<markup|name>>Nom d'une chose ou d'un concept, comme le
     système <name|Linux>. Cette balise est accessible via
-    <apply|menu|Text|Content tag|Name>.
+    <apply|menu|Insert|Content tag|Name>.
 
     <expand|item*|<markup|person>>Nom d'une personne, comme <name|Joris>.
-    Cette balise correspond à <apply|menu|Text|Content tag|Person>.
+    Cette balise correspond à <apply|menu|Insert|Content tag|Person>.
 
     <expand|item*|<markup|cite*>>Citation bibliographique de livre ou de
     journal. Exemple : <expand|cite*|Moby Dick> de Melville. Ne confondez pas
-    cette balise, accessible via <apply|menu|Text|Content tag|Cite>, avec
+    cette balise, accessible via <apply|menu|Insert|Content tag|Cite>, avec
     <markup|cite>. Cette dernière balise est aussi utilisée pour les
     citations, mais utilise un argument qui se réfère à une entrée dans une
     base de données de références bibliographiques.
 
     <expand|item*|<markup|abbr>>Abréviation. Exemple : Je travaille au
     <abbr|C.N.R.S.> Vous pouvez créer une abréviation avec
-    <apply|menu|Text|Content tag|Abbreviation> ou avec le raccourci clavier
+    <apply|menu|Insert|Content tag|Abbreviation> ou avec le raccourci clavier
     <key|text a>.
 
     <expand|item*|<markup|acronym>>Un acronyme est une abréviation formée à
     partir de la première lettre des mots d'un nom ou d'une phrase, tels
     <acronym|HTML> ou <acronym|IBM>. Les lettres ne sont pas séparées par des
-    points. Vous pouvez saisir un acronyme avec <apply|menu|Text|Content
+    points. Vous pouvez saisir un acronyme avec <apply|menu|Insert|Content
     tag|Acronym>.
 
     <expand|item*|<markup|verbatim>>Texte verbatim, telle la sortie d'un
     programme informatique. Exemple : le programme a dit <verbatim|bonjour>.
-    Vous pouvez saisir du texte verbatim avec <apply|menu|Text|Content
+    Vous pouvez saisir du texte verbatim avec <apply|menu|Insert|Content
     tag|Verbatim>. Cette balise peut aussi être utilisée en tant
     qu'environnement de texte multi-paragraphe.
 
     <expand|item*|<markup|kbd>>Texte à entrer au clavier. Exemple : veuillez
     appuyer sur la touche <kbd|retour chariot>. Cette balise correspond au
-    menu<apply|menu|Text|Content tag|Keyboard>.
+    menu<apply|menu|Insert|Content tag|Keyboard>.
 
     <expand|item*|<markup|code*>>Code d'un programme informatique, comme dans
     <space|0.2spc><expand|code*|cout \<less\>\<less\> 1+1;> yields
     <verbatim|2><space|0.2spc>. Cette balise correspond à
-    <apply|menu|Text|Content tag|Code>. Pour de longues portions de code,
+    <apply|menu|Insert|Content tag|Code>. Pour de longues portions de code,
     utilisez l'environnement <markup|code>.
 
     <expand|item*|<markup|var>>Variables d'un programme informatique, comme
     dans <verbatim|cp <var|src-file> <var|dest-file>>. Cette balise
-    correspond au menu <apply|menu|Text|Content tag|Variable>.
+    correspond au menu <apply|menu|Insert|Content tag|Variable>.
 
     <expand|item*|<markup|math>>Cette balise sert à insérer une formule
     mathématique dans un texte littéral. Exemple : la formule

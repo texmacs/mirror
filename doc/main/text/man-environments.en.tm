@@ -23,7 +23,7 @@
     I do not have room here to write the proof down.
   </proof>
 
-  You may enter environments using <apply|menu|Text|Environment>. Other
+  You may enter environments using <apply|menu|Insert|Environment>. Other
   environments with a similar rendering as theorems are <markup|proposition>,
   <markup|lemma>, <markup|corollary>, <markup|axiom>, <markup|definition>.
   You may use the <markup|dueto> macro (entered using <key|\\ d u e t o

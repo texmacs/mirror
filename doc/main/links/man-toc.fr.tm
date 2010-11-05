@@ -7,7 +7,7 @@
 
   Il est très facile de générer une table des matières pour un document.
   Positionnez votre curseur à l'endroit où vous voulez que votre table des
-  matières apparaisse et cliquez sur <apply|menu|Text|Automatic|Table of
+  matières apparaisse et cliquez sur <apply|menu|Insert|Automatic|Table of
   contents>.
 
   Pour générer la table des matières, vous devez être dans un mode où les

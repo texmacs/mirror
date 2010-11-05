@@ -8,7 +8,7 @@
   Para criar um índice, você precisa inicialmente adicionar entradas no seu
   documento usando o menu <apply|menu|Insert|Link|Index entry>.
   Posteriormente, você deve colocar o cursor no local onde você deseja que o
-  índice seja criado e clicar em <apply|menu|Text|Automatic|Index>. O índice
+  índice seja criado e clicar em <apply|menu|Insert|Automatic|Index>. O índice
   será gerado de forma análoga ao sumário.
 
   No menu <apply|menu|Insert|Link|Index entry> você encontra vários tipos de

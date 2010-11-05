@@ -7,7 +7,7 @@
 
   Ao longo de todo o manual do <TeXmacs>, entradas em menus serão
   tipografadas com uma fonte <em|sem serifas>, por exemplo:
-  <apply|menu|Document>, <apply|menu|File|Load> or <apply|menu|Text|Font
+  <apply|menu|Document>, <apply|menu|File|Load> or <apply|menu|Insert|Font
   shape|Italic>. Caracteres que devem ser digitados no teclado serão
   mostrados com uma fonte <em|monoespaçada> dentro de caixas, da seguinte
   forma: <key|C-s>. \ Você verá atalhos de teclado do lado direito das

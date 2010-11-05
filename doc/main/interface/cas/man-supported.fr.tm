@@ -5,7 +5,7 @@
 <\body>
   <expand|tmdoc-title|Systèmes reconnus>
 
-  Si vous examinez le menu <apply|menu|Text|Session>, vous n'y verrez que les
+  Si vous examinez le menu <apply|menu|Insert|Session>, vous n'y verrez que les
   logiciels qui sont installés sur votre système. Une exception toutefois,
   les sessions shell et scheme sont toujours accessibles.
 

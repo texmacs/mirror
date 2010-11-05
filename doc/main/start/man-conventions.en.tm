@@ -9,7 +9,7 @@
 
   Throughout the <TeXmacs> manual, menu entries will be typeset using a
   <em|sans serif> font, like in <menu|Document>, <menu|File|Load> or
-  <menu|Text|Font shape|Italic>.
+  <menu|Format|Font shape|Italic>.
 
   <paragraph*|Keyboard modifiers>
 

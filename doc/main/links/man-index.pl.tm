@@ -7,7 +7,7 @@
 
   Dla stworzenia indeksu nale»y najpierw wstawi¢ hasªa w dokument u»ywaj¡c
   <menu|Insert|Link|Index entry>. Po wybraniu miejsca gdzie indeks ma zosta¢
-  umieszczony nale»y u»y¢ <menu|Text|Automatic|Index>. Indeks jest tworzony w
+  umieszczony nale»y u»y¢ <menu|Insert|Automatic|Index>. Indeks jest tworzony w
   podobny sposób jak spis tre±ci.
 
   W menu <menu|Insert|Link|Index entry> jest kilka rodzajów pozycji indeksu.

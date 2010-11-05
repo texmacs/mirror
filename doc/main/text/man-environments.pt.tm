@@ -23,7 +23,7 @@
     Não há espaço aqui para escrever a prova.
   </proof>
 
-  Você pode iniciar ambiente usando <apply|menu|Text|Environment>. Outros
+  Você pode iniciar ambiente usando <apply|menu|Insert|Environment>. Outros
   ambientes com exibição similar aos teoremas são <markup|proposição>,
   <markup|lema>, <markup|corolário>, <markup|axioma>, <markup|definição>.
   Você pode usar o macro <markup|dueto> (o macro é ativado digitando <key|d u

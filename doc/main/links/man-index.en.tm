@@ -8,7 +8,7 @@
   For the generation of an index, you first have to put index entries in your
   document using <apply|menu|Insert|Link|Index entry>. At a second stage, you
   must put your cursor at the place where you want your index to be generated
-  and click on <apply|menu|Text|Automatic|Index>. The index is than generated
+  and click on <apply|menu|Insert|Automatic|Index>. The index is than generated
   in a similar way as the table of contents.
 
   In the <apply|menu|Insert|Link|Index entry> menu, you find several types of

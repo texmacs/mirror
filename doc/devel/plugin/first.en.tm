@@ -21,7 +21,7 @@
   </enumerate>
 
   After doing this, your program will be available under the name
-  <apply|menu|Mycas> in <apply|menu|Text|Session>. We will explain later how
+  <apply|menu|Mycas> in <apply|menu|Insert|Session>. We will explain later how
   to make your system listed under its own name, how to customize it, and how
   to get the interface incorporated into the main <apply|TeXmacs>
   distribution.

@@ -8,7 +8,7 @@
   Pour générer un index, vous devez d'abord insérer les entrées d'index dans
   votre document avec <apply|menu|Insert|Link|Index entry>. Ensuite,
   positionnez votre curseur à l'endroit où vous voulez que votre index soit
-  généré et cliquez sur <apply|menu|Text|Automatic|Index>. Les index sont
+  généré et cliquez sur <apply|menu|Insert|Automatic|Index>. Les index sont
   générés de la même façon que les tables de matières.
 
   Vous trouverez dans le menu <apply|menu|Insert|Link|Index entry>

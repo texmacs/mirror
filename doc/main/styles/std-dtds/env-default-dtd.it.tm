@@ -11,18 +11,18 @@
   <\description>
     <expand|item*|Varianti dei teoremi.>Il corpo degli ambienti di tipo
     teorema solitamente viene enfatizzato. Per default, sono disponibili
-    attraverso il menu <apply|menu|Text|Environment>, i seguenti ambienti:
+    attraverso il menu <apply|menu|Insert|Environment>, i seguenti ambienti:
     <markup|theorem>, <markup|proposition>, <markup|lemma>,
     <markup|corollary>, <markup|axiom>, <markup|definition>,
     <markup|notation>, <markup|conjecture>.
 
     <expand|item*|Varianti delle note.>Le seguenti sono disponibili
-    attraverso il menu <apply|menu|Text|Environment>: <markup|remark>,
+    attraverso il menu <apply|menu|Insert|Environment>: <markup|remark>,
     <markup|example>, <markup|note>, <markup|warning>, <markup|convention>.
 
     <expand|item*|Varianti degli esercizi.>Due di questi ambienti sono noti
     per default e sono disponibili attraverso il menu
-    <apply|menu|Text|Environment>: <markup|exercise> e <markup|problem>.
+    <apply|menu|Insert|Environment>: <markup|exercise> e <markup|problem>.
 
     <expand|item*|Variants delle figure.>Questi ambienti esistono sempre in
     coppia: i grandi e i piccoli. Per default, sono disponibili

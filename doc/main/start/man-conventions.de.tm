@@ -7,7 +7,7 @@
 
   In diesem <TeXmacs> Handbuch werden Menü-Einträge in der Schriftart
   <em|sans serif> und in der deutschen Version grün dargestellt, z.B.
-  <menu|File|Load> oder <menu|Text|Font shape|Italic>. Tastatur-eingaben
+  <menu|File|Load> oder <menu|Format|Font shape|Italic>. Tastatur-eingaben
   werden in der Schriftart <em|typewriter> im Kasten dargestellt, wie z.B.
   <key|C-s>. Rechts neben Menü-Einträgen sind, wenn vorhanden, äquivalente
   Tastenkombinationen angeführt. Darin werden die folgenden Abkürzungen

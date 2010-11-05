@@ -17,7 +17,7 @@
   pour changer en rouge la couleur du texte, sélectionnez-le en utilisant n
   gauche de la souris et cliquez sur <apply|menu|Format|Color|Red>. De même,
   si vous sélectionnez une formule et que vous cliquez sur
-  <apply|menu|Mathematics|Fraction> quand vous êtes en mode maths, la formule
+  <apply|menu|Insert|Fraction> quand vous êtes en mode maths, la formule
   deviendra le numérateur de la fraction.
 
   Si vous copiez et collez du texte en provenance ou vers d'autres

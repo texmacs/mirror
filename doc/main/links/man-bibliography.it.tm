@@ -19,7 +19,7 @@
     che corrispondono agli elementi del file <verbatim|.bib>.
 
     <item>Nella posizione in cui si desidera che venga compilata la
-    bibliografia, si clicchi su <apply|menu|Text|Automatic|Bibliography>.
+    bibliografia, si clicchi su <apply|menu|Insert|Automatic|Bibliography>.
     Alla richiesta, si inserisca uno stile <verbatim|bibtex> (come
     <verbatim|plain>, <verbatim|alpha>, <verbatim|abbrv>, ecc.) e il proprio
     file <verbatim|.bib>.

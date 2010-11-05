@@ -5,7 +5,7 @@
 <\body>
   <expand|tmdoc-title|Lists>
 
-  Using <apply|menu|Text|Itemize> you may start an unnumbered list. You may
+  Using <apply|menu|Insert|Itemize> you may start an unnumbered list. You may
   either select a particular tag like <with|mode|math|\<bullet\>> (bullets),
   <with|mode|math|<op|->> (dashes) or <with|mode|math|<op|\<rightarrow\>>>
   (arrows) to indicate entries in the list or the default tag. Lists may be
@@ -34,9 +34,9 @@
   order to start a new paragraph.
 
   Enumerate environments, which are started using
-  <apply|menu|Text|Enumerate>, behave in a similar way as itemize, except
+  <apply|menu|Insert|Enumerate>, behave in a similar way as itemize, except
   that the items are numbered. Here follows an example of an enumeration
-  which was started using <apply|menu|Text|Enumerate|Roman>:
+  which was started using <apply|menu|Insert|Enumerate|Roman>:
 
   <\expand|enumerate-Roman>
     <item>A first item.
@@ -47,7 +47,7 @@
   </expand>
 
   The last type of lists are descriptive lists. They are started using
-  <apply|menu|Text|Description> and allow you to describe a list of concepts:
+  <apply|menu|Insert|Description> and allow you to describe a list of concepts:
 
   <\description>
     <expand|item*|Gnu.>A hairy but gentle beast.

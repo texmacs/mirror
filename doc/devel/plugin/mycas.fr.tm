@@ -19,7 +19,7 @@
   et déplacez le fichier binaire <verbatim|mycas> obtenu dans un répertoire
   connu de la variable d'environnement système PATH. Quand vous démarrerez
   <apply|TeXmacs>, un nouvel article <apply|menu|Mycas> sera intégré dans le
-  menu <apply|menu|Text|Session>.
+  menu <apply|menu|Insert|Session>.
 
   NdT: Si vous utilisez le port Fink de <TeXmacs>, le plus simple est de
   copier le fichier <verbatim|mycas.cpp>, situé dans le répertoire

@@ -15,7 +15,7 @@
   </verbatim>
 
   Si dà inizio ad una sessione di <name|Octave> utilizzando
-  <apply|menu|Text|Session|Octave>. Qui di seguito viene mostrato come
+  <apply|menu|Insert|Session|Octave>. Qui di seguito viene mostrato come
   svolgere delle operazioni di algebra lineare con <name|Octave>, come la
   moltiplicazione tra matrici, l'inversione e la diagonalizzazione. Si noti
   che è necessario (per il momento) utilizzare il comando <verbatim|tmdisp>

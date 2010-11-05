@@ -25,7 +25,7 @@
   </proof>
 
   Si può attivare un ambiente utilizzando il menu
-  <apply|menu|Text|Environment>. Altri ambienti che forniscono un aspetto
+  <apply|menu|Insert|Environment>. Altri ambienti che forniscono un aspetto
   simile ai teoremi sono <markup|propositione>, <markup|lemma>,
   <markup|corollario>, <markup|assioma>, <markup|definizione>. Si può
   utilizzare la macro <markup|dueto> (attivata utilizzando <key|\\ d u e t o

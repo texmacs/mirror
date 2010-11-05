@@ -18,7 +18,7 @@
   </verbatim>
 
   Here follows a sample session, which was started using
-  <apply|menu|Text|Session|Macaulay 2>:
+  <apply|menu|Insert|Session|Macaulay 2>:
 
   <\session|macaulay2|default>
     <\output>

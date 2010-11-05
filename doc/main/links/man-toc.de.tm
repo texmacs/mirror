@@ -8,7 +8,7 @@
   Es ist sehr leicht ein Inhaltsverzeichnis für ein Dokument zu erstellen.
   Sie brauchen nur den Cursor auf die Stelle in Ihrem Dokument zu setzen,
   wohin Sie das Inhaltsverzeichnis haben wollen und dann den Befehl
-  <menu|Text|Automatic|Table of contents> auszuführen.
+  <menu|Insert|Automatic|Table of contents> auszuführen.
 
   Wenn Sie ein Inhaltsverzeichnis erzeugen, sollten Sie in einem Modus sein,
   in dem die Seitenumbrüche sichtbar sind. Wählen Sie dafür

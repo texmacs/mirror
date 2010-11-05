@@ -7,7 +7,7 @@
 
   É muito simples gerar um sumário para o seu documento. Basta colocar o
   cursor no local onde você deseja a tabela e clicar em
-  <apply|menu|Text|Automatic|Table of contents>.
+  <apply|menu|Insert|Automatic|Table of contents>.
 
   Para gerar o sumário, você deve estar em um modo no qual quebras de páginas
   são visíveis (escolha paper em <apply|menu|Document|Page|Type>), de modo

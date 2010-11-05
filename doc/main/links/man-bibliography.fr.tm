@@ -18,7 +18,7 @@
     <apply|menu|Insert|Link|Citation|Invisible> pour insérer les citations
     qui correspondent aux entrées du fichier<verbatim|.bib>.
 
-    <item>Cliquez sur <apply|menu|Text|Automatic|Bibliography> à l'endroit où
+    <item>Cliquez sur <apply|menu|Insert|Automatic|Bibliography> à l'endroit où
     vous voulez que votre bibliographie soit compilée. \ À l'invite, vous
     devez saisir un style <verbatim|bibtex> (<verbatim|plain>,
     <verbatim|alpha>, <verbatim|abbrv>, etc...) et votre fichier

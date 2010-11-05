@@ -15,10 +15,10 @@
   Zur Zeit sind vier Basis-Stile implementiert: Brief, Artikel, Buch und
   Seminar. Der Seminarstil ist für Dias/Folien gedacht. Sobald sie einen
   Basis-Stil ausgewählt haben, können Sie Ihren Text in Abschnitte (siehe
-  <menu|Text|Section>) gliedern und spezifische <em|Textmodi>, wie
+  <menu|Insert|Section>) gliedern und spezifische <em|Textmodi>, wie
   <menu|Remark>, <menu|Theorem> usw., zu wählen, \ (siehe
-  <menu|Text|Environment>). Andere Gliederungen sind Auflistungen (siehe
-  <menu|Text|Itemize>) oder Auflistungen (siehe <menu|Text|Enumerate>).
+  <menu|Insert|Environment>). Andere Gliederungen sind Auflistungen (siehe
+  <menu|Insert|Itemize>) oder Auflistungen (siehe <menu|Insert|Enumerate>).
 
   Wer etwas besser mit <TeXmacs> vertraut ist, kann auch seine eigenen
   Textmodi entwerfen und als eigene Stil-Definitionen abspeichern. Wenn Sie

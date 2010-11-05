@@ -10,7 +10,7 @@
   zu sprechen und mir Nachricht über Bugs und von ungewöhnlichem Verhalten zu
   geben. Wenn Sie Veröffentlichungen mit <TeXmacs> schreiben, dann erwähnen
   Sie doch bitte, dass Sie <TeXmacs> benutzt haben, vielleicht, indem Sie
-  \ an passender Stelle im Titel mit <menu|Text|Title|Note|Written with
+  \ an passender Stelle im Titel mit <menu|Insert|Title|Note|Written with
   TeXmacs> die vordefinierte <TeXmacs>-Fuÿnote einfügen.
 
   Neben diesen allgemeinen, aber sehr wichtigen, Möglichkeiten ist Hilfe bei

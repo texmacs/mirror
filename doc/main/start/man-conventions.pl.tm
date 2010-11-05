@@ -6,7 +6,7 @@
   <tmdoc-title|Oznaczenia i konwencje>
 
   W podr¦czniku <TeXmacs> elementy menu b¦d¡ opisywane czcionk¡ <em|sans
-  serif>, tak jak <menu|Document>, <menu|File|Load> lub <menu|Text|Font
+  serif>, tak jak <menu|Document>, <menu|File|Load> lub <menu|Insert|Font
   shape|Italic>. Dla znaków wprowadzanych z klawiatury u»ywana b¦dzie
   czcionka <em|typewriter> wewn¡trz ramki, na przykªad <key|C-s>. Po prawej
   stronie elementów menu s¡ zapisane kombinacje klawiszowe, gdy s¡ dost¦pne.

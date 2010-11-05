@@ -21,7 +21,7 @@
     einen Menü-Eintrag, wie <menu|Dokument|Sprache>.
 
     <item*|<markup|subsubmenu>>Dieses Makro kennzeichnet ein Unteruntermenü
-    oder ein Untermenü-Eintrag, wie <menu|Text|Farbe|Weiÿ>.
+    oder ein Untermenü-Eintrag, wie <menu|Insert|Farbe|Weiÿ>.
 
     <item*|<markup|tmstyle>>Dieses Makro kennzeichnet den Namen einer
     <TeXmacs> Stil-Datei oder eines Paketes, wie <tmstyle|article>.

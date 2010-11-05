@@ -72,7 +72,7 @@
   <verbatim|Makefile>. L'opzione <expand|scheme-code|:launch> specifica come
   lanciare il programma esterno. L'opzione <verbatim|:session> indica che
   sarà possibile creare una sessione per il plugin <verbatim|minimal>
-  utilizzando il menu <apply|menu|Text|Session|Minimal>.
+  utilizzando il menu <apply|menu|Insert|Session|Minimal>.
 
   <apply|tmdoc-copyright|1998--2003|Joris van der Hoeven, Andrea Centomo>
 

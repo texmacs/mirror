@@ -17,9 +17,9 @@
     The abstract for your paper.
   </explain>
 
-  When creating a <markup|doc-data> tag using <menu|Text|Title|Insert title>,
+  When creating a <markup|doc-data> tag using <menu|Insert|Title|Insert title>,
   <TeXmacs> automatically inserts a <markup|doc-title> tag as its first
-  arguments. New data may be inserted from the <menu|Text|Title> menu. Each
+  arguments. New data may be inserted from the <menu|Insert|Title> menu. Each
   child <src-arg|data-1>, <with|mode|math|\<ldots\>>, <src-arg|data-n> of the
   <markup|doc-data> tag is of one of the following forms:
 
@@ -66,10 +66,10 @@
     to indicate that your document has been written using <TeXmacs>.
   </explain>
 
-  When inserting an additional author using <menu|Text|Title|Author|Insert
+  When inserting an additional author using <menu|Insert|Title|Author|Insert
   author>, <TeXmacs> inserts a <markup|doc-author-data> tag with an
   <markup|author-name> tag as its first argument. New author data may be
-  inserted from the <menu|Text|Title|Author> menu. Each child
+  inserted from the <menu|Insert|Title|Author> menu. Each child
   <src-arg|data-1>, <with|mode|math|\<ldots\>>, <src-arg|data-n> of the
   <markup|doc-author-data> tag is of one of the following forms:
 

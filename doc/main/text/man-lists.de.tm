@@ -5,7 +5,7 @@
 <\body>
   <tmdoc-title|Auflistung, Aufzählung>
 
-  Mit <menu|Text|Itemize> starten Sie eine nicht nummerierte Aufzählung, eine
+  Mit <menu|Insert|Itemize> starten Sie eine nicht nummerierte Aufzählung, eine
   Auflistung. Mit der Taste <key|Entf> beenden Sie sie. Zur Kennzeichnung der
   einzelnen Einträge können Sie auÿer der Voreinstellung noch
   <with|mode|math|\<bullet\>> (groÿe Punkte), <with|mode|math|<op|->>
@@ -37,9 +37,9 @@
   Absätze gehen, können Sie \ <shortcut|(kbd-shift-return)> benutzen, um einen neuen
   Absatz im gleichen Eintrag zu beginnen.
 
-  Nummerierte Aufzählungen, die mit <menu|Text|Enumerate> gestartet werden,
+  Nummerierte Aufzählungen, die mit <menu|Insert|Enumerate> gestartet werden,
   verhalten sich entsprechend, nur dass die Einträge fortlaufend nummeriert
-  werden. Es folgt ein Beispiel, dass mit <menu|Text|Enumerate|Roman>
+  werden. Es folgt ein Beispiel, dass mit <menu|Insert|Enumerate|Roman>
   gestartet wurde:
 
   <\enumerate-Roman>
@@ -52,8 +52,8 @@
 
   Der letzte Typ sind beschreibende Auflistungen, bei denen Sie einen
   beschreibenden Text selbst eingeben können. Sie starten diese mit einem
-  Befehl aus dem Menü <menu|Text|Description> z.B.
-  <menu|Text|Description|Compact>, wie im Beispiel unten gezeigt. Sie können
+  Befehl aus dem Menü <menu|Insert|Description> z.B.
+  <menu|Insert|Description|Compact>, wie im Beispiel unten gezeigt. Sie können
   dann den beschreibenden Text eingeben und mit linken Pfeiltaste
   \ <key|links> bzw. der Pfeiltaste unten <key|unten> zur Eingabe des
   Eintrags wechseln:
@@ -64,7 +64,7 @@
     <item*|Mücke>Weibliche stechen
   </description-compact>
 
-  Mit <menu|Text|Description|Long> erhalten Sie:
+  Mit <menu|Insert|Description|Long> erhalten Sie:
 
   <\description-long>
     <item*|Gnu>Ein haariges aber friedliches Tier

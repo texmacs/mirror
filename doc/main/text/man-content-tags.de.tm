@@ -6,7 +6,7 @@
   <tmdoc-title|<menu|Content tag>>
 
   Das einfachste von strukturiertem Text sind <menu|Content tag>. Im Menü
-  <menu|Text|Content tag> \ sehen ein Untermenü mit einer Reihe solcher
+  <menu|Insert|Content tag> \ sehen ein Untermenü mit einer Reihe solcher
   Optionen. <menu|Content tag> zeigen, dass ein Stück Text einen bestimmen
   Zweck erfüllt oder von einer bestimmten Art ist. Beispielsweise sollte
   wichtiger Text <strong|<menu|Strong>> hervorgehoben werden. Wie der Text

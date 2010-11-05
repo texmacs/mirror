@@ -18,11 +18,11 @@
   documenti: lettera, articolo, libro e seminario. Lo stile seminario viene
   utilizzato per comporre dei lucidi per una presentazione. Appena viene
   selezionato uno di questi stili, si può organizzare il proprio testo in
-  sezioni (si veda <apply|menu|Text|Section>) e utilizzare specifici
+  sezioni (si veda <apply|menu|Insert|Section>) e utilizzare specifici
   <expand|def-index|ambienti>. Esempi di ambienti sono teorema, proposizione,
-  nota e così via (si veda <apply|menu|Text|Environment>). Altri esempi sono
-  le liste di oggetti (si veda <apply|menu|Text|Itemize>) o le liste numerate
-  (si veda <apply|menu|Text|Enumerate>).
+  nota e così via (si veda <apply|menu|Insert|Environment>). Altri esempi sono
+  le liste di oggetti (si veda <apply|menu|Insert|Itemize>) o le liste numerate
+  (si veda <apply|menu|Insert|Enumerate>).
 
   Quando si è acquisita una certa dimestichezza nell'uso di <apply|TeXmacs>,
   è possibile aggiungere dei nuovi ambienti in un proprio file di stile.

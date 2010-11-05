@@ -6,7 +6,7 @@
   <expand|tmdoc-title|Tag di contesto>
 
   Gli esempi più semplici di struttura in un testo sono i tag di contesto. In
-  <apply|menu|Text|content tag> se ne può vedere una lista. I tag di contesto
+  <apply|menu|Insert|content tag> se ne può vedere una lista. I tag di contesto
   indicano che una certa porzione di testo è di un tipo particolare o che
   serve ad uno scopo specifico. Per esempio, i testi importanti dovrebbero
   essere evidenziati utilizzando il tag <markup|Enfatizzato>. Il suo

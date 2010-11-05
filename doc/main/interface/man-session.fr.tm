@@ -5,7 +5,7 @@
 <\body>
   <expand|tmdoc-title|Utilisation normale>
 
-  On démarre une session avec <apply|menu|Text|Session>. Une session consiste
+  On démarre une session avec <apply|menu|Insert|Session>. Une session consiste
   en une série d'environnements d'entrée et de sortie entrecoupée
   éventuellement de texte. Quand on appuie sur la touche <key|retour chariot>
   à l'intérieur d'un environnement d'entrée de session, le texte situé dans

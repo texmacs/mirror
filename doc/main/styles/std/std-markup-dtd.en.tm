@@ -7,41 +7,41 @@
 
   Various standard markup is defined in <tmdtd|std-markup>. The following
   textual content tags all take one argument. Most can be found in the
-  <menu|Text|Content tag> menu.
+  <menu|Insert|Content tag> menu.
 
   <\explain|<explain-macro|strong|content>>
     Indicates an <strong|important> region of text. You can enter this tag
-    via <menu|Text|Content tag|Strong>.
+    via <menu|Insert|Content tag|Strong>.
   </explain>
 
   <\explain|<explain-macro|em|content>>
     Emphasizes a region of text like in ``the <em|real> thing''. This tag
-    corresponds to the menu entry \ <menu|Text|Content tag|Emphasize>.
+    corresponds to the menu entry \ <menu|Insert|Content tag|Emphasize>.
   </explain>
 
   <\explain|<explain-macro|dfn|content>>
     For definitions like ``a <dfn|gnu> is a horny beast''. This tag
-    corresponds to <menu|Text|Content tag|Definition>.
+    corresponds to <menu|Insert|Content tag|Definition>.
   </explain>
 
   <\explain|<explain-macro|samp|content>>
     A sequence of literal characters like the <samp|ae> ligature æ. You can
-    get this tag via <menu|Text|Content tag|Sample>.
+    get this tag via <menu|Insert|Content tag|Sample>.
   </explain>
 
   <\explain|<explain-macro|name|content>>
     The name of a particular thing or concept like the <name|Linux> system.
-    This tag is obtained using <menu|Text|Content tag|Name>.
+    This tag is obtained using <menu|Insert|Content tag|Name>.
   </explain>
 
   <\explain|<explain-macro|person|content>>
     The name of a person like <name|Joris>. This tag corresponds to
-    <menu|Text|Content tag|Person>.
+    <menu|Insert|Content tag|Person>.
   </explain>
 
   <\explain|<explain-macro|cite*|content>>
     A bibliographic citation like a book or magazine. Example: Melville's
-    <cite*|Moby Dick>. This tag, which is obtained using <menu|Text|Content
+    <cite*|Moby Dick>. This tag, which is obtained using <menu|Insert|Content
     tag|Cite>, should not be confused with <markup|cite>. The latter tag is
     also used for citations, but where the argument refers to an entry in a
     database with bibliographic references.
@@ -49,7 +49,7 @@
 
   <\explain|<explain-macro|abbr|content>>
     An abbreviation. Example: I work at the <abbr|C.N.R.S.> An abbreviation
-    is created using <menu|Text|Content tag|Abbreviation> or the <key|text a>
+    is created using <menu|Insert|Content tag|Abbreviation> or the <key|text a>
     keyboard shortcut.
   </explain>
 
@@ -57,25 +57,25 @@
     An acronym is an abbreviation formed from the first letter of each word
     in a name or a phrase, such as <acronym|HTML> or <acronym|IBM>. In
     particular, the letters are not separated by dots. You may enter an
-    acronym using <menu|Text|Content tag|Acronym>.
+    acronym using <menu|Insert|Content tag|Acronym>.
   </explain>
 
   <\explain|<explain-macro|verbatim|content>>
     Verbatim text like output from a computer program. Example: the program
-    said <verbatim|hello>. You may enter verbatim text via <menu|Text|Content
+    said <verbatim|hello>. You may enter verbatim text via <menu|Insert|Content
     tag|Verbatim>. The tag may also be used as an environment for
     multi-paragraph text.
   </explain>
 
   <\explain|<explain-macro|kbd|content>>
     Text which should be entered on a keyboard. Example: please type
-    <kbd|return>. This tag corresponds to the menu entry <menu|Text|Content
+    <kbd|return>. This tag corresponds to the menu entry <menu|Insert|Content
     tag|Keyboard>.
   </explain>
 
   <\explain|<explain-macro|code*|content>>
     Code of a computer program like in ``<code*|cout \<less\>\<less\> 1+1;>
-    yields <verbatim|2>''. This is entered using <menu|Text|Content
+    yields <verbatim|2>''. This is entered using <menu|Insert|Content
     tag|Code>. For longer pieces of code, you should use the <markup|code>
     environment.
   </explain>
@@ -83,7 +83,7 @@
   <\explain|<explain-macro|var|content>>
     Variables in a computer program like in <verbatim|cp <var|src-file>
     <var|dest-file>>. This tag corresponds to the menu entry
-    <menu|Text|Content tag|Variable>.
+    <menu|Insert|Content tag|Variable>.
   </explain>
 
   <\explain|<explain-macro|math|content>>
@@ -105,8 +105,8 @@
     with <name|HTML>, but we do not recommend its use.
   </explain>
 
-  Most of the following logical size tags can be found in <menu|Text|Size
-  tag> (or <menu|Mathematics|Size tag>):
+  Most of the following logical size tags can be found in <menu|Insert|Size
+  tag> (or <menu|Insert|Size tag>):
 
   <\explain>
     <explain-macro|really-tiny|content>, <explain-macro|tiny|content>

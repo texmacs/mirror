@@ -7,7 +7,7 @@
 
   It is very easy to generate a table of contents for your document. Just put
   your cursor at the place where you want your table of contents and click on
-  <apply|menu|Text|Automatic|Table of contents>.
+  <apply|menu|Insert|Automatic|Table of contents>.
 
   In order to generate the table of contents, you should be in a mode where
   page breaks are visible (select paper in <apply|menu|Document|Page|Type>),
