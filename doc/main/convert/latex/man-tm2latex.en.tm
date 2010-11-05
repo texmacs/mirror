@@ -100,8 +100,8 @@
   the generated <LaTeX> file (which would be lost when re-exporting the
   <TeXmacs> source file after some modifications), <TeXmacs> provides a
   mechanism to specify manual conversions to <LaTeX> in the <TeXmacs> source
-  file: using <menu|Insert|Specific|Texmacs> and
-  <menu|Insert|Specific|Latex>, you may force certain document fragments to
+  file: using <menu|Format|Specific|Texmacs> and
+  <menu|Format|Specific|Latex>, you may force certain document fragments to
   appear only in the source file or the <LaTeX> target.
 
   For instance, assume that the word ``blauwbilgorgel'' is hyphenated
@@ -111,10 +111,10 @@
   <\enumerate>
     <item>Select ``blauwbilgorgel''.
 
-    <item>Click on <menu|Insert|Specific|Texmacs> to make the text
+    <item>Click on <menu|Format|Specific|Texmacs> to make the text
     ``blauwbilgorgel'' <TeXmacs>-specific.
 
-    <item>Click on <menu|Insert|Specific|Latex>.
+    <item>Click on <menu|Format|Specific|Latex>.
 
     <item>Type the latex code <verbatim|blauw\\-bil\\-gor\\-gel> with the
     correct hyphenation.
@@ -125,7 +125,7 @@
   In a similar fashion, you may insert <LaTeX>-specific line breaks, page
   breaks, vertical space, style parameter modifications, etc. You may also
   force arbitrary content to be exported as an image using
-  <menu|Insert|Specific|Image>.
+  <menu|Format|Specific|Image>.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
 

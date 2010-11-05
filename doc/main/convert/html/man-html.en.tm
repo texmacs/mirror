@@ -25,7 +25,7 @@
   using <TeXmacs> are exported in this way. In particular, the exportation of
   a <TeXmacs> file with pictures may give rise to the creation of additional
   image files. You may also force arbitrary content to be exported as an
-  image using <menu|Insert|Specific|Image>.
+  image using <menu|Format|Specific|Image>.
 
   <TeXmacs> also provides a facility for the creation of entire websites. For
   this, you just have to regroup the files for your website into a single

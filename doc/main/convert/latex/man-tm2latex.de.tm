@@ -61,8 +61,8 @@
   zu korrigieren und dann die korrigierte Datei an die Zeitschrift zu senden.
   Das hat aber den Nachteil, das man man diese Korrekturen jedes mal machen
   muss, wenn man nach Änderungen erneut exportiert. Eine bessere Strategie
-  besteht darin die Menübefehle <menu|Insert|Specific|Latex> und
-  <menu|Insert|Specific|Texmacs> zu benutzen, um Text zuschreiben, der nur in
+  besteht darin die Menübefehle <menu|Format|Specific|Latex> und
+  <menu|Format|Specific|Texmacs> zu benutzen, um Text zuschreiben, der nur in
   jeweils einer Version (entweder <TeXmacs> oder <LaTeX>) sichtbar ist.
 
   Nehmen wie einmal beispielhaft an, dass das Wort
@@ -72,10 +72,10 @@
   <\enumerate>
     <item>\Rfrühkonstantinopolitanisch\R auswählen.
 
-    <item>Auf <menu|Insert|Specific|Texmacs> klicken, um es
+    <item>Auf <menu|Format|Specific|Texmacs> klicken, um es
     <TeXmacs>-spezifisch zu machen.
 
-    <item>Auf <menu|Insert|Specific|Latex> klicken.
+    <item>Auf <menu|Format|Specific|Latex> klicken.
 
     <item>Dann <verbatim|früh\\-kon\\-stan\\-ti\\-no\\-po\\-li\\-ta\\-nisch>
     mit der korrekten Trennung ein.\ 

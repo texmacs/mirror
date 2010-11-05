@@ -1,26 +1,27 @@
-<TeXmacs|1.0.3.5>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
 <\body>
   <tmdoc-title|The style-sheet language>
 
-  In the section about <hyper-link|writing a simple style
+  In the section about <hlink|writing a simple style
   package|style-example.en.tm> we already gave you a first impression about
   the style-sheet language of <TeXmacs>. In this section, we will give a more
   complete survey of the available features. For more detailed descriptions,
-  we refer to the chapter about the <hyper-link|<TeXmacs>
+  we refer to the chapter about the <hlink|<TeXmacs>
   primitives|../../format/primitives/primitives.en.tm>.
 
-  Most style-sheet primitives can be obtained from the <menu|Source> menu
-  when you are in source mode. You may also obtain them from the
-  <menu|Insert|Macro> and <menu|Insert|Executable> menus when editing usual
-  text. Alternatively, you may use the <prefix|A-> and <prefix|executable> prefixes in
-  source mode and the <prefix|inactive> and <prefix|executable> prefixes otherwise.
-  Furthermore, we recall that the hybrid <key|\\>-key may be used for
-  creating macro-applications or arguments, depending on the context.
-  Finally, the <shortcut|(structured-insert #t)> and <shortcut|(structured-insert #f)> keys are used for
-  inserting arguments.
+  The style-sheet primitives can be obtained from the <menu|Source> menu when
+  you are in source mode. In all other modes, the <menu|Source> menu becomes
+  visible after enabling the <menu|Source macros tool> in the <menu|Tools>
+  menu. Alternatively, you may use the <prefix|A-> and <prefix|executable>
+  keyboard prefixes in source mode and the<nbsp><prefix|inactive>
+  and<nbsp><prefix|executable> prefixes otherwise. Furthermore, we recall
+  that the hybrid <key|\\>-key may be used for creating macro-applications or
+  arguments, depending on the context. Finally, the
+  <shortcut|(structured-insert #t)> and <shortcut|(structured-insert #f)>
+  keys are used for inserting arguments.
 
   <\traverse>
     <branch|Assignments|style-assign.en.tm>
@@ -49,17 +50,5 @@
 <\initial>
   <\collection>
     <associate|language|english>
-    <associate|page-bot|30mm>
-    <associate|page-even|30mm>
-    <associate|page-odd|30mm>
-    <associate|page-reduce-bot|15mm>
-    <associate|page-reduce-left|25mm>
-    <associate|page-reduce-right|25mm>
-    <associate|page-reduce-top|15mm>
-    <associate|page-right|30mm>
-    <associate|page-top|30mm>
-    <associate|page-type|a4>
-    <associate|par-width|150mm>
-    <associate|sfactor|4>
   </collection>
 </initial>

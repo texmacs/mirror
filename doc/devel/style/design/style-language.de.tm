@@ -1,27 +1,26 @@
-<TeXmacs|1.0.4.5>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
 <\body>
   <tmdoc-title|Die Sprache der <TeXmacs>-Stil-Definitionen>
 
-  Im Abschnitt <hyper-link|So schreiben Sie ihre erste
+  Im Abschnitt <hlink|So schreiben Sie ihre erste
   <TeXmacs>-Stil-Definition|style-example.de.tm> haben Sie bereits einen
   ersten Eindruck von der Sprache erhalten, in der <TeXmacs>-Stil-Definition
   geschrieben werden. In diesem Abschnitt werden wir Ihnen einen
   vollständigeren Überblick über die vorhandenen Sprachelemente geben. Noch
   detailliertere Informationen finden Sie in dem Kapitel über
-  <hyper-link|<TeXmacs>-Konstrukte|../../format/regular/regular.de.tm>.
+  <hlink|<TeXmacs>-Konstrukte|../../format/regular/regular.de.tm>.
 
   Die meisten Stil-Definitionen betreffenden Konstrukte finden Sie im
-  <menu|Source>-Menü, wenn Sie sich im Quellmodus befinden. Sie können sie
-  auch im Textmodus erreichen über die Menüs <menu|Insert|Macro> und
-  <menu|Insert|Executable>. Alternativ können Sie im Quellmodus auch die
-  Tastenkombination mit <prefix|A-> und <prefix|executable> benutzen bzw. in den anderen
-  Moden mit <prefix|inactive> und <prefix|executable>. Schlieÿlich erinnern wir daran, dass
-  die <key|\\>-Taste benutzt werden kann, um kontextabhängig Makros oder
-  Argumente zu erzeugen und dass <shortcut|(structured-insert #t)> und <shortcut|(structured-insert #f)>
-  \ Argumente einfügen.
+  <menu|Source>-Menü, wenn Sie sich im Quellmodus befinden. Alternativ können
+  Sie im Quellmodus auch die Tastenkombination mit <prefix|A-> und
+  <prefix|executable> benutzen bzw. in den anderen Moden mit
+  <prefix|inactive> und <prefix|executable>. Schlieÿlich erinnern wir daran,
+  dass die <key|\\>-Taste benutzt werden kann, um kontextabhängig Makros oder
+  Argumente zu erzeugen und dass <shortcut|(structured-insert #t)> und
+  <shortcut|(structured-insert #f)> \ Argumente einfügen.
 
   <\traverse>
     <branch|Zuweisungen|style-assign.de.tm>

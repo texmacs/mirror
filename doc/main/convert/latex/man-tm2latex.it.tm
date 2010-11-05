@@ -60,7 +60,7 @@
   ha lo svantaggio che si devono ripetere queste correzioni ogni volta che si
   converte il file <apply|TeXmacs> file <verbatim|name.tm>, dopo avere
   compiuto qualche altra modifica. Una strategia migliore è di usare
-  <apply|menu|Insert|Specific|Latex> e <apply|menu|Insert|Specific|Texmacs>
+  <apply|menu|Format|Specific|Latex> e <apply|menu|Format|Specific|Texmacs>
   per scrivere del testo visibile solamente nel file convertito e originale
   rispettivamente.\ 
 
@@ -71,10 +71,10 @@
   <\enumerate>
     <item>Selezionare ``blauwbilgorgel''.
 
-    <item>Cliccare su <apply|menu|Insert|Specific|Texmacs> per rendere il
+    <item>Cliccare su <apply|menu|Format|Specific|Texmacs> per rendere il
     testo ``blauwbilgorgel'' come specifico di <apply|TeXmacs>.
 
-    <item>Cliccare su <apply|menu|Insert|Specific|Latex>.
+    <item>Cliccare su <apply|menu|Format|Specific|Latex>.
 
     <item>Scrivere il codice latex <verbatim|blauw\\-bil\\-gor\\-gel> con la
     sillabazione corretta.

@@ -59,7 +59,7 @@
   devrez refaire les corrections à chaque fois que vous convertirez le
   fichier <apply|TeXmacs> <verbatim|name.tm>, après lui avoir fait subir
   quelque changement que ce soit. Il vaut mieux utiliser
-  <apply|menu|Insert|Specific|Latex> et <apply|menu|Insert|Specific|Texmacs>
+  <apply|menu|Format|Specific|Latex> et <apply|menu|Format|Specific|Texmacs>
   pour saisir du texte visible dans le fichier converti ou le fichier
   original.
 
@@ -71,10 +71,10 @@
   <\enumerate>
     <item>Sélectionnez <space|0.2spc>anticonstitutionnellement<space|0.2spc>.
 
-    <item>Cliquez sur <apply|menu|Insert|Specific|Texmacs> comme spécifique à
+    <item>Cliquez sur <apply|menu|Format|Specific|Texmacs> comme spécifique à
     <apply|TeXmacs>.
 
-    <item>Cliquez sur <apply|menu|Insert|Specific|Latex>.
+    <item>Cliquez sur <apply|menu|Format|Specific|Latex>.
 
     <item>Saisissez le code latex suivant avec la césure correcte :
     <verbatim|an\\-ti\\-con\\-sti\\-tu\\-tion\\-nel\\-le\\-ment>.

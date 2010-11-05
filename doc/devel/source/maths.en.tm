@@ -64,7 +64,7 @@
   Consequently, <apply|TeXmacs> should offer a reasonable compromise for the
   most frequent cases, while offering methods for the user to make finer
   adjustments in the remaining ones. Currently, we just provided the
-  <apply|menu|Insert|Special|Move> and <apply|menu|Insert|Special|Resize>
+  <apply|menu|Format|Transform|Move> and <apply|menu|Format|Transform|Resize>
   constructs to move and resize boxes in order to perform such adjustments.
   For instance, if the brackets around the two sums
 
