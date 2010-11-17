@@ -31,10 +31,10 @@
     <item*|<shortcut|(geometry-end)>>Increase the horizontal offset of an
     object, or right align.
 
-    <item*|<shortcut|(geometry-bottom)>>Decrease the vertical offset of an
+    <item*|<shortcut|(geometry-incremental (focus-tree) #t)>>Decrease the vertical offset of an
     object, or align at the bottom.
 
-    <item*|<shortcut|(geometry-top)>>Increase the vertical offset of an
+    <item*|<shortcut|(geometry-incremental (focus-tree) #f)>>Increase the vertical offset of an
     object, or align at the top.
 
     <item*|<shortcut|(geometry-default)>>Revert the geometry (size, position,
