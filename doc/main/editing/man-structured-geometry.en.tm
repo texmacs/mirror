@@ -43,7 +43,7 @@
     <item*|<shortcut|(geometry-variant #t)>, <shortcut|(geometry-variant
     #f)>>Circulate among available length units for specifying the geometry.
 
-    <item*|<shortcut|(geometry-slower)>, <shortcut|(geometry-faster)>>Decrease
+    <item*|<shortcut|(geometry-speed (focus-tree) #f)>, <shortcut|(geometry-speed (focus-tree) #t)>>Decrease
     or increase the step size when positioning or resizing.
   </description>
 
