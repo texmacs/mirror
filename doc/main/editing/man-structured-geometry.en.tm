@@ -25,10 +25,10 @@
     <item*|<shortcut|(geometry-vertical (focus-tree) #f)>>Increase/decrease the vertical size of an
     object, or align more to the top.
 
-    <item*|<shortcut|(geometry-start)>>Decrease the horizontal offset of an
+    <item*|<shortcut|(geometry-extremal (focus-tree) #f)>>Decrease the horizontal offset of an
     object, or left align.
 
-    <item*|<shortcut|(geometry-end)>>Increase the horizontal offset of an
+    <item*|<shortcut|(geometry-extremal (focus-tree) #t)>>Increase the horizontal offset of an
     object, or right align.
 
     <item*|<shortcut|(geometry-incremental (focus-tree) #t)>>Decrease the vertical offset of an
@@ -37,10 +37,10 @@
     <item*|<shortcut|(geometry-incremental (focus-tree) #f)>>Increase the vertical offset of an
     object, or align at the top.
 
-    <item*|<shortcut|(geometry-default)>>Revert the geometry (size, position,
+    <item*|<shortcut|(geometry-default (focus-tree))>>Revert the geometry (size, position,
     alignment) to the defaults.
 
-    <item*|<shortcut|(geometry-variant #t)>, <shortcut|(geometry-variant
+    <item*|<shortcut|(geometry-variant (focus-tree) #t)>, <shortcut|(geometry-variant (focus-tree)
     #f)>>Circulate among available length units for specifying the geometry.
 
     <item*|<shortcut|(geometry-speed (focus-tree) #f)>, <shortcut|(geometry-speed (focus-tree) #t)>>Decrease
