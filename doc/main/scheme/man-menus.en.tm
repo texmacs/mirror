@@ -1,4 +1,4 @@
-<TeXmacs|1.0.6.10>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
@@ -8,16 +8,16 @@
   You may define (or modify) a (part of a) menu with name <scm-arg|name>
   using
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (menu-bind <scm-arg|name> . <scm-arg|prog>)
-  </scheme-fragment>
+  </scm-fragment>
 
   and append new entries to an existing (part of a) menu with name
   <scm-arg|name> using
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (menu-extend <scm-arg|name> . <scm-arg|prog>)
-  </scheme-fragment>
+  </scm-fragment>
 
   Here <scm-arg|prog> is a program which represents the entries of the menu.
   In particular, you may take a look at the files in the directory
@@ -31,7 +31,7 @@
   More precisely, the program <verbatim|<em|prog>> in <verbatim|menu-set> or
   <verbatim|menu-append> is a list of entries of one of the following forms:
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (=\<gtr\> "pulldown menu name" <scm-arg|menu-definition>)
 
     (-\<gtr\> "pullright menu name" <scm-arg|menu-definition>)
@@ -43,7 +43,7 @@
     (if <scm-arg|condition> <scm-arg|menu-definition>)
 
     (link <scm-arg|variable>)
-  </scheme-fragment>
+  </scm-fragment>
 
   \;
 
@@ -68,11 +68,11 @@
   </itemize>
 
   The main <TeXmacs> menus are <scm|texmacs-menu>, <scm|texmacs-popup-menu>,
-  <scm|texmacs-main-icons>, <scm|texmacs-context-icons> and
-  <scm|texmacs-extra-icons>. Other standard indirect menus are
-  <scm|file-menu>, <scm|edit-menu>, <scm|insert-menu>, <scm|text-menu>,
-  <scm|paragraph-menu>, <scm|document-menu>, <scm|options-menu> and
-  <scm|help-menu>.
+  <scm|texmacs-main-icons>, <scm|texmacs-mode-icons>,
+  <scm|texmacs-focus-icons> and <scm|texmacs-extra-icons>. Other standard
+  indirect menus are <scm|file-menu>, <scm|edit-menu>, <scm|insert-menu>,
+  <scm|text-menu>, <scm|paragraph-menu>, <scm|document-menu>,
+  <scm|options-menu> and <scm|help-menu>.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
 

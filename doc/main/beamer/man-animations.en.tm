@@ -20,7 +20,7 @@
   figure<nbsp><reference|progressive-fig>. The duration of the animations can
   be <hlink|modified <em|a<nbsp>posteriori>|../editing/man-structured-geometry.en.tm>
   by putting your cursor inside them and using the shortcuts
-  <shortcut|(geometry-left)> and<nbsp><shortcut|(geometry-right)>.
+  <shortcut|(geometry-horizontal (focus-tree) #f)> and<nbsp><shortcut|(geometry-horizontal (focus-tree) #t)>.
 
   <big-figure|<tabular*|<tformat|<cwith|1|1|1|1|cell-lsep|0.5em>|<cwith|1|1|1|1|cell-rsep|0.5em>|<cwith|1|1|1|1|cell-bsep|0.5em>|<cwith|1|1|1|1|cell-tsep|0.5em>|<cwith|1|1|1|1|cell-background|pastel
   yellow>|<cwith|2|2|1|1|cell-tsep|0.5em>|<table|<row|<cell|<anim-translate|<large|Hello

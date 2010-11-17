@@ -13,16 +13,16 @@
   implemented:
 
   <\description>
-    <item*|<shortcut|(geometry-left)>>Decrease the horizontal size of an
+    <item*|<shortcut|(geometry-horizontal (focus-tree) #f)>>Decrease the horizontal size of an
     object, or align more to the left.
 
-    <item*|<shortcut|(geometry-right)>>Increase the horizontal size of an
+    <item*|<shortcut|(geometry-horizontal (focus-tree) #t)>>Increase the horizontal size of an
     object, or align more to the right.
 
-    <item*|<shortcut|(geometry-down)>>Decrease/increase the vertical size of
+    <item*|<shortcut|(geometry-vertical (focus-tree) #t)>>Decrease/increase the vertical size of
     an object, or align more to the bottom.
 
-    <item*|<shortcut|(geometry-up)>>Increase/decrease the vertical size of an
+    <item*|<shortcut|(geometry-vertical (focus-tree) #f)>>Increase/decrease the vertical size of an
     object, or align more to the top.
 
     <item*|<shortcut|(geometry-start)>>Decrease the horizontal offset of an
@@ -59,7 +59,7 @@
     <menu|Format|Transform> menu.
 
     <item*|Animations>The durations of animations can be modified using
-    <shortcut|(geometry-left)> and <shortcut|(geometry-right)>.
+    <shortcut|(geometry-horizontal (focus-tree) #f)> and <shortcut|(geometry-horizontal (focus-tree) #t)>.
 
     <item*|Images>The size and alignment of images can be changed.
   </description>
