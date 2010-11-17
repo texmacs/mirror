@@ -1,4 +1,4 @@
-<TeXmacs|1.0.6.10>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
@@ -39,45 +39,41 @@
 
   Trees which are part of a document which is effectively being edited are
   said to be <hlink|active|../overview/overview-content.en.tm#tree-active>,
-  and they are implemented using the <value|scheme>
-  type<nbsp><verbatim|tree>.
+  and they are implemented using the <scheme> type<nbsp><verbatim|tree>.
 
   Besides this representation format, which is preferred when editing
   document fragments, <TeXmacs> also allows you to represent
   <hlink|passive|../overview/overview-content.en.tm#tree-passive> document
-  fragments by <value|scheme> trees. This alternative representation, which
-  corresponds to the <value|scheme> type <verbatim|stree>, is more convenient
-  when writing routines for processing documents (such as conversions to
-  another format). Finally, <TeXmacs> provides a
-  <hlink|hybrid|../overview/overview-content.en.tm#tree-hybrid>
-  representation, which corresponds to the <value|scheme> type
-  <verbatim|content>. The <verbatim|content> type (corresponding to the
-  prefix <verbatim|tm->, for simplicity) is typically used for writing
-  abstract utility routines for trees, which can then be applied indistinctly
-  to objects of type <verbatim|tree> or <verbatim|stree>.
+  fragments by <scheme> trees. This alternative representation, which
+  corresponds to the <scheme> type <verbatim|stree>, is more convenient when
+  writing routines for processing documents (such as conversions to another
+  format). Finally, <TeXmacs> provides a <hlink|hybrid|../overview/overview-content.en.tm#tree-hybrid>
+  representation, which corresponds to the <scheme> type <verbatim|content>.
+  The <verbatim|content> type (corresponding to the prefix <verbatim|tm->,
+  for simplicity) is typically used for writing abstract utility routines for
+  trees, which can then be applied indistinctly to objects of type
+  <verbatim|tree> or <verbatim|stree>.
 
   One major advantage of active trees (of type <verbatim|tree>) is that they
   are aware of their own location in the document. As a consequence,
   <TeXmacs> provides editing routines which allow you to modify the document
   simply by assigning a tree to a different value. For instance, assume that
-  the <value|scheme> variable <scm|t> contains the subscript
-  <with|mode|math|1> in formula (<reference|example-edit-formula>). Then the
-  instruction
+  the <scheme> variable <scm|t> contains the subscript <math|1> in formula
+  (<reference|example-edit-formula>). Then the instruction
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (tree-set! t "2")
-  </scheme-fragment>
+  </scm-fragment>
 
-  will simultaneously change the subscript into a <with|mode|math|2> and
-  update the <value|scheme> variable <scm|t>. Another nicety is that the
-  value of <scm|t> is <em|persistent> during changes of other parts of the
-  document. For instance, if we change the <with|mode|math|a>'s into
-  <with|mode|math|b>'s in the formula (<reference|example-edit-formula>),
-  then <scm|t> keeps its value <em|and> its location. Of course, the location
-  of <scm|t> may be lost when <scm|t> or one of its parents is modified.
-  Nevertheless, the modification routines are designed in such a way that we
-  try hard to remember locations. For instance, when insert
-  ``<with|mode|math|a<rsub|0>+>'' in front of the formula
+  will simultaneously change the subscript into a <math|2> and update the
+  <scheme> variable <scm|t>. Another nicety is that the value of <scm|t> is
+  <em|persistent> during changes of other parts of the document. For
+  instance, if we change the <math|a>'s into <math|b>'s in the formula
+  (<reference|example-edit-formula>), then <scm|t> keeps its value <em|and>
+  its location. Of course, the location of <scm|t> may be lost when <scm|t>
+  or one of its parents is modified. Nevertheless, the modification routines
+  are designed in such a way that we try hard to remember locations. For
+  instance, when insert ``<math|a<rsub|0>+>'' in front of the formula
   (<reference|example-edit-formula>) using the routine <scm|tree-insert!>,
   then <scm|t> keeps its value <em|and> its location, even though one of its
   ancestors was altered.
@@ -87,30 +83,29 @@
   according to whether a tree is part of a document or not. Secondly,
   <TeXmacs> both supports <em|native trees> (of type <verbatim|tree>), which
   are implemented in C++, and <em|scheme trees> (of type <verbatim|stree>),
-  which have a more familiar <value|scheme> syntax. Finally, <em|hybrid
-  trees> unify native and scheme trees. Formally speaking, a hybrid tree is
-  either a string, a native tree or a list whose first element is a symbol
-  and whose other elements are again hybrid trees. We notice that active
-  trees are necessarily native, but native trees may both be active or
-  passive. Furthermore, certain descendants of an inactive tree may be
-  active, but we never have the contrary.
+  which have a more familiar <scheme> syntax. Finally, <em|hybrid trees>
+  unify native and scheme trees. Formally speaking, a hybrid tree is either a
+  string, a native tree or a list whose first element is a symbol and whose
+  other elements are again hybrid trees. We notice that active trees are
+  necessarily native, but native trees may both be active or passive.
+  Furthermore, certain descendants of an inactive tree may be active, but we
+  never have the contrary.
 
   <paragraph*|Positions inside document fragments>
 
   The main way to address positions inside a tree is via a list of positive
-  integers, called a <em|path>, and corresponding to the <value|scheme> type
+  integers, called a <em|path>, and corresponding to the <scheme> type
   <verbatim|path>. For instance, assume that <scm|x> corresponds to the
   expression<nbsp>(<reference|example-edit-formula>). Then the subscript
-  <with|mode|math|1> is identified uniquely by the path<nbsp><group|<scm|(1
-  0)>>. Similarly the cursor position just behind the
-  subscript<nbsp><with|mode|math|1> corresponds to the
-  path<nbsp><group|<scm|(1 0 1)>>. More generally, if <scm|p> is a path to a
-  string leaf, then the path <scm|(rcons p i)> corresponds to the cursor
-  position just behind the <scm|i>-th character in the string (we notice that
-  <scm|rcons> is used to append a new element at the end of a list). If
-  <scm|p> is a path to a non-string subtree, then <scm|(rcons p 0)> and
-  <scm|(rcons p 1>) correspond to the cursor positions before and behind this
-  subtree.
+  <math|1> is identified uniquely by the path<nbsp><rigid|<scm|(1 0)>>.
+  Similarly the cursor position just behind the subscript<nbsp><math|1>
+  corresponds to the path<nbsp><rigid|<scm|(1 0 1)>>. More generally, if
+  <scm|p> is a path to a string leaf, then the path <scm|(rcons p i)>
+  corresponds to the cursor position just behind the <scm|i>-th character in
+  the string (we notice that <scm|rcons> is used to append a new element at
+  the end of a list). If <scm|p> is a path to a non-string subtree, then
+  <scm|(rcons p 0)> and <scm|(rcons p 1>) correspond to the cursor positions
+  before and behind this subtree.
 
   It should be noticed that paths do not necessarily correspond to <em|valid>
   subtrees or cursor positions. Clearly, some of the elements in the path may
@@ -134,14 +129,14 @@
   A simple way to address subtrees of a tree in a more persistent way is
   using object of type <verbatim|tree>, <abbr|i.e.> by considering the
   subtrees themselves. The persistent analogue of a cursor path is a
-  <em|persistent position>, which corresponds to an object of <value|scheme>
-  type <verbatim|position>. One particularity of persitent positions is that,
-  even when a tree into which they point is removed, they keep indicating a
-  valid close position in the remaining document. For instance, assume that
+  <em|persistent position>, which corresponds to an object of <scheme> type
+  <verbatim|position>. One particularity of persitent positions is that, even
+  when a tree into which they point is removed, they keep indicating a valid
+  close position in the remaining document. For instance, assume that
   <scm|pos> stands for the cursor position <scm|(1 0 1)> in the
   expression<nbsp>(<reference|example-edit-formula>). If we remove
-  <with|mode|math|a<rsub|1>+\<cdots\>+>, then the tree corresponding to the
-  remaining expression <with|mode|math|a<rsub|n>> is given by
+  <math|a<rsub|1>+\<cdots\>+>, then the tree corresponding to the remaining
+  expression <math|a<rsub|n>> is given by
 
   <\equation*>
     <tree|<markup|concat>|a|<tree|<markup|rsub>|n>>
@@ -161,29 +156,28 @@
   instance, if<nbsp><scm|x> corresponds to the
   expression<nbsp>(<reference|example-edit-formula>), then
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (select x '(rsub :%1))
-  </scheme-fragment>
+  </scm-fragment>
 
-  returns a list with the two subscripts <with|mode|math|1> and
-  <with|mode|math|n>. In fact, <scm|select> may also be used in order to
-  navigate through a tree. For instance, if <scm|t> corresponds to the
-  subscript <with|mode|math|1> in<nbsp>(<reference|example-edit-formula>),
-  then
+  returns a list with the two subscripts <math|1> and <math|n>. In fact,
+  <scm|select> may also be used in order to navigate through a tree. For
+  instance, if <scm|t> corresponds to the subscript <math|1>
+  in<nbsp>(<reference|example-edit-formula>), then
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (select t '(:up :next))
-  </scheme-fragment>
+  </scm-fragment>
 
-  returns the list with one element ``<with|mode|math|+\<cdots\>+a>''. The
-  routine <scm|select> is implicitly called by many routines which operate on
-  trees. For instance, with <scm|t> as above,
+  returns the list with one element ``<math|+\<cdots\>+a>''. The routine
+  <scm|select> is implicitly called by many routines which operate on trees.
+  For instance, with <scm|t> as above,
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (tree-ref t :up :next)
-  </scheme-fragment>
+  </scm-fragment>
 
-  directly returns the tree ``<with|mode|math|+\<cdots\>+a>''.
+  directly returns the tree ``<math|+\<cdots\>+a>''.
 
   Besides simpler access to subtrees of a tree or other ``close trees'',
   <TeXmacs> also provides several other useful mechanisms for writing editing
@@ -207,13 +201,13 @@
   <scm|with-innermost>. Together with the routine <scm|tree-set!> for
   modifying a tree, this yields a first simple implementation:
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (define (swap-numerator-denominator)
 
     \ \ (with-innermost t 'frac
 
     \ \ \ \ (tree-set! t `(frac ,(tree-ref t 1) ,(tree-ref t 0)))))
-  </scheme-fragment>
+  </scm-fragment>
 
   It should be noticed that the macro <scm|with-innermost> ignores its body
   whenever no innermost fraction is found.
@@ -223,7 +217,7 @@
   The following refined implementation allows us to remain at the ``same
   position'' modulo the exchange numerator/denominator:
 
-  <\scheme-fragment>
+  <\scm-fragment>
     (define (swap-numerator-denominator)
 
     \ \ (with-innermost t 'frac
@@ -233,20 +227,20 @@
     \ \ \ \ \ \ (tree-set! t `(frac ,(tree-ref t 1) ,(tree-ref t 0)))
 
     \ \ \ \ \ \ (tree-go-to t (cons (- 1 (car p)) (cdr p))))))
-  </scheme-fragment>
+  </scm-fragment>
 
   Here we used the routines <scm|tree-cursor-path> and <scm|tree-go-to>,
   which allow us to manipulate the cursor position relative to a given tree.
   As the icing on the cake, we may make our routine available through the
   mechanism of structured variants:
 
-  <\scheme-fragment>
-    (define (variant-circulate forward?)
+  <\scm-fragment>
+    (define (variant-circulate t forward?)
 
-    \ \ (:inside frac)
+    \ \ (:require (tree-is? t 'frac))
 
     \ \ (swap-numerator-denominator))
-  </scheme-fragment>
+  </scm-fragment>
 
   <tmdoc-copyright|2005|Joris van der Hoeven>
 

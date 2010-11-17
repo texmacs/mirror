@@ -8,21 +8,21 @@
   When creating an environment like a theorem, an equation or a list, it
   frequently happens that one would like to change the environment <em|a
   posteriori>. This can be done using the keyboard shortcuts
-  <shortcut|(variant-circulate #t)> and <shortcut|(variant-circulate #f)> for cycling through the list of
+  <shortcut|(variant-circulate (focus-tree) #t)> and <shortcut|(variant-circulate (focus-tree) #f)> for cycling through the list of
   <em|structured variants> of the innermost tag in a direct or inverse
   manner.
 
   For instance, assuming that you are inside a theorem, pressing
-  <shortcut|(variant-circulate #t)> several times will change the theorem into a proposition,
+  <shortcut|(variant-circulate (focus-tree) #t)> several times will change the theorem into a proposition,
   a lemma, a corollary, a conjecture and back into a theorem. The
-  <shortcut|(variant-circulate #f)> key allows you to cycle in the inverse direction:
+  <shortcut|(variant-circulate (focus-tree) #f)> key allows you to cycle in the inverse direction:
   theorem<nbsp><with|mode|math|<op|\<rightarrow\>>>
   conjectur<nbsp><with|mode|math|<op|\<rightarrow\>>>
   corollary<nbsp><with|mode|math|<op|\<rightarrow\>>>
   lemma<nbsp><with|mode|math|<op|\<rightarrow\>>>
   proposition<nbsp><with|mode|math|<op|\<rightarrow\>>> theorem.
 
-  In the case of mathematical formulas, the <shortcut|(variant-circulate #t)> shortcuts
+  In the case of mathematical formulas, the <shortcut|(variant-circulate (focus-tree) #t)> shortcuts
   allows you to change an inline formula like
   <with|mode|math|a<rsup|2>+b<rsup|2>=c<rsup|2>> into a displayed formula
   like
@@ -37,7 +37,7 @@
   environments into unnumbered environments and <em|vice versa>. This works
   for most common environments like theorems, remarks, tables, equations,
   etc. Notice that <shortcut|(toggle-number)> also turns an unnumbered itemize environment
-  into an enumeration and <em|vice versa>, whereas <shortcut|(variant-circulate #t)> allows
+  into an enumeration and <em|vice versa>, whereas <shortcut|(variant-circulate (focus-tree) #t)> allows
   you to cycle between the available kinds of list items (bullets, dashes,
   arrows, <abbr|etc.>).
 

@@ -28,7 +28,7 @@
 
     which are typeset in a paragraph of their own. You may use the shortcut
     <shortcut|(toggle-number)> in order to give the equation a number (or to
-    remove the number of an equation). Also, <shortcut|(variant-circulate
+    remove the number of an equation). Also, <shortcut|(variant-circulate (focus-tree)
     #t)> allows you to switch between inline formulas and displayed
     equations.
 

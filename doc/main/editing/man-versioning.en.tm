@@ -44,7 +44,7 @@
   change, via <menu|Version|Show> or the keyboard shortcuts <shortcut|(version-show 'version-old)> (old
   version), <shortcut|(version-show 'version-new)> (new version) and <shortcut|(version-show 'version-both)> (both versions). One
   may also cycle through the different style using the structured variant key
-  <shortcut|(variant-circulate #t)>. If you selected some text, then the above actions will apply
+  <shortcut|(variant-circulate (focus-tree) #t)>. If you selected some text, then the above actions will apply
   to the whole selection. The visualization style may also be specified
   globally, using <menu|Version|File|Show old version>,
   <menu|Version|File|Show new version> and <menu|Version|File|Show both
