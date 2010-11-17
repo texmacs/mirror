@@ -33,10 +33,10 @@
 
   while taking care of potential ``trailing spaces and punctuation signs''.
 
-  <TeXmacs> also provides the <shortcut|(toggle-number)> shortcut for turning numbered
+  <TeXmacs> also provides the <shortcut|(numbered-toggle (focus-tree))> shortcut for turning numbered
   environments into unnumbered environments and <em|vice versa>. This works
   for most common environments like theorems, remarks, tables, equations,
-  etc. Notice that <shortcut|(toggle-number)> also turns an unnumbered itemize environment
+  etc. Notice that <shortcut|(numbered-toggle (focus-tree))> also turns an unnumbered itemize environment
   into an enumeration and <em|vice versa>, whereas <shortcut|(variant-circulate (focus-tree) #t)> allows
   you to cycle between the available kinds of list items (bullets, dashes,
   arrows, <abbr|etc.>).

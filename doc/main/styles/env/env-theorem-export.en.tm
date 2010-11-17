@@ -27,7 +27,7 @@
 
   The environments are all available in unnumbered versions
   <markup|theorem*>, <markup|proposition*>, <abbr|etc.> as well. You may use
-  <shortcut|(toggle-number)> in order to switch between the unnumbered and numbered version.
+  <shortcut|(numbered-toggle (focus-tree))> in order to switch between the unnumbered and numbered version.
   The following tags are also provided:
 
   <\explain|<explain-macro|proof|body>>

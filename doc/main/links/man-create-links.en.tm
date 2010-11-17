@@ -19,7 +19,7 @@
   <menu|Insert|Mathematics|Equation>), the recommended place is at the start
   inside the equation. When labeling multiple equations (created using
   <menu|Insert|Mathematics|Equations>), you must put the labels just behind
-  the equation numbers. Recall that you may use <shortcut|(toggle-number)> in order to
+  the equation numbers. Recall that you may use <shortcut|(numbered-toggle (focus-tree))> in order to
   transform an unnumbered environment or equation into a numbered one, and
   vice versa.
 

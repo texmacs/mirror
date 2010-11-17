@@ -35,7 +35,7 @@
 
   The figure-like environments also admit \ unnumbered versions
   <markup|small-figure*>, <markup|big-figure*>, <abbr|etc.>, which are
-  obtained using <shortcut|(toggle-number)>.
+  obtained using <shortcut|(numbered-toggle (focus-tree))>.
 
   <tmdoc-copyright|1998--2002|Joris van der Hoeven>
 
