@@ -20,7 +20,7 @@
   and<nbsp><prefix|executable> prefixes otherwise. Furthermore, we recall
   that the hybrid <key|\\>-key may be used for creating macro-applications or
   arguments, depending on the context. Finally, the
-  <shortcut|(structured-insert #t)> and <shortcut|(structured-insert #f)>
+  <shortcut|(structured-insert-right)> and <shortcut|(structured-insert-left)>
   keys are used for inserting arguments.
 
   <\traverse>

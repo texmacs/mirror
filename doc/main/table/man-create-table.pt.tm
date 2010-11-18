@@ -38,9 +38,9 @@
 
   Em uma tabela recém criada, seu tamanho é o mínimo (em geral
   <with|mode|math|1\<times\>1>) e suas células são vazias. Novas linhas e
-  colunas podem ser inseridas com as combinações <shortcut|(structured-insert #f)>,
-  <shortcut|(structured-insert #t)>, <shortcut|(structured-insert-up)> e
-  <shortcut|(structured-insert-down)>. Por exemplo, <shortcut|(structured-insert #t)> \ cria
+  colunas podem ser inseridas com as combinações <shortcut|(structured-insert-left)>,
+  <shortcut|(structured-insert-right)>, <shortcut|(structured-insert-up)> e
+  <shortcut|(structured-insert-down)>. Por exemplo, <shortcut|(structured-insert-right)> \ cria
   uma nova coluna à direita da posição corrente do cursor. Você também pode
   começar uma nova linha após a posição corrente do cursor digitando
   <key|return>.

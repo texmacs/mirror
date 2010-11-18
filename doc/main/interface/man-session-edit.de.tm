@@ -21,15 +21,15 @@
   <shortcut|(structured-insert-up)>, ( <shortcut|(structured-insert-up)>,
   <menu|Session|Insert fields|Insert field above>) und <shortcut|(structured-insert-down)>, (
   <shortcut|(structured-insert-down)>, <menu|Session|Insert fields|Insert
-  field below>). Mit dem Kurzbefehl <shortcut|(structured-remove #t)>, ( <key|Entf>,
+  field below>). Mit dem Kurzbefehl <shortcut|(structured-remove-right)>, ( <key|Entf>,
   <menu|Session|Remove fields|Remove inputfield> ) \ wird das aktuelle
-  Eingabefeld entfernt. <shortcut|(structured-remove #f)>, (
+  Eingabefeld entfernt. <shortcut|(structured-remove-left)>, (
   <key|A-<with|mode|math|<with|mode|math|\<longleftarrow\>>>>,
   \ <menu|Session|Remove fields|Remove inputfield above> ) entfernt das
   vorgehende Eingabefeld. Mit <menu|Session|Remove fields|Remove all
   outputfields> werden alle Ausgabefelder entfernt.
 
-  Mit <menu|Session|Insert fields|Fold input field> oder <shortcut|(structured-insert #t)>
+  Mit <menu|Session|Insert fields|Fold input field> oder <shortcut|(structured-insert-right)>
   ( <key|right> ) können Sie eine \RUnter-Sitzung''
   starten. Die aktuellen Eingabe-, Ausgabe- und Text-Felder werden zum Rumpf
   einer neuen nicht verborgenen \ \RUnter-Sitzung'' . Diese bestehen aus

@@ -115,7 +115,7 @@
   <postscript|c13.png|*5/8|*5/8||||>
 
   Maxima understands matrices and determinants. They are produced via the
-  toolbar. New columns and rows are inserted by <shortcut|(structured-insert #t)>, <shortcut|(structured-insert #f)>,
+  toolbar. New columns and rows are inserted by <shortcut|(structured-insert-right)>, <shortcut|(structured-insert-left)>,
   <shortcut|(structured-insert-down)>, <shortcut|(structured-insert-up)>. The imaginary unit <with|mode|math|\<mathi\>> is
   produced via the toolbar or by <key|i tab tab>.
 

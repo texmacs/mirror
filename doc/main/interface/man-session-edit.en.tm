@@ -13,11 +13,11 @@
   Some facilities for editing input, output and text fields are available in
   the <menu|Session|Field> menu. Keyboard shortcuts for inserting fields are
   <shortcut|(structured-insert-up)> (insert above) and <shortcut|(structured-insert-down)>. Keyboard shortcuts
-  for removing matching text/input/output fields are <shortcut|(structured-remove #f)>
-  (remove backwards) and <shortcut|(structured-remove #t)> (remove current fields).
+  for removing matching text/input/output fields are <shortcut|(structured-remove-left)>
+  (remove backwards) and <shortcut|(structured-remove-right)> (remove current fields).
 
   It is possible to create ``subsessions'' using <menu|Session|Session|Create
-  subsession> or <shortcut|(structured-insert #t)>. In that case, the current input-output
+  subsession> or <shortcut|(structured-insert-right)>. In that case, the current input-output
   field becomes the body of an unfolded subsession. Such a subsession
   consists of an explanatory text together with the subsession body.
   Subsessions can be folded and unfolded using <shortcut|(fold)>

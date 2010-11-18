@@ -38,9 +38,9 @@
   Appena si crea una tabella, le sue dimensioni sono minime (solitamente
   <with|mode|math|1\<times\>1>) e le sue celle sono vuote. Nuove righe e
   colonne vengono inserite utilizzando le combinazioni di tasti
-  <shortcut|(structured-insert #f)>, <shortcut|(structured-insert #t)>,
+  <shortcut|(structured-insert-left)>, <shortcut|(structured-insert-right)>,
   <shortcut|(structured-insert-up)> e <shortcut|(structured-insert-down)>. Per esempio,
-  <shortcut|(structured-insert #t)> crea una nuova colonna a destra della posizione
+  <shortcut|(structured-insert-right)> crea una nuova colonna a destra della posizione
   corrente del cursore. Si può anche inserire una nuova riga sotto la
   posizione corrente del cursore premendo il tasto <key|return>.
 

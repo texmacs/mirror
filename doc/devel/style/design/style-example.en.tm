@@ -59,7 +59,7 @@
 
   In a similar way, you may create macros with arguments. For instance,
   assume that we started entering a macro <markup|hello> in a similar way as
-  above. Instead of typing ``Hello world'', we first type <shortcut|(structured-insert #f)>
+  above. Instead of typing ``Hello world'', we first type <shortcut|(structured-insert-left)>
   inside the macro body so as to create an additional argument on the left
   hand side of the cursor. We next enter the name of the argument, say
   ``name''. You should now see something like below:
@@ -118,11 +118,11 @@
 
   In order to produce the macro application <inactive*|<person|<arg|name>>>,
   you first have to start a compound tag using <shortcut|(make 'compound)>, type the name
-  ``person'', insert an argument <shortcut|(structured-insert #t)>, and enter the argument
+  ``person'', insert an argument <shortcut|(structured-insert-right)>, and enter the argument
   <src-arg|name> as before. When you are done, you may press
   <shortcut|(kbd-return)> in order to change the <markup|compound> tag into a
   <markup|person> tag. Alternatively, you may type <key|\\>, ``person'',
-  <shortcut|(structured-insert #t)> and ``name''.
+  <shortcut|(structured-insert-right)> and ``name''.
 
   By combining the above constructs, an ordinary user should already be able
   to produce style packages for all frequently used notations. An interesting

@@ -9,8 +9,8 @@
   conditioned by the <em|innermost tag> for which a particular behaviour has
   been defined.
 
-  For instance, the <em|structured insertion> commands <shortcut|(structured-insert #f)>,
-  <shortcut|(structured-insert #t)>, <shortcut|(structured-insert-up)> and <shortcut|(structured-insert-down)> have a
+  For instance, the <em|structured insertion> commands <shortcut|(structured-insert-left)>,
+  <shortcut|(structured-insert-right)>, <shortcut|(structured-insert-up)> and <shortcut|(structured-insert-down)> have a
   particular meaning both inside tables and trees. Inside tables, they allow
   you to insert new rows and columns (see
   figure<nbsp><reference|matrix-insert-fig>). Inside trees, they correspond
@@ -21,7 +21,7 @@
 
   In many cases, a ``default particular behaviour'' has been defined for all
   tags minus some exceptional ones. In our example of structured insertion,
-  the default behaviour of <shortcut|(structured-insert #f)> and <shortcut|(structured-insert #t)> is to
+  the default behaviour of <shortcut|(structured-insert-left)> and <shortcut|(structured-insert-right)> is to
   insert a new argument to the tag at the left or at the right (when
   allowed).
 
@@ -33,7 +33,7 @@
     <label|matrix-insert-fig>Assume that the cursor is at the position of
     <value|cursor> inside the left-most matrix. Then the four other matrices
     respectively correspond to the insertion of a new column at the
-    left<nbsp>(<shortcut|(structured-insert #f)>) or right<nbsp>(<shortcut|(structured-insert #t)>),
+    left<nbsp>(<shortcut|(structured-insert-left)>) or right<nbsp>(<shortcut|(structured-insert-right)>),
     <abbr|resp.> a new row above<nbsp>(<shortcut|(structured-insert-up)>) or
     below<nbsp>(<shortcut|(structured-insert-down)>).
   </big-figure>
@@ -42,14 +42,14 @@
     <label|tree-insert-fig>Assume that the cursor is at the position of
     <value|cursor> inside the left-most tree. Then the four other trees
     respectively correspond to the insertion of a new node at the
-    left<nbsp>(<shortcut|(structured-insert #f)>), at the right<nbsp>(<shortcut|(structured-insert #t)>),
+    left<nbsp>(<shortcut|(structured-insert-left)>), at the right<nbsp>(<shortcut|(structured-insert-right)>),
     above<nbsp>(<shortcut|(structured-insert-up)>) or below<nbsp>(<shortcut|(structured-insert-down)>).
   </big-figure>
 
   Similarly, in the case of matrices, the keys <shortcut|(structured-insert-start)>,
   <shortcut|(structured-insert-end)>, <shortcut|(structured-insert-top)> and <shortcut|(structured-insert-bottom)> can be
   used for inserting a new first or last column, <abbr|resp.> a new first or
-  last row. The keys <shortcut|(structured-remove #f)> and <shortcut|(structured-remove #t)> are
+  last row. The keys <shortcut|(structured-remove-left)> and <shortcut|(structured-remove-right)> are
   mapped to the commands for backward <abbr|resp.> forward <em|structured
   deletion>. In the case of matrices, this will result in the removal of the
   column before or after the cursor (see figure<nbsp><reference|matrix-remove-fig>).
@@ -63,7 +63,7 @@
   <|big-figure>
     <label|matrix-remove-fig>Assume that the cursor is at the position of
     <value|cursor> inside the left-most matrix. Then pressing the
-    keys<nbsp><shortcut|(structured-remove #f)> and <shortcut|(structured-remove #t)> respectively
+    keys<nbsp><shortcut|(structured-remove-left)> and <shortcut|(structured-remove-right)> respectively
     result in the next two matrices. Pressing
     either<nbsp><shortcut|(remove-structure-upwards)> or <shortcut|(remove-structure-upwards)> replaces the
     matrix by the content of the cell in which you are, leaving you with the

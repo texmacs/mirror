@@ -20,12 +20,12 @@
   <apply|menu|Session|Insert fields|Insert text field>. Atalhos do teclado
   para inserção de campos são <shortcut|(structured-insert-up)> (insere acima) a
   <shortcut|(structured-insert-down)> (insere abaixo). Atalhos de teclado para campos
-  de texto/entrada/saída correspondentes são \ <shortcut|(structured-remove #f)>
-  (remove para trás) e <shortcut|(structured-remove #t)> (remove os campos
+  de texto/entrada/saída correspondentes são \ <shortcut|(structured-remove-left)>
+  (remove para trás) e <shortcut|(structured-remove-right)> (remove os campos
   correntes).
 
   É possível criar ``sub-sessões'' usando <apply|menu|Session|Insert
-  fields|Fold input field> ou <shortcut|(structured-insert #t)>. Neste caso, o campo
+  fields|Fold input field> ou <shortcut|(structured-insert-right)>. Neste caso, o campo
   corrente de texto, entrada ou saída torna-se o corpo de uma sub-sessão
   ``desdobrada''. Esta sub-sessão consiste de um texto explicativo junto a
   uma seqüência de campos de entrada e saída. Subsessões podem ser

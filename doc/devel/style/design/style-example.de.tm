@@ -74,9 +74,9 @@
   Analog können Sie Makros mit Argumenten erzeugen, die Sie zur Laufzeit
   eingeben und im Makro auswerten können. Wenn Sie z.B. in gleicher Weise ein
   Makro <markup|hello> erzeugt haben, können Sie mit der Tastenkombination
-  <shortcut|(structured-insert #f)> oder <key|inactive links> im Makrorumpf ein zusätzliches Argument
+  <shortcut|(structured-insert-left)> oder <key|inactive links> im Makrorumpf ein zusätzliches Argument
   auf der linken Seite des Cursors einfügen. \Rlinks`` steht dabei für die
-  linke Pfeiltaste. Nachdem Sie mit dem Cursor im Makrorumpf <shortcut|(structured-insert #f)>
+  linke Pfeiltaste. Nachdem Sie mit dem Cursor im Makrorumpf <shortcut|(structured-insert-left)>
   oder <key|inactive links> eingetippt haben, geben Sie dem Argument einen Namen,
   z.B. \Rname'', um anschlieÿend darauf zugreifen zu können. Sie sollten nun
   Folgendes sehen:
@@ -145,11 +145,11 @@
   Um in die Makrodefinition <inactive*|<person|<arg|name>>> einzufügen,
   müssen Sie zuerst an seiner Stelle ein Leerkonstrukt (compound) erzeugen.
   Dazu benutzen Sie <shortcut|(make 'compound)> oder <key|inactive c>, tippen dann \Rperson'', fügen
-  ein Argument mit \ <shortcut|(structured-insert #t)> oder <key|inactive rechts> hinzu, und tippen
+  ein Argument mit \ <shortcut|(structured-insert-right)> oder <key|inactive rechts> hinzu, und tippen
   schlieÿlich den Namen des Arguments <src-arg|name>. Schhlieÿlich drücken
   Sie \ <shortcut|(kbd-return)>, um das <with|color|blue|<translate|compound|english|german>>
   in ein <markup|person>-Makro umzuwandeln. Alternativ können Sie <key|\\>,
-  ``person'', <shortcut|(structured-insert #t)> und \Rname'' tippen.
+  ``person'', <shortcut|(structured-insert-right)> und \Rname'' tippen.
 
   Durch Kombination der vorgehend beschriebenen Vorgehensweisen sollte der
   Durchschnittsanwender bereits Stil-Pakete für alle häufig vorkommenden

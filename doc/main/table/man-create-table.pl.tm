@@ -36,8 +36,8 @@
 
   Po stworzeniu tablicy jej rozmiar jest minimalny (przewa»nie
   <with|mode|math|1\<times\>1>) i komórki s¡ puste. Nowe wiersze i kolumny
-  mo»na wstawia¢ u»ywaj¡c <shortcut|(structured-insert #f)>, <shortcut|(structured-insert #t)>, <key|A-góra> oraz
-  <key|A-dóª>. Dla przykªady <shortcut|(structured-insert #t)> tworzy now¡ kolumn¦ na prawo od
+  mo»na wstawia¢ u»ywaj¡c <shortcut|(structured-insert-left)>, <shortcut|(structured-insert-right)>, <key|A-góra> oraz
+  <key|A-dóª>. Dla przykªady <shortcut|(structured-insert-right)> tworzy now¡ kolumn¦ na prawo od
   obecnej pozycji kursora. Nowy wiersz mo»na równie» stworzy¢ poprzez
   wci±ni¦cie <key|enter>.
 

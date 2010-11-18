@@ -19,8 +19,8 @@
   <prefix|executable> benutzen bzw. in den anderen Moden mit
   <prefix|inactive> und <prefix|executable>. Schlieÿlich erinnern wir daran,
   dass die <key|\\>-Taste benutzt werden kann, um kontextabhängig Makros oder
-  Argumente zu erzeugen und dass <shortcut|(structured-insert #t)> und
-  <shortcut|(structured-insert #f)> \ Argumente einfügen.
+  Argumente zu erzeugen und dass <shortcut|(structured-insert-right)> und
+  <shortcut|(structured-insert-left)> \ Argumente einfügen.
 
   <\traverse>
     <branch|Zuweisungen|style-assign.de.tm>
