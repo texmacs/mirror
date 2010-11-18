@@ -25,7 +25,7 @@
   absolute value. In order to obtain a bar-separator, you will need to type
   <shortcut|\|>. The binary relation ``divides'' is entered using
   <shortcut|\<divides\>>. You are also able to toggle between small and large
-  brackets using <shortcut|(toggle-variant)>.
+  brackets using <shortcut|(alternate-toggle (focus-tree))>.
 
   Big operators such as <math|<op|<big|sum>>> are also treated in a special
   way when selecting <menu|Force matching brackets>, because must have a
