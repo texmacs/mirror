@@ -10,7 +10,7 @@
   inserted using <shortcut|(make-space "1em")>, <shortcut|(make-space
   "0.2spc")> and <shortcut|(make-space "-0.2spc")> can be <hlink|resized
   <em|a posteriori>|../../editing/man-structured-geometry.en.tm> using the
-  shortcuts <shortcut|(geometry-horizontal (focus-tree) #f)> and<nbsp><shortcut|(geometry-horizontal (focus-tree) #t)>.
+  shortcuts <shortcut|(geometry-left)> and<nbsp><shortcut|(geometry-right)>.
   This kind of resizing actually works for more general horizontal and
   vertical spaces inserted from the menu <menu|Format|Space>, as well as
   several other objects, such as images.

@@ -13,37 +13,37 @@
   implemented:
 
   <\description>
-    <item*|<shortcut|(geometry-horizontal (focus-tree) #f)>>Decrease the horizontal size of an
+    <item*|<shortcut|(geometry-left)>>Decrease the horizontal size of an
     object, or align more to the left.
 
-    <item*|<shortcut|(geometry-horizontal (focus-tree) #t)>>Increase the horizontal size of an
+    <item*|<shortcut|(geometry-right)>>Increase the horizontal size of an
     object, or align more to the right.
 
-    <item*|<shortcut|(geometry-vertical (focus-tree) #t)>>Decrease/increase the vertical size of
+    <item*|<shortcut|(geometry-down)>>Decrease/increase the vertical size of
     an object, or align more to the bottom.
 
-    <item*|<shortcut|(geometry-vertical (focus-tree) #f)>>Increase/decrease the vertical size of an
+    <item*|<shortcut|(geometry-up)>>Increase/decrease the vertical size of an
     object, or align more to the top.
 
-    <item*|<shortcut|(geometry-extremal (focus-tree) #f)>>Decrease the horizontal offset of an
+    <item*|<shortcut|(geometry-start)>>Decrease the horizontal offset of an
     object, or left align.
 
-    <item*|<shortcut|(geometry-extremal (focus-tree) #t)>>Increase the horizontal offset of an
+    <item*|<shortcut|(geometry-end)>>Increase the horizontal offset of an
     object, or right align.
 
-    <item*|<shortcut|(geometry-incremental (focus-tree) #t)>>Decrease the vertical offset of an
+    <item*|<shortcut|(geometry-bottom)>>Decrease the vertical offset of an
     object, or align at the bottom.
 
-    <item*|<shortcut|(geometry-incremental (focus-tree) #f)>>Increase the vertical offset of an
+    <item*|<shortcut|(geometry-top)>>Increase the vertical offset of an
     object, or align at the top.
 
-    <item*|<shortcut|(geometry-default (focus-tree))>>Revert the geometry (size, position,
+    <item*|<shortcut|(geometry-reset)>>Revert the geometry (size, position,
     alignment) to the defaults.
 
-    <item*|<shortcut|(geometry-variant (focus-tree) #t)>, <shortcut|(geometry-variant (focus-tree)
+    <item*|<shortcut|(geometry-circulate #t)>, <shortcut|(geometry-circulate
     #f)>>Circulate among available length units for specifying the geometry.
 
-    <item*|<shortcut|(geometry-speed (focus-tree) #f)>, <shortcut|(geometry-speed (focus-tree) #t)>>Decrease
+    <item*|<shortcut|(geometry-slower)>, <shortcut|(geometry-faster)>>Decrease
     or increase the step size when positioning or resizing.
   </description>
 
@@ -59,7 +59,7 @@
     <menu|Format|Transform> menu.
 
     <item*|Animations>The durations of animations can be modified using
-    <shortcut|(geometry-horizontal (focus-tree) #f)> and <shortcut|(geometry-horizontal (focus-tree) #t)>.
+    <shortcut|(geometry-left)> and <shortcut|(geometry-right)>.
 
     <item*|Images>The size and alignment of images can be changed.
   </description>
