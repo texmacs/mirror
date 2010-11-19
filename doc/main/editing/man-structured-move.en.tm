@@ -56,8 +56,8 @@
 
   It is also possible to quickly move inside the innermost tag without
   quitting it. The shortcuts <shortcut|(structured-left)>,
-  <shortcut|(structured-right)>, <shortcut|(structured-first)> and
-  <shortcut|(structured-last)> provide a way to move to the previous, next,
+  <shortcut|(structured-right)>, <shortcut|(structured-start)> and
+  <shortcut|(structured-end)> provide a way to move to the previous, next,
   first or last argument of the innermost tag. Furthermore, the shortcuts
   <shortcut|(structured-exit-left)> and <shortcut|(structured-exit-right)>
   may be used to exit the innermost tag on the left or on the right.
