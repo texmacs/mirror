@@ -242,6 +242,37 @@
     \ \ (swap-numerator-denominator))
   </scm-fragment>
 
+  Notice that this implementation can be incorrect when operating on nested
+  fractions. The implementation can be further improved by letting
+  <scm|swap-numerator-denominator> operate on a specific<nbsp>tree:
+
+  <\scm-fragment>
+    (define (swap-numerator-denominator t)
+
+    \ \ (:require (tree-is? t 'frac))
+
+    \ \ (with p (tree-cursor-path t)
+
+    \ \ \ \ (tree-set! t `(frac ,(tree-ref t 1) ,(tree-ref t 0)))
+
+    \ \ \ \ (tree-go-to t (cons (- 1 (car p)) (cdr p))))
+  </scm-fragment>
+
+  The corresponding generic routine could be defined as
+
+  <\scm-fragment>
+    (define (swap-numerator-denominator t)
+
+    \ \ (focus-next t (swap-numerator-denominator t)))
+  </scm-fragment>
+
+  This piece of code will perform an outward recursion until a specific
+  handler is found. We may now replace the call
+  <scm|(swap-numerator-denominator)> by <scm|(swap-numerator-denominator
+  (cursor-tree))>. The new implementation also allows us to toggle the
+  numerator and denominator of a selected fraction using
+  <scm|(swap-numerator-denominator (focus-tree))>.
+
   <tmdoc-copyright|2005|Joris van der Hoeven>
 
   <tmdoc-license|Permission is granted to copy, distribute and/or modify this
