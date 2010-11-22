@@ -1,4 +1,4 @@
-<TeXmacs|1.0.6.10>
+<TeXmacs|1.0.7.7>
 
 <style|tmdoc>
 
@@ -53,56 +53,6 @@
   </explain>
 
   <\explain>
-    <scm|(:context <scm-arg|pred?>)><explain-synopsis|cursor path based
-    overloading>
-  <|explain>
-    Let <math|t<rsub|1>> be the innermost tree to which the cursor is
-    attached and let <math|t<rsub|2>,\<ldots\>,t<rsub|n>> denote the
-    successive parents of <math|t<rsub|1>>, ending with the document
-    <math|t<rsub|n>> itself. The context option is satisfied if and only if
-    one of the trees <math|t<rsub|1>,\<ldots\>,t<rsub|n>> satisfies the
-    preducate <scm-arg|pred?>. In the case when two predicates
-    <math|P<rsub|1>> and<nbsp><math|P<rsub|2>> compete, then the most
-    particular one is the one which is satisfied by a <math|t<rsub|i>> with
-    the lowest value of <math|i>. An example will be given below for the
-    option <scm|:inside>, which is a special case of <scm|:context>.
-  </explain>
-
-  <\explain>
-    <scm|(:inside <scm-arg|label>)><explain-synopsis|cursor path based
-    overloading>
-  <|explain>
-    This option is a special case of the <scm|:context> option, for the
-    predicate <scm|(lambda (t) (tree-in? '<scm-arg|label>))>. As an example,
-    let us consider the following definitions:
-
-    <\scheme-fragment>
-      (tm-define (special)
-
-      \ \ (:inside 'frac)
-
-      \ \ (with-innermost t 'frac
-
-      \ \ \ \ (tree-set! t `(frac ,(tree-ref t 1) ,(tree-ref t 0)))))
-
-      \;
-
-      (tm-define (special)
-
-      \ \ (:inside 'rsub)
-
-      \ \ (with-innermost t 'rsub
-
-      \ \ \ \ (tree-set! t `(rsup ,(tree-ref t 0)))))
-    </scheme-fragment>
-
-    Assuming that your cursor is inside a fraction inside a subscript,
-    calling <scm|special> will swap the numerator and the denominator. On the
-    other hand, if your cursor is inside a subscript inside a fraction, then
-    calling <scm|special> will change the subscript into a superscript.
-  </explain>
-
-  <\explain>
     <scm|(:match <scm-arg|pattern>)><explain-synopsis|argument based
     overloading>
   <|explain>
@@ -121,6 +71,42 @@
     be valid is that the condition <scm-arg|cond> is met. This condition may
     involve the arguments of the function. Again, ambiguous overloads cannot
     be resolved.
+
+    As an example, let us consider the following definitions:
+
+    <\scm-fragment>
+      (tm-define (special t)
+
+      \ \ (and-with p (tree-outer t)
+
+      \ \ \ \ (special p)))
+
+      \;
+
+      (tm-define (special)
+
+      \ \ (:require (tree-is? t 'frac))
+
+      \ \ (tree-set! t `(frac ,(tree-ref t 1) ,(tree-ref t 0))))
+
+      \;
+
+      (tm-define (special)
+
+      \ \ (:require (tree-is? t 'rsub))
+
+      \ \ (tree-set! t `(rsup ,(tree-ref t 0))))
+    </scm-fragment>
+
+    The default implementation of <scm|special> is to apply <scm|special> to
+    the parent <scm|p> of <scm|t> as long as <scm|t> is not the entire
+    document itself. The two overloaded cases apply when <scm|t> is either a
+    fraction or a right subscript.
+
+    Assuming that your cursor is inside a fraction inside a subscript,
+    calling <scm|special> will swap the numerator and the denominator. On the
+    other hand, if your cursor is inside a subscript inside a fraction, then
+    calling <scm|special> will change the subscript into a superscript.
   </explain>
 
   <\explain>
@@ -137,13 +123,13 @@
     <TeXmacs> trees into your own foormat: specific converters for given tags
     can be added using
 
-    <\scheme-fragment>
+    <\scm-fragment>
       (tm-define (tm-\<gtr\>foo t)
 
       \ \ (:case frac)
 
       \ \ <with|prog-font-shape|italic|tm-to-foo-converter-for-frac>)
-    </scheme-fragment>
+    </scm-fragment>
   </explain>
 
   <paragraph*|Other options for function and macro declarations>
@@ -159,17 +145,17 @@
     description>
   <|explain>
     This option gives a short discription of the function or macro, in the
-    form of a string <scm-arg|short-help>. As a convention, <value|scheme>
+    form of a string <scm-arg|short-help>. As a convention, <scheme>
     expressions may be encoded inside this string by using the
     <verbatim|@>-prefix. For instance:
 
-    <\scheme-fragment>
+    <\scm-fragment>
       (tm-define (list-square l)
 
       \ \ (:synopsis "Appends the list @l to itself")
 
       \ \ (append l l))
-    </scheme-fragment>
+    </scm-fragment>
 
     The synopsis of a function is used for instance in order to provide a
     short help string for the function. In the future, we might also use it
@@ -193,7 +179,7 @@
     the function or macro.
   </explain>
 
-  <tmdoc-copyright|2007|Joris van der Hoeven>
+  <tmdoc-copyright|2007--2010|Joris van der Hoeven>
 
   <tmdoc-license|Permission is granted to copy, distribute and/or modify this
   document under the terms of the GNU Free Documentation License, Version 1.1

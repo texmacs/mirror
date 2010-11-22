@@ -231,6 +231,7 @@
 
   Here we used the routines <scm|tree-cursor-path> and <scm|tree-go-to>,
   which allow us to manipulate the cursor position relative to a given tree.
+
   As the icing on the cake, we may make our routine available through the
   mechanism of structured variants:
 
@@ -255,7 +256,7 @@
 
     \ \ \ \ (tree-set! t `(frac ,(tree-ref t 1) ,(tree-ref t 0)))
 
-    \ \ \ \ (tree-go-to t (cons (- 1 (car p)) (cdr p))))
+    \ \ \ \ (tree-go-to t (cons (- 1 (car p)) (cdr p)))))
   </scm-fragment>
 
   The corresponding generic routine could be defined as
@@ -263,15 +264,39 @@
   <\scm-fragment>
     (define (swap-numerator-denominator t)
 
-    \ \ (focus-next t (swap-numerator-denominator t)))
+    \ \ (and-with p (tree-outer t)
+
+    \ \ \ \ (swap-numerator-denominator p)))
   </scm-fragment>
 
   This piece of code will perform an outward recursion until a specific
   handler is found. We may now replace the call
   <scm|(swap-numerator-denominator)> by <scm|(swap-numerator-denominator
-  (cursor-tree))>. The new implementation also allows us to toggle the
-  numerator and denominator of a selected fraction using
-  <scm|(swap-numerator-denominator (focus-tree))>.
+  (cursor-tree))>.
+
+  The new implementation also allows us to toggle the numerator and
+  denominator of a<nbsp>selected fraction using
+  <scm|(swap-numerator-denominator (focus-tree))>. However, the focus is not
+  necessarily conserved during the operation, thereby disallowing to restore
+  the original state by toggling a second time. We may explicitly conserve
+  the focus as follows:
+
+  <\scm-fragment>
+    (define (swap-numerator-denominator t)
+
+    \ \ (:require (tree-is? t 'frac))
+
+    \ \ (with p (tree-cursor-path t)
+
+    \ \ \ \ (tree-set! t `(frac ,(tree-ref t 1) ,(tree-ref t 0)))
+
+    \ \ \ \ (tree-go-to t (cons (- 1 (car p)) (cdr p)))
+
+    \ \ \ \ (tree-focus t)))
+  </scm-fragment>
+
+  This routine will even work when we are inside a nested fraction and
+  operating on the outer fraction.
 
   <tmdoc-copyright|2005|Joris van der Hoeven>
 
