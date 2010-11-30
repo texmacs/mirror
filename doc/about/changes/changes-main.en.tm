@@ -1,4 +1,4 @@
-<TeXmacs|1.0.5.9>
+<TeXmacs|1.0.7.8>
 
 <style|tmdoc>
 
@@ -7,7 +7,7 @@
 
   Below, we briefly describe the most important changes which have occurred
   in <TeXmacs> since version 0.3.3.15. We also maintain a more detailed
-  <hyper-link|change log|change-log.en.tm>.
+  <hlink|change log|change-log.en.tm>.
 
   In general, when upgrading to a new version, we recommend you to make
   backups of your old <TeXmacs> files before opening them with the newer
@@ -22,6 +22,10 @@
   your version of <TeXmacs> and the system you are using.
 
   <\traverse>
+    <branch|More context dependent interface (1.0.7.8)|changes-16.en.tm>
+
+    <branch|Default look and feel (1.0.7.7)|changes-15.en.tm>
+
     <branch|Linking tool (1.0.6.3)|changes-14.en.tm>
 
     <branch|Type 1 fonts become the default (1.0.5.10)|changes-13.en.tm>

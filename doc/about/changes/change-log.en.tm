@@ -1,13 +1,25 @@
-<TeXmacs|1.0.7.7>
+<TeXmacs|1.0.7.8>
 
 <style|tmdoc>
 
 <\body>
   <tmdoc-title|<TeXmacs> changelog>
 
-  <section|Changes from version 1.0.7 to 1.0.7.7>
+  <section|Changes from version 1.0.7 to 1.0.7.8>
 
   <\itemize>
+    <item>The new interface is more context dependent and based on the newly
+    introduced concept of the <em|current focus> (1.0.7.8).
+
+    <item>The graphical user interface has been improved, both for the X11
+    and Qt versions (1.0.7.8).
+
+    <item>The generation of dynamic menus and content has been reorganized
+    (1.7.0.8).
+
+    <item>The system for contextual overloading has been reorganized
+    (1.7.0.8).
+
     <item>Default look and feel now becomes highly system dependent
     (1.0.7.7).
 
