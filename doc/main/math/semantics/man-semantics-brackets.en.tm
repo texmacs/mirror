@@ -1,36 +1,16 @@
-<TeXmacs|1.0.7.7>
+<TeXmacs|1.0.7.8>
 
 <style|tmdoc>
 
 <\body>
   <tmdoc-title|Matching brackets and big operators>
 
-  In an upcoming version of <TeXmacs>, it is planned that brackets inside
-  mathematical formulas always match: as soon as you enter <math|(> <TeXmacs>
-  will automatically insert <math|)>. You may switch this mode on using
-  <menu|Edit|Preferences|Experimental|Force matching brackets>. Attention
-  (see also below): brackets in old documents will be automatically be
-  upgraded to matching brackets.
-
-  Sometimes, you do not want the closing bracket, or you may want to replace
-  it by another closing bracket. No problem: if your cursor is just before
-  the closing bracket inside <math|(a,b<value|cursor>)>, then
-  pressing<nbsp><key|]> will turn the expression into
-  <math|(a,b]<value|cursor>>. Alternatively, deletion of a bracket will
-  actually turn it into an <hlink|invisible
-  bracket|man-semantics-symbols.en.tm#nobracket>, after which you can replace
-  it by an arbitrary opening or closing bracket.
-
-  In the new mode, entering a vertical bar <key|\|> will now produce an
-  absolute value. In order to obtain a bar-separator, you will need to type
-  <shortcut|\|>. The binary relation ``divides'' is entered using
-  <shortcut|\<divides\>>. You are also able to toggle between small and large
-  brackets using <shortcut|(alternate-toggle (focus-tree))>.
-
-  Big operators such as <math|<op|<big|sum>>> are also treated in a special
-  way when selecting <menu|Force matching brackets>, because must have a
-  scope. The scopes of big operators are indicated visually, through the
-  light cyan boxes around the tags which contain the cursor.
+  From version 1.0.7.8 of <TeXmacs> on, <hlink|brackets inside mathematical
+  formulas always match|../keyboard/man-large.en.tm>: as soon as you enter
+  <math|(> <TeXmacs> will automatically insert <math|)>. You may switch this
+  mode on using <menu|Edit|Preferences|Experimental|Force matching brackets>.
+  Attention (see also below): brackets in old documents will be automatically
+  be upgraded to matching brackets.
 
   <\warning>
     When selecting <menu|Edit|Preferences|Experimental|Force matching

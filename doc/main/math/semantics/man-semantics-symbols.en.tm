@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.7>
+<TeXmacs|1.0.7.8>
 
 <style|tmdoc>
 
@@ -18,21 +18,21 @@
   <shortcut|\<mathi\>>. We recommend to systematically use these shortcuts.
 
   Inversely, semantically distinct symbols may display in a similar way. For
-  instance, the comma separator, as in <math|f(x,y)>, is different from the
-  decimal comma, as in <math|3\<comma\>14159\<cdots\>>. Notice that the two
-  symbols admit different spacing rules.
+  instance, the comma separator, as in <math|f<around|(|x,y|)>>, is different
+  from the decimal comma, as in <math|3\<comma\>14159\<cdots\>>. Notice that
+  the two symbols admit different spacing rules.
 
   Potentially more confusing are the various invisible symbols supported by
   <TeXmacs>:
 
   <\itemize>
-    <item>The multiplication, entered by <shortcut|*>. Example: <math|a*b>.
+    <item>The multiplication, entered by <key|*>. Example: <math|a*b>.
 
     <item>Function application, entered by <key|space>. Example: <math|sin
     x>.
 
     <item>An invisible separator, entered by <shortcut|\<nocomma\>>. Example:
-    the matrix <math|A=(a<rsub|i\<nocomma\>j>)>.
+    the matrix <math|A=<around|(|a<rsub|i\<nocomma\>j>|)>>.
 
     <item>An invisible addition, entered by <shortcut|\<noplus\>>. Example:
     <math|17\<noplus\><frac*|3|8>>.
@@ -47,7 +47,7 @@
   invisible symbols when appropriate. It is particularly important to
   distinguish between multiplication and function application, since there is
   no 100% safe automatic way to make this distinction (consider for instance
-  the formulas <math|a(b+c)> and <math|f(b+c)>).
+  the formulas <math|a<around|(|b+c|)>> and <math|f<around|(|b+c|)>>).
 
   <tmdoc-copyright|2010|Joris van der Hoeven>
 

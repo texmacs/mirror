@@ -9,7 +9,7 @@
   all big operators should admit well-specified scopes. To this effect, the
   way parenthesized expressions are edited has changed, although the old
   non-matching editing style can be restored using
-  <menu|Edit|Preferences|Keyboard|Automatic brackets|Disabled>.
+  <menu|Edit|Preferences|Keyboard|Automatic brackets|Disable>.
 
   Documents for previous versions of <TeXmacs> will be upgraded automatically
   in order to make all brackets match and determine the scopes of big
