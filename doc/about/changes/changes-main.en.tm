@@ -22,6 +22,8 @@
   your version of <TeXmacs> and the system you are using.
 
   <\traverse>
+    <branch|Auto-matching brackets (1.0.7.9)|changes-17.en.tm>
+
     <branch|More context dependent interface (1.0.7.8)|changes-16.en.tm>
 
     <branch|Default look and feel (1.0.7.7)|changes-15.en.tm>
