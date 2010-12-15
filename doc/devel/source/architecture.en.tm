@@ -60,7 +60,7 @@
   </itemize>
 
   The directory <verbatim|misc> contains some miscellaneous data like the
-  edit icon (<verbatim|misc/pixmaps/edit.xpm>).
+  edit icon (<verbatim|misc/pixmaps/traditional/--x17/edit.xpm>).
 
   <section|Intern representation of texts>
 

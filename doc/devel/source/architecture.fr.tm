@@ -62,7 +62,7 @@
   </itemize>
 
   Le répertoire <verbatim|misc> contient diverses données, telle l'icône
-  d'édition (<verbatim|misc/pixmaps/edit.xpm>).
+  d'édition (<verbatim|misc/pixmaps/traditional/--x17/edit.xpm>).
 
   <section|Représentation interne des textes>
 
