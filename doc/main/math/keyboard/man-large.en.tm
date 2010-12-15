@@ -56,6 +56,13 @@
   self-adjusting ones. This can be achieved by resizing the expression in
   between the brackets using <menu|Format|Transform|Resize object>.
 
+  Notice that it is possible to insert a pair of invisible brackets using
+  <shortcut|(math-bracket-open "." "." #t)>. This is for instance useful in
+  computational contexts, in which formulas should admit a precise, not
+  merely visual semantics. Alternatively, one may put the formula inside a
+  ``rigid box'' using<nbsp><shortcut|(make-rigid)>, which additionally
+  prevents the formula from being hyphenated.
+
   <tmdoc-copyright|1998--2010|Joris van der Hoeven>
 
   <tmdoc-license|Permission is granted to copy, distribute and/or modify this

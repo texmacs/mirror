@@ -40,7 +40,9 @@
     <item>An invisible symbol, entered by <shortcut|\<nosymbol\>>. Example:
     the increment <math|\<nosymbol\>+1>.
 
-    <item><label|nobracket>An invisible bracket (mainly for internal use).
+    <item><label|nobracket>An invisible bracket (mainly for internal use). A
+    matching pair of invisible brackets is entered using
+    <shortcut|(math-bracket-open "." "." #t)>.
   </itemize>
 
   Again it is recommended that authors carefully enter these various
