@@ -5,9 +5,19 @@
 <\body>
   <tmdoc-title|<TeXmacs> changelog>
 
-  <section|Changes from version 1.0.7 to 1.0.7.8>
+  <section|Changes from version 1.0.7 to 1.0.7.9>
 
   <\itemize>
+    <item>Many fixes for the Qt version (1.0.7.9).
+
+    <item>Various fixes for semantic editing (1.0.7.9).
+
+    <item>Integrate cursor positions and selections into the undo system
+    (1.0.7.9).
+
+    <item>Default to auto-closing and markup-based brackets and big operators
+    (1.0.7.9).
+
     <item>The new interface is more context dependent and based on the newly
     introduced concept of the <em|current focus> (1.0.7.8).
 
