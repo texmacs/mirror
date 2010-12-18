@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.6>
+<TeXmacs|1.0.7.9>
 
 <style|tmdoc>
 
@@ -16,7 +16,8 @@
   The entire presentation itself usually consists of a <markup|screens>
   switch, where the pieces are the successive ``slides'' of the presentation.
   After selection of the <tmstyle|presentation> style package, this switch
-  can be inserted using <menu|Insert|Fold|Switch|Screens>.
+  can be inserted using <menu|Insert|Fold|Switch|Screens>. You may jump from
+  one screen to another one using <key|pageup> and <key|pagedown>.
 
   Inside a switch, new ``branches'' can be inserted after or before the
   currently visible branch using <menu|Insert|Fold|Switch|Add branch after>

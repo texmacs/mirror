@@ -1,13 +1,15 @@
-<TeXmacs|1.0.7.8>
+<TeXmacs|1.0.7.9>
 
 <style|tmdoc>
 
 <\body>
   <tmdoc-title|<TeXmacs> changelog>
 
-  <section|Changes from version 1.0.7 to 1.0.7.9>
+  <section|Changes from version 1.0.7 to 1.0.7.10>
 
   <\itemize>
+    <item>Support for remotely controlled laptop presentation (1.0.7.10).
+
     <item>Many fixes for the Qt version (1.0.7.9).
 
     <item>Various fixes for semantic editing (1.0.7.9).
