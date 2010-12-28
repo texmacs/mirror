@@ -1,9 +1,9 @@
-<TeXmacs|1.0.7.8>
+<TeXmacs|1.0.7.9>
 
 <style|tmdoc>
 
 <\body>
-  <tmdoc-title|Properties of mathematical symbols>
+  <tmdoc-title|Semantics of mathematical symbols>
 
   The mathematical symbols in <TeXmacs> all come with a certain number of
   properties which correspond to their intended meaning. For instance,
