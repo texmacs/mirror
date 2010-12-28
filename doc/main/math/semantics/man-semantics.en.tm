@@ -36,6 +36,9 @@
     <item>For certain editing operations, such as cut and paste, one may
     directly select subformulas which are meaningful from the syntactical
     point of view.
+
+    <item>It reduces the risk of using non standard notations, which will be
+    difficult to understand for potential readers of your work.
   </itemize>
 
   Furthermore, other semantic facilities might be integrated in the feature,
@@ -43,10 +46,10 @@
 
   In order to activate the semantic editing facilities, please toggle
   <menu|Edit|Preferences|Mathematics|Semantic editing>. In the semantic
-  editing mode, several of the structured editing features of <TeXmacs> now
-  apply to the syntactic structure of the formula, rather than the visual
-  structure of the document. For instance, the <em|semantic focus> is usually
-  a subformula of the <hlink|current focus|../../text/man-structure.en.tm>.
+  editing mode, several of the structured editing features of <TeXmacs> apply
+  to the syntactic structure of the formula, rather than the visual structure
+  of the document. For instance, the <em|semantic focus> is usually a
+  subformula of the <hlink|current focus|../../text/man-structure.en.tm>.
   Similarly, only syntactically meaningful subformulas can be selected when
   making a selection.
 

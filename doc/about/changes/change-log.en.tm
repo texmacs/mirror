@@ -8,6 +8,12 @@
   <section|Changes from version 1.0.7 to 1.0.7.10>
 
   <\itemize>
+    <item>Spacing inside mathematical formulas as a function of adjacency
+    semantics (1.0.7.10).
+
+    <item>Further improved support for semantic editing, now at
+    <math|\<beta\>>-stage (1.0.7.10).
+
     <item>Support for remotely controlled laptop presentation (1.0.7.10).
 
     <item>Many fixes for the Qt version (1.0.7.9).

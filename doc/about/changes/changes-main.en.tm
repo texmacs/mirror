@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.8>
+<TeXmacs|1.0.7.9>
 
 <style|tmdoc>
 
@@ -22,6 +22,8 @@
   your version of <TeXmacs> and the system you are using.
 
   <\traverse>
+    <branch|Improved spacing inside formulas (1.0.7.10)|changes-18.en.tm>
+
     <branch|Auto-matching brackets (1.0.7.9)|changes-17.en.tm>
 
     <branch|More context dependent interface (1.0.7.8)|changes-16.en.tm>
