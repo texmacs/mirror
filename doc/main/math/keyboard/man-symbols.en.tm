@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.6>
+<TeXmacs|1.0.7.9>
 
 <style|tmdoc>
 
@@ -11,70 +11,83 @@
   <math|\<Gamma\>>. Similarly, <prefix|math:bold>, <prefix|math:cal>,
   <prefix|math:frak> and <prefix|math:bbb> can be used in order to type bold,
   calligraphic, fraktur and blackboard bold characters. For instance,
-  <shortcut|\<frak-m\>> yields<nbsp><with|mode|math|\<frak-m\>>, <key|S-F6 R>
-  yields<nbsp><with|mode|math|\<bbb-R\>> and <shortcut|\<b-cal-Z\>> yields
-  <with|mode|math|\<b-cal-Z\>>.
+  <shortcut|\<frak-m\>> yields<nbsp><math|\<frak-m\>>, <key|S-F6 R>
+  yields<nbsp><math|\<bbb-R\>> and <shortcut|\<b-cal-Z\>> yields
+  <math|\<b-cal-Z\>>.
 
   Greek characters can also be obtained as ``variants'' of Latin characters
-  using the <key|var>-key. For instance, <key|p var> yields
-  <with|mode|math|\<pi\>>. The <key|var>-key is also used for obtaining
-  variants of the Greek letters themselves. For instance, both
-  <key|math:greek p var> and <key|p var var> yield
-  <with|mode|math|\<varpi\>>. An alternative way to enter blackboard bold
+  using the <key|var>-key. For instance, <key|p var> yields <math|\<pi\>>.
+  The <key|var>-key is also used for obtaining variants of the Greek letters
+  themselves. For instance, both <key|math:greek p var> and <key|p var var>
+  yield <math|\<varpi\>>. An alternative way to enter blackboard bold
   characters is to type the same capital twice. For instance, <key|Z Z>
   yields<nbsp><math|\<bbb-Z\>>.
 
+  Some symbols admit many variants. For instance, <key|\<less\>> yields
+  <math|\<less\>>, <key|\<less\> var> yields <math|\<in\>>, <key|\<less\> var
+  var> yields <math|\<subset\>>, <key|\<less\> var var var> yields
+  <math|\<prec\>>, and so on. You may ``cycle back'' among the variants
+  using<nbsp><key|S-var>. For instance, <key|\<less\> var var S-var> is
+  equivalent to <key|\<less\> var>.
+
   Many other mathematical symbols are obtained by ``natural''
   key-combinations. For instance, <key|- \<gtr\>> yields
-  <with|mode|math|<op|\<rightarrow\>>>, <key|- - \<gtr\>> yields
-  <with|mode|math|<op|\<longrightarrow\>>> and <key|\<gtr\> => yields
-  <with|mode|math|<op|\<geqslant\>>>. Similarly, <key|\| -> yields
-  <with|mode|math|<op|\<vdash\>>>, <key|\| - \<gtr\>> yields
-  <with|mode|math|<op|\<mapsto\>>> and <key|- \<gtr\> \<less\> -> yields
-  <with|mode|math|<op|\<rightleftarrows\>>>. Some general rules hold in order
-  to obtain variants of symbols:
+  <math|<op|\<rightarrow\>>>, <key|- - \<gtr\>> yields
+  <math|<op|\<longrightarrow\>>> and <key|\<gtr\> => yields
+  <math|<op|\<geqslant\>>>. Similarly, <key|\| var -> yields
+  <math|<op|\<vdash\>>>, <key|\| - \<gtr\>> yields <math|<op|\<mapsto\>>> and
+  <key|- \<gtr\> \<less\> -> yields <math|<op|\<rightleftarrows\>>>. The
+  following general rules hold in order to enter mathematical symbols:
 
   <\description>
     <item*|<key|tab>>is the main key for obtaining variants. For instance,
-    <key|\<gtr\> => yields <with|mode|math|<op|\<geqslant\>>>, but
-    <key|\<gtr\> = var> yields<nbsp><with|mode|math|<op|\<geq\>>>. Similarly,
-    <key|\<less\> var> yields <with|mode|math|<op|\<prec\>>>, <key|\<less\>
-    var => yields <with|mode|math|<op|\<preccurlyeq\>>> and <key|\<less\> var
-    = var> yields <with|mode|math|<op|\<preceq\>>>. Also, <key|P var> yields
-    <with|mode|math|\<wp\>> and <key|e var> yields the constant
-    <with|mode|math|\<mathe\>=exp(1)>. You may ``cycle back''
-    using<nbsp><key|S-var>.
+    <key|\<gtr\> => yields <math|<op|\<geqslant\>>>, but <key|\<gtr\> = var>
+    yields<nbsp><math|<op|\<geq\>>>. Similarly, <key|\<less\> var var> yields
+    <math|<op|\<subset\>>>, <key|\<less\> var var => yields
+    <math|<op|\<subseteq\>>> and <key|\<less\> var var = var> yields
+    <math|<op|\<subseteqq\>>>. Also, <key|P var> yields<nbsp><math|\<wp\>>
+    and <key|e var> yields the constant <math|\<mathe\>=exp<around|(|1|)>>.
 
     <item*|<key|@>>is used for putting symbols into circles or boxes. For
-    instance, <key|@ +> yields <with|mode|math|<op|\<oplus\>>> and <key|@ x>
-    yields <with|mode|math|<op|\<otimes\>>>. Similarly, <key|@ var +> yields
-    <with|mode|math|<op|\<boxplus\>>>.
+    instance, <key|@ +> yields <math|<op|\<oplus\>>> and <key|@ x> yields
+    <math|<op|\<otimes\>>>. Similarly, <key|@ var +> yields
+    <math|<op|\<boxplus\>>>.
 
     <item*|<key|/>>is used for negations. For instance, <key|= /> yields
-    <with|mode|math|<op|\<neq\>>> and <key|\<less\> = /> yields
-    <with|mode|math|<neg|\<leqslant\>>>. Notice that <key|\<less\> = var var
-    /> yields <with|mode|math|<op|\<nleqq\>>>, while <key|\<less\> = var var
-    / var> yields <with|mode|math|<op|\<lneqq\>>>.
+    <math|<op|\<neq\>>> and <key|\<less\> = /> yields
+    <math|<neg|\<leqslant\>>>. Notice that <key|\<less\> = var var /> yields
+    <math|<op|\<nleqq\>>>, while <key|\<less\> = var var / var> yields
+    <math|<op|\<lneqq\>>>.
 
     <item*|<key|!>>is used after arrows in order to force scripts to be
     placed above or below the arrow. For instance, <key|- - \<gtr\> ^ x>
-    yields <with|mode|math|<op|\<longrightarrow\><rsup|x> >>, but <key|- -
-    \<gtr\> ! ^ x> yields <with|mode|math|\<longrightarrowlim\><rsup|x>>.
+    yields <math|<op|\<longrightarrow\><rsup|x> >>, but <key|- - \<gtr\> ! ^
+    x> yields <math|\<longrightarrowlim\><rsup|x>>.
   </description>
 
-  Several other symbols which cannot be entered naturally in the above way
-  are obtained using the <prefix|symbol> prefix. Here follows a short table
-  of such symbols:
+  The logical relations <math|\<wedge\>> and <math|\<vee\>> are obtained
+  using <key|&> and <key|%>. The operators <math|\<cap\>> and <math|\<cup\>>
+  are natural variants <key|& var> and <key|% var>. Various miscellaneous
+  symbols can be optained using the <prefix|math:symbol> prefix.
 
-  <big-table|<descriptive-table|<tformat|<cwith|1|-1|2|2|cell-halign|c>|<cwith|1|-1|4|4|cell-halign|c>|<cwith|1|-1|2|2|cell-rborder|1ln>|<table|<row|<cell|Shortcut>|<cell|Symbol>|<cell|Shortcut>|<cell|Symbol>>|<row|<cell|<key|symbol
-  a>>|<cell|<with|mode|math|<op|\<amalg\>>>>|<cell|>|<cell|>>|<row|<cell|<key|symbol
-  n>>|<cell|<with|mode|math|<op|\<cap\>>>>|<cell|<key|symbol
-  u>>|<cell|<with|mode|math|<op|\<cup\>>>>>|<row|<cell|<key|symbol
-  v>>|<cell|<with|mode|math|<op|\<vee\>>>>|<cell|<key|symbol
-  w>>|<cell|<with|mode|math|<op|\<wedge\>>>>>>>>|Some symbols which cannot be
-  obtained using general rules in a natural way.>
+  Notice that certain symbols with a different mathematical meaning are
+  sometimes denoted in a<nbsp>similar way; such symbols are called
+  <em|homoglyphs>. For instance, the vertical bar <math|\|> can be used as
+  a<nbsp>separator for defining sets <math|R<rsup|\<gtr\>>=<around*|{|x\<in\>R\|x\<gtr\>0|}>>,
+  but also as the binary relation ``divides''<nbsp><rigid|<math|11\<divides\>1001>>.
+  Often, but not always, homoglyphs admit a different spacing. The most
+  annoying ambiguity is between invisible multiplication <math|x*y> and
+  function application <math|sin x>, which are entered using the shortcuts
+  <key|*> <abbr|resp.> <key|space>.
 
-  <tmdoc-copyright|1998--2002|Joris van der Hoeven>
+  In order to facilitate certain automated treatments of your documents, such
+  as mathematical syntax checking, we incite authors to pay attention to the
+  homoglyph problem when entering formulas. For more information on this
+  issue and how <TeXmacs> can assist you to use the appropriate notations, we
+  refer to our section on the <hlink|semantics of mathematical
+  symbols|../semantics/man-semantics-symbols.en.tm>.
+
+  <tmdoc-copyright|1998--2010|Joris van der Hoeven>
 
   <tmdoc-license|Permission is granted to copy, distribute and/or modify this
   document under the terms of the GNU Free Documentation License, Version 1.1

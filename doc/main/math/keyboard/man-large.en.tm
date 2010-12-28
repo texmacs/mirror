@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.8>
+<TeXmacs|1.0.7.9>
 
 <style|tmdoc>
 
@@ -6,8 +6,8 @@
   <tmdoc-title|Typing large delimiters>
 
   Brackets inside mathematical formulas should always match: as soon as you
-  enter an opening bracket ``<math|(>'', <TeXmacs> will automatically insert
-  the matching closing bracket ``<math|)>''. You may disable this feature
+  enter an opening bracket ``(<math|>'', <TeXmacs> will automatically insert
+  the matching closing bracket ``<math|>)''. You may disable this feature
   using <menu|Edit|Preferences|Keyboard|Automatic brackets|Disable>.
   Attention (see also below): brackets in old documents will be automatically
   be upgraded to matching brackets.
@@ -21,28 +21,28 @@
   bracket|../semantics/man-semantics-symbols.en.tm#nobracket>, after which
   you can replace it by an arbitrary opening or closing bracket.
 
-  By default, the sizes of the brackets are adjusted to the expression in
-  between. Small delimiters are created using the <prefix|math:small> prefix,
-  and keep their sizes independently of the enclosed expression.
-  Alternatively, you may use <shortcut|(alternate-toggle (focus-tree))> in
-  order to toggle between large and small delimiters.
+  By default, the sizes of the brackets are adjusted to the expression
+  between the brackets. Small delimiters, which are created using the
+  <prefix|math:small>-prefix, keep their sizes independently of the enclosed
+  expression. Alternatively, you may use <shortcut|(alternate-toggle
+  (focus-tree))> in order to toggle between large and small delimiters.
 
   For some delimiters, such as <math|\|>, the opening and closing delimiters
   coincide. For instance, entering a vertical bar <key|\|> will produce an
-  absolute value. In order to obtain a small bar-separator <math|\|>, you
-  will need to type <shortcut|\|>. The binary relation ``divides'' is entered
-  using <shortcut|\<divides\>>. The big bar-separator is most conveniently
-  entered using the shortcut <key|\| S-var> (or, alternatively, using
-  <shortcut|(math-separator "\|" #t)>). In <TeX> and <LaTeX>, such large
-  separators do not exist; they are used for producing the vertical bars in
-  formulas like
+  absolute value. The (small) bar-separator <math|\|> is obtained using
+  <shortcut|\|>, or as a variant using <key|\| var>. The big bar-separator is
+  entered using <shortcut|(math-separator "\|" #t)>. In <TeX> and <LaTeX>,
+  such large separators do not exist; they are used for producing the
+  vertical bars in formulas like
 
   <\equation*>
     <around*|\<langle\>|<frac|a|b+c><mid|\|><frac|p|q+r><mid|\|><frac|a|b+c>|\<rangle\>>.
   </equation*>
 
   There may be as many middle delimiters between a left and a right delimiter
-  as one wishes.
+  as one wishes. Notice that there are still another number of variants of
+  vertical bars. For instance, the binary relation ``divides'' is entered
+  using <shortcut|\<divides\>> or <key|\| var var var var>.
 
   In <TeXmacs>, large delimiters may either be ``left delimiters'', ``right
   delimiters'' or ``middle delimiters''. By default, <math|(,[,{> and
