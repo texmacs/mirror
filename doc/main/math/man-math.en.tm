@@ -40,9 +40,9 @@
 
     <branch|Semantic editing facilities|semantics/man-semantics.en.tm>
 
-    <branch|Semantics of mathematical symbols|semantics/man-semantics-symbols.en.tm>
+    <branch|Common errors and syntax correction|semantics/man-syntax-correction.en.tm>
 
-    <branch|Matching brackets and big operators|semantics/man-semantics-brackets.en.tm>
+    <branch|Semantics of mathematical symbols|semantics/man-semantics-symbols.en.tm>
 
     <branch|Semantics of mathematical formulas|semantics/man-semantics-formulas.en.tm>
   </traverse>

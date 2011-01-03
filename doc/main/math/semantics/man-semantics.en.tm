@@ -48,10 +48,10 @@
   <menu|Edit|Preferences|Mathematics|Semantic editing>. In the semantic
   editing mode, several of the structured editing features of <TeXmacs> apply
   to the syntactic structure of the formula, rather than the visual structure
-  of the document. For instance, the <em|semantic focus> is usually a
-  subformula of the <hlink|current focus|../../text/man-structure.en.tm>.
-  Similarly, only syntactically meaningful subformulas can be selected when
-  making a selection.
+  of the document. For instance, the <em|semantic
+  focus><label|semantic-focus> is usually a subformula of the <hlink|current
+  focus|../../text/man-structure.en.tm>. Similarly, only syntactically
+  meaningful subformulas can be selected when making a selection.
 
   The semantic focus is useful for several reasons. First of all, it is
   displayed in green if the formula is syntactically correct and in red if
@@ -62,10 +62,6 @@
   operator, the subexpression to which the operator applies will be
   highlighted. In the case of an addition, or a more general associative
   operator, all summands are highlighted.
-
-  Upgrading old documents.
-
-  Section with common errors.
 
   <tmdoc-copyright|2010|Joris van der Hoeven>
 
