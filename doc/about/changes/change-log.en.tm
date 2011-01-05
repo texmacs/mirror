@@ -8,6 +8,12 @@
   <section|Changes from version 1.0.7 to 1.0.7.10>
 
   <\itemize>
+    <item>Menus for mathematical semantics and preferences (1.0.7.10).
+
+    <item>Menus for algorithmic and prominent environments (1.0.7.10).
+
+    <item>Reorganized textual and mathematical menus (1.0.7.10).
+
     <item>Spacing inside mathematical formulas as a function of adjacency
     semantics (1.0.7.10).
 
