@@ -44,10 +44,10 @@
 
     <branch|Semantics of mathematical symbols|semantics/man-semantics-symbols.en.tm>
 
-    <branch|Semantics of mathematical formulas|semantics/man-semantics-formulas.en.tm>
+    <branch|Customized mathematical semantics|semantics/man-customized-semantics.en.tm>
   </traverse>
 
-  <tmdoc-copyright|1998--2002|Joris van der Hoeven>
+  <tmdoc-copyright|1998--2011|Joris van der Hoeven>
 
   <tmdoc-license|Permission is granted to copy, distribute and/or modify this
   document under the terms of the GNU Free Documentation License, Version 1.1
