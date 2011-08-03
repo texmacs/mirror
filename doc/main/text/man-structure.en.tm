@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.7>
+<TeXmacs|1.0.7.10>
 
 <style|tmdoc>
 
@@ -22,11 +22,11 @@
   As soon as you have selected a document style, you can organize your text
   into sections (see <menu|Insert|Section>) and use specific
   <def-index|environments> (also called <em|tags>). Examples of environments
-  are theorem, proposition, remark and so on (see <menu|Insert|Environment>).
+  are theorem, proposition, remark and so on (see <menu|Insert|Enunciation>).
   Other examples are lists of items (see <menu|Insert|Itemize>) or numbered
   lists (see <menu|Insert|Enumerate>). Further examples of frequently used
   tags are <markup|strong> (for writing ``important'' text), <markup|name>
-  (for writing names of persons),<nbsp>etc.
+  (for writing names of persons), etc.
 
   When you get more acquainted with <TeXmacs>, it is possible to add your own
   new environments in your own style file. Assume for instance that you often

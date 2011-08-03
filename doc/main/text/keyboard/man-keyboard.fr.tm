@@ -1,57 +1,44 @@
-<TeXmacs|1.0.1.10>
+<TeXmacs|1.0.7.10>
 
 <style|tmdoc>
 
 <\body>
-  <expand|tmdoc-title|Maîtrise du clavier>
+  <tmdoc-title|Maîtrise du clavier>
+
+  Nous rappelons que la section sur \ les <hlink|conventions
+  générales|../start/man-conventions.fr.tm> contiens des explications sur la
+  manière dont les raccourcis clavier sont afficher dans ce manuel. Il peut
+  aussi être utile de consulter la section sur <hlink|configuration
+  clavier|../../config/man-config-keyboard.fr.tm>.
 
   <\traverse>
-    <apply|branch|Règles générales applicables aux
+    <branch|Règles générales applicables aux
     préfixes|man-general-rules.fr.tm>
 
-    <apply|branch|Raccourcis clavier à connaître|man-standard.fr.tm>
+    <branch|Raccourcis clavier à connaître|man-standard.fr.tm>
 
-    <apply|branch|Raccourcis en mode texte|man-text-kbd.fr.tm>
+    <branch|Raccourcis en mode texte|man-text-kbd.fr.tm>
 
-    <apply|branch|Commandes hybrides et simulation <LaTeX>|man-hybrid.fr.tm>
+    <branch|Commandes hybrides et simulation <LaTeX>|man-hybrid.fr.tm>
 
-    <apply|branch|Objets dynamiques|man-dynamic.fr.tm>
+    <branch|Objets dynamiques|man-dynamic.fr.tm>
 
-    <apply|branch|Personnalisation du clavier|man-customize.fr.tm>
+    <branch|Personnalisation du clavier|man-customize.fr.tm>
   </traverse>
 
-  <apply|tmdoc-copyright|1998--2002|Joris van der Hoeven|Michèle Garoche>
+  <tmdoc-copyright|1998--2011|Joris van der Hoeven|Michèle Garoche, Daouda
+  Niang Diatta>
 
-  <expand|tmdoc-license|Permission is granted to copy, distribute and/or
-  modify this document under the terms of the GNU Free Documentation License,
-  Version 1.1 or any later version published by the Free Software Foundation;
-  with no Invariant Sections, with no Front-Cover Texts, and with no
-  Back-Cover Texts. A copy of the license is included in the section entitled
-  "GNU Free Documentation License".>
+  <tmdoc-license|Permission is granted to copy, distribute and/or modify this
+  document under the terms of the GNU Free Documentation License, Version 1.1
+  or any later version published by the Free Software Foundation; with no
+  Invariant Sections, with no Front-Cover Texts, and with no Back-Cover
+  Texts. A copy of the license is included in the section entitled "GNU Free
+  Documentation License".>
 </body>
 
 <\initial>
   <\collection>
-    <associate|paragraph width|150mm>
-    <associate|odd page margin|30mm>
-    <associate|shrinking factor|4>
-    <associate|page right margin|30mm>
-    <associate|page top margin|30mm>
-    <associate|reduction page right margin|25mm>
-    <associate|page type|a4>
-    <associate|reduction page bottom margin|15mm>
-    <associate|even page margin|30mm>
-    <associate|reduction page left margin|25mm>
-    <associate|page bottom margin|30mm>
-    <associate|reduction page top margin|15mm>
     <associate|language|french>
   </collection>
 </initial>
-
-<\references>
-  <\collection>
-    <associate|toc-1|<tuple|<uninit>|?>>
-    <associate|idx-1|<tuple|1|?>>
-    <associate|idx-2|<tuple|1|?>>
-  </collection>
-</references>

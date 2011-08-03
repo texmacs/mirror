@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.7>
+<TeXmacs|1.0.7.10>
 
 <style|tmdoc>
 
@@ -33,7 +33,7 @@
 
     <item*|<prefix|structured:geometry>>This prefix is used in combination
     with arrow keys and certain other special keys for <hlink|positioning and
-    resizing objects|../../editing/man-structured-geometry.en.tm>.
+    resizing objects|../../editing/man-structured-geometry.en.tm>
 
     <item*|<prefix|structured:move>>This prefix is used in combination with
     arrow keys and some other special keys for <hlink|structured cursor

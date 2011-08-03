@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.7>
+<TeXmacs|1.0.7.10>
 
 <style|tmdoc>
 
@@ -20,7 +20,7 @@
 
     <item*|<prefix|C->>For control key combinations.
 
-    <item*|<verbatim|><prefix|A->>For alternate key combinations.
+    <item*|<prefix|A->>For alternate key combinations.
 
     <item*|<prefix|M->>For meta key combinations.
   </description>
