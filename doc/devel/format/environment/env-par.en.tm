@@ -1,4 +1,4 @@
-<TeXmacs|1.0.4>
+<TeXmacs|1.0.7.10>
 
 <style|tmdoc>
 
@@ -38,6 +38,41 @@
       </quote-env>
     <|big-table>
       The supported modes for alignment.
+    </big-table>
+  </explain>
+
+  <\explain>
+    <var-val|par-flexibility|1000.0><explain-synopsis|paragraph flexibility>
+  <|explain>
+    When using the justified alignment mode, it sometimes occurs that certain
+    lines need to be stretched a lot, thereby leaving abnormally large spaces
+    in the middle of those lines. This is typically the case inside
+    bibliographies with unbreakable hyperlinks. The <src-var|par-flexibility>
+    variable specifies a threshold above which justification of a line is
+    abandoned. More precisely, we switch to left alignment whenever the
+    remaining space on a line exceeds <src-var|par-flexibility> times the
+    maximal amount of stretching which still ``looks nice'' for the given
+    font.
+
+    <\big-table>
+      <\quote-env>
+        <block|<tformat|<twith|table-width|1par>|<cwith|1|-1|1|-1|cell-hyphen|t>|<table|<row|<\cell>
+          For certain paragraphs with wide unbreakable pieces of text, such
+          as the hyperlink <rigid|<href|http://www.texmacs.org>> it is
+          sometimes preferrable to switch from justified to left aligned text
+          when the spacing between words becomes to wide.
+        </cell>|<\cell>
+          <\with|par-flexibility|2.0>
+            For certain paragraphs with wide unbreakable pieces of text, such
+            as the hyperlink <rigid|<href|http://www.texmacs.org>> it is
+            sometimes preferrable to switch from justified to left aligned
+            text when the spacing between words becomes to wide.
+          </with>
+        </cell>>>>>
+      </quote-env>
+    <|big-table>
+      Difference between a large and small flexibility (on the left and right
+      hand sides respectively).
     </big-table>
   </explain>
 
@@ -149,14 +184,12 @@
             </with>
           </cell>|<\cell>
             <\with|par-par-sep|0.5fn>
-              <\with|par-first|0fn>
-                The <tmstyle|generic> and <tmstyle|letter> styles in
-                <TeXmacs> indictate the starts of new paragraphs through the
-                use of vertical whitespace.
+              The <tmstyle|generic> and <tmstyle|letter> styles in <TeXmacs>
+              indictate the starts of new paragraphs through the use of
+              vertical whitespace.
 
-                The <tmstyle|article> and <tmstyle|book> styles rather use a
-                first indentation.
-              </with>
+              The <tmstyle|article> and <tmstyle|book> styles rather use a
+              first indentation.
             </with>
           </cell>>>>>
         </quote-env>
@@ -210,13 +243,12 @@
     This parameter corresponds an additional stretchable amount of whitespace
     between successive lines in a paragraph. Setting
     <inactive|<value|par-line-sep>> to a small stretchable value which
-    defaults to <with|mode|math|0> allows the page breaker to correctly
-    stretch pages which contain a very long textual paragraph. Indeed,
+    defaults to <math|0> allows the page breaker to correctly stretch pages
+    which contain a very long textual paragraph. Indeed,
     <inactive|<value|par-line-sep>> vanishes, then the height of a textual
-    paragraph is of the form <with|mode|math|a+b*n>, where <with|mode|math|a>
-    and <with|mode|math|b> are constants and <with|mode|math|n> is the number
-    of lines. There is no reason why the usable height of a page should be of
-    this form.
+    paragraph is of the form <math|a+b*n>, where <math|a> and <math|b> are
+    constants and <math|n> is the number of lines. There is no reason why the
+    usable height of a page should be of this form.
   </explain>
 
   <\explain>
@@ -225,12 +257,12 @@
   <|explain>
     The <src-var|par-par-sep> parameter specifies the amount of vertical
     whitespace which separates two successive paragraphs. This space is
-    determined in <hyper-link|stretchable length
-    units|../basics/lengths.en.tm>. By default, <TeXmacs> does not use any
-    whitespace between successive paragraphs, except when no nice page breaks
-    could be found (this explains the use of the <verbatim|fn*> length unit).
-    Starts of new paragraphs are rather indicated through the use of first
-    indentations (see table <reference|par-first-tab>).
+    determined in <hlink|stretchable length units|../basics/lengths.en.tm>.
+    By default, <TeXmacs> does not use any whitespace between successive
+    paragraphs, except when no nice page breaks could be found (this explains
+    the use of the <verbatim|fn*> length unit). Starts of new paragraphs are
+    rather indicated through the use of first indentations (see table
+    <reference|par-first-tab>).
 
     In the case when two successive paragraph use different paragraph
     separations, then the maximum of the two is taken. In fact, the
@@ -250,17 +282,16 @@
     <\with|font-base-size|10>
       <\tm-fragment>
         Consider a fraction which decends more than usual like
-        <with|mode|math|<frac|1|x+1>> at the end of a line and an expression
-        like <with|mode|math|\<mathe\><rsup|\<mathe\><rsup|x>>> which is
-        higher than usual.
+        <math|<frac|1|x+1>> at the end of a line and an expression like
+        <math|\<mathe\><rsup|\<mathe\><rsup|x>>> which is higher than usual.
 
         When these expressions occur at different places, then <TeXmacs>
         tries to render the successive lines in a compact manner.
 
-        In the case of a fraction <with|mode|math|<frac|1|x+1>> and an
-        exceptionally high expression at the wrong place, like the expression
-        <with|mode|math|\<mathe\><rsup|\<mathe\><rsup|x>>> here, the boxes
-        are separated by <src-var|env-ver-sep>.
+        In the case of a fraction <math|<frac|1|x+1>> and an exceptionally
+        high expression at the wrong place, like the expression
+        <math|\<mathe\><rsup|\<mathe\><rsup|x>>> here, the boxes are
+        separated by <src-var|env-ver-sep>.
       </tm-fragment>
     </with>
 

@@ -1,4 +1,4 @@
-<TeXmacs|1.0.4.6>
+<TeXmacs|1.0.7.10>
 
 <style|tmdoc>
 
@@ -8,7 +8,7 @@
   The following macros may be used in the main text for citations to entries
   in a bibliographic database.
 
-  <\explain|<explain-macro|cite|ref-1|<with|mode|math|\<cdots\>>|ref-n>>
+  <\explain|<explain-macro|cite|ref-1|<math|\<cdots\>>|ref-n>>
     Each argument <src-arg|ref-i> is a citation corresponding to an item in a
     BiB-<TeX> file. The citations are displayed in the same way as they are
     referenced in the bibliography and they also provide hyperlinks to the
@@ -16,7 +16,7 @@
     if you did not generate the bibliography.
   </explain>
 
-  <\explain|<explain-macro|nocite|ref-1|<with|mode|math|\<cdots\>>|ref-n>>
+  <\explain|<explain-macro|nocite|ref-1|<math|\<cdots\>>|ref-n>>
     Similar as <markup|cite>, but the citations are not displayed in the main
     text.
   </explain>
@@ -56,9 +56,7 @@
 
     The <markup|transform-bibitem> is used to ``decorate'' the
     <src-arg|content>. For instance, <markup|transform-bibitem> may put
-    angular brackets and a space around <src-arg|content>. Notice that the
-    standard implementation of <markup|render-bibitem> macro is based on
-    <markup|transform-bibitem>.
+    angular brackets and a space around <src-arg|content>.
   </explain>
 
   <\explain|<explain-macro|bib-list|largest|body>>
