@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.9>
+<TeXmacs|1.0.7.10>
 
 <style|tmdoc>
 
@@ -20,11 +20,11 @@
   one screen to another one using <key|pageup> and <key|pagedown>.
 
   Inside a switch, new ``branches'' can be inserted after or before the
-  currently visible branch using <menu|Insert|Fold|Switch|Add branch after>
-  or <menu|Insert|Fold|Switch|Add branch before>. Besides the
-  <markup|screens> switch, you may use <menu|Insert|Fold|Switch|Standard> to
-  insert paragraph-wide switches, and <menu|Insert|Fold|Switch|Standard> to
-  insert inline switches (similarly to displayed and inline formulas).
+  currently visible branch using <menu|Focus|Insert argument after> or
+  <menu|Focus|Insert argument before>. Besides the <markup|screens> switch,
+  you may use <menu|Insert|Fold|Switch|Standard> to insert paragraph-wide
+  switches, and <menu|Insert|Fold|Switch|Standard> to insert inline switches
+  (similarly to displayed and inline formulas).
 
   Another popular way to traverse is presentation is to progressively unroll
   content. This can be done by inserting an <markup|unroll> tag using
@@ -32,10 +32,9 @@
   the <markup|itemize> and <markup|enumerate> tags: first create the list
   environment, but remove the first (automatically inserted) <markup|item>
   tag. Next insert the unroll tag. When pressing <key|enter> inside the
-  unroll tag, new items are created; you still have to use
-  <menu|Insert|Fold|Unroll|Add branch after> for inserting new branches to
-  the unroll structure (in particular, several items could be unrolled at
-  once).
+  unroll tag, new items are created; you still have to use <menu|Focus|Insert
+  argument after> for inserting new branches to the unroll structure (in
+  particular, several items could be unrolled at once).
 
   A variant of unrolling is unfolding. This is basically an unroll tag with
   exactly two branches, but different variants are available in
