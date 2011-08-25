@@ -9,15 +9,18 @@
   the document during a presentation. The keys <key|F10> and <key|F11> are
   used respectively for going back and forth in the presentation. The keys
   <key|F9> and <key|F12> are used to go to the start <abbr|resp.> end of the
-  presentation.
+  presentation. When using the <tmstyle|beamer> style or when enabling the
+  ``presentation tool'' in the <menu|Tools> menu, a <menu|Dynamic> menu and
+  additional icons will appear, which can also be used for the traversal of
+  your presentation.
 
   The most basic traversal tag is called a ``switch'', and allows the user to
   show different pieces of text in successive and mutually exclusive manner.
   The entire presentation itself usually consists of a <markup|screens>
   switch, where the pieces are the successive ``slides'' of the presentation.
-  After selection of the <tmstyle|presentation> style package, this switch
-  can be inserted using <menu|Insert|Fold|Switch|Screens>. You may jump from
-  one screen to another one using <key|pageup> and <key|pagedown>.
+  After selection of the <tmstyle|beamer> style, this switch can be inserted
+  using <menu|Focus|Screens> or <menu|Insert|Fold|Switch|Screens>. You may
+  jump from one screen to another one using <key|pageup> and <key|pagedown>.
 
   Inside a switch, new ``branches'' can be inserted after or before the
   currently visible branch using <menu|Focus|Insert argument after> or
