@@ -8,6 +8,8 @@
   <section|Changes from version 1.0.7 to 1.0.7.11>
 
   <\itemize>
+    <item>Slightly improved interface for presentation mode (1.0.7.11).
+
     <item>Added debugging facilities when crashing (1.0.7.11).
 
     <item>Treat big operators as prefixes in mathematical grammar (1.0.7.11).
