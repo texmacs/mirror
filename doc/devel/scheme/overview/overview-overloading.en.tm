@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.7>
+<TeXmacs|1.0.7.11>
 
 <style|tmdoc>
 
@@ -23,15 +23,15 @@
   <scm|kbd-enter> several times in distinct modules.
 
   For instance, assume that we want to define a function <scm|hello> which
-  inserts ``Hello'' by default, but ``<math|hello()>'' in mode math, while
-  positioning the cursor between the brackets. Using contextual overloading,
-  this may be done as follows:
+  inserts ``Hello'' by default, but ``<math|hello<around|(||)>>'' in mode
+  math, while positioning the cursor between the brackets. Using contextual
+  overloading, this may be done as follows:
 
-  <\scm-fragment>
+  <\scm-code>
     (tm-define (hello) (insert "Hello"))
 
     (tm-define (hello) (:mode in-math?) (insert-go-to "hello()" '(6)))
-  </scm-fragment>
+  </scm-code>
 
   Here we recall that the two definitions may be put inside different
   modules. Notice also that the contextual overloading system considers the
@@ -49,15 +49,15 @@
     arguments, together with a finite number of other, less particular, modes
     which are implied by it. New modes can be defined using the instruction
 
-    <\scm-fragment>
+    <\scm-code>
       (texmacs-modes <em|mode>% <em|cond> <em|submode-1> ... <em|submode-n>)
-    </scm-fragment>
+    </scm-code>
 
     For instance, we might define a new mode <scm|inside-theorem?> as follows
 
-    <\scm-fragment>
+    <\scm-code>
       (texmacs-modes inside-theorem% (inside? 'theorem) in-text%)
-    </scm-fragment>
+    </scm-code>
 
     Some standard modes are <scm|always?>, <scm|in-source?>, <scm|in-text?>,
     <scm|in-math?>, <scm|in-prog?>. There is also a special mode
@@ -79,7 +79,7 @@
     more general conditions on the arguments. For instance, one may sometimes
     wish to write the following kind of code:
 
-    <\scm-fragment>
+    <\scm-code>
       (tm-define (my-replace what by)
 
       \ \ <em|default-implementation>)
@@ -91,7 +91,7 @@
       \ \ (:require (== what by))
 
       \ \ (noop))
-    </scm-fragment>
+    </scm-code>
   </description>
 
   \;
@@ -100,14 +100,28 @@
   first dispatches on mode and then on the arguments on the function. For
   instance, consider a routine <scm|foo> defined<nbsp>by
 
-  <\scm-fragment>
+  <\scm-code>
     (tm-define (foo t) (:mode in-math?) <em|implementation-1>)
 
     (tm-define (foo t) (:require (tree-is? t 'frac)) <em|implementation-2>)
-  </scm-fragment>
+  </scm-code>
 
   Then the first implementation will be used when <scm|foo> is called for a
-  fraction in math mode.
+  fraction in math mode. In cases of conflict when no implementation is
+  preferrable <em|a priori>, the last implementation prevails. For instance,
+  consider a predicate <scm|(gnu? t)> which implies another predicate
+  <scm|(hairy? t)>, and assume that we want to overload a function <scm|(foo
+  t)> for both predicates. Then we may use something such as
+
+  <\scm-code>
+    (tm-define (foo t) (:require (hairy? t) <em|implementation-1>)
+
+    (tm-define (foo t) (:require (gnu? t)) <em|implementation-2>)
+  </scm-code>
+
+  Indeed, the most particular implementation should be declared last. In the
+  case when both implementations are in different files, the file with the
+  definition when <scm|(gnu? t)> should include the other<nbsp>one.
 
   Besides <scm|tm-define>, several other added language primitives support
   the contextual overloading mechanism. For instance, <scm|kbd-map> and
