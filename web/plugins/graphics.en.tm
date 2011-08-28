@@ -8,11 +8,11 @@
 
   <section|Asymptote><label|asymptote>
 
-  <tmdoc-include|plugins/asymptote/asymptote-web.en.tm>
+  <tmdoc-include|asymptote-abstract.en.tm>
 
   <section|Eukleides><label|eikleides>
 
-  <tmdoc-include|plugins/eukleides/eukleides-web.en.tm>
+  <tmdoc-include|eukleides-abstract.en.tm>
 
   <section|Ghostscript><label|ghostscript>
 
@@ -20,7 +20,7 @@
 
   <section|TeXgraph><label|texgraph>
 
-  <tmdoc-include|plugins/texgraph/texgraph-web.en.tm>
+  <tmdoc-include|texgraph-abstract.en.tm>
 
   <section|Xfig><label|xfig>
 

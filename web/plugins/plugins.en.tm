@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.2>
+<TeXmacs|1.0.7.11>
 
 <style|tmweb>
 
@@ -17,8 +17,6 @@
     <item><hlink|Axiom|cas.en.tm#axiom>
 
     <item><hlink|Cadabra|physics.en.tm#cadabra>
-
-    <item><hlink|<abbr|Dr.> Geo|education.en.tm#drgeo>
 
     <item><hlink|Eukleides|graphics.en.tm#eukleides>
 

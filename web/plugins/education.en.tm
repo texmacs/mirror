@@ -8,7 +8,7 @@
 
   <section|<abbr|Dr.> Geo><label|drgeo>
 
-  <apply|tmdoc-include|plugins/drgeo/drgeo-web.en.tm>
+  <apply|tmdoc-include|plugins/drgeo/drgeo-abstract.en.tm>
 
   <apply|tmdoc-copyright|1999--2003|Joris van der Hoeven>
 

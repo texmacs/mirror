@@ -8,11 +8,11 @@
 
   <section|Cadabra><label|cadabra>
 
-  <tmdoc-include|plugins/cadabra/cadabra-web.en.tm>
+  <tmdoc-include|cadabra-abstract.en.tm>
 
   <section|Qcl><label|qcl>
 
-  <tmdoc-include|plugins/qcl/qcl-web.en.tm>
+  <tmdoc-include|qcl-abstract.en.tm>
 
   <tmdoc-copyright|1999--2003|Joris van der Hoeven>
 

@@ -8,35 +8,35 @@
 
   <section|Axiom><label|axiom>
 
-  <tmdoc-include|plugins/axiom/axiom-web.en.tm>
+  <tmdoc-include|axiom-abstract.en.tm>
 
   <section|Giac><label|giac>
 
-  <tmdoc-include|plugins/giac/giac-web.en.tm>
+  <tmdoc-include|giac-abstract.en.tm>
 
   <section|GTybalt><label|gtybalt>
 
-  <tmdoc-include|plugins/gtybalt/gtybalt-web.en.tm>
+  <tmdoc-include|gtybalt-abstract.en.tm>
 
   <section|Macaulay 2><label|macaulay2>
 
-  <tmdoc-include|plugins/macaulay2/macaulay2-web.en.tm>
+  <tmdoc-include|macaulay2-abstract.en.tm>
 
   <section|Maxima><label|maxima>
 
-  <tmdoc-include|plugins/maxima/maxima-web.en.tm>
+  <tmdoc-include|maxima-abstract.en.tm>
 
   <section|Pari><label|pari>
 
-  <tmdoc-include|plugins/pari/pari-web.en.tm>
+  <tmdoc-include|pari-abstract.en.tm>
 
   <section|Sage><label|sage>
 
-  <tmdoc-include|plugins/sage/sage-web.en.tm>
+  <tmdoc-include|sage-abstract.en.tm>
 
   <section|Yacas><label|yacas>
 
-  <tmdoc-include|plugins/yacas/yacas-web.en.tm>
+  <tmdoc-include|yacas-abstract.en.tm>
 
   <tmdoc-copyright|1999--2003|Joris van der Hoeven>
 
