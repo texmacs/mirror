@@ -8,6 +8,8 @@
   <section|Changes from version 1.0.7 to 1.0.7.11>
 
   <\itemize>
+    <item>Support for alpha transparency, Qt version & screen only (1.0.7.11).
+
     <item>Slightly improved interface for presentation mode (1.0.7.11).
 
     <item>Added debugging facilities when crashing (1.0.7.11).
