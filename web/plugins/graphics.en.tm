@@ -16,7 +16,7 @@
 
   <section|Ghostscript><label|ghostscript>
 
-  <tmdoc-include|plugins/ghostscript/ghostscript-web.en.tm>
+  <tmdoc-include|other/ghostscript/ghostscript-abstract.en.tm>
 
   <section|TeXgraph><label|texgraph>
 
@@ -24,7 +24,7 @@
 
   <section|Xfig><label|xfig>
 
-  <tmdoc-include|plugins/xfig/xfig-web.en.tm>
+  <tmdoc-include|other/xfig/xfig-abstract.en.tm>
 
   <tmdoc-copyright|1999--2003|Joris van der Hoeven>
 
