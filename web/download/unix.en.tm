@@ -23,6 +23,10 @@
     as explained below.
   </enumerate>
 
+  If you are interested by packaging <TeXmacs> for some <name|Linux> or
+  <name|Unix> distribution, then please take a look at our
+  <hlink|suggestions|packaging.en.tm>.
+
   <section|Download the package>
 
   Download the <hlink|most recent|<merge|http://www.texmacs.org/Download/ftp/targz/|<merge|<TeXmacs-version-release|tgz>|-static-gnu-linux.tar.gz>>>

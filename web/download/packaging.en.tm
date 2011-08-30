@@ -1,9 +1,9 @@
-<TeXmacs|1.0.5.11>
+<TeXmacs|1.0.7.12>
 
 <style|tmweb>
 
 <\body>
-  <tmweb-current|Download|Sources><tmweb-title|Suggestions for packaging
+  <tmweb-current|Download|General><tmweb-title|Suggestions for packaging
   <TeXmacs>|<tmweb-download-links>>
 
   In the case that you wish to package <TeXmacs> for some <name|Linux>,
@@ -26,57 +26,27 @@
 
   <paragraph*|<TeXmacs> dependencies>
 
-  Theoretically speaking, <TeXmacs> only depends on <name|X> and <name|Guile>
-  in order to be built on <name|Linux>. In<nbsp>addition, you either need
-  <name|FreeType 2> or a <TeX>/<LaTeX> distribution such as Te<TeX> for the
-  fonts (see also below).
+  Theoretically speaking, <TeXmacs> only depends on <name|Qt>, <name|Guile>
+  and <name|FreeType2> in order to be built on <name|Linux>. However, several
+  more specific features of <TeXmacs> depend on external programs. In
+  particular, spell checking makes use of <name|Ispell> or <name|Aspell>, the
+  rendering of images depends on <name|Ghostview> and/or <name|Imlib2>, the
+  <name|Iconv> library is needed for the <name|Html> converters, and we make
+  use of several command-line utilities and <name|ImageMagick> for
+  conversions between different image formats. The <TeXmacs> package should
+  at least recommend the installation of these other programs.
 
-  However, several more specific features of <TeXmacs> depend on external
-  programs. In particular, spell checking makes use of <name|Ispell> or
-  <name|Aspell>, the rendering of images depends on <name|Ghostview> and/or
-  <name|Imlib2>, the <name|Iconv> library is needed for the <name|Html>
-  converters, and we make use of several command-line utilities and
-  <name|ImageMagick> for conversions between different image formats. The
-  <TeXmacs> package should at least recommend the installation of these other
-  programs.
-
-  It should be noticed that <name|Imlib<nbsp>2> contains a major bug, which
-  makes it impossible to use it in a<nbsp>static binary for <TeXmacs>. For
-  this reason, we have disabled the use of this library by default.
-  Nevertheless, in order to accelerate the rendering of non-<name|Postscript>
-  images, we recommend the use of this library when using shared linking. In
-  that case, you should configure using the <verbatim|--with-imlib2=yes>
-  option. In the future, we plan to find a more reliable substitute for
-  <name|Imlib 2>.
-
-  We also notice that external libraries like <name|Freetype 2> and
-  <name|Imlib<nbsp>2> can be linked against <TeXmacs> either at compilation
-  or at run time. In the second case, the library will only be used when it
-  is present on the system, thereby removing one hard dependency. In order to
-  force linking at compilation time, configure using
-  <verbatim|--with-imlib2=linked> and similarly for other libraries.
+  From version 1.0.7.12 on, <TeXmacs> no longer depends on <TeX>/<LaTeX>, but
+  we added a<nbsp>dependency on the <name|Qt> library. When configuring
+  <TeXmacs> using <rigid|<shell|./configure --diable-qt>>, it is still
+  possible to build the old X11 version.
 
   <paragraph*|Font issues>
 
-  In order to keep the official <TeXmacs> distributions reasonably small,
-  they are shipped with only a minimal set of <name|Type 1> fonts. For
-  distributions on a <name|CD> or <name|DVD>, we recommend to include a more
-  complete set of <hlink|extra Type 1 fonts|fonts.en.tm#fonts-tarball>.
-  Typically, the extra fonts should be merged with the set of minimal fonts
-  and distributed in a separate package. The main <TeXmacs> package should
-  then depend on the font package.
-
-  Notice that <TeXmacs> is no longer dependent on a <TeX>/<LaTeX>
-  distribution such as Te<TeX> for the fonts. In the case when you want to
-  remove the dependency on Te<TeX>, then you need to provide an even more
-  <hlink|complete set of extra fonts|fonts.en.tm#fonts-complete>.
-
-  On the other limit, if Te<TeX> is installed, then no extra <name|Type 1>
-  fonts are really essential for <TeXmacs> to work, since <name|Metafont>
-  will be able to generate them automatically. However, this process is quite
-  long and tends to frighten new users. In the case of <name|Knoppix>
-  distributions, the situation is even worse, because all fonts created by
-  <name|Metafont> are lost whenever you turn of the computer.
+  Some of the fonts which are present in the official <TeXmacs> sources may
+  also be present in the <TeX>/<LaTeX> packages for your distribution. In
+  order to reduce the size of your <TeXmacs> package, you might wish to
+  factor out those fonts.
 
   <paragraph*|Improving the boot speed>
 
@@ -89,11 +59,13 @@
   carefully copy the files
 
   <\code>
-    \ \ \ \ ~/.TeXmacs/system/settings.scm
+    <\with|par-par-sep|0fn>
+      \ \ \ \ ~/.TeXmacs/system/settings.scm
 
-    \ \ \ \ ~/.TeXmacs/system/setup.scm
+      \ \ \ \ ~/.TeXmacs/system/setup.scm
 
-    \ \ \ \ ~/.TeXmacs/system/cache/*
+      \ \ \ \ ~/.TeXmacs/system/cache/*
+    </with>
   </code>
 
   to some location in the <TeXmacs> distributiuon. You may now modify the
@@ -102,7 +74,7 @@
   <TeXmacs> in the usual way). This should reduce the boot time to a few
   seconds.
 
-  <tmdoc-copyright|2005|Joris van der Hoeven>
+  <tmdoc-copyright|2005--2011|Joris van der Hoeven>
 
   <tmweb-license>
 </body>

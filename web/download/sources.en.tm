@@ -113,10 +113,6 @@
     setenv PATH /usr/local/bin:$PATH
   </shell-code>
 
-  If you are interested by packaging <TeXmacs> for some <name|Linux> or
-  <name|Unix> distribution, then please take a look at our
-  <hlink|suggestions|packaging.en.tm>.
-
   <section|Configuration and build options>
 
   If you cannot log yourself in as root, or if you want to install <TeXmacs>
