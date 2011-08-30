@@ -1,9 +1,9 @@
-<TeXmacs|1.0.6.9>
+<TeXmacs|1.0.7.12>
 
 <style|tmweb>
 
 <\body>
-  <tmweb-current|Download|Binaries><tmweb-title|<TeXmacs> inside
+  <tmweb-current|Download|Linux><tmweb-title|<TeXmacs> inside
   GNU/<name|Linux> distributions|<tmweb-download-links>>
 
   The following GNU/Linux distributions provide packages or third-part
