@@ -3,20 +3,35 @@
 <style|tmweb>
 
 <\body>
-  <tmweb-current|Download|Linux><tmweb-title|Installing <TeXmacs> on Linux
-  and Unix systems|<tmweb-download-links>>
+  <tmweb-current|Download|Linux><tmweb-title|Installing <TeXmacs> on
+  <name|Linux> systems|<tmweb-download-links>>
+
+  <section|Installation method>
+
+  Depending on your <name|Linux> distribution, you may choose between the
+  following installation methods:
+
+  <\enumerate>
+    <item>Please <hlink|check|linux.en.tm> whether your distribution already
+    supports <TeXmacs>, in which case you may directly install <TeXmacs>
+    using the standard tools of your system.
+
+    <item>If your system admits an RPM-compatible package manager, then you
+    may try to install our <hlink|generic RPM package|rpm.en.tm>.
+
+    <item>Otherwise, you may install a generic binary package for <TeXmacs>,
+    as explained below.
+  </enumerate>
 
   <section|Download the package>
 
-  Before installing the binary version of <TeXmacs> below, you might want to
-  check whether your particular <hlink|<name|Linux> distribution|linux.en.tm>
-  supports <TeXmacs>. If not, then download the <hlink|most
-  recent|<merge|http://www.texmacs.org/Download/ftp/targz/|<merge|<TeXmacs-version-release|tgz>|-static-gnu-linux.tar.gz>>>
+  Download the <hlink|most recent|<merge|http://www.texmacs.org/Download/ftp/targz/|<merge|<TeXmacs-version-release|tgz>|-static-gnu-linux.tar.gz>>>
   or <hlink|last stable|<merge|http://www.texmacs.org/Download/ftp/targz/|<merge|<TeXmacs-version-release|stgz>|-static-gnu-linux.tar.gz>>>
-  static binary distribution of GNU <TeXmacs> for PC's under
-  GNU/<name|Linux>. If you have another operating system, then you should
-  <hlink|download|http://www.texmacs.org/Download/ftp/targz> the most recent
-  version of <TeXmacs> for your system.
+  static binary distribution of GNU <TeXmacs> for standard Intel or AMD based
+  PC's under GNU/<name|Linux>. If you have another processor or operating
+  system, then you may try to <hlink|search and
+  download|http://www.texmacs.org/Download/ftp/targz> the most recent version
+  of <TeXmacs> for your system.
 
   <section|Unpack the package>
 
