@@ -40,7 +40,7 @@
   </shell-code>
 
   Similarly, if you are using <hlink|<name|MacPorts>|http://www.macports.org/>,
-  then you may also install <TeXmacs> by typing
+  then you may install <TeXmacs> by typing
 
   <\shell-code>
     sudo port install texmacs
