@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.6>
+<TeXmacs|1.0.7.12>
 
 <style|tmweb>
 
@@ -8,15 +8,17 @@
 
   \;
 
-  <\with|par-mode|center>
-    <postscript|../images/collage.png|600px|344px||||>
-  </with>
+  <center|<html-javascript|document.write (downloadButtonImage ());>>
 
   \;
 
   <tmdoc-include|about/philosophy/description.en.tm>
 
-  <tmdoc-copyright|1999--2010|Joris van der Hoeven>
+  \;
+
+  <center|<html-javascript-src|http://outils.citic74.fr/compteur/graphcount.php?page=www.texmacs.org&style=web1>>
+
+  <tmdoc-copyright|1999--2011|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
