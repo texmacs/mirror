@@ -22,8 +22,8 @@ function downloadLink (text) {
   return "<A href=\"" + downloadPage () + "\">" + text + "</A>";
 }
 
-function downloadButton () {
-  return downloadLink ("Download");
+function downloadButton (text, color) {
+  return downloadLink ("<font color=" + color + ">" + text + "</font>");
 }
 
 function downloadButtonImage () {
