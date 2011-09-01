@@ -1,9 +1,9 @@
-<TeXmacs|1.0.7>
+<TeXmacs|1.0.7.12>
 
 <style|tmweb>
 
 <\body>
-  <tmweb-current|Download|SVN><tmweb-title|The SVN archive for
+  <tmweb-current|Download|Sources><tmweb-title|The SVN archive for
   <TeXmacs>|<tmweb-download-links>>
 
   Since <TeXmacs>-1.0.7.1, the development of <TeXmacs> is done using the
@@ -34,16 +34,17 @@
     \ \ \ \ svn co svn://svn.savannah.gnu.org/texmacs/trunk/src
   </verbatim>
 
-  In a similar way, you may check out the documentation:
+  In a similar way, you may check out the <TeXmacs> web site
 
   <\verbatim>
     \ \ \ \ svn co svn://svn.savannah.gnu.org/texmacs/trunk/doc
   </verbatim>
 
-  Notice that the SVN version of <TeXmacs> does <em|not> contain any of the
-  Type 1 fonts which are necessary to run the program. In the case when you
-  use this version, it is therefore necessary to install the <hlink|complete
-  extra fonts package|fonts.en.tm#complete>.
+  and some miscellaneous files:
+
+  <\verbatim>
+    \ \ \ \ svn co svn://svn.savannah.gnu.org/texmacs/trunk/misc
+  </verbatim>
 
   <vspace*|1fn><paragraph*|Committing changes by SVN><label|commit>
 
