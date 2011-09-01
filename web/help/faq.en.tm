@@ -1,4 +1,4 @@
-<TeXmacs|1.0.6.2>
+<TeXmacs|1.0.7.12>
 
 <style|tmweb>
 
@@ -8,7 +8,7 @@
 
   <tmdoc-include|main/faq/faq.en.tm>
 
-  <tmdoc-copyright|1999--2004|Andreas Seidl|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2011|Andreas Seidl|Joris van der Hoeven>
 
   <tmweb-license>
 </body>

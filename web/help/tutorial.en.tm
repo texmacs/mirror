@@ -18,6 +18,10 @@
     <item><hlink|A <TeXmacs> graphics tutorial|../documents/tutorials/TeXmacs-graphics-tutorial.pdf>,
     by Henri Lesourd.
 
+    <item><hlink|A tutorial on the Maxima
+    plug-in|../documents/tutorials/maxima-tutorial/maxima-tutorial.en.tm>, by
+    Andrey Grozin.
+
     <item><hlink|Using plug-ins to insert technical
     figures|../documents/tutorials/TeXmacs-graphical-plugins.pdf>, by Nicolas
     Ratier.

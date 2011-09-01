@@ -14,7 +14,8 @@
   <\itemize>
     <item>Answers to some <hlink|frequently asked questions|faq.en.tm>.
 
-    <item>A user manual, which has been translated into several languages.
+    <item>A <hlink|user manual|manual.en.tm>, which has been translated into
+    several languages.
 
     <item>Documentation for developers.
   </itemize>
