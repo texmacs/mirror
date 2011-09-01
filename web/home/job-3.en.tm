@@ -87,7 +87,7 @@
     </itemize>
   </with>
 
-  <tmdoc-copyright|1999--2011|Joris van der Hoeven>
+  <tmdoc-copyright|2011|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
