@@ -3,8 +3,8 @@
 <style|mmxdoc>
 
 <\body>
-  <tmweb-current|Home|Jobs><tmweb-title|Job offer: system administrator and
-  software engineer|<tmweb-home-links>>
+  <tmweb-current|Home|Jobs><tmweb-title|<with|color|red|[EXPIRED]> system
+  administrator and software engineer|<tmweb-home-links>>
 
   <subsection*|Context>
 

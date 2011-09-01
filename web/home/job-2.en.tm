@@ -3,8 +3,8 @@
 <style|mmxdoc>
 
 <\body>
-  <tmweb-current|Home|Jobs><tmweb-title|Job offer: specialist in
-  cross-platform development|<tmweb-home-links>>
+  <tmweb-current|Home|Jobs><tmweb-title|<with|color|red|[EXPIRED]> specialist
+  in cross-platform development|<tmweb-home-links>>
 
   <subsection*|Context>
 
