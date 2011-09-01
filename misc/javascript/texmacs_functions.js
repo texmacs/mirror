@@ -27,5 +27,5 @@ function downloadButton (text, color) {
 }
 
 function downloadButtonImage () {
-  return downloadLink ("<img border=0 src=\"http://www.texmacs.org/Images/collage.png\"></img>");
+  return downloadLink ("<img border=0 src=\"http://www.texmacs.org/Images/download_texmacs.png\"></img>");
 }
