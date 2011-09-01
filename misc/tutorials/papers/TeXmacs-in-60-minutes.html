@@ -1,0 +1,434 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>TeXmacs Windows Tour</title>
+  <style type="text/css">
+h1 {font-weight: bold; font-family: sans-serif; color: #444444}
+h2 {font-weight: bold; font-family: sans-serif; color: #444444}
+h3 {font-weight: bold; font-family: sans-serif; color: #444444}
+body {font-family: sans-serif}
+a{border-bottom: 1px dotted; text-decoration: none; color: #888888}
+a:hover{border-bottom: none; text-decoration: none; color: #000000}
+  </style>
+</head>
+<body>
+<h1>TeXmacs in 60 minutes<br>
+</h1>
+<p>This document will enable
+you to quickly understand what you can do with TeXmacs, how you can
+install it under Windows, and how to get started using it. For the
+official source of information see <a href="http://texmacs.org">texmacs.org</a>.<br>
+</p>
+<center>
+<table style="text-align: center; width: 781px; height: 80px;"
+ border="0" cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <td
+ style="width: 30%; text-align: center; vertical-align: middle;"><img
+ style="width: 64px; height: 100px;" alt="" src="info.jpg"><img
+ style="width: 98px; height: 100px;" alt="" src="bug.jpg"><br>
+      </td>
+      <td style="vertical-align: top; width: 30%;"><img
+ style="width: 153px; height: 100px;" alt="" src="download.jpg"><br>
+      </td>
+      <td style="vertical-align: top; width: 30%;"><img src="hand.jpg"
+ alt="" style="width: 105px; height: 100px;"><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><a href="#1"><span
+ style="font-weight: bold;">Step
+1:</span></a> <br>
+Stable features and
+current issues<br>
+      </td>
+      <td style="vertical-align: top;"><a href="#2"><span
+ style="font-weight: bold;">Step
+2:</span></a> <br>
+Download and install<br>
+      </td>
+      <td style="vertical-align: top;"><a href="#3"><span
+ style="font-weight: bold;">Step
+3:</span></a> <br>
+Hands-on tutorial<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</center>
+<br>
+<h2><a name="1"></a>1. Stable Features and Current Issues</h2>
+To know about features and issues of a software plays a key role in
+deciding whether is is sensible to start working with it: Are the bugs
+small and the workarounds painless enough to justify the benefits?<br>
+<h3><a name="features"></a>Features<br>
+</h3>
+The following is an incomplete list of features, just to give an idea
+what you can do with TeXmacs.<br>
+<ul>
+  <li>Creating and editing structured text
+    <ul>
+      <li>The usual constructs from LaTeX: Title, Author, Abstract,
+Section, are available</li>
+      <li>Same holds for environments like Tabular, Figure as well as
+for mathematical environments like definition, theorem, proof <br>
+      </li>
+      <li>Mathematical content can be imputted as known from LaTeX, and
+by alternative ways</li>
+      <li>Inclusion of graphics: <br>
+      </li>
+      <li>Labels for pages, equations, and environments and references
+thereof<br>
+      </li>
+      <li>Citations and Bibliography based on BibTeX <br>
+      </li>
+      <li>Automatically generated (and updated) Table of content,
+Bibliography, etc.<br>
+      </li>
+    </ul>
+  </li>
+  <li>Importing and exporting
+    <ul>
+      <li>HTML</li>
+      <li>LaTeX</li>
+      <li>Scheme</li>
+      <li>Verbatim</li>
+      <li>XML</li>
+      <li>PS (export only) <br>
+      </li>
+      <li>PDF (export only)<br>
+      </li>
+    </ul>
+  </li>
+  <li>Interface for computer algebra systems. There are two
+possibilities: have the system installed under Cygwin, or call it
+remotely.
+    <ul>
+      <li>Maxima: available under Cygwin, not tested yet<br>
+      </li>
+      <li>REDUCE: runs nicely remotely, about to get a local version
+running</li>
+    </ul>
+  </li>
+</ul>
+<h3><a name="issues"></a>Issues (mostly Windows specific)<br>
+</h3>
+Although most of the core functionality works fine out of the box,
+there are some known issues with current versions. Most of them are
+restricted to the Windows setting.<br>
+<ul>
+  <li>The <span style="font-weight: bold;">XWin-32 AltGr-key issue</span>.
+Description: XWin-32 is a commercial
+X-Windows server from Starnet. E.g. on a german keyboard, you have the
+AltGr (Gr means Graph) key, which is needed for essential characters
+like {[]]}~\. This key does not work. Workaround 1: change keybord map
+according to this <a
+ href="http://www.fmi.uni-passau.de/%7Eseidl/public/technotes/texmacs.altgr.pub.txt">technote</a>.
+Workaround 2: Use XWin, the free
+X-Windows server, which comes with Cygwin.<br>
+  </li>
+  <li>The <span style="font-weight: bold;">XWin copy and paste issue</span>.
+XWin is the free X-Windows server,
+which comes with Cygwin.&nbsp; After a while of use, copy and past
+between
+native Windows applications (use Crtl-C and Crtl-V here) and Cygwin
+applications (use left and middle mouse button) ceases to work.
+Workaroud 1: Close all X-applications and restart XWin. Workaround 2:
+Use XWin-32.<br>
+  </li>
+  <li>The <span style="font-weight: bold;">netpbm issue</span>. To use
+formats like .gif, .jpg, .png, .pnm, .ppm, .xpm, etc., this package is
+needed, but there is no
+official Cygwin package. Solution: Install the inofficial package
+from Chuck Wilson by pointing setup.exe to <a
+ href="http://www.neuro.gatech.edu/users/cwilson/cygutils/testing/">http://www.neuro.gatech.edu/users/cwilson/cygutils/testing/</a>.
+After installation, it is necessary to type "export
+PATH=$PATH:/usr/local/bin/netpbm" into the shell you start TeXmacs
+from. In order not to modify the PATH
+variable again and again, you should add the line
+"PATH=$PATH:/usr/local/bin/netpbm"
+to the file .bash_profile in your home directory. </li>
+  <li>The <span style="font-weight: bold;">insert image issue</span>.
+Description: if you include an image, you
+get an error message like "File 'yx.fig' not found", if TeXmacs was not
+started from the same directory as this image resides in. Workaround:
+Close TeXmacs, change to the directory where the image resides, start
+TeXmacs, and include the image.</li>
+  <li>The <span style="font-weight: bold;">ghostscript issue</span>.&nbsp;
+If the Cygwin package ghostscript is
+installed, then the X-version is shadowed, and you get an error like
+"Unknown device: x11alpha" (see <a
+ href="http://sources.redhat.com/ml/cygwin-apps/2003-11/msg00013.html">this</a>)
+and the included .fig files are broken.
+Unfortunately, the script fig2ps needs fig2dev, which is available in
+the transfig package under cygwin, which in turn requires the
+gostscript package, which leads to the wrong "gs" being used (Unknown
+device:&nbsp; x11alpha). Workaround: Run Cygwin's setup.exe and
+uninstall the ghostscript
+package; futhermore, every time you use setup.exe again, make sure to
+manually skip this package, or it will be installed automatically again.<br>
+  </li>
+</ul>
+<h2><a name="install"></a><a name="2"></a>2. Download and Installation
+(Windows)</h2>
+<ol>
+  <li><span style="font-weight: bold;">Get Cygwin.</span> If you don't
+have Cygwin installed already, download setup.exe
+from <a href="http://cygwin.com/">cygwin.com</a> and make a default
+installation. Otherwise and in case you manually compiled and installed
+TeXmacs from source, uninstall it by saying "make uninstall" in the
+same directory you once said "make install".&nbsp; In case you want to
+start afresh, you can uninstall Cygwin by removing its directory
+(usually C:\cygwin) and by running regedit, serarching for "cygnus" in
+the registry, and deleting the appropriate key. (The usual warnings for
+editing the registry apply!) Read Cygwin <a
+ href="http://cygwin.com/faq/faq_toc.html#TOC19">FAQ#19</a> as well. <br>
+  </li>
+  <li><span style="font-weight: bold;">Install TeXmacs</span> by
+running setup.exe again, but add <a
+ href="http://alice.fmi.uni-passau.de/%7Eseidl/cygwin">http://alice.fmi.uni-passau.de/~seidl/cygwin</a>
+to the server list and select this location for download. Select under
+category "Math" or "Editors"&nbsp; the newest available TeXmacs
+version. Optional but recommended: manually deselect the ghostscript
+package (see issue above, can be done later). Finish the installation
+now.</li>
+  <li><span style="font-weight: bold;">Start and test your X</span> by
+typing into a Cygwin shell:<br>
+    <ul>
+      <li>export DISPLAY=127.0.0.1:0.0</li>
+      <li>XWin -multiwindow -clipboard &amp;</li>
+      <li>xterm &amp;<br>
+      </li>
+    </ul>
+An additional window should appear. In order not to set the DISPLAY
+variable again and again, you should set it as a user's variable&nbsp;
+under
+Start-&gt;Control_Panel-&gt;System-&gt;Advanced-&gt;Environment_variables<br>
+  </li>
+  <li><span style="font-weight: bold;">Start TeXmacs</span> by typing<br>
+    <ul>
+      <li>texmacs &amp;<br>
+      </li>
+    </ul>
+into a Cygwin shell.</li>
+  <li><span style="font-weight: bold;">Report problems</span> to the <a
+ href="http://lists.texmacs.org/wws/info/texmacs-users">texmacs-users</a>
+mailing list, not to the
+cygwin list. Please include the following information: (a) the
+TeXmacs version you have installed (type "texmacs --version" in a
+shell) and/or the Cygwin package version you have installed (type
+"cygcheck -s | grep TeXmacs" in a shell), (b) The Windows version you
+are using and the file system (fat/ntfs) (c) Do or did you have a
+non-Cygwin TeX-installation? (d) Have you installed StarNet's XWin-32?<br>
+  </li>
+</ol>
+<h2><a name="tutorial"></a><a name="3"></a>3. Hands-on Tutorial</h2>
+<h3>Part 1: Title, Author, Abstract, Section and the Style of a Document<br>
+</h3>
+<ul>
+  <li>Start TeXmacs. Select Text -&gt; Title -&gt; Maketitle from the
+menu <br>
+  </li>
+  <li>Type "My little Paper" and hit [return]</li>
+  <li>Type some name and hit [return]</li>
+  <li>Type in some adress. Meanwhile your document should look like:<br>
+    <div style="text-align: center;"><img src="01.jpg" alt=""
+ style="width: 233px; height: 170px;"></div>
+  </li>
+  <li>Hit return and choose Insert -&gt; Link -&gt; Hyperlink from the
+menu. Type in an url, then hit the cursor [right] key and retype
+it.&nbsp; You&nbsp; should see something like: <br>
+    <div style="text-align: center;"><img src="02.jpg" alt=""
+ style="width: 451px; height: 79px;"></div>
+  </li>
+  <li>Hit [return] to finish the definition of the hyperlink: <br>
+    <div style="text-align: center;"><img src="03.jpg" alt=""
+ style="width: 207px; height: 73px;"></div>
+  </li>
+  <li>Hit the [right] key three times. Notice, how you gradually leave
+the hyperlink, the address, and the title. <br>
+  </li>
+  <li>Choose Text -&gt; Title -&gt; Abstract from the menu. Enter some
+text.<br>
+    <div style="text-align: center;"><img src="04.jpg" alt=""
+ style="width: 583px; height: 79px;"></div>
+  </li>
+  <li>Hit the [right] key, and notice how you leave the abstract. Hit
+[return], this brings you to the beginning of a new line.</li>
+  <li>Choose Text -&gt; Section -&gt; Section from the menu. Type "The
+First Section". Hit [return], type some text and hit [return] again. <br>
+  </li>
+  <li>Choose Text -&gt; Section -&gt; Subection from the menu. Type
+"The First Subsection of the first Section". You see now something like:<br>
+    <div style="text-align: center;"><img src="05.jpg" alt=""
+ style="width: 626px; height: 143px;"></div>
+  </li>
+  <li>Sections and subsections are not numbered. Select Document -&gt;
+Style -&gt; article from the menu, and the numberings appear. <br>
+  </li>
+  <li>Hit [return] to get to a new line. There is a second
+(LaTeX-style) way to enter sections. Type "\section". You see:<br>
+    <div style="text-align: center;"><img src="06.jpg" alt=""
+ style="width: 463px; height: 65px;"><br>
+    </div>
+  </li>
+  <li>Hit [return]. Now you have archieved the same as just before by
+selecting Text -&gt; Section -&gt; Section from the menu, but without
+removing your hands from the keyboard! Type in "The Second Section" and
+hit [return]. Type some text.</li>
+  <li>Save your file.<br>
+  </li>
+</ul>
+This finishes the first part of the hands-on tutorial.<br>
+<h3>Part 2: Tables and Figures</h3>
+<ul>
+  <li>Proceed with your file from part 1 or download <a href="hot1.tm">hot1.tm</a>.</li>
+  <li>Create a new line after the heading of&nbsp; the first section.</li>
+  <li>Select Insert -&gt; Table -&gt; Big table, and then Insert -&gt;
+Table -&gt; Plain block from the menu. (There is an icon as a shortcut
+as well, it says "Insert a table" if you move the mouse over it.) You
+see:<br>
+    <div style="text-align: center;"><img
+ style="width: 505px; height: 134px;" alt="" src="07.jpg"></div>
+  </li>
+  <li>By pressing [Alt]+[right] three times, you get three more colums.
+Accordingly, by pressing [Alt]+[down] twice you get two more rows.
+Navigate with the cursor keys and enter somthing in all the cells.</li>
+  <li>Mark the for topmost cells by clicking inside the leftmost cell,
+holding the mouse botten pressed, and moving to the rightmost cell
+(works as well in the other direction). You see something like:<br>
+    <div style="text-align: center;"><img
+ style="width: 183px; height: 113px;" alt="" src="08.jpg"><br>
+    </div>
+  </li>
+  <li>Select Table -&gt; Background color -&gt; Yellow. (There is an
+icon "Set background color of cell" as well.) Click after "Table 1."
+and enter some caption. The result looks like:<br>
+    <div style="text-align: center;"><img
+ style="width: 184px; height: 108px;" alt="" src="09.jpg"><br>
+    </div>
+  </li>
+  <li>Create a new line after the heading of&nbsp; the first subsection.</li>
+  <li>Select Insert -&gt; Image -&gt; Big figure, and then Insert -&gt;
+Image
+-&gt; Insert image from the menu. (There is an icon as a shortcut as
+well, it says "Insert a picture" if you move the mouse over it.) You
+get
+a dialog, which offers you to load .pdf, .ps, .eps, and .fig images. If
+you have installed netpbm, then you will also be able to include jpg,
+gif, etc. Select circles-xy.fig. A picture with two circles should be
+visible
+in the preview window. (ghostscript issue, fig2dev BUG in 1.0.2.10).<br>
+    <div style="text-align: center;"><img src="10.jpg" alt="">&nbsp;<br>
+    </div>
+  </li>
+  <li>This is too big. To edit the size, hit the [backspace] key. <br>
+    <div style="text-align: center;"><img src="11.jpg" alt=""><br>
+    </div>
+  </li>
+  <li>Change the factor 5/8 (which means 62.5%) to something else, say
+3/8. And hit [return]. You see image again, and it is smaller now.<br>
+  </li>
+  <li>Save your file as hot2.tm<br>
+  </li>
+</ul>
+This finishes the second part of the hands-on tutorial.<br>
+<br>
+<h3>Part 3: Mathematical Content</h3>
+<ul>
+  <li>Proceed with your file from part 2 or download <a href="hot2.tm">hot2.tm</a>.</li>
+  <li>Go somewhere in the text in Section 2 of the document and type:
+$\alpha_1[right],\ldots,\alpha_23.<br>
+    <div style="text-align: center;"><img
+ style="width: 266px; height: 66px;" alt="" src="12.jpg"><br>
+    </div>
+  </li>
+  <li>Type [right] to leave the index, [right] again to leave the math
+mode, and hit [space] to insert a space before the word "some".</li>
+  <li>Go to the end of the paragraph and make a new line</li>
+  <li>Type: \theorem[enter]For a natural number $n\in[return]</li>
+  <li>select from the menu the blackboard-bold version of N:<br>
+    <img style="width: 759px; height: 155px;" alt="" src="13.jpg"><br>
+  </li>
+  <li>Type [right] to leave the math environment, then type: it holds:<br>
+  </li>
+  <li>Now we want to insert a math display. Select Text -&gt;
+Mathematics -&gt; Equation from the menu (or faster, hit A-$).</li>
+  <li>Type:
+\sum[return]_i=1[right]^n[right]n=\frac[return]n*(n-1)[down]2.
+Notice that "*" results in a little space and not in an explicit
+multiplication sign. If you press [tab] after "*", then the star is
+choosen.<br>
+    <div style="text-align: center;"><img
+ style="width: 427px; height: 83px;" alt="" src="14.jpg"></div>
+  </li>
+  <li>Alternatively, press thrice [right] and then [return], or simply
+press [down] to leave the theorem environment and get to a new line.</li>
+  <li>Type: \proof[return]Done by Gauss in elementary school.</li>
+  <li>Save your file as hot3.tm</li>
+</ul>
+<h3>Part 4: References</h3>
+<ul>
+  <li>Move the cursor just before the text "For a natural number", and
+enter: \label[return]theorem:gauss.<br>
+    <div style="text-align: center;"><img
+ style="width: 367px; height: 31px;" alt="" src="15.jpg"><br>
+    </div>
+  </li>
+  <li>Hit [return] to commit the label. You see a little flag, where
+the otherwise invisible label sits. This flag won't be printed. If you
+go behind this flag and hit [backspace], then you can edit the label
+again. Note: the label's name is not&nbsp; important, you could habe
+jused "cat" or "dog", but mentioning the environement (theorem,
+section, etc.) helps later when a reference is made.</li>
+  <li>Go behind the Section 2 heading and type \label[return]sec:math<br>
+    <div style="text-align: center;"><img
+ style="width: 391px; height: 38px;" alt="" src="17.jpg"><br>
+    </div>
+  </li>
+  <li>Hit [return] to commit the label.</li>
+  <li>Do a similar thing with the table and hit [return].<br>
+    <div style="text-align: center;"><img
+ style="width: 208px; height: 33px;" alt="" src="18.jpg"></div>
+  </li>
+  <li>Put a label after the equation and hit [return] <span
+ style="color: rgb(255, 0, 0);">[under construction: ignore this point
+for the moment]</span><br>
+    <div style="text-align: center;"><img
+ style="width: 262px; height: 49px;" alt="" src="19.jpg"><br>
+    </div>
+  </li>
+  <li>After that much labels, we finally can refer to them! Go, e.g. at
+the end of&nbsp; the document and write: We have seen in Section
+\ref[return]sec:math[return]. The result is: <br>
+    <div style="text-align: center;"><img
+ style="width: 205px; height: 32px;" alt="" src="20.jpg"></div>
+  </li>
+  <li>go on by typing: in the Theorem on page
+\pageref[return]theorem:gauss[return] the equation
+(\ref[return]eq:gauss[return]).<br>
+  </li>
+  <li><br>
+  </li>
+  <li>Play around, insert some bogus Theorems, sections and pagebreaks
+to see how the labels change automatically!</li>
+  <li>Save your file as hot4.tm<br>
+  </li>
+</ul>
+This finishes fourth part of the hands-on tutorial.<br>
+<h2>More Tutorial Information<br>
+</h2>
+<ul>
+  <li><a href="http://www.texmacs.org/tmdoc/examples/casdoc.en.html">TeXmacs
+with CAS</a> by Chu-Ching Huang: In this chapter, the individual basic
+introductions about TeXmacs, core of this book, and the tools about
+computer algebra systems, CAS, and graph will be given.</li>
+</ul>
+<hr style="width: 100%; height: 1px;">&nbsp;
+&copy; <a href="http://www.fmi.uni-passau.de/%7Eseidl">Andreas Seidl</a>
+2003-2004
+</body>
+</html>
