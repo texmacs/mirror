@@ -65,24 +65,20 @@
 
   <subsection*|Contact information>
 
-  <\itemize>
-    <\with|par-par-sep|0fn>
+  <\with|par-par-sep|0fn>
+    <\itemize>
       <item><name|Joris van der Hoeven>
 
       Web: <hlink|<verbatim|http://www.texmacs.org/joris/main/joris.html>|http://www.texmacs.org/joris/main/joris.html>
 
       Email: vdhoeven [at] lix.polytechnique.fr
-    </with>
 
-    <\with|par-par-sep|0fn>
       <item><name|Gregoire Lecerf>
 
       Web: <hlink|<verbatim|http://www.math.uvsq.fr/~lecerf>|http://www.math.uvsq.fr/~lecerf>
 
       Email: Gregoire.Lecerf [at] math.uvsq.fr
-    </with>
 
-    <\with|par-par-sep|0fn>
       <item>Laboratoire d'informatique (LIX)
 
       École polytechnique
@@ -94,8 +90,8 @@
       Web: <hlink|<verbatim|http://www.lix.polytechnique.fr>|http://www.lix.polytechnique.fr>
 
       Fax: +33 (0)1 69 33 41 58
-    </with>
-  </itemize>
+    </itemize>
+  </with>
 
   <tmdoc-copyright|1999--2011|Joris van der Hoeven>
 
