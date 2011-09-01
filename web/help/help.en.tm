@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.2>
+<TeXmacs|1.0.7.12>
 
 <style|tmweb>
 
@@ -14,36 +14,16 @@
   <\itemize>
     <item>Answers to some <hlink|frequently asked questions|faq.en.tm>.
 
-    <item>A user manual (mostly translated into French, Italian, Portuguese
-    and Spanish).
+    <item>A user manual, which has been translated into several languages.
 
     <item>Documentation for developers.
   </itemize>
 
-  More extended documentation, including a tutorial, is available from the
-  web. A tarball with the extended documentation is available
-  <hlink|here|ftp://ftp.texmacs.org/pub/TeXmacs/doc/TeXmacs-doc.tar.gz>.
-  <TeXmacs> also integrates a Wiki, which is available from <menu|Help|Online
-  help|Wiki>. The following are some introductions to <TeXmacs>:
-
-  <\itemize>
-    <item><hlink|<TeXmacs> quick start guide|http://www.lpmo.edu/~ratier/rmll2005-ratier-chap01.pdf>,
-    an introduction by Nicolas Ratier, which fits on one A4.
-
-    <item><hlink|<TeXmacs> in 60 minutes|http://www.texmacs.org/Contrib/Seidl/tmtour/tmtour.html>,
-    a hands on tutorial by Andreas Seidl.
-
-    <item><hlink|GNU <TeXmacs>: a scientific editing
-    platform|http://www.texmacs.org/Samples/texmacs.pdf>, an introduction to
-    <TeXmacs> for scientists.
-
-    <item><hlink|A <TeXmacs> graphics tutorial|http://www.texmacs.org/Data/aTeXmacsGraphicsTutorial.pdf>,
-    by Henri Lesourd.
-  </itemize>
-
-  Notice that we also provide <hlink|several mailing lists|../home/ml.en.tm>
-  for further questions. Of course, you may also directly <hlink|contact
-  us|../contact/contact.en.tm>.
+  More extended documentation, including several
+  <hlink|tutorials|tutorial.en.tm> and <hlink|articles|articles.en.tm>, is
+  available from the web. Notice that we also provide <hlink|several mailing
+  lists|../home/ml.en.tm> for further questions. Of course, you may also
+  directly <hlink|contact us|../contact/contact.en.tm>.
 
   <tmdoc-copyright|1999--2003|Joris van der Hoeven>
 

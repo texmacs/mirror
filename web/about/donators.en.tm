@@ -1,4 +1,4 @@
-<TeXmacs|1.0.6>
+<TeXmacs|1.0.7.12>
 
 <style|tmweb>
 
@@ -11,6 +11,12 @@
   other kinds of financial contributions
 
   <\itemize>
+    <item>ANR-09-JCJC-0098-01 grant from the ``Agence Nationale de la
+    Recherche''.
+
+    <item>Digiteo 2009-36HD grant, with support from the Région Ile de
+    France.
+
     <item>Centre National de Recherche Scientifique.
 
     <item>Omega group at the Universität des Saarlandes.

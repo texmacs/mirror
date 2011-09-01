@@ -1,35 +1,36 @@
-<TeXmacs|1.0.4.3>
+<TeXmacs|1.0.7.12>
 
 <style|tmweb>
 
 <\body>
-  <tmweb-current|Help|Tutorial><tmweb-title|The <TeXmacs>
-  tutorial|<tmweb-help-links>>
+  <tmweb-current|Help|Tutorials><tmweb-title|<TeXmacs>
+  tutorials|<tmweb-help-links>>
 
-  This lists the currently available tutorials:
+  We recommend the following tutorials for learning <TeXmacs>:
 
-  <\enumerate-numeric>
-    <item>We recommend new <TeXmacs> users to take a look at the <TeXmacs>
-    tutorial, which provides many examples and screenshots. From within
-    <TeXmacs>, the tutorial is available from the <menu|Help|Tutorial> menu,
-    after downloading the extended documentation from the web
-    (<menu|Help|Online help|Update from web>). Alternatively, you may
-    <hlink|download|http://www.texmacs.org/Data/TeXmacs-tutorial.tar.gz> the
-    entire tutorial, unpack it using
+  <\itemize>
+    <item><hlink|<TeXmacs> quick start guide|../documents/tutorials/TeXmacs-quick-start.pdf>,
+    an introduction by Nicolas Ratier, which fits on one A4.
 
-    <\code>
-      \ \ \ \ gunzip -c TeXmacs-tutorial.tar.gz \| tar xvf -
-    </code>
+    <item><hlink|<TeXmacs> in 60 minutes|../documents/tutorials/TeXmacs-in-60-minutes.html>,
+    a hands on tutorial by Andreas Seidl.
 
-    Finally, you may also <hyper-link|browse|../tutorial/web-tutorial.en.tm>
-    the tutorial on the web. Notice that the pictures of the tutorial are
-    slightly outdated and that the tutorial itself is still quite incomplete.
+    <item><hlink|A <TeXmacs> graphics tutorial|../documents/tutorials/TeXmacs-graphics-tutorial.pdf>,
+    by Henri Lesourd.
 
-    <item>A <hlink|hands-on tutorial|http://www.fmi.uni-passau.de/~seidl/texmacs/tmtour.html#3>
-    to browse on the web.
-  </enumerate-numeric>
+    <item><hlink|Using plug-ins to insert technical
+    figures|../documents/tutorials/TeXmacs-graphical-plugins.pdf>, by Nicolas
+    Ratier.
 
-  <tmdoc-copyright|1999--2003|Joris van der Hoeven>
+    <item><hlink|Customizing <TeXmacs>|../documents/tutorials/TeXmacs-customization.pdf>,
+    by Nicolas Ratier.
+
+    <item>A somewhat older <hlink|hands-on
+    tutorial|http://www.fmi.uni-passau.de/~seidl/texmacs/tmtour.html#3> to
+    browse on the web.
+  </itemize>
+
+  <tmdoc-copyright|1999--2011|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
