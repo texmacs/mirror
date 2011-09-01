@@ -1,10 +1,34 @@
-<TeXmacs|1.0.6>
+<TeXmacs|1.0.7.12>
 
 <style|tmweb>
 
 <\body>
   <tmweb-current|Home|News><tmweb-title|Last news about
   <TeXmacs>|<tmweb-home-links>>
+
+  <section*|Release of the new <name|Qt> port of <TeXmacs>>
+
+  From version 1.0.7.12 of <TeXmacs> on, the default graphical interface of
+  <TeXmacs> is based on the <hlink|<name|Qt><nbsp>toolkit|http://qt.nokia.com/products/>
+  instead of the classical X11 system. As a consequence, we also provide new
+  ports for <name|Windows> and <name|MacOS>, with a native look and feel.
+
+  <section*|Version 1.0.7 has been released>
+
+  The main improvements with respect to <TeXmacs>-1.0.6 are:
+
+  <\itemize>
+    <item>Improved <name|Scheme> sessions and syntactic highlighting of
+    <name|Scheme> programs.
+
+    <item>Improved tool for drawing graphical pictures.
+
+    <item>Basic CJK support.
+
+    <item>Replacement of <name|Proclus> plug-in by integrated linking tool.
+
+    <item>New plug-ins for <name|Cadabra>, <name|Feynmf> and <name|Sage>.
+  </itemize>
 
   <section*|Version 1.0.6 has been released>
 
@@ -14,8 +38,8 @@
     <item>Improved <name|<LaTeX>> and <name|Html> converters and support for
     <name|MathML>.
 
-    <item>An <with|mode|math|\<alpha\>>-version of a graphical mode for
-    drawing technical pictures.
+    <item>An <math|\<alpha\>>-version of a graphical mode for drawing
+    technical pictures.
 
     <item>Default use of <name|Type 1> fonts.
 
