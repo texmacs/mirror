@@ -37,18 +37,18 @@
 
   <paragraph|Download the latest version>
 
-  Download the <hlink|latest version|<merge|http://www.texmacs.org/Download/ftp/targz/|<merge|<TeXmacs-version-release|tgz>|-src.tar.gz>>>
+  Download the <hlink|latest version|<merge|http://www.texmacs.org/Download/ftp/targz/|<merge|<TeXmacs-version-release|devel>|-src.tar.gz>>>
   of the source code, or the <hlink|latest stable
-  version|<merge|http://www.texmacs.org/Download/ftp/targz/|<merge|<TeXmacs-version-release|stgz>|-src.tar.gz>>>,
+  version|<merge|http://www.texmacs.org/Download/ftp/targz/|<merge|<TeXmacs-version-release|stable>|-src.tar.gz>>>,
   <verbatim|cd> into the directory where you wish to compile <TeXmacs> and
   type
 
   <\shell-code>
-    tar -zxvf <merge|<TeXmacs-version-release|tgz>|-src.tar.gz>
+    tar -zxvf <merge|<TeXmacs-version-release|devel>|-src.tar.gz>
   </shell-code>
 
   All files will be unpacked into the directory
-  <with|font-family|tt|<merge|<TeXmacs-version-release|tgz>|-src>>, which is
+  <with|font-family|tt|<merge|<TeXmacs-version-release|devel>|-src>>, which is
   the 'installation directory'.
 
   <paragraph|Download the current development version>

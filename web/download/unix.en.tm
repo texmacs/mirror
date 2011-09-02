@@ -29,8 +29,8 @@
 
   <section|Download the package>
 
-  Download the <hlink|most recent|<merge|http://www.texmacs.org/Download/ftp/targz/|<merge|<TeXmacs-version-release|tgz>|-static-gnu-linux.tar.gz>>>
-  or <hlink|last stable|<merge|http://www.texmacs.org/Download/ftp/targz/|<merge|<TeXmacs-version-release|stgz>|-static-gnu-linux.tar.gz>>>
+  Download the <hlink|most recent|<merge|http://www.texmacs.org/Download/ftp/targz/|<merge|<TeXmacs-version-release|devel>|-static-gnu-linux.tar.gz>>>
+  or <hlink|last stable|<merge|http://www.texmacs.org/Download/ftp/targz/|<merge|<TeXmacs-version-release|stable>|-static-gnu-linux.tar.gz>>>
   static binary distribution of GNU <TeXmacs> for standard Intel or AMD based
   PC's under GNU/<name|Linux>. If you have another processor or operating
   system, then you may try to <hlink|search and

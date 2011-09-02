@@ -23,13 +23,13 @@
 
   <section|Download, install and run>
 
-  After <hlink|downloading|<merge|http://www.texmacs.org/Download/ftp/rpm/|<merge|<TeXmacs-version-release|rpm>|.i386.rpm>>>
+  After <hlink|downloading|<merge|http://www.texmacs.org/Download/ftp/rpm/|<merge|<TeXmacs-version-release|redhat-devel>|.i386.rpm>>>
   the GNU <TeXmacs> distribution for standard Intel or AMD based PC's under
   GNU/<name|Linux>, you may install the software from a terminal by typing
   (as root)
 
   <\shell-code>
-    rpm -i <merge|<TeXmacs-version-release|rpm>|.i386.rpm>
+    rpm -i <merge|<TeXmacs-version-release|redhat-devel>|.i386.rpm>
   </shell-code>
 
   The program can now be launched using
@@ -39,7 +39,7 @@
   </shell-code>
 
   In a similar way, you may download an RPM for the <hlink|last stable
-  version|<merge|http://www.texmacs.org/Download/ftp/rpm/|<merge|<TeXmacs-version-release|srpm>|.i386.rpm>>>
+  version|<merge|http://www.texmacs.org/Download/ftp/rpm/|<merge|<TeXmacs-version-release|redhat-stable>|.i386.rpm>>>
   of <TeXmacs>. We also provide some RPM's for <hlink|other processors and
   operating systems|http://www.texmacs.org/Download/ftp/rpm/>.
 

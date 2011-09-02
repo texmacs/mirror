@@ -90,9 +90,9 @@
   <section|Download the <TeXmacs> distribution>
 
   Download the <hlink|latest version (3.8
-  Mb)|<merge|ftp://ftp.texmacs.org/pub/TeXmacs/targz/|<merge|<TeXmacs-version-release|tgz>|-src.tar.gz>>>
+  Mb)|<merge|ftp://ftp.texmacs.org/pub/TeXmacs/targz/|<merge|<TeXmacs-version-release|devel>|-src.tar.gz>>>
   of the source code, or the <hlink|latest stable version (3.8
-  Mb)|<merge|ftp://ftp.texmacs.org/pub/TeXmacs/targz/|<merge|<TeXmacs-version-release|stgz>|-src.tar.gz>>>.
+  Mb)|<merge|ftp://ftp.texmacs.org/pub/TeXmacs/targz/|<merge|<TeXmacs-version-release|stable>|-src.tar.gz>>>.
   You may for instance save the distribution in
   <with|font-family|tt|C:\\tmp>. The name of the file with the distribution
   is of the form <with|font-family|tt|TeXmacs-[source version]-src.tar.gz>,
