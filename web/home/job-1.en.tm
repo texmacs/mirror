@@ -3,8 +3,10 @@
 <style|mmxdoc>
 
 <\body>
-  <tmweb-current|Home|Jobs><tmweb-title|<with|color|red|[EXPIRED]> system
-  administrator and software engineer|<tmweb-home-links>>
+  <tmweb-current|Home|Jobs><tmweb-title|System administrator and software
+  engineer|<tmweb-home-links>>
+
+  <with|color|red|Expired since october 1, 2009>
 
   <subsection*|Context>
 
@@ -68,13 +70,13 @@
 
       Web: <hlink|<verbatim|http://www.texmacs.org/joris/main/joris.html>|http://www.texmacs.org/joris/main/joris.html>
 
-      Email: vdhoeven [at] lix.polytechnique.fr
+      Email: <tmweb-email|vdhoeven|lix.polytechnique.fr>
 
       <item><name|Gregoire Lecerf>
 
-      Web: <hlink|<verbatim|http://www.math.uvsq.fr/~lecerf>|http://www.math.uvsq.fr/~lecerf>
+      Web: <hlink|<verbatim|http://lecerf.perso.math.cnrs.fr/>|http://lecerf.perso.math.cnrs.fr/>
 
-      Email: Gregoire.Lecerf [at] math.uvsq.fr
+      Email: <tmweb-email|gregoire.lecerf|math.cnrs.fr>
 
       <item>Laboratoire d'informatique (LIX)
 

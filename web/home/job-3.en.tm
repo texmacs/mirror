@@ -6,6 +6,8 @@
   <tmweb-current|Home|Jobs><tmweb-title|Job offer: specialist in scientific
   document formats|<tmweb-home-links>>
 
+  <with|color|red|Deadine for applications: September 30, 2011>
+
   <subsection*|Context>
 
   The ANR/Digiteo <name|MaGiX> project aims the development of a free
@@ -65,13 +67,13 @@
 
       Web: <hlink|<verbatim|http://www.texmacs.org/joris/main/joris.html>|http://www.texmacs.org/joris/main/joris.html>
 
-      Email: vdhoeven [at] lix.polytechnique.fr
+      Email: <tmweb-email|vdhoeven|lix.polytechnique.fr>
 
       <item><name|Gregoire Lecerf>
 
-      Web: <hlink|<verbatim|http://www.math.uvsq.fr/~lecerf>|http://www.math.uvsq.fr/~lecerf>
+      Web: <hlink|<verbatim|http://lecerf.perso.math.cnrs.fr/>|http://lecerf.perso.math.cnrs.fr/>
 
-      Email: Gregoire.Lecerf [at] math.uvsq.fr
+      Email: <tmweb-email|gregoire.lecerf|math.cnrs.fr>
 
       <item>Laboratoire d'informatique (LIX)
 
