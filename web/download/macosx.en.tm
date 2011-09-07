@@ -46,6 +46,9 @@
     sudo port install texmacs
   </shell-code>
 
+  Of course, you may all <hlink|compile <TeXmacs> from the
+  sources|sources.en.tm>.
+
   <tmdoc-copyright|1999--2011|Joris van der Hoeven|Massimiliano Gubinelli>
 
   <tmweb-license>

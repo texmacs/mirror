@@ -6,7 +6,7 @@
   <tmweb-current|Download|Linux><tmweb-title|<TeXmacs> inside
   GNU/<name|Linux> distributions|<tmweb-download-links>>
 
-  The following GNU/Linux distributions provide packages or third-part
+  The following GNU/<name|Linux> distributions provide packages or third-part
   packages for <TeXmacs>:
 
   <\itemize>
@@ -42,7 +42,7 @@
   Up-to-date TeXmacs rpms can be found in the <hlink|Sisyphus
   repository|ftp://ftp.altlinux.ru/pub/distributions/ALTLinux/Sisyphus/>.
 
-  <section*|Debian><label|debian>
+  <section*|Debian GNU/Linux><label|debian>
 
   <TeXmacs> is available in <hlink|<name|Debian>
   <name|GNU>/<name|Linux>|http://www.debian.org>. On a correctly configured

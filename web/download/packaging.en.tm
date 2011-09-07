@@ -46,13 +46,16 @@
   Some of the fonts which are present in the official <TeXmacs> sources may
   also be present in the <TeX>/<LaTeX> packages for your distribution. In
   order to reduce the size of your <TeXmacs> package, you might wish to
-  factor out those fonts.
+  factor out those fonts. However, the default fonts which are shipped with
+  <TeXmacs> may change from time to time. Therefore, it is probably cleaner
+  to distribute <TeXmacs> as a whole, except when about 10 megabytes of
+  additional package size really matters.
 
   <paragraph*|Improving the boot speed>
 
   On <name|Knoppix> systems, it may be interested to shortcut several things
   which are done when you run <TeXmacs> for the first time, by making use of
-  the <TeXmacs> cache. In order to do so, install a brandnew version of
+  the <TeXmacs> cache. In order to do so, install a<nbsp>brandnew version of
   <TeXmacs> and remove your <verbatim|~/.TeXmacs> directory. Start <TeXmacs>
   once and ask the program to build the complete user manual using
   <menu|Help|Full manuals|User manual>. When <TeXmacs> will be done,

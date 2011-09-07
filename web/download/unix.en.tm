@@ -4,11 +4,11 @@
 
 <\body>
   <tmweb-current|Download|Linux><tmweb-title|Installing <TeXmacs> on
-  <name|Linux> systems|<tmweb-download-links>>
+  GNU/<name|Linux> systems|<tmweb-download-links>>
 
   <section|Installation method>
 
-  Depending on your <name|Linux> distribution, you may choose between the
+  Depending on your GNU/<name|Linux> distribution, you may choose between the
   following installation methods:
 
   <\enumerate>
@@ -23,7 +23,7 @@
     as explained below.
   </enumerate>
 
-  If you are interested by packaging <TeXmacs> for some <name|Linux> or
+  If you are interested in packaging <TeXmacs> for a new GNU/<name|Linux> or
   <name|Unix> distribution, then please take a look at our
   <hlink|suggestions|packaging.en.tm>.
 

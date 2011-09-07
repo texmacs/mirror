@@ -8,7 +8,9 @@
 
   On this page, we explain how to compile <TeXmacs> from the source code on
   <name|Unix>-like system, including <name|MacOS> and <name|Windows> with
-  <name|Mingw> or <name|Cygwin>.
+  <name|Mingw> or <name|Cygwin>. In the case of <name|Windows>, you may first
+  want to install the appropriate build environment and follow our
+  <hlink|instructions for compilation on <name|Windows>|winqt.en.tm>.
 
   <section|Verify the <TeXmacs> dependencies>
 
@@ -48,8 +50,8 @@
   </shell-code>
 
   All files will be unpacked into the directory
-  <with|font-family|tt|<merge|<TeXmacs-version-release|devel>|-src>>, which is
-  the 'installation directory'.
+  <with|font-family|tt|<merge|<TeXmacs-version-release|devel>|-src>>, which
+  is the 'installation directory'.
 
   <paragraph|Download the current development version>
 

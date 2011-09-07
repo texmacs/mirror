@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.3>
+<TeXmacs|1.0.7.12>
 
 <style|tmweb>
 
@@ -27,54 +27,41 @@
   Click on the <verbatim|MSYS> icon on your desktop in order to launch a Unix
   terminal and fetch the latest <name|Svn> version of <TeXmacs> as follows:
 
-  <\shell-fragment>
+  <\shell-code>
     mkdir ~/texmacs
 
     cd ~/texmacs
 
     svn co svn://svn.savannah.gnu.org/texmacs/trunk/src
+  </shell-code>
 
-    svn co svn://svn.savannah.gnu.org/texmacs/trunk/doc
-  </shell-fragment>
-
-  You will also need to download the <TeXmacs> Windows fonts and uncompress
-  them in the directory <verbatim|~/texmacs/src/TeXmacs>:
-
-  <\shell-fragment>
-    cd ~/texmacs/src/TeXmacs
-
-    wget http://ftp.texmacs.org/TeXmacs/fonts/TeXmacs-windows-fonts-1.0-noarch.tar.gz
-
-    tar -zxvf TeXmacs-windows-fonts-1.0-noarch.tar.gz
-  </shell-fragment>
+  \;
 
   <section|Compile <TeXmacs>>
 
   Go to the directory with the <TeXmacs> sources
 
-  <\shell-fragment>
+  <\shell-code>
     cd ~/texmacs/src
-  </shell-fragment>
+  </shell-code>
 
   Configure using
 
-  <\shell-fragment>
-    ./configure --enable-qt \\
-
-    \ \ CPPFLAGS="-I/usr/include" LDFLAGS="-L/usr/lib"
-  </shell-fragment>
+  <\shell-code>
+    ./configure CPPFLAGS="-I/usr/include" LDFLAGS="-L/usr/lib"
+  </shell-code>
 
   Build <TeXmacs>
 
-  <\shell-fragment>
-    make WIN_BUNDLE
-  </shell-fragment>
+  <\shell-code>
+    make WINDOWS_BUNDLE
+  </shell-code>
 
   Run
 
-  <\shell-fragment>
+  <\shell-code>
     ~/texmacs/distr/TeXmacs-Windows/bin/texmacs.exe
-  </shell-fragment>
+  </shell-code>
 
   The first time you run <TeXmacs>, the program will crash. Subsequent runs
   should work fine.
@@ -83,13 +70,13 @@
 
   After building <TeXmacs>, you can create an installer using
 
-  <\shell-fragment>
+  <\shell-code>
     cd ~/texmacs/src/misc/windows
 
     iscc TeXmacs.iss
-  </shell-fragment>
+  </shell-code>
 
-  The installer can be found at <verbatim|~/texmacs/distr/texmacs-installer.exe>.
+  The installer can be found in the directory <verbatim|~/texmacs/distr>.
 
   <tmdoc-copyright|2010|David Michel|Massimiliano Gubinelli|Joris van der
   Hoeven>
