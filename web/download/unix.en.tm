@@ -29,7 +29,7 @@
 
   <section|Download the package>
 
-  Download the <hlink|most recent|<merge|http://www.texmacs.org/Download/ftp/targz/|<merge|<TeXmacs-version-release|devel>|-static-gnu-linux.tar.gz>>>
+  Download the <hlink|most-recent|<merge|http://www.texmacs.org/Download/ftp/tmftp/generic/|<TeXmacs-version-release|devel>|-x11-i386-pc-linux-gnu.tar.gz>>
   or <hlink|last stable|<merge|http://www.texmacs.org/Download/ftp/targz/|<merge|<TeXmacs-version-release|stable>|-static-gnu-linux.tar.gz>>>
   static binary distribution of GNU <TeXmacs> for standard Intel or AMD based
   PC's under GNU/<name|Linux>. If you have another processor or operating
@@ -48,9 +48,10 @@
   </shell-code>
 
   All files will be unpacked into the directory
-  <with|font-family|tt|TeXmacs-<with|color|brown|[version]>>. Let
-  <with|font-family|tt|<with|color|brown|[installation directory]>> be the
-  full path of this directory.
+  <with|font-family|tt|TeXmacs-<with|color|brown|[version]>-<with|color|brown|[your
+  system]>> (or <with|font-family|tt|TeXmacs-<with|color|brown|[version]>>,
+  for some older versions). Let <with|font-family|tt|<with|color|brown|[installation
+  directory]>> be the full path of this directory.
 
   <section|Set the environment variables>
 

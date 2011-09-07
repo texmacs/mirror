@@ -23,7 +23,7 @@
 
   <section|Download, install and run>
 
-  After <hlink|downloading|<merge|http://www.texmacs.org/Download/ftp/rpm/|<merge|<TeXmacs-version-release|devel-release>|.i386.rpm>>>
+  After <hlink|downloading|<merge|http://www.texmacs.org/Download/ftp/tmftp/redhat/|<merge|<TeXmacs-version-release|devel-release>|.i386.rpm>>>
   the GNU <TeXmacs> distribution for standard Intel or AMD based PC's under
   GNU/<name|Linux>, you may install the software from a terminal by typing
   (as root)

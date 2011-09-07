@@ -12,7 +12,7 @@
   <name|MacOS-X>, you should:
 
   <\enumerate>
-    <item>Download the diskimage <hlink|<scm|TeXmacs.dmg>|ftp://ftp.texmacs.org/pub/TeXmacs/macosx/qt/TeXmacs.dmg>
+    <item>Download the diskimage <hlink|<verbatim|<merge|<TeXmacs-version-release|devel>|.dmg>>|<merge|http://www.texmacs.org/Download/ftp/tmftp/macos/|<TeXmacs-version-release|devel>|.dmg>>
     (Intel processors only).
 
     <item>Open the diskimage and drag the <TeXmacs> icon to your applications

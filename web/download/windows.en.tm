@@ -12,10 +12,10 @@
   you should:
 
   <\enumerate>
-    <item>Download <hlink|<scm|texmacs-installer.exe>|http://www.texmacs.org/Download/ftp/windows/qt/texmacs-installer.exe>.
+    <item>Download <hlink|<verbatim|<merge|<TeXmacs-version-release|devel>|-installer.exe>>|<merge|http://www.texmacs.org/Download/ftp/tmftp/windows/|<TeXmacs-version-release|devel>|-installer.exe>>.
 
-    <item>Execute the downloaded <verbatim|texmacs-installer.exe> and follow
-    the installation instructions.
+    <item>Execute the downloaded installer and follow the installation
+    instructions.
 
     <item>Click on the <TeXmacs> icon on your desktop in order to launch
     <TeXmacs>.
