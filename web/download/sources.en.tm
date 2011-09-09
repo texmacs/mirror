@@ -3,7 +3,7 @@
 <style|tmweb>
 
 <\body>
-  <tmweb-current|Download|Sources><tmweb-title|Compile <TeXmacs> from the
+  <tmweb-current|Download|Sources><tmweb-title|Compiling <TeXmacs> from the
   source code|<tmweb-download-links>>
 
   On this page, we explain how to compile <TeXmacs> from the source code on
@@ -114,6 +114,8 @@
   <\shell-code>
     setenv PATH /usr/local/bin:$PATH
   </shell-code>
+
+  \;
 
   <section|Configuration and build options>
 
