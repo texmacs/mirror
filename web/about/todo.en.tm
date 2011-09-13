@@ -3,10 +3,10 @@
 <style|tmweb>
 
 <\body>
-  <tmweb-current|About|Plans><tmweb-title|Projects for
+  <tmweb-current|About|To do><tmweb-title|Projects for
   <TeXmacs>|<tmweb-about-links>>
 
-  <tmdoc-include|about/projects/future.en.tm>
+  <tmdoc-include|about/projects/todo.en.tm>
 
   <tmdoc-copyright|1999--2003|Joris van der Hoeven>
 
