@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.12>
+<TeXmacs|1.0.7.14>
 
 <style|tmweb>
 
@@ -12,7 +12,7 @@
     <item><hlink|<TeXmacs> quick start guide|../documents/tutorials/TeXmacs-quick-start.pdf>,
     an introduction by Nicolas Ratier, which fits on one A4.
 
-    <item><hlink|<TeXmacs> in 60 minutes|../documents/tutorials/TeXmacs-in-60-minutes.html>,
+    <item><hlink|<TeXmacs> in 60 minutes|../documents/tutorials/TeXmacs-in-60-minutes/tmtour.html>,
     a hands on tutorial by Andreas Seidl.
 
     <item><hlink|A <TeXmacs> graphics tutorial|../documents/tutorials/TeXmacs-graphics-tutorial.pdf>,
