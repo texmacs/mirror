@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.12>
+<TeXmacs|1.0.7.13>
 
 <style|mmxdoc>
 
@@ -6,7 +6,7 @@
   <tmweb-current|Home|Jobs><tmweb-title|Job offer: specialist in scientific
   document formats|<tmweb-home-links>>
 
-  <with|color|red|Deadine for applications: September 30, 2011>
+  <with|color|red|EXPIRED>
 
   <subsection*|Context>
 
