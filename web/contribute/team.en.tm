@@ -25,6 +25,12 @@
   the topics on which you wish to contribute. You may look at the page
   <verbatim|team-joris.en.tm> for an example.
 
+  When sufficient funding is available, then we also organize meetings of the
+  <TeXmacs> team. The <hlink|first general <TeXmacs>
+  workshop|http://magix.lix.polytechnique.fr/magix/workshop/workshop.en.html>
+  was organized in February 2012 at Falesia Hotel, Albufeira, Portugal. We
+  may also have funding for individual visits at École polytechnique.
+
   <section*|Current members of the team>
 
   \;

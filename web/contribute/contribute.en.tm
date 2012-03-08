@@ -3,7 +3,7 @@
 <style|tmweb>
 
 <\body>
-  <tmweb-current|Contribute|Contribute><tmweb-title|Contributing to
+  <tmweb-current|Contribute|Contributing><tmweb-title|Contributing to
   <TeXmacs>|<tmweb-contribute-links>>
 
   <section|Introduction>
@@ -46,7 +46,7 @@
   using <hlink|SVN|../download/svn.en.tm>, but we prefer contributions in the
   form of <hlink|patches|../contact/patches.en.tm>.
 
-  <section|The <TeXmacs> team and prioritary tasks>
+  <section|The <TeXmacs> team and prioritary tasks><label|prioritary-tasks>
 
   People who are interested to contibute to <TeXmacs> on a regular basis are
   invited to join the <hlink|<TeXmacs> team|team.en.tm>. In order to organize
@@ -75,15 +75,72 @@
 
   <subsection|Organizational tasks>
 
+  <\description>
+    <item*|Website>This task concerns the development of a well designed,
+    functional, rich, and up to date web site, for which the main content can
+    be written using <TeXmacs>.
+
+    <item*|News>It would be nice if somebody could take care of important
+    announcements concerning <TeXmacs>, as well as the diffusion of
+    announcements of new versions on all appropriate media.
+
+    <item*|Publicity>It would be nice if someone could organize various kinds
+    of publicity for <TeXmacs>, such as a good presence on the web, a good
+    presence at public institutions (Universities, CNRS, Inria,
+    Polytechnique, Digiteo, CNDP, etc.), email database with people to
+    contact occasionally at major releases, etc.
+
+    <item*|Bug and wish lists>The mere task of reproducing bugs from the
+    <name|Savannah> bug list is very time consuming. It would be nice if more
+    people could be involved in checking whether some items are not simply
+    outdated or irrelevant. Easy bugs could also directly be fixed by
+    <TeXmacs> hackers. Similarly, it should be checked whether some of the
+    wishes are not already implemented in a more recent version.
+  </description>
+
   <subsection|Documentation tasks>
 
   <\description>
-    <item*|Videos>Short video clips are highly efficient for learning
-    different aspects of the program. This task consist of selecting,
-    editing, converting and distributing contributed videos.
+    <item*|<hlink|Videos|task-videos.en.tm>>Short video clips are highly
+    efficient for learning different aspects of the program. This task
+    consist of selecting, editing, converting and distributing contributed
+    videos.
+
+    <item*|Tutorials>We often receive <TeXmacs> tutorials in various lengths,
+    languages and for various target publics. We need someone to collect this
+    material and to present it in an attractive way on our website.
+
+    <item*|Pedagogic material and sample documents>In order to use <TeXmacs>
+    at high school or at universities, it is important to build a data base
+    with pedagogic material written using <TeXmacs>. More generally, sample
+    <TeXmacs> documents may also be interesting to see what is possible and
+    for learning <TeXmacs>.
+
+    <item*|Internationalization>We need someone to coordinate the effort of
+    translating <TeXmacs> into several languages.
+
+    <item*|FAQ>We need a maintainer for the list of Frequently Asked
+    Questions.
   </description>
 
   <subsection|Development tasks>
+
+  <\description>
+    <item*|Plug-ins>There are many existing plug-ins for <TeXmacs>. However,
+    some of the plug-ins are not documented, no longer maintained, or not
+    portable on some systems. This task consists of keeping the support of
+    <TeXmacs> plug-ins up to date and to assist plug-in developers with
+    technical advice.
+
+    <item*|<TeXmacs> wiki>It would be great if we could edit <TeXmacs>
+    documents directly on the web, as on a wiki. This would ease many of the
+    documentation related tasks which involve a lot of sharing documents.
+
+    <item*|Automatic generation of documentation>Many features of <TeXmacs>
+    can be documented in a programmatic way using <scheme>, such as
+    explanations of menu items, a list of all active keyboard shortcuts in
+    the current mode, etc.
+  </description>
 
   <tmdoc-copyright|1999--2003|Joris van der Hoeven>
 
