@@ -1,0 +1,40 @@
+<TeXmacs|1.0.7.14>
+
+<style|tmweb>
+
+<\body>
+  <tmweb-current|Contribute|Team><tmweb-title|The <TeXmacs>
+  team|<tmweb-contribute-links>>
+
+  People who are interested to contibute to <TeXmacs> on a regular basis (or
+  have done important work in the past) are invited to join the <TeXmacs>
+  team.
+
+  In that case, we kindly ask you to create an account on
+  <hlink|<name|Savannah>|http://savannah.gnu.org> and send a request to join
+  the <TeXmacs> developers team. You also need to enter a public SSH key (see
+  <samp|My Account Conf> and then <samp|Account Configuration>). This will
+  enable you to modify the <TeXmacs> source code, the documentation as well
+  as the website using SVN, as described on <hlink|the subversion page for
+  <TeXmacs>|https://savannah.gnu.org/svn/?group=texmacs>.
+
+  In particular, the <TeXmacs> website has been put in the subdirectory
+  <verbatim|trunk/web>. We kindly ask new members of the <TeXmacs> team to
+  add a file <verbatim|team-<em|myname>.en.tm> in
+  <verbatim|trunk/web/contribute> with a short description of yourself and
+  the topics on which you wish to contribute. You may look at the page
+  <verbatim|team-joris.en.tm> for an example.
+
+  <section*|Current members of the team>
+
+  \;
+
+  <block|<tformat|<table|<row|<cell|<tabular*|<tformat|<table|<row|<cell|<hlink|<image|team-joris.jpg|100px|||>|team-joris.en.tm>>>|<row|<cell|<hlink|Joris
+  van der Hoeven|team-joris.en.tm>>>>>>>>>>>
+
+  \;
+
+  <tmdoc-copyright|2012|Joris van der Hoeven>
+
+  <tmweb-license>
+</body>
