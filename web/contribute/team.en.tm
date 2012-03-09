@@ -35,7 +35,8 @@
 
   \;
 
-  <block|<tformat|<table|<row|<cell|<tabular*|<tformat|<table|<row|<cell|<hlink|<image|team-joris.jpg|100px|||>|team-joris.en.tm>>>|<row|<cell|<hlink|Joris
+  <tabular|<tformat|<table|<row|<cell|<tabular*|<tformat|<table|<row|<cell|<hlink|<image|team-miguel.jpg||150px||>|team-miguel.en.tm>>>|<row|<cell|<hlink|Miguel
+  de Benito Delgado|team-miguel.en.tm>>>>>>>>>>><space|1em><tabular|<tformat|<table|<row|<cell|<tabular*|<tformat|<table|<row|<cell|<hlink|<image|team-joris.jpg||150px||>|team-joris.en.tm>>>|<row|<cell|<hlink|Joris
   van der Hoeven|team-joris.en.tm>>>>>>>>>>>
 
   \;

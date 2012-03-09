@@ -14,7 +14,7 @@
   <TeXmacs>-related tasks|tasks.en.tm>, then you should contact him at
   <tmweb-email|vdhoeven|texmacs.org>.
 
-  <htab|5mm><image|team-joris.jpg|100px|||>
+  <htab|5mm><image|team-joris.jpg||150px||>
 
   <tmdoc-copyright|2012|Joris van der Hoeven>
 

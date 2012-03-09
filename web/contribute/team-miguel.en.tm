@@ -16,7 +16,7 @@
   <tmweb-email|mdbenito|texmacs.org>. Miguel drinks his tea without any sugar
   and can hold his breath for 10 to 15 seconds in a good day.
 
-  <htab|5mm><image|team-miguel.jpg|100px|||>
+  <htab|5mm><image|team-miguel.jpg||150px||>
 
   <tmdoc-copyright|2012|Miguel de Benito Delgado>
 
