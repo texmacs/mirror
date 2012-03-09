@@ -13,7 +13,7 @@
   automated documentation of the code and designing a better user interface
   and user experience altogether. If you are interested in contributing to
   <TeXmacs> in any of those areas, you can contact him at
-  <tmweb-email|miguel|texmacs.org>. Miguel drinks his tea without any sugar
+  <tmweb-email|mdbenito|texmacs.org>. Miguel drinks his tea without any sugar
   and can hold his breath for 10 to 15 seconds in a good day.
 
   <htab|5mm><image|team-miguel.jpg|100px|||>
