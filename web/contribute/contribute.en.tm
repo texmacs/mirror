@@ -126,11 +126,11 @@
   <subsection|Development tasks>
 
   <\description>
-    <item*|Plug-ins>There are many existing plug-ins for <TeXmacs>. However,
-    some of the plug-ins are not documented, no longer maintained, or not
-    portable on some systems. This task consists of keeping the support of
-    <TeXmacs> plug-ins up to date and to assist plug-in developers with
-    technical advice.
+    <item*|<hlink|Plug-ins|task-plugins.en.tm>>There are many existing
+    plug-ins for <TeXmacs>. However, some of the plug-ins are not documented,
+    no longer maintained, or not portable on some systems. This task consists
+    of keeping the support of <TeXmacs> plug-ins up to date and to assist
+    plug-in developers with technical advice.
 
     <item*|<TeXmacs> wiki>It would be great if we could edit <TeXmacs>
     documents directly on the web, as on a wiki. This would ease many of the
