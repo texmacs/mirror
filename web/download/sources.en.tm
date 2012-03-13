@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.12>
+<TeXmacs|1.0.7.14>
 
 <style|tmweb>
 
@@ -75,7 +75,8 @@
   described on <hlink|the subversion page for
   <TeXmacs>|https://savannah.gnu.org/svn/?group=texmacs>. You may also use
   <name|Savannah> in order to submit <hlink|patches|../contact/patches.en.tm>
-  to<nbsp><TeXmacs>.
+  to<nbsp><TeXmacs>. A <hlink|Git|http://git-scm.com/> mirror of the main
+  Subversion repository is maintained at <hlink|Gitorious|https://gitorious.org/texmacs/texmacs>.
 
   <section|Compile, install and run>
 
@@ -161,7 +162,7 @@
   <hlink|contact|../contact/contact.en.tm> us, but you might need to be more
   patient.
 
-  <tmdoc-copyright|1999--2011|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2012|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
