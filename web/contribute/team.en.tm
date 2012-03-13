@@ -33,13 +33,11 @@
 
   <section*|Current members of the team>
 
-  \;
-
-  <tabular|<tformat|<table|<row|<cell|<tabular*|<tformat|<table|<row|<cell|<hlink|<image|team-miguel.jpg||150px||>|team-miguel.en.tm>>>|<row|<cell|<hlink|Miguel
-  de Benito Delgado|team-miguel.en.tm>>>>>>>>>>><space|1em><tabular|<tformat|<table|<row|<cell|<tabular*|<tformat|<table|<row|<cell|<hlink|<image|team-joris.jpg||150px||>|team-joris.en.tm>>>|<row|<cell|<hlink|Joris
-  van der Hoeven|team-joris.en.tm>>>>>>>>>>><tabular|<tformat|<table|<row|<cell|<tabular*|<tformat|<table|<row|<cell|<hlink|<image|team-francois.jpg||150px||>|team-francois.en.tm>>>|<row|<cell|<hlink|François
-  Poulain|team-francois.en.tm>>>>>>>>>>><tabular|<tformat|<table|<row|<cell|<tabular*|<tformat|<table|<row|<cell|<hlink|<image|team-massimiliano.jpg||150px||>|team-massimiliano.en.tm>>>|<row|<cell|<hlink|Massimiliano
-  Gubinelli|team-francois.en.tm>>>>>>>>>>>
+  <center|<tabular*|<tformat|<table|<row|<cell|<hlink|<image|team-miguel.jpg||150px||>|team-miguel.en.tm>>|<cell|<hlink|<image|team-joris.jpg||150px||>|team-joris.en.tm>>|<cell|<hlink|<image|team-massimiliano.jpg||150px||>|team-massimiliano.en.tm>>|<cell|<hlink|<image|team-francois.jpg||150px||>|team-francois.en.tm>>>|<row|<cell|<hlink|Miguel
+  de Benito Delgado|team-miguel.en.tm>>|<cell|<hlink|Joris van der
+  Hoeven|team-joris.en.tm>>|<cell|<hlink|Massimiliano
+  Gubinelli|team-francois.en.tm>>|<cell|<hlink|François
+  Poulain|team-francois.en.tm>>>>>>>
 
   \;
 
@@ -47,3 +45,9 @@
 
   <tmweb-license>
 </body>
+
+<\initial>
+  <\collection>
+    <associate|preamble|false>
+  </collection>
+</initial>
