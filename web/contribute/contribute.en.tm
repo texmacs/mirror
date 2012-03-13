@@ -44,7 +44,9 @@
   for the future|../about/plans.en.tm> may give you an impression about where
   we want to go. Of course your own ideas are welcome! <TeXmacs> is developed
   using <hlink|SVN|../download/svn.en.tm>, but we prefer contributions in the
-  form of <hlink|patches|../contact/patches.en.tm>.
+  form of <hlink|patches|../contact/patches.en.tm>. There exists a fairly
+  up-to-date Git <hlink|mirror|https://gitorious.org/texmacs/texmacs> hosted
+  at Gitorious.
 
   <section|The <TeXmacs> team and prioritary tasks><label|prioritary-tasks>
 
@@ -142,7 +144,7 @@
     the current mode, etc.
   </description>
 
-  <tmdoc-copyright|1999--2003|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2012|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
