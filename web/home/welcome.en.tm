@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.12>
+<TeXmacs|1.0.7.14>
 
 <style|tmweb>
 
@@ -18,7 +18,7 @@
 
   <center|<html-javascript-src|http://outils.citic74.fr/compteur/graphcount.php?page=www.texmacs.org&style=web1>>
 
-  <tmdoc-copyright|1999--2011|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2012|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
