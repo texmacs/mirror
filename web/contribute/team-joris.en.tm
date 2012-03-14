@@ -11,8 +11,8 @@
   <TeXmacs> project in 1997 and leads the current developments. You may
   discuss any major issues concerning <TeXmacs> with him. In particular, if
   you want to take the responsability of leading one of the <hlink|prioritary
-  <TeXmacs>-related tasks|tasks.en.tm>, then you should contact him at
-  <tmweb-email|vdhoeven|texmacs.org>.
+  <TeXmacs>-related tasks|contribute.en.tm#prioritary-tasks>, then you should
+  contact him at <tmweb-email|vdhoeven|texmacs.org>.
 
   <htab|5mm><image|team-joris.jpg||150px||>
 
