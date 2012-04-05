@@ -15,9 +15,9 @@
   résistant à l'hiver. Il a des propriétés médicinales. Intéressant car :
 
   <\itemize>
-    <item>dans <texmacs> les documents sont pensés sous forme d'arbres ;
+    <item>dans <TeXmacs> les documents sont pensés sous forme d'arbres ;
 
-    <item>l'idée de robustesse est bonne. <texmacs> est bien construit, de
+    <item>l'idée de robustesse est bonne. <TeXmacs> est bien construit, de
     manière logique. Il n'est pas (au moment où l'on le diffusera)
     plantogène...
 
