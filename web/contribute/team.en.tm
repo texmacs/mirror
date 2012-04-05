@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.14>
+<TeXmacs|1.0.7.15>
 
 <style|tmweb>
 
@@ -33,13 +33,18 @@
 
   <section*|Current members of the team>
 
-  <center|<tabular*|<tformat|<table|<row|<cell|<hlink|<image|team-miguel.jpg||150px||>|team-miguel.en.tm>>|<cell|<hlink|<image|team-joris.jpg||150px||>|team-joris.en.tm>>|<cell|<hlink|<image|team-massimiliano.jpg||150px||>|team-massimiliano.en.tm>>|<cell|<hlink|<image|team-francois.jpg||150px||>|team-francois.en.tm>>>|<row|<cell|<hlink|Miguel
-  de Benito Delgado|team-miguel.en.tm>>|<cell|<hlink|Joris van der
-  Hoeven|team-joris.en.tm>>|<cell|<hlink|Massimiliano
-  Gubinelli|team-massimiliano.en.tm>>|<cell|<hlink|François
-  Poulain|team-francois.en.tm>>>>>>>
+  <\center>
+    <tabular*|<tformat|<table|<row|<cell|<hlink|<image|team-miguel.jpg||150px||>|team-miguel.en.tm>>|<cell|<hlink|<image|team-joris.jpg||150px||>|team-joris.en.tm>>|<cell|<hlink|<image|team-vincent.jpg||150px||>|team-vincent.en.tm>>>|<row|<cell|<hlink|Miguel
+    de Benito Delgado|team-miguel.en.tm>>|<cell|<hlink|Joris van der
+    Hoeven|team-joris.en.tm>>|<cell|<hlink|Vincent
+    Douce|team-vincent.en.tm>>>>>>
+  </center>
 
-  \;
+  <\center>
+    <tabular*|<tformat|<table|<row|<cell|<hlink|<image|team-massimiliano.jpg||150px||>|team-massimiliano.en.tm>>|<cell|<hlink|<image|team-francois.jpg||150px||>|team-francois.en.tm>>>|<row|<cell|<hlink|Massimiliano
+    Gubinelli|team-massimiliano.en.tm>>|<cell|<hlink|François
+    Poulain|team-francois.en.tm>>>>>>
+  </center>
 
   <tmdoc-copyright|2012|Joris van der Hoeven>
 
