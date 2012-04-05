@@ -6,11 +6,11 @@
   <doc-data|<doc-title|<TeXmacs> en ligne>>
 
   <\abstract>
-    La possibilité d'utiliser <texmacs> en ligne pourrait ouvrir quelques
+    La possibilité d'utiliser <TeXmacs> en ligne pourrait ouvrir quelques
     horizons. Mais est-ce faisable ?
   </abstract>
 
-  <section|<texmacs> en ligne>
+  <section|<TeXmacs> en ligne>
 
   Je ne sais pas si c'est techniquement faisable.
 
@@ -29,19 +29,19 @@
     <item>cela ouvre des portes (voir paragraphe suivant).
   </itemize>
 
-  <section|Wordpress <texmacs>>
+  <section|Wordpress <TeXmacs>>
 
   Beaucoup d'enseignants ou d'amateurs de maths aimeraient bien pouvoir
-  mettre facilement en ligne leurs travaux. <texmacs> permet l'export html,
-  qui a l'air de bien marcher. Avoir <texmacs> en ligne permettrait de créer
+  mettre facilement en ligne leurs travaux. <TeXmacs> permet l'export html,
+  qui a l'air de bien marcher. Avoir <TeXmacs> en ligne permettrait de créer
   une sorte de wordpress mathématique.
 
-  On pourrait aussi imaginer proposer <texmacs> en ligne aux gestionnaires de
+  On pourrait aussi imaginer proposer <TeXmacs> en ligne aux gestionnaires de
   wordpress pour s'ouvrir à la bloguerie scientifique. C'est l'outil idéal.
 
   <section|Aide nécessaire>
 
-  Simplement si quelqu'un pouvait dire si l'utilisation de <texmacs> en ligne
+  Simplement si quelqu'un pouvait dire si l'utilisation de <TeXmacs> en ligne
   est un truc énorme à réaliser ; est-il possible d'expliquer un peu les
   difficultés qu'il faudrait affronter pour cela ? Autres que les problèmes
   de serveur.

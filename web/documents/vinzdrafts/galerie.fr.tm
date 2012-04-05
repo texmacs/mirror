@@ -6,7 +6,7 @@
   <doc-data|<doc-title|Galerie <TeXmacs>>>
 
   <\abstract>
-    Pour montrer aux gens tout ce que l'on peut faire avec <texmacs>.
+    Pour montrer aux gens tout ce que l'on peut faire avec <TeXmacs>.
   </abstract>
 
   <section|Exemples avec d'autres logiciels>
@@ -23,7 +23,7 @@
   <section|Aide nécessaire>
 
   Chaque collègue de notre équipe pourrait-ils m'envoyer au moins
-  <with|font-series|bold|1> document <texmacs> de son crû ? Pour le moment,
+  <with|font-series|bold|1> document <TeXmacs> de son crû ? Pour le moment,
   seul Alvaro m'a envoyé un document.
 
   Où héberge-t-on la galerie ? Dans quel sous dossier de /trunk/web ?

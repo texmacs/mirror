@@ -10,8 +10,8 @@
   <subsection|Vincent>
 
   Mon éditeur ayant des exigences sur la présentation, que je ne savais pas
-  encore gérer avec <texmacs>, j'ai fait l'erreur de m'orienter vers <LaTeX>
-  pour mettre en forme mon livre : contenu tapé en <texmacs>, exporté en
+  encore gérer avec <TeXmacs>, j'ai fait l'erreur de m'orienter vers <LaTeX>
+  pour mettre en forme mon livre : contenu tapé en <TeXmacs>, exporté en
   <LaTeX>, retouché via Applescript.\ 
 
   L'expérience est alors celle d'un casse-tête permanent, le contraire d'un
@@ -139,12 +139,12 @@
     <item>pourriez vous apporter votre témoignage ?
 
     <item>il faudrait préparer des documents en version <LaTeX> et en version
-    <texmacs>. Je pense que tout le monde dans l'équipe a une vision de ce
+    <TeXmacs>. Je pense que tout le monde dans l'équipe a une vision de ce
     que l'on veut mettre en valeur par une telle comparaison : complexité du
     code <LaTeX> pour aboutir au même résultat, impossibilité d'interfaces de
-    calcul ou de dessin, trucs typographiques que <texmacs> gère et pas
+    calcul ou de dessin, trucs typographiques que <TeXmacs> gère et pas
     <LaTeX>, et encore d'autres avantages de notre logiciel préféré. Donc si
-    chacun pouvait préparer un petit document <texmacs> avec une version
+    chacun pouvait préparer un petit document <TeXmacs> avec une version
     <LaTeX> du même document, ça enrichirait une base de données bien
     convaincante pour qui hésite sur le logiciel d'édition scientifique. On
     est une équipe, alors si chacun peut se lancer...

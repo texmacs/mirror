@@ -6,19 +6,19 @@
   <doc-data|<doc-title|informatique>>
 
   <\abstract>
-    Utiliser <texmacs> pour enseigner l'informatique. Profiter de la
-    diffusion de <texmacs> pour alphabétiser les enseignants de maths en ce
+    Utiliser <TeXmacs> pour enseigner l'informatique. Profiter de la
+    diffusion de <TeXmacs> pour alphabétiser les enseignants de maths en ce
     qui concerne l'informatique.
   </abstract>
 
   <section|Alphabétiser...>
 
-  Puisque <texmacs> permet d'insérer des sessions de plusieurs langages
+  Puisque <TeXmacs> permet d'insérer des sessions de plusieurs langages
   informatiques (Python, Scheme,...) il serait très intéressant de rédiger un
   fascicule numérique pour apprendre les bases de l'informatique, avec des
   exemples de code insérés dans le document (et leur résultat), et des
   exercices, auxquels le lecteur peut répondre directement dans le document.
-  Cela aiderait à promouvoir <texmacs>.
+  Cela aiderait à promouvoir <TeXmacs>.
 
   Puisqu'aucun enseignant de maths du secondaire en France n'a la moindre
   notion de ce qu'est l'informatique... en dehors de Siam, GeoGebra et Word,
@@ -26,7 +26,7 @@
   sur l'histoire de l'informatique. Il faudrait d'abord en rédiger la trame,
   puis interviewer certains d'entre vous sur des questions précises liées à
   ce sujet. La vidéo serait montée ensuite à partir de ces rushs et de copies
-  d'écran <texmacs>. Pour commencer, je pense à Bill et François dont le duo
+  d'écran <TeXmacs>. Pour commencer, je pense à Bill et François dont le duo
   a l'art de passionner les convives...
 
   <section|Problématiques possibles>

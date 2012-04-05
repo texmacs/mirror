@@ -7,7 +7,7 @@
 
   <\abstract>
     GeoGebra étant utilisée par tous les enseignants du secondaire, il faut
-    stratégiquement que nous développions un lien avec <texmacs>.
+    stratégiquement que nous développions un lien avec <TeXmacs>.
   </abstract>
 
   <section|Comment est fait un fichier GeoGebra>
@@ -43,10 +43,10 @@
   seems that the eps export does not have a long future... The
   ggb<math|\<rightarrow\>>png export is perfect. The
   ggb<math|\<rightarrow\>>pdf is to verify but i can not manage to insert any
-  pdf in <texmacs>.
+  pdf in <TeXmacs>.
 
   What do you think ? Could <math|png> be a right format to insert pictures
-  into <texmacs> ?
+  into <TeXmacs> ?
 
   Is the ggb <math|\<rightarrow\>> eps \ or ggb<math|\<rightarrow\>>png
   export via the command line planed ? <hlink|Yes|http://dev.geogebra.org/trac/ticket/1993>
@@ -86,7 +86,7 @@
     <item>Summary : menu in texmacs <math|\<rightarrow\>>insertion of graphic
     ggb <math|\<rightarrow\>> choice of the gg file <math|\<rightarrow\>>
     command line export to image <math|\<rightarrow\>> insertion of image in
-    <texmacs> document.
+    <TeXmacs> document.
   </itemize>
 
   third possibility by creating an environment around ggb

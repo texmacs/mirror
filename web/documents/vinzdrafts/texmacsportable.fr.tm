@@ -14,7 +14,7 @@
 
   <section|Pourquoi ?>
 
-  Sous mac, <texmacs> est devenu, avec la version QT, facile à installer.
+  Sous mac, <TeXmacs> est devenu, avec la version QT, facile à installer.
   Néammoins :
 
   <\itemize>
@@ -29,7 +29,7 @@
     <item>peut-être que la future version windows sera difficile à installer
     ? Sous Linux, que je méconnais totalement, j'avais essayé par le seul
     moyen que je connaisse : synaptic manager. Cela m'avait donné une version
-    ancienne de <texmacs>. Une solution portable, là encore, pourrait
+    ancienne de <TeXmacs>. Une solution portable, là encore, pourrait
     peut-êre convaincre des débutants.
 
     <item>L'idée, c'est que quelqu'un que la phase d'essai a convaincu va
@@ -40,16 +40,16 @@
   <section|Comment le faire ?>
 
   <\itemize>
-    <item>Une version portable de <texmacs> n'aura de sens que si elle
+    <item>Une version portable de <TeXmacs> n'aura de sens que si elle
     contient tout ce qu'il faut pour le public visé (exemple : les
     enseignants). Voir la page \S package \T.
 
     <item>Si nous ne parvenons pas à éviter l'installation de <LaTeX> pour
     utiliser professor, la version portable devient un argument
-    incontournable pour diffuser <texmacs>. En effet, installer <LaTeX> est
+    incontournable pour diffuser <TeXmacs>. En effet, installer <LaTeX> est
     une opération très lourde (très gros téléchargement, nombreux dossiers
     créés à la racine du disque dur...). Il suffirait de se débrouiller alors
-    pour proposer en téléchargement un truc contenant <LaTeX> et <texmacs>.
+    pour proposer en téléchargement un truc contenant <LaTeX> et <TeXmacs>.
     L'idée restant la minimalisation des clics : si l'utilisateur peut tout
     télécharger en une seule fois c'est mieux.
 
@@ -64,11 +64,11 @@
     l'utilisateur qu'il pourra aussi, grâce à notre téléchargement, utiliser
     <LaTeX> ? Cela peut faire un argument de plus pour les néophytes. Ou
     bien, dans un souci de clarification, tait-on cela, de manière à ne pas
-    faire d'amalgame entre l'univers beau et efficace de <texmacs>, et
+    faire d'amalgame entre l'univers beau et efficace de <TeXmacs>, et
     l'univers moche et bordélique de <LaTeX>.
 
     <item><hlink|Tutoriel framakey|http://framakey.org/Tutoriels/PortabiliserUnLogiciel2?from=Tutoriels>
-    donné par François. Pensez-vous que c'est faisable avec <texmacs> ? Quel
+    donné par François. Pensez-vous que c'est faisable avec <TeXmacs> ? Quel
     niveau faut-il pour réaliser cela ?
   </itemize>
 
@@ -82,7 +82,7 @@
 
     On pourrait demander à s'y mettre.
 
-    <item>On peut proposer sur le site de <texmacs> un téléchargement que
+    <item>On peut proposer sur le site de <TeXmacs> un téléchargement que
     l'utilisateur met sur une clé et le tour est joué.
 
     <item>On peut se faire connaître sur les sites suivants :
@@ -101,7 +101,7 @@
   <section|Aide nécessaire ici>
 
   <\itemize>
-    <item>J'aurais besoin que les grands connaisseurs du code de <texmacs>
+    <item>J'aurais besoin que les grands connaisseurs du code de <TeXmacs>
     indiquent si la portabilisation est possible, et surtout, en termes
     simples, quelles sont les difficultés de fond auxquelles on va se heurter
     et, en fonction de cela, quel délai on peut envisager pour avoir ce

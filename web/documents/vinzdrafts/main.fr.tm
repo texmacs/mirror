@@ -26,66 +26,64 @@
   À créer ensemble :
 
   <\itemize>
-    <item>Le <hlink|cookbook|vinz_documents/cookbook.html> dans sa version
+    <item>Le <hlink|cookbook|vinz_documents/cookbook.fr.tm> dans sa version
     actuelle
   </itemize>
 
   <\traverse>
-    <branch|Galerie de documents <texmacs>|galerie.fr>
+    <branch|Galerie de documents <TeXmacs>|galerie.fr.tm>
 
-    <branch|Base de données d'exercices|elo_exos.fr>
+    <branch|Base de données d'exercices|elo_exos.fr.tm>
 
-    <branch|Enseigner l'informatique|informatique.fr>
+    <branch|Enseigner l'informatique|informatique.fr.tm>
 
-    <branch|<texmacs> à l'international|international.fr>
+    <branch|<TeXmacs> à l'international|international.fr.tm>
 
-    <branch|<texmacs> vs <LaTeX>|latexvstexmacs.fr>
+    <branch|<TeXmacs> vs <LaTeX>|latexvstexmacs.fr.tm>
   </traverse>
 
   Trucs techniques :
 
   <\traverse>
-    <branch|Petites featurerequests|featurerequests.fr>
+    <branch|Petites feature requests|featurerequests.fr.tm>
 
-    <branch|<texmacs> et GeoGebra|geogebra.fr>
+    <branch|<TeXmacs> et GeoGebra|geogebra.fr.tm>
 
-    <branch|Les sources pour les débutants|installer_les_sources.fr>
+    <branch|Les sources pour les débutants|installer_les_sources.fr.tm>
 
-    <branch|En vrac...|vrac>
+    <branch|En vrac...|vrac.tm>
   </traverse>
 
   Stratégies :
 
   <\traverse>
-    <branch|Comment diffuser aux lycées|lyceesdiffusion.fr>
+    <branch|Comment diffuser aux lycées|lyceesdiffusion.fr.tm>
 
-    <branch|Que dire aux lycées|lyceeslettre.fr>
+    <branch|Que dire aux lycées|lyceeslettre.fr.tm>
 
-    <branch|Page du site texmacs.org pour les lycées|lyceespagesite.fr>
+    <branch|Page du site texmacs.org pour les lycées|lyceespagesite.fr.tm>
 
-    <branch|Sites où parler de <texmacs>|sites.fr>
+    <branch|Sites où parler de <TeXmacs>|sites.fr.tm>
   </traverse>
 
   <\traverse>
     <branch|Éducation ou Persuasion|educationvspersuasion.fr.tm>
   </traverse>
 
-  Quelques façons nouvelles d'utiliser <texmacs> :
+  Quelques façons nouvelles d'utiliser <TeXmacs> :
 
   <\traverse>
-    <branch|<texmacs> en ligne|enligne.fr>
+    <branch|<TeXmacs> en ligne|enligne.fr.tm>
 
-    <branch|Package <texmacs> ready-to-use|package.fr>
+    <branch|Package <TeXmacs> ready-to-use|package.fr.tm>
 
-    <branch|<texmacs> sur clé usb|texmacsportable.fr>
+    <branch|<TeXmacs> sur clé usb|texmacsportable.fr.tm>
   </traverse>
 
   <section|aide requise>
 
   <\itemize>
     <item>Qui veut continuer le cookbook ?
-
-    <item>
   </itemize>
 
   \;

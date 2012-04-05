@@ -42,14 +42,14 @@
   Mais cela ne marche qu'avec certaines régions françaises. Il faudrait donc
   une université dans le sud-est qui porte un projet, et Polytechnique serait
   juste un prestataire, payé pour développer le logiciel du projet
-  (<texmacs>). Là aussi, un contact avec un partenaire dans un pays de cette
+  (<TeXmacs>). Là aussi, un contact avec un partenaire dans un pays de cette
   zone géographique peut permettre de démarrer quelque chose.
 
   <section|Les pays émergents>
 
   On dit que l'Inde par exemple est très active au niveau informatique, et au
   niveau enseignement ; ainsi qu'au niveau de l'aide envers les pays
-  émergents comme ceux du continent africain. <texmacs> étant l'outil idéal
+  émergents comme ceux du continent africain. <TeXmacs> étant l'outil idéal
   pour les maths et l'édition scientifique, et les pays non français ayant
   peut-être parfois un esprit neuf et plus ouvert que les vieux croûtons
   institutionnels du vieux continent, il y a peut-être là une piste à
@@ -63,10 +63,10 @@
 
   Dans <with|font-shape|italic|projet international>, malheureusement, il y a
   <with|font-shape|italic|projet> : il faut inventer un
-  <with|font-shape|italic|projet>. Développer <texmacs> est un projet
+  <with|font-shape|italic|projet>. Développer <TeXmacs> est un projet
   honorable mais moins apte à convaincre des institutions fortunées, que
   contribuer à la diffusion du savoir scientifique grâce au logiciel
-  <texmacs> par exemple. On peut aussi associer <texmacs> à d'autres
+  <TeXmacs> par exemple. On peut aussi associer <TeXmacs> à d'autres
   programmes : il y a par exemple des associations GeoGebra jusque dans les
   tréfonds du Niger... Bravo Markus.
 
@@ -78,7 +78,7 @@
     l'hexagone.
 
     <item>Il faudrait imaginer un projet de développement scientifique
-    utilisant <texmacs> pas comme une fin mais comme un moyen. Il faudrait
+    utilisant <TeXmacs> pas comme une fin mais comme un moyen. Il faudrait
     trouver des idées.
   </itemize>
 </body>

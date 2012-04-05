@@ -7,7 +7,7 @@
 
   <\abstract>
     Pour ne pas rebuter les decouvreurs du logiciel, il faut absolument que
-    <texmacs> améliore deux ou trois points.
+    <TeXmacs> améliore deux ou trois points.
   </abstract>
 
   <section|Points importants>
@@ -33,7 +33,7 @@
 
   <\itemize>
     <item>Sous mac os X, le raccourci clavier alt+supprimer à gauche permet
-    ususellement de supprimer le mot à gauche. Or, dans <texmacs>, cela a
+    ususellement de supprimer le mot à gauche. Or, dans <TeXmacs>, cela a
     pour effet de décaler les listes à gauche.
 
     <item>

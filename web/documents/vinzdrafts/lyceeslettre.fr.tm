@@ -24,7 +24,7 @@
 
   Nous avons le plaisir de vous informer que le laboratoire Lyx de l'école
   Polytechnique a mis au point un logiciel novateur pour taper des documents
-  contenant des équations mathématiques. Ce logiciel s'appelle <texmacs> et
+  contenant des équations mathématiques. Ce logiciel s'appelle <TeXmacs> et
   possède les fonctionnalités suivantes :
 
   - écriture des équations matématiques dans le corps du texte, le curseur
@@ -65,7 +65,7 @@
   Un forum est à votre disposition pour vous aider à démarrer
   [texmacs.org/forumfrance].
 
-  Les ambitions de ce logiciel ne s'arrêtent pas là, puisque <texmacs> est
+  Les ambitions de ce logiciel ne s'arrêtent pas là, puisque <TeXmacs> est
   destiné à devenir une plateforme de travail de haut niveau, déjà utilisée
   par des doctorants, des enseignants et des ingénieurs
   [texmacs.org/videos/ambitions].

@@ -16,7 +16,7 @@
   <subsection|Pour les petits sites perso>
 
   Très simple : contacter le gestionnaire du site et lui envoyer un pdf de
-  présentation de <texmacs> adjoint d'un petit mot personnel parlant un peu
+  présentation de <TeXmacs> adjoint d'un petit mot personnel parlant un peu
   de son site pour rester sur le ton \S confidence entre collègues \T plutôt
   que \S spam publicitaire \T.
 
@@ -37,7 +37,7 @@
   l'on écrit :
 
   <\itemize>
-    <item>le lien vers la page <texmacs> écrite pour les enseignants ;
+    <item>le lien vers la page <TeXmacs> écrite pour les enseignants ;
 
     <item>un pdf de présentation bien fait ;
 
@@ -106,7 +106,7 @@
   <hlink|http://www.generation-nt.com/thunderbird-3-mozilla-gendarmerie-trustedbird-actualite-925681.html|http://www.generation-nt.com/thunderbird-3-mozilla-gendarmerie-trustedbird-actualite-925681.html>
 
   Il faudrait que l'on fasse un travail d'imagination pour savoir quel genre
-  d'administration pourrait être intéressée par l'utilisation de <texmacs>
+  d'administration pourrait être intéressée par l'utilisation de <TeXmacs>
 
   <section|Aide nécessaire ici>
 

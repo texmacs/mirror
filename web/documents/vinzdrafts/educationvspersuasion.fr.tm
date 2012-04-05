@@ -19,7 +19,7 @@
   éduquer à la culture du logiciel libre et agir plus \S commercialement
   \T...
 
-  À mon avis, il ne faut pas perdre de vue l'objectif premier de <texmacs> :
+  À mon avis, il ne faut pas perdre de vue l'objectif premier de <TeXmacs> :
   permettre de faire des maths avec plus de plaisir, d'efficacité, et de
   rigueur typographique en même temps. La possibilité de travailler le côté
   informatique avec l'esprit d'un informaticien qui aime informatiser doit

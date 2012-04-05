@@ -7,7 +7,7 @@
 
   <\abstract>
     Comment faire en sorte que les profs de maths de lycée aient connaissance
-    de <texmacs>.
+    de <TeXmacs>.
   </abstract>
 
   <section|Inspections>

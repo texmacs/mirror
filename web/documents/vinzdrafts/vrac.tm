@@ -28,7 +28,7 @@
 
     <hlink|http://feedback.smugmug.com/forums/17723-smugmug|http://feedback.smugmug.com/forums/17723-smugmug>
 
-    <item>pour les modèles <texmacs> destinés aux auteurs, on pourrait
+    <item>pour les modèles <TeXmacs> destinés aux auteurs, on pourrait
     commencer par Eyrolles qui semble avoir la culture du libre ?
   </itemize>
 
@@ -42,7 +42,7 @@
     arrivants. Il ne faut surtout pas qu'un moindre obstacle technique les
     dissuade. C'est souvent le cas lorsqu'on aborde un logiciel nouveau (sauf
     pour windows curieusement... sinon il en aurait dissuadé beaucoup...). Je
-    peux l'animer et faire l'interface avec la liste <texmacs> pour toutes
+    peux l'animer et faire l'interface avec la liste <TeXmacs> pour toutes
     les questions auxquelles je ne saurai pas répondre. Mais par contre pour
     créer le forum, il faut m'aider un peu.
 
@@ -58,7 +58,7 @@
     <item>Quelques membres de l'équipe pourraient-ils se positionner sur les
     idées ci-dessus ?
 
-    <item>Comment l'actuelle liste <texmacs> a-t-elle été créée ? Comment
+    <item>Comment l'actuelle liste <TeXmacs> a-t-elle été créée ? Comment
     créer la liste française ?
   </itemize>
 </body>

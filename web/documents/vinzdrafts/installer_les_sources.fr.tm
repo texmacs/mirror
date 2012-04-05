@@ -7,7 +7,7 @@
 
   <\abstract>
     Vous n'avez jamais installé un logiciel à partir des sources ?
-    Lancez-vous avec <texmacs>.
+    Lancez-vous avec <TeXmacs>.
   </abstract>
 
   <section|Un peu de théorie : développer un logiciel à plusieurs>
@@ -72,7 +72,7 @@
   quel dossier on veut placer les sources, et dans quel dossier on veut
   placer le résultat des complications que l'on fera à partir des sources.\ 
 
-  <section|Installer les sources de <texmacs>>
+  <section|Installer les sources de <TeXmacs>>
 
   Ce paragraphe concerne uniquement mac os X.
 
@@ -88,7 +88,7 @@
 
   Installer QT. QT (rien à voir avec Quicktime de Apple) est un système
   d'interface utilisateur développé par la compagnie nordique Nokia. Les
-  nouvelles versions de <texmacs> s'appuient sur QT.
+  nouvelles versions de <TeXmacs> s'appuient sur QT.
 
   <hlink|Télécharger QT|http://qt.nokia.com/downloads/qt-for-open-source-cpp-development-on-mac-os-x>
   (le premier lien : Cocoa, 64bit, libs and dev tools), c'est 178 MB, il
@@ -109,8 +109,8 @@
   <hlink|Ghostscript|http://pages.cs.wisc.edu/~ghost/doc/GPL/gpl902.htm>
   (second lien, celui en bz2)
 
-  Ce sont des programmes annexes, dont <texmacs> aura besoin. Tous doivent
-  être compilés pour que <texmacs> puisse faire appel à eux. Pour cela, pour
+  Ce sont des programmes annexes, dont <TeXmacs> aura besoin. Tous doivent
+  être compilés pour que <TeXmacs> puisse faire appel à eux. Pour cela, pour
   chacun des dossiers décompressés précédents, faire, dans le terminal :
 
   <\itemize>
@@ -202,7 +202,7 @@
     que le prochain pas modifie le fichier TeXmacs.xcodeproj.
 
     <item><code*|cd> [fais glisser ici le dossier trunk/src des sources de
-    <texmacs>].
+    <TeXmacs>].
 
     <item><code*|./configure --with-qt=/usr/local/Qt4.8
     --disable-macosx-extensions>
@@ -222,7 +222,7 @@
 
   <\itemize>
     <item><code*|cd> [fais glisser ici le dossier trunk des sources de
-    <texmacs>].
+    <TeXmacs>].
 
     <item><code*|svn update>
 
@@ -239,7 +239,7 @@
 
   <\itemize>
     <item><code*|cd> [fais glisser ici le dossier trunk des sources de
-    <texmacs>].
+    <TeXmacs>].
 
     <item><code*|svn status>
 
@@ -264,7 +264,7 @@
 
   <subsection|Créer un exécutable>
 
-  Pour compiler l'application <texmacs> à partir des sources, utilise XCode
+  Pour compiler l'application <TeXmacs> à partir des sources, utilise XCode
   "Build-\<gtr\>Build and run" ou le raccourci Pomme+R. [Une commande make
   bundle existe aussi]
 

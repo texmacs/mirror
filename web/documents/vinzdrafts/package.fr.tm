@@ -16,8 +16,8 @@
   linux d'avoir un truc tout prêt ; de fait c'est plutôt une philosophie
   Apple, que de chercher à réduire l'intervention technique de l'utilisateur.
 
-  Le fait d'emballer <texmacs> et certaines applications qu'il va interfacer
-  dans un même package ne doit pas être restrictif. Le <texmacs> ainsi
+  Le fait d'emballer <TeXmacs> et certaines applications qu'il va interfacer
+  dans un même package ne doit pas être restrictif. Le <TeXmacs> ainsi
   téléchargé doit autoriser l'ajout ou la désactivation des programmes
   interfacés que l'on veut.
 
@@ -38,7 +38,7 @@
   <\itemize>
     <item>insertion de la figure GeoGebra dont la fenêtre est ouverte
 
-    <item>insertion graphique avec souris par l'interface native de <texmacs>
+    <item>insertion graphique avec souris par l'interface native de <TeXmacs>
 
     <item>insertion via un langage de programmation évolué. Je pense, suivant
     les conseils d'Alvaro, à l'association MathPlotLib+Python. Mais je n'ai
@@ -56,13 +56,13 @@
 
   <subsection|La question du calcul formel>
 
-  L'une des forces de <texmcas> c'est d'insérer des sessions dynamiques de
+  L'une des forces de <TeXmacs> c'est d'insérer des sessions dynamiques de
   calcul formel dans le fil du texte, et il faudrait que pour l'automne une
   décision soit prise sur quel logiciel mettre dans le package.
 
   <subsection|La question de Professor>
 
-  Déjà, avoir un package <texmacs>+ professor prêt à fonctionner, avec des
+  Déjà, avoir un package <TeXmacs>+ professor prêt à fonctionner, avec des
   instructions simples et efficaces pour installer <LaTeX> à côté (puisque
   professor nécessite pststricks) serait un grand pas en avant.
 
