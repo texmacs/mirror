@@ -55,7 +55,7 @@
     \ \ (:synopsis "A very lame check")
 
     \ \ (and (== "scm" (string-take-right (url-\<gtr\>string
-    (get-name-buffer)) 3))
+    (current-buffer)) 3))
 
     \ \ \ \ \ \ \ (in-scheme?)))
 
@@ -65,7 +65,7 @@
 
     \ \ (:require (is-scheme-buffer?))
 
-    \ \ (cond ((= (length l) 0) (save-buffer (get-name-buffer)))
+    \ \ (cond ((= (length l) 0) (save-buffer (current-buffer)))
 
     \ \ \ \ \ \ \ \ ((= (length l) 1) (texmacs-save-buffer (car l)
     "verbatim"))))
@@ -86,7 +86,7 @@
 
     \ \ \ \ \ \ (lambda ()\ 
 
-    \ \ \ \ \ \ \ \ (load (url-\<gtr\>string (get-name-buffer))))\ 
+    \ \ \ \ \ \ \ \ (load (url-\<gtr\>string (current-buffer))))\ 
 
     \ \ \ \ \ \ ; To do: parse other exception parameters. We understand:
 
