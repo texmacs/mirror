@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.14>
+<TeXmacs|1.0.7.15>
 
 <style|tmweb>
 
@@ -138,10 +138,11 @@
     documents directly on the web, as on a wiki. This would ease many of the
     documentation related tasks which involve a lot of sharing documents.
 
-    <item*|Automatic generation of documentation>Many features of <TeXmacs>
-    can be documented in a programmatic way using <scheme>, such as
-    explanations of menu items, a list of all active keyboard shortcuts in
-    the current mode, etc.
+    <item*|<hlink|Automatic generation of
+    documentation|task-autodocs.en.tm>>Many features of <TeXmacs> can be
+    documented in a programmatic way using <scheme>, such as explanations of
+    menu items, a list of all active keyboard shortcuts in the current mode,
+    etc.
   </description>
 
   <tmdoc-copyright|1999--2012|Joris van der Hoeven>
