@@ -11,8 +11,8 @@
   high schools in France. You can contact Vincent by email at
   <tmweb-email|vincent.douce.2012|gmail.com>.
 
-  See <hlink|here|../documents/vinzdrafts/main.fr.tm> for various of my ideas
-  concerning <TeXmacs>.
+  See <hlink|here|../vincent/main.fr.tm> for various of my ideas concerning
+  <TeXmacs>.
 
   [<hlink|version française|team-vincent.fr.tm>]<htab|5mm><image|team-vincent.jpg||150px||>
 

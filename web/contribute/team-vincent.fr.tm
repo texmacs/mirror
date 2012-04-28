@@ -12,7 +12,7 @@
   <tmweb-email|vincent.douce.2012|gmail.com> (j'ai honte d'être en gmail...).
 
   Pour quelques de mes reflections personnelles sur <TeXmacs>, voir
-  <hlink|ici|../documents/vinzdrafts/main.fr.tm>.
+  <hlink|ici|../vincent/main.fr.tm>.
 
   \;
 
