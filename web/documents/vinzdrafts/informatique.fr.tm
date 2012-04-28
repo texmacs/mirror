@@ -1,9 +1,10 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <doc-data|<doc-title|informatique>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|Enseigner
+  l'informatique|<tmweb-contribute-links>>
 
   <\abstract>
     Utiliser <TeXmacs> pour enseigner l'informatique. Profiter de la
@@ -56,6 +57,8 @@
 
     <item>Bill et François, êtes-vous ok ?
   </itemize>
+
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

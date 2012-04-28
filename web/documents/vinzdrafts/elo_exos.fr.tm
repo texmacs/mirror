@@ -1,9 +1,10 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <doc-data|<doc-title|Base d'exercices de maths>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|Base d'exercices de
+  maths|<tmweb-contribute-links>>
 
   <\abstract>
     Créer une base d'exos sous la forme d'une base de données.
@@ -87,6 +88,8 @@
 
     <item>Sur quel serveur héberger une telle base ?
   </enumerate>
+
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

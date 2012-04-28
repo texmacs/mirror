@@ -1,8 +1,10 @@
-<TeXmacs|1.0.7.14>
+<TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac|tmdoc-keyboard>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac|tmdoc-keyboard>>
 
 <\body>
+  <tmweb-current|Contribute|Contributing><tmweb-title|Cookbook|<tmweb-contribute-links>>
+
   tentative pour décrire la barre des menus : peut être la découper en petits
   morceaux
 
@@ -65,13 +67,13 @@
   <math|<with|math-font|cal|<with|font-base-size|24|C>>>
 
   <\description>
-    <item*|Calcul formel>Pour réaliser des calculs formels dans <texmacs>, il
+    <item*|Calcul formel>Pour réaliser des calculs formels dans <TeXmacs>, il
     y a, au niveau de la présentation, deux possibilités :
 
     <\itemize>
       <item>menu insérer, session, Giac. On obtient une pile, très pratique
       mais occupant beaucoup d'espace sur la page. Pratique pour utiliser
-      <texmacs> comme interface à Giac ou à tout autre logiciel de calcul
+      <TeXmacs> comme interface à Giac ou à tout autre logiciel de calcul
       formel.
 
       <item>menu insérer, fold, exécutable. ..... voir avec Emmanuël.
@@ -94,13 +96,13 @@
   </description>
 
   <\description>
-    <item*|Copier-Coller>À l'intérieur d'un même document <texmacs>, on peut
+    <item*|Copier-Coller>À l'intérieur d'un même document <TeXmacs>, on peut
     couper coller comme dans n'importe quelle autre application. Depuis une
-    application externe vers <texmacs>, on peut copier-coller tout, sauf des
-    images. Le copier-coller d'images sera implémanté dans <texmacs>
-    ultérieurement. Enfin, depuis <texmacs> vers une application externe, on
+    application externe vers <TeXmacs>, on peut copier-coller tout, sauf des
+    images. Le copier-coller d'images sera implémanté dans <TeXmacs>
+    ultérieurement. Enfin, depuis <TeXmacs> vers une application externe, on
     ne peut copier-coller que du texte non formaté : pas d'équations bien sûr
-    puisque <texmacs> est le seul à les gérer comme il les gère.
+    puisque <TeXmacs> est le seul à les gérer comme il les gère.
   </description>
 
   <\description>
@@ -173,7 +175,7 @@
     intuitivement, par exemple -\<gtr\> en mode maths (c'est-à-dire en
     pressant $ avant) donne <math|\<rightarrow\>> tandis que \<less\>=\<gtr\>
     donne <math|\<Leftrightarrow\>>. Beaucoup d'autres telles combinaisons
-    sont prévues par <texmacs>. En ce qui concerne les flèches des vecteurs,
+    sont prévues par <TeXmacs>. En ce qui concerne les flèches des vecteurs,
     on les trouvera dans le menu ~ qui apparaît lorsqu'on est en mode maths.
     Le raccourci clavier est control+shift+v.
   </description>
@@ -352,13 +354,13 @@
 
   <\description>
     <item*|Partager un document>Pour partager un document avec des collègues
-    qui ne disposent pas de <texmacs>, il y a deux des possibilités : on peut
+    qui ne disposent pas de <TeXmacs>, il y a deux des possibilités : on peut
     presser command+P afin de l'exporter en pdf, format universel mais non
     modifiable. On peut l'exporter en <LaTeX> ou en html. Si le document est
-    simple l'export sera identique à l'original. Bien sûr, <texmacs> contient
+    simple l'export sera identique à l'original. Bien sûr, <TeXmacs> contient
     un certain nombre de fonctionnalités que d'autres logiciels n'ont pas...
     On ne peut donc pas espérer partager tout avec les autres logiciels. Il
-    faut souligner que <texmacs> est gratuit est simple à installer. Si vous
+    faut souligner que <TeXmacs> est gratuit est simple à installer. Si vous
     aimez ce qu'il vous permet de faire, n'hésitez pas à le faire partager.
 
     <item*|Paysage>Aller dans Document/Page/Type pour définir le format
@@ -388,14 +390,12 @@
     control<math|\<downarrow\>> c'est-à-dire qu'elle crée une nouvelle ligne.
     Pour permettre le retour chariot dans une cellule, aller dans
     Focus/Cellule/Spécial/Line Wrapping et choisir l'une des trois options
-    par exemple \S top \T. Le menu Focus permet d'ajuster tous les
+    par exemple \S top<nbsp>\T. Le menu Focus permet d'ajuster tous les
     alignements et dimensions du tableau. En fait, le menu Focus s'adapte à
     l'environnement dans lequel le curseur se trouve.
   </description>
 
-  \;
-
-  \;
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

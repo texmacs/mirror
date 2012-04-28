@@ -1,9 +1,10 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <doc-data|<doc-title|Page \S secondaire \T de texmacs.org>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|Page \S secondaire \T
+  de texmacs.org|<tmweb-contribute-links>>
 
   <\abstract>
     Une page sur le site texmacs.org sera destinée à présenter texmacs aux
@@ -18,11 +19,7 @@
     <item>Il faudra trouver une adresse courte à cette page.
   </itemize>
 
-  \;
-
-  \;
-
-  \;
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

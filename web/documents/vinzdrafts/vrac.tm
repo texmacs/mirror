@@ -1,9 +1,9 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <doc-data|<doc-title|Vrac>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|Vrac|<tmweb-contribute-links>>
 
   <\abstract>
     Idées diverses.
@@ -61,6 +61,8 @@
     <item>Comment l'actuelle liste <TeXmacs> a-t-elle été créée ? Comment
     créer la liste française ?
   </itemize>
+
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

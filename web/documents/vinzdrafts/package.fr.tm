@@ -1,9 +1,10 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <doc-data|<doc-title|package <TeXmacs>>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|Package <TeXmacs> prêt
+  à l'emploi|<tmweb-contribute-links>>
 
   <\abstract>
     L'idée c'est d'avoir un produit fini : on télécharge, on a tout. Mais
@@ -75,6 +76,8 @@
 
     <item>Le calendrier vous convient-il (automne 2012 ou hiver)
   </itemize>
+
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

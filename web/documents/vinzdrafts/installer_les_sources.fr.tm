@@ -1,9 +1,10 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <doc-data|<doc-title|Débutants - installer les sources>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|Débutants - installer
+  les sources|<tmweb-contribute-links>>
 
   <\abstract>
     Vous n'avez jamais installé un logiciel à partir des sources ?
@@ -275,6 +276,8 @@
 
     <item>Rédiger pour Linux.
   </itemize>
+
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

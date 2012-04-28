@@ -3,7 +3,7 @@
 <style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <doc-data|<doc-title|Galerie <TeXmacs>>>
+  <tmdoc-title|Galerie <TeXmacs>>
 
   <\abstract>
     Pour montrer aux gens tout ce que l'on peut faire avec <TeXmacs>.
@@ -27,6 +27,8 @@
   seul Alvaro m'a envoyé un document.
 
   Où héberge-t-on la galerie ? Dans quel sous dossier de /trunk/web ?
+
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

@@ -1,9 +1,10 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <doc-data|<doc-title|Lettre aux lycées>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|Lettre aux
+  lycées|<tmweb-contribute-links>>
 
   <\abstract>
     On va présenter le logiciel par l'envoi d'un mail. Comment rédiger au
@@ -70,7 +71,7 @@
   par des doctorants, des enseignants et des ingénieurs
   [texmacs.org/videos/ambitions].
 
-  \;
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

@@ -1,9 +1,10 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <doc-data|<doc-title|<LaTeX> et <TeXmacs>>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|<LaTeX> et
+  <TeXmacs>|<tmweb-contribute-links>>
 
   <section|Témoignages>
 
@@ -149,6 +150,8 @@
     convaincante pour qui hésite sur le logiciel d'édition scientifique. On
     est une équipe, alors si chacun peut se lancer...
   </itemize>
+
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

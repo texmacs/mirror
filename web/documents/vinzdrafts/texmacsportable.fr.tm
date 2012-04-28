@@ -1,9 +1,10 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <doc-data|<doc-title|<TeXmacs> portable>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|<TeXmacs>
+  portable|<tmweb-contribute-links>>
 
   <\abstract>
     Les applications portables permettent d'exécuter une application (sous
@@ -107,6 +108,8 @@
     et, en fonction de cela, quel délai on peut envisager pour avoir ce
     produit.
   </itemize>
+
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

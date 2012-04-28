@@ -1,9 +1,10 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <doc-data|<doc-title|Features Requests>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|Features
+  Requests|<tmweb-contribute-links>>
 
   <\abstract>
     Pour ne pas rebuter les decouvreurs du logiciel, il faut absolument que
@@ -41,11 +42,7 @@
 
   <section|Aide nécessaire>
 
-  \;
-
-  \;
-
-  \;
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

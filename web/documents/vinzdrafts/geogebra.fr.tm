@@ -1,9 +1,9 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <doc-data|<doc-title|GeoGebra>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|GeoGebra|<tmweb-contribute-links>>
 
   <\abstract>
     GeoGebra étant utilisée par tous les enseignants du secondaire, il faut
@@ -139,6 +139,8 @@
     le calendrier, et si la solution 2 ou 3 sont faisables vu les sources de
     GeoGebra.
   </itemize>
+
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

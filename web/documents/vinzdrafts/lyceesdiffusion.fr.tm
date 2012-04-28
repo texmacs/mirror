@@ -1,9 +1,10 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <doc-data|<doc-title|diffusion aux lycées>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|Diffusion aux
+  lycées|<tmweb-contribute-links>>
 
   <\abstract>
     Comment faire en sorte que les profs de maths de lycée aient connaissance
@@ -43,6 +44,8 @@
   l'académie de Versailles (Palaiseau, c'est l'académie de Versailles ?). Qui
   d'autre ? Ce serait bien de faire la démarche simultanément, on décidera du
   moment, vraisemblablement à l'automne ou l'hiver 2012.
+
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

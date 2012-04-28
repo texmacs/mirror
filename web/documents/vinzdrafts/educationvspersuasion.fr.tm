@@ -1,9 +1,10 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <doc-data|<doc-title|Conflits philosophiques...>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|Conflits
+  philosophiques...|<tmweb-contribute-links>>
 
   <\abstract>
     Esprit linux, esprit Apple... où se situer ?
@@ -28,7 +29,7 @@
   proposer des choses toute prêtes pour que les non-bidouilleurs aussi
   puissent faire des maths avec plaisir.
 
-  \;
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

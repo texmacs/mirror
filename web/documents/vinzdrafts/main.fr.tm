@@ -1,11 +1,10 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <tmdoc-title|cahier de brouillon de Vincent>
-
-  <doc-data|<doc-title|cahier de brouillon de Vincent>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|Cahier de brouillon de
+  Vincent|<tmweb-contribute-links>>
 
   <\abstract>
     <\with|par-mode|center>
@@ -28,6 +27,8 @@
   <\itemize>
     <item>Le <hlink|cookbook|vinz_documents/cookbook.fr.tm> dans sa version
     actuelle
+
+    <item>Idées (anglais) pour des <hlink|videos|videos.en.tm> sur <TeXmacs>
   </itemize>
 
   <\traverse>
@@ -86,9 +87,7 @@
     <item>Qui veut continuer le cookbook ?
   </itemize>
 
-  \;
-
-  <tmdoc-copyright|2012|Vincent>
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

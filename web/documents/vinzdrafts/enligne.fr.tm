@@ -1,9 +1,10 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <doc-data|<doc-title|<TeXmacs> en ligne>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|<TeXmacs> en
+  ligne|<tmweb-contribute-links>>
 
   <\abstract>
     La possibilité d'utiliser <TeXmacs> en ligne pourrait ouvrir quelques
@@ -45,6 +46,8 @@
   est un truc énorme à réaliser ; est-il possible d'expliquer un peu les
   difficultés qu'il faudrait affronter pour cela ? Autres que les problèmes
   de serveur.
+
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

@@ -1,9 +1,10 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <doc-data|<doc-title|<TeXmacs> à l'international>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|<TeXmacs> à
+  l'international|<tmweb-contribute-links>>
 
   <\abstract>
     Il y aurait peut-être un certain intérêt à envisager des liens concrets
@@ -81,6 +82,8 @@
     utilisant <TeXmacs> pas comme une fin mais comme un moyen. Il faudrait
     trouver des idées.
   </itemize>
+
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>

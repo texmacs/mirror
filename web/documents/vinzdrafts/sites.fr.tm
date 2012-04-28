@@ -1,9 +1,10 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <doc-data|<doc-title|sites internet où parler de <TeXmacs>>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|Sites internet où
+  parler de <TeXmacs>|<tmweb-contribute-links>>
 
   <\abstract>
     Les sites perso, c'est vivant, et tout le monde, un jour où l'autre, au
@@ -124,6 +125,8 @@
     <item>Si quelqu'un a envie de visiter tous les sites perso que j'ai en
     lien, et les mettre en forme comme ci-dessus...
   </itemize>
+
+  <tmdoc-copyright|2012|Vincent Douce>
 </body>
 
 <\initial>
