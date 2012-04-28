@@ -86,11 +86,15 @@
     announcements concerning <TeXmacs>, as well as the diffusion of
     announcements of new versions on all appropriate media.
 
-    <item*|Publicity>It would be nice if someone could organize various kinds
-    of publicity for <TeXmacs>, such as a good presence on the web, a good
-    presence at public institutions (Universities, CNRS, Inria,
+    <item*|Diffusion and publicity>It would be nice if someone could organize
+    various kinds of publicity for <TeXmacs>, such as a good presence on the
+    web, a good presence at public institutions (Universities, CNRS, Inria,
     Polytechnique, Digiteo, CNDP, etc.), email database with people to
     contact occasionally at major releases, etc.
+
+    <item*|<hlink|French high schools|task-education.en.tm>>Since <TeXmacs>
+    is mainly developed in France, it is natural to spend particular efforts
+    on diffusing the software in the French education system.
 
     <item*|Bug and wish lists>The mere task of reproducing bugs from the
     <name|Savannah> bug list is very time consuming. It would be nice if more
