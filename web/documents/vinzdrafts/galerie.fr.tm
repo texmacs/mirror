@@ -1,9 +1,10 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <tmdoc-title|Galerie <TeXmacs>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|Galerie
+  <TeXmacs>|<tmweb-contribute-links>>
 
   <\abstract>
     Pour montrer aux gens tout ce que l'on peut faire avec <TeXmacs>.
@@ -29,6 +30,8 @@
   Où héberge-t-on la galerie ? Dans quel sous dossier de /trunk/web ?
 
   <tmdoc-copyright|2012|Vincent Douce>
+
+  <tmweb-license>
 </body>
 
 <\initial>

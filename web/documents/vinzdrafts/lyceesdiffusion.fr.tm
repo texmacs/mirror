@@ -46,6 +46,8 @@
   moment, vraisemblablement à l'automne ou l'hiver 2012.
 
   <tmdoc-copyright|2012|Vincent Douce>
+
+  <tmweb-license>
 </body>
 
 <\initial>

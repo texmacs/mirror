@@ -30,6 +30,8 @@
   puissent faire des maths avec plaisir.
 
   <tmdoc-copyright|2012|Vincent Douce>
+
+  <tmweb-license>
 </body>
 
 <\initial>

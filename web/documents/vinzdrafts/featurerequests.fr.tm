@@ -43,6 +43,8 @@
   <section|Aide nécessaire>
 
   <tmdoc-copyright|2012|Vincent Douce>
+
+  <tmweb-license>
 </body>
 
 <\initial>
