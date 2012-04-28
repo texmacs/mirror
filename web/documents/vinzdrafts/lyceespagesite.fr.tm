@@ -4,7 +4,7 @@
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Page \S secondaire \T
-  de texmacs.org|<tmweb-contribute-links>>
+  de texmacs.org|<hlink| Idées Vincent |main.fr.tm>>
 
   <\abstract>
     Une page sur le site texmacs.org sera destinée à présenter texmacs aux

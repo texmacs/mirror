@@ -4,7 +4,7 @@
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Diffusion aux
-  lycées|<tmweb-contribute-links>>
+  lycées|<hlink| Idées Vincent |main.fr.tm>>
 
   <\abstract>
     Comment faire en sorte que les profs de maths de lycée aient connaissance

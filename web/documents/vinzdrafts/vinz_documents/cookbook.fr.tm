@@ -3,7 +3,8 @@
 <style|<tuple|tmweb|maxima|tmdoc-markup|giac|tmdoc-keyboard>>
 
 <\body>
-  <tmweb-current|Contribute|Contributing><tmweb-title|Cookbook|<tmweb-contribute-links>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|Cookbook|<hlink| Idées
+  Vincent |../main.fr.tm>>
 
   tentative pour décrire la barre des menus : peut être la découper en petits
   morceaux

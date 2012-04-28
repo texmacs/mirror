@@ -4,7 +4,7 @@
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Débutants - installer
-  les sources|<tmweb-contribute-links>>
+  les sources|<hlink| Idées Vincent |main.fr.tm>>
 
   <\abstract>
     Vous n'avez jamais installé un logiciel à partir des sources ?

@@ -4,7 +4,7 @@
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Features
-  Requests|<tmweb-contribute-links>>
+  Requests|<hlink| Idées Vincent |main.fr.tm>>
 
   <\abstract>
     Pour ne pas rebuter les decouvreurs du logiciel, il faut absolument que

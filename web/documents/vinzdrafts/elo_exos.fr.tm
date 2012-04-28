@@ -4,7 +4,7 @@
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Base d'exercices de
-  maths|<tmweb-contribute-links>>
+  maths|<hlink| Idées Vincent |main.fr.tm>>
 
   <\abstract>
     Créer une base d'exos sous la forme d'une base de données.

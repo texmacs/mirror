@@ -3,7 +3,8 @@
 <style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <tmweb-current|Contribute|Contributing><tmweb-title|Videos|<tmweb-contribute-links>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|Videos|<hlink| Idées
+  Vincent |main.fr.tm>>
 
   <\abstract>
     Create some vidéos to present TeXmacs

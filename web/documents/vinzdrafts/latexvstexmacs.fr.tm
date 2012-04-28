@@ -4,7 +4,7 @@
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|<LaTeX> et
-  <TeXmacs>|<tmweb-contribute-links>>
+  <TeXmacs>|<hlink| Idées Vincent |main.fr.tm>>
 
   <section|Témoignages>
 

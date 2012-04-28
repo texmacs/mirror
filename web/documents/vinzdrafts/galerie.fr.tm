@@ -4,7 +4,7 @@
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Galerie
-  <TeXmacs>|<tmweb-contribute-links>>
+  <TeXmacs>|<hlink| Idées Vincent |main.fr.tm>>
 
   <\abstract>
     Pour montrer aux gens tout ce que l'on peut faire avec <TeXmacs>.

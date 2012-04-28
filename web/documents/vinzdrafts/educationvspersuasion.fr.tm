@@ -4,7 +4,7 @@
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Conflits
-  philosophiques...|<tmweb-contribute-links>>
+  philosophiques...|<hlink| Idées Vincent |main.fr.tm>>
 
   <\abstract>
     Esprit linux, esprit Apple... où se situer ?

@@ -4,7 +4,7 @@
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Enseigner
-  l'informatique|<tmweb-contribute-links>>
+  l'informatique|<hlink| Idées Vincent |main.fr.tm>>
 
   <\abstract>
     Utiliser <TeXmacs> pour enseigner l'informatique. Profiter de la

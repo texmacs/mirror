@@ -4,7 +4,7 @@
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Cahier de brouillon de
-  Vincent|<tmweb-contribute-links>>
+  Vincent|<hlink| Idées Vincent |main.fr.tm>>
 
   <\abstract>
     <\with|par-mode|center>

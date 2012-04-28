@@ -3,7 +3,8 @@
 <style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <tmweb-current|Contribute|Contributing><tmweb-title|GeoGebra|<tmweb-contribute-links>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|GeoGebra|<hlink| Idées
+  Vincent |main.fr.tm>>
 
   <\abstract>
     GeoGebra étant utilisée par tous les enseignants du secondaire, il faut

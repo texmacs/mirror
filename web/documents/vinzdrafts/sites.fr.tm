@@ -4,7 +4,7 @@
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Sites internet où
-  parler de <TeXmacs>|<tmweb-contribute-links>>
+  parler de <TeXmacs>|<hlink| Idées Vincent |main.fr.tm>>
 
   <\abstract>
     Les sites perso, c'est vivant, et tout le monde, un jour où l'autre, au

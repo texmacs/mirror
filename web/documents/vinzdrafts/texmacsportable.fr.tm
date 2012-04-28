@@ -4,7 +4,7 @@
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|<TeXmacs>
-  portable|<tmweb-contribute-links>>
+  portable|<hlink| Idées Vincent |main.fr.tm>>
 
   <\abstract>
     Les applications portables permettent d'exécuter une application (sous

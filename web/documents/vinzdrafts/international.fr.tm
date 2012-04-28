@@ -4,7 +4,7 @@
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|<TeXmacs> à
-  l'international|<tmweb-contribute-links>>
+  l'international|<hlink| Idées Vincent |main.fr.tm>>
 
   <\abstract>
     Il y aurait peut-être un certain intérêt à envisager des liens concrets

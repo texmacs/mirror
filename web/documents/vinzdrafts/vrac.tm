@@ -3,7 +3,8 @@
 <style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
 
 <\body>
-  <tmweb-current|Contribute|Contributing><tmweb-title|Vrac|<tmweb-contribute-links>>
+  <tmweb-current|Contribute|Contributing><tmweb-title|Vrac|<hlink| Idées
+  Vincent |main.fr.tm>>
 
   <\abstract>
     Idées diverses.

@@ -4,7 +4,7 @@
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Package <TeXmacs> prêt
-  à l'emploi|<tmweb-contribute-links>>
+  à l'emploi|<hlink| Idées Vincent |main.fr.tm>>
 
   <\abstract>
     L'idée c'est d'avoir un produit fini : on télécharge, on a tout. Mais

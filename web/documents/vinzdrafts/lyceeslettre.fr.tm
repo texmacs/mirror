@@ -4,7 +4,7 @@
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Lettre aux
-  lycées|<tmweb-contribute-links>>
+  lycées|<hlink| Idées Vincent |main.fr.tm>>
 
   <\abstract>
     On va présenter le logiciel par l'envoi d'un mail. Comment rédiger au

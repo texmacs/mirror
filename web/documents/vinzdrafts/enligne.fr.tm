@@ -4,7 +4,7 @@
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|<TeXmacs> en
-  ligne|<tmweb-contribute-links>>
+  ligne|<hlink| Idées Vincent |main.fr.tm>>
 
   <\abstract>
     La possibilité d'utiliser <TeXmacs> en ligne pourrait ouvrir quelques
