@@ -47,11 +47,20 @@
 
   <section|Current task leader>
 
-  ...
+  Marc Lalaude-Labayle.
 
   <section|Other participants>
 
-  Vincent Douce
+  <\itemize>
+    <item>Emmanuël Corcelle, for the development of several plug-ins for
+    maths education.
+
+    <item><hlink|Vincent Douce|team-vincent.fr.tm>, for the creation of
+    pedagogic documents and videos.
+
+    <item>Éric Walter, for the diffusion among professors in physics and
+    chemistry.
+  </itemize>
 
   <section|Idées>
 
