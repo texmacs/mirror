@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.11>
+<TeXmacs|1.0.7.15>
 
 <style|tmweb>
 
@@ -37,6 +37,8 @@
     <item><hlink|Qcl|physics.en.tm#qcl>
 
     <item><hlink|R|statistics.en.tm#r>
+
+    <item><hlink|Reduce|cas.en.tm#reduce>
 
     <item><hlink|Sage|cas.en.tm#sage>
 

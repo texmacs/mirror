@@ -1,4 +1,4 @@
-<TeXmacs|1.0.6.11>
+<TeXmacs|1.0.7.15>
 
 <style|tmweb>
 
@@ -30,6 +30,10 @@
 
   <tmdoc-include|pari-abstract.en.tm>
 
+  <section|Reduce><label|reduce>
+
+  <tmdoc-include|reduce-abstract.en.tm>
+
   <section|Sage><label|sage>
 
   <tmdoc-include|sage-abstract.en.tm>
@@ -46,5 +50,6 @@
 <\initial>
   <\collection>
     <associate|language|english>
+    <associate|preamble|true>
   </collection>
 </initial>

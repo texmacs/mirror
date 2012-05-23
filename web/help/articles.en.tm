@@ -1,4 +1,4 @@
-<TeXmacs|1.0.6.4>
+<TeXmacs|1.0.7.15>
 
 <style|tmweb>
 
@@ -22,6 +22,9 @@
     science e-print archive.
 
     <item><hlink|TeXmacs-maxima interface|http://arxiv.org/abs/cs.SC/0504039>
+    by Andrey Grozin. Computer science e-print archive.
+
+    <item><hlink|TeXmacs-Reduce interface|http://arxiv.org/abs/1204.3020v1>
     by Andrey Grozin. Computer science e-print archive.
   </itemize>
 
