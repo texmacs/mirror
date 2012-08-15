@@ -24,7 +24,7 @@
   tracker|https://savannah.gnu.org/projects/texmacs/>, revamping the printing
   interface, tinkering with the QT port, filling this page, creating
   <hlink|automated documentation for users and
-  developers|tasks-autodocs.en.tm>, fixing bugs, avoiding my real duties...
+  developers|task-autodocs.en.tm>, fixing bugs, avoiding my real duties...
 
   \;
 
