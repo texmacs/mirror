@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.15>
+<TeXmacs|1.0.7.16>
 
 <style|tmweb>
 
@@ -362,13 +362,15 @@
   <\itemize-minus>
     <item>Jump to code when clicking on an item in the GUI.
 
-    <item>Setting breakpoints inside open scheme files
+    <item>Setting breakpoints inside open scheme files.
 
     <item>Having a scheme session in a split window. This is already
     achievable with the new widgets, but having a REPL acting on the ``main''
     buffer would be cool.
 
     <item>Reliable mechanism to reload modules.\ 
+
+    <item>Jump to the definition of any symbol clicking on it.
   </itemize-minus>
 
   <tmdoc-copyright|2012|Miguel de Benito Delgado>
