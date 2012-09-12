@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.12>
+<TeXmacs|1.0.7.16>
 
 <style|tmweb>
 
@@ -35,10 +35,10 @@
   obtained from you, but in another legal way (for instance, from your
   personal webpage).
 
-  It is also possible to <hlink|suscribe|../help/tmusers.en.tm> to the
+  It is also possible to <hlink|subscribe|../help/tmusers.en.tm> to the
   <tmweb-email|texmacs-users|texmacs.org> mailing list in order to get or
   give help from or to other <TeXmacs> users. You may also
-  <hlink|suscribe|../home/ml.en.tm> to the
+  <hlink|subscribe|../home/ml.en.tm> to the
   <tmweb-email|texmacs-info|texmacs.org> mailing list for getting information
   about main novelties about <TeXmacs>.
 
