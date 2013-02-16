@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.14>
+<TeXmacs|1.0.7.18>
 
 <style|tmweb>
 
@@ -41,7 +41,7 @@
 
   Download the <hlink|latest version|<merge|http://www.texmacs.org/Download/ftp/tmftp/source/|<merge|<TeXmacs-version-release|devel>|-src.tar.gz>>>
   of the source code, or the <hlink|latest stable
-  version|<merge|http://www.texmacs.org/Download/ftp/targz/|<merge|<TeXmacs-version-release|stable>|-src.tar.gz>>>,
+  version|<merge|http://www.texmacs.org/Download/ftp/tmftp/source/|<merge|<TeXmacs-version-release|stable>|-src.tar.gz>>>,
   <verbatim|cd> into the directory where you wish to compile <TeXmacs> and
   type
 

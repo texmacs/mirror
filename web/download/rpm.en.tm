@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.12>
+<TeXmacs|1.0.7.18>
 
 <style|tmweb>
 
@@ -39,9 +39,8 @@
   </shell-code>
 
   In a similar way, you may download an RPM for the <hlink|last stable
-  version|<merge|http://www.texmacs.org/Download/ftp/rpm/|<merge|<TeXmacs-version-release|stable-release>|.i386.rpm>>>
-  of <TeXmacs>. We also provide some RPM's for <hlink|other processors and
-  operating systems|http://www.texmacs.org/Download/ftp/rpm/>.
+  version|<merge|http://www.texmacs.org/Download/ftp/tmftp/redhat/|<merge|<TeXmacs-version-release|stable-release>|.i386.rpm>>>
+  of <TeXmacs>.
 
   <section|Happy <TeXmacs>-ing!>
 

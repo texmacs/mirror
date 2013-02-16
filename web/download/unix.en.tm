@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.12>
+<TeXmacs|1.0.7.18>
 
 <style|tmweb>
 
@@ -30,12 +30,9 @@
   <section|Download the package>
 
   Download the <hlink|most-recent|<merge|http://www.texmacs.org/Download/ftp/tmftp/generic/|<TeXmacs-version-release|devel>|-x11-i386-pc-linux-gnu.tar.gz>>
-  or <hlink|last stable|<merge|http://www.texmacs.org/Download/ftp/targz/|<merge|<TeXmacs-version-release|stable>|-static-gnu-linux.tar.gz>>>
+  or <hlink|last stable|<merge|http://www.texmacs.org/Download/ftp/tmftp/generic/|<merge|<TeXmacs-version-release|stable>|-x11-i386-pc-linux-gnu.tar.gz>>>
   static binary distribution of GNU <TeXmacs> for standard Intel or AMD based
-  PC's under GNU/<name|Linux>. If you have another processor or operating
-  system, then you may try to <hlink|search and
-  download|http://www.texmacs.org/Download/ftp/targz> the most recent version
-  of <TeXmacs> for your system.
+  PC's under GNU/<name|Linux>.
 
   <section|Unpack the package>
 
