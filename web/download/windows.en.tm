@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.17>
+<TeXmacs|1.0.7.18>
 
 <style|tmweb>
 
@@ -51,13 +51,13 @@
     fonts have to be generated only once. Subsequent runs of <TeXmacs> will
     be fast.
 
-    <item>The current <name|Windows> version of <TeXmacs> supports a reduced
-    set of plug-ins. Currently only Windows directly compatible plugins are
-    supported, that said maxima, mmx, octave, pari, python, mmx run out of
-    the box after a standard installation.
+    <item>The current <name|Windows> version of <TeXmacs> only supports a
+    reduced set of plug-ins. As of version 1.0.7.18, <name|Maxima>,
+    <name|Mathemagix>, <name|Octave>, <name|Pari> and <name|Python> should
+    run out of the box after a standard installation.
   </itemize>
 
-  <tmdoc-copyright|1999--2011|Joris van der Hoeven|David Michel>
+  <tmdoc-copyright|1999--2013|Joris van der Hoeven|David Michel|Denis Raux>
 
   <tmweb-license>
 </body>

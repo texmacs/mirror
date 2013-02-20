@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.17>
+<TeXmacs|1.0.7.18>
 
 <style|tmweb>
 
@@ -15,19 +15,19 @@
   Mb)
 
   <\quote-env>
-    <hlink|TmBuildEnv.zip|http://ftp.texmacs.org/TeXmacs/windows/qt/TmBuildEnv.zip>
+    <hlink|<verbatim|TmBuildEnv.zip>|http://ftp.texmacs.org/TeXmacs/windows/qt/TmBuildEnv.zip>
   </quote-env>
 
   This file must be uncompressed in the directory of your choice as long as
   the path does not contain white space (i.e Documents directory). To open a
-  command shell you have to run the <name|msys.bat> windows command file. It
-  is located in the subdirectory <em|MINGW/msys/1.0/>. The best way is to
-  create a shortcut to your desktop.
+  command shell you have to run the <verbatim|msys.bat> windows command file.
+  It is located in the subdirectory <verbatim|MINGW/msys/1.0/>. The best way
+  is to create a shortcut to this file from your desktop.
 
-  At the first run, this command file creates the necessary mounting table
-  <em|/etc/fstab>. If you want to relocate the whole MINGW environment, it is
-  mandatory to delete the <name|fstab> file in order to rebuild the correct
-  mounting paths.
+  At the first run, the <verbatim|msys> command creates the file
+  <verbatim|/etc/fstab> with a table of mounted devices. If you want to
+  relocate the whole MINGW environment, it is mandatory to delete the
+  <verbatim|fstab> file in order to rebuild the correct mounting paths.
 
   <section|Download <TeXmacs>>
 
