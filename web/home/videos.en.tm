@@ -1,6 +1,6 @@
-<TeXmacs|1.0.7.17>
+<TeXmacs|1.0.7.18>
 
-<style|magix-web>
+<style|tmweb>
 
 <\body>
   <tmweb-current|Home|Videos><tmweb-title|<TeXmacs>
