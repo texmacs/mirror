@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.12>
+<TeXmacs|1.0.7.17>
 
 <style|tmweb>
 
@@ -11,16 +11,23 @@
   In order to compile <TeXmacs> under <name|Windows>, you need <name|Qt>,
   <name|MinGW> and a certain number of libraries. We have simplified the
   installation procedure for these dependencies by creating a single zip-file
-  which contains all necessary stuff. Thus, you first have to download (462
+  which contains all necessary stuff. Thus, you first have to download (182
   Mb)
 
   <\quote-env>
-    <hlink|<verbatim|ftp://ftp.texmacs.org/pub/TeXmacs/windows/qt/TmBuildEnv.zip>|ftp://ftp.texmacs.org/pub/TeXmacs/windows/qt/TmBuildEnv.zip>
+    <hlink|TmBuildEnv.zip|http://ftp.texmacs.org/TeXmacs/windows/qt/TmBuildEnv.zip>
   </quote-env>
 
-  This file must be uncompressed in the directory <verbatim|C:\\>.
-  Uncompression in other directories is not supported. Copy the file
-  <verbatim|C:\\TmBuildEnv\\MSYS\\MSYS.lnk> to your desktop.
+  This file must be uncompressed in the directory of your choice as long as
+  the path does not contain white space (i.e Documents directory). To open a
+  command shell you have to run the <name|msys.bat> windows command file. It
+  is located in the subdirectory <em|MINGW/msys/1.0/>. The best way is to
+  create a shortcut to your desktop.
+
+  At the first run, this command file creates the necessary mounting table
+  <em|/etc/fstab>. If you want to relocate the whole MINGW environment, it is
+  mandatory to delete the <name|fstab> file in order to rebuild the correct
+  mounting paths.
 
   <section|Download <TeXmacs>>
 
@@ -45,10 +52,11 @@
     cd ~/texmacs/src
   </shell-code>
 
-  Configure using
+  Configure the environment using. You can use -h parameter to view
+  configuration options
 
   <\shell-code>
-    ./configure CPPFLAGS="-I/usr/include" LDFLAGS="-L/usr/lib"
+    ./configure
   </shell-code>
 
   Build <TeXmacs>
@@ -57,29 +65,33 @@
     make WINDOWS_BUNDLE
   </shell-code>
 
-  Run
+  Run <TeXmacs>
 
   <\shell-code>
-    ~/texmacs/distr/TeXmacs-Windows/bin/texmacs.exe
+    ~/texmacs/distr/TeXmacs-Windeows/bin/texmacs.exe
   </shell-code>
 
-  The first time you run <TeXmacs>, the program will crash. Subsequent runs
-  should work fine.
+  The first time you run <TeXmacs>, the program may crash. This can appear if
+  a previous version has had a configuration file with a different format.
+  You have to remove the <TeXmacs> directory located in AppData\\Roaming
+  (AppData is a hidden directory in your Windows home). Subsequent runs
+  should w<abbr|>ork fine.
 
   <section|Creation of an installer>
 
-  After building <TeXmacs>, you can create an installer using
+  After building <TeXmacs>, you can create an installer using the
+  WINDOWS_PACKAGE target
 
   <\shell-code>
-    cd ~/texmacs/src/misc/windows
-
-    iscc TeXmacs.iss
+    make WINDOWS_PACKAGE
   </shell-code>
 
-  The installer can be found in the directory <verbatim|~/texmacs/distr>.
+  The installer can be found in the directory <em|~/texmacs/distr/windows/>.
+  This installer is a standalone package, so you don't need anything else to
+  enjoy <TeXmacs>. The MinGW environment is no longer useful.
 
-  <tmdoc-copyright|2010|David Michel|Massimiliano Gubinelli|Joris van der
-  Hoeven>
+  <tmdoc-copyright|2013|David Michel|Massimiliano Gubinelli|Joris van der
+  Hoeven, Denis Raux>
 
   <tmweb-license>
 </body>
