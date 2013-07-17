@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.13>
+<TeXmacs|1.0.7.19>
 
 <style|tmweb>
 
@@ -6,7 +6,7 @@
   <tmweb-current|Home|Jobs><tmweb-title|<TeXmacs> job
   offers|<tmweb-home-links>>
 
-  We occasionnaly provide jobs for the development and promotion of
+  We occasionally provide jobs for the development and promotion of
   <TeXmacs>. Here follows a list of current and past job offers:
 
   <\itemize>
