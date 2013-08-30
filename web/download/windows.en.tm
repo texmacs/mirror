@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.18>
+<TeXmacs|1.0.7.17>
 
 <style|tmweb>
 
@@ -12,7 +12,9 @@
   you should:
 
   <\enumerate>
-    <item>Download <hlink|<verbatim|<merge|<TeXmacs-version-release|devel>|-installer.exe>>|<merge|http://www.texmacs.org/Download/ftp/tmftp/windows/|<TeXmacs-version-release|devel>|-installer.exe>>.
+    <item>Download <hlink|<verbatim|<merge|<TeXmacs-version-release|devel>|-installer.exe>>|<merge|http://www.texmacs.org/Download/ftp/tmftp/windows/|<TeXmacs-version-release|devel>|-installer.exe>>
+    the last stable version or a more recent
+    <hlink|here|http://ftp.texmacs.org/TeXmacs/tmftp/windows/>.
 
     <item>Execute the downloaded installer and follow the installation
     instructions.
@@ -65,5 +67,6 @@
 <\initial>
   <\collection>
     <associate|language|english>
+    <associate|preamble|true>
   </collection>
 </initial>
