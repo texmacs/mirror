@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.18>
+<TeXmacs|1.0.7.17>
 
 <style|tmweb>
 
@@ -11,12 +11,18 @@
   In order to compile <TeXmacs> under <name|Windows>, you need <name|Qt>,
   <name|MinGW> and a certain number of libraries. We have simplified the
   installation procedure for these dependencies by creating a single zip-file
-  which contains all necessary stuff. Thus, you first have to download (182
+  which contains all necessary stuff. Thus, you first have to download (195
   Mb)
 
-  <\quote-env>
-    <hlink|<verbatim|TmBuildEnv.zip>|http://ftp.texmacs.org/TeXmacs/windows/qt/TmBuildEnv.zip>
-  </quote-env>
+  <\verbatim>
+    \;
+
+    \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <hlink|<verbatim|TmBuildEnv.zip>|http://ftp.texmacs.org/TeXmacs/windows/qt/TmBuildEnv.zip>
+    <with|font-family|rm|or older versions>
+    <hlink|Here|http://ftp.texmacs.org/TeXmacs/windows/qt>
+
+    \;
+  </verbatim>
 
   This file must be uncompressed in the directory of your choice as long as
   the path does not contain white space (i.e Documents directory). To open a
@@ -99,5 +105,6 @@
 <\initial>
   <\collection>
     <associate|language|english>
+    <associate|preamble|false>
   </collection>
 </initial>
