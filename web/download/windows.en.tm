@@ -13,7 +13,7 @@
 
   <\enumerate>
     <item>Download <hlink|<verbatim|<merge|<TeXmacs-version-release|devel>|-installer.exe>>|<merge|http://www.texmacs.org/Download/ftp/tmftp/windows/|<TeXmacs-version-release|devel>|-installer.exe>>
-    the last stable version or a more recent
+    the last stable version or an another
     <hlink|here|http://ftp.texmacs.org/TeXmacs/tmftp/windows/>.
 
     <item>Execute the downloaded installer and follow the installation
@@ -67,6 +67,6 @@
 <\initial>
   <\collection>
     <associate|language|english>
-    <associate|preamble|true>
+    <associate|preamble|false>
   </collection>
 </initial>
