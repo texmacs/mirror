@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.16>
+<TeXmacs|1.0.7.20>
 
 <style|tmweb>
 
@@ -24,6 +24,9 @@
     <item><hlink|Andrey Grozin|http://www.inp.nsk.su/~grozin>
     <tmweb-email|grozin|texmacs.org>: our expert on interfaces with computer
     algebra system and internationalization.
+
+    <item>Denis Raux <tmweb-email|raux|texmacs.org>: Issues concerning
+    windows versions and the related development environment
   </itemize>
 
   Please report any <hlink|new bugs|bugs.en.tm> and
