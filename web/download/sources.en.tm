@@ -1,6 +1,6 @@
-<TeXmacs|1.0.7.18>
+<TeXmacs|1.0.7.20>
 
-<style|tmweb>
+<style|<tuple|tmweb|english>>
 
 <\body>
   <tmweb-current|Download|Sources><tmweb-title|Compiling <TeXmacs> from the
@@ -14,8 +14,8 @@
 
   <section|Verify the <TeXmacs> dependencies>
 
-  Before you install <TeXmacs> on your system, you have to make sure that the
-  other programs on which <TeXmacs> depends, namely:
+  Before you install <TeXmacs> on your system, you have to make sure that you
+  have the other programs on which <TeXmacs> depends, namely:
 
   <\description>
     <item*|<hlink|<name|Qt>|http://qt.nokia.com/products/>>A cross-platform
@@ -23,17 +23,21 @@
 
     <item*|<hlink|<name|Guile>|http://www.gnu.org/s/guile/>>The GNU
     implementation of <name|Scheme>, which is used as an extension language.
+    Please note that as of Oct. 2013, <name|Guile> 2.x is
+    <with|font-series|bold|not supported>; you will need <name|Guile> 1.8.
 
     <item*|<hlink|<name|Freetype2>|http://www.freetype.org/freetype2/index.html>>A
     library for font rendering.
   </description>
 
-  Some other softwares that you might wish to install for more functionality
+  Some more software that you might wish to install for more functionality
   and better performance are <hlink|<name|Ghostscript>|http://pages.cs.wisc.edu/~ghost/>,
   <hlink|<name|Aspell>|http://aspell.net/>,
   <hlink|<name|Libiconv>|http://www.gnu.org/s/libiconv/index.html>,
-  <hlink|<name|Netpbm>|http://netpbm.sourceforge.net/> and
-  <hlink|<name|ImageMagick>|www.imagemagick.org/>.
+  <hlink|<name|Netpbm>|http://netpbm.sourceforge.net/>,
+  <hlink|<name|ImageMagick>|www.imagemagick.org/> and
+  <hlink|<name|Sparkle>|http://sparkle.andymatuschak.org/> or
+  <hlink|<name|WinSparkle>|http://winsparkle.org/>.
 
   <section|Download and unpack the source code>
 
@@ -56,23 +60,25 @@
   <paragraph|Download the current development version>
 
   Since <TeXmacs>-1.0.7.1, the development of <TeXmacs> is done using the
-  <hlink|Subversion|http://subversion.tigris.org/> concurrent versioning
-  system. In order to download the current SVN version of <TeXmacs> in
-  read-only mode, you should do
+  <hlink|Subversion|http://subversion.tigris.org/> (<name|SVN>) concurrent
+  versioning system. In order to download the current <name|SVN> version of
+  <TeXmacs> in read-only mode, you should type the following in a console,
+  while at a directory of your choice where the sources will be saved
 
-  <\verbatim>
-    \ \ \ \ svn co svn://svn.savannah.gnu.org/texmacs/trunk/src
-  </verbatim>
+  <\shell-code>
+    svn co svn://svn.savannah.gnu.org/texmacs/trunk/src
+  </shell-code>
 
   Notice that you may also <hlink|browse|http://svn.savannah.gnu.org/viewvc/trunk/?root=texmacs>
-  the current <TeXmacs> sources on the web. The <TeXmacs> website and other
-  things are also maintained by SVN; just replace <verbatim|src> by
-  <verbatim|web> or <verbatim|misc> in the above checkout.
+  the current <TeXmacs> sources on the web. The <TeXmacs> website and several
+  other things are also maintained through <name|SVN>; just replace
+  <verbatim|src> by <verbatim|web> or <verbatim|misc> in the above checkout
+  command.
 
-  In order to commit changes by SVN, you first need a user account on
-  <hlink|<name|Savannah>|http://savannah.gnu.org> and send a request to join
-  the <TeXmacs> developers team. You may then check out and commit changes as
-  described on <hlink|the subversion page for
+  In order to commit changes to the <name|SVN> repository, you first need a
+  user account on <hlink|<name|Savannah>|http://savannah.gnu.org> and send a
+  request to join the <TeXmacs> developers team. You may then checkout and
+  commit changes as described on <hlink|the subversion page for
   <TeXmacs>|https://savannah.gnu.org/svn/?group=texmacs>. You may also use
   <name|Savannah> in order to submit <hlink|patches|../contact/patches.en.tm>
   to<nbsp><TeXmacs>. A <hlink|Git|http://git-scm.com/> mirror of the main
@@ -80,9 +86,9 @@
 
   <section|Compile, install and run>
 
-  <TeXmacs> supports the standard GNU compilation and installation procedure.
-  Assuming that you logged yourself in as root, <verbatim|cd> into the
-  installation directory and type
+  <TeXmacs> supports the standard <name|GNU> compilation and installation
+  procedure. Assuming that you logged yourself in as root, <verbatim|cd> into
+  the installation directory and type
 
   <\shell-code>
     ./configure
@@ -94,15 +100,18 @@
 
   The first command examines your particular system configuration. The second
   command launches the compilation. The last command installs <TeXmacs> in
-  <with|font-family|tt|/usr/local>.
-
-  If everything works fine, you should be able to run <TeXmacs> by
+  <with|font-family|tt|/usr/local>. Under <name|MacOS> the recommended way is
+  to run <shell|make MACOS_BUNDLE> instead of <shell|make> and <shell|make
+  install>. This will create a <tt|<merge|<TeXmacs-version-release|devel>|.app>>
+  application bundle in <tt|../distr> which you can move and open as any
+  other application. For other systems, if everything works fine with the
+  commands above you should be able to run <TeXmacs> by typing
 
   <\shell-code>
     texmacs &
   </shell-code>
 
-  If this does not work, you should make sure that
+  If this does not work you should make sure that
   <with|font-family|tt|/usr/local/bin> is in your <with|font-family|tt|PATH>.
   Depending on your shell, you can ensure this by typing
 
@@ -115,8 +124,6 @@
   <\shell-code>
     setenv PATH /usr/local/bin:$PATH
   </shell-code>
-
-  \;
 
   <section|Configuration and build options>
 
@@ -140,7 +147,19 @@
 
   allows you to build the historical X11 version of <TeXmacs> instead of the
   <name|Qt>-based version. For more configuration options, type
-  <shell|./configure --help>.
+  <shell|./configure --help>. For systems where both <name|Guile> 1.8 and 2.0
+  are installed you may use the following command for configuration:
+
+  <\shell-code>
+    ./configure \\
+
+    GUILE_CFLAGS="`pkg-config --static --cflags guile-1.8`" \\
+
+    GUILE_LDFLAGS="`pkg-config --static --libs guile-1.8`" \\
+
+    GUILE_DATA_PATH="`pkg-config --variable=datadir guile-1.8`"
+    \\GUILE_VERSION="`pkg-config --modversion guile-1.8`"
+  </shell-code>
 
   By default, we build <TeXmacs> using dynamically linked libraries. If you
   rather want to build the static version, use
@@ -167,8 +186,5 @@
   <tmweb-license>
 </body>
 
-<\initial>
-  <\collection>
-    <associate|language|english>
-  </collection>
-</initial>
+<initial|<\collection>
+</collection>>
