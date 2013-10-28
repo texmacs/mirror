@@ -13,8 +13,8 @@
   Having been working more than ten years as systems engineer on super
   computers at <hlink|IDRIS|www.idris.fr>, Denis decided to get some fresh
   air by joining a dynamic research team. His is reponsible for the windows
-  portability and of course for the web servers and of the futur calcul
-  cluster.
+  portability, the <TeXmacs> website and the upcoming remote computation
+  services.
 
   You can contact him at <tmweb-email|raux|texmacs.org>.
 
@@ -24,3 +24,6 @@
 
   <tmweb-license>
 </body>
+
+<initial|<\collection>
+</collection>>

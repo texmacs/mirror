@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.15>
+<TeXmacs|1.0.7.20>
 
 <style|tmweb>
 
@@ -41,9 +41,10 @@
   </center>
 
   <\center>
-    <tabular*|<tformat|<table|<row|<cell|<hlink|<image|team-massimiliano.jpg||150px||>|team-massimiliano.en.tm>>|<cell|<hlink|<image|team-francois.jpg||150px||>|team-francois.en.tm>>>|<row|<cell|<hlink|Massimiliano
+    <tabular*|<tformat|<table|<row|<cell|<hlink|<image|team-massimiliano.jpg||150px||>|team-massimiliano.en.tm>>|<cell|<hlink|<image|team-francois.jpg||150px||>|team-francois.en.tm>>|<cell|<hlink|<image|team-denis.jpg||150px||>|team-denis.en.tm>>>|<row|<cell|<hlink|Massimiliano
     Gubinelli|team-massimiliano.en.tm>>|<cell|<hlink|François
-    Poulain|team-francois.en.tm>>>>>>
+    Poulain|team-francois.en.tm>>|<cell|<hlink|Denis
+    Raux|team-denis.en.tm>>>>>>
   </center>
 
   <tmdoc-copyright|2012|Joris van der Hoeven>

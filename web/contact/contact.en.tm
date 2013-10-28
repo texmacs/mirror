@@ -1,6 +1,6 @@
 <TeXmacs|1.0.7.20>
 
-<style|tmweb>
+<style|<tuple|tmweb|english>>
 
 <\body>
   <tmweb-current|Contact|Feedback><tmweb-title|Contacting
@@ -25,8 +25,9 @@
     <tmweb-email|grozin|texmacs.org>: our expert on interfaces with computer
     algebra system and internationalization.
 
-    <item>Denis Raux <tmweb-email|raux|texmacs.org>: Issues concerning
-    windows versions and the related development environment
+    <item><hlink|Denis Raux|../contribute/team-denis.en.tm>
+    <tmweb-email|raux|texmacs.org>: issues concerning windows versions and
+    the related development environment.
   </itemize>
 
   Please report any <hlink|new bugs|bugs.en.tm> and
@@ -50,8 +51,5 @@
   <tmweb-license>
 </body>
 
-<\initial>
-  <\collection>
-    <associate|language|english>
-  </collection>
-</initial>
+<initial|<\collection>
+</collection>>

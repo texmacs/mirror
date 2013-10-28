@@ -1,6 +1,6 @@
-<TeXmacs|1.0.7.17>
+<TeXmacs|1.0.7.20>
 
-<style|tmweb>
+<style|<tuple|tmweb|english>>
 
 <\body>
   <tmweb-current|Download|Windows><tmweb-title|Compiling Qt-<TeXmacs> under
@@ -15,15 +15,10 @@
   Mb)
 
   <\verbatim>
-    \;
-
-    \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ <hlink|<verbatim|TmBuildEnv.zip>|http://ftp.texmacs.org/TeXmacs/windows/qt/TmBuildEnv.zip>
-    <with|font-family|rm|or older versions>
-    <hlink|Here|http://ftp.texmacs.org/TeXmacs/windows/qt>
-
-    \;
+    \ \ \ \ <hlink|<verbatim|TmBuildEnv.zip>|http://ftp.texmacs.org/TeXmacs/windows/qt/TmBuildEnv.zip>
   </verbatim>
 
+  or older versions <hlink|here|http://ftp.texmacs.org/TeXmacs/windows/qt>.
   This file must be uncompressed in the directory of your choice as long as
   the path does not contain white space (i.e Documents directory). To open a
   command shell you have to run the <verbatim|msys.bat> windows command file.
@@ -104,7 +99,6 @@
 
 <\initial>
   <\collection>
-    <associate|language|english>
     <associate|preamble|false>
   </collection>
 </initial>
