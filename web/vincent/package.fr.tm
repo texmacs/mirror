@@ -1,6 +1,6 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmweb|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmweb|maxima|doc|giac>>
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Package <TeXmacs> prêt

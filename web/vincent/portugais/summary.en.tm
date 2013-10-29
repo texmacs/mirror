@@ -1,6 +1,6 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmdoc|maxima|tmdoc-markup|giac>>
+<style|<tuple|tmdoc|maxima|doc|giac>>
 
 <\body>
   <doc-data|<doc-title|propositions of the group>>

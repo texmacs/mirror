@@ -1,6 +1,6 @@
-<TeXmacs|1.0.7.15>
+<TeXmacs|1.0.7.20>
 
-<style|<tuple|tmweb|maxima|tmdoc-markup|giac|tmdoc-keyboard>>
+<style|<tuple|tmweb|maxima|giac>>
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Cookbook|<hlink| Idées
