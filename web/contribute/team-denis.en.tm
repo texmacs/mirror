@@ -6,15 +6,16 @@
   <tmweb-current|Contribute|Team><tmweb-title|Denis
   Raux|<tmweb-contribute-links>>
 
-  Denis is a Telecom Engineer from <hlink|Telecom INT|>, who joined the CNRS
-  as Resaerch Engineer in year 2000 after he had worked at various places
-  like France Telecom or small compagnies.
+  Denis is a Telecom Engineer from <hlink|Telecom
+  INT|http://www.int-evry.fr>, who joined the CNRS as Resaerch Engineer in
+  year 2000 after he had worked at various places like France Telecom or
+  small compagnies.
 
   Having been working more than ten years as systems engineer on super
-  computers at <hlink|IDRIS|www.idris.fr>, Denis decided to get some fresh
-  air by joining a dynamic research team. His is reponsible for the windows
-  portability, the <TeXmacs> website and the upcoming remote computation
-  services.
+  computers at <hlink|IDRIS|http://www.idris.fr>, Denis decided to get some
+  fresh air by joining a dynamic research team. His is reponsible for the
+  windows portability, the <TeXmacs> website and the upcoming remote
+  computation services.
 
   You can contact him at <tmweb-email|raux|texmacs.org>.
 
@@ -24,6 +25,3 @@
 
   <tmweb-license>
 </body>
-
-<initial|<\collection>
-</collection>>
