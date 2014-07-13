@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.16>
+<TeXmacs|1.99.2>
 
 <style|tmweb>
 
@@ -6,23 +6,28 @@
   <tmweb-current|Contribute|Contributing><tmweb-title|Task: Automatic and
   on-line documentation|<tmweb-contribute-links>>
 
-  <section|Description and participants>
+  The purpose of this task is to add documentation to the interface and
+  internals in a programmatic way using <scheme>: this means documenting
+  keyboard shortcuts, menu items and <scheme> code. The documentation should
+  be both compiled dynamically and extracted from reference guides. You can
+  contact <hlink|Miguel de Benito Delgado|team-miguel.en.tm> with ideas,
+  praise or hate for the bugs in his code. Any offer for help will be
+  especially welcome.
 
-  The purpose of this task is to add documentation to the interface in a
-  programmatic way using <scheme>: some candidates are keyboard shortcuts,
-  menu items and scheme code. The documentation should be both compiled
-  dynamically and extracted from reference guides.
+  <\note>
+    As of <TeXmacs> 1.99.1 some of the features described here are
+    implemented in a rather <em|alpha> state. However, code browsing, tab
+    completion and contextual help (gathered on the fly and cached from the
+    manual) inside any <scheme> tag (i.e. <markup|scm>, <markup|scm-code>,
+    <scheme> sessions) should be more or less usable. If it doesn't work for
+    you, please contact\ 
+  </note>
 
-  Current members are <hlink|Miguel de Benito Delgado|team-miguel.en.tm> and
-  Álvaro Tejero Cantero. We embrace open discussion (as long as it suits us)
-  and abhor hierarchies so we have no leader and welcome any contributors.
+  Here are some notes taken in 2012 while thinking about the problems related
+  to this task. Please note that they might not be up to date. In particular
+  some of these ideas might have already been implemented or dropped.
 
-  <section|Current work>
-
-  Here are some notes taken while thinking about the problems related to this
-  task.
-
-  <subsection|Keyboard Shortcuts>
+  <section|Keyboard Shortcuts>
 
   In a first approximation, a list of the available shortcuts should be
   compiled depending on the current mode and presented in a new buffer.
@@ -33,7 +38,7 @@
   of the shortcuts at the same place where they are displayed. Maybe
   implement a shortcut editor?
 
-  <subsection|Menu items>
+  <section|Menu items>
 
   Every action the user can take using the interface should be documented.
   Besides the obvious tooltip, one mechanism to achieve it is a ``What's
@@ -111,24 +116,22 @@
     </itemize-minus>
   </enumerate-numeric>
 
-  <subsection|Scheme code>
+  <section|Scheme code>
 
-  A first step has been taken with the help page <menu|Help|Scheme
-  extensions|List all commands>, but this is not only slow and ugly, it is
-  incomplete and mostly useless.\ 
-
-  Ideally we want:
+  Some steps have been taken with the items in the menu <menu|Developer>, but
+  its quite lacking. Ideally we want:
 
   <\enumerate-numeric>
     <item><label|scm:det_docs>Detailed documentation of each exported
     function and each module in <TeXmacs>. This should include functions in
-    the glue.
+    the glue. <with|color|orange|In progress, but this is a huge task.>
 
     <item><label|scm:context>Contextual help inside scheme tags and sessions
     and open scheme files. Either using right click and a menu, or some
     modifer + click to jump directly to the docs (use the same as in the
     ``what's this?'' feature). See <tt|link-navigate.scm>. A side panel could
-    be showing them constantly.
+    be showing them constantly. <with|color|dark green|(Done, but the list of
+    symbols is not complete. Needs a real parser.)>
 
     <item><label|scm:edit_docs>This includes seeing the documentation as well
     as being able to edit it, for example adding a menu item to help buffers:
@@ -136,63 +139,41 @@
 
     <item><label|scm:search>Add some "Search in public functions..." which
     does not grep. It <with|font-series|bold|has> to be fast.
+    <with|color|dark green|(Done with the widget in <menu|Developer|Open
+    symbol browser..>., but again the list is incomplete)>
 
     <item><label|scm:tab_completion>Tab completion inside scheme sessions and
     open scheme files. This includes a list with the arguments of functions
     and their type (extra markup needed in the docs to tag this).
+    <with|color|orange|(In progress: the list is incomplete (no glued
+    functions, no builtin functions) and no parameters. Needs a real
+    parser.)>
 
     <item><label|scm:hyperlinks>Make everything inside <verbatim|scm>,
     <verbatim|scm-code> tags clickable using something like <key|cmd>+Click
-    to navigate.
-  </enumerate-numeric>
-
-  Some steps towards achieving <reference|scm:det_docs> and
-  <reference|scm:context> are:
-
-  <\enumerate-numeric>
-    <item>We add a short synopsis in the code (but with some more meaning
-    than the three words in the comments at the top) for each module, using
-    some keyword for <scm|tm-module>, for instance.
-
-    <item>We automatically generate an index for all modules, in a similar
-    way to that drafty function index already written. We could use the
-    synopsis here.
-
-    <item>We manually fill documentation pages for each module with
-    introduction, examples and generalities. Then list all <scm|tm-define>d
-    functions in that module. See below for an example following the usual
-    conventions. Some new markup will be needed.
-
-    <item>It is to be decided whether some things will be dynamically created
-    or not. Either:
-
-    <\enumerate-roman>
-      <item>Upon loading of module documentation pages, some mechanism fills
-      in with templates and/or marks stuff as not documented or outdated when
-      needed,
-
-      <item>Or we have some "Check/Rebuild documentation" button somewhere at
-      sometime.
-    </enumerate-roman>
-
-    <item>The same applies for the indices: automatic or not.
+    to navigate. <with|color|dark green|Done.>
   </enumerate-numeric>
 
   <paragraph|Problems>
 
   <\itemize-dot>
-    <item>As before, things will go out of sync. Some time-stamping or
-    checksum is necessary to check whether the docs might be outdated.
+    <item>Things will go out of sync. Some time-stamping or checksum is
+    necessary to check whether the docs might be outdated. Alternatively,
+    developers should be very careful of updating their documentation.
 
     <item>The list of available modules and exported functions is huge.
     Keeping the documentation in conventional files organized in directories
     can become a mess. But a central database can be bad for version control.
   </itemize-dot>
 
-  <paragraph|Example>
+  <\subsection>
+    Modules documentation
+  </subsection>
 
-  This is an example of the format the module documentation could have (we
-  make extensive use of folds and links)
+  This is an example of the format the module documentation has (we make
+  extensive use of folds and links which won't display on the web). To see it
+  in <TeXmacs> use the <menu|Developer> or <menu|Help|Scheme extensions>
+  menus.
 
   <tmdoc-title|<scm|some-module>'s reference documentation>
 
@@ -276,7 +257,7 @@
     unchanged.
   </explain>
 
-  <paragraph*|Fixmes and To-dos>
+  <paragraph*|Fixmes and To-dos><with|color|red|Not implemented.>
 
   <\unfolded>
     <tt|FIXME: why does this not work?><htab|><hlink|(line 111 of
@@ -333,9 +314,9 @@
     </scm-code>
   </unfolded-std>
 
-  <subsection|Other ideas>
+  <section|Other ideas>
 
-  <subsubsection|Help for writing documentation>
+  <paragraph|Help for writing documentation>
 
   <\enumerate>
     <item>Add a menu entry with the "documentation tree". Clicking on an item
@@ -354,12 +335,12 @@
     </enumerate>
   </enumerate>
 
-  <subsubsection|IDE>
+  <paragraph|<TeXmacs> as an <abbr|IDE> to itself>
 
   Some of the things considered above are first steps to <TeXmacs> as an IDE
   to itself, with other desirable features being:
 
-  <\itemize-minus>
+  <\itemize-dot>
     <item>Jump to code when clicking on an item in the GUI.
 
     <item>Setting breakpoints inside open scheme files.
@@ -371,9 +352,13 @@
     <item>Reliable mechanism to reload modules.\ 
 
     <item>Jump to the definition of any symbol clicking on it.
-  </itemize-minus>
+    <with|color|dark green|Done, but needs a real parser. Yes, yes...>
+  </itemize-dot>
 
-  <tmdoc-copyright|2012|Miguel de Benito Delgado>
+  <tmdoc-copyright|2012, 2013|Miguel de Benito Delgado>
 
   <tmweb-license>
 </body>
+
+<initial|<\collection>
+</collection>>
