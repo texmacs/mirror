@@ -1,6 +1,6 @@
-<TeXmacs|1.0.7.12>
+<TeXmacs|1.99.2>
 
-<style|tmweb>
+<style|<tuple|tmweb|english>>
 
 <\body>
   <tmweb-current|Download|Linux><tmweb-title|<TeXmacs> inside
@@ -78,7 +78,7 @@
   line in your <verbatim|/etc/apt/sources.list>) which is rather up-to-date.
   Versions in "<verbatim|stable>", "<verbatim|testing>", and
   "<verbatim|unstable>" are way too old. The package is currently maintained
-  by Atsuhito Kohda and Kamaraju Kusumanchi.
+  by Atsuhito Kohda.
 
   <section*|Fedora><label|fedora>
 
@@ -172,9 +172,3 @@
 
   <tmweb-license>
 </body>
-
-<\initial>
-  <\collection>
-    <associate|language|english>
-  </collection>
-</initial>
