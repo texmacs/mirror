@@ -43,9 +43,9 @@
     contextual help popups and easy code browsing (jump to definitions,
     symbol lists, module browsing), bracket matching for all languages,
     customizable syntax highlighting (this still needs an interface, 2014)...
-    Proper parsing and indexing of all code is in the queue (hopefully in
-    2014). The amount of room for improvement is overwhelming and the overall
-    result not that impressive, I know. Stay tuned!
+    Proper parsing and indexing of all code is in the queue. The amount of
+    room for improvement is overwhelming and the overall result not that
+    impressive, I know.
 
     <item*|Better bibliography management>I've implemented autocompletion for
     bibliographic keys, a simple bibliography dialog and a few other related
@@ -53,9 +53,9 @@
     of a <hlink|<name|Zotero>|https://www.zotero.org/> client and embedding
     bibliographic data into documents (2014).
 
-    <item*|Automatic update mechanism>I wrote the (yet to be used) update
-    notification system for <name|MacOS> and <name|Windows> using
-    <hlink|<name|Sparkle>|http://sparkle.andymatuschak.org/> and
+    <item*|Automatic update mechanism>I wrote the (as of late 2014 yet to be
+    used) update notification system for <name|MacOS> and <name|Windows>
+    using <hlink|<name|Sparkle>|http://sparkle.andymatuschak.org/> and
     <hlink|<name|WinSparkle>|http://winsparkle.org/>. The <name|Linux> port
     is in the queue (hopefully in 2014).
 
@@ -124,7 +124,7 @@
     (Feb. 2014). >A very small tool to extract environments from a document
     into a new one, e.g. exercises or solutions.
 
-    <item><em|<tmweb-link|Fractal turtles|../miguel/snippet-fractal1> (Mar.
+    <item><em|<tmweb-link|Fractal turtles|../miguel/snippet-fractal-1> (Mar.
     2014). >A quick follow-up to the <TeXmacs> pseudo-<name|Logo> including
     some beatiful recursion! This was joint work/fun with Ana Cañizares
     García.
