@@ -1,9 +1,32 @@
 <TeXmacs|1.99.2>
 
-<style|tmdoc>
+<style|tmweb>
 
 <\body>
-  <tmdoc-title|Shortcut to cycle open buffers>
+  <tmweb-title|Shortcut to cycle open buffers|<tmweb-list|<tmweb-link|Team|../contribute/team>|<tmweb-link|Miguel's
+  home|../contribute/team-miguel>>>
+
+  <\hide-preamble>
+    \;
+
+    <assign|convention-text|<macro|<localize|Contract>>>
+
+    <assign|convention*|<\macro|body>
+      <compound|render-remark|<compound|convention-unnumbered|<compound|convention-text>>|<arg|body>>
+    </macro>>
+  </hide-preamble>
+
+  <doc-date|February, 2015>
+
+  <with|ornament-color|pastel red|<\ornamented>
+    <\note*>
+      It is best to read the original <TeXmacs> file with interactive
+      <scheme> sessions where one may experiment with the code. It can be
+      found in the <hlink|project's source
+      code|http://svn.savannah.gnu.org/viewvc/trunk/?root=texmacs>, inside
+      the directory <shell|web/miguel>.
+    </note*>
+  </ornamented>>
 
   <subsection|What?>
 
@@ -228,12 +251,7 @@
 
   <tmdoc-copyright|2015|Luigi Amedeo Bianchi and Miguel de Benito Delgado>
 
-  <tmdoc-license|Permission is granted to copy, distribute and/or modify
-  this\ndocument under the terms of the GNU Free Documentation License,
-  Version 1.1 or\nany later version published by the Free Software
-  Foundation; with no Invariant\nSections, with no Front-Cover Texts, and
-  with no Back-Cover Texts. A copy of\nthe license is included in the section
-  entitled "GNU Free Documentation License".>
+  <tmweb-license>
 </body>
 
 <initial|<\collection>
