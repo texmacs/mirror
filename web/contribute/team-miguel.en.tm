@@ -112,7 +112,8 @@
     2013). >An implementation of a small <name|Logo>-like set of macros to be
     used in <scheme> programs inside <TeXmacs>, featuring a canvas for output
     and nice examples, including some beatiful recursion! This was joint
-    work/fun with Ana Cañizares García (more on this below).
+    work/fun with <hlink|Ana Cañizares García|http://www.mathematik.uni-muenchen.de/~caniz/>
+    (more on this below).
 
     <item><em|<tmweb-link|Evaluating code
     snippets|../miguel/snippet-evaluation> (Jan. 2014). >Evaluation of code
@@ -128,6 +129,17 @@
     2014). >A quick follow-up to the <TeXmacs> pseudo-<name|Logo> including
     some beatiful recursion! This was joint work/fun with Ana Cañizares
     García.
+
+    <item><em|<tmweb-link|Cycling through
+    buffers|../miguel/snippet-buffercycle> (Feb. 2015). >An implementation
+    walkthrough of a little feature to cycle through buffers with a shortcut.
+    This was joint work/fun with <hlink|Luigi Amedeo
+    Bianchi|http://www.math.uni-augsburg.de/prof/ana/arbeitsgruppe/bianchi/>.
+
+    <item><em|<tmweb-link|Exporting beamer
+    presentations|../miguel/snippet-beamer2pdf> (Mar. 2015). >An
+    implementation walkthrough of better PDF export of beamer presentations.
+    This was joint work/fun with Ana Cañizares García.
   </itemize-dot>
 
   <tmdoc-copyright|2014|Miguel de Benito Delgado>
