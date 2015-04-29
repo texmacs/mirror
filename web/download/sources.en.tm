@@ -1,4 +1,4 @@
-<TeXmacs|1.0.7.20>
+<TeXmacs|1.99.2>
 
 <style|<tuple|tmweb|english>>
 
@@ -81,14 +81,15 @@
   commit changes as described on <hlink|the subversion page for
   <TeXmacs>|https://savannah.gnu.org/svn/?group=texmacs>. You may also use
   <name|Savannah> in order to submit <hlink|patches|../contact/patches.en.tm>
-  to<nbsp><TeXmacs>. A <hlink|Git|http://git-scm.com/> mirror of the main
+  to <TeXmacs>. A <hlink|Git|http://git-scm.com/> mirror of the main
   Subversion repository is maintained at <hlink|Gitorious|https://gitorious.org/texmacs/texmacs>.
 
   <section|Compile, install and run>
 
   <TeXmacs> supports the standard <name|GNU> compilation and installation
-  procedure. Assuming that you logged yourself in as root, <verbatim|cd> into
-  the installation directory and type
+  procedure. Assuming that you logged yourself in as root (needed only for
+  the install command), <verbatim|cd> into the installation directory and
+  type
 
   <\shell-code>
     ./configure
@@ -97,6 +98,14 @@
 
     make install
   </shell-code>
+
+  <\warning*>
+    If you have both version 4 and version 5 of the <name|Qt> libraries
+    installed in your system, compilation will fail unless you select the
+    former. This can be done by preceding the above commands with
+    <shell|export QT_SELECT=4> or <shell|setenv QT_SELECT 4> depending on
+    your shell (you may need to <shell|make clean> before).
+  </warning*>
 
   The first command examines your particular system configuration. The second
   command launches the compilation. The last command installs <TeXmacs> in
