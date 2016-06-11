@@ -12,6 +12,7 @@
 #ifndef GS_UTILITIES_HPP
 #define GS_UTILITIES_HPP
 
+#include "config.h"
 #include "tm_configure.hpp"
 #ifdef USE_GS
 

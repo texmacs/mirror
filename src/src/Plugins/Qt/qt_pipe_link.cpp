@@ -11,7 +11,7 @@
 
 #include "basic.hpp"
 
-#if defined (QTTEXMACS) && (defined (OS_MINGW) || defined (QTPIPES))
+#ifdef QTTEXMACS
 
 #include "tm_link.hpp"
 #include "QTMPipeLink.hpp"

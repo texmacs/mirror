@@ -12,6 +12,7 @@
 #ifndef GUILE_TM_H
 #define GUILE_TM_H
 #include "tm_configure.hpp"
+#include "config.h"
 
 #include "blackbox.hpp"
 #include "array.hpp"
