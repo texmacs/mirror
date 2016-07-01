@@ -167,6 +167,7 @@ initialize_default_env () {
   env (PAGE_SHOW_HF)     = "true";      // show header and footer
   env (PAGE_FNOTE_SEP)   = "1.0fn";     // space between text & footnotes
   env (PAGE_FNOTE_BARLEN)= "7.5fn";     // length of footnote separating bar
+  env (PAGE_FNOTE_BARSEP)= "0.2fn";     // space between separating bar and first footnote
   env (PAGE_FLOAT_SEP)   = "1.5fn";     // space between text & floats
   env (PAGE_FLOAT_ENABLE)= "paper";     // enable floating objects
   env (PAGE_MNOTE_SEP)   = "5mm";       // space between text & marginal notes

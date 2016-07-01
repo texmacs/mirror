@@ -42,6 +42,7 @@ pager_rep::pager_rep (path ip2, edit_env env2, array<page_item> l2):
   fn_sep    = env->get_vspace (PAR_FNOTE_SEP);
   fnote_sep = env->get_vspace (PAGE_FNOTE_SEP) + (2*env->fn->sep);
   fnote_bl  = env->get_length (PAGE_FNOTE_BARLEN);
+  fnote_bs  = env->get_length (PAGE_FNOTE_BARSEP) + (2*env->fn->sep);
   float_sep = env->get_vspace (PAGE_FLOAT_SEP);
   mnote_sep = env->get_length (PAGE_MNOTE_SEP);
   show_hf   = env->get_bool (PAGE_SHOW_HF) && paper;

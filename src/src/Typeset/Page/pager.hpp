@@ -45,6 +45,7 @@ public:
   space        fn_sep;
   space        fnote_sep;
   SI           fnote_bl;
+  SI           fnote_bs;
   space        float_sep;
   SI           mnote_sep;
 

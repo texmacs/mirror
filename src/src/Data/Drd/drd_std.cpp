@@ -1041,6 +1041,7 @@ init_std_drd () {
   init_var (PAGE_SHOW_HF, TYPE_BOOLEAN);
   init_var (PAGE_FNOTE_SEP, TYPE_LENGTH);
   init_var (PAGE_FNOTE_BARLEN, TYPE_LENGTH);
+  init_var (PAGE_FNOTE_BARSEP, TYPE_LENGTH);
   init_var (PAGE_FLOAT_SEP, TYPE_LENGTH);
   init_var (PAGE_FLOAT_ENABLE, TYPE_BOOLEAN);
   init_var (PAGE_MNOTE_SEP, TYPE_LENGTH);
