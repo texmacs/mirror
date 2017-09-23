@@ -103,7 +103,7 @@ ENDIF (NOT ${HAVE_DLOPEN})
 
 
 IF (${HAVE_DLOPEN})
-  SET(DYNAMIC_LINKING 1) # dynamic linking works
+  SET(TM_DYNAMIC_LINKING 1) # dynamic linking works
 ENDIF (${HAVE_DLOPEN})
 
 ### --------------------------------------------------------------------

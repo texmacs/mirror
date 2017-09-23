@@ -369,6 +369,11 @@ SET(TeXmacs_Std_Plugins_SRCS
     ./Plugins/Database/db_index.cpp
     ./Plugins/Database/db_query.cpp
     ./Plugins/Database/db_sort.cpp
+    ./Plugins/Freetype/adjust_bonum.cpp
+    ./Plugins/Freetype/adjust_pagella.cpp
+    ./Plugins/Freetype/adjust_schola.cpp
+    ./Plugins/Freetype/adjust_termes.cpp
+    ./Plugins/Freetype/adjust_stix.cpp
     ./Plugins/Freetype/free_type.cpp
     ./Plugins/Freetype/rubber_assemble_font.cpp
     ./Plugins/Freetype/rubber_stix_font.cpp
