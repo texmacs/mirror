@@ -527,6 +527,11 @@ SET(TeXmacs_Std_Plugins_SRCS
     ./Plugins/Pdf/PDFWriter/FreeTypeFaceWrapper.cpp
     ./Plugins/Pdf/PDFWriter/Trace.cpp
     ./Plugins/Pdf/PDFWriter/InputCharStringDecodeStream.cpp
+    ./Plugins/MacOS/HIDRemote.m
+    #./Plugins/MacOS/mac_app.mm
+    ./Plugins/MacOS/mac_images.mm
+    ./Plugins/MacOS/mac_spellservice.mm
+    ./Plugins/MacOS/mac_utilities.mm
     ./Plugins/Unix/unix_sys_utils.cpp
     ./Plugins/Sqlite3/sqlite3.cpp
     ./Plugins/Updater/tm_updater.cpp
@@ -738,6 +743,10 @@ ELSE(TEXMACS_GUI STREQUAL "Qt")
   SET(TeXmacs_Libraries ${TeXmacs_Libraries} ${X11_LIBRARIES})
 
 ENDIF(TEXMACS_GUI STREQUAL "Qt")
+
+if (APPLE)
+  SET(TeXmacs_Libraries ${TeXmacs_Libraries} "-framework Carbon -framework Foundation -framework IOKit -framework Cocoa -framework AppKit -framework CoreData")
+endif (APPLE)
 
 
 

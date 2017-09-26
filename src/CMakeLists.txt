@@ -14,6 +14,8 @@ cmake_minimum_required(VERSION 3.5)
 
 set(CMAKE_CXX_STANDARD 11)
 
+set(CMAKE_CXX_FLAGS "-Wno-deprecated-register")
+
 IF(NOT CMAKE_BUILD_TYPE)
  SET(CMAKE_BUILD_TYPE Debug CACHE STRING
      "Choose the type of build, options are: None Debug Release
@@ -361,6 +363,10 @@ set(QTPIPES 1)
 set(SIZEOF_VOID_P 8)
 set(STDC_HEADERS 1)
 set(USE_STACK_TRACE 1)
+if (APPLE)
+  set(MACOSX_EXTENSIONS 1)
+  set(OS_MACOS 1)
+endif (APPLE)
 configure_file(${TEXMACS_SOURCE_DIR}/src/System/config.h.cmake ${TEXMACS_BINARY_DIR}/src/System/config.h)
 
 set(CONFIG_STD_SETENV "#define STD_SETENV")

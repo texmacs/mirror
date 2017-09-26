@@ -97,6 +97,8 @@
 
 #cmakedefine MACOSX_EXTENSIONS 1
 
+#cmakedefine OS_MACOS 1
+
 /* Disable fast memory allocator */
 #cmakedefine NO_FAST_ALLOC 1
 
