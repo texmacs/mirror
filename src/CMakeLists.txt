@@ -363,6 +363,12 @@ set(QTPIPES 1)
 set(SIZEOF_VOID_P 8)
 set(STDC_HEADERS 1)
 set(USE_STACK_TRACE 1)
+
+option(USE_SQLITE3 "Use SQLite3" ON)
+if (USE_SQLITE3)
+  option(LINKED_SQLITE3 "Use Linked SQLite3" ON)
+endif (USE_SQLITE3)
+
 if (APPLE)
   set(MACOSX_EXTENSIONS 1)
   set(OS_MACOS 1)

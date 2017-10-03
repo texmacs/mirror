@@ -748,6 +748,10 @@ if (APPLE)
   SET(TeXmacs_Libraries ${TeXmacs_Libraries} "-framework Carbon -framework Foundation -framework IOKit -framework Cocoa -framework AppKit -framework CoreData")
 endif (APPLE)
 
+if (LINKED_SQLITE3)
+  SET(TeXmacs_Libraries ${TeXmacs_Libraries} "-lsqlite3")
+endif (LINKED_SQLITE3)
+
 
 
 ### --------------------------------------------------------------------
