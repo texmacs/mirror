@@ -34,6 +34,7 @@ SET(TeXmacs_Include_Dirs
     ./Kernel/Containers
     ./Kernel/Types
     ./Plugins
+    ./Plugins/Pdf/LibAesgm
     ./Scheme
     ./Scheme/Guile
     ./Scheme/Scheme
@@ -401,132 +402,151 @@ SET(TeXmacs_Std_Plugins_SRCS
     ./Plugins/Mplayer/mplayer.cpp
     ./Plugins/Openssl/openssl.cpp
     ./Plugins/Pdf/pdf_hummus_renderer.cpp
-    ./Plugins/Pdf/PDFWriter/TiffUsageParameters.cpp
-    ./Plugins/Pdf/PDFWriter/TiledPatternContentContext.cpp
-    ./Plugins/Pdf/PDFWriter/JPEGImageInformation.cpp
-    ./Plugins/Pdf/PDFWriter/PDFDocumentCopyingContext.cpp
-    ./Plugins/Pdf/PDFWriter/Ascii7Encoding.cpp
-    ./Plugins/Pdf/PDFWriter/PrimitiveObjectsWriter.cpp
-    ./Plugins/Pdf/PDFWriter/FontDescriptorWriter.cpp
-    ./Plugins/Pdf/PDFWriter/PDFDocEncoding.cpp
-    ./Plugins/Pdf/PDFWriter/OpenTypeFileInput.cpp
-    ./Plugins/Pdf/PDFWriter/XObjectContentContext.cpp
-    ./Plugins/Pdf/PDFWriter/CMYKRGBColor.cpp
-    ./Plugins/Pdf/PDFWriter/IndirectObjectsReferenceRegistry.cpp
-    ./Plugins/Pdf/PDFWriter/OpenTypePrimitiveReader.cpp
-    ./Plugins/Pdf/PDFWriter/CharStringType2Tracer.cpp
-    ./Plugins/Pdf/PDFWriter/ParsedPrimitiveHelper.cpp
-    ./Plugins/Pdf/PDFWriter/InfoDictionary.cpp
-    ./Plugins/Pdf/PDFWriter/PDFParser.cpp
-    ./Plugins/Pdf/PDFWriter/UppercaseSequance.cpp
-    ./Plugins/Pdf/PDFWriter/DescendentFontWriter.cpp
-    ./Plugins/Pdf/PDFWriter/OutputFile.cpp
-    ./Plugins/Pdf/PDFWriter/InputPredictorPNGSubStream.cpp
-    ./Plugins/Pdf/PDFWriter/InputPredictorPNGPaethStream.cpp
-    ./Plugins/Pdf/PDFWriter/GraphicState.cpp
-    ./Plugins/Pdf/PDFWriter/PDFPageInput.cpp
-    ./Plugins/Pdf/PDFWriter/Type1Input.cpp
-    ./Plugins/Pdf/PDFWriter/PDFDictionary.cpp
-    ./Plugins/Pdf/PDFWriter/UsedFontsRepository.cpp
-    ./Plugins/Pdf/PDFWriter/InputPredictorPNGAverageStream.cpp
-    ./Plugins/Pdf/PDFWriter/StandardEncoding.cpp
-    ./Plugins/Pdf/PDFWriter/CharStringType1Tracer.cpp
-    ./Plugins/Pdf/PDFWriter/PDFArray.cpp
-    ./Plugins/Pdf/PDFWriter/WrittenFontTrueType.cpp
-    ./Plugins/Pdf/PDFWriter/InputStringBufferStream.cpp
-    ./Plugins/Pdf/PDFWriter/PDFUsedFont.cpp
-    ./Plugins/Pdf/PDFWriter/InputPFBDecodeStream.cpp
-    ./Plugins/Pdf/PDFWriter/InputPredictorPNGNoneStream.cpp
-    ./Plugins/Pdf/PDFWriter/PageTree.cpp
-    ./Plugins/Pdf/PDFWriter/FreeTypeType1Wrapper.cpp
-    ./Plugins/Pdf/PDFWriter/InputFlateDecodeStream.cpp
-    ./Plugins/Pdf/PDFWriter/TrueTypeDescendentFontWriter.cpp
-    ./Plugins/Pdf/PDFWriter/CFFPrimitiveReader.cpp
-    ./Plugins/Pdf/PDFWriter/PageContentContext.cpp
-    ./Plugins/Pdf/PDFWriter/TrailerInformation.cpp
-    ./Plugins/Pdf/PDFWriter/PDFLiteralString.cpp
-    ./Plugins/Pdf/PDFWriter/OutputFlateEncodeStream.cpp
-    ./Plugins/Pdf/PDFWriter/CFFFileInput.cpp
-    ./Plugins/Pdf/PDFWriter/FreeTypeWrapper.cpp
-    ./Plugins/Pdf/PDFWriter/InputLimitedStream.cpp
-    ./Plugins/Pdf/PDFWriter/PDFPage.cpp
-    ./Plugins/Pdf/PDFWriter/GraphicStateStack.cpp
-    ./Plugins/Pdf/PDFWriter/FreeTypeOpenTypeWrapper.cpp
-    ./Plugins/Pdf/PDFWriter/InputPredictorPNGOptimumStream.cpp
-    ./Plugins/Pdf/PDFWriter/PDFImageXObject.cpp
-    ./Plugins/Pdf/PDFWriter/WrittenFontCFF.cpp
-    ./Plugins/Pdf/PDFWriter/PDFInteger.cpp
-    ./Plugins/Pdf/PDFWriter/AbstractWrittenFont.cpp
-    ./Plugins/Pdf/PDFWriter/InputBufferedStream.cpp
-    ./Plugins/Pdf/PDFWriter/PDFObjectParser.cpp
-    ./Plugins/Pdf/PDFWriter/TrueTypeEmbeddedFontWriter.cpp
+    ./Plugins/Pdf/LibAesgm/aes_modes.c
+    ./Plugins/Pdf/LibAesgm/aes_ni.c
+    ./Plugins/Pdf/LibAesgm/aeskey.c
+    ./Plugins/Pdf/LibAesgm/aestab.c
+    ./Plugins/Pdf/LibAesgm/aescrypt.c
     ./Plugins/Pdf/PDFWriter/DocumentContext.cpp
-    ./Plugins/Pdf/PDFWriter/PDFTiledPattern.cpp
-    ./Plugins/Pdf/PDFWriter/ResourcesDictionary.cpp
-    ./Plugins/Pdf/PDFWriter/TIFFImageHandler.cpp
-    ./Plugins/Pdf/PDFWriter/PDFBoolean.cpp
-    ./Plugins/Pdf/PDFWriter/ObjectsContext.cpp
-    ./Plugins/Pdf/PDFWriter/Type1ToType2Converter.cpp
-    ./Plugins/Pdf/PDFWriter/CIDFontWriter.cpp
-    ./Plugins/Pdf/PDFWriter/PDFObject.cpp
-    ./Plugins/Pdf/PDFWriter/AbstractContentContext.cpp
-    ./Plugins/Pdf/PDFWriter/CharStringType2Flattener.cpp
-    ./Plugins/Pdf/PDFWriter/OutputFlateDecodeStream.cpp
-    ./Plugins/Pdf/PDFWriter/CFFPrimitiveWriter.cpp
-    ./Plugins/Pdf/PDFWriter/OutputStringBufferStream.cpp
-    ./Plugins/Pdf/PDFWriter/Type2CharStringWriter.cpp
-    ./Plugins/Pdf/PDFWriter/UnicodeString.cpp
-    ./Plugins/Pdf/PDFWriter/CharStringType2Interpreter.cpp
-    ./Plugins/Pdf/PDFWriter/PDFFormXObject.cpp
-    ./Plugins/Pdf/PDFWriter/DictionaryContext.cpp
-    ./Plugins/Pdf/PDFWriter/PDFStream.cpp
-    ./Plugins/Pdf/PDFWriter/JPEGImageHandler.cpp
-    ./Plugins/Pdf/PDFWriter/CFFEmbeddedFontWriter.cpp
-    ./Plugins/Pdf/PDFWriter/InputPredictorTIFFSubStream.cpp
-    ./Plugins/Pdf/PDFWriter/CFFANSIFontWriter.cpp
-    ./Plugins/Pdf/PDFWriter/InputStreamSkipperStream.cpp
-    ./Plugins/Pdf/PDFWriter/InputFile.cpp
-    ./Plugins/Pdf/PDFWriter/InputPredictorPNGUpStream.cpp
-    ./Plugins/Pdf/PDFWriter/Type1ToCFFEmbeddedFontWriter.cpp
-    ./Plugins/Pdf/PDFWriter/PSBool.cpp
-    ./Plugins/Pdf/PDFWriter/CFFDescendentFontWriter.cpp
-    ./Plugins/Pdf/PDFWriter/PDFPageMergingHelper.cpp
-    ./Plugins/Pdf/PDFWriter/RefCountObject.cpp
-    ./Plugins/Pdf/PDFWriter/PDFRectangle.cpp
     ./Plugins/Pdf/PDFWriter/PDFDocumentHandler.cpp
-    ./Plugins/Pdf/PDFWriter/StateWriter.cpp
-    ./Plugins/Pdf/PDFWriter/TrueTypePrimitiveWriter.cpp
-    ./Plugins/Pdf/PDFWriter/PDFSymbol.cpp
-    ./Plugins/Pdf/PDFWriter/InputAscii85DecodeStream.cpp
-    ./Plugins/Pdf/PDFWriter/Log.cpp
-    ./Plugins/Pdf/PDFWriter/TrueTypeANSIFontWriter.cpp
-    ./Plugins/Pdf/PDFWriter/PDFReal.cpp
-    ./Plugins/Pdf/PDFWriter/PDFHexString.cpp
+    ./Plugins/Pdf/PDFWriter/PDFParser.cpp
+    ./Plugins/Pdf/PDFWriter/CFFFileInput.cpp
+    ./Plugins/Pdf/PDFWriter/AbstractContentContext.cpp
+    ./Plugins/Pdf/PDFWriter/CFFEmbeddedFontWriter.cpp
+    ./Plugins/Pdf/PDFWriter/Type1ToCFFEmbeddedFontWriter.cpp
     ./Plugins/Pdf/PDFWriter/PDFWriter.cpp
-    ./Plugins/Pdf/PDFWriter/CatalogInformation.cpp
-    ./Plugins/Pdf/PDFWriter/MD5Generator.cpp
-    ./Plugins/Pdf/PDFWriter/PDFStreamInput.cpp
-    ./Plugins/Pdf/PDFWriter/PDFParserTokenizer.cpp
-    ./Plugins/Pdf/PDFWriter/JPEGImageParser.cpp
-    ./Plugins/Pdf/PDFWriter/OutputBufferedStream.cpp
-    ./Plugins/Pdf/PDFWriter/InputFileStream.cpp
-    ./Plugins/Pdf/PDFWriter/PDFIndirectObjectReference.cpp
-    ./Plugins/Pdf/PDFWriter/CharStringType1Interpreter.cpp
-    ./Plugins/Pdf/PDFWriter/PDFTextString.cpp
-    ./Plugins/Pdf/PDFWriter/PFMFileReader.cpp
-    ./Plugins/Pdf/PDFWriter/ANSIFontWriter.cpp
-    ./Plugins/Pdf/PDFWriter/StateReader.cpp
-    ./Plugins/Pdf/PDFWriter/OutputStreamTraits.cpp
-    ./Plugins/Pdf/PDFWriter/PDFName.cpp
-    ./Plugins/Pdf/PDFWriter/InputDCTDecodeStream.cpp
-    ./Plugins/Pdf/PDFWriter/PDFDate.cpp
-    ./Plugins/Pdf/PDFWriter/OutputFileStream.cpp
-    ./Plugins/Pdf/PDFWriter/InputByteArrayStream.cpp
-    ./Plugins/Pdf/PDFWriter/WinAnsiEncoding.cpp
-    ./Plugins/Pdf/PDFWriter/PDFNull.cpp
+    ./Plugins/Pdf/PDFWriter/CharStringType2Interpreter.cpp
+    ./Plugins/Pdf/PDFWriter/Type1ToType2Converter.cpp
+    ./Plugins/Pdf/PDFWriter/OpenTypeFileInput.cpp
+    ./Plugins/Pdf/PDFWriter/ObjectsContext.cpp
     ./Plugins/Pdf/PDFWriter/FreeTypeFaceWrapper.cpp
-    ./Plugins/Pdf/PDFWriter/Trace.cpp
+    ./Plugins/Pdf/PDFWriter/TrueTypeEmbeddedFontWriter.cpp
+    ./Plugins/Pdf/PDFWriter/Type1Input.cpp
+    ./Plugins/Pdf/PDFWriter/JPEGImageHandler.cpp
+    ./Plugins/Pdf/PDFWriter/PDFObjectParser.cpp
+    ./Plugins/Pdf/PDFWriter/JPEGImageParser.cpp
+    ./Plugins/Pdf/PDFWriter/DecryptionHelper.cpp
+    ./Plugins/Pdf/PDFWriter/AbstractWrittenFont.cpp
+    ./Plugins/Pdf/PDFWriter/PNGImageHandler.cpp
+    ./Plugins/Pdf/PDFWriter/PDFModifiedPage.cpp
+    ./Plugins/Pdf/PDFWriter/EncryptionHelper.cpp
+    ./Plugins/Pdf/PDFWriter/CharStringType1Interpreter.cpp
+    ./Plugins/Pdf/PDFWriter/InputPFBDecodeStream.cpp
+    ./Plugins/Pdf/PDFWriter/CharStringType2Flattener.cpp
+    ./Plugins/Pdf/PDFWriter/ANSIFontWriter.cpp
+    ./Plugins/Pdf/PDFWriter/MD5Generator.cpp
+    ./Plugins/Pdf/PDFWriter/UnicodeString.cpp
+    ./Plugins/Pdf/PDFWriter/IndirectObjectsReferenceRegistry.cpp
+    ./Plugins/Pdf/PDFWriter/WrittenFontCFF.cpp
+    ./Plugins/Pdf/PDFWriter/ResourcesDictionary.cpp
+    ./Plugins/Pdf/PDFWriter/PDFUsedFont.cpp
+    ./Plugins/Pdf/PDFWriter/CharStringType2Tracer.cpp
+    ./Plugins/Pdf/PDFWriter/XCryptionCommon.cpp
+    ./Plugins/Pdf/PDFWriter/CFFPrimitiveWriter.cpp
+    ./Plugins/Pdf/PDFWriter/PDFParserTokenizer.cpp
+    ./Plugins/Pdf/PDFWriter/WrittenFontTrueType.cpp
+    ./Plugins/Pdf/PDFWriter/UsedFontsRepository.cpp
+    ./Plugins/Pdf/PDFWriter/CIDFontWriter.cpp
+    ./Plugins/Pdf/PDFWriter/DescendentFontWriter.cpp
+    ./Plugins/Pdf/PDFWriter/InputDCTDecodeStream.cpp
+    ./Plugins/Pdf/PDFWriter/CFFPrimitiveReader.cpp
+    ./Plugins/Pdf/PDFWriter/PDFDocEncoding.cpp
+    ./Plugins/Pdf/PDFWriter/PrimitiveObjectsWriter.cpp
+    ./Plugins/Pdf/PDFWriter/PDFDate.cpp
+    ./Plugins/Pdf/PDFWriter/FreeTypeOpenTypeWrapper.cpp
+    ./Plugins/Pdf/PDFWriter/FreeTypeWrapper.cpp
+    ./Plugins/Pdf/PDFWriter/FontDescriptorWriter.cpp
+    ./Plugins/Pdf/PDFWriter/CharStringType1Tracer.cpp
+    ./Plugins/Pdf/PDFWriter/PDFDocumentCopyingContext.cpp
+    ./Plugins/Pdf/PDFWriter/OpenTypePrimitiveReader.cpp
+    ./Plugins/Pdf/PDFWriter/PFMFileReader.cpp
+    ./Plugins/Pdf/PDFWriter/WinAnsiEncoding.cpp
+    ./Plugins/Pdf/PDFWriter/PDFPageInput.cpp
+    ./Plugins/Pdf/PDFWriter/InputPredictorTIFFSubStream.cpp
+    ./Plugins/Pdf/PDFWriter/InputPredictorPNGOptimumStream.cpp
+    ./Plugins/Pdf/PDFWriter/OutputFlateEncodeStream.cpp
+    ./Plugins/Pdf/PDFWriter/PDFStream.cpp
+    ./Plugins/Pdf/PDFWriter/InputFlateDecodeStream.cpp
+    ./Plugins/Pdf/PDFWriter/CFFANSIFontWriter.cpp
+    ./Plugins/Pdf/PDFWriter/InputBufferedStream.cpp
+    ./Plugins/Pdf/PDFWriter/CFFDescendentFontWriter.cpp
+    ./Plugins/Pdf/PDFWriter/OutputFlateDecodeStream.cpp
+    ./Plugins/Pdf/PDFWriter/Log.cpp
+    ./Plugins/Pdf/PDFWriter/InputAESDecodeStream.cpp
+    ./Plugins/Pdf/PDFWriter/FreeTypeType1Wrapper.cpp
+    ./Plugins/Pdf/PDFWriter/DictionaryContext.cpp
+    ./Plugins/Pdf/PDFWriter/OutputAESEncodeStream.cpp
+    ./Plugins/Pdf/PDFWriter/PDFTextString.cpp
+    ./Plugins/Pdf/PDFWriter/PageTree.cpp
+    ./Plugins/Pdf/PDFWriter/PageContentContext.cpp
+    ./Plugins/Pdf/PDFWriter/TrueTypeANSIFontWriter.cpp
+    ./Plugins/Pdf/PDFWriter/StandardEncoding.cpp
+    ./Plugins/Pdf/PDFWriter/InputAscii85DecodeStream.cpp
+    ./Plugins/Pdf/PDFWriter/ParsedPrimitiveHelper.cpp
+    ./Plugins/Pdf/PDFWriter/StateWriter.cpp
+    ./Plugins/Pdf/PDFWriter/Type2CharStringWriter.cpp
+    ./Plugins/Pdf/PDFWriter/TrueTypeDescendentFontWriter.cpp
+    ./Plugins/Pdf/PDFWriter/OutputBufferedStream.cpp
+    ./Plugins/Pdf/PDFWriter/PDFPage.cpp
+    ./Plugins/Pdf/PDFWriter/TrueTypePrimitiveWriter.cpp
+    ./Plugins/Pdf/PDFWriter/InputFileStream.cpp
+    ./Plugins/Pdf/PDFWriter/PDFDictionaryIterator.cpp
+    ./Plugins/Pdf/PDFWriter/TimersRegistry.cpp
+    ./Plugins/Pdf/PDFWriter/TiledPatternContentContext.cpp
+    ./Plugins/Pdf/PDFWriter/InfoDictionary.cpp
+    ./Plugins/Pdf/PDFWriter/XObjectContentContext.cpp
+    ./Plugins/Pdf/PDFWriter/ArrayOfInputStreamsStream.cpp
+    ./Plugins/Pdf/PDFWriter/InputByteArrayStream.cpp
+    ./Plugins/Pdf/PDFWriter/InputFile.cpp
     ./Plugins/Pdf/PDFWriter/InputCharStringDecodeStream.cpp
+    ./Plugins/Pdf/PDFWriter/Trace.cpp
+    ./Plugins/Pdf/PDFWriter/InputStringStream.cpp
+    ./Plugins/Pdf/PDFWriter/OutputFile.cpp
+    ./Plugins/Pdf/PDFWriter/PDFPageMergingHelper.cpp
+    ./Plugins/Pdf/PDFWriter/InputStreamSkipperStream.cpp
+    ./Plugins/Pdf/PDFWriter/PDFObject.cpp
+    ./Plugins/Pdf/PDFWriter/CatalogInformation.cpp
+    ./Plugins/Pdf/PDFWriter/OutputStringBufferStream.cpp
+    ./Plugins/Pdf/PDFWriter/TrailerInformation.cpp
+    ./Plugins/Pdf/PDFWriter/OutputStreamTraits.cpp
+    ./Plugins/Pdf/PDFWriter/InputStringBufferStream.cpp
+    ./Plugins/Pdf/PDFWriter/OutputFileStream.cpp
+    ./Plugins/Pdf/PDFWriter/RC4.cpp
+    ./Plugins/Pdf/PDFWriter/PDFRectangle.cpp
+    ./Plugins/Pdf/PDFWriter/StateReader.cpp
+    ./Plugins/Pdf/PDFWriter/CMYKRGBColor.cpp
+    ./Plugins/Pdf/PDFWriter/InputLimitedStream.cpp
+    ./Plugins/Pdf/PDFWriter/PDFFormXObject.cpp
+    ./Plugins/Pdf/PDFWriter/TiffUsageParameters.cpp
+    ./Plugins/Pdf/PDFWriter/PDFTiledPattern.cpp
+    ./Plugins/Pdf/PDFWriter/PDFDictionary.cpp
+    ./Plugins/Pdf/PDFWriter/OutputRC4XcodeStream.cpp
+    ./Plugins/Pdf/PDFWriter/InputRC4XcodeStream.cpp
+    ./Plugins/Pdf/PDFWriter/UppercaseSequance.cpp
+    ./Plugins/Pdf/PDFWriter/GraphicStateStack.cpp
+    ./Plugins/Pdf/PDFWriter/PDFImageXObject.cpp
+    ./Plugins/Pdf/PDFWriter/PDFArray.cpp
+    ./Plugins/Pdf/PDFWriter/Ascii7Encoding.cpp
+    ./Plugins/Pdf/PDFWriter/PSBool.cpp
+    ./Plugins/Pdf/PDFWriter/PDFStreamInput.cpp
+    ./Plugins/Pdf/PDFWriter/GraphicState.cpp
+    ./Plugins/Pdf/PDFWriter/PDFCosDict.cpp
+    ./Plugins/Pdf/PDFWriter/JPEGImageInformation.cpp
+    ./Plugins/Pdf/PDFWriter/Timer.cpp
+    ./Plugins/Pdf/PDFWriter/PDFLiteralString.cpp
+    ./Plugins/Pdf/PDFWriter/RefCountObject.cpp
+    ./Plugins/Pdf/PDFWriter/PDFArrayIterator.cpp
+    ./Plugins/Pdf/PDFWriter/PDFHexString.cpp
+    ./Plugins/Pdf/PDFWriter/PDFIndirectObjectReference.cpp
+    ./Plugins/Pdf/PDFWriter/PDFInteger.cpp
+    ./Plugins/Pdf/PDFWriter/PDFName.cpp
+    ./Plugins/Pdf/PDFWriter/PDFBoolean.cpp
+    ./Plugins/Pdf/PDFWriter/PDFReal.cpp
+    ./Plugins/Pdf/PDFWriter/PDFSymbol.cpp
+    ./Plugins/Pdf/PDFWriter/EncryptionOptions.cpp
+    ./Plugins/Pdf/PDFWriter/PDFParsingOptions.cpp
+    ./Plugins/Pdf/PDFWriter/PDFCosArray.cpp
+    ./Plugins/Pdf/PDFWriter/PDFNull.cpp
     ./Plugins/MacOS/HIDRemote.m
     #./Plugins/MacOS/mac_app.mm
     ./Plugins/MacOS/mac_images.mm
@@ -535,6 +555,7 @@ SET(TeXmacs_Std_Plugins_SRCS
     ./Plugins/Unix/unix_sys_utils.cpp
     ./Plugins/Sqlite3/sqlite3.cpp
     ./Plugins/Updater/tm_updater.cpp
+    ./Plugins/Updater/tm_winsparkle.cpp
 )
 
 ### --------------------------------------------------------------------
@@ -578,19 +599,30 @@ SET(TeXmacs_Widkit_SRCS
     ./Plugins/Widkit/Button/button_widget.cpp
     ./Plugins/Widkit/Button/popup_button.cpp
     ./Plugins/Widkit/Button/popup_widget.cpp
+    ./Plugins/Widkit/Button/toggle_widget.cpp
+    ./Plugins/Widkit/Composite/aligned_widget.cpp
     ./Plugins/Widkit/Composite/array_widget.cpp
     ./Plugins/Widkit/Composite/composite_widget.cpp
+    ./Plugins/Widkit/Composite/extend_widget.cpp
     ./Plugins/Widkit/Composite/list_widget.cpp
+    ./Plugins/Widkit/Composite/minibar_widget.cpp
+    ./Plugins/Widkit/Composite/split_widget.cpp
     ./Plugins/Widkit/Composite/switch_widget.cpp
+    ./Plugins/Widkit/Composite/tabs_widget.cpp
     ./Plugins/Widkit/Composite/tile_widget.cpp
     ./Plugins/Widkit/Event/attribute_event.cpp
     ./Plugins/Widkit/Event/basic_event.cpp
     ./Plugins/Widkit/Event/composite_event.cpp
     ./Plugins/Widkit/Event/scroll_event.cpp
+    ./Plugins/Widkit/Input/choice_widget.cpp
+    ./Plugins/Widkit/Input/enum_widget.cpp
     ./Plugins/Widkit/Input/input_widget.cpp
     ./Plugins/Widkit/Input/inputs_list_widget.cpp
     ./Plugins/Widkit/Misc/balloon_widget.cpp
+    ./Plugins/Widkit/Misc/color_picker_widget.cpp
     ./Plugins/Widkit/Misc/file_chooser_widget.cpp
+    ./Plugins/Widkit/Misc/ink_widget.cpp
+    ./Plugins/Widkit/Misc/refresh_widget.cpp
     ./Plugins/Widkit/Misc/texmacs_widget.cpp
     ./Plugins/Widkit/Misc/wait_widget.cpp
     ./Plugins/Widkit/Output/glue_widget.cpp
@@ -611,8 +643,13 @@ SET(TeXmacs_X11_SRCS
     ./Plugins/X11/x_loop.cpp
     ./Plugins/X11/x_shadow.cpp
     ./Plugins/X11/x_window.cpp
+    ./Plugins/X11/x_picture.cpp
     ./Plugins/Ghostscript/ghostscript.cpp
 )
+
+# Windows support
+# ./Plugins/Windows/mingw_sys_utils.cpp
+# ./Plugins/Windows/spawn.cpp
 
 
 ### --------------------------------------------------------------------
@@ -699,7 +736,7 @@ SET(TeXmacs_Cocoa_SRCS
 
 SET(TeXmacs_All_SRCS ${TeXmacs_Base_SRCS} ${TeXmacs_Std_Plugins_SRCS})
 
-SET(TeXmacs_Libraries ${Guile_LIBRARIES} ${FREETYPE_LIBRARIES} ${ZLIB_LIBRARIES} ${JPEG_LIBRARIES} -lpthread)
+SET(TeXmacs_Libraries ${Guile_LIBRARIES} ${FREETYPE_LIBRARIES} ${ZLIB_LIBRARIES} ${JPEG_LIBRARIES} -lpng -lpthread)
 
 SET(TeXmacs_Include_Dirs ${TeXmacs_Include_Dirs} 
   ${Guile_INCLUDE_DIRS} ${FREETYPE_INCLUDE_DIRS} ${Cairo_INCLUDE_DIRS}

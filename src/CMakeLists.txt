@@ -14,7 +14,7 @@ cmake_minimum_required(VERSION 3.5)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(CMAKE_CXX_FLAGS "-Wno-deprecated-register")
+set(CMAKE_CXX_FLAGS "-Wno-deprecated-register -include config.h")
 
 IF(NOT CMAKE_BUILD_TYPE)
  SET(CMAKE_BUILD_TYPE Debug CACHE STRING
@@ -368,6 +368,8 @@ option(USE_SQLITE3 "Use SQLite3" ON)
 if (USE_SQLITE3)
   option(LINKED_SQLITE3 "Use Linked SQLite3" ON)
 endif (USE_SQLITE3)
+
+option(PDFHUMMUS_NO_TIFF "Disable TIFF in PDF Hummus" ON)
 
 if (APPLE)
   set(MACOSX_EXTENSIONS 1)
