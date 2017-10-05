@@ -14,8 +14,6 @@ cmake_minimum_required(VERSION 3.5)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(CMAKE_CXX_FLAGS "-Wno-deprecated-register -include config.h")
-
 IF(NOT CMAKE_BUILD_TYPE)
  SET(CMAKE_BUILD_TYPE Debug CACHE STRING
      "Choose the type of build, options are: None Debug Release
@@ -359,10 +357,11 @@ set(GS_FONTS ../share/ghostscript/fonts:/usr/share/fonts:)
 set(GS_LIB ../share/ghostscript/9.06/lib:)
 set(GUILE_NUM 1)
 set(PDF_RENDERER 1)
-set(QTPIPES 1)
 set(SIZEOF_VOID_P 8)
 set(STDC_HEADERS 1)
 set(USE_STACK_TRACE 1)
+
+option(QTPIPES "use Qt pipes" ON)
 
 option(USE_SQLITE3 "Use SQLite3" ON)
 if (USE_SQLITE3)
@@ -376,6 +375,8 @@ if (APPLE)
   set(OS_MACOS 1)
 endif (APPLE)
 configure_file(${TEXMACS_SOURCE_DIR}/src/System/config.h.cmake ${TEXMACS_BINARY_DIR}/src/System/config.h)
+set(CMAKE_CXX_FLAGS "-Wno-deprecated-register -include config.h")
+
 
 set(CONFIG_STD_SETENV "#define STD_SETENV")
 set(tm_orig ${TEXMACS_SOURCE_DIR})
