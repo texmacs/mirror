@@ -59,7 +59,7 @@ if (USE_FREETYPE)
     option (LINKED_FREETYPE "linked Freetype" ON)
 endif (USE_FREETYPE)
 
-option (USE_CAIRO "use Cairo" ON)
+option (USE_CAIRO "use Cairo" OFF)
 if (USE_CAIRO)
     find_package(Cairo)
     option (LINKED_CAIRO "linked Cairo" ON)

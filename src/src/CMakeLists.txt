@@ -751,6 +751,10 @@ set (TeXmacs_Libraries
     ${PNG_LIBRARIES}
     -lpthread)
 
+if (LINKED_CAIRO)
+  set (TeXmacs_Libraries ${TeXmacs_Libraries} ${CAIRO_LIBRARIES})
+endif (LINKED_CAIRO)
+
 if (LINKED_SQLITE3)
   set (TeXmacs_Libraries ${TeXmacs_Libraries} ${SQLITE3_LIBRARIES})
 endif (LINKED_SQLITE3)
