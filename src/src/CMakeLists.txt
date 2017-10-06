@@ -747,7 +747,7 @@ set (TeXmacs_All_SRCS ${TeXmacs_Base_SRCS} ${TeXmacs_Std_Plugins_SRCS})
 set (TeXmacs_Libraries ${Guile_LIBRARIES} ${FREETYPE_LIBRARIES} ${ZLIB_LIBRARIES} ${JPEG_LIBRARIES} -lpng -lpthread)
 
 if (LINKED_SQLITE3)
-  set (TeXmacs_Libraries ${TeXmacs_Libraries} "-lsqlite3")
+  set (TeXmacs_Libraries ${TeXmacs_Libraries} ${SQLITE3_LIBRARIES})
 endif (LINKED_SQLITE3)
 
 set (TeXmacs_Include_Dirs ${TeXmacs_Include_Dirs}
@@ -805,11 +805,11 @@ endif (APPLE)
 
 INCLUDE_DIRECTORIES(${TeXmacs_Include_Dirs}) 
 
-ADD_EXECUTABLE ( ${TeXmacs_binary_name} ${GUI_TYPE} 
+add_executable ( ${TeXmacs_binary_name} ${GUI_TYPE}
   ${TeXmacs_All_SRCS}
 )
 
-TARGET_LINK_LIBRARIES(${TeXmacs_binary_name} ${TeXmacs_Libraries})
+target_link_libraries (${TeXmacs_binary_name} ${TeXmacs_Libraries})
 
 #--------------------------------------------------------------------------------
 #-- Set the Debug and Release names for the libraries
