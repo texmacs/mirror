@@ -728,6 +728,10 @@ if (APPLE AND TEXMACS_GUI STREQUAL "X11")
     set (TeXmacs_MacOS_SRCS ${TeXmacs_MacOS_SRCS} ./Plugins/MacOS/mac_app.mm)
 endif (APPLE AND TEXMACS_GUI STREQUAL "X11")
 
+if (APPLE AND USE_SPARKLE)
+    set (TeXmacs_MacOS_SRCS ${TeXmacs_MacOS_SRCS} ./Plugins/Updater/tm_sparkle.mm)
+endif (APPLE AND USE_SPARKLE)
+
 # Windows support
 # ./Plugins/Windows/mingw_sys_utils.cpp
 # ./Plugins/Windows/spawn.cpp

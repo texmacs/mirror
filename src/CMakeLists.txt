@@ -65,11 +65,13 @@ if (USE_CAIRO)
     option (LINKED_CAIRO "linked Cairo" ON)
 endif (USE_CAIRO)
 
-option (USE_IMLIB2 "use Imlib2" ON)
+option (USE_IMLIB2 "use Imlib2" OFF)
 if (USE_IMLIB2)
     find_package(Imlib2)
     option (LINKED_IMLIB2 "linked Imlib2" ON)
 endif (USE_IMLIB2)
+
+option (USE_SPARKLE "use Sparkle" OFF)
 
 option(PDFHUMMUS_NO_TIFF "Disable TIFF in PDF Hummus" ON)
 
