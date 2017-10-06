@@ -548,11 +548,6 @@ SET(TeXmacs_Std_Plugins_SRCS
     ./Plugins/Pdf/PDFWriter/PDFParsingOptions.cpp
     ./Plugins/Pdf/PDFWriter/PDFCosArray.cpp
     ./Plugins/Pdf/PDFWriter/PDFNull.cpp
-    ./Plugins/MacOS/HIDRemote.m
-    #./Plugins/MacOS/mac_app.mm
-    ./Plugins/MacOS/mac_images.mm
-    ./Plugins/MacOS/mac_spellservice.mm
-    ./Plugins/MacOS/mac_utilities.mm
     ./Plugins/Unix/unix_sys_utils.cpp
     ./Plugins/Sqlite3/sqlite3.cpp
     ./Plugins/Updater/tm_updater.cpp
@@ -648,11 +643,6 @@ SET(TeXmacs_X11_SRCS
     ./Plugins/Ghostscript/ghostscript.cpp
 )
 
-# Windows support
-# ./Plugins/Windows/mingw_sys_utils.cpp
-# ./Plugins/Windows/spawn.cpp
-
-
 ### --------------------------------------------------------------------
 ### Qt interface
 ### --------------------------------------------------------------------
@@ -727,6 +717,23 @@ SET(TeXmacs_Cocoa_SRCS
     ./Plugins/Cocoa/TMView.mm
 )
 
+set (TeXmacs_MacOS_SRCS
+    ./Plugins/MacOS/HIDRemote.m
+    ./Plugins/MacOS/mac_images.mm
+    ./Plugins/MacOS/mac_spellservice.mm
+    ./Plugins/MacOS/mac_utilities.mm
+)
+
+if (APPLE AND TEXMACS_GUI STREQUAL "X11")
+    set (TeXmacs_MacOS_SRCS ${TeXmacs_MacOS_SRCS} ./Plugins/MacOS/mac_app.mm)
+endif (APPLE AND TEXMACS_GUI STREQUAL "X11")
+
+# Windows support
+# ./Plugins/Windows/mingw_sys_utils.cpp
+# ./Plugins/Windows/spawn.cpp
+
+
+
 ### --------------------------------------------------------------------
 ### Set variables related to the executable target
 ### --------------------------------------------------------------------
@@ -735,11 +742,15 @@ SET(TeXmacs_Cocoa_SRCS
 
 ## setup base source list, library dependencies, include dirs
 
-SET(TeXmacs_All_SRCS ${TeXmacs_Base_SRCS} ${TeXmacs_Std_Plugins_SRCS})
+set (TeXmacs_All_SRCS ${TeXmacs_Base_SRCS} ${TeXmacs_Std_Plugins_SRCS})
 
-SET(TeXmacs_Libraries ${Guile_LIBRARIES} ${FREETYPE_LIBRARIES} ${ZLIB_LIBRARIES} ${JPEG_LIBRARIES} -lpng -lpthread)
+set (TeXmacs_Libraries ${Guile_LIBRARIES} ${FREETYPE_LIBRARIES} ${ZLIB_LIBRARIES} ${JPEG_LIBRARIES} -lpng -lpthread)
 
-SET(TeXmacs_Include_Dirs ${TeXmacs_Include_Dirs} 
+if (LINKED_SQLITE3)
+  set (TeXmacs_Libraries ${TeXmacs_Libraries} "-lsqlite3")
+endif (LINKED_SQLITE3)
+
+set (TeXmacs_Include_Dirs ${TeXmacs_Include_Dirs}
   ${Guile_INCLUDE_DIRS} ${FREETYPE_INCLUDE_DIRS} ${Cairo_INCLUDE_DIRS}
   ${IMLIB2_INCLUDE_DIR}
 )
@@ -783,13 +794,9 @@ ELSE(TEXMACS_GUI STREQUAL "Qt")
 ENDIF(TEXMACS_GUI STREQUAL "Qt")
 
 if (APPLE)
-  SET(TeXmacs_Libraries ${TeXmacs_Libraries} "-framework Carbon -framework Foundation -framework IOKit -framework Cocoa -framework AppKit -framework CoreData")
+    set (TeXmacs_All_SRCS ${TeXmacs_All_SRCS} ${TeXmacs_MacOS_SRCS})
+    set (TeXmacs_Libraries ${TeXmacs_Libraries} "-framework Carbon -framework Foundation -framework IOKit -framework Cocoa -framework AppKit -framework CoreData")
 endif (APPLE)
-
-if (LINKED_SQLITE3)
-  SET(TeXmacs_Libraries ${TeXmacs_Libraries} "-lsqlite3")
-endif (LINKED_SQLITE3)
-
 
 
 ### --------------------------------------------------------------------
