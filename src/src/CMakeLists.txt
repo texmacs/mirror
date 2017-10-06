@@ -746,7 +746,6 @@ set (TeXmacs_All_SRCS ${TeXmacs_Base_SRCS} ${TeXmacs_Std_Plugins_SRCS})
 
 set (TeXmacs_Libraries
     ${Guile_LIBRARIES}
-    ${FREETYPE_LIBRARIES}
     ${ZLIB_LIBRARIES}
     ${JPEG_LIBRARIES}
     ${PNG_LIBRARIES}
@@ -755,6 +754,10 @@ set (TeXmacs_Libraries
 if (LINKED_SQLITE3)
   set (TeXmacs_Libraries ${TeXmacs_Libraries} ${SQLITE3_LIBRARIES})
 endif (LINKED_SQLITE3)
+
+if (LINKED_FREETYPE)
+  set (TeXmacs_Libraries ${TeXmacs_Libraries} ${FREETYPE_LIBRARIES})
+endif (LINKED_FREETYPE)
 
 set (TeXmacs_Include_Dirs ${TeXmacs_Include_Dirs}
   ${Guile_INCLUDE_DIRS} ${FREETYPE_INCLUDE_DIRS} ${Cairo_INCLUDE_DIRS}
