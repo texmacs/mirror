@@ -375,8 +375,6 @@ if (APPLE)
   set(OS_MACOS 1)
 endif (APPLE)
 configure_file(${TEXMACS_SOURCE_DIR}/src/System/config.h.cmake ${TEXMACS_BINARY_DIR}/src/System/config.h)
-set(CMAKE_CXX_FLAGS "-Wno-deprecated-register -include config.h")
-
 
 set(CONFIG_STD_SETENV "#define STD_SETENV")
 set(tm_orig ${TEXMACS_SOURCE_DIR})
