@@ -1,5 +1,3 @@
-include_directories (${TEXMACS_BINARY_DIR}/src/System/)
-
 set (graphviz_SRCS src/tm_graphviz.c)
 
 add_executable (tm_graphviz ${graphviz_SRCS})
