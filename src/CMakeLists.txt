@@ -49,13 +49,21 @@ option (QTPIPES "use Qt pipes" ON)
 
 option (USE_SQLITE3 "Use SQLite3" ON)
 if (USE_SQLITE3)
-  option (LINKED_SQLITE3 "Use Linked SQLite3" ON)
+    find_package (SQLite3)
+    option (LINKED_SQLITE3 "Use Linked SQLite3" ON)
 endif (USE_SQLITE3)
 
 option (USE_FREETYPE "use Freetype" ON)
 if (USE_FREETYPE)
+    find_package (Freetype)
     option (LINKED_FREETYPE "linked Freetype" ON)
 endif (USE_FREETYPE)
+
+option (USE_CAIRO "use Cairo" ON)
+if (USE_CAIRO)
+    find_package(Cairo)
+    option (LINKED_CAIRO "linked Cairo" ON)
+endif (USE_CAIRO)
 
 option(PDFHUMMUS_NO_TIFF "Disable TIFF in PDF Hummus" ON)
 
@@ -218,13 +226,10 @@ set(PACKAGE_VERSION 1)
 ### --------------------------------------------------------------------
 
 find_package(Guile REQUIRED)
-find_package(SQLite3)
 find_package(PNG)
 find_package(Iconv)
-find_package(Freetype)
 find_package(ZLIB)
 find_package(JPEG)
-#FIND_PACKAGE(Cairo)
 #FIND_PACKAGE(Imlib2)
 #FIND_PACKAGE(Axel)
 
