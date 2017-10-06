@@ -45,12 +45,17 @@ set(CMAKE_MODULE_PATH ${TEXMACS_SOURCE_DIR}/cmake)
 ### --------------------------------------------------------------------
 ### Options
 ### --------------------------------------------------------------------
-option(QTPIPES "use Qt pipes" ON)
+option (QTPIPES "use Qt pipes" ON)
 
-option(USE_SQLITE3 "Use SQLite3" ON)
+option (USE_SQLITE3 "Use SQLite3" ON)
 if (USE_SQLITE3)
-  option(LINKED_SQLITE3 "Use Linked SQLite3" ON)
+  option (LINKED_SQLITE3 "Use Linked SQLite3" ON)
 endif (USE_SQLITE3)
+
+option (USE_FREETYPE "use Freetype" ON)
+if (USE_FREETYPE)
+    option (LINKED_FREETYPE "linked Freetype" ON)
+endif (USE_FREETYPE)
 
 option(PDFHUMMUS_NO_TIFF "Disable TIFF in PDF Hummus" ON)
 
@@ -212,12 +217,11 @@ set(PACKAGE_VERSION 1)
 ###  Test for Libraries
 ### --------------------------------------------------------------------
 
-find_package(SQLite3)
 find_package(Guile REQUIRED)
+find_package(SQLite3)
+find_package(PNG)
 find_package(Iconv)
 find_package(Freetype)
-set(LINKED_FREETYPE 1)
-set(USE_FREETYPE 1)
 find_package(ZLIB)
 find_package(JPEG)
 #FIND_PACKAGE(Cairo)

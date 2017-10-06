@@ -744,7 +744,13 @@ endif (APPLE AND TEXMACS_GUI STREQUAL "X11")
 
 set (TeXmacs_All_SRCS ${TeXmacs_Base_SRCS} ${TeXmacs_Std_Plugins_SRCS})
 
-set (TeXmacs_Libraries ${Guile_LIBRARIES} ${FREETYPE_LIBRARIES} ${ZLIB_LIBRARIES} ${JPEG_LIBRARIES} -lpng -lpthread)
+set (TeXmacs_Libraries
+    ${Guile_LIBRARIES}
+    ${FREETYPE_LIBRARIES}
+    ${ZLIB_LIBRARIES}
+    ${JPEG_LIBRARIES}
+    ${PNG_LIBRARIES}
+    -lpthread)
 
 if (LINKED_SQLITE3)
   set (TeXmacs_Libraries ${TeXmacs_Libraries} ${SQLITE3_LIBRARIES})
