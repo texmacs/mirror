@@ -22,7 +22,7 @@ from_nsstring (NSString *s) {
 }
 
 #if defined (MAC_OS_X_VERSION_10_7)
-@interface TMAppDelegate : NSObject <NSFileManagerDelegate> {
+@interface TMAppDelegate : NSObject <NSFileManagerDelegate, NSApplicationDelegate> {
 #else
 @interface TMAppDelegate : NSObject {
 #endif
