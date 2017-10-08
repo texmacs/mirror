@@ -48,25 +48,25 @@
 
 (define-macro (provide-public head . body)
   (if (or (and (symbol? head) (not (defined? head)))
-	  (and (pair? head) (symbol? (car head)) (not (defined? (car head)))))
+          (and (pair? head) (symbol? (car head)) (not (defined? (car head)))))
       `(define-public ,head ,@body)
       '(noop)))
 
 (if (guile-a?)
     (define-macro (define-public-macro head . body)
       `(define-public ,(car head)
-	 ;; FIXME: why can't we use procedure->macro
-	 ;; for a non-memoizing variant?
-	 (procedure->memoizing-macro
-	  (lambda (cmd env)
-	    (apply (lambda ,(cdr head) ,@body) (cdr cmd)))))))
+         ;; FIXME: why can't we use procedure->macro
+         ;; for a non-memoizing variant?
+         (procedure->memoizing-macro
+          (lambda (cmd env)
+            (apply (lambda ,(cdr head) ,@body) (cdr cmd)))))))
 
 (if (not (guile-a?))
     (define-macro (define-public-macro head . body)
       `(begin
-	 (define-macro ,(car head)
-	   (lambda ,(cdr head) ,@body))
-	 (export ,(car head)))))
+         (define-macro ,(car head)
+           (lambda ,(cdr head) ,@body))
+         (export ,(car head)))))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; On-entry and on-exit macros
@@ -103,10 +103,10 @@
 (if (guile-b-c?)
     (begin
       (define-macro (import-from . modules)
-	`(process-use-modules
-	  (list ,@(map (lambda (m)
-			 `(list ,@(compile-interface-spec m)))
-		       modules))))
+        `(process-use-modules
+          (list ,@(map (lambda (m)
+                         `(list ,@(compile-interface-spec m)))
+                       modules))))
       ;; FIXME: why does this not work?
       ;; (define-macro (import-from . modules)
       ;;   (define (import-from-body module)
@@ -118,7 +118,7 @@
 (define-macro (inherit-modules . which-list)
   (define (module-exports which)
     (let* ((m (resolve-module which))
-	   (m-public (module-ref m '%module-public-interface)))
+           (m-public (module-ref m '%module-public-interface)))
       (module-map (lambda (sym var) sym) m-public)))
   (let ((l (apply append (map module-exports which-list))))
     `(begin
@@ -128,15 +128,15 @@
 (define-macro (texmacs-module name . options)
   (define (transform action)
     (cond ((not (pair? action)) (noop))
-	  ((equal? (car action) :use) (cons 'use-modules (cdr action)))
-	  ((equal? (car action) :inherit) (cons 'inherit-modules (cdr action)))
-	  ((equal? (car action) :export)
-	   (display "Warning] The option :export is no longer supported\n")
-	   (display "       ] Please use tm-define instead\n"))
-	  (else '(noop))))
+          ((equal? (car action) :use) (cons 'use-modules (cdr action)))
+          ((equal? (car action) :inherit) (cons 'inherit-modules (cdr action)))
+          ((equal? (car action) :export)
+           (display "Warning] The option :export is no longer supported\n")
+           (display "       ] Please use tm-define instead\n"))
+          (else '(noop))))
   (let ((l (map-in-order transform options)))
     (if (guile-b-c?)
-	(set! l (cons `(module-use! (current-module) ,texmacs-user) l)))
+        (set! l (cons `(module-use! (current-module) ,texmacs-user) l)))
     ;;(display "loading ") (display name) (display "\n")
     `(begin
        (define-module ,name)
