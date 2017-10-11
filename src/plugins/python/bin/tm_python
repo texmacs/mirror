@@ -51,7 +51,7 @@ def texmacs_out(out_str):
     Output results back to TeXmacs, with the DATA_BEGIN,
     DATA_END control characters."""
 
-    print DATA_BEGIN + out_str + DATA_END
+    print(DATA_BEGIN + out_str + DATA_END)
 
 def compose_output(data):
     """Do some parsing on the output according to its type.
