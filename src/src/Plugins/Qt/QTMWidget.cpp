@@ -568,7 +568,7 @@ QVariant
 QTMWidget::inputMethodQuery (Qt::InputMethodQuery query) const {
   switch (query) {
     case Qt::ImMicroFocus :
-      return QVariant (QRect (cursor_pos, QSize (5,5)));
+      return QVariant (QRect (cursor_pos - tm_widget()->backing_pos, QSize (5,5)));
     default:
       return QWidget::inputMethodQuery (query);
   }
