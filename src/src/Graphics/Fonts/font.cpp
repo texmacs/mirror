@@ -488,6 +488,7 @@ script (int sz, int level) {
 
 string
 default_chinese_font_name () {
+  if (tt_font_exists ("SourceHanSansSC-Regular")) return "Source Han Sans SC";
   if (tt_font_exists ("FandolSong-Regular")) return "FandolSong";
   if (tt_font_exists ("simsun")) return "simsun";
   if (tt_font_exists ("fireflysung")) return "fireflysung";
