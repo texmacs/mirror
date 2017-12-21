@@ -1,6 +1,6 @@
-<TeXmacs|1.0.7.12>
+<TeXmacs|1.99.6>
 
-<style|tmweb>
+<style|<tuple|tmweb|english>>
 
 <\body>
   <tmweb-current|Download|MacOS><tmweb-title|Installing <TeXmacs> on
@@ -12,8 +12,9 @@
   <name|MacOS-X>, you should:
 
   <\enumerate>
-    <item>Download the diskimage <hlink|<verbatim|<merge|<TeXmacs-version-release|devel>|.dmg>>|<merge|http://www.texmacs.org/Download/ftp/tmftp/macos/|<TeXmacs-version-release|devel>|.dmg>>
-    (Intel processors only).
+    <item>Download the diskimage <hlink|<verbatim|<merge|<TeXmacs-version-release|devel>|-yosemite.dmg>>|<merge|http://www.texmacs.org/Download/ftp/tmftp/macos/|<TeXmacs-version-release|devel>|-yosemite.dmg>>
+    (for MacOS-10.10 and later) or <hlink|<verbatim|<merge|<TeXmacs-version-release|devel>|.dmg>>|<merge|http://www.texmacs.org/Download/ftp/tmftp/macos/|<TeXmacs-version-release|devel>|.dmg>>
+    (for MacOS versions 10.6, 10.7, 10.8, and 10.9).
 
     <item>Open the diskimage and drag the <TeXmacs> icon to your applications
     folder.
@@ -49,13 +50,10 @@
   Of course, you may all <hlink|compile <TeXmacs> from the
   sources|sources.en.tm>.
 
-  <tmdoc-copyright|1999--2011|Joris van der Hoeven|Massimiliano Gubinelli>
+  <tmdoc-copyright|1999--2017|Joris van der Hoeven|Massimiliano Gubinelli>
 
   <tmweb-license>
 </body>
 
-<\initial>
-  <\collection>
-    <associate|language|english>
-  </collection>
-</initial>
+<initial|<\collection>
+</collection>>

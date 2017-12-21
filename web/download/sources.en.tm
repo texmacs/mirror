@@ -1,4 +1,4 @@
-<TeXmacs|1.99.2>
+<TeXmacs|1.99.6>
 
 <style|<tuple|tmweb|english>>
 
@@ -166,15 +166,9 @@
 
     GUILE_LDFLAGS="`pkg-config --static --libs guile-1.8`" \\
 
-    GUILE_DATA_PATH="`pkg-config --variable=datadir guile-1.8`"
-    \\GUILE_VERSION="`pkg-config --modversion guile-1.8`"
-  </shell-code>
+    GUILE_DATA_PATH="`pkg-config --variable=datadir guile-1.8`" \\
 
-  By default, we build <TeXmacs> using dynamically linked libraries. If you
-  rather want to build the static version, use
-
-  <\shell-code>
-    make STATIC_TEXMACS
+    GUILE_VERSION="`pkg-config --modversion guile-1.8`"
   </shell-code>
 
   For more build methods, please look at the <name|Makefile>.
@@ -190,7 +184,7 @@
   <hlink|contact|../contact/contact.en.tm> us, but you might need to be more
   patient.
 
-  <tmdoc-copyright|1999--2012|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2017|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
