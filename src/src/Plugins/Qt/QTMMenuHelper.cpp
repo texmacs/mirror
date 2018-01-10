@@ -241,8 +241,6 @@ QTMMinibarAction::createWidget (QWidget* parent) {
  ******************************************************************************/
 
 QTMMenuButton::QTMMenuButton (QWidget* parent) : QToolButton (parent) {
-  QTMAuxMenu m;
-  m.myInitStyleOption (&option);
   setAttribute (Qt::WA_Hover);
 }
 
@@ -268,18 +266,24 @@ void
 QTMMenuButton::paintEvent (QPaintEvent* e) {
   (void) e;
   QPainter p (this);
-  
-    // initialize the options
+
+  QRect r = rect();
+
+  // initialize the options
   QStyleOptionToolButton opt;
   initStyleOption (&opt);
-  QRect r = rect();
-  option.rect = r;
-  option.state = QStyle::State_Enabled | (opt.state & QStyle::State_MouseOver
-                                          ? QStyle::State_Selected
-                                          : QStyle::State_None);
-    // draw the control background as a menu item
-  style()->drawControl (QStyle::CE_MenuItem, &option, &p, this);
-    // draw the icon with a bit of inset.
+
+  QStyleOptionMenuItem mopt;
+  QTMAuxMenu m;
+  m.myInitStyleOption(&mopt);
+  mopt.rect = r;
+  mopt.state = QStyle::State_Enabled | (opt.state & QStyle::State_MouseOver
+                                        ? QStyle::State_Selected
+                                        : QStyle::State_None);
+
+  // draw the control background as a menu item
+  style()->drawControl (QStyle::CE_MenuItem, &mopt, &p, this);
+  // draw the icon with a bit of inset.
   r.adjust (2, 2, -2, -2);
   defaultAction()->icon().paint (&p, r);
 }
@@ -288,16 +292,14 @@ QTMMenuButton::paintEvent (QPaintEvent* e) {
  * QTMMenuWidget
  ******************************************************************************/
 
-QTMMenuWidget::QTMMenuWidget (QWidget* parent) : QWidget (parent) {
-  QTMAuxMenu m;
-  m.myInitStyleOption (&option);
-}
-
 void
 QTMMenuWidget::paintEvent(QPaintEvent* e) {
   QPainter p (this);
-  option.rect = rect ();
-  style()->drawControl (QStyle::CE_MenuEmptyArea, &option, &p, this);
+  QStyleOptionMenuItem mopt;
+  QTMAuxMenu m;
+  m.myInitStyleOption (&mopt);
+  mopt.rect = rect ();
+  style()->drawControl (QStyle::CE_MenuEmptyArea, &mopt, &p, this);
   QWidget::paintEvent (e);
 }
 
