@@ -350,7 +350,7 @@ move_node (tree t, path p, bool forward) {
     if (forward) p= path_up (p) * N (st->label);
     else p= path_up (p) * 0;
   }
-  p= move_valid (t, p, forward);
+  p= move_accessible (t, p, forward);
   st= subtree (t, path_up (p));
   if (is_atomic (st) && last_item (p) > 0)
     p= path_up (p) * N (st->label);
