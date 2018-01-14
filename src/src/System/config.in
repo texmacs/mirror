@@ -225,6 +225,9 @@
 /* Use C++ stack backtraces */
 #undef USE_STACK_TRACE
 
+/* Use side tools  */
+#undef USE_SIDE_TOOLS
+
 /* Use standard X11 port */
 #undef X11TEXMACS
 
