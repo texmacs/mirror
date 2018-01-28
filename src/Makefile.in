@@ -272,14 +272,34 @@ COPY_SOURCES:
 	cd $(BUILD_DIR); make DISTR_CLEAN
 
 COPY_SOURCES_TGZ: COPY_SOURCES
-	cd ../distr/build; tar -czf $(tm_devel).tar.gz $(tm_devel) 
+	cd ../distr/build; tar -czf $(tm_devel).tar.gz $(tm_devel)
 
+### mingw guile places the dll's in the bindir. They are named with the same
+### file name stubs as are the shared object libraries on Linux and MacOS.
+### However, on mingw, in the guile libdir are .a static object link-library
+### archives and also .dll.a files, which are not what needs to be copied in.
+### That's why ! -name '*.a' is in the find expression below, and why I used
+### find for this problem.
+###
 COPY_GUILE:
-	GUILE_LOAD_PATH=`find @GUILE_DATA_PATH@ -type d | grep ice-9`; \
-	export GUILE_LOAD_PATH; \
-	for I in $$GUILE_LOAD_PATH ; \
-	do $(CP) $$I $(BUILD_DIR)/TeXmacs/progs/ ; done
-	$(CHMOD) -R go=rX $(BUILD_DIR)/TeXmacs/progs/ice-9
+	-$(MKDIR) -p $(BUILD_DIR)/TeXmacs/progs
+	 (GUILE_LOAD_PATH=`find @GUILE_DATA_PATH@ -mindepth 1 -maxdepth 1 -type d ! -name scripts -printf "%P `;  \
+	  export GUILE_LOAD_PATH;                                                                                 \
+	  for I in $$GUILE_LOAD_PATH ; do                                                                         \
+	    $(CP) -R $$I $(BUILD_DIR)/TeXmacs/progs/ ;                                                            \
+	    $(CHMOD) -R go=rX $(BUILD_DIR)/TeXmacs/progs/$$I ;                                                    \
+	  done ;)
+	-$(MKDIR) -p $(BUILD_DIR)/TeXmacs/lib
+	(find `@GUILE_CONFIG@ info libdir` -maxdepth 1 -mindepth 1 -type f -name '*.a' -prune -o -type f        \
+	   \( -name 'libguilereadline-*' -o -name 'libguile-srfi-srfi-1-*' -o -name 'libguile-srfi-srfi-4-*' -o \
+	      -name 'libguile-srfi-srfi-13-14-*' -o -name 'libguile-srfi-srfi-60-*' -o -name 'libguile.so.*' \) \
+	   -exec $(CP) -p {} $(BUILD_DIR)/TeXmacs/lib \; )
+	-$(MKDIR) -p $(BUILD_DIR)/TeXmacs/bin
+	(find `@GUILE_CONFIG@ info bindir` -maxdepth 1 -mindepth 1 -type f                                                        \
+	   \( -name 'libguilereadline-.dll' -o -name 'libguile-srfi-srfi-1-.dll' -o -name 'libguile-srfi-srfi-4-*.dll' -o         \
+	      -name 'libguile-srfi-srfi-13-14-.dll' -o -name 'libguile-srfi-srfi-60-*.dll' -o -name 'libguile-[0-9][0-9].dll' \)  \
+	   -exec $(CP) -p {} $(BUILD_DIR)/TeXmacs/bin \; )
+
 
 ###############################################################################
 # Make a source package
@@ -307,15 +327,32 @@ BUNDLE: @CONFIG_BUNDLE@
 .PHONY: PACKAGE BUNDLE
 
 GENERIC_PACKAGE_DIR = ../distr/generic
-STATIC_QT = $(tm_devel)-@SVNREV@-$(tm_suffix)
+STATIC_QT = $(tm_devel)-@PKGREV@-$(tm_suffix)
 STATIC_X11 = $(tm_devel)-x11-$(tm_suffix)
 
 GENERIC_PACKAGE: TEXMACS STRIP
-	$(MKDIR) $(GENERIC_PACKAGE_DIR)
-	-find @GUILE_DATA_PATH@ -type d -name ice-9 -exec cp -R {} $(tmdir)/progs \; && \
-	   cp -R $(tmdir) $(STATIC_QT) && \
-	   tar -czhf $(GENERIC_PACKAGE_DIR)/$(STATIC_QT)-@CONFIG_STYPE@.tar.gz $(STATIC_QT) --exclude .svn --mode go=rX
-	$(RM) -r $(tmdir)/progs/ice-9 $(STATIC_QT)
+	-$(MKDIR) -p $(STATIC_QT)/TeXmacs/progs                                                                  \
+	(GUILE_LOAD_PATH=`find @GUILE_DATA_PATH@ -mindepth 1 -maxdepth 1 -type d ! -name scripts -printf "%P `; \
+	 export GUILE_LOAD_PATH;                                                                                \
+	 for I in $$GUILE_LOAD_PATH ; do                                                                        \
+	   $(CP) -R $$I $(STATIC_QT)/TeXmacs/progs/ ;                                                           \
+	   $(CHMOD) -R go=rX $(STATIC_QT)/TeXmacs/progs/$$I ;                                                   \
+	 done ;)
+	-$(MKDIR) -p $(STATIC_QT)/TeXmacs/lib
+	(find `@GUILE_CONFIG@ info libdir` -maxdepth 1 -mindepth 1 -type f -name '*.a' -prune -o -type f        \
+	   \( -name 'libguilereadline-*' -o -name 'libguile-srfi-srfi-1-*' -o -name 'libguile-srfi-srfi-4-*' -o \
+	      -name 'libguile-srfi-srfi-13-14-*' -o -name 'libguile-srfi-srfi-60-*' -o -name 'libguile.so.*' \) \
+	   -exec $(CP) -p {} $(STATIC_QT)/TeXmacs/lib \; )
+	-$(MKDIR) -p $(STATIC_QT)/TeXmacs/bin
+	(find `@GUILE_CONFIG@ info bindir` -maxdepth 1 -mindepth 1 -type f                                                        \
+	   \( -name 'libguilereadline-.dll' -o -name 'libguile-srfi-srfi-1-.dll' -o -name 'libguile-srfi-srfi-4-*.dll' -o         \
+	      -name 'libguile-srfi-srfi-13-14-.dll' -o -name 'libguile-srfi-srfi-60-*.dll' -o -name 'libguile-[0-9][0-9].dll' \)  \
+	   -exec $(CP) -p {} $(STATIC_QT)/TeXmacs/bin \; )
+	-$(MKDIR) -p $(GENERIC_PACKAGE_DIR)
+	(cp -R $(tmdir) $(STATIC_QT) && \
+	   tar -czhf $(GENERIC_PACKAGE_DIR)/$(STATIC_QT)-@CONFIG_STYPE@.tar.gz $(STATIC_QT) \
+	     --exclude .svn --exclude .git --mode go=rX
+	$(RM) -r $(STATIC_QT)
 
 GENERIC_X11_PACKAGE: COPY_SOURCES COPY_GUILE
 	cd $(BUILD_DIR); ./configure --disable-qt --disable-pdf-renderer
@@ -460,7 +497,7 @@ MACOS_PACKAGE_SRC = packages/macos
 MACOS_PACKAGE_DIR = ../distr/macos
 
 MACOS_PACKAGE_APP = ../distr/$(tm_devel).app
-MACOS_PACKAGE_DMG = ../distr/$(tm_devel)-r@SVNREV@@MACOSX_TARGET@.dmg
+MACOS_PACKAGE_DMG = ../distr/$(tm_devel)-r@PKGREV@@MACOSX_TARGET@.dmg
 MACOS_PACKAGE_ZIP = ../distr/$(tm_devel).zip
 
 MACOS_PACKAGE_CONTENTS = $(MACOS_PACKAGE_APP)/Contents
@@ -486,9 +523,22 @@ MACOS_BUNDLE: TEXMACS
 	$(CP) TeXmacs $(MACOS_PACKAGE_RESOURCES)/share
 	$(RM) $(MACOS_PACKAGE_TEXMACS)/bin/texmacs.bin
 	if test -n "@GS_EXE@";then  cp @GS_EXE@ $(MACOS_PACKAGE_TEXMACS)/bin/;fi
-	find @GUILE_DATA_PATH@ -type d -name ice-9 -exec cp -R {} $(MACOS_PACKAGE_TEXMACS)/progs/ \;
-	$(CHMOD) -R go=rX $(MACOS_PACKAGE_TEXMACS)/progs/ice-9
-	find -d $(MACOS_PACKAGE_TEXMACS) -name .svn -exec rm -rf {} \;
+	(GUILE_LOAD_PATH=`find @GUILE_DATA_PATH@ -mindepth 1 -maxdepth 1 -type d ! -name scripts -printf "%P `; \
+	 export GUILE_LOAD_PATH;                                                                                \
+	 for I in $$GUILE_LOAD_PATH ; do                                                                        \
+	   $(CP) -R $$I $(MACOS_PACKAGE_TEXMACS)/progs/ ;                                                       \
+	   $(CHMOD) -R go=rX $(MACOS_PACKAGE_TEXMACS)/progs/$$I ;                                               \
+	 done)
+	(find `@GUILE_CONFIG@ info libdir` -maxdepth 1 -mindepth 1            \
+	    -type f -name '*.a' -prune -o                                     \
+	    -type f \( -name 'libguilereadline-*' -o                          \
+	               -name 'libguile-srfi-srfi-1-*' -o                      \
+	               -name 'libguile-srfi-srfi-4-*' -o                      \
+	               -name 'libguile-srfi-srfi-13-14-*' -o                  \
+	               -name 'libguile-srfi-srfi-60-*' -o                     \
+	               -name 'libguile-[0-9]*'                                \
+	            \) -exec $(CP) -p {} $(MACOS_PACKAGE_RESOURCES)/lib \; )
+	find -d $(MACOS_PACKAGE_TEXMACS) -name .svn -o -name .git -exec rm -rf {} \;
 
 	@echo Deploying libraries into application bundle.
 	QT_PLUGINS_PATH="$(QT_PLUGINS_PATH)" QT_PLUGINS_LIST="$(QT_PLUGINS_LIST)" \
@@ -508,7 +558,7 @@ MACOS_PACKAGE: MACOS_BUNDLE
 MACOS_RELEASE: MACOS_BUNDLE
 	$(RM) $(MACOS_PACKAGE_ZIP)
 	(cd ../distr; zip -r9Tq $(tm_devel).zip $(tm_devel).app)
-	$(SIGN) $(MACOS_PACKAGE_ZIP) @SVNREV@ $(tm_devel_version)
+	$(SIGN) $(MACOS_PACKAGE_ZIP) @PKGREV@ $(tm_devel_version)
 
 .PHONY: MACOS_BUNDLE MACOS_PACKAGE MACOS_RELEASE
 
@@ -527,23 +577,37 @@ WINDOWS_BUILD_BIN_DIR = $(WINDOWS_BUILD_DIR)/bin
 
 WINDOWS_BUNDLE: TEXMACS
 	$(MKDIR) ../distr
-	$(MKDIR) $(WINDOWS_BUILD_DIR)
+	$(MKDIR) -p $(WINDOWS_BUILD_DIR)/bin
+	$(MKDIR) -p $(WINDOWS_BUILD_DIR)/progs
 	$(RM) -r $(WINDOWS_BUILD_BIN_DIR)/{texmacs,texmacs.bin,texmacs.exe}
 	$(CP) -u TeXmacs/* $(WINDOWS_BUILD_DIR)/.
 	$(RM) $(WINDOWS_BUILD_BIN_DIR)/texmacs
 	$(MV) $(WINDOWS_BUILD_BIN_DIR)/texmacs.bin $(WINDOWS_BUILD_BIN_DIR)/texmacs.exe
 	if test -n "@XTRA_CMD@"; then cp -u "@XTRA_CMD@/"* $(WINDOWS_BUILD_BIN_DIR)/; fi
-	if test -x "@GS_EXE@"; then cp @GS_EXE@ $(WINDOWS_BUILD_BIN_DIR)/;fi
-	for f in $(WINDOWS_BUILD_BIN_DIR)/*.exe;do $(WINDOWS_PACKAGE_SRC)/copydll.sh $$f;done
+	if test -x "@GS_EXE@"; then cp @GS_EXE@ $(WINDOWS_BUILD_BIN_DIR)/; fi
 	$(CP) misc/admin/texmacs_updates_dsa_pub.pem $(WINDOWS_BUILD_DIR)/bin
-	find @GUILE_DATA_PATH@ -type d -name ice-9 -exec $(CP) {} $(WINDOWS_BUILD_DIR)/progs/ \;
-	if test -d "$(QT_PLUGINS_PATH)";then $(CP) -u $(QT_PLUGINS_PATH)/* $(WINDOWS_BUILD_BIN_DIR);fi
+	(GUILE_LOAD_PATH=`find @GUILE_DATA_PATH@ -mindepth 1 -maxdepth 1 -type d ! -name scripts -printf "%P `; \
+	 export GUILE_LOAD_PATH;                                                                                \
+	 for I in $$GUILE_LOAD_PATH ; do                                                                        \
+	   $(CP) -R $$I $(WINDOWS_BUILD_DIR)/progs/ ;                                                           \
+	   $(CHMOD) -R go=rX $(WINDOWS_BUILD_DIR)/progs/$$I ;                                                   \
+	 done)
+	(find `@GUILE_CONFIG@ info bindir` -maxdepth 1 -mindepth 1 -type f  \
+	   \( -name 'libguilereadline-*.dll' -o                             \
+	      -name 'libguile-srfi-srfi-1-*.dll' -o                         \
+	      -name 'libguile-srfi-srfi-4-*.dll' -o                         \
+	      -name 'libguile-srfi-srfi-13-14-*.dll' -o                     \
+	      -name 'libguile-srfi-srfi-60-*.dll' -o                        \
+	      -name 'libguile-[0-9][0-9].dll'                               \
+	   \) -exec $(CP) -p {} $(WINDOWS_BUILD_BIN_DIR) \; )
+	for f in $(WINDOWS_BUILD_BIN_DIR)/*.exe; do $(WINDOWS_PACKAGE_SRC)/copydll.sh $$f; done
+	if test -d "$(QT_PLUGINS_PATH)"; then $(CP) -u $(QT_PLUGINS_PATH)/* $(WINDOWS_BUILD_BIN_DIR); fi
 
-$(WINDOWS_PACKAGE_DIR)/@tm_devel@.@SVNREV@-win-x86.exe: $(wilcard $(WINDOWS_BUILD_DIR)/*)
+$(WINDOWS_PACKAGE_DIR)/@tm_devel@.@PKGREV@-win-x86.exe: $(wilcard $(WINDOWS_BUILD_DIR)/*)
 	$(MKDIR) $(WINDOWS_PACKAGE_DIR)
 	iscc $(WINDOWS_PACKAGE_SRC)/TeXmacs.iss
 
-WINDOWS_PACKAGE: WINDOWS_BUNDLE $(WINDOWS_PACKAGE_DIR)/@tm_devel@.@SVNREV@-win-x86.exe
+WINDOWS_PACKAGE: WINDOWS_BUNDLE $(WINDOWS_PACKAGE_DIR)/@tm_devel@.@PKGREV@-win-x86.exe
 #	$(MV) ../distr/*-installer* $(WINDOWS_PACKAGE_DIR)
 #	$(RM) -r $(WINDOWS_BUILD_DIR)
 
@@ -632,7 +696,7 @@ ACCESS_FLAGS:
 	$(CHMOD) -R go+x $(tmdir)/lib
 
 VERINFO:
-	@{ date; uname -srvn ; printf "\nRevision  $SVNREV@  "; \
+	@{ date; uname -srvn ; printf "\nRevision  $PKGREV@  "; \
 	egrep '\$$.+configure' config.log; \
 	gcc --version; \
 	svn -v st | misc/admin/verinfo.sh; \
