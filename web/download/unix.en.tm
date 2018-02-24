@@ -30,11 +30,13 @@
   the following static binary distributions of GNU <TeXmacs>:
 
   <\enumerate>
-    <item>The <hlink|recommended <TeXmacs>
-    package|<merge|http://www.texmacs.org/Download/ftp/tmftp/generic/|<TeXmacs-version-release|devel>|-B.tar.gz>>
-    should work on recent GNU/<name|Linux> systems.
+    <item><hlink|<TeXmacs> package for 32 bit GNU/<name|Linux>
+    distributions|<merge|http://www.texmacs.org/Download/ftp/tmftp/generic/|<TeXmacs-version-release|devel>|-B.tar.gz>>.
 
-    <item>If the above package does not work on your computer, then you may
+    <item><hlink|<TeXmacs> package for 64 bit GNU/<name|Linux>
+    distributions|<merge|http://www.texmacs.org/Download/ftp/tmftp/generic/|<TeXmacs-version-release|devel>|-C.tar.gz>>.
+
+    <item>If the above packages do not work on your computer, then you may
     try our <hlink|alternate <TeXmacs> package|<merge|http://www.texmacs.org/Download/ftp/tmftp/generic/|<TeXmacs-version-release|devel>|-A.tar.gz>>,
     which should be suitable for older systems.
   </enumerate>
