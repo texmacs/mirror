@@ -224,8 +224,8 @@ get_default_styled_font (int style) {
   return get_default_font (tt, mini, bold);
 }
 
-#ifdef QTTEXMACS
-bool use_side_tools= false;
+#ifdef USE_SIDE_TOOLS
+bool use_side_tools= true;
 #else
 bool use_side_tools= false;
 #endif

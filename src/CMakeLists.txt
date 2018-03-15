@@ -77,7 +77,9 @@ endif (USE_IMLIB2)
 
 option (USE_SPARKLE "use Sparkle" OFF)
 
-option(PDFHUMMUS_NO_TIFF "Disable TIFF in PDF Hummus" ON)
+option (PDFHUMMUS_NO_TIFF "Disable TIFF in PDF Hummus" ON)
+
+option (USE_SIDE_TOOLS "use side tools" ON)
 
 if (APPLE)
   set(MACOSX_EXTENSIONS 1)
