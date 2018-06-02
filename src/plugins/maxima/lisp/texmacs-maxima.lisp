@@ -159,3 +159,38 @@
   (if (= (length l) 3)
       (dosum (caddr l) (cadar l) (meval (caddar l)) (meval (cadr l)) nil)
       (wna-err '$tmprod)))
+
+
+;; == Inline plots
+
+;; create an inline figure, based on raw ps code
+(defun tm_out (raw_data)
+ (let ((beg (string (code-char 2)))
+        (end (string (code-char 5))))
+   (concatenate 'string beg "ps:" raw_data end)))
+
+;; create an inline figure, based on a .ps filename
+(defmfun $ps_out (filename)
+ (with-open-file (stream filename)
+                  (let ((contents (make-string (file-length stream))))
+                    (read-sequence contents stream)
+                    ;; princ does not enclose the string in quotes
+                    (princ (tm_out contents))
+                    (princ ""))))
+
+;; same as plot2d, but also create an inline figure
+(defmfun $tm_plot2d (&rest args)
+ #$set_plot_option([gnuplot_term, ps])$
+ #$set_plot_option([gnuplot_out_file, "tm_temp_plot.ps"])$
+ (apply '$plot2d args)
+ ;; Beware that the plot2d call is non-blocking for ps output
+ ;; How to check for the ps-file creation/update ?
+ ;; For now, plot also in the gnuplot windows
+ #$remove_plot_option(gnuplot_out_file)$
+ #$set_plot_option([gnuplot_term, default])$
+ (apply '$plot2d args)
+ (setq filename (concatenate 'string $maxima_tempdir "/tm_temp_plot.ps"))
+ ;; Since the gnuplot process duration is the same for ps or screen output,
+ ;; the ps file has been written by now
+ (funcall '$ps_out filename))
+
