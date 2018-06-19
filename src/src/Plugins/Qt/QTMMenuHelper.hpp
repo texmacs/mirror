@@ -229,8 +229,6 @@ public:
 class QTMMenuWidget: public QWidget {
   Q_OBJECT
 
-  QStyleOptionMenuItem option;
-  
 public:
   QTMMenuWidget (QWidget* parent = NULL);
   void paintEvent(QPaintEvent *event);

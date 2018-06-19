@@ -289,14 +289,13 @@ QTMMenuButton::paintEvent (QPaintEvent* e) {
  ******************************************************************************/
 
 QTMMenuWidget::QTMMenuWidget (QWidget* parent) : QWidget (parent) {
-  QTMAuxMenu m;
-  m.myInitStyleOption (&option);
 }
 
 void
 QTMMenuWidget::paintEvent(QPaintEvent* e) {
   QPainter p (this);
-  option.rect = rect ();
+  QStyleOptionMenuItem option;
+  option.rect = rect();
   style()->drawControl (QStyle::CE_MenuEmptyArea, &option, &p, this);
   QWidget::paintEvent (e);
 }
