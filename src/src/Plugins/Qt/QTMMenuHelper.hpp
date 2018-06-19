@@ -215,8 +215,6 @@ public:
 class QTMMenuButton: public QToolButton {
   Q_OBJECT
 
-  QStyleOptionMenuItem option;
-  
 public:
   QTMMenuButton (QWidget* parent = NULL);
  
@@ -231,10 +229,9 @@ public:
 class QTMMenuWidget: public QWidget {
   Q_OBJECT
 
-  QStyleOptionMenuItem option;
-  
 public:
-  QTMMenuWidget (QWidget* parent = NULL);
+  QTMMenuWidget (QWidget* parent = NULL) : QWidget (parent) {};
+
   void paintEvent(QPaintEvent *event);
 };
 
