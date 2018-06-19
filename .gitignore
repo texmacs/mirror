@@ -4,3 +4,4 @@ texmacs.1
 *.o
 *.kdev4
 .kdev4
+.vscode

@@ -215,8 +215,6 @@ public:
 class QTMMenuButton: public QToolButton {
   Q_OBJECT
 
-  QStyleOptionMenuItem option;
-  
 public:
   QTMMenuButton (QWidget* parent = NULL);
  
