@@ -1,6 +1,6 @@
-<TeXmacs|1.99.1>
+<TeXmacs|1.99.6>
 
-<style|<tuple|tmweb|english>>
+<style|<tuple|tmweb|english|old-spacing>>
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Contributing to
@@ -45,8 +45,8 @@
   we want to go. Of course your own ideas are welcome! <TeXmacs> is developed
   using <hlink|SVN|../download/svn.en.tm>, but we prefer contributions in the
   form of <hlink|patches|../contact/patches.en.tm>. There exists a fairly
-  up-to-date Git <hlink|mirror|https://gitorious.org/texmacs/texmacs> hosted
-  at Gitorious.
+  up-to-date Git <hlink|mirror|https://github.com/texmacs/texmacs> hosted at
+  Gitorious.
 
   <section|The <TeXmacs> team and prioritary tasks><label|prioritary-tasks>
 
