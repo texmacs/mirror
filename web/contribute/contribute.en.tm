@@ -46,7 +46,7 @@
   using <hlink|SVN|../download/svn.en.tm>, but we prefer contributions in the
   form of <hlink|patches|../contact/patches.en.tm>. There exists a fairly
   up-to-date Git <hlink|mirror|https://github.com/texmacs/texmacs> hosted at
-  Gitorious.
+  Github.
 
   <section|The <TeXmacs> team and prioritary tasks><label|prioritary-tasks>
 
