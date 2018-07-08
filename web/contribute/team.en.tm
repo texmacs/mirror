@@ -1,4 +1,4 @@
-<TeXmacs|1.99.7>
+<TeXmacs|1.99.6>
 
 <style|<tuple|tmweb|old-spacing>>
 
@@ -41,13 +41,13 @@
   </center>
 
   <\center>
-    <tabular*|<tformat|<table|<row|<cell|<hlink|<image|team-massimiliano.jpg||150px||>|team-massimiliano.en.tm>>|<cell|<hlink|<image|team-francois.jpg||150px||>|team-francois.en.tm>>|<cell|<hlink|<image|team-denis.jpg||150px||>|team-denis.en.tm>>|<cell|>>|<row|<cell|<hlink|Massimiliano
+    <tabular*|<tformat|<table|<row|<cell|<hlink|<image|team-massimiliano.jpg||150px||>|team-massimiliano.en.tm>>|<cell|<hlink|<image|team-francois.jpg||150px||>|team-francois.en.tm>>|<cell|<hlink|<image|team-denis.jpg||150px||>|team-denis.en.tm>>|<cell|<hlink|<image|team-sadhen.jpg||150px||>|team-sadhen.en.tm>>>|<row|<cell|<hlink|Massimiliano
     Gubinelli|team-massimiliano.en.tm>>|<cell|<hlink|François
     Poulain|team-francois.en.tm>>|<cell|<hlink|Denis
-    Raux|team-denis.en.tm>>|<cell|<hlink|Darcy Chen|team-sadhen.en.tm>>>>>>
+    Raux|team-denis.en.tm>>|<cell|<hlink|Darcy Shen|team-sadhen.en.tm>>>>>>
   </center>
 
-  <tmdoc-copyright|2012|Joris van der Hoeven>
+  <tmdoc-copyright|2018|Joris van der Hoeven>
 
   <tmweb-license>
 </body>

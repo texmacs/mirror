@@ -1,6 +1,6 @@
 <TeXmacs|1.99.6>
 
-<style|tmweb>
+<style|<tuple|tmweb|old-spacing>>
 
 <\body>
   <tmweb-current|Contribute|Team><tmweb-title|Darcy
@@ -16,6 +16,8 @@
   Github|https://github.com/texmacs> and hopes that the Github Pull Request
   workflow brings more and more contributors.
 
+  <htab|5mm><image|team-sadhen.jpg||150px||>
+
   <section|Improvements>
 
   <\description>
@@ -25,6 +27,8 @@
     <item*|CJK Improvements>
 
     <\itemize-dot>
+      <item>Chinese translations of the builtin documents
+
       <item>Use <key|Tab> to type accented pinyin quickly
 
       <item>TODO: Space Allocation Algorithm for better CJK typesetting
@@ -32,6 +36,9 @@
 
     <item*|Git Plugin>see <hlink|tigmacs|https://github.com/sadhen/tigmacs>.
     And it will be integrated into <TeXmacs> later.
+
+    <item*|Scala Plugin>see <hlink|TeXmacs.scala|https://github.com/texmacs/TeXmacs.scala>.
+    Full-featured Scala REPL Session based on Ammonite REPL.
 
     <item*|Esperanto Support>Esperanto users can use <key|Tab> to type
     special characters quickly.
