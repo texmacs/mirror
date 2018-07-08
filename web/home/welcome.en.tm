@@ -1,6 +1,6 @@
-<TeXmacs|1.0.7.18>
+<TeXmacs|1.99.6>
 
-<style|tmweb>
+<style|<tuple|tmweb|english|old-spacing>>
 
 <\body>
   <tmweb-current|Home|Welcome><tmweb-title|Welcome to GNU
@@ -18,13 +18,10 @@
 
   <center|<html-javascript-src|/counter/gcount.php?page=texmacs>>
 
-  <tmdoc-copyright|1999--2012|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2018|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
 
-<\initial>
-  <\collection>
-    <associate|language|english>
-  </collection>
-</initial>
+<initial|<\collection>
+</collection>>
