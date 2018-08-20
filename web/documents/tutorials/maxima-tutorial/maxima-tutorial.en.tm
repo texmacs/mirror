@@ -9,7 +9,7 @@
   System (CAS) maxima from <TeXmacs>. It should be valid for <TeXmacs>-1.0.5
   and maxima-5.9.2.
 
-  Let's start <TeXmacs>. We shall use the package <tmpackage|varsession>:
+  Let's start <TeXmacs>. We shall use the package <tmpackage|framed-session>:
 
   <postscript|c0.png|*5/8|*5/8||||>
 

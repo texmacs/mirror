@@ -150,7 +150,7 @@
       family|<quote|ss>|Insert fields>|<with|font family|<quote|ss>|Fold
       input field>>|<pageref|idx-8>>
 
-      <tuple|<tuple|<with|font family|<quote|tt>|color|<quote|brown>|varsession>>|<pageref|idx-9>>
+      <tuple|<tuple|<with|font family|<quote|tt>|color|<quote|brown>|framed-session>>|<pageref|idx-9>>
 
       <tuple|<tuple|<with|font family|<quote|ss>|Document>|<with|font
       family|<quote|ss>|Use package>|<with|font
