@@ -1,6 +1,6 @@
-<TeXmacs|1.99.6>
+<TeXmacs|1.99.7>
 
-<style|<tuple|tmweb|english>>
+<style|<tuple|tmweb|english|old-spacing>>
 
 <\body>
   <tmweb-current|Download|Linux><tmweb-title|Installing <TeXmacs> on
@@ -15,6 +15,10 @@
     <item>Please <hlink|check|linux.en.tm> whether your distribution already
     supports <TeXmacs>, in which case you may directly install <TeXmacs>
     using the standard tools of your system.
+
+    <item>Please <hlink|check|linux-packages.en.tm> whether your distribution
+    is in the list of standard GNU/<name|Linux> distributions for which we
+    provide ready-to-install packages.
 
     <item>Otherwise, you may install a generic binary package for <TeXmacs>,
     as explained below.
