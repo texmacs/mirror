@@ -23,6 +23,9 @@
     <item><hlink|Ubuntu|#ubuntu>.
   </itemize>
 
+  Further distributions may be added preogressively
+  <hlink|here|ftp://ftp.texmacs.org/TeXmacs/tmftp/Linux/>.
+
   <section*|CentOS><label|centos>
 
   In order to install <TeXmacs>, please follow the steps below:
