@@ -35,16 +35,10 @@
   <section|Notes>
 
   <\itemize>
-    <item>If you are using <hlink|<name|Cygwin>|http://www.cygwin.com/>, then
-    you may run <verbatim|setup.exe>, select the <verbatim|texmacs> package
-    and install it.
-
-    <item>From version 1.0.7.5 on, <TeXmacs> is completely independent from
-    <TeX>/<LaTeX>. The last remaining dependency on <name|Bib><TeX> has been
-    removed in this version: you may use <verbatim|tm-plain>,
-    <verbatim|tm-alpha>, <abbr|etc.> for your bibliography styles. The native
-    bibliography support is still a bit unstable though; it will be further
-    improved in upcoming versions.
+    <item>The current <name|Windows> version of <TeXmacs> only supports a
+    reduced set of plug-ins. As of version 1.0.7.18, <name|Maxima>,
+    <name|Mathemagix>, <name|Octave>, <name|Pari> and <name|Python> should
+    run out of the box after a standard installation.
 
     <item>If you installed <hlink|<name|Mik><TeX>|http://www.miktex.org/> in
     addition to <TeXmacs>, then, due to the availability of some additional
@@ -52,11 +46,6 @@
     results in a<nbsp>significant slow-down of <TeXmacs>. Don't panic: the
     fonts have to be generated only once. Subsequent runs of <TeXmacs> will
     be fast.
-
-    <item>The current <name|Windows> version of <TeXmacs> only supports a
-    reduced set of plug-ins. As of version 1.0.7.18, <name|Maxima>,
-    <name|Mathemagix>, <name|Octave>, <name|Pari> and <name|Python> should
-    run out of the box after a standard installation.
   </itemize>
 
   <tmdoc-copyright|1999--2013|Joris van der Hoeven|David Michel|Denis Raux>
