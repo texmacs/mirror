@@ -1,6 +1,6 @@
-<TeXmacs|1.0.4.2>
+<TeXmacs|1.99.7>
 
-<style|tmweb>
+<style|<tuple|tmweb|english|old-spacing>>
 
 <\body>
   <tmweb-current|Download|Sources><tmweb-title|BSD packages for
@@ -11,19 +11,16 @@
   <\itemize>
     <item><hlink|NetBSD|http://cvsweb.netbsd.org/bsdweb.cgi/pkgsrc/editors/TeXmacs/>.
 
-    <item><hlink|Free BSD|http://www.freebsd.org/cgi/cvsweb.cgi/ports/editors/texmacs/>.
+    <item><hlink|Free BSD|https://svnweb.freebsd.org/ports/head/editors/texmacs/>.
   </itemize>
 
   Please consult the corresponding distributions for help on how to install
   software.
 
-  <tmdoc-copyright|1999--2003|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2018|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
 
-<\initial>
-  <\collection>
-    <associate|language|english>
-  </collection>
-</initial>
+<initial|<\collection>
+</collection>>
