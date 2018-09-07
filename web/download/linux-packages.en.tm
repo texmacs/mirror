@@ -26,7 +26,7 @@
   Further distributions may be added preogressively
   <hlink|here|ftp://ftp.texmacs.org/TeXmacs/tmftp/Linux/>.
 
-  <section*|CentOS><inactive|<label|centos>>
+  <section*|CentOS><label|centos>
 
   In order to install <TeXmacs>, please follow the steps below:
 
@@ -223,7 +223,10 @@
     </shell-code>
   </enumerate>
 
-  <tmdoc-copyright|1999--2007|Andrey Grozin|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2018|Denis Raux|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
+
+<initial|<\collection>
+</collection>>
