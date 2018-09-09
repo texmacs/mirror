@@ -1,4 +1,4 @@
-<TeXmacs|1.99.7>
+<TeXmacs|1.99.8>
 
 <style|<tuple|tmweb|english|old-spacing>>
 
@@ -172,10 +172,10 @@
       Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/openSUSE_Leap_42.2/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
 
       <item><hlink|<TeXmacs> package for Open Suse Leap-42.3 with a 64 bits
-      Intel/AMD processor|<inactive|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/openSUSE_Leap_42.3/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>>
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/openSUSE_Leap_42.3/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
 
       <item><hlink|<TeXmacs> package for Open Suse Tumbleweed with a 32 bits
-      Intel/AMD processor|<inactive|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/openSUSE_Tumbleweed/|<inactive|<merge|<TeXmacs-version-release|devel>|.i586.rpm>>>>>
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/openSUSE_Tumbleweed/|<merge|<TeXmacs-version-release|devel>|.i586.rpm>>>
 
       <item><hlink|<TeXmacs> package for Open Suse Tumbleweed with a 64 bits
       Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/openSUSE_Tumbleweed/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
@@ -204,16 +204,16 @@
       processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_7.0/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
 
       <item><hlink|<TeXmacs> package for Debian-8 with a 32 bits Intel/AMD
-      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_8.0/|<inactive|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>>
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_8.0/|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>
 
       <item><hlink|<TeXmacs> package for Debian-8 with a 64 bits Intel/AMD
-      processor|<inactive|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_8.0/|<inactive|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>>>
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_8.0/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
 
       <item><hlink|<TeXmacs> package for Debian-9 with a 32 bits Intel/AMD
-      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_9.0/|<inactive|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>>
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_9.0/|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>
 
       <item><hlink|<TeXmacs> package for Debian-8 with a 64 bits Intel/AMD
-      processor|<inactive|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_8.0/|<inactive|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>>>
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_8.0/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
     </itemize>
 
     <item>Install the package using
