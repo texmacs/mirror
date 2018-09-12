@@ -76,8 +76,8 @@
       <item><hlink|<TeXmacs> package for Debian-9 with a 32 bits Intel/AMD
       processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_9.0/|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>
 
-      <item><hlink|<TeXmacs> package for Debian-8 with a 64 bits Intel/AMD
-      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_8.0/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
+      <item><hlink|<TeXmacs> package for Debian-9 with a 64 bits Intel/AMD
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_9.0/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
     </itemize>
 
     <item>Install the package using
@@ -194,26 +194,47 @@
 
   <\enumerate>
     <item>Download the latest version that corresponds to your version of
-    Debian and your processor:
+    Ubunu and your processor:
 
     <\itemize>
-      <item><hlink|<TeXmacs> package for Debian-7 with a 32 bits Intel/AMD
-      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_7.0/|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>
+      <item><hlink|<TeXmacs> package for xUbuntu_12.04 with a 32 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_12.04/|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>
 
-      <item><hlink|<TeXmacs> package for Debian-7 with a 64 bits Intel/AMD
-      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_7.0/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
+      <item><hlink|<TeXmacs> package for xUbuntu_12.04 with a 64 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_12.04/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
 
-      <item><hlink|<TeXmacs> package for Debian-8 with a 32 bits Intel/AMD
-      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_8.0/|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>
+      <item><hlink|<TeXmacs> package for xUbuntu_14.04 with a 32 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_14.04/|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>
 
-      <item><hlink|<TeXmacs> package for Debian-8 with a 64 bits Intel/AMD
-      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_8.0/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
+      <item><hlink|<TeXmacs> package for xUbuntu_14.04 with a 64 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_14.04/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
 
-      <item><hlink|<TeXmacs> package for Debian-9 with a 32 bits Intel/AMD
-      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_9.0/|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>
+      <item><hlink|<TeXmacs> package for xUbuntu_16.04 with a 32 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_16.04/|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>
 
-      <item><hlink|<TeXmacs> package for Debian-8 with a 64 bits Intel/AMD
-      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_8.0/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
+      <item><hlink|<TeXmacs> package for xUbuntu_16.04 with a 64 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_16.04/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
+
+      <item><hlink|<TeXmacs> package for xUbuntu_16.10 with a 32 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_16.10/|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>
+
+      <item><hlink|<TeXmacs> package for xUbuntu_16.10 with a 64 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_16.10/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
+
+      <item><hlink|<TeXmacs> package for xUbuntu_17.04 with a 32 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_17.04/|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>
+
+      <item><hlink|<TeXmacs> package for xUbuntu_17.04 with a 64 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_17.04/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
+
+      <item><hlink|<TeXmacs> package for xUbuntu_17.10 with a 32 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_17.10/|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>
+
+      <item><hlink|<TeXmacs> package for xUbuntu_17.10 with a 64 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_17.10/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
+
+      <item><hlink|<TeXmacs> package for xUbuntu_18.04 with a 64 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_18.04/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
     </itemize>
 
     <item>Install the package using
@@ -227,6 +248,3 @@
 
   <tmweb-license>
 </body>
-
-<initial|<\collection>
-</collection>>
