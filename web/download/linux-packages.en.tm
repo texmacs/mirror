@@ -1,4 +1,4 @@
-<TeXmacs|1.99.8>
+<TeXmacs|1.99.7>
 
 <style|<tuple|tmweb|english|old-spacing>>
 
@@ -23,7 +23,11 @@
     <item><hlink|Ubuntu|#ubuntu>.
   </itemize>
 
-  Further distributions may be added preogressively
+  Further distributions may be added progressively
+  <hlink|here|ftp://ftp.texmacs.org/TeXmacs/tmftp/Linux/>.
+
+  <strong|Important>: In some cases you should have to install the guile
+  additional package manually. You can dowmload it
   <hlink|here|ftp://ftp.texmacs.org/TeXmacs/tmftp/Linux/>.
 
   <section*|CentOS><label|centos>
