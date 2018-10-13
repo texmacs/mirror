@@ -1,6 +1,6 @@
-<TeXmacs|1.0.7.15>
+<TeXmacs|1.99.8>
 
-<style|tmweb>
+<style|<tuple|tmweb|english|old-spacing>>
 
 <\body>
   <tmweb-current|Plug-ins|Mathematics><tmweb-title|Computer algebra systems
@@ -49,7 +49,6 @@
 
 <\initial>
   <\collection>
-    <associate|language|english>
     <associate|preamble|true>
   </collection>
 </initial>
