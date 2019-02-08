@@ -237,6 +237,9 @@
 
       <item><hlink|<TeXmacs> package for xUbuntu_18.04 with a 64 bits
       Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_18.04/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
+
+      <item><hlink|<TeXmacs> package for xUbuntu_18.10 with a 64 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_18.10/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
     </itemize>
 
     <item>Install the package using
