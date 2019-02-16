@@ -1,4 +1,4 @@
-<TeXmacs|1.99.6>
+<TeXmacs|1.99.9>
 
 <style|<tuple|tmweb|old-spacing>>
 
@@ -57,7 +57,15 @@
     <item>...
   </itemize-dot>
 
-  <tmdoc-copyright|2018|Darcy Shen>
+  <section|Work in Progress>
+
+  <\itemize>
+    <item><hlink|GSoC|https://github.com/texmacs/gsoc> for GNU <TeXmacs>
+
+    <item>The Unified Graph Plugin for Graphviz/Asymptote/Tikz/<text-dots>
+  </itemize>
+
+  <tmdoc-copyright|2018\U2019|Darcy Shen>
 
   <tmweb-license>
 </body>
