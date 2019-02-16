@@ -1,4 +1,4 @@
-<TeXmacs|1.99.7>
+<TeXmacs|1.99.9>
 
 <style|<tuple|tmweb|english|old-spacing>>
 
@@ -17,6 +17,8 @@
     <item><hlink|Open Suse|#suse>.
 
     <item><hlink|Ubuntu|#ubuntu>.
+
+    <item><hlink|Arch Linux|#arch>.
   </itemize>
 
   Please report any other distributions with sufficiently up-to-date
@@ -69,10 +71,14 @@
   "<verbatim|unstable>", and therefore contains <TeXmacs>. You can (probably)
   install an up-to-date TeXmacs from Debian "<verbatim|experimental>".
 
-  <tmdoc-copyright|1999--2007|Andrey Grozin|Joris van der Hoeven>
+  <section*|Arch Linux><label|arch>
+
+  You may install the latest GNU <TeXmacs> via <verbatim|pacman>. For the
+  details of the package, just visit the official
+  <hlink|page|https://www.archlinux.org/packages/extra/x86_64/texmacs/> on
+  Arch Linux for GNU <TeXmacs>.
+
+  <tmdoc-copyright|1999--2018|Andrey Grozin|Joris van der Hoeven, Darcy Shen>
 
   <tmweb-license>
 </body>
-
-<initial|<\collection>
-</collection>>
