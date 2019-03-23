@@ -1,4 +1,4 @@
-<TeXmacs|1.99.6>
+<TeXmacs|1.99.9>
 
 <style|<tuple|tmweb|english|old-spacing>>
 
@@ -18,10 +18,7 @@
 
   <center|<html-javascript-src|/counter/gcount.php?page=texmacs>>
 
-  <tmdoc-copyright|1999--2018|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2019|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
-
-<initial|<\collection>
-</collection>>
