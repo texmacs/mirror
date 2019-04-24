@@ -14,7 +14,9 @@
   group|https://www.douban.com/group/texmacs/> for Chinese users. He is also
   the maintainer of the <hlink|<TeXmacs> group on
   Github|https://github.com/texmacs> and hopes that the Github Pull Request
-  workflow brings more and more contributors.
+  workflow brings more and more contributors. He writes articles about
+  <TeXmacs> at <hlink|\<#77E5\>\<#4E4E\>|https://zhuanlan.zhihu.com/texmacs>
+  in Chinese.
 
   <htab|5mm><image|team-sadhen.jpg||150px||>
 
@@ -34,8 +36,10 @@
       <item>TODO: Space Allocation Algorithm for better CJK typesetting
     </itemize-dot>
 
-    <item*|Git Plugin>see <hlink|tigmacs|https://github.com/sadhen/tigmacs>.
-    And it will be integrated into <TeXmacs> later.
+    <item*|Unified Graph Plugins>Implemented a unified Graph plugins
+    framework in Python. The framework simply launchs the command line of the
+    graph generators and imports the generated image files into <TeXmacs>.
+    Currently, it supports <name|Graphviz> and <name|Asymptote>.
 
     <item*|Scala Plugin>see <hlink|TeXmacs.scala|https://github.com/texmacs/TeXmacs.scala>.
     Full-featured Scala REPL Session based on Ammonite REPL.
@@ -62,7 +66,8 @@
   <\itemize>
     <item><hlink|GSoC|https://github.com/texmacs/gsoc> for GNU <TeXmacs>
 
-    <item>The Unified Graph Plugin for Graphviz/Asymptote/Tikz/<text-dots>
+    <item>Upgrade GNU <TeXmacs> to <name|Guile> 2.2.x in the subproject
+    <hlink|TimScheme|https://github.com/texmacs/TimScheme>
   </itemize>
 
   <tmdoc-copyright|2018\U2019|Darcy Shen>
