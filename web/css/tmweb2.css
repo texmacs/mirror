@@ -1,5 +1,7 @@
 
-/*************************************************************/
+/******************************************************************************
+* Main text properties
+******************************************************************************/
 
 html {
     background-color: #E8E8E8;
@@ -23,20 +25,45 @@ body {
     margin: 0px 5em;
 }
 
-h1, h2, h3 {
+h1 {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+h3 {
     font-weight: bold;
 }
 
 a:link, a:visited {
-    color: #D0343F;
+    color: #805020;
     text-decoration: none;
 }
 
 a:active, a:focus, a:hover {
+    color: #D0343F;
     text-decoration: underline;
 }
 
-/*************************************************************/
+@media screen and (max-width: 1199px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .tmdoc-body {
+        margin: 0px 2em;
+    }
+}
+
+/******************************************************************************
+* Headers
+******************************************************************************/
 
 .tmweb-pad-below {
     padding-bottom: 20px;
@@ -51,18 +78,102 @@ a:active, a:focus, a:hover {
     background-position: bottom, top;
     background-repeat: repeat-x, repeat;
     
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+}
+
+.tmweb-title-image {
+    width: 60px;
+    height: 60px;
+    vertical-align: -27px;
+    padding: 10px 10px;
 }
 
 .tmweb-title {
+    height: 60px;
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.6em;
 }
 
-/*************************************************************/
+.tmweb-top-menu {
+    height: 60px;
+    padding-top: 30px;
+    float: right;
+}
+
+.tmweb-top-menu a {
+    background-image: none;
+    border-style: none;
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 1199px) {
+    .tmweb-title-image {
+        width: 40px;
+        height: 40px;
+        vertical-align: -18px;
+        padding: 7px 7px;
+    }
+
+    .tmweb-title {
+        height: 40px;
+    }
+
+    .tmweb-top-menu {
+        height: 40px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .tmweb-header {
+        margin: 0px -2em;
+        padding: initial;
+        padding-top: 5px;
+        padding-bottom: 40px;
+    }
+
+    .tmweb-title-image {
+        width: 40px;
+        height: 40px;
+        vertical-align: -18px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 2em;
+        padding-right: 0em;
+    }
+
+    .tmweb-title {
+        float: middle;
+    }
+    
+    .tmweb-top-menu {
+        height: initial;
+        float: initial;
+        position: relative;
+        overflow: hidden;
+        padding-top: 10px;
+    }
+    
+    .tmweb-top-menu a {
+        border-color: silver;
+        border-style: solid none none none;
+        border-width: thin;
+        color: #555;
+        display: block;
+        padding: 5px 2em;
+        text-align: left;
+    }
+}
+
+/******************************************************************************
+* Footers
+******************************************************************************/
 
 .tmweb-pad-above {
     padding-top: 20px;
@@ -79,4 +190,65 @@ a:active, a:focus, a:hover {
 
     padding-top: 40px;
     text-align: center;
+}
+
+
+@media screen and (max-width: 799px) {
+    .tmweb-footer {
+        margin: 0px -2em;
+    }
+}
+        
+/******************************************************************************
+* Special markup
+******************************************************************************/
+
+.subsup {
+    display: inline;
+    vertical-align: -0.2em
+}
+
+.subsup td {
+    padding: 0px;
+    text-ALIGN: left
+}
+
+.fraction {
+    display: inline;
+    vertical-ALIGN: -0.8em
+}
+
+.fraction td {
+    padding: 0px;
+    text-align: center
+}
+
+.wide {
+    position: relative;
+    margin-left: -0.4em
+}
+
+.accent {
+    position: relative;
+    margin-left: -0.4em;
+    top: -0.1em
+}
+
+.compact-block p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.left-tab {
+    text-align: left;
+}
+
+.center-tab {
+    text-align: center;
+}
+
+.right-tab {
+    text-align: right;
+    position: relative;
+    top: -1em;
 }
