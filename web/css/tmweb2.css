@@ -1,0 +1,82 @@
+
+/*************************************************************/
+
+html {
+    background-color: #E8E8E8;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: white;
+    color: #333;
+    font-size: 24px;
+    font-family: Optima;
+    text-align: justify;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.tmdoc-body {
+    margin: 0px 5em;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    color: #D0343F;
+    text-decoration: none;
+}
+
+a:active, a:focus, a:hover {
+    text-decoration: underline;
+}
+
+/*************************************************************/
+
+.tmweb-pad-below {
+    padding-bottom: 20px;
+}
+
+.tmweb-header {
+    margin: 0px -5em;
+
+    background-color: white;
+    background-image: url("../images/tiny-sigma-232.png"),
+                      url("../images/uniform-232.png");
+    background-position: bottom, top;
+    background-repeat: repeat-x, repeat;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.tmweb-title {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+/*************************************************************/
+
+.tmweb-pad-above {
+    padding-top: 20px;
+}
+
+.tmweb-footer {
+    margin: 0px -5em;
+
+    background-color: white;
+    background-image: url("../images/tiny-sigma-232-rev.png"),
+                      url("../images/uniform-232.png");
+    background-position: top, bottom;
+    background-repeat: repeat-x, repeat;
+
+    padding-top: 40px;
+    text-align: center;
+}
