@@ -6,20 +6,25 @@ function detectOS () {
   else return "Unknown";
 }
 
-function downloadPage () {
+function downloadPage (dir) {
   var OS = detectOS ();
   if (OS == "Linux")
-    return "http://www.texmacs.org/tmweb/download/unix.en.html";
+    return dir + "/download/unix.en.html";
   else if (OS == "MacOS")
-    return "http://www.texmacs.org/tmweb/download/macosx.en.html";
+    return dir + "/download/macosx.en.html";
   else if (OS == "Windows")
-    return "http://www.texmacs.org/tmweb/download/windows.en.html";
+    return dir + "/download/windows.en.html";
   else
-    return "http://www.texmacs.org/tmweb/download/download.en.html";
+    return dir + "/download/download.en.html";
+}
+
+function downloadRelativeLink (text) {
+  return "<a href=\"" + downloadPage ("..") + "\">" + text + "</a>";
 }
 
 function downloadLink (text) {
-  return "<A href=\"" + downloadPage () + "\">" + text + "</A>";
+  var dir = "http://www.texmacs.org/tmweb";
+  return "<a href=\"" + downloadPage (dir) + "\">" + text + "</a>";
 }
 
 function downloadButton (text, color) {
