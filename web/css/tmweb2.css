@@ -358,16 +358,6 @@ a:active, a:focus, a:hover {
 }
 
 @media screen and (min-width: 1600px) {
-    .tmdoc-body {
-        margin: 0px 0px;
-        margin-right: 5em;
-    }
-    
-    .tmweb-header, .tmweb-footer {
-        margin: 0px 0px; 
-        margin-right: -5em;
-   }
-    
     .tmweb-split {
         display: block;
         width: 100%;
@@ -380,6 +370,8 @@ a:active, a:focus, a:hover {
         width: 55%;
         vertical-align: middle;
         margin-top: -5vh;
+        margin-left: -2.5em;
+        margin-right: 2.5em;
     }
 
     .tmweb-split-car img {
