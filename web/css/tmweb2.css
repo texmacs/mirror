@@ -22,21 +22,50 @@ body {
 }
 
 .tmdoc-body {
+    padding: 0px;
     margin: 0px 5em;
 }
 
 h1 {
     font-weight: bold;
     font-size: 1.4em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 h2 {
     font-weight: bold;
     font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 h3 {
     font-weight: bold;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+h4, h5, h6 {
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 0.35em;
+    padding-top: 0.35em;
+}
+
+ul, ol, dl {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0.35em;
+    padding-top: 0.35em;
 }
 
 a:link, a:visited {
@@ -217,6 +246,10 @@ a:active, a:focus, a:hover {
 .tmweb-footer a:active, .tmweb-footer a:focus, .tmweb-footer a:hover {
     color: #D0343F;
     text-decoration: underline;
+}
+
+.tmweb-footer h1, .tmweb-footer h2, .tmweb-footer h3 {
+    margin-top: 0em;
 }
 
 .tmweb-footer .tmweb-license, .tmweb-footer section {
