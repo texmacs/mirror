@@ -49,7 +49,7 @@ a:active, a:focus, a:hover {
     text-decoration: underline;
 }
 
-.tmweb-obsolete {
+.tmweb-obsolete, .tmweb-copyright {
     display: none;
 }
 
