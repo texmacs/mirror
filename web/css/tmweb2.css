@@ -61,11 +61,16 @@ p {
     padding-top: 0.35em;
 }
 
-ul, ol, dl {
+ul, ol, dl, di {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-bottom: 0.35em;
     padding-top: 0.35em;
+    padding-bottom: 0.35em;
+}
+
+ul > p, ol > p, dl > p, di > p {
+    padding-bottom: 0.1em;
+    padding-top: 0.1em;
 }
 
 a:link, a:visited {
