@@ -49,13 +49,21 @@ a:active, a:focus, a:hover {
     text-decoration: underline;
 }
 
+.tmweb-obsolete {
+    display: none;
+}
+
 @media screen and (max-width: 1199px) {
     body {
-        font-size: 16px;
+        font-size: 20px;
     }
 }
 
 @media screen and (max-width: 799px) {
+    body {
+        font-size: 16px;
+    }
+
     .tmdoc-body {
         margin: 0px 2em;
     }
@@ -82,6 +90,15 @@ a:active, a:focus, a:hover {
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 40px;
+}
+
+.tmweb-header a:link, .tmweb-header a:visited {
+    color: #555;
+}
+
+.tmweb-header a:active, .tmweb-header a:focus, .tmweb-header a:hover {
+    color: #D0343F;
+    text-decoration: underline;
 }
 
 .tmweb-title-image {
@@ -114,18 +131,18 @@ a:active, a:focus, a:hover {
 
 @media screen and (max-width: 1199px) {
     .tmweb-title-image {
-        width: 40px;
-        height: 40px;
-        vertical-align: -18px;
-        padding: 7px 7px;
+        width: 50px;
+        height: 50px;
+        vertical-align: -23px;
+        padding: 8px 8px;
     }
 
     .tmweb-title {
-        height: 40px;
+        height: 50px;
     }
 
     .tmweb-top-menu {
-        height: 40px;
+        height: 50px;
         padding-top: 20px;
     }
 }
@@ -149,7 +166,7 @@ a:active, a:focus, a:hover {
     }
 
     .tmweb-title {
-        float: middle;
+        height: 40px;
     }
     
     .tmweb-top-menu {
@@ -188,14 +205,63 @@ a:active, a:focus, a:hover {
     background-position: top, bottom;
     background-repeat: repeat-x, repeat;
 
+    color: #555;
     padding-top: 40px;
     text-align: center;
 }
 
+.tmweb-footer a:link, .tmweb-footer a:visited {
+    color: #777;
+}
+
+.tmweb-footer a:active, .tmweb-footer a:focus, .tmweb-footer a:hover {
+    color: #D0343F;
+    text-decoration: underline;
+}
+
+.tmweb-footer .tmweb-license, .tmweb-footer section {
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: left;
+    vertical-align: top;
+}
+
+.tmweb-footer .tmweb-license {
+    text-align: justify;
+    width: 400px;
+}
+
+.tmweb-footer nav a {
+    display: block;
+    text-align: left;
+}
+
+.tmweb-footer nav .tmweb-obsolete {
+    display: none;
+}
+
+@media screen and (max-width: 1199px) {
+    .tmweb-footer .tmweb-license {
+        width: initial;
+        display: block;
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    .tmweb-footer .tmweb-license, .tmweb-footer section {
+        font-size: 15px;
+    }
+}
 
 @media screen and (max-width: 799px) {
     .tmweb-footer {
         margin: 0px -2em;
+    }
+
+    .tmweb-footer .tmweb-license, .tmweb-footer section {
+        font-size: 12px;
     }
 }
         
