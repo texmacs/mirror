@@ -1,12 +1,32 @@
 
 /******************************************************************************
-* Main text properties
+* Font setup
 ******************************************************************************/
 
-/*
 @import url('https://fonts.googleapis.com/css?family=Barlow');
 @import url('https://fonts.googleapis.com/css?family=PS+Sans');
-*/
+@import url('https://fonts.googleapis.com/css?family=Belleza');
+
+@font-face {
+    font-family: 'Linux Biolinum';
+    src: url("../fonts/LinBiolinum_R.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Linux Biolinum';
+    src: url("../fonts/LinBiolinum_RI.otf") format("opentype");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum';
+    src: url("../fonts/LinBiolinum_RB.otf") format("opentype");
+    font-weight: bold;
+}
+
+/******************************************************************************
+* Main text properties
+******************************************************************************/
 
 html {
     background-color: #E8E8E8;
@@ -19,7 +39,8 @@ body {
     background-color: white;
     color: black;
     font-size: 24px;
-    font-family: Optima;
+    font-family: 'Linux Biolinum', 'Belleza', 'Optima';
+    /* font-family: Optima; */
     /* font-family: Barlow; */
     /* font-family: 'PT Sans', sans-serif; */
     text-align: justify;
