@@ -184,7 +184,7 @@ a:active, a:focus, a:hover {
 
     .tmweb-top-menu {
         height: 50px;
-        padding-top: 20px;
+        padding-top: 25px;
     }
 }
 
@@ -311,31 +311,84 @@ a:active, a:focus, a:hover {
 }
 
 /******************************************************************************
+* Figures with captions
+******************************************************************************/
+
+.tmweb-caption-below {
+    display: block;
+    text-align: center;
+}
+
+.tmweb-caption-below .tmweb-figure {
+    display: block;
+    text-align: center;
+}
+
+.tmweb-caption-below .tmweb-caption {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: -1.8em;
+    margin-bottom: -1.8em;
+
+    background-color: #D03445;
+    border-radius: 0.4em;
+    border-color: transparent;
+    border-style: solid;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 0.4em;
+    text-shadow: 0.1em 0.1em 0px #A02C2C;
+    box-shadow: 0.2em 0.2em #A02C2C;
+}
+
+/******************************************************************************
 * Horizontal versus vertical splits
 ******************************************************************************/
 
+.tmweb-split-car img {
+    min-width: 60vw;
+    max-width: 80vw;
+}
+
+.tmweb-split-car {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
 @media screen and (min-width: 1600px) {
+    .tmdoc-body {
+        margin: 0px 0px;
+        margin-right: 5em;
+    }
+    
+    .tmweb-header, .tmweb-footer {
+        margin: 0px 0px; 
+        margin-right: -5em;
+   }
+    
     .tmweb-split {
         display: block;
         width: 100%;
-        min-height: 55vh;
-        margin-top: 5vw;
+        min-height: 60vh;
+        margin-top: 4vw;
     }
 
     .tmweb-split-car {
         display: inline-block;
-        width: 60%;
+        width: 55%;
         vertical-align: middle;
         margin-top: -5vh;
     }
 
     .tmweb-split-car img {
-        min-width: 45vw;
+        min-width: 40vw;
     }
 
     .tmweb-split-cdr {
         display: inline-block;
-        width: 39%;
+        width: 44%;
         vertical-align: middle;
         margin-top: -5vh;
     }
