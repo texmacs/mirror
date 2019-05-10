@@ -293,6 +293,7 @@ a:active, a:focus, a:hover {
         display: block;
         margin-left: 5em;
         margin-right: 5em;
+        margin-bottom: 1em;
     }
 
     .tmweb-footer .tmweb-license, .tmweb-footer section {
