@@ -309,7 +309,38 @@ a:active, a:focus, a:hover {
         font-size: 12px;
     }
 }
-        
+
+/******************************************************************************
+* Horizontal versus vertical splits
+******************************************************************************/
+
+@media screen and (min-width: 1600px) {
+    .tmweb-split {
+        display: block;
+        width: 100%;
+        min-height: 55vh;
+        margin-top: 5vw;
+    }
+
+    .tmweb-split-car {
+        display: inline-block;
+        width: 60%;
+        vertical-align: middle;
+        margin-top: -5vh;
+    }
+
+    .tmweb-split-car img {
+        min-width: 45vw;
+    }
+
+    .tmweb-split-cdr {
+        display: inline-block;
+        width: 39%;
+        vertical-align: middle;
+        margin-top: -5vh;
+    }
+}
+
 /******************************************************************************
 * Special markup
 ******************************************************************************/
@@ -321,12 +352,12 @@ a:active, a:focus, a:hover {
 
 .subsup td {
     padding: 0px;
-    text-ALIGN: left
+    text-align: left
 }
 
 .fraction {
     display: inline;
-    vertical-ALIGN: -0.8em
+    vertical-align: -0.8em
 }
 
 .fraction td {
