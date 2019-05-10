@@ -3,6 +3,11 @@
 * Main text properties
 ******************************************************************************/
 
+/*
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+@import url('https://fonts.googleapis.com/css?family=PS+Sans');
+*/
+
 html {
     background-color: #E8E8E8;
     border: 0px;
@@ -12,9 +17,11 @@ html {
 
 body {
     background-color: white;
-    color: #333;
+    color: black;
     font-size: 24px;
     font-family: Optima;
+    /* font-family: Barlow; */
+    /* font-family: 'PT Sans', sans-serif; */
     text-align: justify;
     border: 0px;
     padding: 0px;
