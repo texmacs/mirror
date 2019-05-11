@@ -461,3 +461,21 @@ a:active, a:focus, a:hover {
     position: relative;
     top: -1em;
 }
+
+/******************************************************************************
+* Further hacks
+******************************************************************************/
+
+.tmweb-code {
+    background-color: #E0E0FF;
+    border-width: 1px;
+    border-color: #4040C0;
+    border-style: solid;
+    padding: 0.3em 0.6em;
+    margin: 0.5em 0em;
+}
+
+.tmweb-code pre {
+    margin: 0px;
+    padding: 0px;
+}
