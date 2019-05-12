@@ -497,3 +497,16 @@ a:active, a:focus, a:hover {
     margin: 0px;
     padding: 0px;
 }
+
+.tmweb-key {
+    font-size: 84%;
+    background-color: #E0D0C0;
+    box-shadow: 0.1em 0.1em #506080;
+    padding: 0.05em 0.1em;
+    margin: 0em 0.05em;
+    min-width: 0.6em;
+}
+
+.tmweb-menu {
+    font-size: 92%;
+}
