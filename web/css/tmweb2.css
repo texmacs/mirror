@@ -82,6 +82,11 @@ h4, h5, h6 {
     margin-bottom: 0em;
 }
 
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
 p, center {
     margin: 0px;
     padding: 0px;
@@ -443,9 +448,9 @@ a:active, a:focus, a:hover {
     top: -0.1em
 }
 
-.compact-block p {
-    margin-top: 0px;
-    margin-bottom: 0px;
+.compact-block p, .compact-block center {
+    margin: 0px;
+    padding: 0px;
 }
 
 .left-tab {
@@ -458,8 +463,7 @@ a:active, a:focus, a:hover {
 
 .right-tab {
     text-align: right;
-    position: relative;
-    top: -1em;
+    margin-top: -1.2em;
 }
 
 /******************************************************************************
@@ -475,7 +479,7 @@ a:active, a:focus, a:hover {
     margin: 0.5em 0em;
 }
 
-.tmweb-code pre {
+.tmweb-code p, .tmweb-code pre {
     margin: 0px;
     padding: 0px;
 }
