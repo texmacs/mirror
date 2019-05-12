@@ -106,6 +106,20 @@ ul > p, ol > p, dl > p, di > p {
     padding-top: 0.1em;
 }
 
+table {
+    border-collapse: collapse;
+}
+
+tbody p {
+    margin: 0px;
+    padding: 0px;
+}
+
+td {
+    padding: 0.2em;
+    vertical-align: baseline;
+}
+
 a:link, a:visited {
     color: #805020;
     text-decoration: none;
