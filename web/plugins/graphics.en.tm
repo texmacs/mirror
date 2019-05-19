@@ -1,6 +1,6 @@
-<TeXmacs|1.0.7.2>
+<TeXmacs|1.99.9>
 
-<style|tmweb>
+<style|<tuple|tmweb|english|old-spacing>>
 
 <\body>
   <tmweb-current|Plug-ins|Graphics><tmweb-title|Visualization software and
@@ -18,6 +18,20 @@
 
   <tmdoc-include|other/ghostscript/ghostscript-abstract.en.tm>
 
+  <section|Graphviz><label|graphviz>
+
+  <hlink|Graphviz|http://www.graphviz.org/> is open source graph
+  visualization software. Graph visualization is a way of representing
+  structural information as diagrams of abstract graphs and networks. It has
+  important applications in networking, bioinformatics, software engineering,
+  database and web design, machine learning, and in visual interfaces for
+  other technical domains.
+
+  <section|PlantUML><label|plantuml>
+
+  <hlink|PlantUML|http://plantuml.com/> is an open-source tool allowing users
+  to create UML diagrams from a plain text language.
+
   <section|TeXgraph><label|texgraph>
 
   <tmdoc-include|texgraph-abstract.en.tm>
@@ -26,14 +40,13 @@
 
   <tmdoc-include|other/xfig/xfig-abstract.en.tm>
 
-  <tmdoc-copyright|1999--2003|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2019|Joris van der Hoeven|Darcy Shen>
 
   <tmweb-license>
 </body>
 
 <\initial>
   <\collection>
-    <associate|language|english>
     <associate|preamble|false>
   </collection>
 </initial>
