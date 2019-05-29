@@ -29,7 +29,7 @@
 ******************************************************************************/
 
 html {
-    background-color: #E8E8E8;
+    background-color: #E0E0E0;
     border: 0px;
     padding: 0px;
     margin: 0px;
@@ -162,8 +162,8 @@ a:active, a:focus, a:hover {
     margin: 0px -5em;
 
     background-color: white;
-    background-image: url("../images/tiny-sigma-232.png"),
-                      url("../images/uniform-232.png");
+    background-image: url("../images/sigma-224.svg"),
+                      url("../images/uniform-224.png");
     background-position: bottom, top;
     background-repeat: repeat-x, repeat;
     
@@ -281,8 +281,8 @@ a:active, a:focus, a:hover {
     margin: 0px -5em;
 
     background-color: white;
-    background-image: url("../images/tiny-sigma-232-rev.png"),
-                      url("../images/uniform-232.png");
+    background-image: url("../images/sigma-224-rev.svg"),
+                      url("../images/uniform-224.png");
     background-position: top, bottom;
     background-repeat: repeat-x, repeat;
 
