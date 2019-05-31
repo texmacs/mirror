@@ -1,6 +1,6 @@
-<TeXmacs|1.0.7.12>
+<TeXmacs|1.99.9>
 
-<style|tmweb>
+<style|<tuple|tmweb|english|old-spacing>>
 
 <\body>
   <tmweb-current|Home|News><tmweb-title|Last news about
@@ -144,7 +144,7 @@
     <item>An interface with <name|FreeType 2> for the support of several new
     fonts.
 
-    <item><TeXmacs> has become ``DRD aware'', which means that properties can
+    <item><TeXmacs> has become \PDRD aware\Q, which means that properties can
     be associated to primitive and user defined tags.
 
     <item>The <TeXmacs> website has been redesigned and generated using
@@ -181,13 +181,10 @@
     <item>Cleaner interface with <name|Guile> and module system.
   </itemize>
 
-  <tmdoc-copyright|1999--2003|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2019|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
 
-<\initial>
-  <\collection>
-    <associate|language|english>
-  </collection>
-</initial>
+<initial|<\collection>
+</collection>>
