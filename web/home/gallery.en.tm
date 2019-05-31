@@ -17,7 +17,7 @@
 
   \;
 
-  <tmdoc-copyright|1999--2010|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2019|Joris van der Hoeven>
 
   <tmweb-license>
 </body>

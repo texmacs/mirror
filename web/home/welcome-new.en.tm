@@ -7,9 +7,10 @@
   <TeXmacs>|<tmweb-home-links>>
 
   <\tmweb-split>
-    <center|<tmweb-carousel|<tmweb-caption-below|<image|../images/texmacs-ffnlogn.png|600px|||>|GNU
+    <center|<tmweb-carousel|<tmweb-caption-below|<image|../images/collage-3.png|600px|||>|GNU
     <TeXmacs>: the ultimate scientific text
-    editor>|<tmweb-caption-below|<image|../images/texmacs-chinese.png|600px|||>|Multiple
+    editor>|<tmweb-caption-below|<image|../images/texmacs-ffnlogn.png|600px|||>|High
+    quality mathematical typesetting>|<tmweb-caption-below|<image|../images/texmacs-chinese.png|600px|||>|Multiple
     language support>|<tmweb-caption-below|<image|../images/texmacs-cas.png|600px|||>|Interfaces
     for computational software>|<tmweb-caption-below|<image|../images/texmacs-beamer.png|600px|||>|Integrated
     picture editor>|<tmweb-caption-below|<image|../images/texmacs-beamer-blackboard.jpg|600px|||>|Integrated

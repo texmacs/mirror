@@ -1,6 +1,6 @@
-<TeXmacs|1.0.7.12>
+<TeXmacs|1.99.9>
 
-<style|tmweb>
+<style|<tuple|tmweb|english|old-spacing>>
 
 <\body>
   <tmweb-current|About|Plans><tmweb-title|Projects for
@@ -8,13 +8,10 @@
 
   <tmdoc-include|about/projects/future.en.tm>
 
-  <tmdoc-copyright|1999--2003|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2019|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
 
-<\initial>
-  <\collection>
-    <associate|language|english>
-  </collection>
-</initial>
+<initial|<\collection>
+</collection>>
