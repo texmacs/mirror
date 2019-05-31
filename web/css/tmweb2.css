@@ -428,6 +428,59 @@ a:active, a:focus, a:hover {
 }
 
 /******************************************************************************
+* Galleries
+******************************************************************************/
+
+.tmweb-list {
+    display: inline;
+}
+
+.tmweb-list div {
+    display: inline;
+}
+
+.tmweb-list .tmweb-caption-below {
+    display: inline-block;
+    width: 48%;
+}
+
+.tmweb-list .tmweb-caption-below .tmweb-figure {
+    display: inline-block;
+}
+
+.tmweb-list .tmweb-caption-below .tmweb-caption {
+    display: inline-block;
+}
+    
+.tmweb-gallery img {
+    display: inline;
+    width: 95%;
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+    .tmweb-list .tmweb-caption-below {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .tmweb-list .tmweb-caption-below {
+        width: 30%;
+    }
+}
+
+/******************************************************************************
+* Miscellaneous elements
+******************************************************************************/
+
+.tmweb-item-pic {
+    position: relative;
+    margin-top: -1em;
+    top: 1em
+}
+
+/******************************************************************************
 * Special markup
 ******************************************************************************/
 
