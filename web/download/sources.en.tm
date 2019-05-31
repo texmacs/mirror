@@ -1,13 +1,13 @@
-<TeXmacs|1.99.6>
+<TeXmacs|1.99.9>
 
-<style|<tuple|tmweb|english>>
+<style|<tuple|tmweb|english|old-spacing>>
 
 <\body>
   <tmweb-current|Download|Sources><tmweb-title|Compiling <TeXmacs> from the
   source code|<tmweb-download-links>>
 
   On this page, we explain how to compile <TeXmacs> from the source code on
-  <name|Unix>-like system, including <name|MacOS> and <name|Windows> with
+  <name|Unix>-like systems, including <name|MacOS> and <name|Windows> with
   <name|Mingw> or <name|Cygwin>. In the case of <name|Windows>, you may first
   want to install the appropriate build environment and follow our
   <hlink|instructions for compilation under <name|Windows>|winqt.en.tm>.
@@ -184,7 +184,7 @@
   <hlink|contact|../contact/contact.en.tm> us, but you might need to be more
   patient.
 
-  <tmdoc-copyright|1999--2017|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2019|Joris van der Hoeven>
 
   <tmweb-license>
 </body>

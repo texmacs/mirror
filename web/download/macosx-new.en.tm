@@ -3,15 +3,15 @@
 <style|<tuple|tmweb|english|old-spacing>>
 
 <\body>
-  <tmweb-current|Download|MacOS><tmweb-title|Installing <TeXmacs> on
+  <tmweb-current|Download|MacOS><tmweb-title|Installing <TeXmacs> for
   MacOS|<tmweb-download-links>>
 
   <\tmweb-split>
     <center|<image|../images/Download-TeXmacs.png|600px|||>>
   <|tmweb-split>
     <\description-pics>
-      <item*|<strong|Download>><strong|Downloading the diskimage for
-      <TeXmacs>>
+      <item*|<item-pic|../images/small-download.png>><strong|Downloading the
+      diskimage for <TeXmacs>>
 
       <\itemize>
         <item><hlink|<verbatim|<merge|<TeXmacs-version-release|devel>|-yosemite.dmg>>|<merge|http://www.texmacs.org/Download/ftp/tmftp/macos/|<TeXmacs-version-release|devel>|-yosemite.dmg>>
@@ -31,16 +31,21 @@
         <item>Launch <TeXmacs> from your applications folder.
       </itemize>
 
-      <item*|<strong|Learn>>For learning <TeXmacs>, we recommend you to
+      <item*|<item-pic|../images/Book_icon_1.png>><strong|Learning <TeXmacs>>
 
       <\itemize>
-        <item>Watch our introductory <hlink|videos|../home/videos.en.tm>.
+        <item>Get started by watching our introductory
+        <hlink|videos|../home/videos.en.tm>.
 
-        <item>Consult one of the <TeXmacs>
+        <item>Or by reading one of the <TeXmacs>
         <hlink|tutorials|../help/tutorial.en.tm>.
+
+        <item>For more information, please consult the <hlink|user
+        manual|../help/manual.en.tm>.
       </itemize>
 
-      <item*|<strong|Questions>>Any questions?
+      <item*|<strong|<item-pic|../images/FAQ_icon.svg.png>>><strong|Any
+      questions?>
 
       <\itemize>
         <item><hlink|Frequently asked questions|../help/faq.en.tm>.
@@ -49,8 +54,13 @@
         list|../home/ml.en.tm#tmusers>.
       </itemize>
 
-      <item*|<strong|Donate>>If you like <TeXmacs>, then please consider
-      <hlink|donating|../contribute/donations.en.tm> money or services to us.
+      <item*|<item-pic|../images/Crystal_Project_money.png>><strong|Donate>
+
+      <\itemize>
+        <item>If you like <TeXmacs>, then please consider
+        <hlink|donating|../contribute/donations.en.tm> money or services to
+        us.
+      </itemize>
     </description-pics>
   </tmweb-split>
 

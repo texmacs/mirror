@@ -1,0 +1,135 @@
+<TeXmacs|1.99.9>
+
+<style|<tuple|tmweb|english|old-spacing>>
+
+<\body>
+  <tmweb-current|Download|Linux><tmweb-title|Installing <TeXmacs> for
+  GNU/<name|Linux>|<tmweb-download-links>>
+
+  <\tmweb-split>
+    <center|<image|../images/Download-TeXmacs.png|600px|||>>
+  <|tmweb-split>
+    <\description-pics>
+      <item*|<item-pic|../images/install-method.png>><strong|Selection of the
+      installation method>
+
+      Depending on your GNU/<name|Linux> distribution, you may choose between
+      the following installation methods:
+
+      <\itemize>
+        <item>Please <hlink|check|linux.en.tm> whether your distribution
+        already supports <TeXmacs>, in which case you may directly install
+        <TeXmacs> using the standard tools of your system.
+
+        <item>Please <hlink|check|linux-packages.en.tm> whether your
+        distribution is in the list of standard GNU/<name|Linux>
+        distributions for which we provide ready-to-install packages.
+
+        <item>Otherwise, you may install a generic binary package for
+        <TeXmacs>, as explained below.
+      </itemize>
+
+      <item*|<item-pic|../images/small-download.png>><strong|Downloading
+      <TeXmacs>>
+
+      Depending on the version of your GNU/<name|Linux> system, download one
+      of the following static binary distributions of GNU <TeXmacs>:
+
+      <\itemize>
+        <item><hlink|<TeXmacs> package for 32 bit GNU/<name|Linux>
+        distributions|<merge|http://www.texmacs.org/Download/ftp/tmftp/generic/|<TeXmacs-version-release|devel>|-B.tar.gz>>.
+
+        <item><hlink|<TeXmacs> package for 64 bit GNU/<name|Linux>
+        distributions|<merge|http://www.texmacs.org/Download/ftp/tmftp/generic/|<TeXmacs-version-release|devel>|-C.tar.gz>>.
+
+        <item>If the above packages do not work on your computer, then you
+        may try our <hlink|alternate <TeXmacs>
+        package|<merge|http://www.texmacs.org/Download/ftp/tmftp/generic/|<TeXmacs-version-release|devel>|-A.tar.gz>>,
+        which should be suitable for older systems.
+      </itemize>
+
+      Notice that we only provide static binary packages for Intel or AMD
+      based PC's.
+
+      <item*|<item-pic|../images/TeXmacs.png>><strong|Unpacking <TeXmacs>>
+
+      In a shell session, <verbatim|cd> into the directory where you wish to
+      install <TeXmacs> and type
+
+      <\shell-code>
+        gunzip -c TeXmacs-<with|color|brown|[version]>-<with|color|brown|[your
+        system]>.tar.gz \| tar xvf -
+      </shell-code>
+
+      All files will be unpacked into the directory
+      <with|font-family|tt|TeXmacs-<with|color|brown|[version]>-<with|color|brown|[your
+      system]>> (or <with|font-family|tt|TeXmacs-<with|color|brown|[version]>>,
+      for some older versions). Let <with|font-family|tt|<with|color|brown|[installation
+      directory]>> be the full path of this directory.
+
+      Depending on your shell, either type
+
+      <\shell-code>
+        export TEXMACS_PATH=<with|color|brown|[installation directory]>
+
+        export PATH=$TEXMACS_PATH/bin:$PATH
+      </shell-code>
+
+      or
+
+      <\shell-code>
+        setenv TEXMACS_PATH <with|color|brown|[installation directory]>
+
+        setenv PATH $TEXMACS_PATH/bin:$PATH
+      </shell-code>
+
+      where <with|font-family|tt|<with|color|brown|[installation directory]>>
+      is as above. We recommend to put these lines in your personal startup
+      script, such as <with|font-family|tt|.bash_profile>.
+
+      You may now run the program using
+
+      <\shell-code>
+        texmacs &
+      </shell-code>
+
+      <item*|<item-pic|../images/Book_icon_1.png>><strong|Learning <TeXmacs>>
+
+      <\itemize>
+        <item>Get started by watching our introductory
+        <hlink|videos|../home/videos.en.tm>.
+
+        <item>Or by reading one of the <TeXmacs>
+        <hlink|tutorials|../help/tutorial.en.tm>.
+
+        <item>For more information, please consult the <hlink|user
+        manual|../help/manual.en.tm>.
+      </itemize>
+
+      <item*|<strong|<item-pic|../images/FAQ_icon.svg.png>>><strong|Any
+      questions?>
+
+      <\itemize>
+        <item><hlink|Frequently asked questions|../help/faq.en.tm>.
+
+        <item>Ask questions on the <hlink|<verbatim|texmacs-users> mailing
+        list|../home/ml.en.tm#tmusers>.
+      </itemize>
+
+      <item*|<item-pic|../images/Crystal_Project_money.png>><strong|Donate>
+
+      <\itemize>
+        <item>If you like <TeXmacs>, then please consider
+        <hlink|donating|../contribute/donations.en.tm> money or services to
+        us.
+      </itemize>
+    </description-pics>
+  </tmweb-split>
+
+  <tmdoc-copyright|1999--2019|Joris van der Hoeven>
+
+  <tmweb-license>
+</body>
+
+<initial|<\collection>
+</collection>>

@@ -11,7 +11,7 @@
   a mathematical article.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-cas.png>|Computer
   algebra sessions.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-chinese.png>|Chinese
   text from the documentation.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-beamer.png>|Preparing
-  a laptop presentation.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-beamer-blackboard.png>|Laptop
+  a laptop presentation.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-beamer-blackboard.jpg>|Laptop
   presentation mode.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-beamer-panorama.png>|Panorama
   mode for laptop presentations.>>
 
