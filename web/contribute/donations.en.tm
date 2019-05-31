@@ -1,6 +1,6 @@
-<TeXmacs|1.0.6>
+<TeXmacs|1.99.9>
 
-<style|tmweb>
+<style|<tuple|tmweb|english|old-spacing>>
 
 <\body>
   <tmweb-current|Contribute|Donations><tmweb-title|Making donations to GNU
@@ -14,13 +14,10 @@
   the SPI website for <hlink|how to donate|http://www.spi-inc.org/donations>.
   We also maintain a <hlink|list of donators|../about/donators.en.tm>.
 
-  <tmdoc-copyright|1999--2003|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2019|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
 
-<\initial>
-  <\collection>
-    <associate|language|english>
-  </collection>
-</initial>
+<initial|<\collection>
+</collection>>
