@@ -6,7 +6,7 @@
   <tmweb-current|Home|Screen shots><tmweb-title|<TeXmacs>
   gallery|<tmweb-home-links>>
 
-  <tmweb-list|<tmweb-caption-below|<tmweb-gallery-picture|../images/collage-3.png>|Welcome
+  <tmweb-hlist|<tmweb-caption-below|<tmweb-gallery-picture|../images/collage-3.png>|Welcome
   to <TeXmacs>!>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-ffnlogn.png>|Writing
   a mathematical article.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-cas.png>|Computer
   algebra sessions.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-chinese.png>|Chinese
