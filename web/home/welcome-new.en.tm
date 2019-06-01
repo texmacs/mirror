@@ -18,7 +18,11 @@
     much more<text-dots>>>>
   <|tmweb-split>
     <tmdoc-include|about/philosophy/description.en.tm>
+
+    <center|<html-javascript-src|/counter/gcount.php?page=texmacs>>
   </tmweb-split>
+
+  <tmdoc-copyright|1999--2019|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
