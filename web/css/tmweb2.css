@@ -432,7 +432,7 @@ a:active, a:focus, a:hover {
 ******************************************************************************/
 
 .tmweb-hlist {
-    display: inline;
+    text-align: left;
 }
 
 .tmweb-hlist div {
@@ -468,6 +468,23 @@ a:active, a:focus, a:hover {
     .tmweb-hlist .tmweb-caption-below {
         width: 30%;
     }
+}
+
+/******************************************************************************
+* Video galleries
+******************************************************************************/
+
+.tmweb-hlist .tmweb-thumbnail {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    max-width: 320px;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+}
+
+.tmweb-hlist .tmweb-thumbnail .tmweb-thumbnail-legend {
+    font-size: 0.8em;    
 }
 
 /******************************************************************************
