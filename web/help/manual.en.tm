@@ -1,6 +1,6 @@
-<TeXmacs|1.0.5>
+<TeXmacs|1.99.9>
 
-<style|tmweb>
+<style|<tuple|tmweb|english|old-spacing>>
 
 <\body>
   <tmweb-current|Help|Manual><tmweb-title|The <TeXmacs>
@@ -27,16 +27,13 @@
   Notice that the translations of the manual are not necessarily complete and
   up to date.
 
-  You may also <hyper-link|browse|../manual/web-manual.en.tm> the manual on
-  the web.
+  You may also <hlink|browse|../manual/web-manual.en.tm> the manual on the
+  web.
 
   <tmdoc-copyright|1999--2003|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
 
-<\initial>
-  <\collection>
-    <associate|language|english>
-  </collection>
-</initial>
+<initial|<\collection>
+</collection>>
