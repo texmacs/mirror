@@ -33,13 +33,13 @@
 
       <\itemize>
         <item>Get started by watching our introductory
-        <hlink|videos|../home/videos.en.tm>.
+        <hlink|videos|../home/videos-new.en.tm>.
 
         <item>Or by reading one of the <TeXmacs>
         <hlink|tutorials|../help/tutorial.en.tm>.
 
         <item>For more information, please consult the <hlink|user
-        manual|../help/manual.en.tm>.
+        manual|../help/book.en.tm>.
       </itemize>
     </cell>>|<row|<cell|<item-pic|../images/FAQ_icon.svg.png>>|<\cell>
       <strong|Any questions?>
