@@ -10,7 +10,7 @@
     <center|<image|../images/Download-TeXmacs.png|600px|||>>
   <|tmweb-split>
     <tabular|<tformat|<cwith|1|3|1|1|cell-hyphen|n>|<cwith|1|-1|2|2|cell-hyphen|t>|<twith|table-width|1par>|<twith|table-hmode|exact>|<cwith|1|-1|1|1|cell-width|>|<cwith|1|-1|1|1|cell-hmode|auto>|<cwith|1|-1|2|2|cell-lsep|1spc>|<cwith|1|-1|2|2|cell-bsep|1em>|<cwith|1|-1|2|2|cell-tsep|1em>|<table|<row|<cell|<item-pic|../images/small-download.png>>|<\cell>
-      <strong|Downloading the diskimage for <TeXmacs>>
+      <strong|Download the diskimage for <TeXmacs>>
 
       <\itemize>
         <item><hlink|<verbatim|<merge|<TeXmacs-version-release|devel>|-yosemite.dmg>>|<merge|http://www.texmacs.org/Download/ftp/tmftp/macos/|<TeXmacs-version-release|devel>|-yosemite.dmg>>
