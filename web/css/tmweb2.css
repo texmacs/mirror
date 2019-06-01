@@ -431,24 +431,24 @@ a:active, a:focus, a:hover {
 * Galleries
 ******************************************************************************/
 
-.tmweb-list {
+.tmweb-hlist {
     display: inline;
 }
 
-.tmweb-list div {
+.tmweb-hlist div {
     display: inline;
 }
 
-.tmweb-list .tmweb-caption-below {
+.tmweb-hlist .tmweb-caption-below {
     display: inline-block;
     width: 48%;
 }
 
-.tmweb-list .tmweb-caption-below .tmweb-figure {
+.tmweb-hlist .tmweb-caption-below .tmweb-figure {
     display: inline-block;
 }
 
-.tmweb-list .tmweb-caption-below .tmweb-caption {
+.tmweb-hlist .tmweb-caption-below .tmweb-caption {
     display: inline-block;
 }
     
@@ -459,13 +459,13 @@ a:active, a:focus, a:hover {
 }
 
 @media screen and (max-width: 1200px) {
-    .tmweb-list .tmweb-caption-below {
+    .tmweb-hlist .tmweb-caption-below {
         width: 95%;
     }
 }
 
 @media screen and (min-width: 1800px) {
-    .tmweb-list .tmweb-caption-below {
+    .tmweb-hlist .tmweb-caption-below {
         width: 30%;
     }
 }
