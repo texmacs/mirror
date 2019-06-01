@@ -1,6 +1,6 @@
-<TeXmacs|1.0.7.14>
+<TeXmacs|1.99.9>
 
-<style|tmweb>
+<style|<tuple|tmweb|english|old-spacing>>
 
 <\body>
   <tmweb-current|Help|Tutorials><tmweb-title|<TeXmacs>
@@ -28,10 +28,6 @@
 
     <item><hlink|Customizing <TeXmacs>|../documents/tutorials/TeXmacs-customization.pdf>,
     by Nicolas Ratier.
-
-    <item>A somewhat older <hlink|hands-on
-    tutorial|http://www.fmi.uni-passau.de/~seidl/texmacs/tmtour.html#3> to
-    browse on the web.
   </itemize>
 
   <tmdoc-copyright|1999--2011|Joris van der Hoeven>
@@ -39,8 +35,5 @@
   <tmweb-license>
 </body>
 
-<\initial>
-  <\collection>
-    <associate|language|english>
-  </collection>
-</initial>
+<initial|<\collection>
+</collection>>
