@@ -12,12 +12,12 @@
 
       In this video, we briefly discuss the conventions that are used in the
       videos on this channel concerning keyboard shortcuts.
-    </youtube-video-legend|400|250>>|<shown|<\youtube-video-legend|6xn5YdWEEys>
+    </youtube-video-legend|400|250>>|<hidden|<\youtube-video-legend|6xn5YdWEEys>
       <strong|Typing your first article with <TeXmacs>>
 
       In this demo, we show how to type your first scientific article using
       GNU <TeXmacs>.
-    </youtube-video-legend|400|250>>|<hidden|<\youtube-video-legend|iqjgN_KNHgM>
+    </youtube-video-legend|400|250>>|<shown|<\youtube-video-legend|iqjgN_KNHgM>
       <strong|Typing basic mathematical formulas>
 
       How to type basic mathematical formulas with the GNU <TeXmacs>
