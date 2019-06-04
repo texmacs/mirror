@@ -1,6 +1,6 @@
-<TeXmacs|1.0.7.6>
+<TeXmacs|1.99.9>
 
-<style|tmweb>
+<style|<tuple|tmweb|english|old-spacing>>
 
 <\body>
   <tmweb-current|Home|Mailing lists><tmweb-title|Mailing lists for
@@ -80,8 +80,5 @@
   <tmweb-license>
 </body>
 
-<\initial>
-  <\collection>
-    <associate|language|english>
-  </collection>
-</initial>
+<initial|<\collection>
+</collection>>
