@@ -34,3 +34,12 @@ function downloadButton (text, color) {
 function downloadButtonImage () {
   return downloadLink ("<img border=0 src=\"http://www.texmacs.org/Images/download_texmacs.png\"></img>");
 }
+
+function selectVideo (id) {
+  var vs = document.getElementsByClassName("toggle");
+  var ts = document.getElementsByClassName("tmweb-thumbnail-image");
+  for (k = 0; k < ts.length && k < vs.length; k++) {
+    if (ts[k].id == id) vs[k].style.display = "block";
+    else vs[k].style.display = "none";
+  }
+}
