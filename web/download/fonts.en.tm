@@ -1,6 +1,6 @@
 <TeXmacs|1.0.6>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Download|Fonts><tmweb-title|Extra fonts for GNU

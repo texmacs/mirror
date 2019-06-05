@@ -1,6 +1,6 @@
 <TeXmacs|1.0.4>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|About|Artwork><tmweb-title|Artwork|<tmweb-about-links>>

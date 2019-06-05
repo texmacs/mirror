@@ -1,6 +1,6 @@
 <TeXmacs|1.0.6.9>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Download|Binaries><tmweb-title|Debian packages of GNU

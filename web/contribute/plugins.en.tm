@@ -1,6 +1,6 @@
 <TeXmacs|1.0.2.3>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <apply|tmweb-current|Contribute|Extensions><expand|tmweb-title|Writing

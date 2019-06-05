@@ -1,6 +1,6 @@
 <TeXmacs|1.99.2>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-title|Shortcut to cycle open buffers|<tmweb-list|<tmweb-link|Team|../contribute/team>|<tmweb-link|Miguel's

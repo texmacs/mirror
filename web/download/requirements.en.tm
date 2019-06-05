@@ -1,6 +1,6 @@
 <TeXmacs|1.0.5.9>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Download|Requirements><tmweb-title|System requirements for

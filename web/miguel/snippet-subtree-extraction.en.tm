@@ -1,6 +1,6 @@
 <TeXmacs|1.99.2>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-title|Extracting environments to another

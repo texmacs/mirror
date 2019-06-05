@@ -1,6 +1,6 @@
 <TeXmacs|1.99.9>
 
-<style|<tuple|tmweb|english|old-spacing>>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Contribute|Donations><tmweb-title|Making donations to GNU

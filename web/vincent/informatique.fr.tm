@@ -1,6 +1,6 @@
 <TeXmacs|1.0.7.15>
 
-<style|<tuple|tmweb|maxima|doc|giac>>
+<style|<tuple|tmweb2|maxima|giac>>
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Enseigner

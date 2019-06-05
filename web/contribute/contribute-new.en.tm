@@ -1,6 +1,6 @@
 <TeXmacs|1.99.9>
 
-<style|<tuple|tmweb|english|old-spacing>>
+<style|<tuple|tmweb2|english|old-spacing>>
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Contributing to
@@ -63,5 +63,8 @@
   <tmweb-license>
 </body>
 
-<initial|<\collection>
-</collection>>
+<\initial>
+  <\collection>
+    <associate|info-flag|minimal>
+  </collection>
+</initial>

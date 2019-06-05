@@ -1,6 +1,6 @@
 <TeXmacs|1.0.7.8>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Home|Screen shots><tmweb-title|Some screenshots of

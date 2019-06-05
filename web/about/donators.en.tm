@@ -1,6 +1,6 @@
 <TeXmacs|1.0.7.12>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|About|Donators><tmweb-title|Donators for the GNU <TeXmacs>

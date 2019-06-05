@@ -1,6 +1,6 @@
 <TeXmacs|1.0.6.4>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Plug-ins|Physics><tmweb-title|Software for physics and

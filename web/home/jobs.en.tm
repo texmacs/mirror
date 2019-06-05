@@ -1,6 +1,6 @@
 <TeXmacs|1.0.7.19>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Home|Jobs><tmweb-title|<TeXmacs> job

@@ -1,6 +1,6 @@
 <TeXmacs|1.99.9>
 
-<style|<tuple|tmweb|english|old-spacing>>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|About|License><tmweb-title|The GNU General Public

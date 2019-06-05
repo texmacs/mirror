@@ -1,6 +1,6 @@
 <TeXmacs|1.99.1>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-title|<name|MetaWeblog> for <TeXmacs>:

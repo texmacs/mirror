@@ -1,6 +1,6 @@
 <TeXmacs|1.0.7.15>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Contribute|Team><tmweb-title|Vincent

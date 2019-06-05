@@ -1,6 +1,6 @@
 <TeXmacs|1.99.7>
 
-<style|<tuple|tmweb|english|old-spacing>>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Download|Sources><tmweb-title|BSD packages for

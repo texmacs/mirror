@@ -1,6 +1,6 @@
 <TeXmacs|1.99.2>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Contribute|Team><tmweb-title|Miguel de Benito

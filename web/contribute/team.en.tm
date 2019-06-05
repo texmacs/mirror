@@ -1,6 +1,6 @@
 <TeXmacs|1.99.6>
 
-<style|<tuple|tmweb|old-spacing>>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Contribute|Team><tmweb-title|The <TeXmacs>

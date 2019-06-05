@@ -1,6 +1,6 @@
 <TeXmacs|1.0.7.5>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Download|MacOS><tmweb-title|Installing <TeXmacs> on

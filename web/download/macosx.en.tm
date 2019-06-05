@@ -1,6 +1,6 @@
 <TeXmacs|1.99.6>
 
-<style|<tuple|tmweb|english>>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Download|MacOS><tmweb-title|Installing <TeXmacs> on

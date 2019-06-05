@@ -1,6 +1,6 @@
 <TeXmacs|1.0.7.14>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Contribute|Contributing><tmweb-title|Task: manage the

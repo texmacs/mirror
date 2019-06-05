@@ -1,6 +1,6 @@
 <TeXmacs|1.0.2.1>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <expand|tmweb-title|Informal documentation on

@@ -1,6 +1,6 @@
 <TeXmacs|1.0.5.10>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Download|CVS><tmweb-title|The CVS archive for

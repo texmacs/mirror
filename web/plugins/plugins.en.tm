@@ -1,6 +1,6 @@
 <TeXmacs|1.0.7.15>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Plug-ins|All><tmweb-title|Plug-ins for GNU

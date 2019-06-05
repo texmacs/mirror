@@ -1,6 +1,6 @@
 <TeXmacs|1.0.7.20>
 
-<style|<tuple|tmweb|english>>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Download|Windows><tmweb-title|Compiling Qt-<TeXmacs> under

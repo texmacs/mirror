@@ -1,6 +1,6 @@
 <TeXmacs|1.0.7.12>
 
-<style|tmweb>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Help|FAQ><tmweb-title|Frequently asked

@@ -1,6 +1,6 @@
 <TeXmacs|1.99.8>
 
-<style|<tuple|tmweb|english|old-spacing>>
+<style|tmweb2>
 
 <\body>
   <tmweb-current|Plug-ins|Mathematics><tmweb-title|Computer algebra systems
