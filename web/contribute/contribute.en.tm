@@ -15,7 +15,9 @@
       <strong|Use and promote>
 
       One of the simplest way to help us is simply by using <TeXmacs> and by
-      convincing your collegues to use our software as well.
+      convincing your collegues to use our software as well. Please mention
+      the fact that you wrote your articles using <TeXmacs> when publishing
+      them.
     </cell>>|<row|<cell|<item-pic|../images/Book_icon_1.png>>|<\cell>
       <strong|Documentation>
 
