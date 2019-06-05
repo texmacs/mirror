@@ -25,7 +25,7 @@
     indication on where we want to go. Of course your own ideas are welcome!
     <TeXmacs> is developed using <hlink|SVN|../download/svn.en.tm>, but we
     welcome contributions in the form of <hlink|patches|../contact/patches.en.tm>.
-    There exists a fairly up-to-date <hlink|<name|Git>
+    We also maintain a fairly up-to-date <hlink|<name|Git>
     mirror|https://github.com/texmacs/texmacs>.
 
     People who are interested to contribute to <TeXmacs> on a regular basis
