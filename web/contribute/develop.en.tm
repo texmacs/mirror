@@ -30,8 +30,8 @@
 
     People who are interested to contribute to <TeXmacs> on a regular basis
     are invited to join the <hlink|<TeXmacs> team|team.en.tm>. You are also
-    invited to suscribe to our <hlink|mailing list for <TeXmacs>
-    developers|../home/ml.en.tm#tmdev>.
+    invited to suscribe to the <hlink|<verbatim|texmacs-dev>|../home/ml.en.tm#tmdev>
+    mailing list for <TeXmacs> developers.
   </tmweb-split>
 
   <tmdoc-copyright|1999--2019|Joris van der Hoeven>
