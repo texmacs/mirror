@@ -1,6 +1,6 @@
-<TeXmacs|1.0.7.20>
+<TeXmacs|1.99.9>
 
-<style|<tuple|tmweb|english>>
+<style|<tuple|tmweb|english|old-spacing>>
 
 <\body>
   <tmweb-current|Contact|Feedback><tmweb-title|Contacting
@@ -33,11 +33,8 @@
   Please report any <hlink|new bugs|bugs.en.tm> and
   <hlink|suggestions|wishes.en.tm> to us. Notice that we feel free to include
   your comments (as well as your name) in these web pages or in future web
-  pages of a similar kind. If you have problems with this, you should let us
-  know that by email. On request, we will in particular remove your name and
-  other personal data from our files, except when these data were not
-  obtained from you, but in another legal way (for instance, from your
-  personal webpage).
+  pages of a similar kind. Please let us know by email if this is a problem
+  for you.
 
   It is also possible to <hlink|subscribe|../help/tmusers.en.tm> to the
   <tmweb-email|texmacs-users|texmacs.org> mailing list in order to get or
@@ -46,7 +43,7 @@
   <tmweb-email|texmacs-info|texmacs.org> mailing list for getting information
   about main novelties about <TeXmacs>.
 
-  <tmdoc-copyright|1999--2003|Joris van der Hoeven>
+  <tmdoc-copyright|1999--2019|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
