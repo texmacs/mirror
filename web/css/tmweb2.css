@@ -518,10 +518,9 @@ a:active, a:focus, a:hover {
 * Miscellaneous elements
 ******************************************************************************/
 
-.tmweb-item-pic {
-    position: relative;
-    margin-top: -1em;
-    top: 1em
+.tmweb-item-pic img {
+    width: 2.5em;
+    vertical-align: top;
 }
 
 /******************************************************************************
@@ -530,33 +529,33 @@ a:active, a:focus, a:hover {
 
 .subsup {
     display: inline;
-    vertical-align: -0.2em
+    vertical-align: -0.2em;
 }
 
 .subsup td {
     padding: 0px;
-    text-align: left
+    text-align: left;
 }
 
 .fraction {
     display: inline;
-    vertical-align: -0.8em
+    vertical-align: -0.8em;
 }
 
 .fraction td {
     padding: 0px;
-    text-align: center
+    text-align: center;
 }
 
 .wide {
     position: relative;
-    margin-left: -0.4em
+    margin-left: -0.4em;
 }
 
 .accent {
     position: relative;
     margin-left: -0.4em;
-    top: -0.1em
+    top: -0.1em;
 }
 
 .compact-block p, .compact-block center {
