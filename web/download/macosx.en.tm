@@ -33,7 +33,7 @@
 
       <\itemize>
         <item>Get started by watching our introductory
-        <hlink|videos|../home/videos-new.en.tm>.
+        <hlink|videos|../home/videos.en.tm>.
 
         <item>Or by reading one of the <TeXmacs>
         <hlink|tutorials|../help/tutorial.en.tm>.

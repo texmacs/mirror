@@ -26,7 +26,7 @@
       manual|../help/book.en.tm>, <hlink|translations|translations.en.tm>,
       <hlink|contributed tutorials|../help/tutorial.en.tm>, maintenance of
       our list of <hlink|frequently asked questions|../help/faq.en.tm>, or
-      the contributi <hlink|videos|../home/videos-new.en.tm> about <TeXmacs>.
+      the contributi <hlink|videos|../home/videos.en.tm> about <TeXmacs>.
       When contributing to the integrated documentation, please follow our
       <hlink|guidelines|documentation.en.tm>.
     </cell>>|<row|<cell|<item-pic|../images/Translate_button_icon.png>>|<\cell>

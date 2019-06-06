@@ -13,7 +13,7 @@
       <strong|Videos>
 
       We recommend new users to watch one or more of our <hlink|introductory
-      videos|../home/videos-new.en.tm>.
+      videos|../home/videos.en.tm>.
     </cell>>|<row|<cell|<item-pic|../images/TeXmacs.png>>|<\cell>
       <strong|Integrated documentation>
 
