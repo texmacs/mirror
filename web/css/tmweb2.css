@@ -379,7 +379,7 @@ a:active, a:focus, a:hover {
     color: white;
     font-size: 1.25em;
     font-weight: bold;
-    padding: 0.2em;
+    padding: 0.2em 0.5em;
     text-shadow: 0.1em 0.1em 0px #604C4C; /* #A02C2C; */
     box-shadow: 0.1em 0.1em #604C4C; /* #A02C2C; */
 }
