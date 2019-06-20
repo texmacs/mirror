@@ -25,8 +25,9 @@
       <item*|<hlink|Windows|windows.en.tm>>The native <name|Windows> port of
       <TeXmacs>.
 
-      <item*|<hlink|Knoppix|knoppix.en.tm>>Ready to use CDs or DVDs which
-      include <TeXmacs>.
+      <item*|<hlink|Vintage|ftp://ftp.texmacs.org/pub/TeXmacs/tmftp/>>Browse
+      <hlink|our repository|ftp://ftp.texmacs.org/pub/TeXmacs/tmftp/> for
+      older versions of <TeXmacs>.
     </description>
 
     On more exotic systems, you need to <hlink|compile <TeXmacs> yourself
