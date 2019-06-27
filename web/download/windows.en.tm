@@ -14,6 +14,7 @@
 
       <\itemize>
         <item>Download the installer <hlink|<verbatim|<merge|<TeXmacs-version-release|devel>|-installer.exe>>|<merge|http://www.texmacs.org/Download/ftp/tmftp/windows/|<TeXmacs-version-release|devel>|-installer.exe>>
+        (for <name|Windows 7> and later).
       </itemize>
     </cell>>|<row|<cell|<item-pic|../images/TeXmacs.png>>|<\cell>
       <strong|Installing and running <TeXmacs>>
