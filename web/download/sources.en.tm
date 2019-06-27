@@ -1,4 +1,4 @@
-<TeXmacs|1.99.9>
+<TeXmacs|1.99.10>
 
 <style|tmweb2>
 
@@ -43,9 +43,9 @@
 
   <paragraph|Download the latest version>
 
-  Download the <hlink|latest version|<merge|http://www.texmacs.org/Download/ftp/tmftp/source/|<merge|<TeXmacs-version-release|devel>|-src.tar.gz>>>
+  Download the <hlink|latest version|<merge|https://www.texmacs.org/Download/ftp/tmftp/source/|<merge|<TeXmacs-version-release|devel>|-src.tar.gz>>>
   of the source code, or the <hlink|latest stable
-  version|<merge|http://www.texmacs.org/Download/ftp/tmftp/source/|<merge|<TeXmacs-version-release|stable>|-src.tar.gz>>>,
+  version|<merge|https://www.texmacs.org/Download/ftp/tmftp/source/|<merge|<TeXmacs-version-release|stable>|-src.tar.gz>>>,
   <verbatim|cd> into the directory where you wish to compile <TeXmacs> and
   type
 

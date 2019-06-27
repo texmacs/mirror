@@ -1,4 +1,4 @@
-<TeXmacs|1.99.9>
+<TeXmacs|1.99.10>
 
 <style|tmweb2>
 
@@ -36,13 +36,13 @@
 
     <\itemize>
       <item><hlink|<TeXmacs> package for 32 bit GNU/<name|Linux>
-      distributions|<merge|http://www.texmacs.org/Download/ftp/tmftp/generic/|<TeXmacs-version-release|devel>|-B.tar.gz>>.
+      distributions|<merge|https://www.texmacs.org/Download/ftp/tmftp/generic/|<TeXmacs-version-release|devel>|-B.tar.gz>>.
 
       <item><hlink|<TeXmacs> package for 64 bit GNU/<name|Linux>
-      distributions|<merge|http://www.texmacs.org/Download/ftp/tmftp/generic/|<TeXmacs-version-release|devel>|-C.tar.gz>>.
+      distributions|<merge|https://www.texmacs.org/Download/ftp/tmftp/generic/|<TeXmacs-version-release|devel>|-C.tar.gz>>.
 
       <item>If the above packages do not work on your computer, then you may
-      try our <hlink|alternate <TeXmacs> package|<merge|http://www.texmacs.org/Download/ftp/tmftp/generic/|<TeXmacs-version-release|devel>|-A.tar.gz>>,
+      try our <hlink|alternate <TeXmacs> package|<merge|https://www.texmacs.org/Download/ftp/tmftp/generic/|<TeXmacs-version-release|devel>|-A.tar.gz>>,
       which should be suitable for older systems.
     </itemize>
 

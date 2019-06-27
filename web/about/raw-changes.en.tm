@@ -3,6 +3,8 @@
 <style|tmweb2>
 
 <\body>
+  \;
+
   <tmdoc-include|about/changes/change-log.en.tm>
 </body>
 

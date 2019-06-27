@@ -1,4 +1,4 @@
-<TeXmacs|1.99.9>
+<TeXmacs|1.99.10>
 
 <style|tmweb2>
 
@@ -13,7 +13,7 @@
       <strong|Downloading <TeXmacs>>
 
       <\itemize>
-        <item>Download the installer <hlink|<verbatim|<merge|<TeXmacs-version-release|devel>|-installer.exe>>|<merge|http://www.texmacs.org/Download/ftp/tmftp/windows/|<TeXmacs-version-release|devel>|-installer.exe>>
+        <item>Download the installer <hlink|<verbatim|<merge|<TeXmacs-version-release|devel>|-installer.exe>>|<merge|https://www.texmacs.org/Download/ftp/tmftp/windows/|<TeXmacs-version-release|devel>|-installer.exe>>
         (for <name|Windows 7> and later).
       </itemize>
     </cell>>|<row|<cell|<item-pic|../images/TeXmacs.png>>|<\cell>

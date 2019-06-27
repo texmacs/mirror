@@ -1,4 +1,4 @@
-<TeXmacs|1.99.9>
+<TeXmacs|1.99.10>
 
 <style|tmweb2>
 
@@ -13,10 +13,10 @@
       <strong|Downloading the diskimage for <TeXmacs>>
 
       <\itemize>
-        <item>Download <hlink|<verbatim|<merge|<TeXmacs-version-release|devel>|-yosemite.dmg>>|<merge|http://www.texmacs.org/Download/ftp/tmftp/macos/|<TeXmacs-version-release|devel>|-yosemite.dmg>>
+        <item>Download <hlink|<verbatim|<merge|<TeXmacs-version-release|devel>|.dmg>>|<merge|https://www.texmacs.org/Download/ftp/tmftp/macos/|<TeXmacs-version-release|devel>|.dmg>>
         for MacOS 10.10 and later.
 
-        <item>Download <hlink|<verbatim|<merge|<TeXmacs-version-release|devel>|.dmg>>|<merge|http://www.texmacs.org/Download/ftp/tmftp/macos/|<TeXmacs-version-release|devel>|.dmg>>
+        <item>Download <hlink|<verbatim|<merge|<TeXmacs-version-release|devel>|-os10.6.dmg>>|<merge|https://www.texmacs.org/Download/ftp/tmftp/macos/|<TeXmacs-version-release|devel>|-os10.6.dmg>>
         for MacOS versions 10.6 until 10.9.
       </itemize>
     </cell>>|<row|<cell|<item-pic|../images/TeXmacs.png>>|<\cell>
