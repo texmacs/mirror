@@ -14,7 +14,8 @@
   a laptop presentation.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-beamer-blackboard.jpg>|Laptop
   presentation mode.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-beamer-panorama.png>|Panorama
   mode for laptop presentations.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-micro-typography.png>|Micro
-  typography.>>
+  typography.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-latex-import.png>|Importing
+  from <LaTeX>.>>
 
   \;
 
