@@ -1,4 +1,4 @@
-<TeXmacs|1.99.9>
+<TeXmacs|1.99.10>
 
 <style|tmweb2>
 
@@ -13,7 +13,8 @@
   text from the documentation.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-beamer.png>|Preparing
   a laptop presentation.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-beamer-blackboard.jpg>|Laptop
   presentation mode.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-beamer-panorama.png>|Panorama
-  mode for laptop presentations.>>
+  mode for laptop presentations.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-micro-typography.png>|Micro
+  typography.>>
 
   \;
 
