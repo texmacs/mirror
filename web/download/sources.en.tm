@@ -82,7 +82,7 @@
   <TeXmacs>|https://savannah.gnu.org/svn/?group=texmacs>. You may also use
   <name|Savannah> in order to submit <hlink|patches|../contact/patches.en.tm>
   to <TeXmacs>. A <hlink|Git|http://git-scm.com/> mirror of the main
-  Subversion repository is maintained at <hlink|Gitorious|https://gitorious.org/texmacs/texmacs>.
+  Subversion repository is maintained at <hlink|Github|https://github.com/texmacs/texmacs>.
 
   <section|Compile, install and run>
 
