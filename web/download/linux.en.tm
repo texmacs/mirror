@@ -17,13 +17,16 @@
     the following installation methods:
 
     <\itemize>
-      <item>Please <hlink|check|linux.en.tm> whether your distribution
-      already supports <TeXmacs>, in which case you may directly install
-      <TeXmacs> using the standard tools of your system.
+      <item>Some distributions already support <TeXmacs>, in which case you
+      may directly install <TeXmacs> using the standard tools of your system.
 
-      <item>Please <hlink|check|linux-packages.en.tm> whether your
-      distribution is in the list of standard GNU/<name|Linux> distributions
-      for which we provide ready-to-install packages.
+      <item>We provide ready-to-install packages for
+      <hlink|CentOS|linux-packages.en.tm#centos>,
+      <hlink|Debian|linux-packages.en.tm#debian>,
+      <hlink|Fedora|linux-packages.en.tm#fedora>, <hlink|Scientific
+      Linux|linux-packages.en.tm#scientificlinux>, <hlink|Open
+      Suse|linux-packages.en.tm#suse>, and
+      <hlink|Ubuntu|linux-packages.en.tm#ubuntu>.
 
       <item>Otherwise, you may install a generic binary package for
       <TeXmacs>, as explained below.
