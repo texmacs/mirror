@@ -27,7 +27,7 @@
     lsb_release -cs
   </shell-code>
 
-  Download the <TeXmacs> public key (into the auxiliary
+  Download the <TeXmacs> public key (into the auxiliary file
   <verbatim|apt-texmacs.asc>):
 
   <\shell-code>
@@ -85,7 +85,7 @@
     lsb_release -cs
   </shell-code>
 
-  Download the <TeXmacs> public key (into the auxiliary
+  Download the <TeXmacs> public key (into the auxiliary file
   <verbatim|apt-texmacs.asc>):
 
   <\shell-code>
