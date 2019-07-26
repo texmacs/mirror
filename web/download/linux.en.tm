@@ -1,4 +1,4 @@
-<TeXmacs|1.99.10>
+<TeXmacs|1.99.11>
 
 <style|tmweb2>
 
@@ -28,8 +28,13 @@
       Suse|linux-packages.en.tm#suse>, and
       <hlink|Ubuntu|linux-packages.en.tm#ubuntu>.
 
-      <item>Otherwise, you may install a generic binary package for
-      <TeXmacs>, as explained below.
+      <item>In the cases of <hlink|Debian|linux-repos.en.tm#debian> and
+      <hlink|Ubuntu|linux-repos.en.tm#ubuntu>, we also propose a way to add a
+      <TeXmacs> repository to your package manager; this makes it easy to
+      detect and install new versions.
+
+      <item>We finally provide generic binary packages for <TeXmacs>, which
+      can be installed as explained below.
     </itemize>
   </cell>>|<row|<cell|<item-pic|../images/small-download.png>>|<\cell>
     <strong|Downloading <TeXmacs>>
