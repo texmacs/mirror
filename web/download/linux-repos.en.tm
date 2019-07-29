@@ -32,6 +32,7 @@
 
   <\shell-code>
     curl --insecure https://ftp.texmacs.org/TeXmacs/tmftp/repos/apt/apt-texmacs.asc
+    --output apt-texmacs.asc
   </shell-code>
 
   Obtain root privileges:
@@ -90,6 +91,7 @@
 
   <\shell-code>
     curl --insecure https://ftp.texmacs.org/TeXmacs/tmftp/repos/apt/apt-texmacs.asc
+    --output apt-texmacs.asc
   </shell-code>
 
   Obtain root privileges:
