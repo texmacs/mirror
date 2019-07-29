@@ -1,4 +1,4 @@
-<TeXmacs|1.99.9>
+<TeXmacs|1.99.11>
 
 <style|tmweb2>
 
@@ -82,6 +82,12 @@
 
       <item><hlink|<TeXmacs> package for Debian-9 with a 64 bits Intel/AMD
       processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_9.0/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
+
+      <item><hlink|<TeXmacs> package for Debian-10 with a 32 bits Intel/AMD
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_10/|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>
+
+      <item><hlink|<TeXmacs> package for Debian-10 with a 64 bits Intel/AMD
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_10/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
     </itemize>
 
     <item>Install the package using
@@ -144,12 +150,6 @@
     Debian and your processor:
 
     <\itemize>
-      <item><hlink|<TeXmacs> package for Scientific Linux-6 with a 32 bits
-      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/ScientificLinux_6/|<merge|<TeXmacs-version-release|devel>|.i386.rpm>>>
-
-      <item><hlink|<TeXmacs> package for Scientific Linux-6 with a 64 bits
-      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/ScientificLinux_6/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
-
       <item><hlink|<TeXmacs> package for Scientific Linux-7 with a 64 bits
       Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/ScientificLinux_7/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
     </itemize>
@@ -240,6 +240,12 @@
 
       <item><hlink|<TeXmacs> package for xUbuntu_18.10 with a 64 bits
       Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_18.10/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
+
+      <item><hlink|<TeXmacs> package for xUbuntu_19.04 with a 32 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_19.04/|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>
+
+      <item><hlink|<TeXmacs> package for xUbuntu_19.04 with a 64 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_19.04/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
     </itemize>
 
     <item>Install the package using
