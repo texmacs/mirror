@@ -3,17 +3,38 @@
 <style|<tuple|generic|compact-list|framed-session|maxima>>
 
 <\body>
-  <with|gr-mode|<tuple|edit|text-at>|gr-frame|<tuple|scale|1cm|<tuple|0.5gw|0.5gh>>|gr-geometry|<tuple|geometry|1par|1pag|center>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|4|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-grid-aspect|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|4|#e0e0ff>>|gr-grid-aspect-props|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|4|#e0e0ff>>|gr-fill-color|#0000c0|gr-color|none|gr-text-at-halign|center|<graphics||<with|color|none|fill-color|#0000c0|<cline|<point|-15|9>|<point|-8.0|9.0>|<point|-11.0|3.0>|<point|-8.0|-3.0>|<point|-15.0|-3.0>>>|<with|color|none|fill-color|#0000c0|<cline|<point|15|3>|<point|8.0|3.0>|<point|11.0|-3.0>|<point|8.0|-9.0>|<point|15.0|-9.0>|<point|15.0|-10.0>|<point|5.0|-10.0>|<point|5.0|-9.0>|<point|5.0|-5.75>|<point|6.5|-3.0>|<point|5.0|0.0>|<point|-5.0|0.0>|<point|-6.5|3.0>|<point|-5.0|6.0>|<point|-5.0|10.0>|<point|15.0|10.0>>>|<with|color|none|text-at-halign|center|<text-at|<really-huge|<with|color|white|<with|font|Linux
-  Libertine|font-shape|italic|Making Science
-  Beautiful>>>|<point|10|6>>>|<with|color|none|text-at-halign|center|<text-at|<huge|<verbatim|<with|color|white|www.texmacs.org>>>|<point|10|4.5>>>|<with|color|none|text-at-halign|center|<text-at|<really-huge|<with|color|white|<strong|<with|vmagnified-factor|1.6|<vmagnified|<with|hmagnified-factor|1.2|<hmagnified|GNU
-  <TeXmacs>>>>>>>>|<point|10.0|7.75>>>|<with|color|none|text-at-halign|center|<text-at|<image|collage.png|9cm|||>|<point|0.0|2.0>>>>><new-page*>
+  <with|gr-mode|<tuple|edit|text-at>|gr-frame|<tuple|scale|1cm|<tuple|0.5gw|0.5gh>>|gr-geometry|<tuple|geometry|1par|1pag|center>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|4|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-grid-aspect|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|4|#e0e0ff>>|gr-grid-aspect-props|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|4|#e0e0ff>>|gr-color|white|gr-text-at-halign|center|<graphics||<with|color|none|fill-color|#0000c0|<cline|<point|-15|9>|<point|-8.0|9.0>|<point|-11.0|3.0>|<point|-8.0|-3.0>|<point|-15.0|-3.0>>>|<with|color|none|fill-color|#0000c0|<cline|<point|15|3>|<point|8.0|3.0>|<point|11.0|-3.0>|<point|8.0|-9.0>|<point|15.0|-9.0>|<point|15.0|-10.0>|<point|5.0|-10.0>|<point|5.0|-9.0>|<point|5.0|-5.75>|<point|6.5|-3.0>|<point|5.0|0.0>|<point|-5.0|0.0>|<point|-6.5|3.0>|<point|-5.0|6.0>|<point|-5.0|10.0>|<point|15.0|10.0>>>|<with|text-at-halign|center|<text-at|<with|font|Trebuchet
+  MS|<very-large|<strong|Documentation and further
+  reading>>>|<point|-10.0|-4.0>>>|<text-at|<tabular|<tformat|<twith|table-width|9cm>|<twith|table-hmode|exact>|<cwith|1|1|1|1|cell-hyphen|t>|<twith|table-valign|T>|<table|<row|<\cell>
+    <\itemize>
+      <item>The user manual comes with the software and can be browsed and
+      searched from within the editor. Part of the documentation is available
+      in several languages.
 
-  <with|gr-mode|<tuple|edit|text-at>|gr-frame|<tuple|scale|1cm|<tuple|0.5gw|0.5gh>>|gr-geometry|<tuple|geometry|1par|1pag|center>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|4|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-grid-aspect|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|4|#e0e0ff>>|gr-grid-aspect-props|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|4|#e0e0ff>>|gr-color|white|<graphics||<with|color|none|fill-color|#0000c0|<cline|<point|15|-8>|<point|14.5|-9.0>|<point|5.0|-9.0>|<point|4.5|-10.0>|<point|15.0|-10.0>>>|<with|color|none|fill-color|#0000c0|<cline|<point|-14.5|9.0>|<point|-5.0|9.0>|<point|-4.5|10.0>|<point|15.0|10.0>|<point|15.0|2.0>|<point|14.5|3.0>|<point|5.0|3.0>|<point|5.0|0.0>|<point|-5.0|0.0>|<point|-5.0|-3.0>|<point|-14.5|-3.0>|<point|-15.0|-2.0>|<point|-15.0|8.0>>>|<text-at|<image|texmacs-ffnlogn.png|9cm|||>|<point|-14.5|-9.25>>|<with|color|white|text-at-halign|center|<text-at|<space|1em><with|gr-mode|<tuple|edit|text-at>|gr-frame|<tuple|scale|1.18926cm|<tuple|0.501011gw|0.0224006gh>>|gr-geometry|<tuple|geometry|0.266686par|0.209992par|bottom>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|4|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-grid-aspect-props|<tuple|<tuple|axes|#aaf>|<tuple|1|#aaf>|<tuple|4|blue>>|gr-grid-aspect|<tuple|<tuple|axes|#aaf>|<tuple|1|#aaf>|<tuple|4|blue>>|gr-color|white|magnify|1.18920711283083|gr-point-style|round|gr-point-size|4ln|gr-text-at-valign|center|gr-transformation|<tuple|<tuple|0.995004165278026|0.0|-0.0998334166468281|0.0>|<tuple|0.0|1.0|0.0|0.0>|<tuple|0.0998334166468281|0.0|0.995004165278026|0.0>|<tuple|0.0|0.0|0.0|1.0>>|<graphics||<with|color|#ffa|<carc|<point|0|5>|<point|2.0|3.0>|<point|0.0|1.0>>>|<with|color|#ffa|<spline|<point|-3.0|9.0>|<point|0.0|0.0>|<point|3.0|9.0>>>|<with|color|orange|line-width|2ln|<cline|<point|-1.90211|3.61803>|<point|-1.17557050458347|1.38196601124903>|<point|1.17557050458537|1.38196601125041>|<point|1.90211303259009|3.61803398875058>|<point|0.0|5.0>>>|<with|color|#fa6|point-size|4ln|fill-color|white|point-style|round|<point|0|5>>|<with|color|#fa6|point-size|4ln|fill-color|white|point-style|round|<point|1.90211|3.61803>>|<with|color|#fa6|point-size|4ln|fill-color|white|point-style|round|<point|1.17557|1.38197>>|<with|color|#fa6|point-size|4ln|fill-color|white|point-style|round|<point|-1.17557|1.38197>>|<with|color|#fa6|point-size|4ln|fill-color|white|point-style|round|<point|-1.90211|3.61803>>|<with|color|#fa6|point-size|4ln|fill-color|white|point-style|round|<point|0|3>>|<with|color|white|text-at-valign|center|text-at-halign|left|<math-at|2|<point|0.25|4>>>|<with|color|white|text-at-valign|center|text-at-halign|left|<math-at|\<phi\>|<point|0.25|2.25>>>|<with|color|white|<spline|<point|0|5>|<point|0.125|4.0>|<point|0.0|3.0>>>|<with|color|white|<spline|<point|0|3>|<point|0.125|2.25>|<point|0.0|1.38196601124972>>>>><space|1em>|<point|0.0|0.5>>>|<text-at|<with|font|Trebuchet
-  MS|<very-large|<strong|An interface to computational
-  software>>>|<point|-4.5|-0.75>>|<with|text-at-halign|center|<text-at|<with|font|Trebuchet
-  MS|<very-large|<strong|A scientific editing
+      <item><em|The Jolly Writer> is a useful guide for learning <TeXmacs>.
+
+      <item>Several introductory videos and tutorials are available from our
+      website.
+
+      <item>For further questions, users and developers can suscribe to the
+      <TeXmacs> mailing lists or go to the forum.
+    </itemize>
+  </cell>>>>>|<point|-14.5|-5.0>>|<with|color|white|text-at-halign|center|<text-at|<with|font|Trebuchet
+  MS|<very-large|<strong|Download now<space|0.4spc>!>>>|<point|0.001141023944966|9.25226551131102>>>|<with|color|none|text-at-halign|center|<text-at|<image|collage.png|9cm|||>|<point|0.0|0.5>>>|<with|color|white|<text-at|<tabular|<tformat|<twith|table-width|9cm>|<twith|table-hmode|exact>|<cwith|1|1|1|1|cell-hyphen|t>|<twith|table-valign|T>|<table|<row|<\cell>
+    <\itemize>
+      <item>Freely available from <verbatim|https://www.texmacs.org>
+
+      <item>Runs under GNU/<name|Linux>, <name|MacOS>, and <name|Windows>.
+    </itemize>
+  </cell>>>>>|<point|-4.5|8.25>>>|<with|color|none|text-at-halign|center|<text-at|<really-huge|<with|color|white|<strong|<with|vmagnified-factor|1.6|<vmagnified|<with|hmagnified-factor|1.2|<hmagnified|GNU
+  <TeXmacs>>>>>>>>|<point|10.0|7.25>>>|<with|color|none|text-at-halign|center|<text-at|<really-huge|<with|color|white|<with|font|Linux
+  Libertine|font-shape|italic|Making Science
+  Beautiful>>>|<point|10.0|5.75>>>>><new-page*>
+
+  <with|gr-mode|<tuple|edit|text-at>|gr-frame|<tuple|scale|1cm|<tuple|0.5gw|0.5gh>>|gr-geometry|<tuple|geometry|1par|1pag|center>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|4|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-grid-aspect|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|4|#e0e0ff>>|gr-grid-aspect-props|<tuple|<tuple|axes|#808080>|<tuple|1|#c0c0c0>|<tuple|4|#e0e0ff>>|gr-line-width|5ln|<graphics||<with|color|none|fill-color|#0000c0|<cline|<point|15|-8>|<point|14.5|-9.0>|<point|5.0|-9.0>|<point|4.5|-10.0>|<point|15.0|-10.0>>>|<with|color|none|fill-color|#0000c0|<cline|<point|-14.5|9.0>|<point|-5.0|9.0>|<point|-4.5|10.0>|<point|15.0|10.0>|<point|15.0|2.0>|<point|14.5|3.0>|<point|5.0|3.0>|<point|5.0|0.0>|<point|-5.0|0.0>|<point|-5.0|-3.0>|<point|-14.5|-3.0>|<point|-15.0|-2.0>|<point|-15.0|8.0>>>|<text-at|<image|texmacs-ffnlogn.png|9cm|||>|<point|-14.5|-9.25>>|<with|color|white|text-at-halign|center|<text-at|<space|1em><with|gr-mode|<tuple|group-edit|move>|gr-frame|<tuple|scale|1.18926cm|<tuple|0.501011gw|0.0224006gh>>|gr-geometry|<tuple|geometry|0.266686par|0.209992par|bottom>|gr-grid|<tuple|cartesian|<point|0|0>|1>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|4|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-grid-aspect-props|<tuple|<tuple|axes|#aaf>|<tuple|1|#aaf>|<tuple|4|blue>>|gr-grid-aspect|<tuple|<tuple|axes|#aaf>|<tuple|1|#aaf>|<tuple|4|blue>>|magnify|1.18920711283083|gr-point-style|round|gr-point-size|4ln|gr-text-at-valign|center|gr-transformation|<tuple|<tuple|0.995004165278026|0.0|-0.0998334166468281|0.0>|<tuple|0.0|1.0|0.0|0.0>|<tuple|0.0998334166468281|0.0|0.995004165278026|0.0>|<tuple|0.0|0.0|0.0|1.0>>|gr-fill-color|<pattern|wood/wood-6.jpg|4cm|100@|<eff-skin|0|#00000080>>|gr-text-at-halign|center|<graphics||<with|color|#ffa|<carc|<point|0|5>|<point|2.0|3.0>|<point|0.0|1.0>>>|<with|color|#ffa|<spline|<point|-3.0|9.0>|<point|0.0|0.0>|<point|3.0|9.0>>>|<with|color|orange|line-width|2ln|<cline|<point|-1.90211|3.61803>|<point|-1.17557050458347|1.38196601124903>|<point|1.17557050458537|1.38196601125041>|<point|1.90211303259009|3.61803398875058>|<point|0.0|5.0>>>|<with|color|#fa6|point-size|4ln|fill-color|white|point-style|round|<point|0|5>>|<with|color|#fa6|point-size|4ln|fill-color|white|point-style|round|<point|1.90211|3.61803>>|<with|color|#fa6|point-size|4ln|fill-color|white|point-style|round|<point|1.17557|1.38197>>|<with|color|#fa6|point-size|4ln|fill-color|white|point-style|round|<point|-1.17557|1.38197>>|<with|color|#fa6|point-size|4ln|fill-color|white|point-style|round|<point|-1.90211|3.61803>>|<with|color|#fa6|point-size|4ln|fill-color|white|point-style|round|<point|0|3>>|<with|color|white|text-at-valign|center|text-at-halign|left|<math-at|2|<point|0.25|4>>>|<with|color|white|text-at-valign|center|text-at-halign|left|<math-at|\<phi\>|<point|0.25|2.25>>>|<with|color|white|<spline|<point|0|5>|<point|0.125|4.0>|<point|0.0|3.0>>>|<with|color|white|<spline|<point|0|3>|<point|0.125|2.25>|<point|0.0|1.38196601124972>>>>><space|1em>|<point|0.0|0.5>>>|<with|text-at-halign|center|<text-at|<with|font|Trebuchet
+  MS|<very-large|<strong|Scientific editing
   platform>>>|<point|-10.0|9.25>>>|<with|color|white|text-at-halign|center|<text-at|<with|font|Trebuchet
-  MS|<very-large|<strong|An integrated picture
+  MS|<very-large|<strong|Integrated picture
   editor>>>|<point|0.0|9.25>>>|<with|color|white|<text-at|<tabular|<tformat|<twith|table-width|9cm>|<twith|table-hmode|exact>|<cwith|1|1|1|1|cell-hyphen|t>|<twith|table-valign|T>|<table|<row|<\cell>
     <\itemize>
       <item>Simple vector graphics can be drawn with the mouse. It is easy to
@@ -46,7 +67,31 @@
 
       <item>Runs under GNU/<name|Linux>, <name|MacOS>, and <name|Windows>.
     </itemize>
-  </cell>>>>>|<point|-14.5|8.25>>>|<text-at|<tabular|<tformat|<twith|table-width|9cm>|<twith|table-hmode|exact>|<cwith|1|1|1|1|cell-hyphen|t>|<twith|table-valign|T>|<table|<row|<\cell>
+  </cell>>>>>|<point|-14.5|8.25>>>|<with|color|white|text-at-halign|center|<text-at|
+  <image|beamer.png|9.5cm|||> |<point|10.0|3.0>>>|<with|text-at-halign|center|<text-at|<with|font|Trebuchet
+  MS|<very-large|<strong|Beamer mode>>>|<point|10.0217786744278|2.21333840455087>>>|<with|color|black|<text-at|<tabular|<tformat|<twith|table-width|9cm>|<twith|table-hmode|exact>|<cwith|1|1|1|1|cell-hyphen|t>|<twith|table-valign|T>|<table|<row|<\cell>
+    <\itemize>
+      <item><TeXmacs> integrates a tool for laptop presentations.
+
+      <item>The tool comes with a variety of themes and graphical
+      decorations. A large number of professional and recreational fonts can
+      also be used for mathematics.
+
+      <item>When presented directly with <TeXmacs>, slides can be animated
+      and edited in live. This in particular allows computer algebra sessions
+      to be modified and executed in real time.
+
+      <item>Presentations can also be exported to <name|Pdf>.
+    </itemize>
+  </cell>>>>>|<point|5.5|1.25>>>|<text-at|<with|ornament-color|<pattern|tmfs://artwork/pictures/blackboard/blackboard-pxhere.jpg|10cm|100@>|ornament-hpadding|2spc|ornament-vpadding|2spc|<ornament|<with|color|white|<with|font|Chalkduster|<math|<with|math-display|true|exp
+  z=<big|sum><rsub|n\<in\>\<bbb-N\>>><frac|1|n!>*z<rsup|n>=1+z+<frac|1|2>*z<rsup|2>+<frac|1|6>*z<rsup|3>+\<cdots\>>>>>>|<point|6.25|-8.75>>|<with|text-at-valign|center|text-at-halign|center|<math-at|<with|font|Papyrus|<tabular*|<tformat|<table|<row|<cell|\<bbb-K\>>|<cell|\<longrightarrow\>>|<cell|\<bbb-K\><around*|[|x|]>>|<cell|>|<cell|>>|<row|<cell|\<longdownarrow\>>|<cell|>|<cell|\<longdownarrow\>>|<cell|>|<cell|>>|<row|<cell|\<bbb-K\><around*|[|y|]>>|<cell|\<longrightarrow\>>|<cell|\<bbb-K\><around*|[|x,y|]>>|<cell|\<longequal\>>|<cell|\<bbb-K\><around*|[|x|]>\<otimes\>\<bbb-K\><around*|[|y|]>>>>>>>|<point|8.01344423865591|-6.78914208228602>>>|<with|text-at-valign|center|text-at-halign|center|<text-at|<with|ornament-color|<pattern|tmfs://artwork/textures/cover/cover-texture-green.jpg|15cm|100@>|ornament-hpadding|2spc|ornament-vpadding|2spc|<ornament|<with|shadow-dy|1ln|shadow-color|black|<shadow|<with|color|gold|<with|font|TeX
+  Gyre Schola|<math|<with|math-display|true|f<rsup|<around*|(|n|)>><around*|(|u|)>=<frac|n!|2*\<mathpi\>*\<mathi\>>*<math-ordinary|<move|<big|oint><rsub|<move|\<cal-C\>|-0.7ex|-1.1ex>>||0.5ex>>
+  <frac|f<around*|(|z|)>|<around*|(|z-u|)><rsup|n+1>>*\<mathd\>
+  z>>>>>>>>|<point|11.4836287868765|-6.2788397936235>>>|<text-at|<with|ornament-color|<pattern|tmfs://artwork/pictures/paper/paper-antique-latte.jpg|100%|100@>|ornament-border|0ln|ornament-hpadding|2spc|ornament-vpadding|2spc|ornament-shape|classic|<ornament|<math|<with|math-display|true|<with|font|Essays1743|<big|sum><rsub|k=1><rsup|\<infty\>><frac|1|k<rsup|2>>=<frac|\<mathpi\><rsup|2>|6>>>>>>|<point|12.5000015213653|-4.50001472020108>>|<math-at|<with|math-display|true|<with|font|Cuprum|ln
+  \<Gamma\><around*|(|z|)>\<backsim\>z*ln z-z+<frac|1|<move|2||-0.2ex>>*ln
+  <frac|2*\<mathpi\>|<move|z||-0.2ex>>+<big|sum><rsub|n=1><rsup|N-1><frac|B<rsub|<space|0.6spc>2*n>|2*n*<around*|(|<space|0.4spc>2*n\<minus\>1<space|0.2spc>|)>*z<rsup|<space|0.6spc>2*n\<minus\>1>>>>|<point|5.75|-4.75001653657891>>|<with|text-at-halign|center|<text-at|<with|font|Trebuchet
+  MS|<very-large|<strong|Interface to computational
+  software>>>|<point|0.0|-0.75>>>|<text-at|<tabular|<tformat|<twith|table-width|9cm>|<twith|table-hmode|exact>|<cwith|1|1|1|1|cell-hyphen|t>|<twith|table-valign|T>|<table|<row|<\cell>
     <\itemize>
       <item><TeXmacs> can be used as a graphical front-end for many systems
       in computer algebra, numerical analysis, statistics, etc.
@@ -82,8 +127,7 @@
         \;
       </input-math>
     </session>
-  </cell>>>>>|<point|-4.5|-1.5>>|<with|color|white|text-at-halign|center|<text-at|
-  <image|beamer.png|264pt|171pt||> |<point|10.0|3.5>>>>><new-page*>
+  </cell>>>>>|<point|-4.5|-1.75>>>><new-page*>
 
   \;
 
@@ -94,6 +138,15 @@
   <with|gr-mode|<tuple|group-edit|edit-props>|gr-frame|<tuple|scale|0.594601cm|<tuple|0.5gw|544250tmpt>>|gr-geometry|<tuple|geometry|1par|0.6par>|gr-grid|<tuple|empty>|gr-grid-old|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-aspect|<tuple|<tuple|axes|none>|<tuple|1|none>|<tuple|10|none>>|gr-edit-grid|<tuple|cartesian|<point|0|0>|1>|gr-edit-grid-old|<tuple|cartesian|<point|0|0>|1>|magnify|0.59460355696315|gr-auto-crop|true|<graphics||<with|opacity|70%|fill-color|pastel
   yellow|line-width|2ln|<cline|<point|-6|-3>|<point|-5.0|-1.0>|<point|6.0|-1.0>|<point|5.0|-3.0>>>|<with|arrow-end|\<gtr\>|line-width|2ln|<spline|<point|-4|-2>|<point|-1.0|-2.6>|<point|3.7|-1.7>>>|<with|color|red|dash-style|11100|line-width|2ln|<line|<point|-4|-2>|<point|-4.0|0.5>>>|<with|color|red|dash-style|11100|line-width|2ln|<line|<point|3.7|-1.7>|<point|3.7|1.7>>>|<with|opacity|70%|fill-color|pastel
   magenta|line-width|2ln|<cspline|<point|-6.0|1.0>|<point|-3.0|-0.7>|<point|1.6|0.2>|<point|5.0|0.6>|<point|5.8|3.7>|<point|3.0|2.0>|<point|-2.6|1.0>|<point|-5.5|2.7>>>|<with|arrow-end|\<gtr\>|dash-style|11100|line-width|2ln|<spline|<point|-4|0.5>|<point|-2.5|-0.3>|<point|0.3|0.3>|<point|2.81626062071386|0.8>|<point|3.7|1.7>>>|<math-at|<very-large|t<rsub|0>>|<point|-3.7|-1.8>>|<math-at|<very-large|<around*|(|z<rsub|0>,t<rsub|0>|)>>|<point|-4.7|0.8>>|<math-at|<very-large|t<rsub|1>>|<point|4.0|-1.7>>|<math-at||<point|-3.35997|-1.71618>>|<with|text-at-halign|center|text-at-valign|center|<math-at|<very-large|<around*|(|z<rsub|1>,t<rsub|1>|)>>|<point|4.5|2.0>>>>>
+  <math|<with|math-display|true|<with|font|Cuprum|ln
+  \<Gamma\><around*|(|z|)>\<backsim\>z*ln z-z+<frac|1|2>*ln
+  <frac|2*\<mathpi\>|z>+<big|sum><rsub|n=1><rsup|N-1><frac|B<rsub|<space|0.6spc>2*n>|2*n*<around*|(|<space|0.2spc>2*n\<minus\>1|)>*z<rsup|<space|0.2spc>2*n\<minus\>1>>>>>
+
+  <\equation*>
+    <with|math-display|true|<with|font|Cuprum|ln
+    \<Gamma\><around*|(|z|)>\<backsim\>z*ln z-z+<frac|1|2>*ln
+    <frac|2*\<mathpi\>|z>+<big|sum><rsub|n=1><rsup|N-1><frac|B<rsub|<space|0.6spc>2*n>|2*n*<around*|(|<space|0.2spc>2*n\<minus\>1|)>*z<rsup|<space|0.2spc>2*n\<minus\>1>>>>
+  </equation*>
 
   \;
 
