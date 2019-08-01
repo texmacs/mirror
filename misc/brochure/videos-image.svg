@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="videos-image.svg"
-   inkscape:export-filename="/Users/vdhoeven/videos-image.png"
+   inkscape:export-filename="/Users/vdhoeven/texmacs/misc/brochure/videos-image.png"
    inkscape:export-xdpi="406.39999"
    inkscape:export-ydpi="406.39999">
   <defs
@@ -30,15 +30,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="141.71604"
-     inkscape:cy="91.428571"
+     inkscape:cx="115.84987"
+     inkscape:cy="62.857142"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:window-width="2560"
      inkscape:window-height="1392"
-     inkscape:window-x="46"
-     inkscape:window-y="3"
+     inkscape:window-x="16"
+     inkscape:window-y="1"
      inkscape:window-maximized="0"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
@@ -69,7 +69,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -80,8 +80,8 @@
      transform="translate(0,-804.33071)">
     <image
        y="814.96063"
-       x="0"
-       id="image5613"
+       x="-5.0000003e-06"
+       id="image6388"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABUkAAANkCAYAAACK/qvrAAAC0WlDQ1BJQ0MgUHJvZmlsZQAAKJGN
 lM9LFGEYx7+zjRgoQWBme4ihQ0ioTBZlROWuv9i0bVl/lBLE7Oy7u5Ozs9PM7JoiEV46ZtE9Kg8e
 +gM8eOiUl8LALALpblFEgpeS7Xlnxt0R7ccLM/N5nx/f53nf4X2BGlkxTT0kAXnDsZJ9Uen66JhU
