@@ -316,6 +316,8 @@ a:active, a:focus, a:hover {
 .tmweb-footer .tmweb-license {
     text-align: justify;
     width: 470px;
+    margin-left: 1em;
+    margin-right: 3em;
 }
 
 .tmweb-footer nav a {
@@ -327,10 +329,12 @@ a:active, a:focus, a:hover {
     display: none;
 }
 
-@media screen and (max-width: 1299px) {
+@media screen and (max-width: 1339px) {
     .tmweb-footer .tmweb-license {
-        width: 400px;
+        width: 350px;
         margin-top: -0.5em;
+        margin-left: 1em;
+        margin-right: 2em;
     }
 }
 
