@@ -315,7 +315,7 @@ a:active, a:focus, a:hover {
 
 .tmweb-footer .tmweb-license {
     text-align: justify;
-    width: 400px;
+    width: 470px;
 }
 
 .tmweb-footer nav a {
@@ -327,12 +327,20 @@ a:active, a:focus, a:hover {
     display: none;
 }
 
+@media screen and (max-width: 1299px) {
+    .tmweb-footer .tmweb-license {
+        width: 400px;
+        margin-top: -0.5em;
+    }
+}
+
 @media screen and (max-width: 1199px) {
     .tmweb-footer .tmweb-license {
         width: initial;
         display: block;
         margin-left: 5em;
         margin-right: 5em;
+        margin-top: 0em;
         margin-bottom: 1em;
     }
 
@@ -402,7 +410,7 @@ a:active, a:focus, a:hover {
     .tmweb-split {
         display: block;
         width: 100%;
-        min-height: 60vh;
+        min-height: 58vh;
         margin-top: 4vw;
     }
 
