@@ -1,4 +1,4 @@
-<TeXmacs|1.99.9>
+<TeXmacs|1.99.11>
 
 <style|tmweb2>
 
@@ -37,7 +37,9 @@
       <strong|Mailing lists>
 
       For further questions, you may suscribe to the <hlink|<TeXmacs> users
-      mailing list|../home/ml.en.tm#tmusers>.
+      mailing list|../home/ml.en.tm#tmusers> or consult the
+      <hlink|archives|https://lists.texmacs.org/wws/arc/texmacs-users> of
+      this list.
     </cell>>>>>
   </tmweb-split>
 
