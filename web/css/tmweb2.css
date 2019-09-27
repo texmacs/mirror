@@ -24,6 +24,30 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: 'Liberation Mono';
+    src: url("../fonts/LiberationMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Liberation Mono';
+    src: url("../fonts/LiberationMono-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Liberation Mono';
+    src: url("../fonts/LiberationMono-Italic.ttf") format("truetype");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Liberation Mono';
+    src: url("../fonts/LiberationMono-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
 /******************************************************************************
 * Main text properties
 ******************************************************************************/
@@ -589,7 +613,8 @@ a:active, a:focus, a:hover {
 }
 
 tt, .verbatim {
-    font-family: monospace;
+    font-family: 'Liberation Mono', monospace;
+    font-size: 90%;
 }
 
 /******************************************************************************
