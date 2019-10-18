@@ -1,6 +1,6 @@
-<TeXmacs|1.99.9>
+<TeXmacs|1.99.11>
 
-<style|tmweb2>
+<style|<tuple|tmweb2|old-dots>>
 
 <\body>
   <tmweb-current|Download|General><tmweb-title|Downloading and installing
@@ -25,9 +25,25 @@
       <item*|<hlink|Windows|windows.en.tm>>The native <name|Windows> port of
       <TeXmacs>.
 
-      <item*|<hlink|Vintage|ftp://ftp.texmacs.org/pub/TeXmacs/tmftp/>>Browse
+      <item*|<hlink|Old|ftp://ftp.texmacs.org/pub/TeXmacs/tmftp/>>Browse
       <hlink|our repository|ftp://ftp.texmacs.org/pub/TeXmacs/tmftp/> for
       older versions of <TeXmacs>.
+
+      <item*|Vintage>Very old versions of <TeXmacs> are available here:
+
+      <\itemize>
+        <item><hlink|Source code and binary tarballs for versions until
+        1.0.2.9|ftp://ftp.texmacs.org/pub/TeXmacs/old-targz/>.
+
+        <item><hlink|Generic RPMs for versions until
+        1.0.2.9|ftp://ftp.texmacs.org/pub/TeXmacs/old-rpm/>.
+
+        <item><hlink|Source code and binary tarballs for versions between
+        1.0.3 and 1.0.7.9|ftp://ftp.texmacs.org/pub/TeXmacs/targz/>.
+
+        <item><hlink|Generic RPMs for versions between 1.0.3 and
+        1.0.7.9|ftp://ftp.texmacs.org/pub/TeXmacs/rpm/>.
+      </itemize>
     </description>
 
     On more exotic systems, you need to <hlink|compile <TeXmacs> yourself
