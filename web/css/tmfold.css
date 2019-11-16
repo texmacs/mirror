@@ -1,0 +1,64 @@
+
+/******************************************************************************
+* MODULE     : tmfold.css
+* DESCRIPTION: CSS style sheet for foldable TeXmacs markup
+* COPYRIGHT  : (C) 2019  Joris van der Hoeven
+*******************************************************************************
+* This software falls under the GNU general public license version 3 or later.
+* It comes WITHOUT ANY WARRANTY WHATSOEVER. For details, see the file LICENSE
+* in the root directory or <http://www.gnu.org/licenses/gpl-3.0.html>.
+******************************************************************************/
+
+.switchable {
+}
+
+.always {
+}
+
+.summary {
+}
+
+.enabled .summary {
+    display: none;
+}
+
+.detailed {
+    display: none;
+}
+
+.enabled .detailed {
+    display: initial;
+}
+
+.unfolded {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.detailed-button {
+    cursor: pointer;
+    display: inline;
+}
+
+.enabled .detailed-button {
+    display: none;
+}
+
+.detailed-button:hover {
+    color: #c44;
+}
+
+.summary-button {
+    cursor: pointer;
+    display: none;
+}
+
+.enabled .summary-button {
+    color: #c44;
+    display: inline;
+}
+
+.summary-button:hover {
+    color: #c44;
+}
