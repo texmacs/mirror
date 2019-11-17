@@ -36,6 +36,14 @@
     transition: max-height 0.2s ease-out;
 }
 
+.toggle-button {
+    cursor: pointer;
+}
+
+.toggle-button:hover {
+    color: #c44;
+}
+
 .detailed-button {
     cursor: pointer;
     display: inline;
