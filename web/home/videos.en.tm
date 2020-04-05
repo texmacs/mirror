@@ -169,7 +169,7 @@
   </cell>>|<row|<cell|<item-pic|../icons/200px-Nuvola_Chinese_flag.svg.png>>|<\cell>
     <\itemize>
       <item><hlink|A collection of short videos in Chinese for learning
-      <TeXmacs>|https://space.bilibili.com/285455424>:
+      <TeXmacs>|https://space.bilibili.com/285455424/channel/detail?cid=118100>:
 
       <\itemize>
         <item><hlink|Mathematical formulas
