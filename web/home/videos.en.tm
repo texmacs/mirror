@@ -1,6 +1,6 @@
-<TeXmacs|1.99.9>
+<TeXmacs|1.99.12>
 
-<style|tmweb2>
+<style|<tuple|tmweb2|old-dots>>
 
 <\body>
   <tmweb-current|Home|Videos><tmweb-title|<TeXmacs>
@@ -146,9 +146,45 @@
 
   <section*|More videos>
 
-  Various other videos made at a <hlink|<TeXmacs>
-  workshop|http://magix.lix.polytechnique.fr/magix/workshop/workshop.en.html>
-  can be found <hlink|here|http://magix.lix.polytechnique.fr/magix/workshop/workshop-videos.en.html>.
+  <tabular|<tformat|<cwith|1|3|1|1|cell-hyphen|n>|<cwith|1|3|2|2|cell-hyphen|t>|<cwith|1|3|1|1|cell-width|>|<cwith|1|3|1|1|cell-hmode|auto>|<cwith|1|3|2|2|cell-lsep|1spc>|<cwith|1|3|2|2|cell-bsep|1em>|<cwith|1|3|2|2|cell-tsep|1em>|<table|<row|<cell|<item-pic|../icons/200px-Nuvola_USA_flag_alternative.svg.png>>|<\cell>
+    <\itemize>
+      <item>Various other videos made at a <hlink|<TeXmacs>
+      workshop|http://magix.lix.polytechnique.fr/magix/workshop/workshop.en.html>
+      can be found <hlink|here|http://magix.lix.polytechnique.fr/magix/workshop/workshop-videos.en.html>.
+
+      <item><hlink|Contributed example of a live online course using
+      <TeXmacs>|https://www.youtube.com/watch?v=ILiL4m61BLw&list=PLjlnuLy3KEpaQ3ViCuc3vsyvvlESVdZ5t&index=6&t=108s>
+
+      <item><hlink|Contributed general purpose videos on
+      <TeXmacs>|https://www.youtube.com/playlist?list=PLjlnuLy3KEpaQ3ViCuc3vsyvvlESVdZ5t>.
+
+      <item><hlink|Contributed videos on <TeXmacs>
+      plug-ins|https://www.youtube.com/playlist?list=PLjlnuLy3KEpYq0Liv1jVEG_tRYUhzuNOf>.
+    </itemize>
+  </cell>>|<row|<cell|<item-pic|../icons/200px-Nuvola_France_flag.svg.png>>|<\cell>
+    <\itemize>
+      <item><hlink|Vidéos contribuées pour l'utilisation de <TeXmacs> dans
+      l'éducation|https://www.youtube.com/playlist?list=PLjlnuLy3KEpZf0O587RNY_bygGLq7m8Gh>.
+    </itemize>
+  </cell>>|<row|<cell|<item-pic|../icons/200px-Nuvola_Chinese_flag.svg.png>>|<\cell>
+    <\itemize>
+      <item><hlink|A collection of short videos in Chinese for learning
+      <TeXmacs>|https://space.bilibili.com/285455424>:
+
+      <\itemize>
+        <item><hlink|Mathematical formulas
+        I|https://www.bilibili.com/video/av75219556>/<hlink|II|https://www.bilibili.com/video/av71848818,>,
+        <hlink|Mathematical symbols|https://www.bilibili.com/video/av74272920>
+        I/<hlink|II|https://www.bilibili.com/video/av75179516>.
+
+        <item>Cut & paste <hlink|<LaTeX>|https://www.bilibili.com/video/av96705753>/<hlink|Verbatim|https://www.bilibili.com/video/av97024168>,
+        <hlink|Intro to plug-ins|https://www.bilibili.com/video/av75226630>,<text-dots>
+      </itemize>
+
+      <item><hlink|Long expository video on <TeXmacs> in
+      Chinese|https://www.bilibili.com/video/av85273172>.
+    </itemize>
+  </cell>>>>>
 
   <tmdoc-copyright|2019|Joris van der Hoeven>
 
