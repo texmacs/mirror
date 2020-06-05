@@ -1,6 +1,6 @@
-<TeXmacs|1.99.11>
+<TeXmacs|1.99.13>
 
-<style|tmweb2>
+<style|<tuple|tmweb2|old-dots>>
 
 <\body>
   <tmweb-current|Download|Linux><tmweb-title|Binary GNU/<name|Linux> packages
@@ -246,6 +246,18 @@
 
       <item><hlink|<TeXmacs> package for xUbuntu_19.04 with a 64 bits
       Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_19.04/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
+
+      <item><hlink|<TeXmacs> package for xUbuntu_19.10 with a 32 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_19.10/|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>
+
+      <item><hlink|<TeXmacs> package for xUbuntu_19.10 with a 64 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_19.10/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
+
+      <item><hlink|<TeXmacs> package for xUbuntu_20.04 with a 32 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_20.04/|<merge|<TeXmacs-version-release|devel>|.i386.deb>>>
+
+      <item><hlink|<TeXmacs> package for xUbuntu_20.04 with a 64 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_20.04/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
     </itemize>
 
     <item>Install the package using
@@ -255,7 +267,7 @@
     </shell-code>
   </enumerate>
 
-  <tmdoc-copyright|1999--2018|Denis Raux|Joris van der Hoeven>
+  <tmdoc-copyright|1999\U2018|Denis Raux|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
