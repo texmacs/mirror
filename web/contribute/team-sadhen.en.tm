@@ -1,6 +1,6 @@
-<TeXmacs|1.99.11>
+<TeXmacs|1.99.13>
 
-<style|tmweb2>
+<style|<tuple|tmweb2|old-dots>>
 
 <\body>
   <tmweb-current|Contribute|Team><tmweb-title|Darcy
@@ -54,7 +54,7 @@
       Implemented in Python, these plugins should work for GNU/Linux, macOS
       and Windows.
 
-      <item*|Scala>see <hlink|TeXmacs.scala|https://github.com/texmacs/TeXmacs.scala>.
+      <item*|Scala>see <hlink|ammonite|https://github.com/texmacs/ammonite>.
       Full-featured Scala REPL Session based on Ammonite REPL.
 
       <item*|Status Page>Maintain the <hlink|README.md|https://github.com/texmacs/plugins>
@@ -86,18 +86,16 @@
     <item*|Code>
 
     <\itemize>
-      <item>Java/Scala support
+      <item>Java/Scala/JavaScript/Octave/Graphviz/JSON support
 
-      <item>TODO: Rust, Julia, JavaScript, Go, Haskell, OCaml, Erlang, Swift,
-      Groovy, Lua, Objective-C, Elixir, Kotlin, Ruby support
+      <item>TODO: Rust, Julia, Go, Haskell, OCaml, Erlang, Swift, Groovy,
+      Lua, Objective-C, Elixir, Kotlin, Ruby support
 
       <item>TODO: SQL support
 
-      <item>TODO: DOT(for Graphviz) support
-
       <item>TODO: Markdown/reStructuredText support
 
-      <item>TODO: XML/JSON/TOML/INI support
+      <item>TODO: XML/TOML/INI support
     </itemize>
   </description>
 
@@ -123,7 +121,7 @@
     <hlink|TimScheme|https://github.com/texmacs/TimScheme>
   </itemize>
 
-  <tmdoc-copyright|2018\U2019|Darcy Shen>
+  <tmdoc-copyright|2018\U2020|Darcy Shen>
 
   <tmweb-license>
 </body>
