@@ -1,6 +1,6 @@
-<TeXmacs|1.99.10>
+<TeXmacs|1.99.13>
 
-<style|tmweb2>
+<style|<tuple|tmweb2|old-dots|old-lengths>>
 
 <\body>
   <tmweb-current|Home|Welcome><tmweb-title|Welcome to GNU
@@ -41,12 +41,16 @@
 
       <item>Runs on all major <name|Unix> platforms, <name|MacOS>, and
       <name|Windows>.
+
+      <item><with|color|#800|<strong|New>:> <hlink|The Jolly
+      Writer|https://www.scypress.com/book_info.html>, your guide to GNU
+      <TeXmacs>.
     </itemize>
 
     <center|<html-javascript-src|/counter/gcount.php?page=texmacs>>
   </tmweb-split>
 
-  <tmdoc-copyright|1999--2019|Joris van der Hoeven>
+  <tmdoc-copyright|1999\U2019|Joris van der Hoeven>
 
   <tmweb-license>
 </body>

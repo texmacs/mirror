@@ -1,6 +1,6 @@
-<TeXmacs|1.99.11>
+<TeXmacs|1.99.13>
 
-<style|tmweb2>
+<style|<tuple|tmweb2|old-dots|old-lengths>>
 
 <\body>
   <tmweb-current|Help|Tutorials><tmweb-title|Learning
@@ -9,11 +9,16 @@
   <\tmweb-split>
     <center|<image|../images/texmacs-learn.png|600px|||>>
   <|tmweb-split>
-    <tabular|<tformat|<cwith|1|3|1|1|cell-hyphen|n>|<cwith|1|-1|2|2|cell-hyphen|t>|<twith|table-width|1par>|<twith|table-hmode|exact>|<cwith|1|-1|1|1|cell-width|>|<cwith|1|-1|1|1|cell-hmode|auto>|<cwith|1|-1|2|2|cell-lsep|1spc>|<cwith|1|-1|2|2|cell-bsep|1em>|<cwith|1|-1|2|2|cell-tsep|1em>|<cwith|4|4|2|2|cell-hyphen|t>|<cwith|4|4|1|1|cell-width|>|<cwith|4|4|1|1|cell-hmode|auto>|<cwith|4|4|2|2|cell-lsep|1spc>|<cwith|4|4|2|2|cell-bsep|1em>|<cwith|4|4|2|2|cell-tsep|1em>|<table|<row|<cell|<item-pic|../icons/video.png>>|<\cell>
+    <tabular|<tformat|<cwith|1|4|1|1|cell-hyphen|n>|<cwith|1|-1|2|2|cell-hyphen|t>|<twith|table-width|1par>|<twith|table-hmode|exact>|<cwith|1|-1|1|1|cell-width|>|<cwith|1|-1|1|1|cell-hmode|auto>|<cwith|1|-1|2|2|cell-lsep|1spc>|<cwith|1|-1|2|2|cell-bsep|1em>|<cwith|1|-1|2|2|cell-tsep|1em>|<cwith|5|5|2|2|cell-hyphen|t>|<cwith|5|5|1|1|cell-width|>|<cwith|5|5|1|1|cell-hmode|auto>|<cwith|5|5|2|2|cell-lsep|1spc>|<cwith|5|5|2|2|cell-bsep|1em>|<cwith|5|5|2|2|cell-tsep|1em>|<cwith|2|2|1|1|cell-hyphen|n>|<cwith|2|2|2|2|cell-hyphen|t>|<cwith|2|2|1|1|cell-width|>|<cwith|2|2|1|1|cell-hmode|auto>|<cwith|2|2|2|2|cell-lsep|1spc>|<cwith|2|2|2|2|cell-bsep|1em>|<cwith|2|2|2|2|cell-tsep|1em>|<table|<row|<cell|<item-pic|../icons/video.png>>|<\cell>
       <strong|Videos>
 
       We recommend new users to watch one or more of our <hlink|introductory
       videos|../home/videos.en.tm>.
+    </cell>>|<row|<cell|<item-pic|../images/The_Jolly_Writer.png>>|<\cell>
+      <strong|The Jolly Writer>
+
+      <with|color|#800|<strong|New>:> your <hlink|up-to-date
+      guide|https://www.scypress.com/book_info.html> to <TeXmacs>.
     </cell>>|<row|<cell|<item-pic|../images/TeXmacs.png>>|<\cell>
       <strong|Integrated documentation>
 
@@ -25,9 +30,8 @@
 
       The <hlink|user manual|book.en.tm> can be browsed from within the
       editor, but is also available in <name|Pdf> format for various
-      languages. We also propose a few <hlink|tutorials|tutorial.en.tm> for
-      new users. For those who are curious, there have also been several more
-      scientific <hlink|articles|articles.en.tm> about <TeXmacs>.
+      languages. We also propose a few <hlink|tutorials|tutorial.en.tm> and
+      <hlink|scientific articles|articles.en.tm> about <TeXmacs>.
     </cell>>|<row|<cell|<item-pic|../images/FAQ_icon.svg.png>>|<\cell>
       <strong|Frequently asked question>
 
@@ -43,7 +47,7 @@
     </cell>>>>>
   </tmweb-split>
 
-  <tmdoc-copyright|1999--2019|Joris van der Hoeven>
+  <tmdoc-copyright|1999\U2019|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
