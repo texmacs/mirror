@@ -1,6 +1,6 @@
-<TeXmacs|1.99.11>
+<TeXmacs|1.99.13>
 
-<style|tmweb2>
+<style|<tuple|tmweb2|old-dots|old-lengths>>
 
 <\body>
   <tmweb-current|Download|Linux><tmweb-title|Installing <TeXmacs> for
@@ -71,9 +71,11 @@
 
     All files will be unpacked into the directory
     <with|font-family|tt|TeXmacs-<with|color|brown|[version]>-<with|color|brown|[your
-    system]>> (or <with|font-family|tt|TeXmacs-<with|color|brown|[version]>>,
-    for some older versions). Let <with|font-family|tt|<with|color|brown|[installation
-    directory]>> be the full path of this directory.
+    system]>/TeXmacs>. Let <with|font-family|tt|<with|color|brown|[installation
+    directory]>> be the full path of this directory. As a sanity check, you
+    may verify that this <with|font-family|tt|<with|color|brown|[installation
+    directory]>> contains a <verbatim|bin> subdirectory with the <TeXmacs>
+    binary <verbatim|texmacs>.
 
     Depending on your shell, either type
 
@@ -91,9 +93,8 @@
       setenv PATH $TEXMACS_PATH/bin:$PATH
     </shell-code>
 
-    where <with|font-family|tt|<with|color|brown|[installation directory]>>
-    is as above. We recommend to put these lines in your personal startup
-    script, such as <with|font-family|tt|.bash_profile>.
+    We recommend to put these lines in your personal startup script, such as
+    <with|font-family|tt|.bash_profile>.
 
     You may now run the program using
 
@@ -131,7 +132,7 @@
     </itemize>
   </cell>>>>>
 
-  <tmdoc-copyright|1999--2019|Joris van der Hoeven>
+  <tmdoc-copyright|1999\U2019|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
