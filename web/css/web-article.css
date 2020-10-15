@@ -1,0 +1,242 @@
+
+/******************************************************************************
+* MODULE     : web-article.css
+* DESCRIPTION: CSS style sheet for TeXmacs articles
+* COPYRIGHT  : (C) 2020  Joris van der Hoeven
+*******************************************************************************
+* This software falls under the GNU general public license version 3 or later.
+* It comes WITHOUT ANY WARRANTY WHATSOEVER. For details, see the file LICENSE
+* in the root directory or <http://www.gnu.org/licenses/gpl-3.0.html>.
+******************************************************************************/
+
+/******************************************************************************
+* Font setup
+******************************************************************************/
+
+@font-face {
+    font-family: 'Linux Biolinum';
+    src: url("../fonts/LinBiolinum_R.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Linux Biolinum';
+    src: url("../fonts/LinBiolinum_RI.otf") format("opentype");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Linux Biolinum';
+    src: url("../fonts/LinBiolinum_RB.otf") format("opentype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Liberation Mono';
+    src: url("../fonts/LiberationMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Liberation Mono';
+    src: url("../fonts/LiberationMono-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Liberation Mono';
+    src: url("../fonts/LiberationMono-Italic.ttf") format("truetype");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Liberation Mono';
+    src: url("../fonts/LiberationMono-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+/******************************************************************************
+* Main text properties
+******************************************************************************/
+
+html {
+    background-color: #E0E0E0;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-size: 32px;
+    font-family: 'Linux Biolinum', 'Belleza', 'Optima';
+    /* font-family: Optima; */
+    /* font-family: Barlow; */
+    /* font-family: 'PT Sans', sans-serif; */
+    text-align: justify;
+    border: 0px;
+    padding: 5em;
+    margin: 0px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+h4, h5, h6 {
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+}
+
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+p, center {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 0.35em;
+    padding-top: 0.35em;
+}
+
+ul, ol, dl, di {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0.35em;
+    padding-bottom: 0.35em;
+}
+
+ul > p, ol > p, dl > p, di > p {
+    padding-bottom: 0.1em;
+    padding-top: 0.1em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tbody p {
+    margin: 0px;
+    padding: 0px;
+}
+
+td {
+    padding: 0.2em;
+    vertical-align: baseline;
+}
+
+a:link, a:visited {
+    color: #805020;
+    text-decoration: none;
+}
+
+a:active, a:focus, a:hover {
+    color: #D0343F;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1199px) {
+    body {
+        font-size: 27px;
+        padding: 3em;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    body {
+        font-size: 21px;
+        padding: 1.5em;
+    }
+}
+
+/******************************************************************************
+* Special markup
+******************************************************************************/
+
+.subsup {
+    display: inline;
+    vertical-align: -0.2em;
+}
+
+.subsup td {
+    padding: 0px;
+    text-align: left;
+}
+
+.fraction {
+    display: inline;
+    vertical-align: -0.8em;
+}
+
+.fraction td {
+    padding: 0px;
+    text-align: center;
+}
+
+.wide {
+    position: relative;
+    margin-left: -0.4em;
+}
+
+.accent {
+    position: relative;
+    margin-left: -0.4em;
+    top: -0.1em;
+}
+
+.compact-block p, .compact-block center {
+    margin: 0px;
+    padding: 0px;
+}
+
+.left-tab {
+    text-align: left;
+}
+
+.center-tab {
+    text-align: center;
+}
+
+.right-tab {
+    text-align: right;
+    margin-top: -1.2em;
+}
+
+tt, .verbatim {
+    font-family: 'Liberation Mono', monospace;
+    font-size: 90%;
+}
+
+.footnote > p {
+    padding-bottom: 0em;
+    padding-top: 0em;
+}
+
+.title-block {
+    margin-bottom: 0.5em;
+}
+
+.float {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}

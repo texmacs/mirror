@@ -1,0 +1,52 @@
+
+/******************************************************************************
+* MODULE     : web-article-dark-colored.css
+* DESCRIPTION: color section titles, bold text, etc.
+*              in combination with dark theme
+* COPYRIGHT  : (C) 2020  Joris van der Hoeven
+*******************************************************************************
+* This software falls under the GNU general public license version 3 or later.
+* It comes WITHOUT ANY WARRANTY WHATSOEVER. For details, see the file LICENSE
+* in the root directory or <http://www.gnu.org/licenses/gpl-3.0.html>.
+******************************************************************************/
+
+@import url("theme-dark.css");
+
+@supports not (-ms-high-contrast: none) {
+
+/******************************************************************************
+* Main colors
+******************************************************************************/
+
+h1, h2, h3, h4 {
+    color: #ffd860;
+    text-shadow: -0.04em 0 0.06em #f66;
+}
+
+h1, h2 {
+    color: #ff9040;
+    text-shadow: -0.04em 0 0.06em #f66;
+    border-bottom: 1px solid;
+    padding-bottom: 0.3333em;
+}
+
+strong, b, .enunciation-name, h5, h6 {
+    color: #e8c090;
+}
+
+img {
+    filter: invert(80%) sepia(30%);
+}
+
+.theorem {
+    border: 1px solid #e8c090;
+    border-left: 1em solid #e8c090;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/*****************************************************************************/
+
+} /* All browers except Internet Explorer */
