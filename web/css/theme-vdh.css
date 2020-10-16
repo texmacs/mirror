@@ -16,20 +16,33 @@
 
 body {
     padding: 3em;
+    padding-top: 0em;
+}
+
+.maybe-small {
+    font-size: 90%;
 }
 
 @media screen and (max-width: 1199px) {
     body {
         padding: 2em;
+        padding-top: 0em;
+    }
+
+    .vdh-image {
+        width: 250px;
+        height: auto;
     }
 }
 
 @media screen and (max-width: 799px) {
     body {
-        padding: 1em;
+        padding: 1.25em;
+        padding-top: 0em;
     }
-}
 
-body {
-    padding-top: 0em;
+    .vdh-image {
+        width: 180px;
+        height: auto;
+    }
 }
