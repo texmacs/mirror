@@ -34,10 +34,6 @@ strong, b, .enunciation-name, h5, h6 {
     color: #e8c090;
 }
 
-img {
-    filter: invert(80%) sepia(30%);
-}
-
 .theorem {
     border: 1px solid #e8c090;
     border-left: 1em solid #e8c090;

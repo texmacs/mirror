@@ -1,7 +1,7 @@
 
 /******************************************************************************
-* MODULE     : theme-dark.css
-* DESCRIPTION: CSS style sheet for using dark colors
+* MODULE     : theme-vdh.css
+* DESCRIPTION: personal CSS style sheet
 * COPYRIGHT  : (C) 2020  Joris van der Hoeven
 *******************************************************************************
 * This software falls under the GNU general public license version 3 or later.
@@ -9,35 +9,27 @@
 * in the root directory or <http://www.gnu.org/licenses/gpl-3.0.html>.
 ******************************************************************************/
 
-@supports not (-ms-high-contrast: none) {
 
 /******************************************************************************
-* Main colors
+* Main text properties
 ******************************************************************************/
 
-html {
-    background-color: #404040;
+body {
+    padding: 3em;
+}
+
+@media screen and (max-width: 1199px) {
+    body {
+        padding: 2em;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    body {
+        padding: 1em;
+    }
 }
 
 body {
-    background-color: #202020;
-    color: #E0E0E0;
+    padding-top: 0em;
 }
-
-a:link, a:visited {
-    color: #80B0E0;
-}
-
-a:active, a:focus, a:hover {
-    color: #50CCC0;
-}
-
-img {
-    filter: invert(80%) sepia(30%);
-}
-
-.image {
-    filter: sepia(30%);
-}
-
-/*****************************************************************************/
