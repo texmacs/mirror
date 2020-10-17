@@ -21,7 +21,7 @@ h1, h2 {
     padding-bottom: 0.3333em;
 }
 
-strong, b, .enunciation-name, h5, h6 {
+strong, b, dt, .enunciation-name, h5, h6 {
     color: #306040;
 }
 
