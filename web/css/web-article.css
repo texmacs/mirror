@@ -138,6 +138,8 @@ table {
 tbody p {
     margin: 0px;
     padding: 0px;
+    padding-bottom: 0.1em;
+    padding-top: 0.1em;
 }
 
 td {
