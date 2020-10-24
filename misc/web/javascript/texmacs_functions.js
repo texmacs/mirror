@@ -19,7 +19,7 @@ function detectOS () {
 function downloadPage (dir) {
   var OS = detectOS ();
   if (OS == "Linux")
-    return dir + "/download/unix.en.html";
+    return dir + "/download/linux.en.html";
   else if (OS == "MacOS")
     return dir + "/download/macosx.en.html";
   else if (OS == "Windows")
