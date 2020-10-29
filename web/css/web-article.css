@@ -68,7 +68,7 @@ html {
 body {
     background-color: white;
     color: black;
-    font-size: 32px;
+    font-size: 28px;
     font-family: 'Linux Biolinum', 'Belleza', 'Optima';
     /* font-family: Optima; */
     /* font-family: Barlow; */
@@ -147,6 +147,11 @@ td {
     vertical-align: baseline;
 }
 
+dd {
+    margin-left: 2.75em;
+    padding-bottom: 0.25em;
+}
+
 dd p {
     padding-top: 0em;
 }
@@ -163,14 +168,14 @@ a:active, a:focus, a:hover {
 
 @media screen and (max-width: 1199px) {
     body {
-        font-size: 27px;
+        font-size: 24px;
         padding: 3em;
     }
 }
 
 @media screen and (max-width: 799px) {
     body {
-        font-size: 21px;
+        font-size: 18px;
         padding: 1.5em;
     }
 }
@@ -223,6 +228,10 @@ a:active, a:focus, a:hover {
     text-align: center;
 }
 
+.center-tab p {
+    text-align: justify;
+}
+
 .right-tab {
     text-align: right;
     margin-top: -1.2em;
@@ -249,5 +258,8 @@ tt, .verbatim {
 
 .caption {
     text-align: justify;
-    font-size: 80%;
+}
+
+.no-breaks {
+    white-space: nowrap;
 }

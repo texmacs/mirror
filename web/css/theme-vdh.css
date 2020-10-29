@@ -23,6 +23,10 @@ body {
     font-size: 90%;
 }
 
+.vdh-image {
+    filter: sepia(60%);
+}
+
 @media screen and (max-width: 1199px) {
     body {
         padding: 2em;
