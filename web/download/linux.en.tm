@@ -4,7 +4,7 @@
 
 <\body>
   <tmweb-current|Download|Linux><tmweb-title|Installing <TeXmacs> for
-  GNU/<name|Linux>|<tmweb-download-links>>
+  <name|Linux>|<tmweb-download-links>>
 
   \;
 
