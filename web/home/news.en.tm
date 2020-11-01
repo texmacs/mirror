@@ -1,9 +1,9 @@
-<TeXmacs|1.99.9>
+<TeXmacs|1.99.13>
 
-<style|tmweb2>
+<style|<tuple|tmweb2|old-dots|old-lengths>>
 
 <\body>
-  <tmweb-current|Home|News><tmweb-title|Last news about
+  <tmweb-current|Home|News><tmweb-title|Latest news about
   <TeXmacs>|<tmweb-home-links>>
 
   <section*|Release of the new <name|Qt> port of <TeXmacs>>
@@ -181,7 +181,7 @@
     <item>Cleaner interface with <name|Guile> and module system.
   </itemize>
 
-  <tmdoc-copyright|1999--2019|Joris van der Hoeven>
+  <tmdoc-copyright|1999\U2019|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
