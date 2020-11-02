@@ -133,11 +133,20 @@
       <item><hlink|<TeXmacs> package for Fedora-27 with a 64 bits Intel/AMD
       processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_27/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
 
+      <item><hlink|<TeXmacs> package for Fedora-28 with a 32 bits Intel/AMD
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_28/|<merge|<TeXmacs-version-release|devel>|.i686.rpm>>>
+
       <item><hlink|<TeXmacs> package for Fedora-28 with a 64 bits Intel/AMD
       processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_28/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
 
+      <item><hlink|<TeXmacs> package for Fedora-29 with a 32 bits Intel/AMD
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_29/|<merge|<TeXmacs-version-release|devel>|.i686.rpm>>>
+
       <item><hlink|<TeXmacs> package for Fedora-29 with a 64 bits Intel/AMD
       processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_29/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
+
+      <item><hlink|<TeXmacs> package for Fedora-30 with a 32 bits Intel/AMD
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_30/|<merge|<TeXmacs-version-release|devel>|.i686.rpm>>>
 
       <item><hlink|<TeXmacs> package for Fedora-30 with a 64 bits Intel/AMD
       processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_30/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
@@ -145,7 +154,7 @@
       <item><hlink|<TeXmacs> package for Fedora-31 with a 64 bits Intel/AMD
       processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_31/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
 
-      <item>
+      \;
     </itemize>
 
     <item>Install the package using
