@@ -263,6 +263,23 @@ a:active, a:focus, a:hover {
     }
 }
 
+@media screen and (max-width: 999px) {
+    .tmweb-top-menu {
+        padding-left: 78px;
+        border-color: silver;
+        border-style: solid none none none;
+        border-width: thin;
+        height: initial;
+        float: initial;
+        position: relative;
+        overflow: hidden;
+        text-align: left;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        display: block;
+    }
+}
+
 @media screen and (max-width: 799px) {
     .tmweb-header {
         margin: 0px -2em;
@@ -284,7 +301,12 @@ a:active, a:focus, a:hover {
     .tmweb-title {
         height: 40px;
     }
-    
+
+    .tmweb-top-menu {
+        padding-left: 78px;
+    }
+
+    /*
     .tmweb-top-menu {
         height: initial;
         float: initial;
@@ -302,6 +324,7 @@ a:active, a:focus, a:hover {
         padding: 5px 2em;
         text-align: left;
     }
+    */
 }
 
 /******************************************************************************
