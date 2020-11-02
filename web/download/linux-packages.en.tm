@@ -47,6 +47,9 @@
 
       <item><hlink|<TeXmacs> package for CentOS-7 with a 64 bits Intel/AMD
       processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/CentOS_7/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
+
+      <item><hlink|<TeXmacs> package for CentOS-8 with a 64 bits Intel/AMD
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/CentOS_8/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
     </itemize>
 
     <item>Install the package using
@@ -132,6 +135,17 @@
 
       <item><hlink|<TeXmacs> package for Fedora-28 with a 64 bits Intel/AMD
       processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_28/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
+
+      <item><hlink|<TeXmacs> package for Fedora-29 with a 64 bits Intel/AMD
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_29/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
+
+      <item><hlink|<TeXmacs> package for Fedora-30 with a 64 bits Intel/AMD
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_30/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
+
+      <item><hlink|<TeXmacs> package for Fedora-31 with a 64 bits Intel/AMD
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_31/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
+
+      <item>
     </itemize>
 
     <item>Install the package using
@@ -150,6 +164,12 @@
     Debian and your processor:
 
     <\itemize>
+      <item><hlink|<TeXmacs> package for Scientific Linux-6 with a 32 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/ScientificLinux_6/|<merge|<TeXmacs-version-release|devel>|.i386.rpm>>>
+
+      <item><hlink|<TeXmacs> package for Scientific Linux-6 with a 64 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/ScientificLinux_6/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
+
       <item><hlink|<TeXmacs> package for Scientific Linux-7 with a 64 bits
       Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/ScientificLinux_7/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
     </itemize>
@@ -170,6 +190,12 @@
     Debian and your processor:
 
     <\itemize>
+      <item><hlink|<TeXmacs> package for Open Suse Leap-15.1 with a 64 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/openSUSE_Leap_15.1/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
+
+      <item><hlink|<TeXmacs> package for Open Suse Leap-15.2 with a 64 bits
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/openSUSE_Leap_15.2/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
+
       <item><hlink|<TeXmacs> package for Open Suse Leap-42.2 with a 64 bits
       Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/openSUSE_Leap_42.2/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
 
