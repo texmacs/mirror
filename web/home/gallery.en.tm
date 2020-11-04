@@ -1,12 +1,12 @@
-<TeXmacs|1.99.10>
+<TeXmacs|1.99.14>
 
-<style|tmweb2>
+<style|<tuple|tmweb2|old-dots|old-lengths>>
 
 <\body>
   <tmweb-current|Home|Screen shots><tmweb-title|<TeXmacs>
   gallery|<tmweb-home-links>>
 
-  <tmweb-hlist|<tmweb-caption-below|<tmweb-gallery-picture|../images/collage-3.png>|Welcome
+  <tmweb-hlist|<tmweb-caption-below|<tmweb-gallery-picture|../images/collage-full.png>|Welcome
   to <TeXmacs>!>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-ffnlogn.png>|Writing
   a mathematical article.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-cas.png>|Computer
   algebra sessions.>|<tmweb-caption-below|<tmweb-gallery-picture|../images/texmacs-chinese.png>|Chinese
@@ -19,7 +19,7 @@
 
   \;
 
-  <tmdoc-copyright|1999--2019|Joris van der Hoeven>
+  <tmdoc-copyright|1999\U2019|Joris van der Hoeven>
 
   <tmweb-license>
 </body>

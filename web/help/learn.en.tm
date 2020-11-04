@@ -1,4 +1,4 @@
-<TeXmacs|1.99.13>
+<TeXmacs|1.99.14>
 
 <style|<tuple|tmweb2|old-dots|old-lengths>>
 
@@ -17,7 +17,7 @@
     </cell>>|<row|<cell|<item-pic|../images/The_Jolly_Writer.png>>|<\cell>
       <strong|The Jolly Writer>
 
-      <with|color|#800|<strong|New>:> your <hlink|up-to-date
+      <new-button> your <hlink|up-to-date
       guide|https://www.scypress.com/book_info.html> to <TeXmacs>.
     </cell>>|<row|<cell|<item-pic|../images/TeXmacs.png>>|<\cell>
       <strong|Integrated documentation>

@@ -1,6 +1,6 @@
-<TeXmacs|1.99.13>
+<TeXmacs|1.99.14>
 
-<style|<tuple|tmweb2|old-dots>>
+<style|<tuple|tmweb2|old-dots|old-lengths>>
 
 <\body>
   <tmweb-current|Download|Linux><tmweb-title|Binary GNU/<name|Linux> packages
@@ -26,8 +26,8 @@
   Further distributions may be added progressively
   <hlink|here|ftp://ftp.texmacs.org/TeXmacs/tmftp/Linux/>.
 
-  <strong|Important>: In some cases you should have to install the guile
-  additional package manually. You can dowmload it
+  <strong|Important>: In some cases you need to manually install the
+  additional guile package. You can download it
   <hlink|here|ftp://ftp.texmacs.org/TeXmacs/tmftp/Linux/>.
 
   <section*|CentOS><label|centos>
@@ -93,10 +93,16 @@
       processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Debian_10/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
     </itemize>
 
-    <item>Install the package using
+    <item>As <verbatim|root>, install the package using
 
     <\shell-code>
-      dpkg -i <merge|<TeXmacs-version-release|devel>|-*.deb>
+      sudo apt-get install <merge|<TeXmacs-version-release|devel>|-*.deb>
+    </shell-code>
+
+    If you get complaints about missing dependencies, then run
+
+    <\shell-code>
+      sudo apt --fix-broken install
     </shell-code>
   </enumerate>
 
@@ -110,22 +116,28 @@
 
     <\itemize>
       <item><hlink|<TeXmacs> package for Fedora-24 with a 32 bits Intel/AMD
-      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_24/|<merge|<TeXmacs-version-release|devel>|.i686.rpm>>>
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_24/|<merge|TeXmacs-1.99.13|.i686.rpm>>>
+      (version 1.99.13 only)
 
       <item><hlink|<TeXmacs> package for Fedora-24 with a 64 bits Intel/AMD
-      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_24/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_24/|<merge|TeXmacs-1.99.13|.x86_64.rpm>>>
+      (version 1.99.13 only)
 
       <item><hlink|<TeXmacs> package for Fedora-25 with a 32 bits Intel/AMD
-      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_25/|<merge|<TeXmacs-version-release|devel>|.i686.rpm>>>
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_25/|<merge|TeXmacs-1.99.13|.i686.rpm>>>
+      (version 1.99.13 only)
 
       <item><hlink|<TeXmacs> package for Fedora-25 with a 64 bits Intel/AMD
-      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_25/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_25/|<merge|TeXmacs-1.99.13|.x86_64.rpm>>>
+      (version 1.99.13 only)
 
       <item><hlink|<TeXmacs> package for Fedora-26 with a 32 bits Intel/AMD
-      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_26/|<merge|<TeXmacs-version-release|devel>|.i686.rpm>>>
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_26/|<merge|TeXmacs-1.99.13|.i686.rpm>>>
+      (version 1.99.13 only)
 
       <item><hlink|<TeXmacs> package for Fedora-26 with a 64 bits Intel/AMD
-      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_26/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
+      processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_26/|<merge|TeXmacs-1.99.13|.x86_64.rpm>>>
+      (version 1.99.13 only)
 
       <item><hlink|<TeXmacs> package for Fedora-27 with a 32 bits Intel/AMD
       processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_27/|<merge|<TeXmacs-version-release|devel>|.i686.rpm>>>
@@ -153,8 +165,6 @@
 
       <item><hlink|<TeXmacs> package for Fedora-31 with a 64 bits Intel/AMD
       processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/Fedora_31/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
-
-      \;
     </itemize>
 
     <item>Install the package using
@@ -180,7 +190,8 @@
       Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/ScientificLinux_6/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
 
       <item><hlink|<TeXmacs> package for Scientific Linux-7 with a 64 bits
-      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/ScientificLinux_7/|<merge|<TeXmacs-version-release|devel>|.x86_64.rpm>>>
+      Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/ScientificLinux_7/|<merge|TeXmacs-1.99.13|.x86_64.rpm>>>
+      (version 1.99.13 only)
     </itemize>
 
     <item>Install the package using
@@ -295,10 +306,16 @@
       Intel/AMD processor|<merge|http://www.texmacs.org/Download/ftp/tmftp/Linux/xUbuntu_20.04/|<merge|<TeXmacs-version-release|devel>|.amd64.deb>>>
     </itemize>
 
-    <item>Install the package using
+    <item>As <verbatim|root>, install the package using
 
     <\shell-code>
-      dpkg -i <merge|<TeXmacs-version-release|devel>|-*.deb>
+      sudo apt-get install <merge|<TeXmacs-version-release|devel>|-*.deb>
+    </shell-code>
+
+    If you get complaints about missing dependencies, then run
+
+    <\shell-code>
+      sudo apt --fix-broken install
     </shell-code>
   </enumerate>
 

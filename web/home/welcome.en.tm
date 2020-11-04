@@ -1,4 +1,4 @@
-<TeXmacs|1.99.13>
+<TeXmacs|1.99.14>
 
 <style|<tuple|tmweb2|old-dots|old-lengths>>
 
@@ -42,7 +42,7 @@
       <item>Runs on all major <name|Unix> platforms, <name|MacOS>, and
       <name|Windows>.
 
-      <item><with|color|#800|<strong|New>:> <hlink|The Jolly
+      <item><new-button> <hlink|The Jolly
       Writer|https://www.scypress.com/book_info.html>, your guide to GNU
       <TeXmacs>.
     </itemize>

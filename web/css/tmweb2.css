@@ -681,3 +681,16 @@ tt, .verbatim {
 .tmweb-menu {
     font-size: 92%;
 }
+
+.tmweb-new {
+    display: inline-block;
+    background-color: #905465; /* #D03445; */
+    border-radius: 0.1em;
+    border-color: transparent;
+    border-style: solid;
+    color: white;
+    font-weight: bold;
+    padding: 0.1em 0.1em;
+    text-shadow: 0.1em 0.1em 0px #604C4C; /* #A02C2C; */
+    box-shadow: 0.1em 0.1em #604C4C; /* #A02C2C; */
+}

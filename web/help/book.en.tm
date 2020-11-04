@@ -1,10 +1,16 @@
-<TeXmacs|1.99.9>
+<TeXmacs|1.99.14>
 
-<style|tmweb2>
+<style|<tuple|tmweb2|old-dots|old-lengths>>
 
 <\body>
   <tmweb-current|Help|Manual><tmweb-title|<TeXmacs>
   manuals|<tmweb-help-links>>
+
+  <section|Book about <TeXmacs>>
+
+  Please consider buying <hlink|\PThe Jolly
+  Writer\Q|https://www.scypress.com/book_info.html>, your up-to-date guide to
+  GNU <TeXmacs>.
 
   <section|Reference manuals in <name|Pdf> format>
 
@@ -51,7 +57,7 @@
   <menu|Help|Full manuals|Compile article> and <subsubmenu|Help|Full
   manuals|Compile book>.
 
-  <tmdoc-copyright|1999--2019|Joris van der Hoeven>
+  <tmdoc-copyright|1999\U2019|Joris van der Hoeven>
 
   <tmweb-license>
 </body>
