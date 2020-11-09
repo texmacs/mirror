@@ -18,7 +18,7 @@
   <|tmweb-split>
     <\itemize>
       <item>GNU <TeXmacs> is a free scientific editing platform designed to
-      create beautiful technical documents.
+      create beautiful technical documents using a wysiwyg interface.
 
       <item>It provides a unified and user friendly framework for editing
       structured documents with different types of content: text,
