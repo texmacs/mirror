@@ -1,10 +1,42 @@
-<TeXmacs|1.99.13>
+<TeXmacs|1.99.14>
 
 <style|<tuple|tmweb2|old-dots|old-lengths>>
 
 <\body>
   <tmweb-current|Home|News><tmweb-title|Latest news about
   <TeXmacs>|<tmweb-home-links>>
+
+  <section*|Tricks for references and citations>
+
+  <TeXmacs> 1.99.15 contains several interesting new features for references
+  and citations:
+
+  <\itemize>
+    <item>By selecting the <verbatim|preview-ref> style package (from
+    <menu|Utilities>), the target of references and citations are displayed
+    in a tooltip.
+
+    <item>When your cursor is just behind a label, reference, or citation,
+    the <menu|Focus|Search> menu contains several items for finding labels,
+    references, and citations that use the same key or that are incorrect or
+    broken.
+  </itemize>
+
+  <section*|Improved Html export>
+
+  Version 1.99.14 of <TeXmacs> comes with a highly improved converter to
+  <name|Html>. The resulting webpages should display nicely on a variety of
+  devices, from smartphones to large computer screens.
+
+  In <menu|Edit|Preferences|Convert|Html|CSS stylesheet>, you may specify a
+  CSS stylesheet to be used for the generated <name|Html> pages. For
+  instance, the \Pdark colored\Q theme has been used by the author of
+  <TeXmacs> for generating his personal website. A typical article with
+  mathematical formulas from this website looks as follows:
+
+  <\indent>
+    <slink|http://www.texmacs.org/joris/ffnlogn/ffnlogn.html>
+  </indent>
 
   <section*|Release of the new <name|Qt> port of <TeXmacs>>
 
