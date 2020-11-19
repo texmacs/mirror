@@ -1,4 +1,4 @@
-<TeXmacs|1.99.14>
+<TeXmacs|1.99.15>
 
 <style|<tuple|tmweb2|old-dots|old-lengths>>
 
@@ -8,8 +8,8 @@
 
   <section*|Tricks for references and citations>
 
-  <TeXmacs> 1.99.15 contains several interesting new features for references
-  and citations:
+  <TeXmacs> 1.99.15 and 1.99.16 contains several interesting new features for
+  references and citations:
 
   <\itemize>
     <item>By selecting the <verbatim|preview-ref> style package (from
@@ -20,6 +20,14 @@
     the <menu|Focus|Search> menu contains several items for finding labels,
     references, and citations that use the same key or that are incorrect or
     broken.
+
+    <item>When entering a reference, you may obtain the label from its
+    numeric value. If you also selected the <verbatim|preview-ref> package,
+    then the target label text is shown in a preview window.
+
+    <item>You may use the <verbatim|smart-ref> package to make references
+    appear like \PTheorem 2.1\Q or Theorems 1.5, 1.7, and 2.3\Q instead of
+    mere numbers.
   </itemize>
 
   <section*|Improved Html export>
