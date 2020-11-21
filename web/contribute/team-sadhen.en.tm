@@ -1,6 +1,6 @@
-<TeXmacs|1.99.13>
+<TeXmacs|1.99.16>
 
-<style|<tuple|tmweb2|old-dots>>
+<style|<tuple|tmweb2|old-dots|old-lengths>>
 
 <\body>
   <tmweb-current|Contribute|Team><tmweb-title|Darcy
@@ -11,6 +11,19 @@
   <TeXmacs> hacking since then.
 
   <htab|5mm><image|team-sadhen.jpg||150px||>
+
+  <section|Notes and Videos>
+
+  <\itemize>
+    <item>N: Build <TeXmacs> using CMake and Homebrew
+    (<hlink|gitee|https://texmacs.gitee.io/notes/docs/build-using-cmake-and-homebrew-on-macos.html>/<hlink|github|https://texmacs.github.io/notes/docs/build-using-cmake-and-homebrew-on-macos.html>)
+
+    <item>N: Customizing the color of code snippets
+    (<hlink|gitee|https://texmacs.gitee.io/notes/docs/customize-syntax-color.en.html>/<hlink|github|https://texmacs.github.io/notes/docs/customize-syntax-color.en.html>)\ 
+
+    <item>V: GNU TeXmacs: \<#4E00\>\<#4E2A\>\<#79D1\>\<#6280\>\<#7F16\>\<#8F91\>\<#5E73\>\<#53F0\>
+    (<hlink|Slides|https://www.slidestalk.com/u282/GNUTeXmacsSFD2019>/<hlink|Bilibili|https://www.bilibili.com/video/BV19741167ik>)
+  </itemize>
 
   <section|Activities>
 
@@ -49,10 +62,10 @@
     <item*|Plugins>
 
     <\description>
-      <item*|Graph>Re-implement existing plugins(Xy-pic/Gnuplot/Asymptote/DraTex/Graphviz)
-      using Python, and add several new plugins(Mermaid/PlantUML/TikZ).
-      Implemented in Python, these plugins should work for GNU/Linux, macOS
-      and Windows.
+      <item*|Graph>Re-implement existing plugins
+      (Xy-pic/Gnuplot/Asymptote/DraTex/Graphviz) using Python, and add
+      several new plugins (Mermaid/PlantUML/TikZ). Implemented in Python,
+      these plugins should work for GNU/Linux, macOS and Windows.
 
       <item*|Scala>see <hlink|ammonite|https://github.com/texmacs/ammonite>.
       Full-featured Scala REPL Session based on Ammonite REPL.
@@ -117,7 +130,7 @@
   <\itemize>
     <item><hlink|GSoC|https://github.com/texmacs/gsoc> for GNU <TeXmacs>
 
-    <item>Upgrade GNU <TeXmacs> to <name|Guile> 2.2.x in the subproject
+    <item>Upgrade GNU <TeXmacs> to <name|Guile> 2.2.x in the sub-project
     <hlink|TimScheme|https://github.com/texmacs/TimScheme>
   </itemize>
 
