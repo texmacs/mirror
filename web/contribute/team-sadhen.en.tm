@@ -1,4 +1,4 @@
-<TeXmacs|1.99.16>
+<TeXmacs|1.99.18>
 
 <style|<tuple|tmweb2|old-dots|old-lengths>>
 
@@ -6,15 +6,19 @@
   <tmweb-current|Contribute|Team><tmweb-title|Darcy
   Shen|<tmweb-contribute-links>>
 
-  Darcy Shen is a Scala programmer living in Hangzhou. He started to
-  translate the <TeXmacs> documents into Chinese in 2013 and began his
-  <TeXmacs> hacking since then.
+  Darcy Shen is a Scala enthusiast working as a Data Engineer.
+
+  He started to translate the <TeXmacs> documents into Chinese in 2013 and
+  began his <TeXmacs> hacking since then.
 
   <htab|5mm><image|team-sadhen.jpg||150px||>
 
   <section|Notes and Videos>
 
   <\itemize>
+    <item>N: Build TeXmacs using CMake and MXE on WSL for Windows
+    (<hlink|gitee|https://texmacs.gitee.io/notes/docs/build-using-cmake-and-mxe-on-wsl.html>/<hlink|github|https://texmacs.github.io/notes/docs/build-using-cmake-and-mxe-on-wsl.html>)
+
     <item>N: Build <TeXmacs> using CMake and Homebrew
     (<hlink|gitee|https://texmacs.gitee.io/notes/docs/build-using-cmake-and-homebrew-on-macos.html>/<hlink|github|https://texmacs.github.io/notes/docs/build-using-cmake-and-homebrew-on-macos.html>)
 
@@ -28,19 +32,6 @@
   <section|Activities>
 
   <\description>
-    <item*|Community>
-
-    <\itemize>
-      <item>Admin of the <hlink|GNU TeXmacs forum|http://forum.texmacs.cn>
-
-      <item>Admin of the <hlink|GNU <TeXmacs> Gitter
-      chatroom|https://gitter.im/texmacs/Lobby>
-
-      <item>Admin of the <hlink|GNU <TeXmacs>\<#8C46\>\<#74E3\>\<#5C0F\>\<#7EC4\>|https://www.douban.com/group/texmacs/>
-
-      <item>Blogger of the <hlink|GNU <TeXmacs>\<#77E5\>\<#4E4E\>\<#4E13\>\<#680F\>|https://zhuanlan.zhihu.com/texmacs>
-    </itemize>
-
     <item*|<with|font-series|bold|Infrastructure>>
 
     <\description>
@@ -63,38 +54,33 @@
 
     <\description>
       <item*|Graph>Re-implement existing plugins
-      (Xy-pic/Gnuplot/Asymptote/DraTex/Graphviz) using Python, and add
+      (Asymptote/DraTex/Gnuplot/Graphviz/Xy-pic) using Python, and add
       several new plugins (Mermaid/PlantUML/TikZ). Implemented in Python,
-      these plugins should work for GNU/Linux, macOS and Windows.
+      these plugins should work on GNU/Linux, macOS and Windows.
+
+      <item*|Octave>Started to maintain the Octave plugin since 2020. Improve
+      plotting based on Lorenzo Lunelli's work and add support for tab
+      completion.
+
+      <item*|Git>With the help of Joris, add partial support for <name|Git>
+      as a versioning tool
 
       <item*|Scala>see <hlink|ammonite|https://github.com/texmacs/ammonite>.
       Full-featured Scala REPL Session based on Ammonite REPL.
-
-      <item*|Status Page>Maintain the <hlink|README.md|https://github.com/texmacs/plugins>
-      page for plugins.
     </description>
 
-    <item*|CJK Improvements>
+    <item*|Language>
 
-    <\itemize-dot>
-      <item>Chinese translations of the builtin documents and the
+    <\description>
+      <item*|Chinese>Translations of the built-in documents and the
       english2chinese dictionary
 
-      <item>Use <key|Tab> to type accented pinyin quickly
+      <item*|Chinese>Use <key|Tab> to type accented pinyin quickly
 
-      <item>TODO: Space Allocation Algorithm for better CJK typesetting
-    </itemize-dot>
+      <item*|Chinese>Tune default fonts for <TeXmacs> on macOS and Windows
 
-    <item*|Esperanto Support>Esperanto users can use <key|Tab> to type
-    special characters quickly.
-
-    <item*|Git Versioning>
-
-    <\itemize>
-      <item>View history/Compare with history version for the current buffer
-
-      <item>View log/status for the whole git repository
-    </itemize>
+      <item*|Esperanto>Use <key|Tab> to type special characters quickly
+    </description>
 
     <item*|Code>
 
@@ -112,29 +98,13 @@
     </itemize>
   </description>
 
-  <section|Ideal <TeXmacs>>
-
-  <\itemize-dot>
-    <item>Better CJK support and better localization
-
-    <item>Write books in <TeXmacs> and export them to epubs, markdown texts,
-    ...
-
-    <item>Programming Notebook on the fly with more and more languages' REPL
-
-    <item>...
-  </itemize-dot>
-
-  <section|Work in Progress>
+  <section|Plans in 2021>
 
   <\itemize>
-    <item><hlink|GSoC|https://github.com/texmacs/gsoc> for GNU <TeXmacs>
-
-    <item>Upgrade GNU <TeXmacs> to <name|Guile> 2.2.x in the sub-project
-    <hlink|TimScheme|https://github.com/texmacs/TimScheme>
+    <item>Make GNU <TeXmacs> faster
   </itemize>
 
-  <tmdoc-copyright|2018\U2020|Darcy Shen>
+  <tmdoc-copyright|2018\U2021|Darcy Shen>
 
   <tmweb-license>
 </body>
